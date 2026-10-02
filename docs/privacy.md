@@ -10,6 +10,7 @@ This report describes the private distribution, not a guarantee that every frame
 - 482 unique original media objects were conservatively quarantined after potential account, contact, private link or local-path findings. Some may be false positives; none is silently treated as safe.
 - 961 logical source/preview paths refer to quarantined inputs. Shared snapshots can include unused branches, so this is not a count of broken compositions.
 - 8159 reviewed binary objects, totaling 5,383,791,308 bytes, are eligible for the private media pack.
+- All 399 unique distributed video objects were probed after packaging preparation; none contains an audio stream.
 - 15,660,834 bytes of reviewed cover images and four simple silent examples are bundled in Git.
 
 ## Applied changes

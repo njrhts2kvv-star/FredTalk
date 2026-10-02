@@ -22,5 +22,7 @@
   "textSecretScanner": "gitleaks 8.30.1",
   "textSecretFindings": 0,
   "historicalOriginReferencesRemoved": true,
-  "publicReleaseReady": false
+  "publicReleaseReady": false,
+  "distributedVideosProbed": 399,
+  "distributedVideosWithAudio": 0
 }
