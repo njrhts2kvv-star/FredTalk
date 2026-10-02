@@ -19,6 +19,8 @@ python3 scripts/assets.py materialize --project components/projects/PROJECT_ID
 
 Find the exact project directory with `python3 scripts/catalog.py --id SP024 --full`. Replace `PROJECT_ID` with the reported directory name.
 
+The release contains 71 logical packs in 73 files. One larger pack uses three smaller parts; the installer assembles these automatically and validates both part hashes and the combined hash.
+
 The installer validates the release pack hash, every object hash, object size and archive member name. It rejects directories, links and unexpected members. Downloaded archives are removed after successful extraction. Re-running the download can re-fetch packs; keep sufficient temporary disk space.
 
 `materialize` creates independent file copies and refuses to overwrite modified files. Deduplicated objects stay immutable. Materialize one project at a time to control disk usage.

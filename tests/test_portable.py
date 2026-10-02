@@ -31,6 +31,21 @@ class PortableTests(unittest.TestCase):
   args=['--id','SP024','--full'];a=subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),*args]);b=subprocess.check_output([sys.executable,str(ROOT/'skills/fred-remotion-output/scripts/references.py'),*args]);self.assertEqual(json.loads(a),json.loads(b));self.assertEqual(json.loads(a)['count'],1)
  def test_quarantined_media_is_never_served(self):
   m=module('library_server');self.assertIsNone(m.media_file({'status':'quarantined','sha256':'0'*64,'size':1}))
+ def test_multipart_pack_checks_parts_and_combined_hash(self):
+  import hashlib
+  m=module('assets')
+  with tempfile.TemporaryDirectory() as tmp:
+   folder=Path(tmp);parts=[]
+   for index,data in enumerate([b'first',b'second']):
+    name=f'part{index}';(folder/name).write_bytes(data)
+    parts.append({'name':name,'size':len(data),'sha256':hashlib.sha256(data).hexdigest()})
+   pack={'name':'complete','sha256':hashlib.sha256(b'firstsecond').hexdigest(),'parts':parts}
+   (folder/'part0').write_bytes(b'wrong')
+   with self.assertRaises(ValueError):m.assemble_pack(pack,folder)
+   self.assertFalse((folder/'complete').exists())
+   (folder/'part0').write_bytes(b'first')
+   self.assertEqual(m.assemble_pack(pack,folder).read_bytes(),b'firstsecond')
+   self.assertFalse((folder/'part0').exists())
  def test_installer_rejects_traversal_even_with_matching_manifest(self):
   m=module('assets')
   with tempfile.TemporaryDirectory() as tmp:

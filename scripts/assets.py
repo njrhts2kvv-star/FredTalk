@@ -25,6 +25,21 @@ def extract(pack, expected):
    with tar.extractfile(member) as src,temp.open('wb') as out:shutil.copyfileobj(src,out)
    if digest(temp)!=name:temp.unlink();raise ValueError('Object checksum mismatch')
    temp.replace(target)
+def assemble_pack(pack, folder):
+ target=folder/pack['name']
+ for part in pack['parts']:
+  source=folder/part['name']
+  if source.stat().st_size!=part['size'] or digest(source)!=part['sha256']:
+   raise ValueError('Part checksum mismatch: '+part['name'])
+ temporary=folder/(pack['name']+'.assembling')
+ with temporary.open('wb') as out:
+  for part in pack['parts']:
+   with (folder/part['name']).open('rb') as src:shutil.copyfileobj(src,out)
+ if digest(temporary)!=pack['sha256']:
+  temporary.unlink();raise ValueError('Assembled pack checksum mismatch')
+ temporary.replace(target)
+ for part in pack['parts']:(folder/part['name']).unlink()
+ return target
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['status','download','verify','materialize']);p.add_argument('--project',help='Materialize only one repository-relative project directory');args=p.parse_args()
  files=records();unique={v['sha256']:v for v in files.values() if v['status']=='reviewed'}
@@ -34,7 +49,11 @@ def main():
   release=json.loads((ROOT/'library/releases.json').read_text());folder=ROOT/'.artifacts/downloads';folder.mkdir(parents=True,exist_ok=True)
   for pack in release['packs']:
    target=folder/pack['name']
-   if not target.exists():subprocess.run(['gh','release','download',release['tag'],'--repo',release['repository'],'--pattern',pack['name'],'--dir',str(folder)],check=True)
+   if not target.exists():
+    for entry in pack.get('parts',[pack]):
+     if not (folder/entry['name']).exists():
+      subprocess.run(['gh','release','download',release['tag'],'--repo',release['repository'],'--pattern',entry['name'],'--dir',str(folder)],check=True)
+    if pack.get('parts'):assemble_pack(pack,folder)
    if digest(target)!=pack['sha256']:raise ValueError('Pack checksum mismatch: '+pack['name'])
    extract(target,{h:v['size'] for h,v in unique.items()});target.unlink()
   print('Downloaded and verified reviewed assets.');return

@@ -127,7 +127,24 @@
       "name": "fredtalk-assets-021.tar.gz",
       "size": 165729272,
       "sha256": "724325d5ca25e1db2caa6d73a11eb54b72fc8cf34615636cc8a8908753c83ff5",
-      "objects": 1
+      "objects": 1,
+      "parts": [
+        {
+          "name": "fredtalk-assets-021.tar.gz.part1",
+          "size": 56000000,
+          "sha256": "ee9741c5587668b062746bc71d6c0c1f472c53da5823813d580eea788d0e2b93"
+        },
+        {
+          "name": "fredtalk-assets-021.tar.gz.part2",
+          "size": 56000000,
+          "sha256": "ba794b1fabe679e39c14c141865517b82e5680fd435c87ee1b0fb2af479cfacd"
+        },
+        {
+          "name": "fredtalk-assets-021.tar.gz.part3",
+          "size": 53729272,
+          "sha256": "6688a957006462f63245e8706b411f51f414bdfe0fc5a09df35aa54fcfb493f1"
+        }
+      ]
     },
     {
       "name": "fredtalk-assets-022.tar.gz",
