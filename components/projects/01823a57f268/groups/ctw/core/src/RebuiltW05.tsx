@@ -1,0 +1,6 @@
+import React from 'react';
+import {AbsoluteFill,Img,staticFile,useCurrentFrame} from 'remotion';
+import {measuredSample} from './RebuiltGrid';
+import {PromptFocus} from './RebuiltT07';
+import spec from '../../../../specs/W05.json';
+export const RebuiltW05:React.FC<{referenceWords?:boolean}>=({referenceWords=false})=>{const f=useCurrentFrame();if(f>=45)return <PromptFocus data={spec} frame={f} referenceWords={referenceWords}/>;const blur=measuredSample(spec.tracks,'firstBlur',f)[0];return <AbsoluteFill style={{background:'white'}}><AbsoluteFill style={{filter:`blur(${blur}px)`}}>{spec.objects.cards.map((card,i)=>{const[x,y,w,h]=card.rect;return <Img key={i} src={staticFile(card.media)} style={{position:'absolute',left:x,top:y,width:w,height:h,objectFit:'cover',borderRadius:card.radius,boxShadow:'28px 17px 24px #0004'}}/>})}</AbsoluteFill>{spec.objects.foreground.map((word,i)=><div key={i} style={{position:'absolute',left:word.x,top:word.y,width:word.width,fontFamily:'CTWHeavy',fontWeight:900,fontSize:word.fontSize,color:referenceWords?'#cede69':'#CDB8FA',textAlign:'center',whiteSpace:'nowrap',textShadow:'6px 8px 12px #0008',opacity:measuredSample(spec.tracks,word.track,f)[0]}}>{referenceWords?word.referenceText:word.text}</div>)}</AbsoluteFill>};

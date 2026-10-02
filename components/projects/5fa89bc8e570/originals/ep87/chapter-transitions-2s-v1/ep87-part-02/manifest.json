@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "stableId": "ep87-part-02",
+      "sourceBeatIds": [
+        "recording-beat-2"
+      ],
+      "kind": "aperture",
+      "exactScreenWords": [
+        "Part.02",
+        "结果分析与讲评课"
+      ],
+      "title": "结果分析与讲评课",
+      "label": "Part.02",
+      "width": 1030,
+      "titleSize": 128,
+      "labelSize": 84,
+      "durationInFrames": 120,
+      "finalHoldFrames": 76,
+      "settleFrame": 44,
+      "scriptAnchor": "第二步：结果分析与讲评课",
+      "oneQuestion": "结果分析与讲评课",
+      "layoutFamily": "aperture",
+      "majorGeometry": "left aligned title in centered stage",
+      "readingOrder": [
+        "Part.02",
+        "结果分析与讲评课"
+      ],
+      "visualCenter": "chapter title",
+      "styleTrack": "fred-type",
+      "mediaRole": "typography",
+      "referenceImages": [
+        {
+          "path": "[LOCAL_PATH]",
+          "responsibility": "source layout and ending, except user requested adjustments"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "[LOCAL_PATH]",
+        "checksum": "sha256:4fbf49e6b63dbaf0821209e7edd60607dbba2ab36a148bafd65f319087dd9eb8"
+      },
+      "typographyRoles": [
+        {
+          "role": "chapter",
+          "text": "Part.02",
+          "sizeClass": "MiSans Medium500"
+        },
+        {
+          "role": "title",
+          "text": "结果分析与讲评课",
+          "sizeClass": "MiSans Bold700 Chinese / Semibold600 Latin"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "straight reveal",
+      "spokenOrder": [
+        "recording-beat-2"
+      ],
+      "timingSource": "approved-manual-cue",
+      "motionEvents": [
+        {
+          "sourceBeatId": "recording-beat-2",
+          "event": "reference motion rebuilt at requested faster timing",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "recording-beat-2",
+          "event": "stable final hold",
+          "cueFrame": 44
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "aperture",
+      "implementationComponentId": "Transition",
+      "background": "white"
+    }
+  ]
+}

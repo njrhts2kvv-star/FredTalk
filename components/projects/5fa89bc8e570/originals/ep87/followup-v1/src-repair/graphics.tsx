@@ -1,0 +1,9 @@
+import React from 'react';
+export {e,mix,Box,Text,Paper,Record,C,Slides} from '../../continuous-v1/src/shared';
+import {e,Box,Text,Paper,C} from '../../continuous-v1/src/shared';
+export const Window=({x=0,y=0,w=500,h=400,children,fill='#090909'}:any)=>{const id=React.useId();return <g transform={`translate(${x} ${y})`}><Box w={w} h={h} fill={fill}/><clipPath id={id}><rect width={w} height={h} rx={32}/></clipPath><g clipPath={`url(#${id})`}>{children}</g></g>};
+export const Stack=({x=0,y=0,s=1,n=3,kind='sheet',highlight=0}:any)=><g transform={`translate(${x} ${y}) scale(${s})`}>{Array.from({length:n},(_,i)=>n-1-i).map(i=><g key={i}><Paper x={i*15} y={-i*7} kind={kind}/>{i===0&&highlight>0&&<rect x={18} y={102} width={144*highlight} height={30} rx={3} fill={C} fillOpacity={.25}/>}</g>)}</g>;
+export const Reveal=({p,x=0,y=0,children,id}:any)=><g transform={`translate(${x} ${y})`}><clipPath id={id}><rect x={-10} y={-100} width={1250} height={750}/></clipPath><g clipPath={`url(#${id})`}><g transform={`translate(0 ${750*(1-p)})`}>{children}</g></g></g>;
+export const Title=({text,x=640,y=110,size=48,fill='#111',p=1}:any)=><g transform={`translate(0 ${34*(1-p)})`}><clipPath id={`title-${text}-${x}`}><rect x={x-600} y={y-size-10} width={1200*p} height={size+30}/></clipPath><Text x={x} y={y} size={size} fill={fill} anchor='middle'><tspan clipPath={`url(#title-${text}-${x})`}>{text}</tspan></Text></g>;
+export const Rule=({x=0,y=0,w=180,h=30,progress=1}:any)=><rect x={x} y={y} width={w*progress} height={h} rx={5} fill={C} fillOpacity={.23}/>;
+export const Outline=({x=0,y=0,w=300,h=230}:any)=>{const step=(h-36)/3;return <g transform={`translate(${x} ${y})`}><Box w={w} h={h} fill='#fff' r={14}/>{[0,1,2].map(i=><g key={i}><rect x={24} y={18+i*step} width={w-48} height={Math.min(15,step*.22)} rx={3} fill='#d5d9d6'/><rect x={24} y={18+i*step+step*.38} width={w-80} height={step*.42} rx={4} stroke='#dfe3e0' strokeWidth={2} fill='none'/></g>)}</g>};

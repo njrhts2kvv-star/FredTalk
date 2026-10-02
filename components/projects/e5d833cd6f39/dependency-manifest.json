@@ -1,0 +1,281 @@
+{
+  "id": "s21",
+  "originalProject": "[LOCAL_PATH]",
+  "capturedAt": "2026-09-21T07:29:58.385533+00:00",
+  "files": [
+    {
+      "path": "components/projects/e5d833cd6f39/src/DecisionFlow.tsx",
+      "relativePath": "src/DecisionFlow.tsx",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "8ff28493f938459fb631d4b5bc06e2706d62e5de034a01ee742fde95fc511ad4",
+      "bytes": 4610,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/src/S15TaskSelection.tsx",
+      "relativePath": "src/S15TaskSelection.tsx",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "23a321ecd087b5ed82c0d882939d7ba6451dde1ec177ec5d26310ddc7c89bba1",
+      "bytes": 2990,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/src/index.tsx",
+      "relativePath": "src/index.tsx",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "0d314d6ba73ebd3add2c099580919a2b1940c3bdc611704de49d9a277271a60f",
+      "bytes": 10764,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/package.json",
+      "relativePath": "package.json",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "267a48eccbdfaba6c97e056b73c89fcbf63cee9a3f832f085ca0cfa460943aba",
+      "bytes": 569,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/package-lock.json",
+      "relativePath": "package-lock.json",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "72cd618b18bbfa376e234d7d17f2f788f6f1c870618d1f222f06e321e84b43cb",
+      "bytes": 69819,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/manifest.json",
+      "relativePath": "manifest.json",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "e747e576234cd9d4e0fd0ca3b1d8d206c8d6ba217ec90c3f99d5d4d56b7019ef",
+      "bytes": 86004,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/render-options.mjs",
+      "relativePath": "render-options.mjs",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "58addf320cf954e8121d3658f74d52129829165827f4c6f8f568ef2ef54ea1dd",
+      "bytes": 1645,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/render-headless.mjs",
+      "relativePath": "render-headless.mjs",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "caa0b34ce04175feea9afacfa47b550eaf0fae69218ef5584debfc545293e267",
+      "bytes": 5771,
+      "storage": "copy"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/brand/fredtalk-ai-corner.png",
+      "relativePath": "public/brand/fredtalk-ai-corner.png",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "bytes": 207243,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/brand/fredtalk-ai-dark-transparent.png",
+      "relativePath": "public/brand/fredtalk-ai-dark-transparent.png",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+      "bytes": 762689,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/fonts/MiSans-Bold.otf",
+      "relativePath": "public/fonts/MiSans-Bold.otf",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+      "bytes": 6643592,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/fonts/MiSans-Medium.otf",
+      "relativePath": "public/fonts/MiSans-Medium.otf",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/fonts/MiSans-Semibold.otf",
+      "relativePath": "public/fonts/MiSans-Semibold.otf",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/media/browser-use.mp4",
+      "relativePath": "public/media/browser-use.mp4",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "dcc8b24fd0db56bd0b5a50b9d88623501e12a12d49a44e3a67fa4362d559d27c",
+      "bytes": 420571,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/media/install-authorized-v02.mp4",
+      "relativePath": "public/media/install-authorized-v02.mp4",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "ada68af6fc15744447d65d59d7f5f8b0c564e1f2c70574045db936e8fedcbe84",
+      "bytes": 68405761,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/media/install-safe.mp4",
+      "relativePath": "public/media/install-safe.mp4",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "410f0a70983d31103e082fcee729f7c41f1c00913b03b4dc902294955489a29e",
+      "bytes": 65956876,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/media/result.mp4",
+      "relativePath": "public/media/result.mp4",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "b173899a5fa813e1ee44640fbec64f6970e08e5f6c101d6aa27b40422f25a778",
+      "bytes": 165750103,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/sfx/03-叮.wav",
+      "relativePath": "public/sfx/03-叮.wav",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+      "bytes": 978126,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/sfx/04-Woosh.wav",
+      "relativePath": "public/sfx/04-Woosh.wav",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+      "bytes": 124518,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/sfx/08-打字声.wav",
+      "relativePath": "public/sfx/08-打字声.wav",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+      "bytes": 587094,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/sfx/09-鼠标单击.wav",
+      "relativePath": "public/sfx/09-鼠标单击.wav",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+      "bytes": 96880,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/sfx/13-左右滑动.wav",
+      "relativePath": "public/sfx/13-左右滑动.wav",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+      "bytes": 254622,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/voice.m4a",
+      "relativePath": "public/voice.m4a",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "05c00ba86caf1393f0e79278df26a438d0dff0cd1d435a90265c75ca326cd377",
+      "bytes": 5511239,
+      "storage": "hardlink"
+    },
+    {
+      "path": "components/projects/e5d833cd6f39/public/voice.wav",
+      "relativePath": "public/voice.wav",
+      "originalPath": "[LOCAL_PATH]",
+      "resolvedOriginalPath": "[LOCAL_PATH]",
+      "sha256": "ce6252a301b851a4904a3e7347486ce9ab77c65447368291b76a7ab62697fee7",
+      "bytes": 39555116,
+      "storage": "hardlink"
+    }
+  ],
+  "validation": {
+    "relativeImports": [
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "import": "../manifest.json",
+        "resolved": "components/projects/e5d833cd6f39/manifest.json",
+        "exists": true
+      },
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "import": "./S15TaskSelection",
+        "resolved": "components/projects/e5d833cd6f39/src/S15TaskSelection.tsx",
+        "exists": true
+      },
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "import": "./DecisionFlow",
+        "resolved": "components/projects/e5d833cd6f39/src/DecisionFlow.tsx",
+        "exists": true
+      }
+    ],
+    "literalStaticFiles": [
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "asset": "brand/fredtalk-ai-dark-transparent.png",
+        "exists": true
+      },
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "asset": "brand/fredtalk-ai-corner.png",
+        "exists": true
+      },
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "asset": "voice.wav",
+        "exists": true
+      }
+    ],
+    "dynamicStaticFileExpressions": [
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "expression": "'fonts/MiSans-'+name+'.otf'"
+      },
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "expression": "'media/'+file"
+      },
+      {
+        "source": "components/projects/e5d833cd6f39/src/index.tsx",
+        "expression": "s.file"
+      }
+    ],
+    "missingRelativeImports": [],
+    "missingLiteralStaticFiles": [],
+    "dynamicAssetCoverage": "Entire public tree materialized; dynamic expressions require composition-specific runtime validation. No render performed.",
+    "lockfileNote": null,
+    "hardlinkPolicy": "Public assets are hardlinked when possible. Never modify in place; replace with a new file when adapting."
+  }
+}

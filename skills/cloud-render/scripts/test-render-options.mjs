@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {resolveRenderOptions} from './render-options.mjs';
+const review={status:'verified',reason:'Reuse the content-verified stable configuration',evidence:'Current task render and matching-frame comparison record'};
+let count=0;
+const pass=(name,run)=>{run();count++;};
+pass('no caller preference uses conservative explicit defaults',()=>{const o=resolveRenderOptions({});assert.equal(o.browsers,8);assert.equal(o.concurrency,2);assert.equal(o.gl,undefined);assert.equal(o.browserExecutable,undefined);});
+pass('verified 8x1 software GL is respected',()=>{const o=resolveRenderOptions({browsers:8,concurrency:1,gl:'swangle',configurationReview:review});assert.equal(o.concurrency,1);assert.equal(o.gl,'swangle');});
+pass('verified different browser count is respected',()=>assert.equal(resolveRenderOptions({browsers:4,concurrency:2,configurationReview:review}).browsers,4));
+pass('verified EGL remains available',()=>assert.equal(resolveRenderOptions({gl:'angle-egl',browserExecutable:'chrome-egl.sh',configurationReview:review}).gl,'angle-egl'));
+for(const input of [{browsers:0},{browsers:1.5},{concurrency:-1},{concurrency:0},{browsers:'8'}])pass('invalid concurrency rejected',()=>assert.throws(()=>resolveRenderOptions({...input,configurationReview:review}),/positive integer/));
+pass('unknown GL rejected',()=>assert.throws(()=>resolveRenderOptions({gl:'imaginary',configurationReview:review}),/gl/));
+pass('first conservative experiment is not blocked for lacking prior evidence',()=>assert.equal(resolveRenderOptions({browsers:1,concurrency:1,gl:'swangle'}).browsers,1));
+pass('new experiment can explicitly remain unverified',()=>assert.equal(resolveRenderOptions({browsers:1,configurationReview:{status:'unverified',reason:'First complex-scene test'}}).browsers,1));
+pass('a verified metadata claim must include its real evidence',()=>assert.throws(()=>resolveRenderOptions({configurationReview:{status:'verified',reason:'Existing config'}}),/configurationReview/));
+pass('software flag cannot silently do nothing',()=>assert.throws(()=>resolveRenderOptions({software:true}),/gl/));
+pass('render uses the resolved options at every call boundary',()=>{const code=readFileSync(new URL('./render.mjs',import.meta.url),'utf8');assert.match(code,/resolveRenderOptions\(c\)/);assert.match(code,/Math\.min\(options\.browsers,frames\)/);assert.match(code,/concurrency:options\.concurrency/);assert.doesNotMatch(code,/requires 8x2/);});
+console.log(`PASS: ${count} cloud render configuration cases; no cloud task started`);

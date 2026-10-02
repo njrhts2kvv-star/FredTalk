@@ -1,0 +1,2976 @@
+{
+  "schemaVersion": 1,
+  "scope": "Static relative import closure plus selected public directories and generated runtime package; not a minimal dependency claim.",
+  "bareModules": [
+    "@remotion/media",
+    "react",
+    "remotion"
+  ],
+  "files": [
+    {
+      "file": "runtime/originals/library-v2/manifest.json",
+      "sha256": "d397e892d458b1547b378f444352d8f32a3ab51b9d386f6298d81b4c02944b68",
+      "bytes": 8699,
+      "sourcePath": "originals/library-v2/manifest.json"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/library-v2/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/library-v2/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C01.wav",
+      "sha256": "45ecd28107d53126b9928fa4f0065d84fdbdad267e05d80fb4ca647c3e477b2a",
+      "bytes": 1363278,
+      "sourcePath": "originals/library-v2/public/mixes/C01.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C02.wav",
+      "sha256": "7a047dea39aabc832d45288f2d2265e024e3383e0481d39681b336fd3e60a78f",
+      "bytes": 672078,
+      "sourcePath": "originals/library-v2/public/mixes/C02.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C03.wav",
+      "sha256": "9fe0fe4e36157bd8ef69575ad400b7461f10a830e2dab20c3e5b37778b69f17d",
+      "bytes": 1152078,
+      "sourcePath": "originals/library-v2/public/mixes/C03.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C04.wav",
+      "sha256": "83bdf24ce3901bc0234368f6c039821f01924837c964e119ef7917f0e8eb1718",
+      "bytes": 1420878,
+      "sourcePath": "originals/library-v2/public/mixes/C04.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C05.wav",
+      "sha256": "ec3538abbced2fff4625af028a1284b52b483d5f65e21bf53bced789bcf2c4d4",
+      "bytes": 864078,
+      "sourcePath": "originals/library-v2/public/mixes/C05.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C06.wav",
+      "sha256": "07bbdd2dcf98317596fbd0e6b4aff7e604002094dc22c93e3b1ca2f76d18a7fb",
+      "bytes": 1881678,
+      "sourcePath": "originals/library-v2/public/mixes/C06.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C07.wav",
+      "sha256": "af9b5f842dd794ffda1bfdb5819b13e221187942be31833609ac14b44d7dce37",
+      "bytes": 2592078,
+      "sourcePath": "originals/library-v2/public/mixes/C07.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C08.wav",
+      "sha256": "1d3662c58c37fc5ef07dd5f8b13377f39d8f995eaf059d05c185f021c0a73a50",
+      "bytes": 1382478,
+      "sourcePath": "originals/library-v2/public/mixes/C08.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C09.wav",
+      "sha256": "36c2fd9b2d68c0cb0ad4e782088264f92a5c3643df4350d39430b06a8570fbee",
+      "bytes": 2092878,
+      "sourcePath": "originals/library-v2/public/mixes/C09.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/mixes/C10.wav",
+      "sha256": "6d6ced7afcbe36e9e29a27cbf7d604de5d9d403d85b608c61bd0730109c12219",
+      "bytes": 2044878,
+      "sourcePath": "originals/library-v2/public/mixes/C10.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/sfx/click.wav",
+      "sha256": "a08f745c93b9e38758f12a4c16414248a2987fdecab1d3f17517212ac94c52c0",
+      "bytes": 69676,
+      "sourcePath": "originals/library-v2/public/sfx/click.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/sfx/done.wav",
+      "sha256": "2585a1dc6f07496434c58089d61ffa3281c937d7c9fbfaef92357501abfce938",
+      "bytes": 299052,
+      "sourcePath": "originals/library-v2/public/sfx/done.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/sfx/mouse.wav",
+      "sha256": "cdd442d695e796fbfcf9a107ac1274609fa99946f84398becc9e0fdb3eaa8774",
+      "bytes": 69676,
+      "sourcePath": "originals/library-v2/public/sfx/mouse.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/sfx/pop.wav",
+      "sha256": "928912a69b8ad3baa66f4ca3b031142a468d76c11cf10876edfb043202d7d27f",
+      "bytes": 69676,
+      "sourcePath": "originals/library-v2/public/sfx/pop.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/sfx/printer.wav",
+      "sha256": "81172932e04fe6891465a6a2750041d368398ee3779b3c9ddd945967fd4945c7",
+      "bytes": 2994220,
+      "sourcePath": "originals/library-v2/public/sfx/printer.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/public/sfx/swish.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/library-v2/public/sfx/swish.wav"
+    },
+    {
+      "file": "runtime/originals/library-v2/src/Root.tsx",
+      "sha256": "ab51dd37e17129c4f9844e7333d9dbfdad2e26a3b439adda3cc2b351aa0d27c6",
+      "bytes": 1616,
+      "sourcePath": "originals/library-v2/src/Root.tsx"
+    },
+    {
+      "file": "runtime/originals/library-v2/src/branch-scenes.tsx",
+      "sha256": "bdebf2f9b677bf2bc124ec99b9b9ae6f28f627e75338b0ea11d59b04a0728e1e",
+      "bytes": 3299,
+      "sourcePath": "originals/library-v2/src/branch-scenes.tsx"
+    },
+    {
+      "file": "runtime/originals/library-v2/src/common.tsx",
+      "sha256": "cf96b74258c6c54696603c8cf7f051f755b26441ba0291b3b3803e38bc69600a",
+      "bytes": 2493,
+      "sourcePath": "originals/library-v2/src/common.tsx"
+    },
+    {
+      "file": "runtime/originals/library-v2/src/focus-scenes.tsx",
+      "sha256": "8033386ba4d09a495dd99cb631aa1cbbd79b833e9f86c880820b55678ef4cabf",
+      "bytes": 2711,
+      "sourcePath": "originals/library-v2/src/focus-scenes.tsx"
+    },
+    {
+      "file": "runtime/originals/library-v2/src/motion.ts",
+      "sha256": "b62eaf4f4a8fc8ef494c480c4febb96eb9bd396d392e38e786ed0c3fe78c0b87",
+      "bytes": 831,
+      "sourcePath": "originals/library-v2/src/motion.ts"
+    },
+    {
+      "file": "runtime/originals/library-v2/src/type-scenes.tsx",
+      "sha256": "4f58762a4b51368d4c30bf1d34837e7e04813d5da712fce4d2db7b61be6c46ed",
+      "bytes": 4628,
+      "sourcePath": "originals/library-v2/src/type-scenes.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/docs/production.manifest.json",
+      "sha256": "8ee2ebbc3b5e46dd93cf9420dc6c3b58a1149f5bd3faab4befb0a4c431522a3c",
+      "bytes": 39088,
+      "sourcePath": "originals/characters/v5/docs/production.manifest.json"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/brand/fredtalk-ai-corner.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "bytes": 207243,
+      "sourcePath": "originals/characters/v5/public/brand/fredtalk-ai-corner.png"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/brand/fredtalk-ai-dark-transparent.png",
+      "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+      "bytes": 762689,
+      "sourcePath": "originals/characters/v5/public/brand/fredtalk-ai-dark-transparent.png"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_伸手示意_1440p30_Alpha.webm",
+      "sha256": "5a8b1a330e3335d210affee7263ac79047e55598fcf0777825c1ae901e3d9f4c",
+      "bytes": 1433537,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_伸手示意_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_双手制止_1440p30_Alpha.webm",
+      "sha256": "748b29835f6d976dc15031f26ba93fd5a272afceebec3c8dd4906261f1134e67",
+      "bytes": 1234261,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_双手制止_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_右下惊讶_1440p30_Alpha.webm",
+      "sha256": "fd8b589fb405b95638725db365079431de6ab9b731d6ce9cd2402bb370bf3cf4",
+      "bytes": 1982513,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_右下惊讶_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_右侧探身观察_1440p30_Alpha.webm",
+      "sha256": "dfe87bb5b565e8ecaf5f289c8014fb064c00d131cf3f1c36fc6b15ff3c9bf01c",
+      "bytes": 1117611,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_右侧探身观察_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_左下抬头指向_1440p30_Alpha.webm",
+      "sha256": "67c089234ebd2dc33e904e30cca74d40d9d32b1b49b54a97bebe1934648a4667",
+      "bytes": 1872611,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_左下抬头指向_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_抚额苦恼_1440p30_Alpha.webm",
+      "sha256": "e8ab07313027a5e8c15cb90d270fa78c117ad33e89a34919bff2af77d593454f",
+      "bytes": 1669842,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_抚额苦恼_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_抬手制止_1440p30_Alpha.webm",
+      "sha256": "6e45e8786249d49962e7c842de591e19c3c9325884b3b5483170417c82a73349",
+      "bytes": 1112897,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_抬手制止_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_振作展示_1440p30_Alpha.webm",
+      "sha256": "0eaefdf4e21f4ea95a178f02c297aa5c62590c984b7a32874930e341a9735f70",
+      "bytes": 1331278,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_振作展示_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_握手邀请_1440p30_Alpha.webm",
+      "sha256": "b69bb340bf9a49d26ab8b7254cf178fb954ed28ada17b69ac132cade73d6644a",
+      "bytes": 1340638,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_握手邀请_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_皱眉思考_1440p30_Alpha.webm",
+      "sha256": "27de8d557f62cd7df5e4e3413a67987cb9834d81cefd57eaaa9b4f3031d1ee73",
+      "bytes": 1568578,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_皱眉思考_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/character-cache/Fred_皱眉握拳_1440p30_Alpha.webm",
+      "sha256": "aa1b8ddd585e3848c70b295cbe22fdd03a5c9cb855046eab0688e45fba839ee2",
+      "bytes": 1252757,
+      "sourcePath": "originals/characters/v5/public/character-cache/Fred_皱眉握拳_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/characters/v5/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/characters/v5/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/sfx-cache/click.wav",
+      "sha256": "a08f745c93b9e38758f12a4c16414248a2987fdecab1d3f17517212ac94c52c0",
+      "bytes": 69676,
+      "sourcePath": "originals/characters/v5/public/sfx-cache/click.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/sfx-cache/pop.wav",
+      "sha256": "928912a69b8ad3baa66f4ca3b031142a468d76c11cf10876edfb043202d7d27f",
+      "bytes": 69676,
+      "sourcePath": "originals/characters/v5/public/sfx-cache/pop.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/sfx-cache/swipe.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/characters/v5/public/sfx-cache/swipe.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/sfx-cache/typewriter.wav",
+      "sha256": "81172932e04fe6891465a6a2750041d368398ee3779b3c9ddd945967fd4945c7",
+      "bytes": 2994220,
+      "sourcePath": "originals/characters/v5/public/sfx-cache/typewriter.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v5/public/sfx-cache/whoosh.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/characters/v5/public/sfx-cache/whoosh.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/Character.tsx",
+      "sha256": "9731b8015777f2ecf56861aa09a9b1a1bb586ee05b205c8edc756f850ff40920",
+      "bytes": 1403,
+      "sourcePath": "originals/characters/v5/src/Character.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/LayoutRouter.tsx",
+      "sha256": "8a41bc8ce4b7b806b7d21a618d7a1861476d0f7164ab0a29f0b1c8b5b648322c",
+      "bytes": 1401,
+      "sourcePath": "originals/characters/v5/src/LayoutRouter.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/Root.tsx",
+      "sha256": "2808fb08692b86f896f8342042e18eb55913cac46fa273052af91ef6dc801f8e",
+      "bytes": 547,
+      "sourcePath": "originals/characters/v5/src/Root.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/Scene.tsx",
+      "sha256": "6e0000f1d5c01393546e89e93957236102b0f463d13fb85741d57fc06816ecac",
+      "bytes": 942,
+      "sourcePath": "originals/characters/v5/src/Scene.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/layouts/GroupOne.tsx",
+      "sha256": "c8e9c379edbdd22f1359e15ff605432682a12f91d2e3bde37cb2d0d3db993277",
+      "bytes": 6477,
+      "sourcePath": "originals/characters/v5/src/layouts/GroupOne.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/layouts/GroupThree.tsx",
+      "sha256": "584b49023285886d4eb420772f75d791f8132e6fdc60ed1a94b0a0c703156051",
+      "bytes": 5002,
+      "sourcePath": "originals/characters/v5/src/layouts/GroupThree.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/layouts/GroupTwo.tsx",
+      "sha256": "cf7883fad578e20d7ec2202f308d0687e94dc7b64e31d7efe9acbfeb0c242f19",
+      "bytes": 7544,
+      "sourcePath": "originals/characters/v5/src/layouts/GroupTwo.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/motion.ts",
+      "sha256": "1a2f526ccb583a0b5c5a724d2bc3b1908028ed2feec32c40081560e06835993f",
+      "bytes": 806,
+      "sourcePath": "originals/characters/v5/src/motion.ts"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/primitives.tsx",
+      "sha256": "ad927c2789315743de1d8f8a7f43e20b364b212339044e92ff796607d6922373",
+      "bytes": 3752,
+      "sourcePath": "originals/characters/v5/src/primitives.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v5/src/types.ts",
+      "sha256": "a1db0883119db000125f35b2c077990103c43477aed2bbb1e3a00ac6f6ae0446",
+      "bytes": 502,
+      "sourcePath": "originals/characters/v5/src/types.ts"
+    },
+    {
+      "file": "runtime/originals/characters/v6/docs/production.manifest.json",
+      "sha256": "c7e4e03c5341e0e58112da8549bc7c7533d1c3cbfb7efce4fac7be93106c121c",
+      "bytes": 42191,
+      "sourcePath": "originals/characters/v6/docs/production.manifest.json"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/brand/fredtalk-ai-corner.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "bytes": 207243,
+      "sourcePath": "originals/characters/v6/public/brand/fredtalk-ai-corner.png"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/brand/fredtalk-ai-dark-transparent.png",
+      "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+      "bytes": 762689,
+      "sourcePath": "originals/characters/v6/public/brand/fredtalk-ai-dark-transparent.png"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_伸手示意_1440p30_Alpha.webm",
+      "sha256": "5a8b1a330e3335d210affee7263ac79047e55598fcf0777825c1ae901e3d9f4c",
+      "bytes": 1433537,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_伸手示意_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_双手制止_1440p30_Alpha.webm",
+      "sha256": "748b29835f6d976dc15031f26ba93fd5a272afceebec3c8dd4906261f1134e67",
+      "bytes": 1234261,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_双手制止_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_右下惊讶_1440p30_Alpha.webm",
+      "sha256": "fd8b589fb405b95638725db365079431de6ab9b731d6ce9cd2402bb370bf3cf4",
+      "bytes": 1982513,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_右下惊讶_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_右侧探身观察_1440p30_Alpha.webm",
+      "sha256": "dfe87bb5b565e8ecaf5f289c8014fb064c00d131cf3f1c36fc6b15ff3c9bf01c",
+      "bytes": 1117611,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_右侧探身观察_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_左下抬头指向_1440p30_Alpha.webm",
+      "sha256": "67c089234ebd2dc33e904e30cca74d40d9d32b1b49b54a97bebe1934648a4667",
+      "bytes": 1872611,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_左下抬头指向_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_抚额苦恼_1440p30_Alpha.webm",
+      "sha256": "e8ab07313027a5e8c15cb90d270fa78c117ad33e89a34919bff2af77d593454f",
+      "bytes": 1669842,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_抚额苦恼_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_抬手制止_1440p30_Alpha.webm",
+      "sha256": "6e45e8786249d49962e7c842de591e19c3c9325884b3b5483170417c82a73349",
+      "bytes": 1112897,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_抬手制止_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_振作展示_1440p30_Alpha.webm",
+      "sha256": "0eaefdf4e21f4ea95a178f02c297aa5c62590c984b7a32874930e341a9735f70",
+      "bytes": 1331278,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_振作展示_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_握手邀请_1440p30_Alpha.webm",
+      "sha256": "b69bb340bf9a49d26ab8b7254cf178fb954ed28ada17b69ac132cade73d6644a",
+      "bytes": 1340638,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_握手邀请_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_皱眉思考_1440p30_Alpha.webm",
+      "sha256": "27de8d557f62cd7df5e4e3413a67987cb9834d81cefd57eaaa9b4f3031d1ee73",
+      "bytes": 1568578,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_皱眉思考_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/character-cache/Fred_皱眉握拳_1440p30_Alpha.webm",
+      "sha256": "aa1b8ddd585e3848c70b295cbe22fdd03a5c9cb855046eab0688e45fba839ee2",
+      "bytes": 1252757,
+      "sourcePath": "originals/characters/v6/public/character-cache/Fred_皱眉握拳_1440p30_Alpha.webm"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/characters/v6/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/characters/v6/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/sfx-cache/click.wav",
+      "sha256": "a08f745c93b9e38758f12a4c16414248a2987fdecab1d3f17517212ac94c52c0",
+      "bytes": 69676,
+      "sourcePath": "originals/characters/v6/public/sfx-cache/click.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/sfx-cache/pop.wav",
+      "sha256": "928912a69b8ad3baa66f4ca3b031142a468d76c11cf10876edfb043202d7d27f",
+      "bytes": 69676,
+      "sourcePath": "originals/characters/v6/public/sfx-cache/pop.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/sfx-cache/swipe.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/characters/v6/public/sfx-cache/swipe.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/sfx-cache/typewriter.wav",
+      "sha256": "81172932e04fe6891465a6a2750041d368398ee3779b3c9ddd945967fd4945c7",
+      "bytes": 2994220,
+      "sourcePath": "originals/characters/v6/public/sfx-cache/typewriter.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v6/public/sfx-cache/whoosh.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/characters/v6/public/sfx-cache/whoosh.wav"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/Character.tsx",
+      "sha256": "928d39e2d12d4359b70374b1bf5e0d73f00c1a021d47cfd062640ee6495c82fe",
+      "bytes": 1401,
+      "sourcePath": "originals/characters/v6/src/Character.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/Root.tsx",
+      "sha256": "c7ff2afb6d84eede1f8a61d77f29aab044dd51cb332f68ec2cd6571296842618",
+      "bytes": 545,
+      "sourcePath": "originals/characters/v6/src/Root.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/Scene.tsx",
+      "sha256": "5755c34391668b50e741cf6478c588ce1db11ca7f2028d731a8d2c317f0b3a50",
+      "bytes": 930,
+      "sourcePath": "originals/characters/v6/src/Scene.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/V6Layout.tsx",
+      "sha256": "46e4390bcd8b8ae295b5c2306f6a3f06fed7a89eb308264636b830dd6d309f27",
+      "bytes": 9793,
+      "sourcePath": "originals/characters/v6/src/V6Layout.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/motion.ts",
+      "sha256": "1a2f526ccb583a0b5c5a724d2bc3b1908028ed2feec32c40081560e06835993f",
+      "bytes": 806,
+      "sourcePath": "originals/characters/v6/src/motion.ts"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/primitives.tsx",
+      "sha256": "ad927c2789315743de1d8f8a7f43e20b364b212339044e92ff796607d6922373",
+      "bytes": 3752,
+      "sourcePath": "originals/characters/v6/src/primitives.tsx"
+    },
+    {
+      "file": "runtime/originals/characters/v6/src/types.ts",
+      "sha256": "054deef42d6a3be057ff578b56cfa29d50716a9bcaca252f6a7810a863da4a69",
+      "bytes": 545,
+      "sourcePath": "originals/characters/v6/src/types.ts"
+    },
+    {
+      "file": "runtime/originals/docs/fourth-sentence-manifest.json",
+      "sha256": "f9c2a56577ee9aeb8d8b8e44926a9c1a9b873a100a58d98edb8d2296ed347613",
+      "bytes": 646,
+      "sourcePath": "originals/docs/fourth-sentence-manifest.json"
+    },
+    {
+      "file": "runtime/originals/docs/fourth-sentence-production-contract.json",
+      "sha256": "3fd8d1da84ef19890967c30f755ba1c32f29b97c69ccc9a325d3585b72a2666c",
+      "bytes": 8997,
+      "sourcePath": "originals/docs/fourth-sentence-production-contract.json"
+    },
+    {
+      "file": "runtime/originals/docs/sixth-sentence-manifest.json",
+      "sha256": "fd96f3d0b6447627e661981733418c5f3cfda97f22f37a65f856b06d20555e88",
+      "bytes": 406,
+      "sourcePath": "originals/docs/sixth-sentence-manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/assembly/first-tail.png",
+      "sha256": "51132b54997158760816e13f57b550e29f7d18825847828ec5ad2b45c33451f2",
+      "bytes": 1434674,
+      "sourcePath": "originals/ep82-v12/public/assembly/first-tail.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/assembly/third-tail.png",
+      "sha256": "c33d12e698c625fcff50e24b4dc3963e58624933474eb862582d82107d309e8f",
+      "bytes": 914369,
+      "sourcePath": "originals/ep82-v12/public/assembly/third-tail.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/brand/doubao-work-logo-transparent.png",
+      "sha256": "0af8087d94e10bac6bce265f3d758b36b154266425389d3289ec0d730796a4b7",
+      "bytes": 929414,
+      "sourcePath": "originals/ep82-v12/public/brand/doubao-work-logo-transparent.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/brand/doubao-work-logo.png",
+      "sha256": "95938a39de0549616e11a2e78656e70fdc23369a55ea3aff1b467c63b9d35064",
+      "bytes": 942315,
+      "sourcePath": "originals/ep82-v12/public/brand/doubao-work-logo.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/brand/fredtalk-ai-corner.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "bytes": 207243,
+      "sourcePath": "originals/ep82-v12/public/brand/fredtalk-ai-corner.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/brand/fredtalk-ai-dark-transparent.png",
+      "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+      "bytes": 762689,
+      "sourcePath": "originals/ep82-v12/public/brand/fredtalk-ai-dark-transparent.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/feishu/P01-release.png",
+      "sha256": "8f347d30ea3720f86f765e08508a22ee493dedea875959d76521776c30541036",
+      "bytes": 1126874,
+      "sourcePath": "originals/ep82-v12/public/feishu/P01-release.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/fonts/MiSans-Bold.otf",
+      "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+      "bytes": 6643592,
+      "sourcePath": "originals/ep82-v12/public/fonts/MiSans-Bold.otf"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/fonts/MiSans-Heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "bytes": 6677020,
+      "sourcePath": "originals/ep82-v12/public/fonts/MiSans-Heavy.otf"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/ep82-v12/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/ep82-v12/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/fourth-opening-v3/third-tail.png",
+      "sha256": "0f0edb52205fd10a68bc54342e59fb7e012aa4d6998f96e00b64a2f8c15cc787",
+      "bytes": 367560,
+      "sourcePath": "originals/ep82-v12/public/fourth-opening-v3/third-tail.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/fourth-sentence/source-audio.m4a",
+      "sha256": "f97a483fddebad502f0606c1145236d03a7e20fcf48d6b19788e93ce82548b19",
+      "bytes": 589088,
+      "sourcePath": "originals/ep82-v12/public/fourth-sentence/source-audio.m4a"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/second-sentence/candidate-comparison.png",
+      "sha256": "53992c138b9eb74cd3aa4473e5f4206ec203a6847d18e48d9fb316ef0f854821",
+      "bytes": 616611,
+      "sourcePath": "originals/ep82-v12/public/second-sentence/candidate-comparison.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/second-sentence/interview-outline.png",
+      "sha256": "5abc897625eb06c840dfbd5fbe6df4fc521d510a56418f0247a48305b38eb0d3",
+      "bytes": 267891,
+      "sourcePath": "originals/ep82-v12/public/second-sentence/interview-outline.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/second-sentence/interview-record.png",
+      "sha256": "2bffb99a0b19a9d6cb19aea059c6da2e77138ba70f9eb14cf15c895757d5e2bf",
+      "bytes": 313930,
+      "sourcePath": "originals/ep82-v12/public/second-sentence/interview-record.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/second-sentence/recruiting-dashboard.png",
+      "sha256": "515340beb868405551aab3e3b94591f100b00cb4a55d73445075f1b5add2b56f",
+      "bytes": 170593,
+      "sourcePath": "originals/ep82-v12/public/second-sentence/recruiting-dashboard.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/second-sentence/review-document.png",
+      "sha256": "565f4597c0552e2c75a58bf92a97cdeb2dc7b4b9db8e22c9449007e6b585e39b",
+      "bytes": 216773,
+      "sourcePath": "originals/ep82-v12/public/second-sentence/review-document.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/sfx/click.wav",
+      "sha256": "a08f745c93b9e38758f12a4c16414248a2987fdecab1d3f17517212ac94c52c0",
+      "bytes": 69676,
+      "sourcePath": "originals/ep82-v12/public/sfx/click.wav"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/sfx/pop.wav",
+      "sha256": "928912a69b8ad3baa66f4ca3b031142a468d76c11cf10876edfb043202d7d27f",
+      "bytes": 69676,
+      "sourcePath": "originals/ep82-v12/public/sfx/pop.wav"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/sfx/swipe.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/ep82-v12/public/sfx/swipe.wav"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/sfx/whoosh.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/ep82-v12/public/sfx/whoosh.wav"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/sixth-sentence/source-audio.m4a",
+      "sha256": "7562c22aa071e734a3fbee19f8abb03b68f5d52e3fcde22ce905d7624480a89d",
+      "bytes": 240096,
+      "sourcePath": "originals/ep82-v12/public/sixth-sentence/source-audio.m4a"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/third-opening-repair/join.png",
+      "sha256": "26df2b00c6b5231a0da70e343ee97ade5bb18e62e20e5e4492e81992945b35a9",
+      "bytes": 253555,
+      "sourcePath": "originals/ep82-v12/public/third-opening-repair/join.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/third-opening-repair/opening.png",
+      "sha256": "cd1b8d91a9555db31ac35923374100eb06376ea8214fed0344266c1c216b60e4",
+      "bytes": 3665357,
+      "sourcePath": "originals/ep82-v12/public/third-opening-repair/opening.png"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/public/third-opening-repair/reference.mp4",
+      "sha256": "4457fc132a99c80c37a41c61a7559bd31a7edfe1be3ca56ea38acb49833a5859",
+      "bytes": 2869219,
+      "sourcePath": "originals/ep82-v12/public/third-opening-repair/reference.mp4"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/ContextCards.tsx",
+      "sha256": "2114a24f50bc1e6716cda8366f5a335592f89e3bc62889bf6c7f81866283fe3e",
+      "bytes": 4771,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/ContextCards.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/FourthSentenceRemake.tsx",
+      "sha256": "de9b826cccd80339fbf78ca2222f592a255c5fbc6e2cfe1a3f2ddd84503bad89",
+      "bytes": 7413,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/FourthSentenceRemake.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/PermissionOrbit.tsx",
+      "sha256": "22cb8020edcdf6cf75497c229e53af6fb68418b44450d556c1269fe734f8bc54",
+      "bytes": 1649,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/PermissionOrbit.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/Root.tsx",
+      "sha256": "04ff32265661c0bb844ca5a18aee7f8d46eb75ee0a8f286c7ca51c1a0b5c1405",
+      "bytes": 444,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/Root.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/SharedCanvas.tsx",
+      "sha256": "9dce7ee66dd9ed330e9d125053b9d7c83633001356d960a8e35ee41a6e11eff1",
+      "bytes": 5287,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/SharedCanvas.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/index.ts",
+      "sha256": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9",
+      "bytes": 89,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/index.ts"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-fourth-sentence/motion.ts",
+      "sha256": "e8b7b7f47c9c6ad12b0da1c64e915fd8d2806ccb7c0063742f9bb54d68b80ce7",
+      "bytes": 595,
+      "sourcePath": "originals/ep82-v12/src-fourth-sentence/motion.ts"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-sixth-sentence-v2/Denial.tsx",
+      "sha256": "7b227bfc8a724cf74ff30ecc8a1448bf4eafd40db65d989c31ebda4c3f74acac",
+      "bytes": 1804,
+      "sourcePath": "originals/ep82-v12/src-sixth-sentence-v2/Denial.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-sixth-sentence-v2/Root.tsx",
+      "sha256": "208a5af52397cb19136cce6e471776c337d2f4477a13958b0b570fd91f241396",
+      "bytes": 430,
+      "sourcePath": "originals/ep82-v12/src-sixth-sentence-v2/Root.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-sixth-sentence-v2/SixthSentence.tsx",
+      "sha256": "1f32b0123872666cf98fdfa2a9e02cd7eb01cf839d0585ee94e3328652501fcd",
+      "bytes": 3933,
+      "sourcePath": "originals/ep82-v12/src-sixth-sentence-v2/SixthSentence.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-sixth-sentence-v2/fonts.ts",
+      "sha256": "73cf98787ce7a125cf4a45d3f8596a73d01b94be3b84845e655624714f804fe6",
+      "bytes": 455,
+      "sourcePath": "originals/ep82-v12/src-sixth-sentence-v2/fonts.ts"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-sixth-sentence-v2/index.ts",
+      "sha256": "2e0e358282a1b998a65387c653b97c2bb2eb7aae94cf200fc0b8d919f7be73a6",
+      "bytes": 88,
+      "sourcePath": "originals/ep82-v12/src-sixth-sentence-v2/index.ts"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-sixth-sentence-v2/primitives.tsx",
+      "sha256": "3cd48a7d3b0c292dfafb930c40e6f2affc1282e92e5f022774446a8d98ba422d",
+      "bytes": 3416,
+      "sourcePath": "originals/ep82-v12/src-sixth-sentence-v2/primitives.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-third-opening-repair/index.tsx",
+      "sha256": "c992ca58e2f85b9ff53451ce38cb37519bb3c946c00793e2c58746c554168fe5",
+      "bytes": 1987,
+      "sourcePath": "originals/ep82-v12/src-third-opening-repair/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep82-v12/src-third-sentence/UserNode.tsx",
+      "sha256": "d59bc57b7b677d22f994ce3eb5f5db3c7ff0ac6fd0ee7d84191d61aad63b55f4",
+      "bytes": 974,
+      "sourcePath": "originals/ep82-v12/src-third-sentence/UserNode.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/ep87-part-01/manifest.json",
+      "sha256": "23d5a802c9d5f5cb1ceb587fe84d1530436ac97a69788da8a37b515db1c70f70",
+      "bytes": 2305,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/ep87-part-01/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/ep87-part-02/manifest.json",
+      "sha256": "fb9bc2d18611c4f8d6350e5f087682ffe3b98af3dc431875d7d13f15565da15a",
+      "bytes": 2331,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/ep87-part-02/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/ep87-part-03/manifest.json",
+      "sha256": "667c3260016cf95c0046ffeb095fce07bda076641058ee4e729955262ec7ce8e",
+      "bytes": 2358,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/ep87-part-03/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/01-drag-frame.wav",
+      "sha256": "a721d459a364b16acc1db35493f424072134427ec1a1f2766de5c3e6261df385",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/01-drag-frame.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/02-aperture.wav",
+      "sha256": "95d1bea41fc1267b3819c840c3bca42eaf529009af4df40439eb82b83dca338c",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/02-aperture.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/03-number-handoff.wav",
+      "sha256": "5b686308e32f09402525cb3cd1c2bb4584a7b65c551d6b67be72ea10f24c82bc",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/03-number-handoff.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/04-field-push.wav",
+      "sha256": "04e5000971574029c55b5f1e370ad8ab8a2ff02416a1f0f2bb7c74b8594f140d",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/04-field-push.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/05-purple-reveal.wav",
+      "sha256": "8ac64ce21a17f468a9375f79bed0ee0dfb90ab68820ee579d54563361a8bd6a8",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/05-purple-reveal.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/ep87-part-01.wav",
+      "sha256": "a721d459a364b16acc1db35493f424072134427ec1a1f2766de5c3e6261df385",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/ep87-part-01.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/ep87-part-02.wav",
+      "sha256": "95d1bea41fc1267b3819c840c3bca42eaf529009af4df40439eb82b83dca338c",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/ep87-part-02.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/ep87-part-03.wav",
+      "sha256": "8ac64ce21a17f468a9375f79bed0ee0dfb90ab68820ee579d54563361a8bd6a8",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/ep87-part-03.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Bold.otf",
+      "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+      "bytes": 6643592,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Bold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/src/Transition.tsx",
+      "sha256": "de5f02c22eaadfd83e5540a77222c5de85eb6c2583494f2231df00a0a703dde7",
+      "bytes": 5820,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/src/Transition.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-2s-v1/src/index.tsx",
+      "sha256": "fe8eb2a7901001b3160907592927be15a58afd5e8937bd705ecea9b43b23a2ed",
+      "bytes": 535,
+      "sourcePath": "originals/ep87/chapter-transitions-2s-v1/src/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/ep87-part-01/manifest.json",
+      "sha256": "919d5cc0cabb9ae823473f83048229e17ebba758144363184cc3d9d44985ad2b",
+      "bytes": 2283,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/ep87-part-01/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/ep87-part-02/manifest.json",
+      "sha256": "2094638b2084c3919a5f3c1d805315cf06dd27d5124c70c66391277383dd3648",
+      "bytes": 2264,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/ep87-part-02/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/ep87-part-03/manifest.json",
+      "sha256": "5ec34909cf20932112a852f5f0679a479ba93d352e4cd535f02fce7bde0dd49a",
+      "bytes": 2300,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/ep87-part-03/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/ep87-part-04/manifest.json",
+      "sha256": "7fa018a7ab7bf42b51f9a0d32479378efcaa064b23376bc5c4a7fc6ad07f1b15",
+      "bytes": 2265,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/ep87-part-04/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/ep87-part-05/manifest.json",
+      "sha256": "50375e2e37981d89ba91af416d127e91523e7b74568ff4adec316ef93b126764",
+      "bytes": 2301,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/ep87-part-05/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-01.wav",
+      "sha256": "a721d459a364b16acc1db35493f424072134427ec1a1f2766de5c3e6261df385",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-01.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-02.wav",
+      "sha256": "95d1bea41fc1267b3819c840c3bca42eaf529009af4df40439eb82b83dca338c",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-02.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-03.wav",
+      "sha256": "8ac64ce21a17f468a9375f79bed0ee0dfb90ab68820ee579d54563361a8bd6a8",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-03.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-04.wav",
+      "sha256": "a721d459a364b16acc1db35493f424072134427ec1a1f2766de5c3e6261df385",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-04.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-05.wav",
+      "sha256": "95d1bea41fc1267b3819c840c3bca42eaf529009af4df40439eb82b83dca338c",
+      "bytes": 256078,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/ep87-part-05.wav"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/fonts/MiSans-Bold.otf",
+      "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+      "bytes": 6643592,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/fonts/MiSans-Bold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/src/Transition.tsx",
+      "sha256": "de5f02c22eaadfd83e5540a77222c5de85eb6c2583494f2231df00a0a703dde7",
+      "bytes": 5820,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/src/Transition.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/chapter-transitions-five-2s-v2/src/index.tsx",
+      "sha256": "c6048c2c2e844c855d83b43814bef87da9766aff686dfdd612e631e391183a03",
+      "bytes": 637,
+      "sourcePath": "originals/ep87/chapter-transitions-five-2s-v2/src/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/manifest.json",
+      "sha256": "639db923f5f391c04ad04433af11050123629cfa38b5fec790a106381513f9ca",
+      "bytes": 150680,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0001.png",
+      "sha256": "d6b8c135bb29df9f9d2d664c669732f98dba6c0390be94532a9a07e475f8cf12",
+      "bytes": 439811,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0001.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0002.png",
+      "sha256": "53e767bbbd1ee679104144aff6f3307f134f8eea6d8976e91e2c4113d8b4ef5c",
+      "bytes": 352619,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0002.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0003.png",
+      "sha256": "395f127833ff6c6f872479142ce1844f241e11fcf48ccfa0981c102786bbcb0a",
+      "bytes": 355319,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0003.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0004.png",
+      "sha256": "4132a4b3ea69bccd32c9e0038170c6740eec26a684a32e47ab8d2d09204a4b11",
+      "bytes": 359154,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0004.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0005.png",
+      "sha256": "6a267be0185ab63213910ff2ed157e85f305fcfb4684b46d3d56620745a28dda",
+      "bytes": 375876,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0005.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0006.png",
+      "sha256": "daf02cc4770a12d1284042b83691c772dc65144ab4acb083515b7e6cab820532",
+      "bytes": 383023,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0006.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0007.png",
+      "sha256": "062344a523a3fd9de0d4c1d4b9209745b2c4d6dc9ecc60610185420279d36680",
+      "bytes": 385376,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0007.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0008.png",
+      "sha256": "59c6e6647d9f4ce794cbac4a7d1966763886582ff1f4f33319774244b79e61d8",
+      "bytes": 383107,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0008.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0009.png",
+      "sha256": "39be87892e95abf8b71b3a636244aeeb95e88cc984637fb0e5d18f7db46792aa",
+      "bytes": 380759,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0009.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0010.png",
+      "sha256": "ade4c3366171c8382c931f090b5540d4410475d4d42b3ff79d5516e3ec160cb9",
+      "bytes": 382298,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0010.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0011.png",
+      "sha256": "74dc909a556a34e8d2d29207ae76c5dc25c83faa24adc9c7d4f110e79ff5f7a4",
+      "bytes": 419792,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0011.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0012.png",
+      "sha256": "d179c523b2988977575b1be50b913813b60ecfefc6de134bc65d2ca00df05e76",
+      "bytes": 391869,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0012.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0013.png",
+      "sha256": "7cb8237a4d8651ef6b021f89570b19fe2695ff78104cc49435078dd689d18ccc",
+      "bytes": 392769,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0013.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0014.png",
+      "sha256": "bdca266f383a6217bb1564c59ef2856b074eb8e8ad837a4491c3053103e9c8c1",
+      "bytes": 397178,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0014.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0015.png",
+      "sha256": "eaee14fdb9f903e77db8ca3af0e7a20308cbd96005e4f1c2147466ba054aa11d",
+      "bytes": 401804,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0015.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0016.png",
+      "sha256": "806ee081890fdb9360f036af762c53a96d12a759c149b809fe028f0a7742a910",
+      "bytes": 405314,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0016.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0017.png",
+      "sha256": "56303f33c74b0324987e5113c783a4524bc71b580c3fdebb568438e3ef26d942",
+      "bytes": 410275,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0017.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0018.png",
+      "sha256": "d2c0cb7b0f7256201a61e01fa4c26f3688adb0795fd52f0a02f048684d3553a2",
+      "bytes": 408494,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0018.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0019.png",
+      "sha256": "8d50a269b3b90b1a6358ff752ae8c472c28e4474c4dcedd4921d0b7adfd5180b",
+      "bytes": 408034,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0019.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0020.png",
+      "sha256": "ad3cf0cfbcd5e8e315cff182d4589160e27f983b98e893f073c2ca04c95d216d",
+      "bytes": 408439,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0020.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0021.png",
+      "sha256": "1ac1093d19319d67c442e0523ef92f320245862c3db2ef9c45acc65ae9496148",
+      "bytes": 426503,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0021.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0022.png",
+      "sha256": "35acdf0344c455a38da8978562d8cdb093060bf5a2a62b30c752ea77b2d69e72",
+      "bytes": 418033,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0022.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0023.png",
+      "sha256": "0e515513820361079e23728cb7c4a99ca227ba1f8f67661146d9af48df861451",
+      "bytes": 415378,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0023.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0024.png",
+      "sha256": "f3499087e87ee8c719e601655148fbafcc3115becbb295b2520657129f3f1869",
+      "bytes": 413176,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0024.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0025.png",
+      "sha256": "067a3952e436c941bbff42baef81a3a41fd36859744bb6239b20e56682c7deb9",
+      "bytes": 421189,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0025.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0026.png",
+      "sha256": "6af733464d37bcdc0f79862ef6be78e4cb245463f2ce04e1986a49ed06e47ca3",
+      "bytes": 421472,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0026.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0027.png",
+      "sha256": "01d515fcff0ce6879142068667eb08546df639a8132db97a84c2efd8b9d86fa9",
+      "bytes": 418742,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0027.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0028.png",
+      "sha256": "7f1211cf95579660df20ea99b63c5717f4accfaf038193b2c3d9cbde7aee08e9",
+      "bytes": 414556,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0028.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0029.png",
+      "sha256": "0ea9741e7b8d0ef0bde1730a525546a16f7b4f0749290a33cc9bd5cfa805cde9",
+      "bytes": 414563,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0029.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0030.png",
+      "sha256": "e5720091ee0e64ae3d1637167b7a95d424b73756886bf333ff0875fd6cfe4f04",
+      "bytes": 415684,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0030.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0031.png",
+      "sha256": "235c00568ad6c58f952477b75522954089669b2a8bede4e7fcc00f067d5e52c5",
+      "bytes": 439560,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0031.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0032.png",
+      "sha256": "803e9996932fe383ab169a4503e350dbda66efbabfb5ac3d7b20a05fddcab31a",
+      "bytes": 432173,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0032.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0033.png",
+      "sha256": "db3ab670e3bf02b20404baddb3d7f8c5cfc8862d5a4ac2b29862b7739fbc8f9d",
+      "bytes": 436327,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0033.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0034.png",
+      "sha256": "b349629f433752aacf7d05a9d967002584f48587c4fcdda1cc5d487dcb9a0ca9",
+      "bytes": 433644,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0034.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0035.png",
+      "sha256": "228c73133a0b616531609392454287e229048c4a65b04d57a985cfee8462509f",
+      "bytes": 433875,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0035.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0036.png",
+      "sha256": "e42eb49204c4780dadf4b2580626e7f1b665b1c6e5df71aae2f5019815acabf1",
+      "bytes": 431216,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0036.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0037.png",
+      "sha256": "1ca1d456b7795515f03b0eb118c54a9fa438112b078f7b14030148a0ae49fdaf",
+      "bytes": 428186,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0037.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0038.png",
+      "sha256": "1d6ff6612fe937c17d9b6ee442bf0c84d2b33118e3b7588160a245e1747c284e",
+      "bytes": 427445,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0038.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0039.png",
+      "sha256": "b2d946e1fb1630002875c8b7d6addcc7ce2b7171685c3512d4db07d9591bd225",
+      "bytes": 425623,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0039.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0040.png",
+      "sha256": "91e708e62d2900daa58b8d8d209a8335e09a0798babe4200d082b0212c2d334d",
+      "bytes": 423951,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0040.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0041.png",
+      "sha256": "8c7d8aef54e3412d59b079094488dc716c2408f7787df7f5a3071a7bb19ca136",
+      "bytes": 432991,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0041.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0042.png",
+      "sha256": "9f0e160b3d2bb9c305894480d17a5e03c0ec76dcafc5bc63e95fd97e41454cb2",
+      "bytes": 424201,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0042.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0043.png",
+      "sha256": "26e2fdc7672ca9d2cdc4b97b134f2b0c8dd1e8d49e8de7113034003c08e8cd82",
+      "bytes": 421480,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0043.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0044.png",
+      "sha256": "d18f5226ceade7bb5d48548aa29491d48bf6a5345dcac072aff66f45c37a3c19",
+      "bytes": 420468,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0044.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0045.png",
+      "sha256": "6279d36479a273e1ec3e87091680bfeee0d5d815694108d6b09db24e5385c3ce",
+      "bytes": 418869,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0045.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0046.png",
+      "sha256": "0929dda8628e4f7dacc4258d98aa9aff4082876db338f4b98a96408d5689d310",
+      "bytes": 417882,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0046.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0047.png",
+      "sha256": "c0c36e7968252516868a373da947500b832ef15f2b24e28c0d5b051b98058a76",
+      "bytes": 413740,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0047.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0048.png",
+      "sha256": "7cb3a71288f37301ae238971d17c10b98ea3d825414db203ae47cd559f030c03",
+      "bytes": 410755,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0048.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0049.png",
+      "sha256": "df92eab44f732803befe6d14413d298e4c2f57f7be7171fd7d407fe7db7e30e1",
+      "bytes": 413984,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0049.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0050.png",
+      "sha256": "7c805d32e4d5049436c78285488bae44cb5938a4768898b1c9d81f64a731e35c",
+      "bytes": 414221,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0050.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0051.png",
+      "sha256": "0db86609b3e94eb035ba4cf3904a21be9166ffdd3036c73186145e41c4c65394",
+      "bytes": 435861,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0051.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0052.png",
+      "sha256": "7f680391fb0f57482cfb1d6c0d949fc80079c7c2325176378d129ff43536626c",
+      "bytes": 414947,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0052.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0053.png",
+      "sha256": "97617161b68df2ebf75926b6b4ffb507a5f2db669135844b068e7f15fbb51a2f",
+      "bytes": 405779,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0053.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0054.png",
+      "sha256": "453e8a27270556d6e673f4c778cbaf2db222cf7a76e2763289f35944b5ebd2bf",
+      "bytes": 375245,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0054.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0055.png",
+      "sha256": "599f6f11417bc9eac53f81f4b68ca80c09df5e7d2d507ba0fdeb436b15d729b6",
+      "bytes": 375053,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0055.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0056.png",
+      "sha256": "92ff11ec824ecc3eaf1e5542cecc5021d9064d43762a9a3c8db2cb19bcc20a1e",
+      "bytes": 389419,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0056.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0057.png",
+      "sha256": "c05ec14d4dd0b241eb829abefc4ac2a560679ed0bffdfb9d42ae591d5ae4cb65",
+      "bytes": 382557,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0057.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0058.png",
+      "sha256": "0743ef2c8a98f4f90c72fcf87e45f79ddce9786104161cf86307dbaf378625e2",
+      "bytes": 391114,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0058.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0059.png",
+      "sha256": "3332610c28d4e41c917221969178879c73c652d2eeb7a59a1c660ba35874c53d",
+      "bytes": 401042,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0059.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0060.png",
+      "sha256": "44dcd78c939ca9d3c79804ad9f81ad0f4b924643297ec7c476780b25218823fb",
+      "bytes": 404260,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0060.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0061.png",
+      "sha256": "fdae1347b9bd2bdc3bce7799b12f7cfdd6a6349be05a708a371b2f97fe9ef1eb",
+      "bytes": 421687,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0061.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0062.png",
+      "sha256": "c1156452c20264e9b5bf3d648b8cf2698e6e31ebfc026ff80a8659d158846919",
+      "bytes": 419730,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0062.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0063.png",
+      "sha256": "3d8125aab6de4c034509282c1f052404b450099075ac813ea8cfe54fca0f3456",
+      "bytes": 419591,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0063.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0064.png",
+      "sha256": "1f651dc9774ceb9e272a26b0f18a9cc00e9772ab2ebf8f0ca3911b1a982a9fb4",
+      "bytes": 420200,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0064.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0065.png",
+      "sha256": "47e2346426b38a638dbf135cc92765de26a50a4a63264a9c2f284f9086368d84",
+      "bytes": 416427,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0065.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0066.png",
+      "sha256": "98afdbabec1e7d2d793fb79967ab61c7a61754b17a354464fb7b2463c3f25061",
+      "bytes": 414826,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0066.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0067.png",
+      "sha256": "399c0d967dacda09c5824e989b51a94d1bc879a156fa54ced8e2910fa070db4b",
+      "bytes": 409305,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0067.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0068.png",
+      "sha256": "4497c6ca1ab267557e35888bd6880795500398f82a13aec8ebe50f908f95bcd9",
+      "bytes": 405111,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0068.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0069.png",
+      "sha256": "bf61e88997a4b1c47a9866af6622927c000a1e77828d90e67f690bd969c3bb5a",
+      "bytes": 404778,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0069.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0070.png",
+      "sha256": "84af715bedc8757bcea65bf92a994f4ceede894c2b5d5f278609b03c54582be2",
+      "bytes": 403369,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0070.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0071.png",
+      "sha256": "4fd2db2d4233b7d4972c84d9948881d356b8e796f817b9b518e4abca2e2dcfa5",
+      "bytes": 419121,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0071.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0072.png",
+      "sha256": "530a2fef05957278a8fa0acdb2a07634c5ab3813e3a3905db4ba7c4a5f2d4deb",
+      "bytes": 397922,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0072.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0073.png",
+      "sha256": "e355aaa778b405d2b5084c466f958a937a2324b34c20a0277754d73c919f6d80",
+      "bytes": 380540,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0073.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0074.png",
+      "sha256": "578d069227488f94a248f5cd29590b3dd576f95f7e443cdb209aaec62cd25628",
+      "bytes": 382211,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0074.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0075.png",
+      "sha256": "f1bc3b0b6936a226f59f13326518c321875685ed16ef7f87d973a256d3595442",
+      "bytes": 358083,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0075.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0076.png",
+      "sha256": "f1d6534f954e3648dea376681768ae084ab950a6f2162b413e9eefbf94b64202",
+      "bytes": 359571,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0076.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0077.png",
+      "sha256": "9aefcae4e0b38f0c46efe9240ab8ab22587995fbe68ad3b5c8298ede388e5454",
+      "bytes": 342350,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0077.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0078.png",
+      "sha256": "8b452e79fc5edcaf33c9bcdc88b265abb351912f626f0fff7fc107bf7e528798",
+      "bytes": 350686,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0078.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0079.png",
+      "sha256": "07653b9b0d9b9fab06b50e75ee939ec33a69533f41e05dca8e269b0ee38c5f84",
+      "bytes": 354260,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0079.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0080.png",
+      "sha256": "e2120c9d14c73e2de1a594de6a639d32c927f02e4469f131650f7211b85a41d3",
+      "bytes": 366144,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0080.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0081.png",
+      "sha256": "800f0168fc5ac9258df5ee823ef958d907a61a7e6ee93b97b7c2658f03c312e6",
+      "bytes": 404015,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0081.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0082.png",
+      "sha256": "a79926e4acbbe2eb5c62575dca0f9a19fe44e8f2ebc785e5927ee0d2aa071e78",
+      "bytes": 407895,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0082.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0083.png",
+      "sha256": "44a8021d3e720be4ac6802250a69a6da36c803ff07fb1c5a1c24124ce7161fc1",
+      "bytes": 407870,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0083.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0084.png",
+      "sha256": "84515e40230d36d3b2f2128d517b767281701e4be6670814b7293f3a14fd0908",
+      "bytes": 409394,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0084.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0085.png",
+      "sha256": "ebcc6f7e3e1017af05598468230c1ac0d94f5c1ecfb99e17063f1aa560975a62",
+      "bytes": 408616,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0085.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0086.png",
+      "sha256": "c940e0b68896b4f6a1923de343896a59fba5924abc108d320ba7fdaa0818aedd",
+      "bytes": 411632,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0086.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0087.png",
+      "sha256": "ea3ec30eff07ffec26892acca8b706ad51ef71528103cf14ecdc3821323c1df9",
+      "bytes": 419731,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0087.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0088.png",
+      "sha256": "473c132428a06f7c9401ecdb8dd7b762bf1cc4968990eeff513c731bde8f4a26",
+      "bytes": 418775,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0088.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0089.png",
+      "sha256": "71aeb7efd823d1594fb65e5a62744cdac5207a3508a0ca2654222a2cb4a46017",
+      "bytes": 419399,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0089.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0090.png",
+      "sha256": "51306f3e4cb51ffdeae183793b79fe2ce9d77d06b65ccff408d8ad9474983108",
+      "bytes": 416744,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0090.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0091.png",
+      "sha256": "7ed99024ba1d43be579eeedbf0a7da7592ade517fe7323cfdece034715a079df",
+      "bytes": 444545,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0091.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0092.png",
+      "sha256": "be6bffbcc37060d60a04e6f9e86de636d6fb9f4525034f548f639164b8a5bee7",
+      "bytes": 437368,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0092.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0093.png",
+      "sha256": "a9019b06010cac42da068971e04718deff91a10cfce417f12c6ee31aa7a71b84",
+      "bytes": 430680,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0093.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0094.png",
+      "sha256": "5ae675007db4e91a56b97a186f22d8f3954100cf56d55621a259317a39c24647",
+      "bytes": 428794,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0094.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0095.png",
+      "sha256": "8e9c36aee12d8a17eb9d891957da22e610877f710532ff77e9fa945f0fbd2e89",
+      "bytes": 432221,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0095.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0096.png",
+      "sha256": "f590fd34fa67cbe02a541ceea594220571e7cc9802198d04590cfcc95a5971f5",
+      "bytes": 433071,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0096.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0097.png",
+      "sha256": "c80f2f9870db76923cf5b88629f2d92914c6c31e4dee85b42fb3d27b00414eaf",
+      "bytes": 423468,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0097.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0098.png",
+      "sha256": "0fa444559b03c4c7fc5359ce3da698104b32b252ed92930468e02b9655f09cf5",
+      "bytes": 422041,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0098.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0099.png",
+      "sha256": "3ffb4185a61fe22138a2be880b77171788fcde762768c548f5931f55bdbd4390",
+      "bytes": 419040,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0099.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0100.png",
+      "sha256": "d21b35e38e1ca523131736375b0688e82ec8f77c7cc05657522c7cac046bb8d9",
+      "bytes": 420830,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0100.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0101.png",
+      "sha256": "f2a5a62f56eb9fb2cab98ece00a966e73abf6ccea45ad6dc6b0d4d8e7bd1a63d",
+      "bytes": 434036,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0101.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0102.png",
+      "sha256": "28613f01ce50337b53065fcc339afa0169bc2c7b3188d8fc8a2feac7e9d5ef60",
+      "bytes": 420318,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0102.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0103.png",
+      "sha256": "a817da9f1cb0f3b9baf28e22ed1022ce1ecaf02b065a27dc6422ba1a6b5bb434",
+      "bytes": 417539,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0103.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0104.png",
+      "sha256": "4c71bd1238f44cdc977d03b034d0cdd7daae342ea1ffbf47ce11123d557c89ec",
+      "bytes": 415792,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0104.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0105.png",
+      "sha256": "7cf0e8c1710b50848c0b37143bcdb84e1bd6149c362bbb8105eb111d78798ce5",
+      "bytes": 417057,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0105.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0106.png",
+      "sha256": "f2aed6db0dba5d227cbeed4a23d6ca2f177d3f1b679e968a32125b8efa3051a8",
+      "bytes": 417306,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0106.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0107.png",
+      "sha256": "8a8b6523fbe74b0e5a9600ee0e432f016cd286173ae3c1de49777b7dbf44176c",
+      "bytes": 416999,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0107.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0108.png",
+      "sha256": "6237df2116429b28978e12e246233a4952dc6586d7281a82d58fd2600c93a98c",
+      "bytes": 416270,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0108.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0109.png",
+      "sha256": "7f2bcfd965d02b20a7fbe32375b008a8d39d2cbec1159e2d99cedfbecb30c21b",
+      "bytes": 416933,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0109.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0110.png",
+      "sha256": "d7577fec207af91cf0d722e4447befa7b1de11826f723aa4d40c8cc9bf3027bf",
+      "bytes": 416186,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0110.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0111.png",
+      "sha256": "ddc9ee54d73d16e1302b9099ae7de3e25efd93cf16faeef01b8a3d11441869a3",
+      "bytes": 438232,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0111.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0112.png",
+      "sha256": "c1e29f13dcbe1a31bb183105cb81857cca9a161a934975b8bd72f4804a8dfc6a",
+      "bytes": 428234,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0112.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0113.png",
+      "sha256": "b0827408d2dc277c2fae7e2a319890ac93a8544a4833004d821e2188fe204a20",
+      "bytes": 427513,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0113.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0114.png",
+      "sha256": "3f220e5467544f45c0d63e3c663c3eeb2652829246a32f9f537399cec243f3a1",
+      "bytes": 423976,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0114.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0115.png",
+      "sha256": "b90a6168b8827e4b3ffe7b2b8998547a35ae743f09179c434c07978500ddfb1a",
+      "bytes": 423948,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0115.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0116.png",
+      "sha256": "52bc7035843d5cd8b97a614438d6a1bd40817bde338427ae0f4d9dbf31b94ba4",
+      "bytes": 426146,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0116.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0117.png",
+      "sha256": "7caca9293b8844b3248f677c69b4da9548943e62a716249c0d1c542fcf187a7d",
+      "bytes": 429111,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0117.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0118.png",
+      "sha256": "702e8be046dd3f7f2c59779abde9aa56e1b4ae57fce929e24fd23fc38eb324e6",
+      "bytes": 428519,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0118.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0119.png",
+      "sha256": "14fc3ae262f44322d58e0ce60c6229aa68f192bc84792334ab27a159994bd5fc",
+      "bytes": 429207,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0119.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0120.png",
+      "sha256": "da8e592a43190c905967b43d875f64f5acf0b8ee72e832b6ae3805a20c4c4826",
+      "bytes": 431159,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0120.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0121.png",
+      "sha256": "28890eda9c05345877b2d793851d5102afe725896f038510ba8ff503539d9955",
+      "bytes": 467256,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0121.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0122.png",
+      "sha256": "fd72f73dc3df6bed635a86404ea49247fce90f3fc57d3ec9df83b34c91948cac",
+      "bytes": 439924,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0122.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0123.png",
+      "sha256": "e2f120f5bc5b6e4c0a15a30b446e4cea6e40051f93398a7131f463ab7cfca884",
+      "bytes": 434365,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0123.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0124.png",
+      "sha256": "d8be5e4c38e8aeb58f4f4c3c88907d5ff250a724ce51238f835c9caaee50c7c1",
+      "bytes": 432573,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0124.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0125.png",
+      "sha256": "41b0d9014d58b0a32c359793187cea1b400c0eaaae1fa7fc285253ea92da201f",
+      "bytes": 439818,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0125.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0126.png",
+      "sha256": "96b0de5fc610a98d1135e2420db0ed3f6ba6145187b0905529c589b10ab334c9",
+      "bytes": 439460,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0126.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0127.png",
+      "sha256": "bc8c9425831f9a4beb2dacde8ab75e30b798ce3380e9626bf5e3845146f7e0cc",
+      "bytes": 422706,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0127.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0128.png",
+      "sha256": "7869caa9549220e3fd84b31d5ea138fd21596f6485debc8f597e196df8c61085",
+      "bytes": 419863,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0128.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0129.png",
+      "sha256": "dda5e4fb9e9ccd40329918a25f0bbc587f322fb8d7edd916a6eed58197f1bf84",
+      "bytes": 595772,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0129.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0130.png",
+      "sha256": "463fec3310682141fe1998f37b50da1d5adaaf0cafc83615e58f31865e33517a",
+      "bytes": 589504,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0130.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0131.png",
+      "sha256": "6615f93e537c1a3cd72a710eb0c548132104820e773b28a2afa41ef419e526a6",
+      "bytes": 556920,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0131.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0132.png",
+      "sha256": "6e24c39e0be895206b0fe67c380e53022a4427e7a27f09834f543820322e1e38",
+      "bytes": 498824,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0132.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0133.png",
+      "sha256": "7a7f7ed71449fac311d4be4e5e3806fbd3255268e9149ad45835f2f5e41dc90d",
+      "bytes": 466047,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0133.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0134.png",
+      "sha256": "9d16a0f4af6244172917fa841b7c917343addc91ab758cdc48df58da76f5dbf0",
+      "bytes": 473701,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0134.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0135.png",
+      "sha256": "a0391ebbf67908d2e0e92d79eb4ba743c0b32dcc03094bededf1fe596e110d9d",
+      "bytes": 476918,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0135.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0136.png",
+      "sha256": "5789ae35dfd63ae855b11a38d6f7f5af25741cfb103218c57033b1d8508344e0",
+      "bytes": 475302,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0136.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0137.png",
+      "sha256": "dfb10050aa95fe0710d296250fc5a5aedd24f9a3b43df6695c46f8e45a2d6793",
+      "bytes": 425145,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0137.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0138.png",
+      "sha256": "902409a2f9bea8702a87517a834d46ca8497f52bc774d4b502ff2d22ebfe0c5d",
+      "bytes": 426710,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0138.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0139.png",
+      "sha256": "4756046dbeb5d878e9a17682f71dae28a1835be08b691ae0231eb45a2c5eb6b4",
+      "bytes": 424372,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0139.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0140.png",
+      "sha256": "d60f38f363b7116f8c88235e363c0c79ab734daac167520386f408a986eed38b",
+      "bytes": 426206,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0140.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0141.png",
+      "sha256": "0f27e3a65ac746fc0e4d200cc9e373b49cb5381a82c16d8965a8974c6bef26e4",
+      "bytes": 443698,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0141.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0142.png",
+      "sha256": "597b9d7fa4b9a308eea7fae979b670c1079dee925658107e63cb0c15ae1e5db6",
+      "bytes": 381944,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0142.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0143.png",
+      "sha256": "0d2cad122e45949fa12200ad247a995f9f309765cbf88814b1538f4ac855ffef",
+      "bytes": 376591,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0143.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0144.png",
+      "sha256": "a4dab61cac6bde6b706df2b99c28de70367cc7ebad0526722eedf6e18afa88be",
+      "bytes": 378837,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0144.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0145.png",
+      "sha256": "9cf95c6c7de02a4bbf2b6e4e56882a524d3deaba54133a4536dde5b6dd305216",
+      "bytes": 394547,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0145.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0146.png",
+      "sha256": "2cdce1b14a654b97a35cd0fdfc63d0e1f459387e04b1ce5263b66bce95dfa380",
+      "bytes": 378133,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0146.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0147.png",
+      "sha256": "38aa9e552f85bda7704f5bccd5b5a47d2e4ae9ff47b63c0197d7559618b74bfc",
+      "bytes": 340539,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0147.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0148.png",
+      "sha256": "b21bb8c0656771a8f52ba785e971268887fa326e1e4799621f4757417ec79da0",
+      "bytes": 333165,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0148.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0149.png",
+      "sha256": "99bce66d92ad317f24e2f2d44b5939a02ef442cebf725ed414c4d489ace330b5",
+      "bytes": 329952,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0149.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0150.png",
+      "sha256": "46149f817b44aca397ca74792630ee42b1a9241a6832797d04e54f6c08d3d56a",
+      "bytes": 330932,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0150.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/character/0151.png",
+      "sha256": "b10dfedb1390d6e1a8c5949ca494e0250f679bafcff2d10bf33e9c19aba63e9b",
+      "bytes": 381282,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/character/0151.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/public/workbuddy.png",
+      "sha256": "00df064bec6e3b31f5e674a7833b7c43be1508ed195b2058a0bc9d49971745af",
+      "bytes": 880328,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/public/workbuddy.png"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/BrandVisibility.tsx",
+      "sha256": "3d32907cefca884072b95f32681d4445952150c5f561408db518724aa4f953ee",
+      "bytes": 90,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/BrandVisibility.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/Opening.tsx",
+      "sha256": "544625c1db302fa4424edbf2e11fe9abb8257c5055e441e4c0ba951f356370d6",
+      "bytes": 10079,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/Opening.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/clock.mjs",
+      "sha256": "af184b6fd98cc27f38d1140fdf26846bb3d83a47f78be9da1fac0589d75c7e1f",
+      "bytes": 311,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/clock.mjs"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Bridges.tsx",
+      "sha256": "448f5d4ea012aecbb910820783336c7aace8bd28104636836132befca4ed380e",
+      "bytes": 1355,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Bridges.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip1.tsx",
+      "sha256": "0d2ab2f2a8b0658c090dc3a2d93131c8313cf0d2f366ad0bfd8f3e2898aadc96",
+      "bytes": 1810,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip1.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip2.tsx",
+      "sha256": "c14b7676fe43aaf2e77ae928fa12be4a0413956ea13b9653d2b55e57b3c0f067",
+      "bytes": 1761,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip2.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip3.tsx",
+      "sha256": "42aecf842820d37fc7f6ce05db29a8d7219eebc2389e64e4df3efba6dc3fb639",
+      "bytes": 2044,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip3.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip4.tsx",
+      "sha256": "8c59ec8ded033038be67af6607fe9b177d194768352981a6beb4875b82d71db5",
+      "bytes": 2306,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/Clip4.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/joins.mjs",
+      "sha256": "7cb18b2f519dab2681a37fe7c3662a936aaf6d10b85e41211b01ed2d096b9c30",
+      "bytes": 576,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/joins.mjs"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/shared.tsx",
+      "sha256": "2d9a7c19631fbc38b04be8630460cdf8c5d5e76987f1c33a41ff66f954eaec66",
+      "bytes": 3017,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/continuous-v1/src/shared.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/Closing.tsx",
+      "sha256": "95fac44774c746aef72d4e10788eda884af510c5a48a7c1558f630acd6ea925e",
+      "bytes": 5802,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/Closing.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/MaterialsTrial.tsx",
+      "sha256": "c3745ad2a48ecf55792f7cbe6f26934b38ebcb792521b756913173648a0d7190",
+      "bytes": 4505,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/MaterialsTrial.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/Responsibility.tsx",
+      "sha256": "6dcebd477d0f0d450db597dc41225e8576e9064b791e745c5f36c4253792c8cb",
+      "bytes": 3686,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/Responsibility.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/graphics.tsx",
+      "sha256": "0d4946f557939fc322a1a75a450b6b9df9310a5f831f2486ff9ad421de71d6ee",
+      "bytes": 1964,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/followup-v1/src-repair/graphics.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/index.tsx",
+      "sha256": "8e318f0da0edbfe1c28bdd4d77712854b6a521487bdb11926d3cefd8e616652b",
+      "bytes": 2164,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Chain.tsx",
+      "sha256": "b9318147f30e100b3534ed5c9dd26c6d33e2f8254c998bfc69daaedf5739307f",
+      "bytes": 2357,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Chain.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Materials.tsx",
+      "sha256": "ee2cd5e7f82fea413682447ace1b54e86e3efead611322dc9b278a733e375155",
+      "bytes": 4209,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Materials.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/ObjectHandoff.tsx",
+      "sha256": "4f7c1d308ca5eb845f0606120bee39e7d2aec0bf86c49bf1351bf7874f2d4102",
+      "bytes": 2996,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/ObjectHandoff.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Scene.tsx",
+      "sha256": "a9de2de1576af2b9e8aa7215f6101da7281fb4f82157f6dfbb08d9dbe5af15dd",
+      "bytes": 4780,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Scene.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Teaching.tsx",
+      "sha256": "05789a4ab9c3788b422ff4b32962d4e245ade91ec672eed9ec8c6983de9705b6",
+      "bytes": 4690,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/Teaching.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/handoff-state.mjs",
+      "sha256": "b33c4f91a5e9786cd7fb3c6ff8b7a7ac4775eba7bb92657ed06a52a6c5fcda94",
+      "bytes": 414,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/handoff-state.mjs"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/primitives.tsx",
+      "sha256": "1e0cbfd0aa73cf134ff70e5da14080ba2228b3e67730cf8ee0412f52894e2866",
+      "bytes": 2453,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/primitives.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/summary-state.mjs",
+      "sha256": "9a1573a05691fc2169566cef4e008f42b8876526262a4889b59ee4badcb72bf6",
+      "bytes": 107,
+      "sourcePath": "originals/ep87/character-opening-integrated-v1/src/replacement-seven-continuity-v2/src/summary-state.mjs"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/ep87/continuous-v1/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/public/pop.mp3",
+      "sha256": "14aad47518786ea2556b45f050fed2a301d521ff9dedd46b73701b3cc3d54a2e",
+      "bytes": 15239,
+      "sourcePath": "originals/ep87/continuous-v1/public/pop.mp3"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/public/workbuddy.png",
+      "sha256": "00df064bec6e3b31f5e674a7833b7c43be1508ed195b2058a0bc9d49971745af",
+      "bytes": 880328,
+      "sourcePath": "originals/ep87/continuous-v1/public/workbuddy.png"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/Bridges.tsx",
+      "sha256": "448f5d4ea012aecbb910820783336c7aace8bd28104636836132befca4ed380e",
+      "bytes": 1355,
+      "sourcePath": "originals/ep87/continuous-v1/src/Bridges.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/Clip1.tsx",
+      "sha256": "0d2ab2f2a8b0658c090dc3a2d93131c8313cf0d2f366ad0bfd8f3e2898aadc96",
+      "bytes": 1810,
+      "sourcePath": "originals/ep87/continuous-v1/src/Clip1.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/Clip2.tsx",
+      "sha256": "c14b7676fe43aaf2e77ae928fa12be4a0413956ea13b9653d2b55e57b3c0f067",
+      "bytes": 1761,
+      "sourcePath": "originals/ep87/continuous-v1/src/Clip2.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/Clip3.tsx",
+      "sha256": "42aecf842820d37fc7f6ce05db29a8d7219eebc2389e64e4df3efba6dc3fb639",
+      "bytes": 2044,
+      "sourcePath": "originals/ep87/continuous-v1/src/Clip3.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/Clip4.tsx",
+      "sha256": "8c59ec8ded033038be67af6607fe9b177d194768352981a6beb4875b82d71db5",
+      "bytes": 2306,
+      "sourcePath": "originals/ep87/continuous-v1/src/Clip4.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/joins.mjs",
+      "sha256": "7cb18b2f519dab2681a37fe7c3662a936aaf6d10b85e41211b01ed2d096b9c30",
+      "bytes": 576,
+      "sourcePath": "originals/ep87/continuous-v1/src/joins.mjs"
+    },
+    {
+      "file": "runtime/originals/ep87/continuous-v1/src/shared.tsx",
+      "sha256": "23eda8fc92b727c1d12a53e420f3608e3a4cdb48d4122a19fc441712e2515670",
+      "bytes": 3018,
+      "sourcePath": "originals/ep87/continuous-v1/src/shared.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/manifest.json",
+      "sha256": "a0d98dd014aaedef2151ad86fe489afad8e8294dd40ba3d7468391d38bcc7faf",
+      "bytes": 33013,
+      "sourcePath": "originals/ep87/followup-v1/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src-repair/Closing.tsx",
+      "sha256": "95fac44774c746aef72d4e10788eda884af510c5a48a7c1558f630acd6ea925e",
+      "bytes": 5802,
+      "sourcePath": "originals/ep87/followup-v1/src-repair/Closing.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src-repair/MaterialsTrial.tsx",
+      "sha256": "c3745ad2a48ecf55792f7cbe6f26934b38ebcb792521b756913173648a0d7190",
+      "bytes": 4505,
+      "sourcePath": "originals/ep87/followup-v1/src-repair/MaterialsTrial.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src-repair/Responsibility.tsx",
+      "sha256": "6dcebd477d0f0d450db597dc41225e8576e9064b791e745c5f36c4253792c8cb",
+      "bytes": 3686,
+      "sourcePath": "originals/ep87/followup-v1/src-repair/Responsibility.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src-repair/graphics.tsx",
+      "sha256": "0d4946f557939fc322a1a75a450b6b9df9310a5f831f2486ff9ad421de71d6ee",
+      "bytes": 1964,
+      "sourcePath": "originals/ep87/followup-v1/src-repair/graphics.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src-repair/index.tsx",
+      "sha256": "546b36f1ef043a6a2994e796b9ed9f44d9c97287a8f776e0cbb647f652f17240",
+      "bytes": 3224,
+      "sourcePath": "originals/ep87/followup-v1/src-repair/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src/Closing.tsx",
+      "sha256": "005146b3f2be608d1ee673ae5c024b1e4827bab77f9f00eeb8176b39f52b31db",
+      "bytes": 5666,
+      "sourcePath": "originals/ep87/followup-v1/src/Closing.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src/MaterialsTrial.tsx",
+      "sha256": "dae2c285a43f8290d88740503482bfc132e369757c007bec3142286c67348f6f",
+      "bytes": 4477,
+      "sourcePath": "originals/ep87/followup-v1/src/MaterialsTrial.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src/Responsibility.tsx",
+      "sha256": "92186eac9a732acfd1323e2bd8435045476611f0d54bfad2d6434a4f7b0b2053",
+      "bytes": 3685,
+      "sourcePath": "originals/ep87/followup-v1/src/Responsibility.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src/graphics.tsx",
+      "sha256": "0d4946f557939fc322a1a75a450b6b9df9310a5f831f2486ff9ad421de71d6ee",
+      "bytes": 1964,
+      "sourcePath": "originals/ep87/followup-v1/src/graphics.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/followup-v1/src/index.tsx",
+      "sha256": "05fc39250b6e6d13648e0929a32e4bcebd9cf779c040266061bed9088a54be07",
+      "bytes": 4093,
+      "sourcePath": "originals/ep87/followup-v1/src/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/manifest.json",
+      "sha256": "2b3a10db655d6776d7208733435bfe72245780feee0318354b57d34a6f39f613",
+      "bytes": 36373,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/manifest.json"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/Chain.tsx",
+      "sha256": "b9318147f30e100b3534ed5c9dd26c6d33e2f8254c998bfc69daaedf5739307f",
+      "bytes": 2357,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/Chain.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/Materials.tsx",
+      "sha256": "ee2cd5e7f82fea413682447ace1b54e86e3efead611322dc9b278a733e375155",
+      "bytes": 4209,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/Materials.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/ObjectHandoff.tsx",
+      "sha256": "4f7c1d308ca5eb845f0606120bee39e7d2aec0bf86c49bf1351bf7874f2d4102",
+      "bytes": 2996,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/ObjectHandoff.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/Teaching.tsx",
+      "sha256": "05789a4ab9c3788b422ff4b32962d4e245ade91ec672eed9ec8c6983de9705b6",
+      "bytes": 4690,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/Teaching.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/handoff-state.mjs",
+      "sha256": "b33c4f91a5e9786cd7fb3c6ff8b7a7ac4775eba7bb92657ed06a52a6c5fcda94",
+      "bytes": 414,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/handoff-state.mjs"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/index.tsx",
+      "sha256": "15d00700a26b24461e6a69c0f786d43108fc97b2a1b6c7d49352b9e482c13425",
+      "bytes": 4874,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/index.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/primitives.tsx",
+      "sha256": "1e0cbfd0aa73cf134ff70e5da14080ba2228b3e67730cf8ee0412f52894e2866",
+      "bytes": 2453,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/primitives.tsx"
+    },
+    {
+      "file": "runtime/originals/ep87/replacement-seven-continuity-v2/src/summary-state.mjs",
+      "sha256": "9a1573a05691fc2169566cef4e008f42b8876526262a4889b59ee4badcb72bf6",
+      "bytes": 107,
+      "sourcePath": "originals/ep87/replacement-seven-continuity-v2/src/summary-state.mjs"
+    },
+    {
+      "file": "runtime/originals/style-runtime/approved-manifest.json",
+      "sha256": "d2d0e9f06d0f098ffaa5f202a1476dc5b4ffcb3d3623c567ff6a4281dcf750b7",
+      "bytes": 81912,
+      "sourcePath": "originals/style-runtime/approved-manifest.json"
+    },
+    {
+      "file": "runtime/originals/style-runtime/production/v7/manifest.json",
+      "sha256": "eccf54c603239a909577ac3b25983b20993c1423c714d782d0b56a765f1cb7bd",
+      "bytes": 9560,
+      "sourcePath": "originals/style-runtime/production/v7/manifest.json"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/characters/fred-base.png",
+      "sha256": "1055377397df1ed47295ed6f1ea3adc3b2da0f08ea027987988b73824cdff66b",
+      "bytes": 77775,
+      "sourcePath": "originals/style-runtime/public/characters/fred-base.png"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/characters/fred-confirming.png",
+      "sha256": "d24dd2130eac18a64d912d0d5a9c79eca89152d02733f65878610c7b58c85691",
+      "bytes": 204026,
+      "sourcePath": "originals/style-runtime/public/characters/fred-confirming.png"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/characters/fred-judging.png",
+      "sha256": "e844563630f908316ebc5ad854c8f3a2ca2b63ef3084e3464daa2f35763cf743",
+      "bytes": 178091,
+      "sourcePath": "originals/style-runtime/public/characters/fred-judging.png"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/characters/fred-pointing.png",
+      "sha256": "69312dd08cabf6c57a9f5e03e5bfef00b345d28aabf4e7536d54578222c10d14",
+      "bytes": 204367,
+      "sourcePath": "originals/style-runtime/public/characters/fred-pointing.png"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/characters/fred-poses.png",
+      "sha256": "b2b6795bf46f2e6615149c9b3283fa265608087c6e5e7150f96d649a08f9afac",
+      "bytes": 756322,
+      "sourcePath": "originals/style-runtime/public/characters/fred-poses.png"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/characters/fred-thinking.png",
+      "sha256": "1bc5ec676a314a63be69a6bc5a7340ede27d7bf348f77390a6a029be37124a4e",
+      "bytes": 184214,
+      "sourcePath": "originals/style-runtime/public/characters/fred-thinking.png"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784,
+      "sourcePath": "originals/style-runtime/public/fonts/MiSans-Medium.otf"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232,
+      "sourcePath": "originals/style-runtime/public/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/sfx/click.wav",
+      "sha256": "a08f745c93b9e38758f12a4c16414248a2987fdecab1d3f17517212ac94c52c0",
+      "bytes": 69676,
+      "sourcePath": "originals/style-runtime/public/sfx/click.wav"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/sfx/pop.wav",
+      "sha256": "928912a69b8ad3baa66f4ca3b031142a468d76c11cf10876edfb043202d7d27f",
+      "bytes": 69676,
+      "sourcePath": "originals/style-runtime/public/sfx/pop.wav"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/sfx/scroll.mp3",
+      "sha256": "f2057ad17a4a97f2bf3e5e10a19cde64c50197ce65bff3cc0a7092399ea23783",
+      "bytes": 24813,
+      "sourcePath": "originals/style-runtime/public/sfx/scroll.mp3"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/sfx/swipe.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/style-runtime/public/sfx/swipe.wav"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/sfx/typewriter.wav",
+      "sha256": "81172932e04fe6891465a6a2750041d368398ee3779b3c9ddd945967fd4945c7",
+      "bytes": 2994220,
+      "sourcePath": "originals/style-runtime/public/sfx/typewriter.wav"
+    },
+    {
+      "file": "runtime/originals/style-runtime/public/sfx/whoosh.wav",
+      "sha256": "204fa94eee51bf1be8a53ede809a8d9f2971e4518c55e67553c902ca3c000d8e",
+      "bytes": 94252,
+      "sourcePath": "originals/style-runtime/public/sfx/whoosh.wav"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/PathBuild.tsx",
+      "sha256": "24775cca83267dc2458fdcfc850130a27dab4f2383a8189a947cbd8e3dfba1aa",
+      "bytes": 1535,
+      "sourcePath": "originals/style-runtime/src/PathBuild.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/ReferenceRoot.tsx",
+      "sha256": "5d304761f0f21b4cc99e829af7ec49f621438503b1105e75a32ca9c06f550b07",
+      "bytes": 2964,
+      "sourcePath": "originals/style-runtime/src/ReferenceRoot.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/ShapeExpand.tsx",
+      "sha256": "4f9b23bdbea75c54da8006e7e05935362d77527db6986c864e32c977cd5e69f8",
+      "bytes": 1359,
+      "sourcePath": "originals/style-runtime/src/ShapeExpand.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/TerminalList.tsx",
+      "sha256": "393b5a8b64495d20088ad93b12569944ac33f5d7fbc6f1bf8fa4e4861c9ba173",
+      "bytes": 1298,
+      "sourcePath": "originals/style-runtime/src/TerminalList.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/TwoBeat.tsx",
+      "sha256": "e4afe073b8d7d3aa46c4c8c54feaee1bc9bbe2c5a1e954aa21e64c0eb9c618ca",
+      "bytes": 1310,
+      "sourcePath": "originals/style-runtime/src/TwoBeat.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/WordGrid.tsx",
+      "sha256": "f9d46c76a865f1aa11abd1efdd60826c68b779314a18ae6023023427f24a61d7",
+      "bytes": 1472,
+      "sourcePath": "originals/style-runtime/src/WordGrid.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/carriers.tsx",
+      "sha256": "648dcdc219cdaaf9d6df4047d93b0b87cf8c3209ed80368e8d9004e557e545cb",
+      "bytes": 3890,
+      "sourcePath": "originals/style-runtime/src/carriers.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/samples/Sample02ModuleSplit.tsx",
+      "sha256": "c3375d1fe32308201cafbe2a631bee26764b55540010eda6d0f2abe34fc06086",
+      "bytes": 1504,
+      "sourcePath": "originals/style-runtime/src/samples/Sample02ModuleSplit.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/samples/Sample03PhoneCounter.tsx",
+      "sha256": "736e0fac39e86b2189c3c49401401c4d1fd3fcd1db20bb3c2b3dae85ee128051",
+      "bytes": 1793,
+      "sourcePath": "originals/style-runtime/src/samples/Sample03PhoneCounter.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/samples/Sample05MonitorEmergence.tsx",
+      "sha256": "8765a8252d4e81093b5633e1061cebc981a30076a92c4afc46c8e0de5df0149f",
+      "bytes": 2019,
+      "sourcePath": "originals/style-runtime/src/samples/Sample05MonitorEmergence.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/samples/Sample06SlotJudgment.tsx",
+      "sha256": "1e0ec3e272c3462de22a95d93ed20a58b4c431041624a4f6346aa6585a208810",
+      "bytes": 1388,
+      "sourcePath": "originals/style-runtime/src/samples/Sample06SlotJudgment.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/shared.tsx",
+      "sha256": "3d26a57ff5255757542d95dead7bf68edff32d838700b4db5cd92319a4503e9d",
+      "bytes": 2301,
+      "sourcePath": "originals/style-runtime/src/shared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v10/FieldEffects.tsx",
+      "sha256": "b567a886b4b35b8852d3b8d2411cc40c2b39f033deceef63ec70ead71a82f04d",
+      "bytes": 3688,
+      "sourcePath": "originals/style-runtime/src/v10/FieldEffects.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v10/MotionShared.tsx",
+      "sha256": "ae745dc32ecdad3e6edc95fc5f1c2319b831b7edd66a0f704358e8ac97571655",
+      "bytes": 2179,
+      "sourcePath": "originals/style-runtime/src/v10/MotionShared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v10/SpatialEffects.tsx",
+      "sha256": "81fc47aa023557c715dccd949412cb00b26ffe0242df077ab9722ec327d76916",
+      "bytes": 4219,
+      "sourcePath": "originals/style-runtime/src/v10/SpatialEffects.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v10/WindowEffects.tsx",
+      "sha256": "b0baa7429bcecb65f52ae4225186e952a93b5a896c9762116299bb3267e6bd46",
+      "bytes": 3930,
+      "sourcePath": "originals/style-runtime/src/v10/WindowEffects.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v10/WipeEffects.tsx",
+      "sha256": "8e4dc0954f39969b42cc7811bf886d288d5bb30b4bc5af2c2271c7dd15467568",
+      "bytes": 3492,
+      "sourcePath": "originals/style-runtime/src/v10/WipeEffects.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v10/index.ts",
+      "sha256": "7f32d18ada0890f32439ac0e1bd3fdede22d549d7617b4530a2756de52ece8eb",
+      "bytes": 418,
+      "sourcePath": "originals/style-runtime/src/v10/index.ts"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v11/V11Shared.tsx",
+      "sha256": "6d75a43657ee5dc673fb390889dd5ab01f9796f3715015143340b52e288fb5bf",
+      "bytes": 2349,
+      "sourcePath": "originals/style-runtime/src/v11/V11Shared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v11/types.ts",
+      "sha256": "6d67c68348ed283cdd32072d405d30ee729aa9e8000c87648213bb13388cd488",
+      "bytes": 558,
+      "sourcePath": "originals/style-runtime/src/v11/types.ts"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v13-reviewed-fixes/V13Sample.tsx",
+      "sha256": "e0dbebd5382c2d7f8456257eea4226406dded576e90ee7c55e60b1fa61691750",
+      "bytes": 1910,
+      "sourcePath": "originals/style-runtime/src/v13-reviewed-fixes/V13Sample.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v13-reviewed-fixes/types.ts",
+      "sha256": "620ee308b758e9af4671fc8649307289daf43671bbb133585c5f35d687e904b7",
+      "bytes": 213,
+      "sourcePath": "originals/style-runtime/src/v13-reviewed-fixes/types.ts"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/AttachmentSamples.tsx",
+      "sha256": "86ef2482c944377801739d1a5ef7a2b61ce7632f45b66cb29cc801c43e5a7a22",
+      "bytes": 3988,
+      "sourcePath": "originals/style-runtime/src/v5/AttachmentSamples.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/CharacterSamples.tsx",
+      "sha256": "ac6da8c41c5322ee10641bf299e6b23c3ced177c060b7f9ec4b5bd1babc74045",
+      "bytes": 3301,
+      "sourcePath": "originals/style-runtime/src/v5/CharacterSamples.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/EvidenceSamples.tsx",
+      "sha256": "d90c79923af559746bcba012c12e922de27a5cdd7ca07d807b85b3289f46d259",
+      "bytes": 3899,
+      "sourcePath": "originals/style-runtime/src/v5/EvidenceSamples.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/TransitionSamples.tsx",
+      "sha256": "4a4437a580231c27d869c48b4e46f79f4cd15052fbc2a9ea2a4a330dc8ff0f43",
+      "bytes": 3793,
+      "sourcePath": "originals/style-runtime/src/v5/TransitionSamples.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/TypographySamples.tsx",
+      "sha256": "7339cf44fd3cfdc45916bae71407b99e96e8169628c5e2c9c547f1b796d10beb",
+      "bytes": 2875,
+      "sourcePath": "originals/style-runtime/src/v5/TypographySamples.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/V5Sample.tsx",
+      "sha256": "d626116936369e333cce454a3af67d0e01d177ada761bbdd198f5750660a60d3",
+      "bytes": 689,
+      "sourcePath": "originals/style-runtime/src/v5/V5Sample.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/V5Shared.tsx",
+      "sha256": "0e566a9fec63a922be68b4614c987b2104c8c6227a2c6579fdf251a5744e1e09",
+      "bytes": 4344,
+      "sourcePath": "originals/style-runtime/src/v5/V5Shared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v5/types.ts",
+      "sha256": "58b7f2c28be6fb16fea85e72ad2ba26954ed9c34cd6fbed92120ec3781540a69",
+      "bytes": 278,
+      "sourcePath": "originals/style-runtime/src/v5/types.ts"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v6/V6Characters.tsx",
+      "sha256": "1cc94d0643a4f40555b39ddb7ef0f688a8e26eb12823475e65b23ba151458e8b",
+      "bytes": 2894,
+      "sourcePath": "originals/style-runtime/src/v6/V6Characters.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v6/V6Sample.tsx",
+      "sha256": "717dce2b64ab060a15df9fdf3c8482f0c578cfd64813c5d7d132b7bde07c77c6",
+      "bytes": 641,
+      "sourcePath": "originals/style-runtime/src/v6/V6Sample.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v6/V6Shared.tsx",
+      "sha256": "3f43af0cedc613ddf18cad90cf6b80cc44d3b5602fb1846b20f8faf415253c7b",
+      "bytes": 2559,
+      "sourcePath": "originals/style-runtime/src/v6/V6Shared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v6/V6TransitionAttachment.tsx",
+      "sha256": "bd367783d674f9dfbd104dd53a52d6db0907fab5a10aff8fb763c1f3068711c0",
+      "bytes": 4844,
+      "sourcePath": "originals/style-runtime/src/v6/V6TransitionAttachment.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v6/V6TypographyEvidence.tsx",
+      "sha256": "db4b9e80c4f51a9447d34b5a84df6d2ff006ab9e2f524ba0f81f5f1debad4f22",
+      "bytes": 4603,
+      "sourcePath": "originals/style-runtime/src/v6/V6TypographyEvidence.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v7/V7MediaStages.tsx",
+      "sha256": "a9ad9cd74d70b21cab1d5ce89a84e21650093d4844078218a5d9409013369206",
+      "bytes": 5253,
+      "sourcePath": "originals/style-runtime/src/v7/V7MediaStages.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v7/V7ResultStages.tsx",
+      "sha256": "c3c573264253a83b4af63e1d50e46b18671cf98ba65bd91e0ac897505c856bca",
+      "bytes": 2402,
+      "sourcePath": "originals/style-runtime/src/v7/V7ResultStages.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v7/V7Sample.tsx",
+      "sha256": "4e3b76a9af737849ca141ca827a04568f6eca4d35d303e12b3857947386165aa",
+      "bytes": 808,
+      "sourcePath": "originals/style-runtime/src/v7/V7Sample.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v7/V7Shared.tsx",
+      "sha256": "ff9e541b842336bcf2694c52289f9f7c3682e4a72e9a59dd8b529d5cf65adc23",
+      "bytes": 3210,
+      "sourcePath": "originals/style-runtime/src/v7/V7Shared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v7/V7TypeStages.tsx",
+      "sha256": "8990328d2e3993d4c9a807ebcde9a67e16cc487aaa20ab62c8e0b101fa1cc6c4",
+      "bytes": 4500,
+      "sourcePath": "originals/style-runtime/src/v7/V7TypeStages.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v7/types.ts",
+      "sha256": "946054e2d0e9ead5f102fe3b4c6eb2345357a6e7794d42647d392de62a916a2f",
+      "bytes": 95,
+      "sourcePath": "originals/style-runtime/src/v7/types.ts"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/V8DevicesMedia.tsx",
+      "sha256": "c7c59dce2ac9563efd4a32d79f7af9306d23969ec45f8e98921344a71774dcb3",
+      "bytes": 9444,
+      "sourcePath": "originals/style-runtime/src/v8/V8DevicesMedia.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/V8Editorial.tsx",
+      "sha256": "bd3da4b9aaa4af7e1ffb15d05a5604c7f7066dd01b919b142febb861cbd1b14a",
+      "bytes": 3546,
+      "sourcePath": "originals/style-runtime/src/v8/V8Editorial.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/V8Product.tsx",
+      "sha256": "8423a1c2a150dbd1b8f30c1cf2e44e0961dcaf1d4f35e7e6c8f3aa3a4c4c5764",
+      "bytes": 6224,
+      "sourcePath": "originals/style-runtime/src/v8/V8Product.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/V8Redesign.tsx",
+      "sha256": "eceeffb985fdf9b5a2dc3f6a460c9adb099ae200895129d62ab7d1e0c01f2aee",
+      "bytes": 4786,
+      "sourcePath": "originals/style-runtime/src/v8/V8Redesign.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/V8Sample.tsx",
+      "sha256": "b95b4f1a3f2ea371c058f842000ea1af5b8e20d904710112779d8d598e058bcd",
+      "bytes": 1550,
+      "sourcePath": "originals/style-runtime/src/v8/V8Sample.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/V8Shared.tsx",
+      "sha256": "1b011c8cd1b1a02b11142fb0f7a65fe47d70a7272b65eb5ac41e4485fecd0796",
+      "bytes": 2743,
+      "sourcePath": "originals/style-runtime/src/v8/V8Shared.tsx"
+    },
+    {
+      "file": "runtime/originals/style-runtime/src/v8/types.ts",
+      "sha256": "fa49adeb61e6bf81d1a41ba1600d39730294dac75a1daffc54f42d6956a03eeb",
+      "bytes": 92,
+      "sourcePath": "originals/style-runtime/src/v8/types.ts"
+    },
+    {
+      "file": "runtime/originals/third-opening-repair/docs/manifest.json",
+      "sha256": "94f46ff41ccb9865ee1d6b74ad7e54683a7dfa1ef51ae9909da3c2b5d27ce365",
+      "bytes": 267,
+      "sourcePath": "originals/third-opening-repair/docs/manifest.json"
+    },
+    {
+      "file": "runtime/package.json",
+      "sha256": "c68c1fa1bd1554fac528d1a137337d7f5053db669df06b8fe8f3724d5871f114",
+      "bytes": 219,
+      "sourcePath": null,
+      "generatedFrom": "plan.runtimeDependencies"
+    },
+    {
+      "file": "runtime/remotion/archive-entries/library.tsx",
+      "sha256": "e3378dbafc287b5a8d614fff57e9b07cfc38a7fdd769e765204b6fe54bcb9ce3",
+      "bytes": 140,
+      "sourcePath": "remotion/archive-entries/library.tsx"
+    },
+    {
+      "file": "runtime/remotion/archive-entries/characters-v5.tsx",
+      "sha256": "7b11b854ecde34f58a4f323aeacf019fe02f0e30fe1d0a4cdd63e58a26c33059",
+      "bytes": 147,
+      "sourcePath": "remotion/archive-entries/characters-v5.tsx"
+    },
+    {
+      "file": "runtime/remotion/archive-entries/characters-v6.tsx",
+      "sha256": "2d44c2148bd5f5b20adb393081009cd7cd722f6e9f5ad8e5f233f9e8e3365eed",
+      "bytes": 147,
+      "sourcePath": "remotion/archive-entries/characters-v6.tsx"
+    },
+    {
+      "file": "runtime/remotion/archive-entries/style-legacy.tsx",
+      "sha256": "1c6454b27548b8efbe49063667e9a379eeba80379581b29c702dc181a1258537",
+      "bytes": 474,
+      "sourcePath": "remotion/archive-entries/style-legacy.tsx"
+    },
+    {
+      "file": "runtime/remotion/archive-entries/style.tsx",
+      "sha256": "ec56da3e18e93e97473a160d1b3c3618c78792645689357f33697f722062bfe7",
+      "bytes": 174,
+      "sourcePath": "remotion/archive-entries/style.tsx"
+    },
+    {
+      "file": "videos/current/fred-motion-source-002b4cf2c1b56089.mp4",
+      "sha256": "002b4cf2c1b56089cc3bdff14027117082a0b2d863b947a96c7263f5d91888e1",
+      "bytes": 1145419,
+      "sourcePath": "originals/media/03_人物带字__character-07-v5-a-07A_把注意力_放回关键问题_V5_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-005b0a3668a4e611.mp4",
+      "sha256": "005b0a3668a4e611c0f731e3030139715dd944bedd6c141956b45069d337ee5e",
+      "bytes": 565050,
+      "sourcePath": "originals/media/02_Skill动效__ApprovedV402ModuleSplit-v12-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-038c49a035dc6fdb.mp4",
+      "sha256": "038c49a035dc6fdb87bd1e91600fe9608cbff9f6dd431e14abb9acef50f85d70",
+      "bytes": 373757,
+      "sourcePath": "originals/media/02_Skill动效__Fred86Reference29.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-0eaefdf4e21f4ea9.webm",
+      "sha256": "0eaefdf4e21f4ea95a178f02c297aa5c62590c984b7a32874930e341a9735f70",
+      "bytes": 1331278,
+      "sourcePath": "originals/media/04_透明人物__Fred_振作展示_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-155af3b80a5d0aa6.mp4",
+      "sha256": "155af3b80a5d0aa653bd4aacf1a59bb4976392ea5bcc7e024aedc5678091b99f",
+      "bytes": 2623613,
+      "sourcePath": "originals/media/87_Remotion__ep87-group-3-r2-continuous-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-17d9e7ac6e30e679.mp4",
+      "sha256": "17d9e7ac6e30e679b628e4b8ec26823bd90dac21a3f4de9d3cb1a1477dfab576",
+      "bytes": 361131,
+      "sourcePath": "originals/media/02_Skill动效__Fred86Reference27.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-18358c1869e1072a.mp4",
+      "sha256": "18358c1869e1072a5041c7c375586af963aa9e6c5431cbac2f77e166f39fe98b",
+      "bytes": 843769,
+      "sourcePath": "originals/media/01_淡紫新版__C09-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-1dfc94887a443768.mp4",
+      "sha256": "1dfc94887a443768d2f8864da74535c9718da0b84d40807881a31e39bf77a398",
+      "bytes": 647319,
+      "sourcePath": "originals/media/01_淡紫新版__C05-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-241660bba4883c4c.mp4",
+      "sha256": "241660bba4883c4c44872ff31ac09ded8b5f271aa5d90af8c726ab954206ff88",
+      "bytes": 1117991,
+      "sourcePath": "originals/media/03_人物带字__character-04-v5-a-04A_先别急着找答案_把问题想清楚_V5_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-27de8d557f62cd7d.webm",
+      "sha256": "27de8d557f62cd7df5e4e3413a67987cb9834d81cefd57eaaa9b4f3031d1ee73",
+      "bytes": 1568578,
+      "sourcePath": "originals/media/04_透明人物__Fred_皱眉思考_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-2a0c6fa17faf8a76.mp4",
+      "sha256": "2a0c6fa17faf8a763f1096a84a642d428efd8301cb413ad36a2e449580a166b3",
+      "bytes": 956496,
+      "sourcePath": "originals/media/03_人物带字__character-05-v5-a-05A_问题不在努力_而在方向_V5_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-2d6091077a210695.mp4",
+      "sha256": "2d6091077a2106953b52ac5af8f683c0b401fca93a7e4a9d0dea9e72fa3ef81c",
+      "bytes": 166492,
+      "sourcePath": "originals/media/87_Remotion__2d609107__ep87-part-03-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-32c0682a30086d90.mp4",
+      "sha256": "32c0682a30086d90f62ad4ca3d3cfa7bfc0866eac1459318bd9d1b80441347b5",
+      "bytes": 2541084,
+      "sourcePath": "originals/media/87_Remotion__ep87-group-3-repaired-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-398a0189ae62b0ba.mp4",
+      "sha256": "398a0189ae62b0ba434a615785173837bdd19a34614c26d129f79de55ea3fd62",
+      "bytes": 435270,
+      "sourcePath": "originals/media/02_Skill动效__Fred86Reference15.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-3ac3e90a812732a8.mp4",
+      "sha256": "3ac3e90a812732a8d8a5b2be419a6b6b0b72d1dd655675b2c6b9862b2deaec0e",
+      "bytes": 521578,
+      "sourcePath": "originals/media/01_淡紫新版__C06-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-3f0468f9e2c7ba3d.mp4",
+      "sha256": "3f0468f9e2c7ba3d47b0049390e326a48086f44ffff99be5e45b554ca1b1a795",
+      "bytes": 346041,
+      "sourcePath": "originals/media/02_Skill动效__Fred86Reference03.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-45633f0ba1312901.mp4",
+      "sha256": "45633f0ba13129016e228efab6e21b1201f3499f55f3937f66c904c1849d8a90",
+      "bytes": 694479,
+      "sourcePath": "originals/media/01_淡紫新版__C04-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-45cd739e5dab0730.mp4",
+      "sha256": "45cd739e5dab0730dda328c2770d369b132acbfc364187b12e24ba3e0de36d12",
+      "bytes": 13090855,
+      "sourcePath": "originals/media/87_Remotion__ep87-group-1-character-logo-free-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-51d675feaef3608e.mp4",
+      "sha256": "51d675feaef3608ecf2fbced26bd19a43f74a7c68f171c6a6164eaa4f99bb38d",
+      "bytes": 491793,
+      "sourcePath": "originals/media/02_Skill动效__ApprovedV202WordGrid-v12-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-51e9cd99c66cb34b.mp4",
+      "sha256": "51e9cd99c66cb34b9a04e4827a9de54c7437343d77ee1b1084346baf6a88b998",
+      "bytes": 1569814,
+      "sourcePath": "originals/media/03_人物带字__character-09-v5-a-09A_越忙_越容易忽略关键_V5_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-598941ed3d14ff09.mp4",
+      "sha256": "598941ed3d14ff09fb9b27e2bcc7b9a68794a85e547b546d9132da443297b85b",
+      "bytes": 15236784,
+      "sourcePath": "originals/media/82_Remotion__82-第三句-干净黑卡开头-4K60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-5a8b1a330e3335d2.webm",
+      "sha256": "5a8b1a330e3335d210affee7263ac79047e55598fcf0777825c1ae901e3d9f4c",
+      "bytes": 1433537,
+      "sourcePath": "originals/media/04_透明人物__Fred_伸手示意_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-5dbd68e5ab87ff4b.mp4",
+      "sha256": "5dbd68e5ab87ff4b16d9f1d93e1eb355abe7ac1f6eb76fbeb818035326556c3a",
+      "bytes": 890638,
+      "sourcePath": "originals/media/03_人物带字__character-10-v6-c-10C_别让工具_替你做判断_V6_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-5ed896c29673a304.mp4",
+      "sha256": "5ed896c29673a304dbcb7e17ce89e5fa863e4fa6b64043660e27b07dd3190b08",
+      "bytes": 1359613,
+      "sourcePath": "originals/media/01_淡紫新版__C07-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-5f6f865421bbf3ec.mp4",
+      "sha256": "5f6f865421bbf3ec02c75617fe5f18abb36893cb5f8af67ca39fdbf46f111350",
+      "bytes": 960140,
+      "sourcePath": "originals/media/03_人物带字__character-02-v5-a-02A_结果_和你想的不一样_V5_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-67c089234ebd2dc3.webm",
+      "sha256": "67c089234ebd2dc33e904e30cca74d40d9d32b1b49b54a97bebe1934648a4667",
+      "bytes": 1872611,
+      "sourcePath": "originals/media/04_透明人物__Fred_左下抬头指向_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-6e45e8786249d499.webm",
+      "sha256": "6e45e8786249d49962e7c842de591e19c3c9325884b3b5483170417c82a73349",
+      "bytes": 1112897,
+      "sourcePath": "originals/media/04_透明人物__Fred_抬手制止_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-7056fea710f9cc93.mp4",
+      "sha256": "7056fea710f9cc93269b9ff6fbae6fb34de56da67d967c5fc18a418bbce739e3",
+      "bytes": 147203,
+      "sourcePath": "originals/media/87_Remotion__7056fea7__ep87-part-01-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-71c3af2e6344fae5.mp4",
+      "sha256": "71c3af2e6344fae58313a41262a51218868d6bf46e78266e63f42a3e841e69dd",
+      "bytes": 153563,
+      "sourcePath": "originals/media/01_淡紫新版__C02-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-748b29835f6d976d.webm",
+      "sha256": "748b29835f6d976dc15031f26ba93fd5a272afceebec3c8dd4906261f1134e67",
+      "bytes": 1234261,
+      "sourcePath": "originals/media/04_透明人物__Fred_双手制止_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-79162fdcdc247401.mp4",
+      "sha256": "79162fdcdc247401d4ffd46e47a5a5b48e6adaf49151d886cd4dd2d0c0a9bd80",
+      "bytes": 1021648,
+      "sourcePath": "originals/media/03_人物带字__character-06-v6-c-06C_先停一下_这一步还没想清楚_V6_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-7f2294f5477f1bd5.mp4",
+      "sha256": "7f2294f5477f1bd58c7b4fc0c6e21572e225de82fa2f161edf36ee6ef81dd3a6",
+      "bytes": 383217,
+      "sourcePath": "originals/media/02_Skill动效__Fred86Reference17.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-9fd5fc165006d4d2.mp4",
+      "sha256": "9fd5fc165006d4d2aa772a023c321b2d9c6b45891298e6944922b0c1931894ec",
+      "bytes": 154923,
+      "sourcePath": "originals/media/87_Remotion__ep87-part-01-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-a6a7b50f7d03bcd9.mp4",
+      "sha256": "a6a7b50f7d03bcd964a2053fbf4c77ede1e20e7d94669966f96b4ed0256450e9",
+      "bytes": 1246280,
+      "sourcePath": "originals/media/03_人物带字__character-03-v6-b-03B_真正重要的_在这里_V6_1080p.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-a713640fcce2f71d.mp4",
+      "sha256": "a713640fcce2f71d3443e420bb63146762cbb48ed7844c5fec5344336a4422d2",
+      "bytes": 143331,
+      "sourcePath": "originals/media/87_Remotion__a713640f__ep87-part-02-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-aa1b8ddd585e3848.webm",
+      "sha256": "aa1b8ddd585e3848c70b295cbe22fdd03a5c9cb855046eab0688e45fba839ee2",
+      "bytes": 1252757,
+      "sourcePath": "originals/media/04_透明人物__Fred_皱眉握拳_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-b69bb340bf9a49d2.webm",
+      "sha256": "b69bb340bf9a49d26ab8b7254cf178fb954ed28ada17b69ac132cade73d6644a",
+      "bytes": 1340638,
+      "sourcePath": "originals/media/04_透明人物__Fred_握手邀请_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-b7c297695fcf0ca9.mp4",
+      "sha256": "b7c297695fcf0ca9e463e9c1c0ed29478a198a66985bd6c908e157e3cee1ffca",
+      "bytes": 3685869,
+      "sourcePath": "originals/media/82_Remotion__82-第四句-授权分享共同编辑-Remotion-4K60-v2.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-bc0b12b309a84a22.mp4",
+      "sha256": "bc0b12b309a84a22a4baacf2411b5a1affe2de72ac1551d3e881a16b6a228369",
+      "bytes": 1052077,
+      "sourcePath": "originals/media/02_Skill动效__ApprovedV405MonitorEmergence-v12-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-bfd0f323fb0e8233.mp4",
+      "sha256": "bfd0f323fb0e8233bfe8264769db04633407562e406304e47cd3dcf44c44dd50",
+      "bytes": 118728,
+      "sourcePath": "originals/media/87_Remotion__ep87-part-02-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-c4bc06f7420ece09.mp4",
+      "sha256": "c4bc06f7420ece093696e84aaf24b3f17aee7383a44f4d6d4978c73a935f14ed",
+      "bytes": 144392,
+      "sourcePath": "originals/media/87_Remotion__ep87-part-03-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-ca4c76a7a4cd2d66.mp4",
+      "sha256": "ca4c76a7a4cd2d668312156883dc0f3b2b942198f22eb38292d99b04f8ab54a2",
+      "bytes": 2546869,
+      "sourcePath": "originals/media/87_Remotion__ep87-group-4-r2-continuous-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-d22bf8ab24ff0083.mp4",
+      "sha256": "d22bf8ab24ff008359dab55931f4209f3df7317f572e547e21b0a4cf7fe97cb6",
+      "bytes": 696844,
+      "sourcePath": "originals/media/02_Skill动效__ApprovedV403PhoneCounter-v12-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-d5f140332b4e985f.mp4",
+      "sha256": "d5f140332b4e985feb454eef1fa09294d60fdc09aabe8e1f85436558924a8f34",
+      "bytes": 470452,
+      "sourcePath": "originals/media/01_淡紫新版__C08-remotion-1080p60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-dfe87bb5b565e8ec.webm",
+      "sha256": "dfe87bb5b565e8ecaf5f289c8014fb064c00d131cf3f1c36fc6b15ff3c9bf01c",
+      "bytes": 1117611,
+      "sourcePath": "originals/media/04_透明人物__Fred_右侧探身观察_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-e30e7f777b8ac9ae.mp4",
+      "sha256": "e30e7f777b8ac9ae64f904e94d89185e82623bd677af2c5fab506c8ac3f44342",
+      "bytes": 343526,
+      "sourcePath": "originals/media/02_Skill动效__V13referencev713-v13-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-e3fdd979631e6fed.mp4",
+      "sha256": "e3fdd979631e6fedb5c83c21d08a23f977bff051f42f27e3f187e94ea7eb4abb",
+      "bytes": 343044,
+      "sourcePath": "originals/media/02_Skill动效__Fred86Reference14.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-e6ff0faa88e60bc4.mp4",
+      "sha256": "e6ff0faa88e60bc45d14482d697b93a94dc06fc49158e327662ecee1239d399c",
+      "bytes": 134711,
+      "sourcePath": "originals/media/87_Remotion__ep87-part-05-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-e8ab07313027a5e8.webm",
+      "sha256": "e8ab07313027a5e8c15cb90d270fa78c117ad33e89a34919bff2af77d593454f",
+      "bytes": 1669842,
+      "sourcePath": "originals/media/04_透明人物__Fred_抚额苦恼_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-efe2a5876f2a44ec.mp4",
+      "sha256": "efe2a5876f2a44ec2e2ee15f9174f9ebf7f834c2a15297bd0315513ec0deed2d",
+      "bytes": 138929,
+      "sourcePath": "originals/media/87_Remotion__ep87-part-04-2s-4k60.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-f75eb1950f4f4d74.mp4",
+      "sha256": "f75eb1950f4f4d7493b3ef5b2cffd8a1543d5becf1a0f4cf7fa4f34b21071c1a",
+      "bytes": 220685,
+      "sourcePath": "originals/media/02_Skill动效__V13referencev719-v13-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-f847d0bdaee0cd25.mp4",
+      "sha256": "f847d0bdaee0cd256b4d5711094f8c6f0f499758b675935b4f2e8993218803e1",
+      "bytes": 5676112,
+      "sourcePath": "originals/media/82_Remotion__82-第六句-不越权与招聘流程-Remotion-4K60-v2.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-f9dc5562d54cda56.mp4",
+      "sha256": "f9dc5562d54cda56ae9738da984dc0adf48abe033ce9306bb273f74e90f8a650",
+      "bytes": 466730,
+      "sourcePath": "originals/media/02_Skill动效__ApprovedV201PathBuild-v12-approved.mp4"
+    },
+    {
+      "file": "videos/current/fred-motion-source-fd8b589fb405b956.webm",
+      "sha256": "fd8b589fb405b95638725db365079431de6ab9b731d6ce9cd2402bb370bf3cf4",
+      "bytes": 1982513,
+      "sourcePath": "originals/media/04_透明人物__Fred_右下惊讶_1440p30_Alpha.webm"
+    },
+    {
+      "file": "videos/current/fred-motion-source-fe8624a3400e14d5.mp4",
+      "sha256": "fe8624a3400e14d56d532a7ea370303ff3590977bb85e16a9b5874c3d9391ada",
+      "bytes": 1015691,
+      "sourcePath": "originals/media/03_人物带字__character-11-v5-b-11B_想清楚之后_再全力以赴_V5_1080p.mp4"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "stableId": "ep87-part-05",
+      "sourceBeatIds": [
+        "chapter-5"
+      ],
+      "kind": "aperture",
+      "exactScreenWords": [
+        "Part.05",
+        "生成可复用 Skill"
+      ],
+      "title": "生成可复用 Skill",
+      "label": "Part.05",
+      "width": 1030,
+      "titleSize": 128,
+      "labelSize": 84,
+      "durationInFrames": 120,
+      "finalHoldFrames": 76,
+      "settleFrame": 44,
+      "scriptAnchor": "录制的 Skill 保存段落，最终总结之前",
+      "oneQuestion": "生成可复用 Skill",
+      "layoutFamily": "aperture",
+      "majorGeometry": "left aligned title in centered stage",
+      "readingOrder": [
+        "Part.05",
+        "生成可复用 Skill"
+      ],
+      "visualCenter": "chapter title",
+      "styleTrack": "fred-type",
+      "mediaRole": "typography",
+      "referenceImages": [
+        {
+          "path": "[LOCAL_PATH]",
+          "responsibility": "source layout and ending, except user requested adjustments"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "[LOCAL_PATH]",
+        "checksum": "sha256:4fbf49e6b63dbaf0821209e7edd60607dbba2ab36a148bafd65f319087dd9eb8"
+      },
+      "typographyRoles": [
+        {
+          "role": "chapter",
+          "text": "Part.05",
+          "sizeClass": "MiSans Medium500"
+        },
+        {
+          "role": "title",
+          "text": "生成可复用 Skill",
+          "sizeClass": "MiSans Bold700 Chinese / Semibold600 Latin"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "straight reveal",
+      "spokenOrder": [
+        "chapter-5"
+      ],
+      "timingSource": "approved-manual-cue",
+      "motionEvents": [
+        {
+          "sourceBeatId": "chapter-5",
+          "event": "reference motion rebuilt at requested faster timing",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "chapter-5",
+          "event": "stable final hold",
+          "cueFrame": 44
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "aperture",
+      "implementationComponentId": "Transition",
+      "background": "white"
+    }
+  ]
+}

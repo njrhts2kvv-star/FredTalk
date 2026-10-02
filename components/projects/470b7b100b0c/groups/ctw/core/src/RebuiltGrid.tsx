@@ -1,0 +1,10 @@
+import {DARK_PURPLE,purpleOnDark,purpleOnSurface} from "../../../../surface-purple.ts";
+import {FiveFontFace} from "../../../../five-fonts.ts";
+import React from 'react';
+import {AbsoluteFill,useCurrentFrame,delayRender,continueRender,cancelRender,staticFile} from 'remotion';
+import spec from '../../../../specs/C002.json';
+const handle=delayRender('CTW heavy sans candidate');
+const font=new FiveFontFace('CTWHeavy',`url(${staticFile('fonts/ctw/NotoSansSC.ttf')})`,{weight:'100 900'});
+font.load().then(f=>{document.fonts.add(f);continueRender(handle)}).catch(cancelRender);
+export function measuredSample(tracks:any,name:string,frame:number):number[]{const rows=tracks[name].samples as number[][];let i=0;while(i<rows.length-1&&rows[i+1][0]<=frame)i++;const a=rows[i],b=rows[Math.min(i+1,rows.length-1)],p=b[0]===a[0]||b[0]-a[0]>1?0:Math.max(0,Math.min(1,(frame-a[0])/(b[0]-a[0])));return a.slice(1).map((x,k)=>x+(b[k+1]-x)*p)}
+export const RebuiltGrid:React.FC<{referenceWords?:boolean}>=({referenceWords=false})=>{const f=useCurrentFrame();return <AbsoluteFill style={{background:'#fff'}}>{spec.objects.pills.map((p,i)=>{const [x,y,w,h,radius]=measuredSample(spec.tracks,p.track,f),letters=Array.from(referenceWords?p.referenceText:p.text);return <React.Fragment key={p.id}><div style={{position:'absolute',left:x,top:y,width:w,height:h,background:'#000',borderRadius:radius,boxShadow:w>0?'30px 18px 26px #0005':undefined}}/><div style={{position:'absolute',left:p.center[0]-250,top:p.center[1]-75+p.textYOffset,width:500,height:150,display:'flex',alignItems:'center',justifyContent:'center',fontFamily:p.fontFamily,fontSize:p.fontSize,fontWeight:p.fontWeight,fontSynthesis:'none',whiteSpace:'nowrap',color:referenceWords?(i<8?'#cede69':i<12?'#ffad00':'#31e794'):purpleOnDark(p.color)}}>{letters.map((letter,j)=><span key={j} style={{opacity:measuredSample(spec.tracks,p.textTracks[Math.min(p.textTracks.length-1,Math.floor(j*p.textTracks.length/letters.length))],f)[0]}}>{letter}</span>)}</div></React.Fragment>})}</AbsoluteFill>};

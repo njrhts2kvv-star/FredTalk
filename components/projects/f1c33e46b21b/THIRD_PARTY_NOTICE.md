@@ -1,0 +1,1 @@
+Talkcraft components adapted from Vincentwei1021/video-talkcraft, commit b7fb9ac943c64b1d6dd61f9576635b173602a4a4. Source catalog records PolyForm Noncommercial; modifications do not remove upstream license requirements. Third-party sample images and host video are excluded; Fred project assets are substituted.

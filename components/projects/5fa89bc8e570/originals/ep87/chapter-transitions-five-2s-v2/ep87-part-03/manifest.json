@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "stableId": "ep87-part-03",
+      "sourceBeatIds": [
+        "chapter-3"
+      ],
+      "kind": "reveal",
+      "exactScreenWords": [
+        "Part.03",
+        "学情分析"
+      ],
+      "title": "学情分析",
+      "label": "Part.03",
+      "width": 1000,
+      "titleSize": 136,
+      "labelSize": 82,
+      "durationInFrames": 120,
+      "finalHoldFrames": 52,
+      "settleFrame": 68,
+      "scriptAnchor": "作业批完以后，先别急着只看平均分",
+      "oneQuestion": "学情分析",
+      "layoutFamily": "reveal",
+      "majorGeometry": "centered two-line title",
+      "readingOrder": [
+        "Part.03",
+        "学情分析"
+      ],
+      "visualCenter": "chapter title",
+      "styleTrack": "fred-type",
+      "mediaRole": "typography",
+      "referenceImages": [
+        {
+          "path": "[LOCAL_PATH]",
+          "responsibility": "source layout and ending, except user requested adjustments"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "[LOCAL_PATH]",
+        "checksum": "sha256:977a4dc353ad5ebeba94c1b6fb42811590c82b50e4c5f3a417ed469fe73e64b6"
+      },
+      "typographyRoles": [
+        {
+          "role": "chapter",
+          "text": "Part.03",
+          "sizeClass": "MiSans Medium500"
+        },
+        {
+          "role": "title",
+          "text": "学情分析",
+          "sizeClass": "MiSans Bold700 Chinese / Semibold600 Latin"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "straight reveal",
+      "spokenOrder": [
+        "chapter-3"
+      ],
+      "timingSource": "approved-manual-cue",
+      "motionEvents": [
+        {
+          "sourceBeatId": "chapter-3",
+          "event": "reference motion rebuilt at requested faster timing",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "chapter-3",
+          "event": "stable final hold",
+          "cueFrame": 68
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "bar expands then travels upward and shrinks to Part.01 badge",
+      "implementationComponentId": "Transition",
+      "background": "black"
+    }
+  ]
+}

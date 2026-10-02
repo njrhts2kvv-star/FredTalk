@@ -1,0 +1,2143 @@
+{
+  "schemaVersion": 1,
+  "id": "W08",
+  "title": "数值递变与落定",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 130,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/10_7650131785040334099_第93期_是时候开始用AI处理表格了_数据多、分类乱、看不懂、表格的事儿交给AI就好了_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个_#青.mp4",
+    "referenceStart": 17.130000000000003,
+    "referenceEnd": 19.300000000000004,
+    "referenceSegments": [
+      {
+        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/10_7650131785040334099_第93期_是时候开始用AI处理表格了_数据多、分类乱、看不懂、表格的事儿交给AI就好了_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个_#青.mp4",
+        "start": 17.130000000000003,
+        "duration": 2.17,
+        "exists": true,
+        "url": "/media/library-7650131785040334099",
+        "end": 19.300000000000004
+      }
+    ],
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/10_7650131785040334099_第93期_是时候开始用AI处理表格了_数据多、分类乱、看不懂、表格的事儿交给AI就好了_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个_#青.mp4",
+        "sha256": "d8a0b09e79fb2240bb4a88abecc340a4926f1b162fa2f64ebaf16d3fff63d2e8",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 222.1,
+        "start": 17.130000000000003,
+        "end": 19.300000000000004
+      }
+    ],
+    "totalSelectedDuration": 2.1700000000000017,
+    "outputDurationDelta": -0.0033333333333351867
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "policy": "preserve-output-duration-and-native-action-speed",
+    "segments": [
+      {
+        "sourceAsset": 0,
+        "sourceStartPTS": 17.130000000000003,
+        "sourceEndPTS": 19.300000000000004,
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 130,
+        "speed": 1,
+        "nativeFrameCount": 65
+      }
+    ],
+    "omissions": [],
+    "review": "Native PTS coverage and fixed output frame intervals verified at 1x. This does not accept reconstruction quality.",
+    "roundingNote": "2.17s selected range maps to130 output frames at60fps; last0.003333s excluded by fixed duration, no retiming."
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/ctw/core",
+    "entry": "src/rebuilt-entry.tsx",
+    "compositionId": "W08",
+    "component": "RebuiltW08",
+    "qualityStatus": "calibration-candidate-not-accepted"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only",
+    "text": [
+      "432,280",
+      "226,570",
+      "108,420"
+    ],
+    "media": [
+      "clean/fred-cover-portrait.png",
+      "clean/product.png"
+    ]
+  },
+  "fonts": [
+    {
+      "family": "CTWNumbers",
+      "file": "fonts/ctw/SourceSans3-Black.otf",
+      "license": "fonts/ctw/SourceSans3-OFL.md",
+      "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952"
+    }
+  ],
+  "objects": {
+    "background": {
+      "media": "clean/fred-cover-portrait.png",
+      "blur": 18
+    },
+    "sheet": {
+      "media": "clean/product.png",
+      "rect": [
+        -500,
+        80,
+        1660,
+        940
+      ]
+    },
+    "numbers": [
+      {
+        "text": "432,280",
+        "color": "#CDB8FA"
+      },
+      {
+        "text": "226,570",
+        "color": "#F0D58E"
+      },
+      {
+        "text": "108,420",
+        "color": "#ffffff"
+      }
+    ],
+    "fontSize": 286
+  },
+  "tracks": {
+    "nativeFrames": {
+      "domain": "outputFrame",
+      "fields": [
+        "index"
+      ],
+      "samples": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          26,
+          13
+        ],
+        [
+          28,
+          14
+        ],
+        [
+          30,
+          15
+        ],
+        [
+          32,
+          16
+        ],
+        [
+          34,
+          17
+        ],
+        [
+          36,
+          18
+        ],
+        [
+          38,
+          19
+        ],
+        [
+          40,
+          20
+        ],
+        [
+          42,
+          21
+        ],
+        [
+          44,
+          22
+        ],
+        [
+          46,
+          23
+        ],
+        [
+          48,
+          24
+        ],
+        [
+          50,
+          25
+        ],
+        [
+          52,
+          26
+        ],
+        [
+          54,
+          27
+        ],
+        [
+          56,
+          28
+        ],
+        [
+          58,
+          29
+        ],
+        [
+          60,
+          30
+        ],
+        [
+          62,
+          31
+        ],
+        [
+          64,
+          32
+        ],
+        [
+          66,
+          33
+        ],
+        [
+          68,
+          34
+        ],
+        [
+          70,
+          35
+        ],
+        [
+          72,
+          36
+        ],
+        [
+          74,
+          37
+        ],
+        [
+          76,
+          38
+        ],
+        [
+          78,
+          39
+        ],
+        [
+          80,
+          40
+        ],
+        [
+          82,
+          41
+        ],
+        [
+          84,
+          42
+        ],
+        [
+          86,
+          43
+        ],
+        [
+          88,
+          44
+        ],
+        [
+          90,
+          45
+        ],
+        [
+          92,
+          46
+        ],
+        [
+          94,
+          47
+        ],
+        [
+          96,
+          48
+        ],
+        [
+          98,
+          49
+        ],
+        [
+          100,
+          50
+        ],
+        [
+          102,
+          51
+        ],
+        [
+          104,
+          52
+        ],
+        [
+          106,
+          53
+        ],
+        [
+          108,
+          54
+        ],
+        [
+          110,
+          55
+        ],
+        [
+          112,
+          56
+        ],
+        [
+          114,
+          57
+        ],
+        [
+          116,
+          58
+        ],
+        [
+          118,
+          59
+        ],
+        [
+          120,
+          60
+        ],
+        [
+          122,
+          61
+        ],
+        [
+          124,
+          62
+        ],
+        [
+          126,
+          63
+        ],
+        [
+          128,
+          64
+        ]
+      ],
+      "evidence": "analysis/W08/object-measurements.json"
+    },
+    "sheet": {
+      "domain": "outputFrame",
+      "fields": [
+        "x"
+      ],
+      "samples": [
+        [
+          0,
+          -500
+        ],
+        [
+          2,
+          -650
+        ],
+        [
+          4,
+          -870
+        ],
+        [
+          6,
+          -1150
+        ],
+        [
+          8,
+          -1500
+        ],
+        [
+          10,
+          -1750
+        ]
+      ],
+      "evidence": "native overview first 10 output frames estimated; requires calibration"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/W08/reference-analysis.json",
+    "fontComparison": "analysis/W08/font-candidates.png",
+    "nativeFrameMeasurements": "analysis/W08/native-measurements.json"
+  },
+  "knownIssues": [
+    "Source Sans3 Black candidate chosen by same-glyph silhouette ranking: mean IoU .806 vs Noto .788; original font not identified.",
+    "65 native frames measured separate colored number rows, preserving slot roll instead of interpolating a count.",
+    "Color-shifting upper slot row reassigned to incoming226570 by inspected phase; star placeholder measured separately, source glyph still unmatched.",
+    "Initial spreadsheet exit currently native-overview estimates, not exact border track.",
+    "Continuous rebuilt playback not reviewed.",
+    "Editable digits use native stable digit advance171px and comma82px; comma font214px baseline -7 to match source size independently.",
+    "Takeover: removed upper-row-is-incoming heuristic; classify separated rolling bands by native glyph-column signature. Dense visual calibration required.",
+    "Takeover: removed upper-row-is-incoming heuristic; classify separated rolling bands by native glyph-column signature. Dense visual calibration required."
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "e0d1ddcce04f85a670b3fa95da3446189d4d85ebec8f423ee25f91c514fbe06b"
+    },
+    "v2": null,
+    "v3": null,
+    "calibration": {
+      "path": "analysis/W08/versions/e97f29498ad24eb33183880b1c6d1cf3899ffd0b36f519ddd36b77aede46a559.mp4",
+      "sha256": "e97f29498ad24eb33183880b1c6d1cf3899ffd0b36f519ddd36b77aede46a559",
+      "role": "local-calibration",
+      "createdAt": "2026-09-28T19:47:00.416905+00:00",
+      "sources": [
+        {
+          "path": "specs/W08.json",
+          "sha256": "f9378d57a0179b6333b5d7530a76a818c383ab3f9d6d83db034d0c324786e624"
+        },
+        {
+          "path": "runtime/clip-spec.ts",
+          "sha256": "59ed7993d04b00bf08beb9cac39b79871fa85e3332a3cbb368735fc964baf366"
+        },
+        {
+          "path": "groups/ctw/core/src/RebuiltW08.tsx",
+          "sha256": "7dffa3b32a56cc3c7741e361ad8f20d73a38fe7a0e1804ff8aa997d654ba4cb5"
+        },
+        {
+          "path": "groups/ctw/core/src/RebuiltGrid.tsx",
+          "sha256": "0dd58a03e2a634a3e65f24bb7312b9738b7393b886446e0cced2f3bd8613703f"
+        },
+        {
+          "path": "groups/ctw/core/src/rebuilt-entry.tsx",
+          "sha256": "9a1adb1b2ce9d8410f6a055d70746c7a3c5e726cf28e0161cafb09af98d3cf5c"
+        },
+        {
+          "path": "groups/ctw/core/public/fonts/ctw/SourceSans3-Black.otf",
+          "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952"
+        },
+        {
+          "path": "groups/ctw/core/public/fonts/ctw/SourceSans3-OFL.md",
+          "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328"
+        }
+      ],
+      "quality": "not-accepted",
+      "userAcceptance": "not-granted"
+    }
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "nativeStates": [
+    {
+      "frame": 0,
+      "pill": [
+        960,
+        540,
+        0,
+        0,
+        0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 2,
+      "pill": [
+        960,
+        540,
+        0,
+        0,
+        0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 4,
+      "pill": [
+        940,
+        529,
+        36,
+        35,
+        17.5
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 6,
+      "pill": [
+        916,
+        528,
+        86,
+        62,
+        31.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 8,
+      "pill": [
+        864,
+        434,
+        203,
+        212,
+        106.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 10,
+      "pill": [
+        831,
+        406,
+        265,
+        266,
+        133.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 12,
+      "pill": [
+        912,
+        384,
+        215,
+        312,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 14,
+      "pill": [
+        812,
+        358,
+        304,
+        324,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 16,
+      "pill": [
+        792,
+        348,
+        358,
+        382,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 18,
+      "pill": [
+        761,
+        342,
+        396,
+        392,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 20,
+      "pill": [
+        791,
+        342,
+        366,
+        392,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 22,
+      "pill": [
+        795,
+        346,
+        362,
+        388,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 24,
+      "pill": [
+        642,
+        348,
+        645,
+        386,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 26,
+      "pill": [
+        526,
+        346,
+        870,
+        388,
+        145.0
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 28,
+      "pill": [
+        419,
+        341,
+        1082,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [],
+        []
+      ],
+      "star": null
+    },
+    {
+      "frame": 30,
+      "pill": [
+        375,
+        341,
+        1169,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 466,
+            "width": 170,
+            "height": 176,
+            "opacity": 0.3
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "7"
+    },
+    {
+      "frame": 32,
+      "pill": [
+        346,
+        341,
+        1228,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 466,
+            "width": 160,
+            "height": 176,
+            "opacity": 1
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "1"
+    },
+    {
+      "frame": 34,
+      "pill": [
+        320,
+        341,
+        1279,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 466,
+            "width": 266,
+            "height": 176,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "43"
+    },
+    {
+      "frame": 36,
+      "pill": [
+        311,
+        341,
+        1297,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 464,
+            "width": 314,
+            "height": 180,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "44"
+    },
+    {
+      "frame": 38,
+      "pill": [
+        307,
+        341,
+        1305,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 460,
+            "width": 474,
+            "height": 188,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "435"
+    },
+    {
+      "frame": 40,
+      "pill": [
+        309,
+        341,
+        1302,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 460,
+            "width": 551,
+            "height": 188,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": {
+        "rect": [
+          900,
+          584,
+          121,
+          113
+        ],
+        "opacity": 0.32941176470588235
+      },
+      "typedText": "432"
+    },
+    {
+      "frame": 42,
+      "pill": [
+        317,
+        341,
+        1287,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 460,
+            "width": 600,
+            "height": 241,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": {
+        "rect": [
+          896,
+          576,
+          128,
+          127
+        ],
+        "opacity": 0.984313725490196
+      },
+      "typedText": "432"
+    },
+    {
+      "frame": 44,
+      "pill": [
+        323,
+        341,
+        1273,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 460,
+            "width": 710,
+            "height": 220,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,1"
+    },
+    {
+      "frame": 46,
+      "pill": [
+        333,
+        341,
+        1254,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 459,
+            "width": 735,
+            "height": 221,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,6"
+    },
+    {
+      "frame": 48,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 459,
+            "width": 901,
+            "height": 189,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,28"
+    },
+    {
+      "frame": 50,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 459,
+            "width": 903,
+            "height": 189,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,28"
+    },
+    {
+      "frame": 52,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 458,
+            "width": 1070,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 54,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 424,
+            "y": 458,
+            "width": 1071,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 56,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 458,
+            "width": 1072,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 58,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 458,
+            "width": 1073,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 60,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 458,
+            "width": 1073,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 62,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 458,
+            "width": 1073,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 64,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 458,
+            "width": 1073,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 66,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 423,
+            "y": 442,
+            "width": 1073,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        [],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 68,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 465,
+            "width": 1060,
+            "height": 189,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 405,
+            "width": 1060,
+            "height": 65,
+            "opacity": 0.12
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 70,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 530,
+            "width": 1060,
+            "height": 190,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 440,
+            "width": 1060,
+            "height": 100,
+            "opacity": 0.35
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 72,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 280,
+            "width": 1060,
+            "height": 134,
+            "opacity": 0.8
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 640,
+            "width": 1060,
+            "height": 138,
+            "opacity": 0.8
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 74,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 394,
+            "width": 1060,
+            "height": 190,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 510,
+            "width": 1060,
+            "height": 176,
+            "opacity": 0.85
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 76,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 618,
+            "width": 1060,
+            "height": 162,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 280,
+            "width": 1060,
+            "height": 182,
+            "opacity": 0.85
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 78,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 556,
+            "width": 1060,
+            "height": 218,
+            "opacity": 0.4
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 556,
+            "width": 1060,
+            "height": 218,
+            "opacity": 1
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 80,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 518,
+            "width": 1060,
+            "height": 190,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 280,
+            "width": 1060,
+            "height": 126,
+            "opacity": 0.6
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 82,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 560,
+            "width": 1060,
+            "height": 194,
+            "opacity": 0.6
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 280,
+            "width": 1060,
+            "height": 232,
+            "opacity": 1
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 84,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [
+          {
+            "x": 432,
+            "y": 365,
+            "width": 1060,
+            "height": 130,
+            "opacity": 0.15
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 447,
+            "width": 1060,
+            "height": 190,
+            "opacity": 1
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 86,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 458,
+            "width": 1068,
+            "height": 190,
+            "opacity": 1.0
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 88,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1069,
+            "height": 189,
+            "opacity": 1.0
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 90,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 189,
+            "opacity": 0.9826
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 92,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 189,
+            "opacity": 0.9565
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 94,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 188,
+            "opacity": 0.9696
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 96,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 188,
+            "opacity": 0.9696
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 98,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 188,
+            "opacity": 0.9696
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 100,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 188,
+            "opacity": 0.9696
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 102,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 459,
+            "width": 1068,
+            "height": 188,
+            "opacity": 0.9696
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 104,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 426,
+            "y": 442,
+            "width": 1068,
+            "height": 190,
+            "opacity": 0.9696
+          }
+        ],
+        []
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 106,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 447,
+            "width": 1060,
+            "height": 189,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 366,
+            "width": 1060,
+            "height": 40,
+            "opacity": 0.3
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 108,
+      "pill": [
+        425,
+        341,
+        1151,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 528,
+            "width": 1060,
+            "height": 190,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 352,
+            "width": 1060,
+            "height": 190,
+            "opacity": 0.8
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 110,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 280,
+            "width": 1060,
+            "height": 62,
+            "opacity": 0.12
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 626,
+            "width": 1060,
+            "height": 142,
+            "opacity": 0.9
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 112,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 400,
+            "width": 1060,
+            "height": 164,
+            "opacity": 0.8
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 280,
+            "width": 1060,
+            "height": 190,
+            "opacity": 0.75
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 114,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [],
+        [
+          {
+            "x": 432,
+            "y": 620,
+            "width": 1060,
+            "height": 147,
+            "opacity": 0.8
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 116,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 490,
+            "width": 1060,
+            "height": 128,
+            "opacity": 1
+          }
+        ],
+        [
+          {
+            "x": 432,
+            "y": 394,
+            "width": 1060,
+            "height": 120,
+            "opacity": 0.8
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 118,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 578,
+            "width": 1060,
+            "height": 145,
+            "opacity": 0.26
+          }
+        ],
+        [
+          {
+            "x": 448,
+            "y": 430,
+            "width": 1045,
+            "height": 187,
+            "opacity": 1
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 120,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 578,
+            "width": 1060,
+            "height": 145,
+            "opacity": 0.18
+          }
+        ],
+        [
+          {
+            "x": 448,
+            "y": 446,
+            "width": 1045,
+            "height": 187,
+            "opacity": 1
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 122,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [
+          {
+            "x": 432,
+            "y": 320,
+            "width": 1060,
+            "height": 100,
+            "opacity": 0.12
+          }
+        ],
+        [
+          {
+            "x": 448,
+            "y": 456,
+            "width": 1045,
+            "height": 187,
+            "opacity": 1
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 124,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [],
+        [
+          {
+            "x": 448,
+            "y": 460,
+            "width": 1045,
+            "height": 187,
+            "opacity": 1.0
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 126,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [],
+        [
+          {
+            "x": 448,
+            "y": 460,
+            "width": 1046,
+            "height": 187,
+            "opacity": 1.0
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    },
+    {
+      "frame": 128,
+      "pill": [
+        344,
+        341,
+        1232,
+        398,
+        145
+      ],
+      "layers": [
+        [],
+        [],
+        [
+          {
+            "x": 448,
+            "y": 460,
+            "width": 1046,
+            "height": 187,
+            "opacity": 1.0
+          }
+        ]
+      ],
+      "star": null,
+      "typedText": "432,280"
+    }
+  ],
+  "takeoverRepair": {
+    "meaning": "Native-frame identity corrections and separated outgoing/incoming numeric faces. No upper-row heuristic.",
+    "evidence": [
+      "operations/takeover-ctw-frames/W08-dense-27.jpg",
+      "operations/takeover-ctw-frames/W08-dense-39.jpg",
+      "operations/takeover-ctw-frames/W08-dense-65.jpg",
+      "operations/takeover-ctw-frames/W08-dense-78.jpg",
+      "operations/takeover-ctw-frames/W08-dense-109.jpg"
+    ],
+    "quality": "candidate; overlapping bands are reconstructed from dense visual positions and require cloud-motion review"
+  }
+}

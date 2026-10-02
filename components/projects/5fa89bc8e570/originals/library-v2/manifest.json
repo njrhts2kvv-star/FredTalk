@@ -1,0 +1,352 @@
+{
+  "version": 2,
+  "implementationMode": "full-remotion",
+  "purpose": "八条 Fred 配色局部返修；排除 C01/C03，旧版保留",
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "font": {
+    "family": "MiSans",
+    "weight": 600,
+    "bodyWeight": 500,
+    "source": "skills/fred-remake/assets/fonts"
+  },
+  "audioPolicy": "用本地独立音效重新配动作，无人声、无旁白、无 BGM；不是参考片段音效分轨或音色完全一致",
+  "preserve": [
+    "每条参考总时长",
+    "黑白背景和参考片段重点色",
+    "主要文字",
+    "布局层级",
+    "动作方向和语义顺序",
+    "分支结构",
+    "窗口阴影及背景虚化"
+  ],
+  "change": [
+    "排除 C01/C03",
+    "C02 淡紫、文字居中",
+    "C04 淡紫柔黄浅蓝分组",
+    "C05/C06 淡紫，C06 去除卡片阴影",
+    "C07 顶部淡紫、下方保留原色",
+    "C08/C09 居中、自然字距、规整字形，保留虚化",
+    "C10 保留批量大字虚化效果、修正文案字体"
+  ],
+  "pages": [
+    {
+      "stableId": "C02",
+      "sourceBeatIds": [
+        "C02-a",
+        "C02-b",
+        "C02-c"
+      ],
+      "kind": "title-window",
+      "durationInFrames": 210,
+      "label": "白底深色窗口，三行大字依次出现",
+      "words": [
+        "能力解析",
+        "使用方法",
+        "效果展示"
+      ],
+      "fontSize": 174,
+      "tracking": 6,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0.7,
+        1.42,
+        2.18
+      ],
+      "motion": "line-by-line-type",
+      "geometry": "Window x320 y82 w1320 h940; three 1100px centered text boxes x110 within window, y193/406/619",
+      "layout": "window-title",
+      "posterTime": 2.85,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C04",
+      "sourceBeatIds": [
+        "C04-a",
+        "C04-b",
+        "C04-c"
+      ],
+      "kind": "matrix",
+      "durationInFrames": 444,
+      "label": "小圆点长成一整页能力卡片",
+      "words": [
+        "图生图",
+        "文生图",
+        "提示词",
+        "洗图",
+        "人物换脸",
+        "人物换装",
+        "自动分镜",
+        "高清放大",
+        "声音克隆",
+        "多人对话",
+        "音色设计",
+        "音乐生成",
+        "文生视频",
+        "图生视频",
+        "照片说话",
+        "风格转绘",
+        "动作迁移",
+        "插帧放大"
+      ],
+      "fontSize": 96,
+      "tracking": 0,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0,
+        2.52,
+        4.62
+      ],
+      "motion": "dot-to-grid",
+      "geometry": "3 columns x132,710,1288; 6 rows y30+170r; card 510x139",
+      "layout": "grid",
+      "posterTime": 5.4,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C05",
+      "sourceBeatIds": [
+        "C05-a",
+        "C05-b",
+        "C05-c"
+      ],
+      "kind": "branch-three",
+      "durationInFrames": 270,
+      "label": "一个主题展开三条，再只留一条",
+      "words": [
+        "音频",
+        "语音克隆",
+        "音色设计",
+        "音乐生成"
+      ],
+      "fontSize": 136,
+      "tracking": 0,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0.6,
+        1.15,
+        3.32
+      ],
+      "motion": "branch-and-focus",
+      "geometry": "Root 475/215; children x1380 at y475/693/911; selected leaf returns center",
+      "layout": "three-branch",
+      "posterTime": 2.85,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C06",
+      "sourceBeatIds": [
+        "C06-a",
+        "C06-b",
+        "C06-c",
+        "C06-d"
+      ],
+      "kind": "list-expand",
+      "durationInFrames": 588,
+      "label": "列表里的一项，展开又收回",
+      "words": [
+        "开源免费",
+        "能力范围",
+        "2S一张图",
+        "无审查限制且质量好",
+        "文生图",
+        "图生图",
+        "图像编辑"
+      ],
+      "fontSize": 128,
+      "tracking": 0,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0.55,
+        4.08,
+        4.98,
+        7.16
+      ],
+      "motion": "one-row-expands-returns",
+      "geometry": "Shadow-free pills; four rows cy145/395/645/895; expanded centers340/960/1580 width600",
+      "layout": "vertical-list",
+      "posterTime": 3.35,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C07",
+      "sourceBeatIds": [
+        "C07-a",
+        "C07-b",
+        "C07-c",
+        "C07-d"
+      ],
+      "kind": "tree-flow",
+      "durationInFrames": 810,
+      "label": "六条分支，收成输入到输出",
+      "words": [
+        "AI生图/视频",
+        "文生图·视频",
+        "图生图·视频",
+        "工作流生图·视频",
+        "多模态生图·视频",
+        "控制网生图·视频",
+        "Agent生图",
+        "输入",
+        "输出",
+        "Agent全程控制",
+        "自动执行"
+      ],
+      "fontSize": 108,
+      "tracking": 0,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0.13,
+        2.03,
+        7.5,
+        11.65
+      ],
+      "motion": "tree-to-flow",
+      "geometry": "Root center top 960/170; six vertical tags from x140 to1640; tree shrinks; input/output pills enter sides",
+      "layout": "tree-flow",
+      "posterTime": 6.4,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C08",
+      "sourceBeatIds": [
+        "C08-a",
+        "C08-b",
+        "C08-c"
+      ],
+      "kind": "diagram-focus",
+      "durationInFrames": 432,
+      "label": "关系图退后，一句重点站出来",
+      "words": [
+        "产品",
+        "设计",
+        "程序员",
+        "说清楚需求"
+      ],
+      "fontSize": 119,
+      "tracking": 0,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0,
+        0.6,
+        4.2
+      ],
+      "motion": "diagram-defocus-focus",
+      "geometry": "Window center x980; triangle labels centered at x980/650/1310 with upright MiSans600; foreground centered width1500 x210",
+      "layout": "window-diagram",
+      "posterTime": 4.95,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C09",
+      "sourceBeatIds": [
+        "C09-a",
+        "C09-b",
+        "C09-c",
+        "C09-d"
+      ],
+      "kind": "formula-focus",
+      "durationInFrames": 654,
+      "label": "后面变模糊，四个重点浮到前面",
+      "words": [
+        "VLOOKUP",
+        "=VLOOKUP(查找值，查找范围，返回列号，匹配类型)",
+        "数据核对",
+        "信息匹配",
+        "数据补全",
+        "数据查找"
+      ],
+      "formulaLines": [
+        "=VLOOKUP(查找值，",
+        "查找范围，返回列号，",
+        "匹配类型)"
+      ],
+      "fontSize": 150,
+      "tracking": 3,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0,
+        3.15,
+        4.7,
+        10.35
+      ],
+      "motion": "formula-keywords-return",
+      "geometry": "Heading and formula centered in window with x110 width1100; natural tracking; foreground 2x2 unchanged",
+      "layout": "window-formula",
+      "posterTime": 9.45,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    },
+    {
+      "stableId": "C10",
+      "sourceBeatIds": [
+        "C10-a",
+        "C10-b",
+        "C10-c"
+      ],
+      "kind": "question-cards",
+      "durationInFrames": 639,
+      "label": "问题卡片错位排开，再提炼共同词",
+      "words": [
+        "想批量场景实现爆款产品图片用什么方法比较好啊",
+        "老师有能批量生产真实模特照片的工作流吗？",
+        "Library老师，你这有办法批量精修图片的ai工具么？",
+        "批量",
+        "hi，你好我想请问一下批量制作产品图的话要用哪一个呀？"
+      ],
+      "fontSize": 53,
+      "tracking": 0,
+      "background": "#ffffff",
+      "color": "#CDB8FA",
+      "cues": [
+        0.06,
+        2.7,
+        5.65
+      ],
+      "motion": "staggered-cards-keyword",
+      "geometry": "Three cards x55/333/611 y80/430/780 width1300; MiSans600 natural tracking; centered lavender batch keyword",
+      "layout": "staggered-cards",
+      "posterTime": 3.35,
+      "palette": [
+        "#CDB8FA",
+        "#F0D58E",
+        "#A9D3F5"
+      ]
+    }
+  ]
+}

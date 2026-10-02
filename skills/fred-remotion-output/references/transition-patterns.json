@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-09-13-review-r147",
+  "evidence": {
+    "path": "tools/fred-motion-picker/audits/transition-study-20260913/user-request.json",
+    "sha256": "623039c48b4d6b68e5581c94d8233946e6dd96bb1d9b0e2b272f3f4ecefcd873"
+  },
+  "principle": "Separate complete scene choice from reusable object motion. Examples derive availability from the canonical selection catalog.",
+  "items": [
+    {
+      "id": "T01",
+      "title": "胶囊交替缩放与主次交换",
+      "useWhen": "连续讲解两三个观点，当前重点留在中央，上一项缩小后仍可回看。",
+      "sceneTypes": [
+        "summary",
+        "relationship"
+      ],
+      "tags": [
+        "胶囊",
+        "缩小",
+        "放大",
+        "交替",
+        "上下",
+        "主次",
+        "接力"
+      ],
+      "phases": [
+        "当前胶囊从中央缩小并移到上方或下方",
+        "下一条在中央放大建立并停稳阅读",
+        "总结时把各条恢复为相近尺寸"
+      ],
+      "transferRules": [
+        "外壳、文字、圆角与定位作为同一视觉对象处理。",
+        "换成左右方向时重新确定停靠点与阅读空间；只是变体方向，不另造一套动作。",
+        "038第一轮先退再进且短暂重叠；保持主次清楚，不让两段长文同时放大抢读。"
+      ],
+      "limitations": [
+        "参考是三条胶囊；两条、左右方向及新长文字需要在新工程适配。",
+        "原代码同时插值宽高和字号，不是只改外壳scale。"
+      ],
+      "examples": [
+        {
+          "id": "T01",
+          "referenceId": "library-fred-remake-038",
+          "number": 38,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/038_Fred场景实现_第特别篇期_三层黑色短句概括现场观点_00m31.00s-00m42.00s.mp4",
+          "sourceSha256": "fad05f334e129dbab9f92aced83f69ab8a8008a7e448fb94c2e3b985a3440496",
+          "fps": 30.0,
+          "startFrame": 9,
+          "endFrameExclusive": 255,
+          "startSeconds": 0.3,
+          "endSeconds": 8.5,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T01_038_0.30-8.50.mp4",
+          "previewSha256": "d03f551bfde226fb15e1a5093d89da472a00a76e6005dfbdb4d8dbbb2e11607b",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T01.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch2.tsx",
+              "sha256": "6386361ae624334555710a7b33aeafc1dd5bf499d29f32fb8feed1ad5a775f09",
+              "symbol": "case 38",
+              "line": 657,
+              "dispatchNumber": 38
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T01",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T02",
+      "title": "侧移让位与回中",
+      "useWhen": "在已建立的主体旁补充说明，讲完再把注意力交还主体。",
+      "sceneTypes": [
+        "device-demo",
+        "relationship",
+        "summary"
+      ],
+      "tags": [
+        "左右",
+        "侧移",
+        "让位",
+        "回中",
+        "胶囊",
+        "手机"
+      ],
+      "phases": [
+        "已有主体侧移，保留身份与尺寸",
+        "新内容进入空出的区域",
+        "说明退场，主体回到中央"
+      ],
+      "transferRules": [
+        "主体侧移和说明进入共用同一语义cue。",
+        "方向按实际空位决定；可以迁移到图片或胶囊，但无需额外加缩放。"
+      ],
+      "limitations": [
+        "018和058主要是位移，不要把它们误记为缩放互换。"
+      ],
+      "examples": [
+        {
+          "id": "T02a",
+          "referenceId": "library-fred-remake-018",
+          "number": 18,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/018_Fred场景实现_第114期_纵向胶囊清单逐项填入_00m04.00s-00m14.00s.mp4",
+          "sourceSha256": "b5e52b86bfd992deea335bde02255d6fb2d0d0be58ec5171bf9a003cb1350384",
+          "fps": 30.0,
+          "startFrame": 93,
+          "endFrameExclusive": 174,
+          "startSeconds": 3.1,
+          "endSeconds": 5.8,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T02a_018_3.10-5.80.mp4",
+          "previewSha256": "6326ef035f1e6136d6edd7822e386fc678da125d71646ba5110e8b2a6c110cb6",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T02a.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "VerticalCaps",
+              "line": 1387,
+              "dispatchNumber": 18
+            }
+          ]
+        },
+        {
+          "id": "T02b",
+          "referenceId": "library-fred-remake-058",
+          "number": 58,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/058_Fred场景实现_第95期_手机载体旁逐项建立三种能力_00m21.00s-00m27.00s.mp4",
+          "sourceSha256": "d0a6b83978eecf8f27424e20dff91961ffab9da5d5f8b0d6d4cfb4165eb7587d",
+          "fps": 30.0,
+          "startFrame": 39,
+          "endFrameExclusive": 147,
+          "startSeconds": 1.3,
+          "endSeconds": 4.9,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T02b_058_1.30-4.90.mp4",
+          "previewSha256": "d41bf2e9bd32040f009e0a4ce43ab3df6e74f997682bdc26280bb5bc9247127e",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T02b.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch3.tsx",
+              "sha256": "2c0b7e0d94eb2c5517dd22fb10e000eea9a665768bf9548ed978cdf6a7c2cb44",
+              "symbol": "PhoneCapabilities",
+              "line": 742,
+              "dispatchNumber": 58
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T02",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T03",
+      "title": "圆点展开为胶囊",
+      "useWhen": "从一个清楚的视觉落点建立章节名、判断或能力词。",
+      "sceneTypes": [
+        "summary",
+        "relationship"
+      ],
+      "tags": [
+        "圆形",
+        "胶囊",
+        "形变",
+        "横向",
+        "展开"
+      ],
+      "phases": [
+        "旧内容向两边让开，中央圆形建立",
+        "圆形横向展开成胶囊",
+        "文字在载体可读后进入，随后停稳"
+      ],
+      "transferRules": [
+        "先扩展载体，再揭示文字；文字不跟着横向拉伸。",
+        "用同一对象保持中心、材质和阴影连续。"
+      ],
+      "limitations": [
+        "区别于T04的整屏覆盖；此处终态仍承担文字阅读。"
+      ],
+      "examples": [
+        {
+          "id": "T03",
+          "referenceId": "library-fred-remake-002",
+          "number": 2,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/002_Fred场景实现_第120期_黑色胶囊展开并强调关键词_06m48.50s-06m54.00s.mp4",
+          "sourceSha256": "7fcc6a6f47203ee4bce8398c6bae04d38453f006c2142b83072a780a71f1f53f",
+          "fps": 60.0,
+          "startFrame": 33,
+          "endFrameExclusive": 168,
+          "startSeconds": 0.55,
+          "endSeconds": 2.8,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T03_002_0.55-2.80.mp4",
+          "previewSha256": "6600d120f0dd5c4eeb6874b3ccf4110a658308d0c73b6b3e1b2b3e7fafda2bf1",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T03.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "PillExpand",
+              "line": 407,
+              "dispatchNumber": 2
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T03",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T04",
+      "title": "胶囊扩张覆盖画面",
+      "useWhen": "一段判断结束，需要把当前深色载体接成下一段的背景。",
+      "sceneTypes": [
+        "summary",
+        "custom"
+      ],
+      "tags": [
+        "胶囊",
+        "放大",
+        "扩张",
+        "覆盖",
+        "转场"
+      ],
+      "phases": [
+        "短句读完后隐藏旧文字",
+        "胶囊向四周扩展到覆盖整个画幅",
+        "覆盖完成处与下游首态衔接"
+      ],
+      "transferRules": [
+        "遮罩覆盖整幅画面；关键前景遵循字幕避让，遮罩不留底边白带。",
+        "参考片段只提供覆盖端动作；新片必须另行绑定下游内容与首帧。"
+      ],
+      "limitations": [
+        "该片后段是深色覆盖状态，不能把它当成已有完整下游场景。",
+        "不要把任意大scale当已覆盖，检查四角和圆角边缘。"
+      ],
+      "examples": [
+        {
+          "id": "T04",
+          "referenceId": "library-fred-remake-002",
+          "number": 2,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/002_Fred场景实现_第120期_黑色胶囊展开并强调关键词_06m48.50s-06m54.00s.mp4",
+          "sourceSha256": "7fcc6a6f47203ee4bce8398c6bae04d38453f006c2142b83072a780a71f1f53f",
+          "fps": 60.0,
+          "startFrame": 243,
+          "endFrameExclusive": 327,
+          "startSeconds": 4.05,
+          "endSeconds": 5.45,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T04_002_4.05-5.45.mp4",
+          "previewSha256": "e2a8e1efcb7d3cd023f1118aaffaa6986032a54762e11cd3615ff6ad7cb916e2",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T04.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "PillExpand",
+              "line": 407,
+              "dispatchNumber": 2
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T04",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T05",
+      "title": "单主体向左右展开为并列组",
+      "useWhen": "从单个案例进入两三种结果或模式对照。",
+      "sceneTypes": [
+        "device-demo",
+        "image-comparison",
+        "relationship"
+      ],
+      "tags": [
+        "单个",
+        "多个",
+        "左右",
+        "展开",
+        "并列",
+        "手机"
+      ],
+      "phases": [
+        "中心主体保持身份",
+        "侧面对象从中心后方展开",
+        "各对象达到可读间距后停稳"
+      ],
+      "transferRules": [
+        "先后层级和遮挡需要连续；保持中心对象作为阅读锚点。",
+        "对象尺寸按最终并排布局确定；这条原例以平移展开为主。"
+      ],
+      "limitations": [
+        "真实手机内容使用图片；新内容需替换各槽素材。"
+      ],
+      "examples": [
+        {
+          "id": "T05",
+          "referenceId": "library-fred-remake-024",
+          "number": 24,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/024_Fred场景实现_第73期_单个视频通话扩展成三手机对照_00m57.00s-01m09.00s.mp4",
+          "sourceSha256": "25c168659d58dcf857cb81a13794f842b1d876638f32885301bdb83b7b927463",
+          "fps": 30.0,
+          "startFrame": 27,
+          "endFrameExclusive": 102,
+          "startSeconds": 0.9,
+          "endSeconds": 3.4,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T05_024_0.90-3.40.mp4",
+          "previewSha256": "6b90cec47b2c385fe7bc722c972fec533e45992197f8f588208b967a26882a07",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T05.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "ThreePhones",
+              "line": 1777,
+              "dispatchNumber": 24
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T05",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T06",
+      "title": "局部放大、横移与回到全貌",
+      "useWhen": "讲解同一张表格、界面或图片中的多个细节。",
+      "sceneTypes": [
+        "prompt-reading",
+        "image-comparison",
+        "device-demo",
+        "metric-change"
+      ],
+      "tags": [
+        "放大",
+        "缩小",
+        "左右",
+        "横移",
+        "特写",
+        "回全景"
+      ],
+      "phases": [
+        "建立完整内容",
+        "围绕相关区域放大",
+        "保持放大倍率横移到下一个细节",
+        "回到完整窗口"
+      ],
+      "transferRules": [
+        "区分外壳、内部内容和舞台镜头；只移动承担当前信息的层。",
+        "先确定真实ROI和transform-origin，再换算输出坐标。",
+        "保持内容身份；全景到细节无需用另一张无关联截图替换。"
+      ],
+      "limitations": [
+        "056演示的是表格图片的几何变换，不是重新生成表格数据。",
+        "scale和translate的书写顺序会影响实际移动量。"
+      ],
+      "examples": [
+        {
+          "id": "T06",
+          "referenceId": "library-fred-remake-056",
+          "number": 56,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/056_Fred场景实现_第93期_表格局部放大后回到完整窗口_02m00.00s-02m12.00s.mp4",
+          "sourceSha256": "3be4a30619dfea3c5ae138cdc77d7b6a87686368043878f610c877f9ec38739d",
+          "fps": 30.0,
+          "startFrame": 3,
+          "endFrameExclusive": 270,
+          "startSeconds": 0.1,
+          "endSeconds": 9.0,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T06_056_0.10-9.00.mp4",
+          "previewSha256": "12b302c99d70254861a56e01341fb4dd9e7c1195c91fcfcf72da4defffe1161e",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T06.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch3.tsx",
+              "sha256": "2c0b7e0d94eb2c5517dd22fb10e000eea9a665768bf9548ed978cdf6a7c2cb44",
+              "symbol": "Tables",
+              "line": 577,
+              "dispatchNumber": 56
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T06",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T07",
+      "title": "背景失焦与前景重点接力",
+      "useWhen": "观众已认清材料，需要暂时提取关键词，随后回到原材料。",
+      "sceneTypes": [
+        "prompt-reading",
+        "image-comparison",
+        "summary"
+      ],
+      "tags": [
+        "失焦",
+        "复焦",
+        "关键词",
+        "前后",
+        "重点",
+        "聚焦"
+      ],
+      "phases": [
+        "原材料先完整建立",
+        "背景失焦，重点在前景进入",
+        "重点退出，原材料恢复清晰"
+      ],
+      "transferRules": [
+        "材料保持身份，前景强调有明确开始与返回。",
+        "改变焦点时避免让前景文字也被父级blur影响。"
+      ],
+      "limitations": [
+        "009源代码的正文失焦包含阈值切换；新内容需检查过渡帧，不把它当成通用平滑模糊API。"
+      ],
+      "examples": [
+        {
+          "id": "T07a",
+          "referenceId": "library-fred-remake-009",
+          "number": 9,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/009_Fred场景实现_第117期_提示词全貌与参数关键词聚焦_00m41.00s-00m55.00s.mp4",
+          "sourceSha256": "431e7262ec983796bf077ea5d35f726f88c91f9782d9f4f49e542ff421dd3af5",
+          "fps": 60.0,
+          "startFrame": 186,
+          "endFrameExclusive": 252,
+          "startSeconds": 3.1,
+          "endSeconds": 4.2,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T07a_009_3.10-4.20.mp4",
+          "previewSha256": "b3e6fc2790dbc71f1643c60666b319fd746ad9e6847d2087cb1ddd60502f73ff",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T07a.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "PromptFocus",
+              "line": 980,
+              "dispatchNumber": 9
+            }
+          ]
+        },
+        {
+          "id": "T07b",
+          "referenceId": "library-fred-remake-009",
+          "number": 9,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/009_Fred场景实现_第117期_提示词全貌与参数关键词聚焦_00m41.00s-00m55.00s.mp4",
+          "sourceSha256": "431e7262ec983796bf077ea5d35f726f88c91f9782d9f4f49e542ff421dd3af5",
+          "fps": 60.0,
+          "startFrame": 546,
+          "endFrameExclusive": 612,
+          "startSeconds": 9.1,
+          "endSeconds": 10.2,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T07b_009_9.10-10.20.mp4",
+          "previewSha256": "04c44ec4c97a96a051172510853054afc54fa156b77e19d86967bfa06301a262",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T07b.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "PromptFocus",
+              "line": 980,
+              "dispatchNumber": 9
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T07",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T08",
+      "title": "错峰上移与下一窗口接入",
+      "useWhen": "展示完一组对象，顺着运动方向交给下一组内容。",
+      "sceneTypes": [
+        "image-comparison",
+        "device-demo",
+        "summary"
+      ],
+      "tags": [
+        "上移",
+        "上下",
+        "错峰",
+        "接入",
+        "交接",
+        "窗口"
+      ],
+      "phases": [
+        "旧对象按短间隔依次上移",
+        "下一窗口在最后旧对象退出时进入",
+        "窗口停稳后承担新内容"
+      ],
+      "transferRules": [
+        "错峰保持同一运动包络；不要让最后一项拖慢整组。",
+        "旧对象与新对象要有可解释的衔接窗口，检查中间帧的空场与碰撞。"
+      ],
+      "limitations": [
+        "适用于确有内容交接的场景；不把每段都变成同一上下刷屏。",
+        "063终态窗口尚无新正文，使用时补本期真实内容。"
+      ],
+      "examples": [
+        {
+          "id": "T08",
+          "referenceId": "library-fred-remake-063",
+          "number": 63,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/063_Fred场景实现_第93期_四张手机页面并列形成设计全貌_00m09.00s-00m16.00s.mp4",
+          "sourceSha256": "169086311bdfb74305de99832727c0682bb164552b13420e4e2448f41a924dc4",
+          "fps": 60.0,
+          "startFrame": 315,
+          "endFrameExclusive": 417,
+          "startSeconds": 5.25,
+          "endSeconds": 6.95,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T08_063_5.25-6.95.mp4",
+          "previewSha256": "aef400acb6de9eb1f525f604acb03c3b9588c0b89c5d75bc8d10478ac45d86a2",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T08.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch3.tsx",
+              "sha256": "2c0b7e0d94eb2c5517dd22fb10e000eea9a665768bf9548ed978cdf6a7c2cb44",
+              "symbol": "PageArray",
+              "line": 960,
+              "dispatchNumber": 63
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T08",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T09",
+      "title": "多对象聚拢并归为一个概念",
+      "useWhen": "从多个素材、能力或入口归纳出一个组合概念。",
+      "sceneTypes": [
+        "relationship",
+        "summary"
+      ],
+      "tags": [
+        "聚拢",
+        "收束",
+        "归并",
+        "缩小",
+        "多个",
+        "一个"
+      ],
+      "phases": [
+        "分散对象先聚为一组",
+        "对象向共同落点靠近，辅助项缩小消失",
+        "保留代表并建立组合名称"
+      ],
+      "transferRules": [
+        "只有在语义确实归并时收成一个；平等选项不要强行合并。",
+        "移动、缩小和最终标签共享终点与结束窗口。"
+      ],
+      "limitations": [
+        "该例归并后保留一个代表画面，并不表示几张图片真实融合成了新图片。"
+      ],
+      "examples": [
+        {
+          "id": "T09",
+          "referenceId": "library-fred-remake-027",
+          "number": 27,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/027_Fred场景实现_第112期_Agent与Skill组合关系建立_03m02.00s-03m11.00s.mp4",
+          "sourceSha256": "2d46b787a730744d16e9d74cadfde9793534e67a900480357e67d690e042c4bc",
+          "fps": 60.0,
+          "startFrame": 90,
+          "endFrameExclusive": 276,
+          "startSeconds": 1.5,
+          "endSeconds": 4.6,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T09_027_1.50-4.60.mp4",
+          "previewSha256": "093742ff4ff35997005d2040af03d8354732cf80adbe5c77be7af0c90c396d27",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T09.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch2.tsx",
+              "sha256": "6386361ae624334555710a7b33aeafc1dd5bf499d29f32fb8feed1ad5a775f09",
+              "symbol": "case 27",
+              "line": 253,
+              "dispatchNumber": 27
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T09",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "T10",
+      "title": "载体退后、内部内容放大接管",
+      "useWhen": "从手机或窗口里的结果转到更大的结果展示。",
+      "sceneTypes": [
+        "device-demo",
+        "image-comparison"
+      ],
+      "tags": [
+        "手机",
+        "窗口",
+        "放大",
+        "缩小",
+        "接管",
+        "脱离",
+        "内容"
+      ],
+      "phases": [
+        "先看清设备内的结果",
+        "同一结果扩大为独立横窗，设备侧移",
+        "结果继续扩大，设备退出"
+      ],
+      "transferRules": [
+        "优先保持内容身份、源时钟与裁切一致。",
+        "复用外部几何接力时，真实视频的两端要绑定同一媒体时间。"
+      ],
+      "limitations": [
+        "059使用同一静态素材的两个显示节点，有可见复制阶段；不是已经验证的像素连续视频接管组件。",
+        "新实现若要求无缝接管，要先解算设备内实际屏幕框，再对齐外部窗口首态。"
+      ],
+      "examples": [
+        {
+          "id": "T10",
+          "referenceId": "library-fred-remake-059",
+          "number": 59,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/059_Fred场景实现_第95期_手机中的视频放大为独立横窗_01m34.00s-01m46.00s.mp4",
+          "sourceSha256": "cccecefb5d1c3c3bdfcc73ac25099443dca806f01926e0356e98dc6c6e092325",
+          "fps": 30.0,
+          "startFrame": 237,
+          "endFrameExclusive": 357,
+          "startSeconds": 7.9,
+          "endSeconds": 11.9,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T10_059_7.90-11.90.mp4",
+          "previewSha256": "00ff86aef16ca321ed6ba6a050243f8e0a5905e1b20f0df9a50dd5dd05225e71",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T10.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch3.tsx",
+              "sha256": "2c0b7e0d94eb2c5517dd22fb10e000eea9a665768bf9548ed978cdf6a7c2cb44",
+              "symbol": "PhoneHandoff",
+              "line": 778,
+              "dispatchNumber": 59
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed source motion and traceable code; adapt after copying; no universal transition component API.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "transitions:T10",
+        "status": "keep"
+      }
+    }
+  ]
+}

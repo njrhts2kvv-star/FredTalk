@@ -1,0 +1,145 @@
+{
+  "contractVersion": "2.0",
+  "userRefinement": "2026-09-05: stationary opening scene with right-to-left pure-white curved wipe; permission capsule contracts from 3400 to 2450px, document recenters and large 300px disc follows the exact drawn perimeter.",
+  "referenceTimeMap": {
+    "sourceFrames": [0, 50, 150, 210, 270, 315, 357, 390, 420, 450, 490.5],
+    "motionFrames": [0, 50, 150, 250, 310, 371, 414, 440, 454, 474, 490.5],
+    "authority": "Fourth sentence source video keyframe A/B; overrides initial estimated cues. Share at 9s, permission at 10.5s, canvas at 11.9s, final selection at 15s."
+  },
+  "episode": "82_豆包面试",
+  "scope": "p06-p07-fourth-sentence-reference-remake-3840x2160-60fps",
+  "formalCoverageRequired": ["white", "branch"],
+  "runtimeSource": {
+    "type": "manifest-derived",
+    "sourcePath": "./fourth-sentence-manifest.json",
+    "checksum": "sha256:f9c2a56577ee9aeb8d8b8e44926a9c1a9b873a100a58d98edb8d2296ed347613"
+  },
+  "productionSourceDir": "../remotion/src-fourth-sentence",
+  "qualityReference": {
+    "episode": "82_豆包面试",
+    "source": "../../01_输入素材/视频汇总/第四句.mp4",
+    "responsibility": "定义完整时间轴、动作顺序、运动方向、黑白层级、几何变化和共同编辑终态；参考片中的文字扭曲与生成瑕疵不继承"
+  },
+  "pages": [
+    {
+      "stableId": "doubao-06-07-authorized-collaboration-reference-remake",
+      "durationSeconds": 16.366667,
+      "outputFile": "82-第四句-授权分享共同编辑-Remotion-4K60-final.mp4",
+      "deckMapping": {
+        "stableId": "doubao-06-07-authorized-collaboration-reference-remake"
+      },
+      "background": "white",
+      "backgroundStates": ["white"],
+      "badgeVariant": "light",
+      "protected": false,
+      "scriptAnchor": "用飞书账号登录后，它可以在授权范围内理解项目文档、群聊、会议纪要和任务。生成的表格、文档和任务也能继续分享、设置权限、和同事一起编辑。",
+      "oneQuestion": "如何把授权范围内的四类上下文连续汇聚为可分享、可设权限、可由四位同事共同编辑的同一份结果？",
+      "layoutFamily": "reference-authorized-context-to-coedit",
+      "majorGeometry": "团队任务网络离场后，四张上下文卡沿单一横向带进入并合并为结果；结果扩展为分享通道与权限轨道，最后切换为四人分支连接的共同编辑画布",
+      "visualCenter": "从四类上下文卡连续变形而来的同一份共享结果与最终共同编辑画布",
+      "styleTrack": "fred-type",
+      "mediaRole": "diagrammatic-reference",
+      "assetSourceKind": "deterministic-dom-svg",
+      "sourceBeatIds": [
+        "p06-authorized-context",
+        "p06-project-document",
+        "p06-group-chat",
+        "p06-meeting-notes",
+        "p06-task",
+        "p07-share",
+        "p07-permission",
+        "p07-coedit"
+      ],
+      "exactScreenWords": [
+        "一次任务",
+        "团队协作",
+        "项目文档",
+        "群聊",
+        "会议纪要",
+        "任务",
+        "授权范围内",
+        "分享",
+        "设置权限",
+        "共同编辑画布",
+        "一起编辑"
+      ],
+      "readingOrder": [
+        "一次任务与团队协作承接",
+        "项目文档",
+        "群聊",
+        "会议纪要",
+        "任务",
+        "授权范围内",
+        "分享",
+        "设置权限",
+        "共同编辑画布",
+        "一起编辑"
+      ],
+      "referenceImages": [
+        {
+          "path": "../references/fourth-sentence/opening-frame-reference.png",
+          "responsibility": "定义上一段一次任务、团队协作、Logo 与三位成员网络的承接构图"
+        },
+        {
+          "path": "../references/fourth-sentence/final-frame-reference.png",
+          "responsibility": "定义共同编辑画布、四角成员节点、两枚鼠标和一起编辑标签的终态几何"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "../references/fourth-sentence/final-frame-reference.png",
+        "checksum": "sha256:51301c530654f2e2ce77d005c25f4b4af9e6bf3540e1f8be2e6122ae2312cf6d"
+      },
+      "typographyRoles": [
+        {"role": "carry-task", "text": "一次任务", "sizeClass": "primary-card"},
+        {"role": "carry-team", "text": "团队协作", "sizeClass": "state-label"},
+        {"role": "context-document", "text": "项目文档", "sizeClass": "card-title"},
+        {"role": "context-chat", "text": "群聊", "sizeClass": "card-title"},
+        {"role": "context-meeting", "text": "会议纪要", "sizeClass": "card-title"},
+        {"role": "context-task", "text": "任务", "sizeClass": "card-title"},
+        {"role": "authorized", "text": "授权范围内", "sizeClass": "state-label"},
+        {"role": "share", "text": "分享", "sizeClass": "state-label"},
+        {"role": "permission", "text": "设置权限", "sizeClass": "state-label"},
+        {"role": "canvas-title", "text": "共同编辑画布", "sizeClass": "primary-card"},
+        {"role": "coedit", "text": "一起编辑", "sizeClass": "conclusion-label"}
+      ],
+      "connectorType": "context-convergence-share-permission-branch-network",
+      "pathTopology": "horizontal-context-belt-to-rounded-permission-orbit-to-four-corner-branch-network",
+      "spokenOrder": [
+        "p06-authorized-context",
+        "p06-project-document",
+        "p06-group-chat",
+        "p06-meeting-notes",
+        "p06-task",
+        "p07-share",
+        "p07-permission",
+        "p07-coedit"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {"sourceBeatId": "p06-authorized-context", "triggerPhrase": "用飞书账号登录后", "event": "承接的一次任务与团队协作网络整体离场", "cueFrame": 0, "endFrame": 104, "effectId": "reference-context-belt-to-shared-result", "sfx": "source-audio"},
+        {"sourceBeatId": "p06-project-document", "triggerPhrase": "项目文档", "event": "项目文档卡进入黑色横向带", "cueFrame": 100, "endFrame": 148, "effectId": "reference-context-belt-to-shared-result", "sfx": "source-audio"},
+        {"sourceBeatId": "p06-group-chat", "triggerPhrase": "群聊", "event": "群聊卡追加到横向带", "cueFrame": 150, "endFrame": 202, "effectId": "reference-context-belt-to-shared-result", "sfx": "source-audio"},
+        {"sourceBeatId": "p06-meeting-notes", "triggerPhrase": "会议纪要", "event": "会议纪要卡追加到横向带", "cueFrame": 190, "endFrame": 244, "effectId": "reference-context-belt-to-shared-result", "sfx": "source-audio"},
+        {"sourceBeatId": "p06-task", "triggerPhrase": "任务", "event": "任务卡补全四类上下文", "cueFrame": 230, "endFrame": 290, "effectId": "reference-context-belt-to-shared-result", "sfx": "source-audio"},
+        {"sourceBeatId": "p06-authorized-context", "triggerPhrase": "在授权范围内", "event": "四张卡随横向带下沉并锁定授权范围内", "cueFrame": 290, "endFrame": 430, "effectId": "reference-context-belt-to-shared-result", "sfx": "source-audio"},
+        {"sourceBeatId": "p07-share", "triggerPhrase": "分享", "event": "同一结果展开为分享通道", "cueFrame": 584, "endFrame": 730, "effectId": "reference-share-permission-to-coedit", "sfx": "source-audio"},
+        {"sourceBeatId": "p07-permission", "triggerPhrase": "设置权限", "event": "灰色权限轨道绕共享结果闭合", "cueFrame": 730, "endFrame": 836, "effectId": "reference-share-permission-to-coedit", "sfx": "source-audio"},
+        {"sourceBeatId": "p07-coedit", "triggerPhrase": "和同事一起编辑", "event": "四位成员连接共同编辑画布，两处选区完成", "cueFrame": 836, "endFrame": 900, "effectId": "reference-share-permission-to-coedit", "sfx": "source-audio"}
+      ],
+      "cues": [
+        {"startSeconds": 0, "endSeconds": 1.74, "event": "承接团队协作并清出舞台", "screenTarget": "一次任务与团队协作"},
+        {"startSeconds": 1.67, "endSeconds": 4.84, "event": "四类上下文按口播顺序进入", "screenTarget": "项目文档、群聊、会议纪要、任务"},
+        {"startSeconds": 4.84, "endSeconds": 9.74, "event": "授权范围锁定并汇聚同一结果", "screenTarget": "授权范围内"},
+        {"startSeconds": 9.74, "endSeconds": 12.17, "event": "共享结果展开为分享通道", "screenTarget": "分享"},
+        {"startSeconds": 12.17, "endSeconds": 13.94, "event": "权限轨道闭合", "screenTarget": "设置权限"},
+        {"startSeconds": 13.94, "endSeconds": 16.366667, "event": "共同编辑画布建立并稳定", "screenTarget": "共同编辑画布与一起编辑"}
+      ],
+      "noFade": true,
+      "primaryMotion": "reference-context-belt-to-shared-result",
+      "secondaryMotion": "reference-share-permission-to-coedit",
+      "implementationComponentId": "FourthSentenceRemake",
+      "durationInFrames": 982,
+      "finalHoldFrames": 82
+    }
+  ]
+}

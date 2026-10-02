@@ -1,0 +1,961 @@
+{
+  "episodeKey": "episode-99-jev-fast-decision-model",
+  "scope": "S03-S06 separate clips; virtual concatenated clock excludes narration gaps only for inventory",
+  "derivedFrom": {
+    "path": "[LOCAL_PATH]",
+    "sha256": "783ba56bf2717e3c8f7a00480d08f4caecd0c2bf1284752187f7d78cfc9b8645"
+  },
+  "script": {
+    "path": "script.txt",
+    "sha256": "1f4a24a020b8feccbb294960679401cf33ea86d626177260b02906448ed5e60b"
+  },
+  "timelineFps": 60,
+  "durationInFrames": 1872,
+  "timingStatus": "audio-aligned",
+  "timingEvidence": "Original SRT sha256 4091f9aedff8120ebb7cbfc60db138a85becf72f204b4c82a1640fbe2944c0e8",
+  "clockContract": {
+    "mode": "scene-local",
+    "sourceRule": "Each independent Composition starts local frame zero; manifest globalStartFrame controls master voice; S06 Rail explicitly continues S05 local media clock+644"
+  },
+  "referenceCatalogRevision": "2026-09-16-library-remakes-local-reuse",
+  "pages": [
+    {
+      "stableId": "s03-knowledge-base",
+      "compositionId": "EP99-S03",
+      "startFrame": 0,
+      "globalStartFrame": 1372,
+      "durationInFrames": 170,
+      "sourceBeatIds": [
+        "srt-014",
+        "srt-015"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 0,
+          "endChar": 22,
+          "text": "本期所有实操流程\n已经放到Fred专属知识库"
+        }
+      ],
+      "scriptAnchor": "本期所有实操流程\n已经放到Fred专属知识库",
+      "exactScreenWords": [],
+      "oneQuestion": "在哪里找到本期实操流程？",
+      "visualPlan": {
+        "enter": "固定横向iPad进入，保留真实录屏完整画幅",
+        "change": "知识库当前文章随源视频播放",
+        "read": "设备固定，绝不推近，保留四周留白",
+        "exit": "保持当前知识库画面",
+        "handoff": "下一段章节黑场形成内容边界"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实视频持续播放；文字建立后停稳便于阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-014",
+          "startFrame": 0,
+          "endFrame": 76,
+          "text": "本期所有实操流程"
+        },
+        {
+          "id": "srt-015",
+          "startFrame": 76,
+          "endFrame": 170,
+          "text": "已经放到Fred专属知识库"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-014",
+          "sourceBeatId": "srt-014",
+          "spokenCue": "本期所有实操流程",
+          "cueFrame": 0,
+          "event": "知识库当前文章随源视频播放"
+        },
+        {
+          "id": "srt-015",
+          "sourceBeatId": "srt-015",
+          "spokenCue": "已经放到Fred专属知识库",
+          "cueFrame": 76,
+          "event": "知识库当前文章随源视频播放"
+        }
+      ],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "brand-corner",
+          "device-frame",
+          "media-layout",
+          "sound-effects"
+        ],
+        "signature": "cda1e47a0f772bdfd267214c0cbc7e76b51da4bfbed7793246afec346e56e0c2",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "知识库当前文章随源视频播放",
+            "check": "设备固定，绝不推近，保留四周留白；检查中间交接状态"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "知识库当前文章随源视频播放",
+            "check": "设备固定，绝不推近，保留四周留白；检查中间交接状态"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "知识库当前文章随源视频播放",
+            "check": "设备固定，绝不推近，保留四周留白；检查中间交接状态"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "角标固定独立层，按本段局部白/黑底切深浅",
+            "check": "抽查章节黑白交界角标"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "知识库当前文章随源视频播放",
+            "check": "设备固定，绝不推近，保留四周留白；检查中间交接状态"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "原素材静音，原声0.93，交接时稀疏SFX04/13",
+            "check": "最终混音核对口播偏移与交接峰值"
+          }
+        ]
+      },
+      "renderStatus": "not-rendered",
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "用户明确固定iPad，未定位可复用批准iPad壳，采用本期原创克制承载，不冒充库组件",
+        "anchors": [
+          "EP95 Row21 设备与真实内容同组几何"
+        ],
+        "styleContract": {
+          "surface": "纯白背景，克制黑色设备/圆角媒体，无装饰备注",
+          "typography": "MiSans 600，无媒体小标签",
+          "geometry": "1200x900横向iPad壳，x360 y90，内屏1120x840准确4:3；原录屏contain，保留上下黑余量而非拉伸",
+          "motion": "知识库当前文章随源视频播放",
+          "camera": "入场后固定，无推近",
+          "mediaBehavior": "真实媒体保留比例，静音源音轨，按当前SRT映射媒体时钟"
+        },
+        "newElements": [
+          "本期iPad壳"
+        ],
+        "risks": [
+          "屏幕比例与录屏可读性"
+        ],
+        "reviewRequired": true
+      },
+      "requiresRealMedia": true,
+      "mediaContract": [
+        {
+          "id": "knowledge",
+          "source": "[LOCAL_PATH]",
+          "path": "public/media/knowledge.mp4",
+          "sha256": "c53610195bbc475999e37617953e1f7420dbcd3436d2f13296d8e2ec3e0d3062",
+          "role": "真实知识库录屏",
+          "required": true
+        }
+      ],
+      "layoutFamily": "fixed-ipad",
+      "majorGeometry": "1200x900横向iPad壳，x360 y90，内屏1120x840准确4:3；原录屏contain，保留上下黑余量而非拉伸",
+      "visualCenter": "真实知识库内容",
+      "styleTrack": "library-apple-media",
+      "mediaRole": "真实知识库证据",
+      "readingOrder": [
+        "知识库当前文章"
+      ],
+      "referenceImages": [],
+      "finalFrameReference": {
+        "path": "final-s03.svg",
+        "checksum": "sha256:c203db5bc4ef3317e7b84668aff0a7fa2b4f561adeeac61c4bb0490a5da8a3fb"
+      },
+      "typographyRoles": [
+        {
+          "role": "source-media",
+          "text": "实际素材中的原字形",
+          "sizeClass": "native media pixels"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "single focus handoff",
+      "timingSource": "transcript-cue",
+      "primaryMotion": "fixed-device-enter",
+      "implementationComponentId": "Knowledge",
+      "spokenOrder": [
+        "srt-014",
+        "srt-015"
+      ],
+      "finalHoldFrames": 0
+    },
+    {
+      "stableId": "s04-jev-definition",
+      "compositionId": "EP99-S04",
+      "startFrame": 170,
+      "globalStartFrame": 1554,
+      "durationInFrames": 692,
+      "sourceBeatIds": [
+        "srt-016",
+        "srt-017",
+        "srt-018",
+        "srt-019",
+        "srt-020",
+        "srt-021",
+        "srt-022"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 23,
+          "endChar": 102,
+          "text": "第一部分我们先来讨论Jev到底是什么\n先说结论\nJev是一种专门做快速\n语义判断的AI模型\n很多人觉得说Jev跟传统\n的程序有什么区别呢\n还要耗TOKEN对吧"
+        }
+      ],
+      "scriptAnchor": "第一部分我们先来讨论Jev到底是什么\n先说结论\nJev是一种专门做快速\n语义判断的AI模型\n很多人觉得说Jev跟传统\n的程序有什么区别呢\n还要耗TOKEN对吧",
+      "exactScreenWords": [
+        "Part.01",
+        "Jev 到底是什么",
+        "快速",
+        "语义判断",
+        "传统程序？",
+        "还要耗 Token？"
+      ],
+      "oneQuestion": "Jev是什么，与传统程序差异是什么？",
+      "visualPlan": {
+        "enter": "EP87 Drag准确拖选建立Part.01和本期章节",
+        "change": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题",
+        "read": "定义与问题各自独占清楚阅读区，无标题小字备注",
+        "exit": "还要耗Token问题保持",
+        "handoff": "传送带媒体从右侧接走问题"
+      },
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "fred-motion-source-7056fea710f9cc93",
+          "useMode": "local",
+          "keyAction": "Drag selection reveals chapter, then selection disappears for reading",
+          "reason": "用户准确截图指定Part.01拖框章节",
+          "preserve": "f5-37拖框揭示、f48撤框、黑底两级字",
+          "change": "本期标题和原声；后段定义及问题是新文字编排",
+          "useScope": "local frames 0-119",
+          "source": {
+            "path": "components/projects/5fa89bc8e570/originals/ep87/chapter-transitions-2s-v1/src/Transition.tsx",
+            "sha256": "de5f02c22eaadfd83e5540a77222c5de85eb6c2583494f2231df00a0a703dde7",
+            "symbol": "Drag"
+          },
+          "implementation": {
+            "path": "src/Chapter.tsx",
+            "sha256": "4fed07f77ddb378de62e48395d26b29285b63f70f7957b41bd3f1c1e33ddf3ee",
+            "symbol": "ChapterDrag"
+          },
+          "callSite": {
+            "path": "src/index.tsx",
+            "sha256": "7e9cbdaa02107937af187b4017b5c9e1a7101a87b32c6d0d59fc428c4128aa76",
+            "symbol": "ChapterDrag"
+          }
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 4,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实视频持续播放；文字建立后停稳便于阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-016",
+          "startFrame": 0,
+          "endFrame": 158,
+          "text": "第一部分我们先来讨论Jev到底是什么"
+        },
+        {
+          "id": "srt-017",
+          "startFrame": 158,
+          "endFrame": 210,
+          "text": "先说结论"
+        },
+        {
+          "id": "srt-018",
+          "startFrame": 222,
+          "endFrame": 342,
+          "text": "Jev是一种专门做快速"
+        },
+        {
+          "id": "srt-019",
+          "startFrame": 346,
+          "endFrame": 430,
+          "text": "语义判断的AI模型"
+        },
+        {
+          "id": "srt-020",
+          "startFrame": 430,
+          "endFrame": 526,
+          "text": "很多人觉得说Jev跟传统"
+        },
+        {
+          "id": "srt-021",
+          "startFrame": 526,
+          "endFrame": 604,
+          "text": "的程序有什么区别呢"
+        },
+        {
+          "id": "srt-022",
+          "startFrame": 604,
+          "endFrame": 692,
+          "text": "还要耗TOKEN对吧"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-016",
+          "sourceBeatId": "srt-016",
+          "spokenCue": "第一部分我们先来讨论Jev到底是什么",
+          "cueFrame": 170,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        },
+        {
+          "id": "srt-017",
+          "sourceBeatId": "srt-017",
+          "spokenCue": "先说结论",
+          "cueFrame": 328,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        },
+        {
+          "id": "srt-018",
+          "sourceBeatId": "srt-018",
+          "spokenCue": "Jev是一种专门做快速",
+          "cueFrame": 392,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        },
+        {
+          "id": "srt-019",
+          "sourceBeatId": "srt-019",
+          "spokenCue": "语义判断的AI模型",
+          "cueFrame": 516,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        },
+        {
+          "id": "srt-020",
+          "sourceBeatId": "srt-020",
+          "spokenCue": "很多人觉得说Jev跟传统",
+          "cueFrame": 600,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        },
+        {
+          "id": "srt-021",
+          "sourceBeatId": "srt-021",
+          "spokenCue": "的程序有什么区别呢",
+          "cueFrame": 696,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        },
+        {
+          "id": "srt-022",
+          "sourceBeatId": "srt-022",
+          "spokenCue": "还要耗TOKEN对吧",
+          "cueFrame": 774,
+          "event": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题"
+        }
+      ],
+      "sceneGuide": {
+        "type": "summary",
+        "modifiers": [
+          "brand-corner",
+          "text-presentation",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "408304890c05a8b9d6a846299da0a2850d6e36071fb439adadec9feeec151fe5",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题",
+            "check": "定义与问题各自独占清楚阅读区，无标题小字备注；检查中间交接状态"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题",
+            "check": "定义与问题各自独占清楚阅读区，无标题小字备注；检查中间交接状态"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题",
+            "check": "定义与问题各自独占清楚阅读区，无标题小字备注；检查中间交接状态"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "角标固定独立层，按本段局部白/黑底切深浅",
+            "check": "抽查章节黑白交界角标"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题",
+            "check": "定义与问题各自独占清楚阅读区，无标题小字备注；检查中间交接状态"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "章节退出后快速、语义判断分两层建立，再退出引入传统程序问题",
+            "check": "定义与问题各自独占清楚阅读区，无标题小字备注；检查中间交接状态"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "原素材静音，原声0.93，交接时稀疏SFX04/13",
+            "check": "最终混音核对口播偏移与交接峰值"
+          }
+        ]
+      },
+      "renderStatus": "not-rendered",
+      "layoutFamily": "drag-chapter-to-definition",
+      "majorGeometry": "Chapter1120; open definition and questions",
+      "visualCenter": "当前定义或问题",
+      "styleTrack": "fred-type",
+      "mediaRole": "定义与问题文字",
+      "readingOrder": [
+        "Part.01",
+        "Jev 到底是什么",
+        "快速",
+        "语义判断",
+        "传统程序？",
+        "还要耗 Token？"
+      ],
+      "referenceImages": [],
+      "finalFrameReference": {
+        "path": "final-s04.svg",
+        "checksum": "sha256:77410672a863bac702f0108f58f94b16dc1acacbd0f7b483d67ca1c5ad190e75"
+      },
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Part.01",
+          "sizeClass": "MiSans 600 / chapter Chinese700"
+        },
+        {
+          "role": "content",
+          "text": "Jev 到底是什么",
+          "sizeClass": "MiSans 600 / chapter Chinese700"
+        },
+        {
+          "role": "content",
+          "text": "快速",
+          "sizeClass": "MiSans 600 / chapter Chinese700"
+        },
+        {
+          "role": "content",
+          "text": "语义判断",
+          "sizeClass": "MiSans 600 / chapter Chinese700"
+        },
+        {
+          "role": "content",
+          "text": "传统程序？",
+          "sizeClass": "MiSans 600 / chapter Chinese700"
+        },
+        {
+          "role": "content",
+          "text": "还要耗 Token？",
+          "sizeClass": "MiSans 600 / chapter Chinese700"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "single focus handoff",
+      "timingSource": "transcript-cue",
+      "primaryMotion": "drag-reveal-to-open-type",
+      "implementationComponentId": "ChapterDrag",
+      "spokenOrder": [
+        "srt-016",
+        "srt-017",
+        "srt-018",
+        "srt-019",
+        "srt-020",
+        "srt-021",
+        "srt-022"
+      ],
+      "finalHoldFrames": 0
+    },
+    {
+      "stableId": "s05-conveyor-sorter",
+      "compositionId": "EP99-S05",
+      "startFrame": 862,
+      "globalStartFrame": 2254,
+      "durationInFrames": 644,
+      "sourceBeatIds": [
+        "srt-023",
+        "srt-024",
+        "srt-025",
+        "srt-026",
+        "srt-027",
+        "srt-028"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 103,
+          "endChar": 168,
+          "text": "我们可以理解啊\n普通程序就有点像物品的传送带\n按照规则把东西运过去\n而Jev呢就有点像分拣员\n读懂内容以后\n决定应该放到哪个筐里面"
+        }
+      ],
+      "scriptAnchor": "我们可以理解啊\n普通程序就有点像物品的传送带\n按照规则把东西运过去\n而Jev呢就有点像分拣员\n读懂内容以后\n决定应该放到哪个筐里面",
+      "exactScreenWords": [],
+      "oneQuestion": "程序和Jev分别像什么？",
+      "visualPlan": {
+        "enter": "白底横版传送带媒体成为主片",
+        "change": "Jev口播时按EP95 Day公式横向交换焦点",
+        "read": "当前片1260宽，旧片缩小压暗，无多余文字",
+        "exit": "Jev作为主片保留",
+        "handoff": "S06从同一轮播时钟644帧无跳变接入"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实视频持续播放；文字建立后停稳便于阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-023",
+          "startFrame": 0,
+          "endFrame": 64,
+          "text": "我们可以理解啊"
+        },
+        {
+          "id": "srt-024",
+          "startFrame": 64,
+          "endFrame": 228,
+          "text": "普通程序就有点像物品的传送带"
+        },
+        {
+          "id": "srt-025",
+          "startFrame": 228,
+          "endFrame": 334,
+          "text": "按照规则把东西运过去"
+        },
+        {
+          "id": "srt-026",
+          "startFrame": 334,
+          "endFrame": 466,
+          "text": "而Jev呢就有点像分拣员"
+        },
+        {
+          "id": "srt-027",
+          "startFrame": 472,
+          "endFrame": 538,
+          "text": "读懂内容以后"
+        },
+        {
+          "id": "srt-028",
+          "startFrame": 538,
+          "endFrame": 644,
+          "text": "决定应该放到哪个筐里面"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-023",
+          "sourceBeatId": "srt-023",
+          "spokenCue": "我们可以理解啊",
+          "cueFrame": 862,
+          "event": "Jev口播时按EP95 Day公式横向交换焦点"
+        },
+        {
+          "id": "srt-024",
+          "sourceBeatId": "srt-024",
+          "spokenCue": "普通程序就有点像物品的传送带",
+          "cueFrame": 926,
+          "event": "Jev口播时按EP95 Day公式横向交换焦点"
+        },
+        {
+          "id": "srt-025",
+          "sourceBeatId": "srt-025",
+          "spokenCue": "按照规则把东西运过去",
+          "cueFrame": 1090,
+          "event": "Jev口播时按EP95 Day公式横向交换焦点"
+        },
+        {
+          "id": "srt-026",
+          "sourceBeatId": "srt-026",
+          "spokenCue": "而Jev呢就有点像分拣员",
+          "cueFrame": 1196,
+          "event": "Jev口播时按EP95 Day公式横向交换焦点"
+        },
+        {
+          "id": "srt-027",
+          "sourceBeatId": "srt-027",
+          "spokenCue": "读懂内容以后",
+          "cueFrame": 1334,
+          "event": "Jev口播时按EP95 Day公式横向交换焦点"
+        },
+        {
+          "id": "srt-028",
+          "sourceBeatId": "srt-028",
+          "spokenCue": "决定应该放到哪个筐里面",
+          "cueFrame": 1400,
+          "event": "Jev口播时按EP95 Day公式横向交换焦点"
+        }
+      ],
+      "sceneGuide": {
+        "type": "custom",
+        "modifiers": [
+          "brand-corner",
+          "media-layout",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "7d7c8a4fe2cd11f4a1e269b86e377ec0ba51d186a543b659888d0aa177ff014d",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "Jev口播时按EP95 Day公式横向交换焦点",
+            "check": "当前片1260宽，旧片缩小压暗，无多余文字；检查中间交接状态"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "Jev口播时按EP95 Day公式横向交换焦点",
+            "check": "当前片1260宽，旧片缩小压暗，无多余文字；检查中间交接状态"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "角标固定独立层，按本段局部白/黑底切深浅",
+            "check": "抽查章节黑白交界角标"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "Jev口播时按EP95 Day公式横向交换焦点",
+            "check": "当前片1260宽，旧片缩小压暗，无多余文字；检查中间交接状态"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "Jev口播时按EP95 Day公式横向交换焦点",
+            "check": "当前片1260宽，旧片缩小压暗，无多余文字；检查中间交接状态"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "Jev口播时按EP95 Day公式横向交换焦点",
+            "check": "当前片1260宽，旧片缩小压暗，无多余文字；检查中间交接状态"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "原素材静音，原声0.93，交接时稀疏SFX04/13",
+            "check": "最终混音核对口播偏移与交接峰值"
+          }
+        ],
+        "customReason": "三段H3角色比喻由同一横版轮播连续接力，不是软件实操或文字关系图"
+      },
+      "renderStatus": "not-rendered",
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "实际提取EP95 Day横版焦点几何，改为本期三H3及连续S05/S06时钟；该单期参考未登记为canonical组件，诚实记original并保存借用来源",
+        "anchors": [
+          "EP95 Day Revisions.tsx:15"
+        ],
+        "styleContract": {
+          "surface": "纯白背景，克制黑色设备/圆角媒体，无装饰备注",
+          "typography": "MiSans 600，无媒体小标签",
+          "geometry": "EP95 Day主片1260x708.75，非焦点460宽；x=960+d*1020，y随焦点连续；本期圆角34避免过圆",
+          "motion": "Jev口播时按EP95 Day公式横向交换焦点",
+          "camera": "横向焦点交换，主片停稳时媒体自身动作继续",
+          "mediaBehavior": "真实媒体保留比例，静音源音轨，按当前SRT映射媒体时钟"
+        },
+        "newElements": [
+          "三H3源、SRT时钟、34px圆角"
+        ],
+        "risks": [
+          "轮播中间态遮挡、S05/S06媒体连续"
+        ],
+        "reviewRequired": true
+      },
+      "requiresRealMedia": true,
+      "mediaContract": [
+        {
+          "id": "conveyor",
+          "source": "[LOCAL_PATH]",
+          "path": "public/media/conveyor.mp4",
+          "sha256": "80295f56a008e22fc94a291a757693943b2550c2851e2fd65fc4e09cb2e4ea03",
+          "role": "用户提供H3角色比喻，非真实物理交接",
+          "required": true
+        },
+        {
+          "id": "sorter",
+          "source": "[LOCAL_PATH] 挑选员动画.mp4",
+          "path": "public/media/sorter.mp4",
+          "sha256": "d9556e185a429b8dde459ce9a16ee8f4e500d7b5c12bc118b6b7aa97c5148102",
+          "role": "用户提供H3角色比喻，非真实物理交接",
+          "required": true
+        },
+        {
+          "id": "researcher",
+          "source": "[LOCAL_PATH] 研究员动画.mp4",
+          "path": "public/media/researcher.mp4",
+          "sha256": "3550507405d95740d857b94cc8c00209acddeb66be048a4b9bd152e89aa96543",
+          "role": "用户提供H3角色比喻，非真实物理交接",
+          "required": true
+        }
+      ],
+      "layoutFamily": "day-horizontal-role-rail",
+      "majorGeometry": "EP95 Day主片1260x708.75，非焦点460宽；x=960+d*1020，y随焦点连续；本期圆角34避免过圆",
+      "visualCenter": "当前H3主片",
+      "styleTrack": "library-apple-media",
+      "mediaRole": "H3角色比喻",
+      "readingOrder": [
+        "传送带至分拣员"
+      ],
+      "referenceImages": [],
+      "finalFrameReference": {
+        "path": "final-s05.svg",
+        "checksum": "sha256:5d6594c38afaa13da85a2ad4bbe39fe6a6dce17ab7c9da846d1131cd31c8a38b"
+      },
+      "typographyRoles": [
+        {
+          "role": "source-media",
+          "text": "实际素材中的原字形",
+          "sizeClass": "native media pixels"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "single focus handoff",
+      "timingSource": "transcript-cue",
+      "primaryMotion": "horizontal-media-handoff",
+      "implementationComponentId": "RoleRail",
+      "spokenOrder": [
+        "srt-023",
+        "srt-024",
+        "srt-025",
+        "srt-026",
+        "srt-027",
+        "srt-028"
+      ],
+      "finalHoldFrames": 0
+    },
+    {
+      "stableId": "s06-codex-researcher",
+      "compositionId": "EP99-S06",
+      "startFrame": 1506,
+      "globalStartFrame": 2898,
+      "durationInFrames": 366,
+      "sourceBeatIds": [
+        "srt-029",
+        "srt-030",
+        "srt-031"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 169,
+          "endChar": 204,
+          "text": "而Codex更像旁边的研究员\n负责把这些结果串起来\n继续分析和优化方案"
+        }
+      ],
+      "scriptAnchor": "而Codex更像旁边的研究员\n负责把这些结果串起来\n继续分析和优化方案",
+      "exactScreenWords": [],
+      "oneQuestion": "Codex承担什么角色？",
+      "visualPlan": {
+        "enter": "从S05末态连续接入同一横版轮播",
+        "change": "Codex研究员从右侧取代Jev成为中心主片",
+        "read": "研究员完整动作优先，旧片缩小压暗",
+        "exit": "研究员留在主位置用于下段蒙版",
+        "handoff": "下游S07必须绑定本段最终MP4尾帧与hash"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实视频持续播放；文字建立后停稳便于阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-029",
+          "startFrame": 0,
+          "endFrame": 146,
+          "text": "而Codex更像旁边的研究员"
+        },
+        {
+          "id": "srt-030",
+          "startFrame": 146,
+          "endFrame": 254,
+          "text": "负责把这些结果串起来"
+        },
+        {
+          "id": "srt-031",
+          "startFrame": 254,
+          "endFrame": 366,
+          "text": "继续分析和优化方案"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-029",
+          "sourceBeatId": "srt-029",
+          "spokenCue": "而Codex更像旁边的研究员",
+          "cueFrame": 1506,
+          "event": "Codex研究员从右侧取代Jev成为中心主片"
+        },
+        {
+          "id": "srt-030",
+          "sourceBeatId": "srt-030",
+          "spokenCue": "负责把这些结果串起来",
+          "cueFrame": 1652,
+          "event": "Codex研究员从右侧取代Jev成为中心主片"
+        },
+        {
+          "id": "srt-031",
+          "sourceBeatId": "srt-031",
+          "spokenCue": "继续分析和优化方案",
+          "cueFrame": 1760,
+          "event": "Codex研究员从右侧取代Jev成为中心主片"
+        }
+      ],
+      "sceneGuide": {
+        "type": "custom",
+        "modifiers": [
+          "brand-corner",
+          "media-layout",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "7d7c8a4fe2cd11f4a1e269b86e377ec0ba51d186a543b659888d0aa177ff014d",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "Codex研究员从右侧取代Jev成为中心主片",
+            "check": "研究员完整动作优先，旧片缩小压暗；检查中间交接状态"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "Codex研究员从右侧取代Jev成为中心主片",
+            "check": "研究员完整动作优先，旧片缩小压暗；检查中间交接状态"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "角标固定独立层，按本段局部白/黑底切深浅",
+            "check": "抽查章节黑白交界角标"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "Codex研究员从右侧取代Jev成为中心主片",
+            "check": "研究员完整动作优先，旧片缩小压暗；检查中间交接状态"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "Codex研究员从右侧取代Jev成为中心主片",
+            "check": "研究员完整动作优先，旧片缩小压暗；检查中间交接状态"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "Codex研究员从右侧取代Jev成为中心主片",
+            "check": "研究员完整动作优先，旧片缩小压暗；检查中间交接状态"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "原素材静音，原声0.93，交接时稀疏SFX04/13",
+            "check": "最终混音核对口播偏移与交接峰值"
+          }
+        ],
+        "customReason": "三段H3角色比喻由同一横版轮播连续接力，不是软件实操或文字关系图"
+      },
+      "renderStatus": "not-rendered",
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "实际提取EP95 Day横版焦点几何，改为本期三H3及连续S05/S06时钟；该单期参考未登记为canonical组件，诚实记original并保存借用来源",
+        "anchors": [
+          "EP95 Day Revisions.tsx:15"
+        ],
+        "styleContract": {
+          "surface": "纯白背景，克制黑色设备/圆角媒体，无装饰备注",
+          "typography": "MiSans 600，无媒体小标签",
+          "geometry": "EP95 Day主片1260x708.75，非焦点460宽；x=960+d*1020，y随焦点连续；本期圆角34避免过圆",
+          "motion": "Codex研究员从右侧取代Jev成为中心主片",
+          "camera": "横向焦点交换，主片停稳时媒体自身动作继续",
+          "mediaBehavior": "真实媒体保留比例，静音源音轨，按当前SRT映射媒体时钟"
+        },
+        "newElements": [
+          "三H3源、SRT时钟、34px圆角"
+        ],
+        "risks": [
+          "轮播中间态遮挡、S05/S06媒体连续"
+        ],
+        "reviewRequired": true
+      },
+      "requiresRealMedia": true,
+      "mediaContract": [
+        {
+          "id": "conveyor",
+          "source": "[LOCAL_PATH]",
+          "path": "public/media/conveyor.mp4",
+          "sha256": "80295f56a008e22fc94a291a757693943b2550c2851e2fd65fc4e09cb2e4ea03",
+          "role": "用户提供H3角色比喻，非真实物理交接",
+          "required": true
+        },
+        {
+          "id": "sorter",
+          "source": "[LOCAL_PATH] 挑选员动画.mp4",
+          "path": "public/media/sorter.mp4",
+          "sha256": "d9556e185a429b8dde459ce9a16ee8f4e500d7b5c12bc118b6b7aa97c5148102",
+          "role": "用户提供H3角色比喻，非真实物理交接",
+          "required": true
+        },
+        {
+          "id": "researcher",
+          "source": "[LOCAL_PATH] 研究员动画.mp4",
+          "path": "public/media/researcher.mp4",
+          "sha256": "3550507405d95740d857b94cc8c00209acddeb66be048a4b9bd152e89aa96543",
+          "role": "用户提供H3角色比喻，非真实物理交接",
+          "required": true
+        }
+      ],
+      "layoutFamily": "day-horizontal-role-rail",
+      "majorGeometry": "EP95 Day主片1260x708.75，非焦点460宽；x=960+d*1020，y随焦点连续；本期圆角34避免过圆",
+      "visualCenter": "当前H3主片",
+      "styleTrack": "library-apple-media",
+      "mediaRole": "H3角色比喻",
+      "readingOrder": [
+        "Codex研究员"
+      ],
+      "referenceImages": [],
+      "finalFrameReference": {
+        "path": "final-s06.svg",
+        "checksum": "sha256:c84d4f303758b0e6eebd410af9b9c1d23bb76b1696af64d383ec00948fb28a98"
+      },
+      "typographyRoles": [
+        {
+          "role": "source-media",
+          "text": "实际素材中的原字形",
+          "sizeClass": "native media pixels"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "single focus handoff",
+      "timingSource": "transcript-cue",
+      "primaryMotion": "horizontal-media-handoff",
+      "implementationComponentId": "RoleRail",
+      "spokenOrder": [
+        "srt-029",
+        "srt-030",
+        "srt-031"
+      ],
+      "finalHoldFrames": 0
+    }
+  ],
+  "parts": [
+    {
+      "id": "EP99-S03",
+      "startFrame": 0,
+      "endFrameExclusive": 170
+    },
+    {
+      "id": "EP99-S04",
+      "startFrame": 170,
+      "endFrameExclusive": 862
+    },
+    {
+      "id": "EP99-S05",
+      "startFrame": 862,
+      "endFrameExclusive": 1506
+    },
+    {
+      "id": "EP99-S06",
+      "startFrame": 1506,
+      "endFrameExclusive": 1872
+    }
+  ]
+}

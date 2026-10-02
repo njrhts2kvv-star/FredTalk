@@ -1,0 +1,25 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+.artifacts/
+.local/
+media/
+dist/
+*.log
+# Source-project binary assets are installed from the reviewed manifest.
+components/**/*.png
+components/**/*.jpg
+components/**/*.jpeg
+components/**/*.webp
+components/**/*.gif
+components/**/*.mp4
+components/**/*.webm
+components/**/*.mov
+components/**/*.ttf
+components/**/*.otf
+components/**/*.woff
+components/**/*.woff2

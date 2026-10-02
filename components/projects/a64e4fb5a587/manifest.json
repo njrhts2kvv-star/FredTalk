@@ -1,0 +1,3195 @@
+{
+  "version": "full-v2",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationInFrames": 12108,
+  "pages": [
+    {
+      "stableId": "ep93-opening",
+      "sourceBeatIds": [
+        "srt-1",
+        "srt-2",
+        "srt-3"
+      ],
+      "scriptAnchor": "Codex / Token消耗 / 100% / 30% / 节省70%Token",
+      "exactScreenWords": [
+        "Codex",
+        "Token消耗",
+        "100%",
+        "30%",
+        "节省70%Token"
+      ],
+      "oneQuestion": "opening semantic transformation",
+      "layoutFamily": "generated-opening",
+      "majorGeometry": "generated-opening",
+      "readingOrder": [
+        "Codex",
+        "Token消耗",
+        "100%",
+        "30%",
+        "节省70%Token"
+      ],
+      "visualCenter": "generated-opening",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/public/opening-tail.png",
+          "responsibility": "actual opening last frame"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/public/opening-tail.png",
+        "checksum": "sha256:886422afbbb0a6e5129e94543826790a20ecb54c194c3cb7259a4ed36dfd018a"
+      },
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Codex",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "Token消耗",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "100%",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "30%",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "节省70%Token",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "srt-1",
+        "srt-2",
+        "srt-3"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "srt-1",
+          "event": "generated-opening",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "generated-opening",
+      "durationInFrames": 322,
+      "startFrame": 0,
+      "implementationComponentId": "Opening",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white"
+      ],
+      "sourceAudioStart": 0.0,
+      "sourceAudioEnd": 5.366666666666666
+    },
+    {
+      "stableId": "ep93-bridge",
+      "sourceBeatIds": [
+        "srt-4",
+        "srt-5",
+        "srt-6"
+      ],
+      "scriptAnchor": "配置 / 工具 / 使用习惯 / 少做没必要的工作",
+      "exactScreenWords": [
+        "配置",
+        "工具",
+        "使用习惯",
+        "少做没必要的工作"
+      ],
+      "oneQuestion": "bridge semantic transformation",
+      "layoutFamily": "controls-clear-work",
+      "majorGeometry": "controls-clear-work",
+      "readingOrder": [
+        "配置",
+        "工具",
+        "使用习惯",
+        "少做没必要的工作"
+      ],
+      "visualCenter": "controls-clear-work",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/bridge-motion-review.jpg",
+          "responsibility": "actual H3 intermediate motion review; local only"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/bridge-tail.png",
+        "checksum": "sha256:139550d74c17e4208e4d093b1c74da218d205cc81a6fac4f88461f041efde762"
+      },
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "配置",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "工具",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "使用习惯",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "少做没必要的工作",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "srt-4",
+        "srt-5",
+        "srt-6"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "srt-4",
+          "event": "controls-clear-work",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "controls-clear-work",
+      "durationInFrames": 304,
+      "startFrame": 322,
+      "implementationComponentId": "Bridge",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white"
+      ],
+      "productionRoute": "h3-remotion",
+      "reconstruction": {
+        "sourceVideo": {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/h3-remake-v3/bridge.mp4",
+          "checksum": "sha256:92fc36fbfca960f09bbe5a43e7e4c735c3ccbfa93fbb03d1481fd0fa59993272",
+          "fps": 24.0,
+          "startFrame": 0,
+          "endFrameExclusive": 124
+        },
+        "mode": "full-remotion",
+        "output": {
+          "fps": 60,
+          "durationInFrames": 304
+        },
+        "preserve": [
+          "controls enter staggered, internal toggles and checks resolve; unnecessary outlined background is excluded; dark object expands across scene"
+        ],
+        "adapt": [
+          "exact text from manifest",
+          "master WAV timing",
+          "bottom sixth clear",
+          "no fake browser chrome or decorative arrows"
+        ],
+        "mediaDependencies": [],
+        "states": [
+          {
+            "sourceFrame": 0,
+            "role": "opening",
+            "objectIds": [
+              "bridge-primary"
+            ]
+          },
+          {
+            "sourceFrame": 62,
+            "role": "intermediate",
+            "objectIds": [
+              "bridge-primary",
+              "bridge-context"
+            ]
+          },
+          {
+            "sourceFrame": 123,
+            "role": "final",
+            "objectIds": [
+              "bridge-primary",
+              "bridge-context"
+            ]
+          }
+        ],
+        "timeMap": [
+          {
+            "sourceFrame": 0,
+            "outputFrame": 0,
+            "beatId": "srt-4"
+          },
+          {
+            "sourceFrame": 62,
+            "outputFrame": 152,
+            "beatId": "srt-5"
+          },
+          {
+            "sourceFrame": 123,
+            "outputFrame": 303,
+            "beatId": "srt-6"
+          }
+        ],
+        "review": {
+          "status": "agent-reviewed",
+          "evidence": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/bridge-motion-review.jpg; controls enter staggered, internal toggles and checks resolve; unnecessary outlined background is excluded; dark object expands across scene"
+        }
+      },
+      "sourceAudioStart": 5.366666666666666,
+      "sourceAudioEnd": 10.433333333333334
+    },
+    {
+      "stableId": "ep93-chapter",
+      "sourceBeatIds": [
+        "srt-7"
+      ],
+      "scriptAnchor": "Part.01 / 相关配置",
+      "exactScreenWords": [
+        "Part.01",
+        "相关配置"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "original-drag-chapter",
+      "majorGeometry": "original-drag-chapter",
+      "readingOrder": [
+        "Part.01",
+        "相关配置"
+      ],
+      "visualCenter": "original-drag-chapter",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/chapter-drag.png",
+          "responsibility": "approved chapter reference"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/chapter-drag.png",
+        "checksum": "sha256:6bcf50dd4926572b7848a10225be62026d63eff08fbf3ef8e52239d1d48be859"
+      },
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Part.01",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "相关配置",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "srt-7"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "srt-7",
+          "event": "original-drag-chapter",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "original-drag-chapter",
+      "durationInFrames": 120,
+      "startFrame": 626,
+      "implementationComponentId": "Chapter",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white"
+      ],
+      "sourceAudioStart": 10.433333333333334,
+      "sourceAudioEnd": 12.433333333333334
+    },
+    {
+      "stableId": "ep93-rule",
+      "sourceBeatIds": [
+        "srt-8",
+        "srt-9",
+        "srt-10",
+        "srt-11",
+        "srt-12",
+        "srt-13",
+        "srt-14",
+        "srt-15",
+        "srt-16"
+      ],
+      "scriptAnchor": "Skill / 自动触发 / using-superpowers / 1% chance / ABSOLUTELY MUST / invoke the skill / 规则比较激进 / 1% / 可能适用 / 必须先调用 Skill / 复杂开发 / 规划 / 实现 / 验证 / 流程有价值",
+      "exactScreenWords": [
+        "Skill",
+        "自动触发",
+        "using-superpowers",
+        "1% chance",
+        "ABSOLUTELY MUST",
+        "invoke the skill",
+        "规则比较激进",
+        "1%",
+        "可能适用",
+        "必须先调用 Skill",
+        "复杂开发",
+        "规划",
+        "实现",
+        "验证",
+        "流程有价值"
+      ],
+      "oneQuestion": "rule semantic transformation",
+      "layoutFamily": "list-document-threshold",
+      "majorGeometry": "list-document-threshold",
+      "readingOrder": [
+        "Skill",
+        "自动触发",
+        "using-superpowers",
+        "1% chance",
+        "ABSOLUTELY MUST",
+        "invoke the skill",
+        "规则比较激进",
+        "1%",
+        "可能适用",
+        "必须先调用 Skill",
+        "复杂开发",
+        "规划",
+        "实现",
+        "验证",
+        "流程有价值"
+      ],
+      "visualCenter": "list-document-threshold",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/rule-motion-review.jpg",
+          "responsibility": "actual H3 intermediate motion review; local only"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/rule-tail.png",
+        "checksum": "sha256:db30bbeaf32063ca62157533ba80fac9cc1b52e5c37c819c5fc2147738a68c6b"
+      },
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "自动触发",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "using-superpowers",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "1% chance",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "ABSOLUTELY MUST",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "invoke the skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "规则比较激进",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "1%",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "可能适用",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "必须先调用 Skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "复杂开发",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "规划",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "实现",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "验证",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "流程有价值",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "srt-8",
+        "srt-9",
+        "srt-10",
+        "srt-11",
+        "srt-12",
+        "srt-13",
+        "srt-14",
+        "srt-15",
+        "srt-16"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "srt-8",
+          "event": "list-document-threshold",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "list-document-threshold",
+      "durationInFrames": 920,
+      "startFrame": 746,
+      "implementationComponentId": "Rule",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white"
+      ],
+      "productionRoute": "h3-remotion",
+      "reconstruction": {
+        "sourceVideo": {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/h3-remake-v3/rule.mp4",
+          "checksum": "sha256:f4aecbe5d55caa7319d0f5c38b95918fe75138ae4d6233ab81bfb2162e458029",
+          "fps": 24.0,
+          "startFrame": 0,
+          "endFrameExclusive": 294
+        },
+        "mode": "full-remotion",
+        "output": {
+          "fps": 60,
+          "durationInFrames": 920
+        },
+        "preserve": [
+          "list focal entry enlarges, document selected fragments hand off into oversized 1% and compulsory Skill, pullback places rule inside complex workflow; fix generated gibberish and clipping"
+        ],
+        "adapt": [
+          "exact text from manifest",
+          "master WAV timing",
+          "bottom sixth clear",
+          "no fake browser chrome or decorative arrows"
+        ],
+        "mediaDependencies": [],
+        "states": [
+          {
+            "sourceFrame": 0,
+            "role": "opening",
+            "objectIds": [
+              "rule-primary"
+            ]
+          },
+          {
+            "sourceFrame": 147,
+            "role": "intermediate",
+            "objectIds": [
+              "rule-primary",
+              "rule-context"
+            ]
+          },
+          {
+            "sourceFrame": 293,
+            "role": "final",
+            "objectIds": [
+              "rule-primary",
+              "rule-context"
+            ]
+          }
+        ],
+        "timeMap": [
+          {
+            "sourceFrame": 0,
+            "outputFrame": 0,
+            "beatId": "srt-8"
+          },
+          {
+            "sourceFrame": 147,
+            "outputFrame": 460,
+            "beatId": "srt-12"
+          },
+          {
+            "sourceFrame": 293,
+            "outputFrame": 919,
+            "beatId": "srt-16"
+          }
+        ],
+        "review": {
+          "status": "agent-reviewed",
+          "evidence": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/rule-motion-review.jpg; list focal entry enlarges, document selected fragments hand off into oversized 1% and compulsory Skill, pullback places rule inside complex workflow; fix generated gibberish and clipping"
+        }
+      },
+      "sourceAudioStart": 12.433333333333334,
+      "sourceAudioEnd": 27.766666666666666
+    },
+    {
+      "stableId": "ep93-task",
+      "sourceBeatIds": [
+        "srt-17",
+        "srt-18",
+        "srt-19",
+        "srt-20",
+        "srt-21",
+        "srt-22",
+        "srt-23"
+      ],
+      "scriptAnchor": "简单任务 / 开始使用 Codex / 立即提交 / 开始使用 / 改文案 / 调页面 / 检查适用 / 调用 Skill / 进入流程 / 步骤太多 / using-superpowers / 自动触发 / 移除 / 复杂任务 / 按需使用流程 / 已完成",
+      "exactScreenWords": [
+        "简单任务",
+        "开始使用 Codex",
+        "立即提交",
+        "开始使用",
+        "改文案",
+        "调页面",
+        "检查适用",
+        "调用 Skill",
+        "进入流程",
+        "步骤太多",
+        "using-superpowers",
+        "自动触发",
+        "移除",
+        "复杂任务",
+        "按需使用流程",
+        "已完成"
+      ],
+      "oneQuestion": "task semantic transformation",
+      "layoutFamily": "editable-page-workflow",
+      "majorGeometry": "editable-page-workflow",
+      "readingOrder": [
+        "简单任务",
+        "开始使用 Codex",
+        "立即提交",
+        "开始使用",
+        "改文案",
+        "调页面",
+        "检查适用",
+        "调用 Skill",
+        "进入流程",
+        "步骤太多",
+        "using-superpowers",
+        "自动触发",
+        "移除",
+        "复杂任务",
+        "按需使用流程",
+        "已完成"
+      ],
+      "visualCenter": "editable-page-workflow",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/task-motion-review.jpg",
+          "responsibility": "actual H3 intermediate motion review; local only"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "简单任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "开始使用 Codex",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "立即提交",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "开始使用",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "改文案",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "调页面",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "检查适用",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "调用 Skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "进入流程",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "步骤太多",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "using-superpowers",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "自动触发",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "移除",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "复杂任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "按需使用流程",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "已完成",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "srt-17",
+        "srt-18",
+        "srt-19",
+        "srt-20",
+        "srt-21",
+        "srt-22",
+        "srt-23"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "srt-17",
+          "event": "editable-page-workflow",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "editable-page-workflow",
+      "durationInFrames": 904,
+      "startFrame": 1666,
+      "implementationComponentId": "Task",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "black"
+      ],
+      "productionRoute": "h3-remotion",
+      "reconstruction": {
+        "sourceVideo": {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/h3-remake-v3/task.mp4",
+          "checksum": "sha256:eb0309a333c93b682b9f1bfa5a1afc02fceebaf0835c4b46eb93c7e0604b07a4",
+          "fps": 24.0,
+          "startFrame": 0,
+          "endFrameExclusive": 362
+        },
+        "mode": "full-remotion",
+        "output": {
+          "fps": 60,
+          "durationInFrames": 904
+        },
+        "preserve": [
+          "editable page retained as workflow sheets crowd foreground, sheets withdraw exposing retained result, final comparison keeps separate optional workflow; fix generated wrong button text and fake browser chrome"
+        ],
+        "adapt": [
+          "exact text from manifest",
+          "master WAV timing",
+          "bottom sixth clear",
+          "no fake browser chrome or decorative arrows"
+        ],
+        "mediaDependencies": [],
+        "states": [
+          {
+            "sourceFrame": 0,
+            "role": "opening",
+            "objectIds": [
+              "task-primary"
+            ]
+          },
+          {
+            "sourceFrame": 181,
+            "role": "intermediate",
+            "objectIds": [
+              "task-primary",
+              "task-context"
+            ]
+          },
+          {
+            "sourceFrame": 361,
+            "role": "final",
+            "objectIds": [
+              "task-primary",
+              "task-context"
+            ]
+          }
+        ],
+        "timeMap": [
+          {
+            "sourceFrame": 0,
+            "outputFrame": 0,
+            "beatId": "srt-17"
+          },
+          {
+            "sourceFrame": 181,
+            "outputFrame": 452,
+            "beatId": "srt-20"
+          },
+          {
+            "sourceFrame": 361,
+            "outputFrame": 903,
+            "beatId": "srt-23"
+          }
+        ],
+        "review": {
+          "status": "agent-reviewed",
+          "evidence": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/intro-preview/v3/refs/task-motion-review.jpg; editable page retained as workflow sheets crowd foreground, sheets withdraw exposing retained result, final comparison keeps separate optional workflow; fix generated wrong button text and fake browser chrome"
+        }
+      },
+      "sourceAudioStart": 27.766666666666666,
+      "sourceAudioEnd": 42.833333333333336
+    },
+    {
+      "stableId": "ep93-agents",
+      "sourceBeatIds": [
+        "audio-2570"
+      ],
+      "scriptAnchor": "AGENTS.md / 别给小任务，加太多步骤 / 所有任务都必须先做计划 / 简单任务直接做 / 复杂任务先想清楚 / 始终优先调用 Skill / 有明显匹配才调用 / 没有匹配，直接做事 / 检查范围与改动相称 / 通过后，没有新问题就不重复检查 / 先解决问题 / 不把小事做大",
+      "exactScreenWords": [
+        "AGENTS.md",
+        "别给小任务，加太多步骤",
+        "所有任务都必须先做计划",
+        "简单任务直接做",
+        "复杂任务先想清楚",
+        "始终优先调用 Skill",
+        "有明显匹配才调用",
+        "没有匹配，直接做事",
+        "检查范围与改动相称",
+        "通过后，没有新问题就不重复检查",
+        "先解决问题",
+        "不把小事做大",
+        "简单任务",
+        "复杂任务",
+        "直接做",
+        "先明确方案",
+        "按需调用 Skill",
+        "检查与改动相称",
+        "必要测试",
+        "已通过",
+        "没有新问题",
+        "停止重复检查"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "agents",
+      "majorGeometry": "agents",
+      "readingOrder": [
+        "AGENTS.md",
+        "别给小任务，加太多步骤",
+        "所有任务都必须先做计划",
+        "简单任务直接做",
+        "复杂任务先想清楚",
+        "始终优先调用 Skill",
+        "有明显匹配才调用",
+        "没有匹配，直接做事",
+        "检查范围与改动相称",
+        "通过后，没有新问题就不重复检查",
+        "先解决问题",
+        "不把小事做大",
+        "简单任务",
+        "复杂任务",
+        "直接做",
+        "先明确方案",
+        "按需调用 Skill",
+        "检查与改动相称",
+        "必要测试",
+        "已通过",
+        "没有新问题",
+        "停止重复检查"
+      ],
+      "visualCenter": "agents",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "AGENTS.md",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "别给小任务，加太多步骤",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "所有任务都必须先做计划",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "简单任务直接做",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "复杂任务先想清楚",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "始终优先调用 Skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "有明显匹配才调用",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "没有匹配，直接做事",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "检查范围与改动相称",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "通过后，没有新问题就不重复检查",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先解决问题",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "不把小事做大",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "简单任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "复杂任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "直接做",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先明确方案",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "按需调用 Skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "检查与改动相称",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "必要测试",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "已通过",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "没有新问题",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "停止重复检查",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-2570"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-2570",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-2570",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 2182,
+      "startFrame": 2570,
+      "implementationComponentId": "Agents",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 42.833333333333336,
+      "sourceAudioEnd": 79.2
+    },
+    {
+      "stableId": "ep93-memory",
+      "sourceBeatIds": [
+        "audio-4834"
+      ],
+      "scriptAnchor": "让记忆，少重复交代 / 回答偏好 / 常用工具 / 已确认方案 / 接着用 / 过期做法 / 及时纠正 / 项目规则 / 新规则 / 旧习惯",
+      "exactScreenWords": [
+        "让记忆，少重复交代",
+        "回答偏好",
+        "常用工具",
+        "已确认方案",
+        "接着用",
+        "过期做法",
+        "及时纠正",
+        "项目规则",
+        "新规则",
+        "旧习惯",
+        "记忆",
+        "后续任务",
+        "以新规则为准"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "memory",
+      "majorGeometry": "memory",
+      "readingOrder": [
+        "让记忆，少重复交代",
+        "回答偏好",
+        "常用工具",
+        "已确认方案",
+        "接着用",
+        "过期做法",
+        "及时纠正",
+        "项目规则",
+        "新规则",
+        "旧习惯",
+        "记忆",
+        "后续任务",
+        "以新规则为准"
+      ],
+      "visualCenter": "memory",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "让记忆，少重复交代",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "回答偏好",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "常用工具",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "已确认方案",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "接着用",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "过期做法",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "及时纠正",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "项目规则",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "新规则",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "旧习惯",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "记忆",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "后续任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "以新规则为准",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-4834"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-4834",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-4834",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 1408,
+      "startFrame": 4752,
+      "implementationComponentId": "Memory",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "productionRoute": "h3-remotion",
+      "reconstruction": {
+        "sourceVideo": {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/h3-full-v1/memory.mp4",
+          "checksum": "sha256:2b1c80bc6694603a4ca6912d60603df4ca76a6e1dd991ad87924e8392cd6ab9b",
+          "fps": 24.0,
+          "startFrame": 0,
+          "endFrameExclusive": 243
+        },
+        "mode": "full-remotion",
+        "output": {
+          "fps": 60,
+          "durationInFrames": 1408
+        },
+        "preserve": [
+          "Observed persistent carrier, internal content change, retained task result."
+        ],
+        "adapt": [
+          "Master SRT timing",
+          "Exact readable text",
+          "No generated chrome or gibberish",
+          "Approved monitor and phone geometries; real recording for operation evidence"
+        ],
+        "mediaDependencies": [],
+        "states": [
+          {
+            "sourceFrame": 0,
+            "role": "opening",
+            "objectIds": [
+              "memory-carrier",
+              "memory-content"
+            ]
+          },
+          {
+            "sourceFrame": 48,
+            "role": "intermediate",
+            "objectIds": [
+              "memory-carrier",
+              "memory-content"
+            ]
+          },
+          {
+            "sourceFrame": 96,
+            "role": "intermediate",
+            "objectIds": [
+              "memory-carrier",
+              "memory-content"
+            ]
+          },
+          {
+            "sourceFrame": 144,
+            "role": "intermediate",
+            "objectIds": [
+              "memory-carrier",
+              "memory-content"
+            ]
+          },
+          {
+            "sourceFrame": 216,
+            "role": "final",
+            "objectIds": [
+              "memory-carrier",
+              "memory-content"
+            ]
+          }
+        ],
+        "timeMap": [
+          {
+            "sourceFrame": 0,
+            "outputFrame": 354,
+            "beatId": "audio-4834"
+          },
+          {
+            "sourceFrame": 48,
+            "outputFrame": 518,
+            "beatId": "audio-4834"
+          },
+          {
+            "sourceFrame": 96,
+            "outputFrame": 686,
+            "beatId": "audio-4834"
+          },
+          {
+            "sourceFrame": 144,
+            "outputFrame": 896,
+            "beatId": "audio-4834"
+          },
+          {
+            "sourceFrame": 216,
+            "outputFrame": 1166,
+            "beatId": "audio-4834"
+          }
+        ],
+        "review": {
+          "status": "agent-reviewed",
+          "evidence": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/qc/h3-review.md"
+        }
+      },
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 79.2,
+      "sourceAudioEnd": 102.66666666666667
+    },
+    {
+      "stableId": "ep93-habit-chapter",
+      "sourceBeatIds": [
+        "audio-6242"
+      ],
+      "scriptAnchor": "Part.02 / 使用习惯",
+      "exactScreenWords": [
+        "Part.02",
+        "使用习惯"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "habit-chapter",
+      "majorGeometry": "habit-chapter",
+      "readingOrder": [
+        "Part.02",
+        "使用习惯"
+      ],
+      "visualCenter": "habit-chapter",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Part.02",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "使用习惯",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-6242"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-6242",
+          "event": "habit-chapter",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "persistent object transformation habit-chapter",
+      "durationInFrames": 130,
+      "startFrame": 6160,
+      "implementationComponentId": "Chapter",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 102.66666666666667,
+      "sourceAudioEnd": 104.83333333333333
+    },
+    {
+      "stableId": "ep93-planning",
+      "sourceBeatIds": [
+        "audio-6372"
+      ],
+      "scriptAnchor": "会议纪要整理工具 / 输入 / 会议文字 / 输出 / 结论 + 待办 / 联网 / 是否需要？ / 先想清楚，少一轮返工 / 修改标题 / 会议纪要 / 会议结论与待办 / 直接改 / 思考强度 / 按任务难度选择",
+      "exactScreenWords": [
+        "会议纪要整理工具",
+        "输入",
+        "会议文字",
+        "输出",
+        "结论 + 待办",
+        "联网",
+        "是否需要？",
+        "先想清楚，少一轮返工",
+        "修改标题",
+        "会议纪要",
+        "会议结论与待办",
+        "直接改",
+        "思考强度",
+        "按任务难度选择",
+        "计划",
+        "中",
+        "高",
+        "是否联网？",
+        "关",
+        "开",
+        "不是每个任务都要先讨论方案"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "planning",
+      "majorGeometry": "planning",
+      "readingOrder": [
+        "会议纪要整理工具",
+        "输入",
+        "会议文字",
+        "输出",
+        "结论 + 待办",
+        "联网",
+        "是否需要？",
+        "先想清楚，少一轮返工",
+        "修改标题",
+        "会议纪要",
+        "会议结论与待办",
+        "直接改",
+        "思考强度",
+        "按任务难度选择",
+        "计划",
+        "中",
+        "高",
+        "是否联网？"
+      ],
+      "visualCenter": "planning",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "会议纪要整理工具",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "输入",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "会议文字",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "输出",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "结论 + 待办",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "联网",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "是否需要？",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先想清楚，少一轮返工",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "修改标题",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "会议纪要",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "会议结论与待办",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "直接改",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "思考强度",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "按任务难度选择",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "计划",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "中",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "高",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "是否联网？",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "关",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "开",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "不是每个任务都要先讨论方案",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-6372"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-6372",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-6372",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 1258,
+      "startFrame": 6290,
+      "implementationComponentId": "Planning",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 104.83333333333333,
+      "sourceAudioEnd": 125.8
+    },
+    {
+      "stableId": "ep93-steer",
+      "sourceBeatIds": [
+        "audio-7630"
+      ],
+      "scriptAnchor": "会议结论 / 待办 / 新增账号系统 / 登录 / 先停下 / 不要做登录 / 保留界面 / 继续处理结论和待办 / 消息排队 / 引导 / 送入正在进行的任务",
+      "exactScreenWords": [
+        "会议结论",
+        "待办",
+        "新增账号系统",
+        "登录",
+        "先停下",
+        "不要做登录",
+        "保留界面",
+        "继续处理结论和待办",
+        "消息排队",
+        "引导",
+        "送入正在进行的任务",
+        "本周发布新版本",
+        "整理发布清单",
+        "确认上线时间",
+        "正在进行的任务",
+        "不要等全部做完",
+        "☐  整理发布清单",
+        "☐  确认上线时间"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "steer",
+      "majorGeometry": "steer",
+      "readingOrder": [
+        "会议结论",
+        "待办",
+        "新增账号系统",
+        "登录",
+        "先停下",
+        "不要做登录",
+        "保留界面",
+        "继续处理结论和待办",
+        "消息排队",
+        "引导",
+        "送入正在进行的任务",
+        "本周发布新版本",
+        "整理发布清单",
+        "确认上线时间",
+        "正在进行的任务",
+        "不要等全部做完"
+      ],
+      "visualCenter": "steer",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "会议结论",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "待办",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "新增账号系统",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "登录",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先停下",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "不要做登录",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "保留界面",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "继续处理结论和待办",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "消息排队",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "引导",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "送入正在进行的任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "本周发布新版本",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "整理发布清单",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "确认上线时间",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "正在进行的任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "不要等全部做完",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "☐  整理发布清单",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "☐  确认上线时间",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-7630"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-7630",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-7630",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 1318,
+      "startFrame": 7548,
+      "implementationComponentId": "Steer",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "productionRoute": "h3-remotion",
+      "reconstruction": {
+        "sourceVideo": {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/h3-full-v1/steer.mp4",
+          "checksum": "sha256:1a02f63c973e8ae558fff6072745a7597e27d490f0e72ff87937998bdcd19105",
+          "fps": 24.0,
+          "startFrame": 0,
+          "endFrameExclusive": 294
+        },
+        "mode": "full-remotion",
+        "output": {
+          "fps": 60,
+          "durationInFrames": 1318
+        },
+        "preserve": [
+          "Observed persistent carrier, internal content change, retained task result."
+        ],
+        "adapt": [
+          "Master SRT timing",
+          "Exact readable text",
+          "No generated chrome or gibberish",
+          "Approved monitor and phone geometries; real recording for operation evidence"
+        ],
+        "mediaDependencies": [],
+        "states": [
+          {
+            "sourceFrame": 0,
+            "role": "opening",
+            "objectIds": [
+              "steer-carrier",
+              "steer-content"
+            ]
+          },
+          {
+            "sourceFrame": 48,
+            "role": "intermediate",
+            "objectIds": [
+              "steer-carrier",
+              "steer-content"
+            ]
+          },
+          {
+            "sourceFrame": 96,
+            "role": "intermediate",
+            "objectIds": [
+              "steer-carrier",
+              "steer-content"
+            ]
+          },
+          {
+            "sourceFrame": 192,
+            "role": "intermediate",
+            "objectIds": [
+              "steer-carrier",
+              "steer-content"
+            ]
+          },
+          {
+            "sourceFrame": 260,
+            "role": "final",
+            "objectIds": [
+              "steer-carrier",
+              "steer-content"
+            ]
+          }
+        ],
+        "timeMap": [
+          {
+            "sourceFrame": 0,
+            "outputFrame": 146,
+            "beatId": "audio-7630"
+          },
+          {
+            "sourceFrame": 48,
+            "outputFrame": 308,
+            "beatId": "audio-7630"
+          },
+          {
+            "sourceFrame": 96,
+            "outputFrame": 434,
+            "beatId": "audio-7630"
+          },
+          {
+            "sourceFrame": 192,
+            "outputFrame": 608,
+            "beatId": "audio-7630"
+          },
+          {
+            "sourceFrame": 260,
+            "outputFrame": 752,
+            "beatId": "audio-7630"
+          }
+        ],
+        "review": {
+          "status": "agent-reviewed",
+          "evidence": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/qc/h3-review.md"
+        }
+      },
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 125.8,
+      "sourceAudioEnd": 147.76666666666668
+    },
+    {
+      "stableId": "ep93-side",
+      "sourceBeatIds": [
+        "audio-8948"
+      ],
+      "scriptAnchor": "主任务 / 会议纪要整理工具 / 临时问题 / 侧边任务 / 回答问题 · 处理小任务 / 主线继续",
+      "exactScreenWords": [
+        "主任务",
+        "会议纪要整理工具",
+        "临时问题",
+        "侧边任务",
+        "回答问题 · 处理小任务",
+        "主线继续",
+        "正在整理结论",
+        "解释一个术语",
+        "处理一个小任务"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "side",
+      "majorGeometry": "side",
+      "readingOrder": [
+        "主任务",
+        "会议纪要整理工具",
+        "临时问题",
+        "侧边任务",
+        "回答问题 · 处理小任务",
+        "主线继续",
+        "正在整理结论",
+        "解释一个术语",
+        "处理一个小任务"
+      ],
+      "visualCenter": "side",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "主任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "会议纪要整理工具",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "临时问题",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "侧边任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "回答问题 · 处理小任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "主线继续",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "正在整理结论",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "解释一个术语",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "处理一个小任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-8948"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-8948",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-8948",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 774,
+      "startFrame": 8866,
+      "implementationComponentId": "Side",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 147.76666666666668,
+      "sourceAudioEnd": 160.66666666666666
+    },
+    {
+      "stableId": "ep93-tool-chapter",
+      "sourceBeatIds": [
+        "audio-9722"
+      ],
+      "scriptAnchor": "Part.03 / 有效工具",
+      "exactScreenWords": [
+        "Part.03",
+        "有效工具"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "tool-chapter",
+      "majorGeometry": "tool-chapter",
+      "readingOrder": [
+        "Part.03",
+        "有效工具"
+      ],
+      "visualCenter": "tool-chapter",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Part.03",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "有效工具",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-9722"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-9722",
+          "event": "tool-chapter",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "persistent object transformation tool-chapter",
+      "durationInFrames": 158,
+      "startFrame": 9640,
+      "implementationComponentId": "Chapter",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 160.66666666666666,
+      "sourceAudioEnd": 163.3
+    },
+    {
+      "stableId": "ep93-tool",
+      "sourceBeatIds": [
+        "audio-9880"
+      ],
+      "scriptAnchor": "Ponytail / 少写不必要的代码 / 日期 / 2026-09-08 / 从头实现日历 / 复用现成控件 / 先复用，再实现 / 2026 年 9 月",
+      "exactScreenWords": [
+        "Ponytail",
+        "少写不必要的代码",
+        "日期",
+        "2026-09-08",
+        "从头实现日历",
+        "复用现成控件",
+        "先复用，再实现",
+        "2026 年 9 月",
+        "约束 AI",
+        "月份切换",
+        "日期计算",
+        "选中状态",
+        "直接使用",
+        "完成"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "tool",
+      "majorGeometry": "tool",
+      "readingOrder": [
+        "Ponytail",
+        "少写不必要的代码",
+        "日期",
+        "2026-09-08",
+        "从头实现日历",
+        "复用现成控件",
+        "先复用，再实现",
+        "2026 年 9 月",
+        "约束 AI",
+        "月份切换",
+        "日期计算",
+        "选中状态",
+        "直接使用",
+        "完成"
+      ],
+      "visualCenter": "tool",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "Ponytail",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "少写不必要的代码",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "日期",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "2026-09-08",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "从头实现日历",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "复用现成控件",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先复用，再实现",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "2026 年 9 月",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "约束 AI",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "月份切换",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "日期计算",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "选中状态",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "直接使用",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "完成",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-9880"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-9880",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-9880",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 890,
+      "startFrame": 9798,
+      "implementationComponentId": "Tool",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "productionRoute": "h3-remotion",
+      "reconstruction": {
+        "sourceVideo": {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/h3-full-v1/native-date.mp4",
+          "checksum": "sha256:45f98373d25010470c28da14762b539b0656b393adf54d4c88f941aa5fe8fdf6",
+          "fps": 24.0,
+          "startFrame": 0,
+          "endFrameExclusive": 294
+        },
+        "mode": "full-remotion",
+        "output": {
+          "fps": 60,
+          "durationInFrames": 890
+        },
+        "preserve": [
+          "Observed persistent carrier, internal content change, retained task result."
+        ],
+        "adapt": [
+          "Master SRT timing",
+          "Exact readable text",
+          "No generated chrome or gibberish",
+          "Approved monitor and phone geometries; real recording for operation evidence"
+        ],
+        "mediaDependencies": [],
+        "states": [
+          {
+            "sourceFrame": 0,
+            "role": "opening",
+            "objectIds": [
+              "tool-carrier",
+              "tool-content"
+            ]
+          },
+          {
+            "sourceFrame": 48,
+            "role": "intermediate",
+            "objectIds": [
+              "tool-carrier",
+              "tool-content"
+            ]
+          },
+          {
+            "sourceFrame": 96,
+            "role": "intermediate",
+            "objectIds": [
+              "tool-carrier",
+              "tool-content"
+            ]
+          },
+          {
+            "sourceFrame": 192,
+            "role": "intermediate",
+            "objectIds": [
+              "tool-carrier",
+              "tool-content"
+            ]
+          },
+          {
+            "sourceFrame": 260,
+            "role": "final",
+            "objectIds": [
+              "tool-carrier",
+              "tool-content"
+            ]
+          }
+        ],
+        "timeMap": [
+          {
+            "sourceFrame": 0,
+            "outputFrame": 212,
+            "beatId": "audio-9880"
+          },
+          {
+            "sourceFrame": 48,
+            "outputFrame": 338,
+            "beatId": "audio-9880"
+          },
+          {
+            "sourceFrame": 96,
+            "outputFrame": 458,
+            "beatId": "audio-9880"
+          },
+          {
+            "sourceFrame": 192,
+            "outputFrame": 566,
+            "beatId": "audio-9880"
+          },
+          {
+            "sourceFrame": 260,
+            "outputFrame": 740,
+            "beatId": "audio-9880"
+          }
+        ],
+        "review": {
+          "status": "agent-reviewed",
+          "evidence": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/qc/h3-review.md"
+        }
+      },
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 163.3,
+      "sourceAudioEnd": 178.13333333333333
+    },
+    {
+      "stableId": "ep93-outro",
+      "sourceBeatIds": [
+        "audio-10770"
+      ],
+      "scriptAnchor": "精简流程 / 少走没必要的步骤 / 精简代码 / 小功能，不搭大框架 / 两者不冲突 / 必要测试 / 错误处理 / 先检查这两项 / 自动触发的 Skill / AGENTS.md 的任务步骤 / 我们下期见",
+      "exactScreenWords": [
+        "精简流程",
+        "少走没必要的步骤",
+        "精简代码",
+        "小功能，不搭大框架",
+        "两者不冲突",
+        "必要测试",
+        "错误处理",
+        "先检查这两项",
+        "自动触发的 Skill",
+        "AGENTS.md 的任务步骤",
+        "我们下期见",
+        "小任务",
+        "先计划",
+        "再讨论",
+        "再执行",
+        "直接完成",
+        "小功能",
+        "大框架",
+        "现成控件",
+        "仍然保留",
+        "先检查两项",
+        "以上就是本期全部内容",
+        "1",
+        "2"
+      ],
+      "oneQuestion": "chapter semantic transformation",
+      "layoutFamily": "outro",
+      "majorGeometry": "outro",
+      "readingOrder": [
+        "精简流程",
+        "少走没必要的步骤",
+        "精简代码",
+        "小功能，不搭大框架",
+        "两者不冲突",
+        "必要测试",
+        "错误处理",
+        "先检查这两项",
+        "自动触发的 Skill",
+        "AGENTS.md 的任务步骤",
+        "我们下期见",
+        "小任务",
+        "先计划",
+        "再讨论",
+        "再执行",
+        "直接完成",
+        "小功能",
+        "大框架",
+        "现成控件",
+        "仍然保留",
+        "先检查两项",
+        "以上就是本期全部内容"
+      ],
+      "visualCenter": "outro",
+      "styleTrack": "real-evidence",
+      "mediaRole": "user-provided-animation",
+      "typographyRoles": [
+        {
+          "role": "content",
+          "text": "精简流程",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "少走没必要的步骤",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "精简代码",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "小功能，不搭大框架",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "两者不冲突",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "必要测试",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "错误处理",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先检查这两项",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "自动触发的 Skill",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "AGENTS.md 的任务步骤",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "我们下期见",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "小任务",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先计划",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "再讨论",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "再执行",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "直接完成",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "小功能",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "大框架",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "现成控件",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "仍然保留",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "先检查两项",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "以上就是本期全部内容",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "1",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        },
+        {
+          "role": "content",
+          "text": "2",
+          "sizeClass": "MiSans primary 76-128; content 40-66; source document 30-40"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "none; object proximity and temporal state changes",
+      "spokenOrder": [
+        "audio-10770"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "audio-10770",
+          "event": "establish current semantic state",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "audio-10770",
+          "event": "masked foreground handoff and persistent objects",
+          "cueFrame": 120
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "SRT-led persistent objects; masked foreground emphasis; source-informed branch/grid/focus adaptation; different carriers per semantic state",
+      "durationInFrames": 1420,
+      "startFrame": 10688,
+      "implementationComponentId": "Outro",
+      "finalHoldFrames": 12,
+      "backgroundStates": [
+        "white",
+        "black"
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+        "checksum": "sha256:61350b3d0d776568329c1f4a830b0781a4cc103a323e56a519aa6dfd8ceafa50"
+      },
+      "referenceImages": [
+        {
+          "path": "00_每期项目/93_减少80%Token消耗/03_制作过程/remotion-remake/full-v1/refs/task-tail.png",
+          "responsibility": "V3 typography/carrier baseline; new layout adaptation"
+        }
+      ],
+      "sourceAudioStart": 178.13333333333333,
+      "sourceAudioEnd": 201.8
+    }
+  ],
+  "opening": {
+    "sourceFPS": 30,
+    "sourceFrames": 151,
+    "sourceDuration": 5.033333333333333,
+    "lastFrameHoldUntil": 5.366666666666666,
+    "audio": "muted"
+  },
+  "colors": {
+    "ink": "#111111",
+    "white": "#ffffff",
+    "accent": "#bda4fa",
+    "muted": "#85858c"
+  },
+  "audio": "voice.wav",
+  "captions": "captions.json",
+  "scope": "first 42.833 seconds only",
+  "sourceScriptHash": "sha256:e4d13034b48bcfb6282983ca36d51e83d076710eb96592b62ea776a49684a7fc",
+  "sourceSubtitleHash": "sha256:6d612e23a96d543a3cfc4722e4d45b9f0b8b2065a23c19c26681aac95404125f",
+  "burnSubtitles": false,
+  "copy": {
+    "bridge": [
+      "配置",
+      "工具",
+      "使用习惯",
+      "少做没必要的工作"
+    ],
+    "rule": [
+      "Skill",
+      "自动触发",
+      "using-superpowers",
+      "1% chance",
+      "ABSOLUTELY MUST",
+      "invoke the skill",
+      "规则比较激进",
+      "1%",
+      "可能适用",
+      "必须先调用 Skill",
+      "复杂开发",
+      "规划",
+      "实现",
+      "验证",
+      "流程有价值"
+    ],
+    "task": [
+      "简单任务",
+      "开始使用 Codex",
+      "立即提交",
+      "开始使用",
+      "改文案",
+      "调页面",
+      "检查适用",
+      "调用 Skill",
+      "进入流程",
+      "步骤太多",
+      "using-superpowers",
+      "自动触发",
+      "移除",
+      "复杂任务",
+      "按需使用流程",
+      "已完成"
+    ],
+    "skillSteps": [
+      "检查任务是否适用",
+      "调用对应 Skill",
+      "进入规定流程"
+    ]
+  },
+  "chapter": {
+    "stableId": "ep93-chapter",
+    "kind": "drag",
+    "width": 1120,
+    "titleSize": 152,
+    "labelSize": 96,
+    "title": "相关配置",
+    "label": "Part.01",
+    "durationInFrames": 120,
+    "settleFrame": 48
+  },
+  "sourceReferences": [
+    "EP91 original drag chapter",
+    "EP91 intro object transformation",
+    "EP87 persistent document movement",
+    "H3 actual reviewed bridge/rule/task outputs"
+  ],
+  "segments": [
+    {
+      "id": "Part1",
+      "start": 0,
+      "end": 6160
+    },
+    {
+      "id": "Part2",
+      "start": 6160,
+      "end": 9640
+    },
+    {
+      "id": "Part3",
+      "start": 9640,
+      "end": 12108
+    }
+  ],
+  "agentsDocument": {
+    "stableId": "ep91-ending",
+    "sourceBeatIds": [
+      "srt-91-100"
+    ],
+    "exactScreenWords": [
+      "AGENTS.md",
+      "语言",
+      "沟通：中文",
+      "代码、命令、日志、变量名：英文",
+      "先解决用户问题，再追求流程完整度",
+      "使用具体、简单、自然的词语，避免无意义的术语、套话和重复总结。",
+      "安全红线",
+      "不硬编码密钥",
+      "不提交 .env",
+      "不在日志中泄露敏感信息",
+      "未获授权的破坏性操作、对外不兼容变更、真实数据迁移、对外发送、发布或付费，先征得确认。",
+      "日常操作直接执行，不因假设性风险增加警告或审批流程。",
+      "工作流程",
+      "先理解用户真正要解决的问题，从事实和约束出发选择方法，不机械套用模板；简单任务直接做。",
+      "在系统与平台约束内，用户当前明确指令优先于 Skill、历史记忆和默认偏好。",
+      "命令报错 / 测试失败：必须明确报告，不掩盖",
+      "声称“完成”前：先运行验证",
+      "检查范围与改动相称；通过后，只有新改动、失败或未解决的问题才扩大或重复检查。",
+      "修 bug：优先先写失败测试再修复",
+      "目标明确就持续推进到完成，已有授权不重复确认；需要确认时，先完成已授权的准备工作。",
+      "用户提出的方法不适合目标时，直接说明原因并给出建议，不迎合。",
+      "代码标准",
+      "保持文件职责清晰、便于阅读，不为满足行数限制而拆分代码。",
+      "不写不必要的向后兼容代码",
+      "不做不必要抽象",
+      "用户偏好",
+      "用户名：Fred",
+      "更看重：完成度、质量、效率，而不是形式化流程",
+      "规则维护路径",
+      "Harness 源目录：~/.config/ai-harness",
+      "Codex 运行时目录：~/.codex",
+      "执行原则",
+      "有明显匹配 skill 时优先调用",
+      "无明显 skill 时直接做事",
+      "修改代码后优先跑仓库已有 tests / lint / typecheck",
+      "需要新增依赖时，先说明目的与影响范围，再执行",
+      "搜索文件和文本优先使用 rg、rg --files；独立读取和查询尽量批量执行。",
+      "浏览器交互使用 Ego Lite 和已有登录态；有合适的 CLI、API 或连接器时优先使用。",
+      "子 Agent",
+      "只有独立任务能通过委派节省时间或提高质量时，才使用子 Agent。",
+      "委派时明确任务范围和交付标准，由主 Agent 汇总并验证；简单任务和连续决策直接完成。"
+    ],
+    "sections": [
+      {
+        "title": "语言",
+        "items": [
+          "沟通：中文",
+          "代码、命令、日志、变量名：英文",
+          "先解决用户问题，再追求流程完整度",
+          "使用具体、简单、自然的词语，避免无意义的术语、套话和重复总结。"
+        ]
+      },
+      {
+        "title": "安全红线",
+        "items": [
+          "不硬编码密钥",
+          "不提交 .env",
+          "不在日志中泄露敏感信息",
+          "未获授权的破坏性操作、对外不兼容变更、真实数据迁移、对外发送、发布或付费，先征得确认。",
+          "日常操作直接执行，不因假设性风险增加警告或审批流程。"
+        ]
+      },
+      {
+        "title": "工作流程",
+        "items": [
+          "先理解用户真正要解决的问题，从事实和约束出发选择方法，不机械套用模板；简单任务直接做。",
+          "在系统与平台约束内，用户当前明确指令优先于 Skill、历史记忆和默认偏好。",
+          "命令报错 / 测试失败：必须明确报告，不掩盖",
+          "声称“完成”前：先运行验证",
+          "检查范围与改动相称；通过后，只有新改动、失败或未解决的问题才扩大或重复检查。",
+          "修 bug：优先先写失败测试再修复",
+          "目标明确就持续推进到完成，已有授权不重复确认；需要确认时，先完成已授权的准备工作。",
+          "用户提出的方法不适合目标时，直接说明原因并给出建议，不迎合。"
+        ]
+      },
+      {
+        "title": "代码标准",
+        "items": [
+          "保持文件职责清晰、便于阅读，不为满足行数限制而拆分代码。",
+          "不写不必要的向后兼容代码",
+          "不做不必要抽象"
+        ]
+      },
+      {
+        "title": "用户偏好",
+        "items": [
+          "用户名：Fred",
+          "更看重：完成度、质量、效率，而不是形式化流程"
+        ]
+      },
+      {
+        "title": "规则维护路径",
+        "items": [
+          "Harness 源目录：~/.config/ai-harness",
+          "Codex 运行时目录：~/.codex"
+        ]
+      },
+      {
+        "title": "执行原则",
+        "items": [
+          "有明显匹配 skill 时优先调用",
+          "无明显 skill 时直接做事",
+          "修改代码后优先跑仓库已有 tests / lint / typecheck",
+          "需要新增依赖时，先说明目的与影响范围，再执行",
+          "搜索文件和文本优先使用 rg、rg --files；独立读取和查询尽量批量执行。",
+          "浏览器交互使用 Ego Lite 和已有登录态；有合适的 CLI、API 或连接器时优先使用。"
+        ]
+      },
+      {
+        "title": "子 Agent",
+        "items": [
+          "只有独立任务能通过委派节省时间或提高质量时，才使用子 Agent。",
+          "委派时明确任务范围和交付标准，由主 Agent 汇总并验证；简单任务和连续决策直接完成。"
+        ]
+      }
+    ],
+    "durationInFrames": 852,
+    "scriptAnchor": "以下就是我更新后的 AGENTS.md",
+    "oneQuestion": "更新后的全局规则具体是什么？",
+    "layoutFamily": "editorial-document-scroll",
+    "majorGeometry": "white canvas; large black window; two-column grid of sections; masked vertical scroll",
+    "readingOrder": [
+      "AGENTS.md",
+      "语言",
+      "沟通：中文",
+      "代码、命令、日志、变量名：英文",
+      "先解决用户问题，再追求流程完整度",
+      "使用具体、简单、自然的词语，避免无意义的术语、套话和重复总结。",
+      "安全红线",
+      "不硬编码密钥",
+      "不提交 .env",
+      "不在日志中泄露敏感信息",
+      "未获授权的破坏性操作、对外不兼容变更、真实数据迁移、对外发送、发布或付费，先征得确认。",
+      "日常操作直接执行，不因假设性风险增加警告或审批流程。",
+      "工作流程",
+      "先理解用户真正要解决的问题，从事实和约束出发选择方法，不机械套用模板；简单任务直接做。",
+      "在系统与平台约束内，用户当前明确指令优先于 Skill、历史记忆和默认偏好。",
+      "命令报错 / 测试失败：必须明确报告，不掩盖",
+      "声称“完成”前：先运行验证",
+      "检查范围与改动相称；通过后，只有新改动、失败或未解决的问题才扩大或重复检查。",
+      "修 bug：优先先写失败测试再修复",
+      "目标明确就持续推进到完成，已有授权不重复确认；需要确认时，先完成已授权的准备工作。",
+      "用户提出的方法不适合目标时，直接说明原因并给出建议，不迎合。",
+      "代码标准",
+      "保持文件职责清晰、便于阅读，不为满足行数限制而拆分代码。",
+      "不写不必要的向后兼容代码",
+      "不做不必要抽象",
+      "用户偏好",
+      "用户名：Fred",
+      "更看重：完成度、质量、效率，而不是形式化流程",
+      "规则维护路径",
+      "Harness 源目录：~/.config/ai-harness",
+      "Codex 运行时目录：~/.codex",
+      "执行原则",
+      "有明显匹配 skill 时优先调用",
+      "无明显 skill 时直接做事",
+      "修改代码后优先跑仓库已有 tests / lint / typecheck",
+      "需要新增依赖时，先说明目的与影响范围，再执行",
+      "搜索文件和文本优先使用 rg、rg --files；独立读取和查询尽量批量执行。",
+      "浏览器交互使用 Ego Lite 和已有登录态；有合适的 CLI、API 或连接器时优先使用。",
+      "子 Agent",
+      "只有独立任务能通过委派节省时间或提高质量时，才使用子 Agent。",
+      "委派时明确任务范围和交付标准，由主 Agent 汇总并验证；简单任务和连续决策直接完成。"
+    ],
+    "visualCenter": "document content",
+    "styleTrack": "fred-type",
+    "mediaRole": "real global file rendered as designed typography",
+    "referenceImages": [
+      {
+        "path": "references/v5-final.png",
+        "responsibility": "preserve approved V5 full rule typography and scrolling, limited new-rule emphasis and 50px upward shift"
+      }
+    ],
+    "finalFrameReference": {
+      "path": "references/v5-final.png",
+      "checksum": "sha256:97acd2d88e043598b9ca39600377be5b5ce768f4d2e50613f15e43def28d4aa7",
+      "responsibility": "approved V5 baseline; authorized upward shift and new-rule purple emphasis"
+    },
+    "typographyRoles": [
+      {
+        "role": "document",
+        "text": "AGENTS.md",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "语言",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "沟通：中文",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "代码、命令、日志、变量名：英文",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "先解决用户问题，再追求流程完整度",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "使用具体、简单、自然的词语，避免无意义的术语、套话和重复总结。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "安全红线",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "不硬编码密钥",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "不提交 .env",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "不在日志中泄露敏感信息",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "未获授权的破坏性操作、对外不兼容变更、真实数据迁移、对外发送、发布或付费，先征得确认。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "日常操作直接执行，不因假设性风险增加警告或审批流程。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "工作流程",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "先理解用户真正要解决的问题，从事实和约束出发选择方法，不机械套用模板；简单任务直接做。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "在系统与平台约束内，用户当前明确指令优先于 Skill、历史记忆和默认偏好。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "命令报错 / 测试失败：必须明确报告，不掩盖",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "声称“完成”前：先运行验证",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "检查范围与改动相称；通过后，只有新改动、失败或未解决的问题才扩大或重复检查。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "修 bug：优先先写失败测试再修复",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "目标明确就持续推进到完成，已有授权不重复确认；需要确认时，先完成已授权的准备工作。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "用户提出的方法不适合目标时，直接说明原因并给出建议，不迎合。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "代码标准",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "保持文件职责清晰、便于阅读，不为满足行数限制而拆分代码。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "不写不必要的向后兼容代码",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "不做不必要抽象",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "用户偏好",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "用户名：Fred",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "更看重：完成度、质量、效率，而不是形式化流程",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "规则维护路径",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "Harness 源目录：~/.config/ai-harness",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "Codex 运行时目录：~/.codex",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "执行原则",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "有明显匹配 skill 时优先调用",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "无明显 skill 时直接做事",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "修改代码后优先跑仓库已有 tests / lint / typecheck",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "需要新增依赖时，先说明目的与影响范围，再执行",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "搜索文件和文本优先使用 rg、rg --files；独立读取和查询尽量批量执行。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "浏览器交互使用 Ego Lite 和已有登录态；有合适的 CLI、API 或连接器时优先使用。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "子 Agent",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "只有独立任务能通过委派节省时间或提高质量时，才使用子 Agent。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      },
+      {
+        "role": "document",
+        "text": "委派时明确任务范围和交付标准，由主 Agent 汇总并验证；简单任务和连续决策直接完成。",
+        "sizeClass": "MiSans Medium 500 body 30; Bold 700 heading 40, fixed for entire clip"
+      }
+    ],
+    "connectorType": "none",
+    "pathTopology": "vertical scroll",
+    "spokenOrder": [
+      "srt-91-100"
+    ],
+    "timingSource": "audio-timecode",
+    "motionEvents": [
+      {
+        "sourceBeatId": "srt-91-100",
+        "event": "window settle",
+        "cueFrame": 0
+      },
+      {
+        "sourceBeatId": "srt-91-100",
+        "event": "continuous document scroll",
+        "cueFrame": 60
+      },
+      {
+        "sourceBeatId": "srt-91-100",
+        "event": "final stable hold",
+        "cueFrame": 810
+      }
+    ],
+    "noFade": true,
+    "primaryMotion": "vertical translation within fixed viewport",
+    "implementationComponentId": "Ending",
+    "sourceAudioStart": 153.8,
+    "sourceAudioEnd": 168,
+    "finalHoldFrames": 42,
+    "palette": {
+      "canvas": "#ffffff",
+      "document": "#111111",
+      "header": "#000000",
+      "text": "#f5f5f5",
+      "headerText": "#d7d7d7",
+      "bullet": "#777777",
+      "scroll": "#b0b0b0",
+      "traffic": [
+        "#ff5f57",
+        "#febc2e",
+        "#28c840"
+      ],
+      "newRule": "#bda4fa"
+    },
+    "fixedFontWeights": {
+      "body": 500,
+      "heading": 700,
+      "number": 700
+    },
+    "newRuleHighlights": [
+      "使用具体、简单、自然的词语，避免无意义的术语、套话和重复总结。",
+      "先理解用户真正要解决的问题，从事实和约束出发选择方法，不机械套用模板；简单任务直接做。",
+      "在系统与平台约束内，用户当前明确指令优先于 Skill、历史记忆和默认偏好。",
+      "检查范围与改动相称；通过后，只有新改动、失败或未解决的问题才扩大或重复检查。",
+      "用户提出的方法不适合目标时，直接说明原因并给出建议，不迎合。"
+    ],
+    "windowTop": 14,
+    "subtitleSafeBottom": 900,
+    "backgroundStates": [
+      "white",
+      "black"
+    ]
+  },
+  "chapters": {
+    "ep93-chapter": {
+      "stableId": "ep93-chapter",
+      "kind": "drag",
+      "width": 1120,
+      "titleSize": 152,
+      "labelSize": 96,
+      "title": "相关配置",
+      "label": "Part.01",
+      "durationInFrames": 120,
+      "settleFrame": 48
+    },
+    "ep93-habit-chapter": {
+      "stableId": "ep93-chapter",
+      "kind": "aperture",
+      "width": 1120,
+      "titleSize": 152,
+      "labelSize": 96,
+      "title": "使用习惯",
+      "label": "Part.02",
+      "durationInFrames": 120,
+      "settleFrame": 48
+    },
+    "ep93-tool-chapter": {
+      "stableId": "ep93-chapter",
+      "kind": "push",
+      "width": 1120,
+      "titleSize": 152,
+      "labelSize": 96,
+      "title": "有效工具",
+      "label": "Part.03",
+      "durationInFrames": 120,
+      "settleFrame": 48
+    }
+  },
+  "revisionCopy": {
+    "agents": [
+      "简单任务",
+      "复杂任务",
+      "直接做",
+      "先明确方案",
+      "按需调用 Skill",
+      "检查与改动相称",
+      "必要测试",
+      "已通过",
+      "没有新问题",
+      "停止重复检查",
+      "先解决问题",
+      "不把小事做大"
+    ],
+    "memory": [
+      "记忆",
+      "回答偏好",
+      "常用工具",
+      "已确认方案",
+      "后续任务",
+      "接着用",
+      "过期做法",
+      "及时纠正",
+      "项目规则",
+      "新规则",
+      "旧习惯",
+      "以新规则为准"
+    ],
+    "planning": [
+      "会议文字",
+      "结论 + 待办",
+      "是否联网？",
+      "会议纪要",
+      "会议结论与待办",
+      "修改标题",
+      "直接改",
+      "思考强度",
+      "按任务难度选择"
+    ],
+    "steer": [
+      "会议结论",
+      "本周发布新版本",
+      "待办",
+      "整理发布清单",
+      "确认上线时间",
+      "新增账号系统",
+      "登录",
+      "先停下",
+      "不要做登录",
+      "保留界面",
+      "继续处理结论和待办",
+      "消息排队",
+      "引导",
+      "正在进行的任务",
+      "不要等全部做完"
+    ],
+    "side": [
+      "主任务",
+      "会议纪要整理工具",
+      "正在整理结论",
+      "临时问题",
+      "侧边任务",
+      "解释一个术语",
+      "处理一个小任务",
+      "主线继续"
+    ],
+    "tool": [
+      "Ponytail",
+      "约束 AI",
+      "少写不必要的代码",
+      "日期",
+      "2026-09-08",
+      "从头实现日历",
+      "月份切换",
+      "日期计算",
+      "选中状态",
+      "复用现成控件",
+      "先复用，再实现",
+      "2026 年 9 月",
+      "直接使用",
+      "完成"
+    ],
+    "outro": [
+      "精简流程",
+      "小任务",
+      "先计划",
+      "再讨论",
+      "再执行",
+      "直接完成",
+      "精简代码",
+      "小功能",
+      "大框架",
+      "现成控件",
+      "两者不冲突",
+      "必要测试",
+      "错误处理",
+      "仍然保留",
+      "先检查两项",
+      "自动触发的 Skill",
+      "AGENTS.md 的任务步骤",
+      "以上就是本期全部内容",
+      "我们下期见"
+    ]
+  }
+}

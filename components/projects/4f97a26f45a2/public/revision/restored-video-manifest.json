@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fred-computer-work",
+    "source": "[LOCAL_PATH] Pro/01_输入素材/动画视频参考/回想细节.mp4",
+    "sourceSha256": "170937db2abdcaa1cabbb78550567fb17a6f70484bbf5d2a2302229e6299c969",
+    "sourceTime": 0.5,
+    "file": "[LOCAL_PATH]",
+    "sha256": "ab2dff8353e5caaa33ead30d312ee934cac31cab8e340836e196e57bfafac44c",
+    "semantic": "傍晚在电脑前打字工作，完整人物与桌面",
+    "review": "Same-source full motion restored from extra-stills-manifest; source SHA256 verified; no synthesized motion.",
+    "start": 0,
+    "end": 5,
+    "cover": "[LOCAL_PATH]"
+  },
+  {
+    "id": "fred-night-review",
+    "source": "[LOCAL_PATH] Pro/01_输入素材/动画视频参考/第24段-夜晚回听与个人复盘-4K.mp4",
+    "sourceSha256": "f9f855d00813fbc62fe66cba2bf846044911ab035be6cc1acc1aa1dcbd406148",
+    "sourceTime": 0.5,
+    "file": "[LOCAL_PATH]",
+    "sha256": "b34cf12e194e2ed3ab64b74ca2eea3ca73c894a44f7feec1e57c99eef45707b7",
+    "semantic": "夜晚戴耳机回听并手写复盘，人物与笔记完整",
+    "review": "Same-source full motion restored from extra-stills-manifest; source SHA256 verified; no synthesized motion.",
+    "start": 0,
+    "end": 5,
+    "cover": "[LOCAL_PATH]"
+  }
+]

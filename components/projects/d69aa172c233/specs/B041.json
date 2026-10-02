@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "id": "B041",
+  "title": "多列竖图滚动展示模型结果",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 1380,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+    "referenceStart": 116.0,
+    "referenceEnd": 139.0,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+        "sha256": "aa733edcf6bf367a6e3362e0391bf8ceeac8fe9ddbdd2174134bec51b69cd2bd",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 269.0,
+        "start": 116.0,
+        "end": 139.0
+      }
+    ],
+    "totalSelectedDuration": 23.0,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 1380,
+        "sourceAsset": 0,
+        "sourceStartPTS": 116.0,
+        "sourceEndPTS": 139.0,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed",
+    "reviewScope": "Source native sequences and fixed-duration intervals reviewed; mapping is native speed, not visual acceptance."
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/b",
+    "compositionId": "B041",
+    "entry": "src/b-final-four-entry.tsx",
+    "component": "RebuiltBFinalFour",
+    "completenessDecision": "Corrected initial side-card order: left card first, right not yet visible. Fan, three cards, pair zoom and later media families remain.",
+    "qualityStatus": "candidate-pending-video-review"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only",
+    "texts": [
+      "把生活留下来",
+      "Record your day"
+    ],
+    "accent": "#8960ca"
+  },
+  "fonts": [],
+  "objects": {
+    "media": [
+      "batch2/41-beads.jpg",
+      "batch2/41-ancient.jpg",
+      "batch2/41-poster.jpg",
+      "batch2/41-portrait.jpg",
+      "batch2/41-perfume.jpg",
+      "batch2/41-car.jpg",
+      "batch2/41-power.jpg",
+      "batch2/41-clip.jpg",
+      "batch2/41-room.jpg",
+      "batch2/41-woman.jpg"
+    ],
+    "families": [
+      [
+        3,
+        1,
+        9
+      ],
+      [
+        4,
+        5,
+        0
+      ],
+      [
+        2,
+        8,
+        9
+      ],
+      [
+        4,
+        3,
+        6
+      ]
+    ],
+    "card": {
+      "x": [
+        85,
+        705,
+        1325
+      ],
+      "y": 55,
+      "width": 510,
+      "height": 920
+    },
+    "initialSideOrder": {
+      "leftProgressOffset": 10,
+      "rightProgressOffset": -9,
+      "evidence": "analysis/B041/boundary-source-01.png"
+    }
+  },
+  "tracks": {
+    "phase": {
+      "domain": "outputFrame",
+      "fields": [
+        "family",
+        "fan",
+        "scale",
+        "shift"
+      ],
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          40,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          148,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          178,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          210,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          252,
+          0,
+          0,
+          1.45,
+          0
+        ],
+        [
+          350,
+          0,
+          0,
+          1.45,
+          -440
+        ],
+        [
+          404,
+          0,
+          0,
+          1.45,
+          -500
+        ],
+        [
+          446,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          500,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          535,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          568,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          602,
+          1,
+          0,
+          1.45,
+          0
+        ],
+        [
+          700,
+          1,
+          0,
+          1.45,
+          -430
+        ],
+        [
+          756,
+          1,
+          0,
+          1.45,
+          -520
+        ],
+        [
+          802,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          850,
+          2,
+          0,
+          1.45,
+          0
+        ],
+        [
+          930,
+          2,
+          0,
+          1.45,
+          -490
+        ],
+        [
+          1100,
+          2,
+          0,
+          1.45,
+          -490
+        ],
+        [
+          1150,
+          2,
+          0,
+          1.45,
+          0
+        ],
+        [
+          1212,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1300,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1350,
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          1379,
+          3,
+          0,
+          1,
+          0
+        ]
+      ],
+      "evidence": "analysis/B041/native-sequence.jpg",
+      "measurementNote": "Selected native frames inspected and normalized to output; intermediate samples still need full-resolution overlay."
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/B041/native-sequence.jpg",
+    "fontComparison": "analysis/B041/font-policy.md",
+    "nativeFrameMeasurements": "analysis/B041/native-measurements.json"
+  },
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "cc1c3e0eff0cbfdf0e2a7a3e44fd418b5ac8e80a159ad718874ca09956d81e11"
+    },
+    "v2": {
+      "sha256": "8cedadab200d726d8306f377b13ca5ac7386d317ea09a91be2a6365f5efac698",
+      "path": "baseline/v2/videos/B041/8cedadab200d726d8306f377b13ca5ac7386d317ea09a91be2a6365f5efac698.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "remainingChecks": [
+    "Densify selected-frame anchors to native per-frame object tracks",
+    "Full-resolution overlay and normal-speed review"
+  ],
+  "fontPolicy": {
+    "noTextReason": "No added foreground text in this component. Existing authorized media content is preserved as media; no generated font selection applies."
+  },
+  "originalAuditIssues": [
+    "8.00–11.00 秒加密：参考片段在 8 秒仍有明显卡片斜转，随后收束并放大两卡；当前始终直立横移且维持多卡，需重做这段动作编排。"
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "handoffs": [
+    {"after":5,"from":[210,180,860,425],"to":[497.4,146,285.2,517.5],"fromFill":"#111111","toFill":"#111111","meaning":"result carrier becomes the source document"},
+    {"after":7,"from":[157,122,966,558],"to":[180,95,920,510],"fromFill":"#ffffff","toFill":"#111111","meaning":"review sheet becomes the trial workspace"},
+    {"after":8,"from":[795,283,189,273],"to":[550,277,164,255],"fromFill":"#ffffff","toFill":"#ffffff","meaning":"batch paper becomes the calibration paper"},
+    {"after":10,"from":[720,110,465,495],"to":[130,165,1020,360],"fromFill":"#fafbfa","toFill":"#ffffff","meaning":"result panel opens into the average-score summary"},
+    {"after":12,"from":[80,110,550,490],"to":[90,152,1010,119],"fromFill":"#111111","toFill":"#242722","meaning":"common-problem carrier becomes the priority agenda row"},
+    {"after":14,"from":[210,90,860,500],"to":[91,228,145,228],"fromFill":"#ffffff","toFill":"#ffffff","meaning":"lesson card folds into the teaching material"},
+    {"after":15,"from":[627,341.4,145,203],"to":[345,250,230,330],"fromFill":"#ffffff","toFill":"#ffffff","meaning":"collected work carries into the next document stack"}
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "implementationMode": "full-remotion",
+  "scriptRevision": 226,
+  "timingStatus": "reference motion aligned to script; final narration unavailable",
+  "pages": [
+    {
+      "stableId": "ep87-remake-01",
+      "sourceBeatIds": [
+        "establish",
+        "handoff",
+        "conclusion"
+      ],
+      "durationInFrames": 735,
+      "words": [
+        "WorkBuddy",
+        "上一期",
+        "全套课件",
+        "评论区",
+        "能不能讲一讲批改作业",
+        "批改作业",
+        "今天它来了"
+      ],
+      "cues": [
+        0.1,
+        4.8,
+        8.4,
+        9.4
+      ],
+      "componentId": "Clip1",
+      "audioCues": [
+        0.4,
+        5.2,
+        9.75
+      ],
+      "offsetFrames": 0,
+      "index": 1
+    },
+    {
+      "stableId": "ep87-remake-02",
+      "sourceBeatIds": [
+        "establish",
+        "handoff",
+        "conclusion"
+      ],
+      "durationInFrames": 905,
+      "words": [
+        "WorkBuddy",
+        "课件准备",
+        "作业发下去",
+        "作业收上来",
+        "费时间的部分",
+        "才刚刚开始",
+        "一份一份批",
+        "一题一题统计",
+        "哪些内容要重新讲"
+      ],
+      "cues": [
+        1.2,
+        3,
+        5.3,
+        9,
+        10.5,
+        12
+      ],
+      "componentId": "Clip2",
+      "audioCues": [
+        1.5,
+        3.4,
+        12.35
+      ],
+      "offsetFrames": 735,
+      "index": 2
+    },
+    {
+      "stableId": "ep87-remake-03",
+      "sourceBeatIds": [
+        "establish",
+        "handoff",
+        "conclusion"
+      ],
+      "durationInFrames": 905,
+      "words": [
+        "备课省下的时间",
+        "可能又花回去了",
+        "同一份作业",
+        "40",
+        "份答卷",
+        "WorkBuddy",
+        "先批改",
+        "待老师确认"
+      ],
+      "cues": [
+        0.2,
+        4.7,
+        7.1,
+        8.7,
+        10,
+        11.6
+      ],
+      "componentId": "Clip3",
+      "audioCues": [
+        0.5,
+        5.1000000000000005,
+        11.95
+      ],
+      "offsetFrames": 1640,
+      "index": 3
+    },
+    {
+      "stableId": "ep87-remake-04",
+      "sourceBeatIds": [
+        "establish",
+        "handoff",
+        "conclusion"
+      ],
+      "durationInFrames": 820,
+      "words": [
+        "WorkBuddy",
+        "全班",
+        "哪里错得最多",
+        "每个学生",
+        "下一步该补什么",
+        "不只是对不对",
+        "谁还没有学会"
+      ],
+      "cues": [
+        0.7,
+        2.7,
+        6.6,
+        8.9,
+        10
+      ],
+      "componentId": "Clip4",
+      "audioCues": [
+        1,
+        3.1,
+        10.35
+      ],
+      "offsetFrames": 2545,
+      "index": 4
+    },
+    {
+      "stableId": "ep87-remake-05",
+      "index": 5,
+      "sourceBeatIds": [
+        "ep87-script-5"
+      ],
+      "scriptAnchor": "开始之前，我先准备四样东西：原始题目、标准答案、评分说明、还有扫描好的学生作业。",
+      "durationInFrames": 608,
+      "words": [
+        "准备材料",
+        "原始题目",
+        "标准答案",
+        "评分说明",
+        "学生作业"
+      ],
+      "cues": [
+        0,
+        0.5,
+        2.2,
+        4.9,
+        6.5,
+        8.2
+      ],
+      "componentId": "R2Clip5",
+      "audioCues": [
+        0.85,
+        5.25,
+        8.549999999999999
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-5-r2.mp4",
+      "sourceChecksum": "20f466871adbf60d9d68841d9f25d2170a8241070bb3d2f425712090ad25645e",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-06",
+      "index": 6,
+      "sourceBeatIds": [
+        "ep87-script-6"
+      ],
+      "scriptAnchor": "试批完成以后，我先看三件事。第一，总分算得对不对，第二，步骤分和我的评分尺度是否一致，第三，不确定的题有没有真的进入待确认，而不是混在正常结果里。",
+      "durationInFrames": 905,
+      "words": [
+        "试批检查",
+        "总分",
+        "步骤分",
+        "评分尺度",
+        "不确定的题",
+        "待确认",
+        "正常结果"
+      ],
+      "cues": [
+        0,
+        0.7,
+        2.5,
+        5.5,
+        7.8,
+        9.5,
+        11.8
+      ],
+      "componentId": "R2Clip6",
+      "audioCues": [
+        1.0499999999999998,
+        5.85,
+        9.85
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-6-r2.mp4",
+      "sourceChecksum": "8b5bffb5a5857771692e28334e190cb0a9fa76d77355709f855a10e0f93b7b99",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-07",
+      "index": 7,
+      "sourceBeatIds": [
+        "ep87-script-7"
+      ],
+      "scriptAnchor": "如果某一道题的尺度不合适，我就在这里修改评分说明，再让它重跑这两份。等两份都确认以后，才继续处理剩下的作业。",
+      "durationInFrames": 820,
+      "words": [
+        "评分说明",
+        "修改尺度",
+        "重跑两份",
+        "老师确认",
+        "剩余作业"
+      ],
+      "cues": [
+        0,
+        3.8,
+        7.8,
+        9.1
+      ],
+      "componentId": "Clip7",
+      "audioCues": [
+        4.3,
+        9.6
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-07.mp4",
+      "sourceChecksum": "8b6232de37649e278a3c8905814a22ea4fa6a948a62f16f16cff9b05fe788237"
+    },
+    {
+      "stableId": "ep87-remake-08",
+      "index": 8,
+      "sourceBeatIds": [
+        "ep87-script-8"
+      ],
+      "scriptAnchor": "这个动作看起来多了一步，实际上是在避免批到一半，才发现全班的评分标准都要重来。",
+      "durationInFrames": 608,
+      "words": [
+        "提前校准",
+        "评分标准",
+        "全班作业",
+        "避免整批返工"
+      ],
+      "cues": [
+        0,
+        0.6,
+        2.4,
+        4.6,
+        7.8
+      ],
+      "componentId": "R2Clip8",
+      "audioCues": [
+        0.95,
+        4.949999999999999
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-8-r2.mp4",
+      "sourceChecksum": "26b17fdb141bb32293b99c39db3cfde4b61424c3bb4e73fb9751d441f8388a42",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-09",
+      "index": 9,
+      "sourceBeatIds": [
+        "ep87-script-9"
+      ],
+      "scriptAnchor": "所以这一步不是让 WorkBuddy 替老师做最后决定。它负责先把大量重复工作整理完，老师负责处理真正需要判断的地方。",
+      "durationInFrames": 735,
+      "words": [
+        "WorkBuddy",
+        "整理重复工作",
+        "待确认",
+        "老师",
+        "最终判断"
+      ],
+      "cues": [
+        0,
+        3.4,
+        7.8
+      ],
+      "componentId": "Clip9",
+      "audioCues": [
+        3.9
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-09.mp4",
+      "sourceChecksum": "07041d2b5d330e9bd1d801ea4591d37f0a1e5326ca9aaf0457f1b69eb37bbbe1"
+    },
+    {
+      "stableId": "ep87-remake-10",
+      "index": 10,
+      "sourceBeatIds": [
+        "ep87-script-10"
+      ],
+      "scriptAnchor": "作业批完以后，先别急着只看平均分。平均分只能告诉你这次整体考得怎么样，但它不能直接告诉你下一节课应该讲什么。",
+      "durationInFrames": 820,
+      "words": [
+        "全班学情",
+        "平均分",
+        "整体表现",
+        "下一节课讲什么"
+      ],
+      "cues": [
+        0,
+        0.6,
+        2.5,
+        4.4,
+        8.2,
+        9.2
+      ],
+      "componentId": "R2Clip10",
+      "audioCues": [
+        0.95,
+        4.75,
+        9.549999999999999
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-10-r2.mp4",
+      "sourceChecksum": "e6cf6ef9509826afa6659c7c19d07a1d13d9a2c69758587c5f3c693b77220ffe",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-11",
+      "index": 11,
+      "sourceBeatIds": [
+        "ep87-script-11"
+      ],
+      "scriptAnchor": "如果同一道题很多人都错了，它更可能是一个全班共性问题，如果只有少数学生在同一个知识点反复出错，就更适合放到个人订正里继续跟进，",
+      "durationInFrames": 905,
+      "words": [
+        "同一道题",
+        "多人出错",
+        "可能是共性问题",
+        "同一知识点",
+        "反复出错",
+        "个人订正"
+      ],
+      "cues": [
+        0,
+        4.3,
+        8.2,
+        10.8,
+        12.5
+      ],
+      "componentId": "Clip11",
+      "audioCues": [
+        4.8,
+        11.3
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-11.mp4",
+      "sourceChecksum": "b21c8d41084da47f0a30ceae9d737b4931f463e8ad3be783e6c54e65c96e35f1"
+    },
+    {
+      "stableId": "ep87-remake-12",
+      "index": 12,
+      "sourceBeatIds": [
+        "ep87-script-12"
+      ],
+      "scriptAnchor": "这样下一节讲评课就不用把所有题从头讲一遍。全班高频的问题先讲，少数人的问题单独补。到这里，这批作业就不只是一张成绩表了。",
+      "durationInFrames": 863,
+      "words": [
+        "全班高频问题",
+        "优先讲",
+        "少数人的问题",
+        "单独补",
+        "不只是一张成绩表"
+      ],
+      "cues": [
+        0,
+        1.5,
+        3.2,
+        5.2,
+        7.1,
+        8.6,
+        10.5
+      ],
+      "componentId": "R2Clip12",
+      "audioCues": [
+        1.85,
+        5.55,
+        8.95
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-12-r2.mp4",
+      "sourceChecksum": "ef11b97fade21402d3caaae7c9ac3a8c3d2c5bcf8501153d3fdd351adb934f73",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-13",
+      "index": 13,
+      "sourceBeatIds": [
+        "ep87-script-13"
+      ],
+      "scriptAnchor": "老师不需要凭感觉把所有题重新猜一遍，而是可以直接根据这批作业决定下一节课的重点。",
+      "durationInFrames": 608,
+      "words": [
+        "这批作业",
+        "老师",
+        "下一节课",
+        "重点"
+      ],
+      "cues": [
+        0,
+        1,
+        4.1,
+        5.6,
+        6.7
+      ],
+      "componentId": "R2Clip13",
+      "audioCues": [
+        1.35,
+        5.949999999999999
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-13-r2.mp4",
+      "sourceChecksum": "082f6716e666773f445efefd24ba50634a35748d951cdb2b32268661974bd23a",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-14",
+      "index": 14,
+      "sourceBeatIds": [
+        "ep87-script-14"
+      ],
+      "scriptAnchor": "现在再回头看，上一期我们把教材变成教案、PPT、讲义和作业。这一期再把收回来的作业，变成全班要讲的重点和每个学生要补的内容。",
+      "durationInFrames": 905,
+      "words": [
+        "上一期",
+        "教材",
+        "教案",
+        "PPT",
+        "讲义",
+        "作业",
+        "这一期",
+        "全班重点",
+        "个人补强"
+      ],
+      "cues": [
+        0,
+        0.8,
+        1.5,
+        2.4,
+        3.2,
+        5.3,
+        8.4,
+        9.5,
+        12.2
+      ],
+      "componentId": "R2Clip14",
+      "audioCues": [
+        1.15,
+        2.75,
+        5.6499999999999995,
+        9.85
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-14-r2.mp4",
+      "sourceChecksum": "cfd0d869b40d70c93e520dbab9d6f88bbe79e59f487882d0f1772617f07d8571",
+      "replacement": true
+    },
+    {
+      "stableId": "ep87-remake-15",
+      "index": 15,
+      "sourceBeatIds": [
+        "ep87-script-15"
+      ],
+      "scriptAnchor": "所以 AI 批改作业，真正省下来的不只是打勾、打叉的时间。更重要的是，老师能更快看清楚：哪里要重新讲，谁还需要单独补。",
+      "durationInFrames": 820,
+      "words": [
+        "不只是省时间",
+        "哪里要重新讲",
+        "谁还需要单独补"
+      ],
+      "cues": [
+        0,
+        3.8,
+        8.2
+      ],
+      "componentId": "Clip15",
+      "audioCues": [
+        4.3
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-15.mp4",
+      "sourceChecksum": "1557d21dead06c959f98f54d46e69bb6834e32a4825f0794f1be0d28b05d2b2b"
+    },
+    {
+      "stableId": "ep87-remake-16",
+      "index": 16,
+      "sourceBeatIds": [
+        "ep87-script-16"
+      ],
+      "scriptAnchor": "批改只是把作业看完，真正的价值，是把下一步教什么找出来。",
+      "durationInFrames": 480,
+      "words": [
+        "把作业看完",
+        "下一步教什么"
+      ],
+      "cues": [
+        0,
+        2.6
+      ],
+      "componentId": "Clip16",
+      "audioCues": [
+        3.1
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-16.mp4",
+      "sourceChecksum": "a9645180903aa955598ade4ad6c32adabe3ca1358661cdcd893fffa76095644d"
+    },
+    {
+      "stableId": "ep87-remake-17",
+      "index": 17,
+      "sourceBeatIds": [
+        "ep87-script-17"
+      ],
+      "scriptAnchor": "本期用到的完整操作流程、提示词和相关文件，我也会继续整理到 Fred 专属知识库。",
+      "durationInFrames": 608,
+      "words": [
+        "操作流程",
+        "提示词",
+        "相关文件",
+        "Fred 专属知识库"
+      ],
+      "cues": [
+        0,
+        1,
+        2,
+        3.8
+      ],
+      "componentId": "Clip17",
+      "audioCues": [
+        1.5,
+        4.3
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-17.mp4",
+      "sourceChecksum": "cce8ec6ddb060456a03a6266737d1c4b86e61182c4ee6bccfba541486a4aa843"
+    },
+    {
+      "stableId": "ep87-remake-18",
+      "index": 18,
+      "sourceBeatIds": [
+        "ep87-script-18"
+      ],
+      "scriptAnchor": "我是 Fred，带你从零到一学习 AI 和 Vibe Coding，我们下期再见。",
+      "durationInFrames": 565,
+      "words": [
+        "Fred",
+        "从零到一",
+        "AI",
+        "Vibe Coding",
+        "下期再见"
+      ],
+      "cues": [
+        0,
+        2.6,
+        5.9
+      ],
+      "componentId": "Clip18",
+      "audioCues": [
+        3.1
+      ],
+      "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-18.mp4",
+      "sourceChecksum": "649d8351d1e11ff8c8a330c833424cfd8e256454604202f08f6a40c13be51121"
+    }
+  ],
+  "groups": [
+    {
+      "id": "ep87-group-1",
+      "title": "开头与准备材料",
+      "pages": [
+        {
+          "stableId": "ep87-remake-01",
+          "sourceBeatIds": [
+            "establish",
+            "handoff",
+            "conclusion"
+          ],
+          "durationInFrames": 735,
+          "words": [
+            "WorkBuddy",
+            "上一期",
+            "全套课件",
+            "评论区",
+            "能不能讲一讲批改作业",
+            "批改作业",
+            "今天它来了"
+          ],
+          "cues": [
+            0.1,
+            4.8,
+            8.4,
+            9.4
+          ],
+          "componentId": "Clip1",
+          "audioCues": [
+            0.4,
+            5.2,
+            9.75
+          ],
+          "offsetFrames": 0,
+          "index": 1,
+          "priorOffsetFrames": 0
+        },
+        {
+          "stableId": "ep87-remake-02",
+          "sourceBeatIds": [
+            "establish",
+            "handoff",
+            "conclusion"
+          ],
+          "durationInFrames": 905,
+          "words": [
+            "WorkBuddy",
+            "课件准备",
+            "作业发下去",
+            "作业收上来",
+            "费时间的部分",
+            "才刚刚开始",
+            "一份一份批",
+            "一题一题统计",
+            "哪些内容要重新讲"
+          ],
+          "cues": [
+            1.2,
+            3,
+            5.3,
+            9,
+            10.5,
+            12
+          ],
+          "componentId": "Clip2",
+          "audioCues": [
+            1.5,
+            3.4,
+            12.35
+          ],
+          "offsetFrames": 735,
+          "index": 2,
+          "priorOffsetFrames": 735
+        },
+        {
+          "stableId": "ep87-remake-03",
+          "sourceBeatIds": [
+            "establish",
+            "handoff",
+            "conclusion"
+          ],
+          "durationInFrames": 905,
+          "words": [
+            "备课省下的时间",
+            "可能又花回去了",
+            "同一份作业",
+            "40",
+            "份答卷",
+            "WorkBuddy",
+            "先批改",
+            "待老师确认"
+          ],
+          "cues": [
+            0.2,
+            4.7,
+            7.1,
+            8.7,
+            10,
+            11.6
+          ],
+          "componentId": "Clip3",
+          "audioCues": [
+            0.5,
+            5.1000000000000005,
+            11.95
+          ],
+          "offsetFrames": 1640,
+          "index": 3,
+          "priorOffsetFrames": 1640
+        },
+        {
+          "stableId": "ep87-remake-04",
+          "sourceBeatIds": [
+            "establish",
+            "handoff",
+            "conclusion"
+          ],
+          "durationInFrames": 820,
+          "words": [
+            "WorkBuddy",
+            "全班",
+            "哪里错得最多",
+            "每个学生",
+            "下一步该补什么",
+            "不只是对不对",
+            "谁还没有学会"
+          ],
+          "cues": [
+            0.7,
+            2.7,
+            6.6,
+            8.9,
+            10
+          ],
+          "componentId": "Clip4",
+          "audioCues": [
+            1,
+            3.1,
+            10.35
+          ],
+          "offsetFrames": 2545,
+          "index": 4,
+          "priorOffsetFrames": 2545
+        },
+        {
+          "stableId": "ep87-remake-05",
+          "index": 5,
+          "sourceBeatIds": [
+            "ep87-script-5"
+          ],
+          "scriptAnchor": "开始之前，我先准备四样东西：原始题目、标准答案、评分说明、还有扫描好的学生作业。",
+          "durationInFrames": 608,
+          "words": [
+            "准备材料",
+            "原始题目",
+            "标准答案",
+            "评分说明",
+            "学生作业"
+          ],
+          "cues": [
+            0,
+            0.5,
+            2.2,
+            4.9,
+            6.5,
+            8.2
+          ],
+          "componentId": "R2Clip5",
+          "audioCues": [
+            0.85,
+            5.25,
+            8.549999999999999
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-5-r2.mp4",
+          "sourceChecksum": "20f466871adbf60d9d68841d9f25d2170a8241070bb3d2f425712090ad25645e",
+          "replacement": true,
+          "offsetFrames": 3365,
+          "priorOffsetFrames": 3365
+        }
+      ],
+      "durationInFrames": 3973
+    },
+    {
+      "id": "ep87-group-2",
+      "title": "试批检查与评分校准",
+      "pages": [
+        {
+          "stableId": "ep87-remake-06",
+          "index": 6,
+          "sourceBeatIds": [
+            "ep87-script-6"
+          ],
+          "scriptAnchor": "试批完成以后，我先看三件事。第一，总分算得对不对，第二，步骤分和我的评分尺度是否一致，第三，不确定的题有没有真的进入待确认，而不是混在正常结果里。",
+          "durationInFrames": 905,
+          "words": [
+            "试批检查",
+            "总分",
+            "步骤分",
+            "评分尺度",
+            "不确定的题",
+            "待确认",
+            "正常结果"
+          ],
+          "cues": [
+            0,
+            0.7,
+            2.5,
+            5.5,
+            7.8,
+            9.5,
+            11.8
+          ],
+          "componentId": "R2Clip6",
+          "audioCues": [
+            1.0499999999999998,
+            5.85,
+            9.85
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-6-r2.mp4",
+          "sourceChecksum": "8b5bffb5a5857771692e28334e190cb0a9fa76d77355709f855a10e0f93b7b99",
+          "replacement": true,
+          "offsetFrames": 0,
+          "priorOffsetFrames": 0
+        },
+        {
+          "stableId": "ep87-remake-07",
+          "index": 7,
+          "sourceBeatIds": [
+            "ep87-script-7"
+          ],
+          "scriptAnchor": "如果某一道题的尺度不合适，我就在这里修改评分说明，再让它重跑这两份。等两份都确认以后，才继续处理剩下的作业。",
+          "durationInFrames": 820,
+          "words": [
+            "评分说明",
+            "修改尺度",
+            "重跑两份",
+            "老师确认",
+            "剩余作业"
+          ],
+          "cues": [
+            0,
+            3.8,
+            7.8,
+            9.1
+          ],
+          "componentId": "Clip7",
+          "audioCues": [
+            4.3,
+            9.6
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-07.mp4",
+          "sourceChecksum": "8b6232de37649e278a3c8905814a22ea4fa6a948a62f16f16cff9b05fe788237",
+          "offsetFrames": 905,
+          "priorOffsetFrames": 905
+        },
+        {
+          "stableId": "ep87-remake-08",
+          "index": 8,
+          "sourceBeatIds": [
+            "ep87-script-8"
+          ],
+          "scriptAnchor": "这个动作看起来多了一步，实际上是在避免批到一半，才发现全班的评分标准都要重来。",
+          "durationInFrames": 608,
+          "words": [
+            "提前校准",
+            "评分标准",
+            "全班作业",
+            "避免整批返工"
+          ],
+          "cues": [
+            0,
+            0.6,
+            2.4,
+            4.6,
+            7.8
+          ],
+          "componentId": "R2Clip8",
+          "audioCues": [
+            0.95,
+            4.949999999999999
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-8-r2.mp4",
+          "sourceChecksum": "26b17fdb141bb32293b99c39db3cfde4b61424c3bb4e73fb9751d441f8388a42",
+          "replacement": true,
+          "offsetFrames": 1725,
+          "priorOffsetFrames": 1725
+        }
+      ],
+      "durationInFrames": 2333
+    },
+    {
+      "id": "ep87-group-3",
+      "title": "分工与平均分",
+      "pages": [
+        {
+          "stableId": "ep87-remake-09",
+          "index": 9,
+          "sourceBeatIds": [
+            "ep87-script-9"
+          ],
+          "scriptAnchor": "所以这一步不是让 WorkBuddy 替老师做最后决定。它负责先把大量重复工作整理完，老师负责处理真正需要判断的地方。",
+          "durationInFrames": 735,
+          "words": [
+            "WorkBuddy",
+            "整理重复工作",
+            "待确认",
+            "老师",
+            "最终判断"
+          ],
+          "cues": [
+            0,
+            3.4,
+            7.8
+          ],
+          "componentId": "Clip9",
+          "audioCues": [
+            3.9
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-09.mp4",
+          "sourceChecksum": "07041d2b5d330e9bd1d801ea4591d37f0a1e5326ca9aaf0457f1b69eb37bbbe1",
+          "offsetFrames": 0,
+          "priorOffsetFrames": 0
+        },
+        {
+          "stableId": "ep87-remake-10",
+          "index": 10,
+          "sourceBeatIds": [
+            "ep87-script-10"
+          ],
+          "scriptAnchor": "作业批完以后，先别急着只看平均分。平均分只能告诉你这次整体考得怎么样，但它不能直接告诉你下一节课应该讲什么。",
+          "durationInFrames": 820,
+          "words": [
+            "全班学情",
+            "平均分",
+            "整体表现",
+            "下一节课讲什么"
+          ],
+          "cues": [
+            0,
+            0.6,
+            2.5,
+            4.4,
+            8.2,
+            9.2
+          ],
+          "componentId": "R2Clip10",
+          "audioCues": [
+            0.95,
+            4.75,
+            9.549999999999999
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-10-r2.mp4",
+          "sourceChecksum": "e6cf6ef9509826afa6659c7c19d07a1d13d9a2c69758587c5f3c693b77220ffe",
+          "replacement": true,
+          "offsetFrames": 735,
+          "priorOffsetFrames": 735
+        }
+      ],
+      "durationInFrames": 1555
+    },
+    {
+      "id": "ep87-group-4",
+      "title": "全班与个人跟进",
+      "pages": [
+        {
+          "stableId": "ep87-remake-11",
+          "index": 11,
+          "sourceBeatIds": [
+            "ep87-script-11"
+          ],
+          "scriptAnchor": "如果同一道题很多人都错了，它更可能是一个全班共性问题，如果只有少数学生在同一个知识点反复出错，就更适合放到个人订正里继续跟进，",
+          "durationInFrames": 905,
+          "words": [
+            "同一道题",
+            "多人出错",
+            "可能是共性问题",
+            "同一知识点",
+            "反复出错",
+            "个人订正"
+          ],
+          "cues": [
+            0,
+            4.3,
+            8.2,
+            10.8,
+            12.5
+          ],
+          "componentId": "Clip11",
+          "audioCues": [
+            4.8,
+            11.3
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-11.mp4",
+          "sourceChecksum": "b21c8d41084da47f0a30ceae9d737b4931f463e8ad3be783e6c54e65c96e35f1",
+          "offsetFrames": 0,
+          "priorOffsetFrames": 0
+        },
+        {
+          "stableId": "ep87-remake-12",
+          "index": 12,
+          "sourceBeatIds": [
+            "ep87-script-12"
+          ],
+          "scriptAnchor": "这样下一节讲评课就不用把所有题从头讲一遍。全班高频的问题先讲，少数人的问题单独补。到这里，这批作业就不只是一张成绩表了。",
+          "durationInFrames": 863,
+          "words": [
+            "全班高频问题",
+            "优先讲",
+            "少数人的问题",
+            "单独补",
+            "不只是一张成绩表"
+          ],
+          "cues": [
+            0,
+            1.5,
+            3.2,
+            5.2,
+            7.1,
+            8.6,
+            10.5
+          ],
+          "componentId": "R2Clip12",
+          "audioCues": [
+            1.85,
+            5.55,
+            8.95
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-12-r2.mp4",
+          "sourceChecksum": "ef11b97fade21402d3caaae7c9ac3a8c3d2c5bcf8501153d3fdd351adb934f73",
+          "replacement": true,
+          "offsetFrames": 905,
+          "priorOffsetFrames": 905
+        }
+      ],
+      "durationInFrames": 1768
+    },
+    {
+      "id": "ep87-group-5",
+      "title": "讲评重点与结尾",
+      "pages": [
+        {
+          "stableId": "ep87-remake-13",
+          "index": 13,
+          "sourceBeatIds": [
+            "ep87-script-13"
+          ],
+          "scriptAnchor": "老师不需要凭感觉把所有题重新猜一遍，而是可以直接根据这批作业决定下一节课的重点。",
+          "durationInFrames": 608,
+          "words": [
+            "这批作业",
+            "老师",
+            "下一节课",
+            "重点"
+          ],
+          "cues": [
+            0,
+            1,
+            4.1,
+            5.6,
+            6.7
+          ],
+          "componentId": "R2Clip13",
+          "audioCues": [
+            1.35,
+            5.949999999999999
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-13-r2.mp4",
+          "sourceChecksum": "082f6716e666773f445efefd24ba50634a35748d951cdb2b32268661974bd23a",
+          "replacement": true,
+          "offsetFrames": 0,
+          "priorOffsetFrames": 0
+        },
+        {
+          "stableId": "ep87-remake-14",
+          "index": 14,
+          "sourceBeatIds": [
+            "ep87-script-14"
+          ],
+          "scriptAnchor": "现在再回头看，上一期我们把教材变成教案、PPT、讲义和作业。这一期再把收回来的作业，变成全班要讲的重点和每个学生要补的内容。",
+          "durationInFrames": 905,
+          "words": [
+            "上一期",
+            "教材",
+            "教案",
+            "PPT",
+            "讲义",
+            "作业",
+            "这一期",
+            "全班重点",
+            "个人补强"
+          ],
+          "cues": [
+            0,
+            0.8,
+            1.5,
+            2.4,
+            3.2,
+            5.3,
+            8.4,
+            9.5,
+            12.2
+          ],
+          "componentId": "R2Clip14",
+          "audioCues": [
+            1.15,
+            2.75,
+            5.6499999999999995,
+            9.85
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-r2-seven/source-14-r2.mp4",
+          "sourceChecksum": "cfd0d869b40d70c93e520dbab9d6f88bbe79e59f487882d0f1772617f07d8571",
+          "replacement": true,
+          "offsetFrames": 608,
+          "priorOffsetFrames": 608
+        },
+        {
+          "stableId": "ep87-remake-15",
+          "index": 15,
+          "sourceBeatIds": [
+            "ep87-script-15"
+          ],
+          "scriptAnchor": "所以 AI 批改作业，真正省下来的不只是打勾、打叉的时间。更重要的是，老师能更快看清楚：哪里要重新讲，谁还需要单独补。",
+          "durationInFrames": 820,
+          "words": [
+            "不只是省时间",
+            "哪里要重新讲",
+            "谁还需要单独补"
+          ],
+          "cues": [
+            0,
+            3.8,
+            8.2
+          ],
+          "componentId": "Clip15",
+          "audioCues": [
+            4.3
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-15.mp4",
+          "sourceChecksum": "1557d21dead06c959f98f54d46e69bb6834e32a4825f0794f1be0d28b05d2b2b",
+          "offsetFrames": 1513,
+          "priorOffsetFrames": 1513
+        },
+        {
+          "stableId": "ep87-remake-16",
+          "index": 16,
+          "sourceBeatIds": [
+            "ep87-script-16"
+          ],
+          "scriptAnchor": "批改只是把作业看完，真正的价值，是把下一步教什么找出来。",
+          "durationInFrames": 480,
+          "words": [
+            "把作业看完",
+            "下一步教什么"
+          ],
+          "cues": [
+            0,
+            2.6
+          ],
+          "componentId": "Clip16",
+          "audioCues": [
+            3.1
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-16.mp4",
+          "sourceChecksum": "a9645180903aa955598ade4ad6c32adabe3ca1358661cdcd893fffa76095644d",
+          "offsetFrames": 2333,
+          "priorOffsetFrames": 2333
+        },
+        {
+          "stableId": "ep87-remake-17",
+          "index": 17,
+          "sourceBeatIds": [
+            "ep87-script-17"
+          ],
+          "scriptAnchor": "本期用到的完整操作流程、提示词和相关文件，我也会继续整理到 Fred 专属知识库。",
+          "durationInFrames": 608,
+          "words": [
+            "操作流程",
+            "提示词",
+            "相关文件",
+            "Fred 专属知识库"
+          ],
+          "cues": [
+            0,
+            1,
+            2,
+            3.8
+          ],
+          "componentId": "Clip17",
+          "audioCues": [
+            1.5,
+            4.3
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-17.mp4",
+          "sourceChecksum": "cce8ec6ddb060456a03a6266737d1c4b86e61182c4ee6bccfba541486a4aa843",
+          "offsetFrames": 2813,
+          "priorOffsetFrames": 2813
+        },
+        {
+          "stableId": "ep87-remake-18",
+          "index": 18,
+          "sourceBeatIds": [
+            "ep87-script-18"
+          ],
+          "scriptAnchor": "我是 Fred，带你从零到一学习 AI 和 Vibe Coding，我们下期再见。",
+          "durationInFrames": 565,
+          "words": [
+            "Fred",
+            "从零到一",
+            "AI",
+            "Vibe Coding",
+            "下期再见"
+          ],
+          "cues": [
+            0,
+            2.6,
+            5.9
+          ],
+          "componentId": "Clip18",
+          "audioCues": [
+            3.1
+          ],
+          "source": "00_每期项目/87_教师批改作业/01_输入素材/minimax-followup/source-18.mp4",
+          "sourceChecksum": "649d8351d1e11ff8c8a330c833424cfd8e256454604202f08f6a40c13be51121",
+          "offsetFrames": 3421,
+          "priorOffsetFrames": 3421
+        }
+      ],
+      "durationInFrames": 3986
+    }
+  ],
+  "replacementIndices": [
+    5,
+    6,
+    8,
+    10,
+    12,
+    13,
+    14
+  ],
+  "approvalStatus": "awaiting-new-integrated-preview"
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "family": "MiSansSemibold",
+    "file": "font-candidates/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "official-agreement-retained",
+    "license": "fonts/MiSans-License.pdf"
+  },
+  {
+    "family": "MiSansBold",
+    "file": "font-candidates/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "official-agreement-retained",
+    "license": "fonts/MiSans-License.pdf"
+  },
+  {
+    "family": "MiSansHeavy",
+    "file": "font-candidates/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "official-agreement-retained",
+    "license": "fonts/MiSans-License.pdf"
+  },
+  {
+    "family": "SourceHanHeavy",
+    "file": "font-candidates/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "OFL-retained",
+    "license": "fonts/SourceHanSans-LICENSE.txt"
+  },
+  {
+    "family": "RuiZi",
+    "file": "font-candidates/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "pending-source-verification"
+  },
+  {
+    "family": "MiSansMedium",
+    "file": "font-candidates/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "official-agreement-retained",
+    "license": "fonts/MiSans-License.pdf"
+  },
+  {
+    "family": "MiSansRegular",
+    "file": "font-candidates/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "sourcePath": "[LOCAL_PATH]",
+    "licenseStatus": "official-agreement-retained",
+    "license": "fonts/MiSans-License.pdf"
+  },
+  {
+    "family": "ArimoRegular",
+    "file": "font-candidates/Arimo.ttf",
+    "weight": "400",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+    "sourceURL": "https://github.com/google/fonts/tree/main/ofl/arimo",
+    "license": "fonts/Arimo-OFL.txt"
+  },
+  {
+    "family": "ArimoBold",
+    "file": "font-candidates/Arimo.ttf",
+    "weight": "700",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+    "sourceURL": "https://github.com/google/fonts/tree/main/ofl/arimo",
+    "license": "fonts/Arimo-OFL.txt"
+  },
+  {
+    "family": "SourceHanMedium",
+    "file": "font-candidates/SourceHanSansSC-Medium.otf",
+    "weight": "400",
+    "sha256": "1df61d31687d04fd2f928a3bb6ca6cd61f0e988cc267cf317f32406edbb49f70",
+    "license": "fonts/SourceHanSans-LICENSE.txt",
+    "licenseStatus": "OFL-retained"
+  },
+  {
+    "family": "ArimoMedium",
+    "file": "font-candidates/Arimo.ttf",
+    "weight": "500",
+    "sha256": "e43898b143ec826ac8cb4034816458a7047fbe0836558de2a1f8c6223ae3e0ca",
+    "license": "fonts/Arimo-OFL.txt"
+  },
+  {
+    "family": "InterRegular",
+    "file": "font-candidates/Inter.ttf",
+    "weight": "400",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "license": "fonts/Inter-OFL.txt"
+  },
+  {
+    "family": "InterMedium",
+    "file": "font-candidates/Inter.ttf",
+    "weight": "500",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "license": "fonts/Inter-OFL.txt"
+  },
+  {
+    "family": "RobotoRegular",
+    "weight": "400",
+    "file": "font-candidates/Roboto.ttf",
+    "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+    "license": "fonts/Roboto-OFL.txt",
+    "sourceURL": "https://github.com/google/fonts/tree/main/ofl/roboto"
+  },
+  {
+    "family": "RobotoMedium",
+    "weight": "500",
+    "file": "font-candidates/Roboto.ttf",
+    "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+    "license": "fonts/Roboto-OFL.txt",
+    "sourceURL": "https://github.com/google/fonts/tree/main/ofl/roboto"
+  },
+  {
+    "family": "MaShanZheng",
+    "file": "font-candidates/MaShanZheng-Regular.ttf",
+    "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+    "license": "fonts/MaShanZheng-OFL.txt",
+    "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+    "licenseStatus": "OFL-retained"
+  },
+  {
+    "family": "LongCang",
+    "file": "font-candidates/LongCang-Regular.ttf",
+    "sha256": "e5bf2c3f24ef2327c6f136d8f73e2f9dfdf44896fdbeb35a9515f44777bb91bc",
+    "license": "fonts/LongCang-OFL.txt",
+    "sourceURL": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf",
+    "licenseStatus": "OFL-retained"
+  },
+  {
+    "family": "LXGWWenKai",
+    "file": "font-candidates/LXGWWenKai-Regular.ttf",
+    "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+    "license": "fonts/LXGWWenKai-OFL.txt",
+    "licenseStatus": "OFL-retained"
+  },
+  {
+    "family": "AlimamaShuHei",
+    "file": "font-candidates/AlimamaShuHei.ttf",
+    "weight": "400",
+    "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+    "license": "fonts/AlimamaShuHei-License.txt",
+    "sourceURL": "https://fonts.alibabadesign.com/AlimamaShuHeiTi.zip",
+    "licenseStatus": "official-instruction-retained"
+  },
+  {
+    "family": "PangMen",
+    "file": "font-candidates/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "DouyinSans",
+    "file": "font-candidates/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "YouShe",
+    "file": "font-candidates/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "HuXiaoBo",
+    "file": "font-candidates/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "ZiBangCool",
+    "file": "font-candidates/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "LuShuai",
+    "file": "font-candidates/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "SheTuModern",
+    "file": "font-candidates/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "NanoTikBazHei-Bold",
+    "file": "font-candidates/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "ZcoolKuHei",
+    "file": "font-candidates/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "ZcoolGaoDuan",
+    "file": "font-candidates/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "YunFengGame",
+    "file": "font-candidates/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "ZcoolHuangYou",
+    "file": "font-candidates/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "licenseStatus": "candidate-only-license-not-yet-verified"
+  },
+  {
+    "family": "SmileySans",
+    "file": "font-candidates/SmileySans-Oblique.ttf",
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "weight": "400",
+    "license": "fonts/SmileySans-LICENSE.txt",
+    "sourceURL": "https://github.com/atelier-anchor/smiley-sans/releases/tag/v2.0.1",
+    "licenseStatus": "OFL-retained"
+  },
+  {
+    "family": "ZcoolKuaiLe",
+    "file": "font-candidates/ZCOOLKuaiLe-Regular.ttf",
+    "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d",
+    "weight": "400",
+    "license": "fonts/ZCOOLKuaiLe-OFL.txt",
+    "sourceURL": "https://github.com/google/fonts/tree/main/ofl/zcoolkuaile",
+    "licenseStatus": "OFL-retained"
+  },
+  {
+    "family": "DingTalkJinBu",
+    "file": "font-candidates/DingTalkJinBu.ttf",
+    "sha256": "6f6a1e15f33d559ff3d0d7dcc8bd9ab25a6dbd8e9bcd29865daf7615a17ea284",
+    "weight": "400",
+    "license": "fonts/DingTalk-License.pdf",
+    "sourceURL": "https://files.alicdn.com/tpsservice/d2e8c2b4caac7b58925cd02186fca2a9.zip",
+    "licenseStatus": "official-package-license-retained"
+  },
+  {
+    "family": "DingTalkSans",
+    "file": "font-candidates/DingTalkSans.ttf",
+    "sha256": "97169c5b255dad6580f2dcd9d66d4b315213647afe611e197790e08269400eac",
+    "weight": "400",
+    "license": "fonts/DingTalk-License.pdf",
+    "sourceURL": "https://files.alicdn.com/tpsservice/d2e8c2b4caac7b58925cd02186fca2a9.zip",
+    "licenseStatus": "official-package-license-retained"
+  }
+]

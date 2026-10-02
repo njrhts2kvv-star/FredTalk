@@ -1,0 +1,1193 @@
+{
+  "manifestVersion": 5,
+  "source": "V5 clean geometry: no visible motion paths, no scale seeds, no outlines",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "sourceBeatIds": [
+    "beat-01-v5-a",
+    "beat-01-v5-b",
+    "beat-02-v5-a",
+    "beat-02-v5-b",
+    "beat-03-v5-a",
+    "beat-03-v5-b",
+    "beat-04-v5-a",
+    "beat-04-v5-b",
+    "beat-05-v5-a",
+    "beat-05-v5-b",
+    "beat-06-v5-a",
+    "beat-06-v5-b",
+    "beat-07-v5-a",
+    "beat-07-v5-b",
+    "beat-08-v5-a",
+    "beat-08-v5-b",
+    "beat-09-v5-a",
+    "beat-09-v5-b",
+    "beat-10-v5-a",
+    "beat-10-v5-b",
+    "beat-11-v5-a",
+    "beat-11-v5-b"
+  ],
+  "pages": [
+    {
+      "stableId": "fred-motion-01-observe-v5-a",
+      "compositionId": "FredMotion01ObserveV5A",
+      "sourceBeatIds": [
+        "beat-01-v5-a"
+      ],
+      "scriptAnchor": "先看清楚，再做判断。",
+      "exactScreenWords": [
+        "先看",
+        "清楚",
+        "再做",
+        "判断"
+      ],
+      "originalScreenWords": [
+        "先看清楚",
+        "再做判断"
+      ],
+      "character": "Fred_右侧探身观察_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "path-build",
+      "layoutFamily": "path-build",
+      "topology": "四节点路径从观察走向判断",
+      "approvedStyles": [
+        "reference-v12-v2-01-path-build",
+        "reference-v7-14"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "durationInFrames": 188,
+      "outputFile": "01A_先看清楚_再做判断_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-01-observe-v5-a.svg",
+        "checksum": "sha256:5c51809d863207c029a283f4d59ae04d68fde71624771c30e371b30388ffbd56"
+      },
+      "gestureMode": "gaze",
+      "gestureY": 470,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-01-observe-v5-b",
+      "compositionId": "FredMotion01ObserveV5B",
+      "sourceBeatIds": [
+        "beat-01-v5-b"
+      ],
+      "scriptAnchor": "先看清楚，再做判断。",
+      "exactScreenWords": [
+        "先看清楚",
+        "再做判断"
+      ],
+      "originalScreenWords": [
+        "先看清楚",
+        "再做判断"
+      ],
+      "character": "Fred_右侧探身观察_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "focus-window",
+      "layoutFamily": "focus-window",
+      "topology": "小焦点扩展为判断窗口",
+      "approvedStyles": [
+        "reference-v7-03",
+        "reference-v7-12"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 191,
+      "outputFile": "01B_先看清楚_再做判断_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-01-observe-v5-b.svg",
+        "checksum": "sha256:994f1fc9e515fcbb74ec5f2449373dfa0732eedd6b1fecb628eb18d6c8af4a50"
+      },
+      "gestureMode": "gaze",
+      "gestureY": 470,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-02-surprise-v5-a",
+      "compositionId": "FredMotion02SurpriseV5A",
+      "sourceBeatIds": [
+        "beat-02-v5-a"
+      ],
+      "scriptAnchor": "结果，和你想的不一样。",
+      "exactScreenWords": [
+        "结果",
+        "和你想的",
+        "不一样"
+      ],
+      "originalScreenWords": [
+        "结果",
+        "和你想的不一样"
+      ],
+      "character": "Fred_右下惊讶_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "small",
+      "characterWidth": 900,
+      "characterBottom": -110,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "counter-slot",
+      "layoutFamily": "counter-slot",
+      "topology": "结果建立后同槽翻出反差",
+      "approvedStyles": [
+        "reference-v7-15",
+        "reference-v12-v4-03-phone-counter"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 190,
+      "outputFile": "02A_结果_和你想的不一样_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-02-surprise-v5-a.svg",
+        "checksum": "sha256:cfe5d0f98278aec3621f829a467ebf2df640dec8bf61c9e7bdf2ba9416f4f1b3"
+      },
+      "gestureMode": "surprise",
+      "gestureY": 600,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-02-surprise-v5-b",
+      "compositionId": "FredMotion02SurpriseV5B",
+      "sourceBeatIds": [
+        "beat-02-v5-b"
+      ],
+      "scriptAnchor": "结果，和你想的不一样。",
+      "exactScreenWords": [
+        "结果",
+        "和你想的不一样"
+      ],
+      "originalScreenWords": [
+        "结果",
+        "和你想的不一样"
+      ],
+      "character": "Fred_右下惊讶_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "aperture-slice",
+      "layoutFamily": "aperture-slice",
+      "topology": "开孔切片揭示意外结果",
+      "approvedStyles": [
+        "motion-v10-12",
+        "reference-v12-v2-04-two-beat"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 193,
+      "outputFile": "02B_结果_和你想的不一样_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-02-surprise-v5-b.svg",
+        "checksum": "sha256:d0a77d38d232c3e6e3091b9f3abf725a4f8bec91682c4ec44d8f66012f7a4103"
+      },
+      "gestureMode": "surprise",
+      "gestureY": 600,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-03-point-v5-a",
+      "compositionId": "FredMotion03PointV5A",
+      "sourceBeatIds": [
+        "beat-03-v5-a"
+      ],
+      "scriptAnchor": "真正重要的，在这里。",
+      "exactScreenWords": [
+        "真正重要的",
+        "在这里"
+      ],
+      "originalScreenWords": [
+        "真正重要的",
+        "在这里"
+      ],
+      "character": "Fred_左下抬头指向_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 118,
+      "option": "A",
+      "layout": "point-to-field",
+      "layoutFamily": "point-to-field",
+      "topology": "指尖小点扩展成重点场域",
+      "approvedStyles": [
+        "motion-v10-01",
+        "reference-v12-v3-06-shape-expand"
+      ],
+      "carrierCue": 22,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 192,
+      "outputFile": "03A_真正重要的_在这里_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-03-point-v5-a.svg",
+        "checksum": "sha256:776c7d8b5de6d346e5b8b30d241d855210126ded69c940b3250de1e6ce1fc63b"
+      },
+      "gestureMode": "point",
+      "gestureY": 430,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-03-point-v5-b",
+      "compositionId": "FredMotion03PointV5B",
+      "sourceBeatIds": [
+        "beat-03-v5-b"
+      ],
+      "scriptAnchor": "真正重要的，在这里。",
+      "exactScreenWords": [
+        "真正重要的",
+        "这里"
+      ],
+      "originalScreenWords": [
+        "真正重要的",
+        "在这里"
+      ],
+      "character": "Fred_左下抬头指向_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 118,
+      "option": "B",
+      "layout": "axis-lock",
+      "layoutFamily": "axis-lock",
+      "topology": "轴线把抽象重点锁到人物所指位置",
+      "approvedStyles": [
+        "motion-v10-04",
+        "reference-v7-03"
+      ],
+      "carrierCue": 22,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 195,
+      "outputFile": "03B_真正重要的_在这里_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-03-point-v5-b.svg",
+        "checksum": "sha256:0dfd99e6a8390a03b872917e4a7be9680fee8cba2693882cb49684d1690aaeee"
+      },
+      "gestureMode": "point",
+      "gestureY": 430,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-04-think-v5-a",
+      "compositionId": "FredMotion04ThinkV5A",
+      "sourceBeatIds": [
+        "beat-04-v5-a"
+      ],
+      "scriptAnchor": "先别急着找答案，把问题想清楚。",
+      "exactScreenWords": [
+        "先别急着",
+        "找答案",
+        "把问题",
+        "想清楚"
+      ],
+      "originalScreenWords": [
+        "先别急着找答案",
+        "把问题想清楚"
+      ],
+      "character": "Fred_皱眉思考_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "small",
+      "characterWidth": 900,
+      "characterBottom": -110,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "terminal-steps",
+      "layoutFamily": "terminal-steps",
+      "topology": "四步终端清单逐条建立",
+      "approvedStyles": [
+        "reference-v12-v3-03-terminal-centered",
+        "reference-v7-20"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "durationInFrames": 194,
+      "outputFile": "04A_先别急着找答案_把问题想清楚_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-04-think-v5-a.svg",
+        "checksum": "sha256:5efa65c964251e3deb3e7eb2a204afe7481fa6ce1d598b5a1d390841f6d91bdb"
+      },
+      "gestureMode": "thought",
+      "gestureY": 360,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-04-think-v5-b",
+      "compositionId": "FredMotion04ThinkV5B",
+      "sourceBeatIds": [
+        "beat-04-v5-b"
+      ],
+      "scriptAnchor": "先别急着找答案，把问题想清楚。",
+      "exactScreenWords": [
+        "先别急着找答案",
+        "把问题想清楚"
+      ],
+      "originalScreenWords": [
+        "先别急着找答案",
+        "把问题想清楚"
+      ],
+      "character": "Fred_皱眉思考_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "module-split",
+      "layoutFamily": "module-split",
+      "topology": "旧目标收缩让位给问题模块",
+      "approvedStyles": [
+        "reference-v12-v4-02-module-split",
+        "motion-v10-08"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 197,
+      "outputFile": "04B_先别急着找答案_把问题想清楚_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-04-think-v5-b.svg",
+        "checksum": "sha256:e192ecbfc26f65ce56b90b2adbbe5190d6dbc623d3fb44704d1beabb56bb750c"
+      },
+      "gestureMode": "thought",
+      "gestureY": 360,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-05-direction-v5-a",
+      "compositionId": "FredMotion05DirectionV5A",
+      "sourceBeatIds": [
+        "beat-05-v5-a"
+      ],
+      "scriptAnchor": "问题不在努力，而在方向。",
+      "exactScreenWords": [
+        "问题不在",
+        "努力",
+        "而在",
+        "方向"
+      ],
+      "originalScreenWords": [
+        "问题不在努力",
+        "而在方向"
+      ],
+      "character": "Fred_皱眉握拳_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 58,
+      "option": "A",
+      "layout": "split-copy",
+      "layoutFamily": "split-copy",
+      "topology": "左右对照完成否定与修正",
+      "approvedStyles": [
+        "reference-v7-02",
+        "reference-v7-18"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "durationInFrames": 196,
+      "outputFile": "05A_问题不在努力_而在方向_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-05-direction-v5-a.svg",
+        "checksum": "sha256:eb8e695dfd5f3f49b67f82a0f7da1d1ae933dd58fef5a8c3ee2766a13212bfde"
+      },
+      "gestureMode": "resolve",
+      "gestureY": 610,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-05-direction-v5-b",
+      "compositionId": "FredMotion05DirectionV5B",
+      "sourceBeatIds": [
+        "beat-05-v5-b"
+      ],
+      "scriptAnchor": "问题不在努力，而在方向。",
+      "exactScreenWords": [
+        "问题不在努力",
+        "而在方向"
+      ],
+      "originalScreenWords": [
+        "问题不在努力",
+        "而在方向"
+      ],
+      "character": "Fred_皱眉握拳_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 58,
+      "option": "B",
+      "layout": "line-to-plane",
+      "layoutFamily": "line-to-plane",
+      "topology": "努力降为细线，方向扩展成主场域",
+      "approvedStyles": [
+        "motion-v10-04",
+        "reference-v7-30"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 199,
+      "outputFile": "05B_问题不在努力_而在方向_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-05-direction-v5-b.svg",
+        "checksum": "sha256:18ac36e3c5502aedb04783c157af0e61bce83bb0e831e8cff1db33a7798bead6"
+      },
+      "gestureMode": "resolve",
+      "gestureY": 610,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-06-pause-v5-a",
+      "compositionId": "FredMotion06PauseV5A",
+      "sourceBeatIds": [
+        "beat-06-v5-a"
+      ],
+      "scriptAnchor": "先停一下，这一步还没想清楚。",
+      "exactScreenWords": [
+        "先停一下",
+        "这一步",
+        "还没",
+        "想清楚"
+      ],
+      "originalScreenWords": [
+        "先停一下",
+        "这一步还没想清楚"
+      ],
+      "character": "Fred_抬手制止_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "step-tiles",
+      "layoutFamily": "step-tiles",
+      "topology": "制止动作后四块步骤卡依次锁定",
+      "approvedStyles": [
+        "reference-v13-19",
+        "reference-v7-20"
+      ],
+      "carrierCue": 22,
+      "moduleCues": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "durationInFrames": 198,
+      "outputFile": "06A_先停一下_这一步还没想清楚_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-06-pause-v5-a.svg",
+        "checksum": "sha256:24439749457c10ae04ca713335dc0f75d0599a09c9738147630e5d8303260306"
+      },
+      "gestureMode": "stop",
+      "gestureY": 560,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-06-pause-v5-b",
+      "compositionId": "FredMotion06PauseV5B",
+      "sourceBeatIds": [
+        "beat-06-v5-b"
+      ],
+      "scriptAnchor": "先停一下，这一步还没想清楚。",
+      "exactScreenWords": [
+        "先停一下",
+        "这一步还没想清楚"
+      ],
+      "originalScreenWords": [
+        "先停一下",
+        "这一步还没想清楚"
+      ],
+      "character": "Fred_抬手制止_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "compress-band",
+      "layoutFamily": "compress-band",
+      "topology": "停止窗口压缩为提醒带",
+      "approvedStyles": [
+        "motion-v10-08",
+        "reference-v7-12"
+      ],
+      "carrierCue": 22,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 201,
+      "outputFile": "06B_先停一下_这一步还没想清楚_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-06-pause-v5-b.svg",
+        "checksum": "sha256:23083bed267c50d948f8c3501c130196e06faa4a32c0d67ec0e87880dee93fdd"
+      },
+      "gestureMode": "stop",
+      "gestureY": 560,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-07-attention-v5-a",
+      "compositionId": "FredMotion07AttentionV5A",
+      "sourceBeatIds": [
+        "beat-07-v5-a"
+      ],
+      "scriptAnchor": "把注意力，放回关键问题。",
+      "exactScreenWords": [
+        "把注意力",
+        "放回",
+        "关键问题"
+      ],
+      "originalScreenWords": [
+        "把注意力",
+        "放回关键问题"
+      ],
+      "character": "Fred_伸手示意_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "focus-rail",
+      "layoutFamily": "focus-rail",
+      "topology": "注意力沿轨道回到唯一焦点",
+      "approvedStyles": [
+        "reference-v12-v2-01-path-build",
+        "reference-v7-03"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 200,
+      "outputFile": "07A_把注意力_放回关键问题_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-07-attention-v5-a.svg",
+        "checksum": "sha256:322a9c37acbcf030ed10c2e17134cb2eb9f785db9784e4928dc42fd8656c10aa"
+      },
+      "gestureMode": "direct",
+      "gestureY": 610,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-07-attention-v5-b",
+      "compositionId": "FredMotion07AttentionV5B",
+      "sourceBeatIds": [
+        "beat-07-v5-b"
+      ],
+      "scriptAnchor": "把注意力，放回关键问题。",
+      "exactScreenWords": [
+        "把",
+        "注意力",
+        "放回",
+        "关键问题"
+      ],
+      "originalScreenWords": [
+        "把注意力",
+        "放回关键问题"
+      ],
+      "character": "Fred_伸手示意_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "small",
+      "characterWidth": 900,
+      "characterBottom": -110,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "word-grid",
+      "layoutFamily": "word-grid",
+      "topology": "四格从分散到关键问题高亮",
+      "approvedStyles": [
+        "reference-v12-v2-02-word-grid",
+        "reference-v13-13"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "durationInFrames": 203,
+      "outputFile": "07B_把注意力_放回关键问题_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-07-attention-v5-b.svg",
+        "checksum": "sha256:c64d689fd06b7c5ac1a395a74e14cbbf081fc581def41e5b0cb9ecb109fd6705"
+      },
+      "gestureMode": "direct",
+      "gestureY": 610,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-08-together-v5-a",
+      "compositionId": "FredMotion08TogetherV5A",
+      "sourceBeatIds": [
+        "beat-08-v5-a"
+      ],
+      "scriptAnchor": "接下来，一起把它做对。",
+      "exactScreenWords": [
+        "接下来",
+        "一起",
+        "把它做对"
+      ],
+      "originalScreenWords": [
+        "接下来",
+        "一起把它做对"
+      ],
+      "character": "Fred_握手邀请_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "panels-converge",
+      "layoutFamily": "panels-converge",
+      "topology": "三面板靠拢形成共同动作",
+      "approvedStyles": [
+        "motion-v10-16",
+        "reference-v13-19"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 202,
+      "outputFile": "08A_接下来_一起把它做对_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-08-together-v5-a.svg",
+        "checksum": "sha256:3c46c667ba2a3cdfb53e1100754a15abb28275e5d6bfed87848b221869ab46d4"
+      },
+      "gestureMode": "offer",
+      "gestureY": 600,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-08-together-v5-b",
+      "compositionId": "FredMotion08TogetherV5B",
+      "sourceBeatIds": [
+        "beat-08-v5-b"
+      ],
+      "scriptAnchor": "接下来，一起把它做对。",
+      "exactScreenWords": [
+        "接下来",
+        "一起",
+        "做对"
+      ],
+      "originalScreenWords": [
+        "接下来",
+        "一起把它做对"
+      ],
+      "character": "Fred_握手邀请_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "module-merge",
+      "layoutFamily": "module-merge",
+      "topology": "三个模块吸附合并为结论板",
+      "approvedStyles": [
+        "reference-v12-v4-02-module-split",
+        "reference-v7-20"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 205,
+      "outputFile": "08B_接下来_一起把它做对_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-08-together-v5-b.svg",
+        "checksum": "sha256:ff5be058be69ca696fdce90ecd8630b0e20f5fc1d882f1b2ed89703a0ffc2caf"
+      },
+      "gestureMode": "offer",
+      "gestureY": 600,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-09-busy-v5-a",
+      "compositionId": "FredMotion09BusyV5A",
+      "sourceBeatIds": [
+        "beat-09-v5-a"
+      ],
+      "scriptAnchor": "越忙，越容易忽略关键。",
+      "exactScreenWords": [
+        "越忙",
+        "越容易",
+        "忽略关键"
+      ],
+      "originalScreenWords": [
+        "越忙",
+        "越容易忽略关键"
+      ],
+      "character": "Fred_抚额苦恼_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "word-impact",
+      "layoutFamily": "word-impact",
+      "topology": "忙字放大挤压关键区后反向锁定",
+      "approvedStyles": [
+        "reference-v7-30",
+        "motion-v10-01"
+      ],
+      "carrierCue": 22,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 204,
+      "outputFile": "09A_越忙_越容易忽略关键_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-09-busy-v5-a.svg",
+        "checksum": "sha256:f03880e03b8758a4578527044f1132bb782a3cda41cfab5947399d8c69991e85"
+      },
+      "gestureMode": "thought",
+      "gestureY": 360,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-09-busy-v5-b",
+      "compositionId": "FredMotion09BusyV5B",
+      "sourceBeatIds": [
+        "beat-09-v5-b"
+      ],
+      "scriptAnchor": "越忙，越容易忽略关键。",
+      "exactScreenWords": [
+        "越忙",
+        "越容易",
+        "忽略关键"
+      ],
+      "originalScreenWords": [
+        "越忙",
+        "越容易忽略关键"
+      ],
+      "character": "Fred_抚额苦恼_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "small",
+      "characterWidth": 900,
+      "characterBottom": -110,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "metric-ribbon",
+      "layoutFamily": "metric-ribbon",
+      "topology": "三段指标带逐级累积风险",
+      "approvedStyles": [
+        "reference-v7-27",
+        "reference-v7-10"
+      ],
+      "carrierCue": 22,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 207,
+      "outputFile": "09B_越忙_越容易忽略关键_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-09-busy-v5-b.svg",
+        "checksum": "sha256:4300289c29f8eee2451d4752a01f6add8e485bd2fd808e20b26ba4bdbcfa56b9"
+      },
+      "gestureMode": "thought",
+      "gestureY": 360,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-10-judgment-v5-a",
+      "compositionId": "FredMotion10JudgmentV5A",
+      "sourceBeatIds": [
+        "beat-10-v5-a"
+      ],
+      "scriptAnchor": "别让工具，替你做判断。",
+      "exactScreenWords": [
+        "别让工具",
+        "替你",
+        "做判断"
+      ],
+      "originalScreenWords": [
+        "别让工具",
+        "替你做判断"
+      ],
+      "character": "Fred_双手制止_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 92,
+      "option": "A",
+      "layout": "slot-judgment",
+      "layoutFamily": "slot-judgment",
+      "topology": "工具、你、判断三个槽位完成责任锁定",
+      "approvedStyles": [
+        "reference-v12-v4-06-slot-judgment",
+        "reference-v7-10"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        58,
+        86
+      ],
+      "durationInFrames": 206,
+      "outputFile": "10A_别让工具_替你做判断_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-10-judgment-v5-a.svg",
+        "checksum": "sha256:5aff7b835bc33ebd85fd55ab06fc3e2fda1aef213a2c71ae599dd94497290c2d"
+      },
+      "gestureMode": "stop",
+      "gestureY": 640,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-10-judgment-v5-b",
+      "compositionId": "FredMotion10JudgmentV5B",
+      "sourceBeatIds": [
+        "beat-10-v5-b"
+      ],
+      "scriptAnchor": "别让工具，替你做判断。",
+      "exactScreenWords": [
+        "别让工具",
+        "替你做判断"
+      ],
+      "originalScreenWords": [
+        "别让工具",
+        "替你做判断"
+      ],
+      "character": "Fred_双手制止_1440p30_Alpha.webm",
+      "characterSide": "right",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 92,
+      "option": "B",
+      "layout": "stop-intervention",
+      "layoutFamily": "stop-intervention",
+      "topology": "工具模块逼近判断时由人物制止并切断",
+      "approvedStyles": [
+        "reference-v12-v2-04-two-beat",
+        "reference-v7-02"
+      ],
+      "carrierCue": 18,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 209,
+      "outputFile": "10B_别让工具_替你做判断_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-10-judgment-v5-b.svg",
+        "checksum": "sha256:7b07fa9e823d02fb624135dabc1e3282273d0f62c0fc158ddfeac79a23438be8"
+      },
+      "gestureMode": "stop",
+      "gestureY": 640,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-11-resolve-v5-a",
+      "compositionId": "FredMotion11ResolveV5A",
+      "sourceBeatIds": [
+        "beat-11-v5-a"
+      ],
+      "scriptAnchor": "想清楚之后，再全力以赴。",
+      "exactScreenWords": [
+        "想清楚",
+        "之后",
+        "再",
+        "全力以赴"
+      ],
+      "originalScreenWords": [
+        "想清楚之后",
+        "再全力以赴"
+      ],
+      "character": "Fred_振作展示_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "medium",
+      "characterWidth": 1110,
+      "characterBottom": -165,
+      "freezeFrame": 122,
+      "option": "A",
+      "layout": "resolve-path",
+      "layoutFamily": "resolve-path",
+      "topology": "四节点顺序把思考转成行动",
+      "approvedStyles": [
+        "reference-v12-v2-01-path-build",
+        "reference-v7-14"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        50,
+        70,
+        90
+      ],
+      "durationInFrames": 208,
+      "outputFile": "11A_想清楚之后_再全力以赴_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-11-resolve-v5-a.svg",
+        "checksum": "sha256:231a36e5b885c1e385567ff5fd60b3f1532970f1c06cdafcbfb813cd8005ad89"
+      },
+      "gestureMode": "point",
+      "gestureY": 470,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "equal-peer-modules",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    },
+    {
+      "stableId": "fred-motion-11-resolve-v5-b",
+      "compositionId": "FredMotion11ResolveV5B",
+      "sourceBeatIds": [
+        "beat-11-v5-b"
+      ],
+      "scriptAnchor": "想清楚之后，再全力以赴。",
+      "exactScreenWords": [
+        "想清楚之后",
+        "再全力以赴"
+      ],
+      "originalScreenWords": [
+        "想清楚之后",
+        "再全力以赴"
+      ],
+      "character": "Fred_振作展示_1440p30_Alpha.webm",
+      "characterSide": "left",
+      "characterScale": "hero",
+      "characterWidth": 1360,
+      "characterBottom": -230,
+      "freezeFrame": 122,
+      "option": "B",
+      "layout": "final-field",
+      "layoutFamily": "final-field",
+      "topology": "思考小块扩展为行动主场域",
+      "approvedStyles": [
+        "reference-v7-30",
+        "motion-v10-01"
+      ],
+      "carrierCue": 20,
+      "moduleCues": [
+        30,
+        58
+      ],
+      "durationInFrames": 211,
+      "outputFile": "11B_想清楚之后_再全力以赴_V5_1080p.mp4",
+      "finalFrameReference": {
+        "path": "references-v5/fred-motion-11-resolve-v5-b.svg",
+        "checksum": "sha256:2b9c7370b795a5f79bda87b107a062532262b18463cacadcc16a2659d2020e7e"
+      },
+      "gestureMode": "point",
+      "gestureY": 470,
+      "palette": "pure-black-white",
+      "textAlignment": "center",
+      "moduleSizingRule": "single-shared-field",
+      "boundaryStyle": "white-shadow-no-border_black-solid-no-border",
+      "connectorPolicy": "hidden-motion-path-no-visible-lines-or-dots",
+      "transitionPolicy": "fully-clipped-before-cue-no-scale-seed",
+      "badgeVariant": "none",
+      "cornerRadiusPolicy": "module-radius-28-to-40-no-pill-shapes"
+    }
+  ]
+}

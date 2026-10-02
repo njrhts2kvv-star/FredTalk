@@ -1,0 +1,2648 @@
+{
+  "version": "3.1.0",
+  "episode": 86,
+  "counts": {
+    "confirmed-current": 31
+  },
+  "approvals": [
+    {
+      "approvalId": "reference-v7-01",
+      "reviewBatch": "v6-v8-protected",
+      "displayNumber": "01",
+      "stableId": "Fred86Reference01",
+      "version": "v6-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference01.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "历史明确认可第 1 条点到面",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "transition",
+      "layout": "dot-expand",
+      "words": [
+        "不直接讲 AI",
+        "反而更懂 AI"
+      ],
+      "background": "white",
+      "sfx": [
+        "pop",
+        "whoosh"
+      ],
+      "cues": [
+        12,
+        86,
+        164
+      ],
+      "duration": 390,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference01-v6-approved.mp4",
+      "videoBytes": 366050,
+      "videoSha256": "6666f1ec0f8c304d1c20f95ef966f365ad1027a0957a156f369f7b3b9589bda2",
+      "spec": {
+        "stableId": "Fred86Reference01",
+        "group": "transition",
+        "layout": "dot-expand",
+        "background": "white",
+        "words": [
+          "不直接讲 AI",
+          "反而更懂 AI"
+        ],
+        "cues": [
+          12,
+          86,
+          164
+        ],
+        "duration": 390,
+        "sfx": [
+          "pop",
+          "whoosh"
+        ],
+        "sourceBeatIds": [
+          "86-ref-01a",
+          "86-ref-01b"
+        ],
+        "protected": true,
+        "version": "v6-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-02",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "02",
+      "stableId": "Fred86Reference02",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference02.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "transition",
+      "layout": "fixed-split-copy",
+      "words": [
+        "AI 让执行越来越便宜",
+        "判断，反而更贵"
+      ],
+      "background": "black",
+      "sfx": [
+        "whoosh",
+        "click"
+      ],
+      "cues": [
+        10,
+        94,
+        184
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference02-v7-approved.mp4",
+      "videoBytes": 377794,
+      "videoSha256": "2e61a3e143f22cb29597b04bc4bd67dac036c114f4f239a70aef80eeb481c7d0",
+      "spec": {
+        "stableId": "Fred86Reference02",
+        "group": "transition",
+        "layout": "fixed-split-copy",
+        "background": "black",
+        "words": [
+          "AI 让执行越来越便宜",
+          "判断，反而更贵"
+        ],
+        "cues": [
+          10,
+          94,
+          184
+        ],
+        "duration": 420,
+        "sfx": [
+          "whoosh",
+          "click"
+        ],
+        "sourceBeatIds": [
+          "86-ref-02a",
+          "86-ref-02b"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-03",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "03",
+      "stableId": "Fred86Reference03",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference03.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "attachment",
+      "layout": "single-stage-focus",
+      "words": [
+        "答案很多",
+        "证据在哪里？"
+      ],
+      "background": "white",
+      "sfx": [
+        "swipe",
+        "click"
+      ],
+      "cues": [
+        10,
+        90,
+        176
+      ],
+      "duration": 390,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference03-v7-approved.mp4",
+      "videoBytes": 346041,
+      "videoSha256": "3f0468f9e2c7ba3d47b0049390e326a48086f44ffff99be5e45b554ca1b1a795",
+      "spec": {
+        "stableId": "Fred86Reference03",
+        "group": "attachment",
+        "layout": "single-stage-focus",
+        "background": "white",
+        "words": [
+          "答案很多",
+          "证据在哪里？"
+        ],
+        "cues": [
+          10,
+          90,
+          176
+        ],
+        "duration": 390,
+        "sfx": [
+          "swipe",
+          "click"
+        ],
+        "sourceBeatIds": [
+          "86-ref-03a",
+          "86-ref-03b"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-10",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "10",
+      "stableId": "Fred86Reference10",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference10.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "attachment",
+      "layout": "fixed-cascade",
+      "words": [
+        "信息",
+        "证据",
+        "判断"
+      ],
+      "background": "black",
+      "sfx": [
+        "click",
+        "click",
+        "click"
+      ],
+      "cues": [
+        10,
+        76,
+        144,
+        212
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference10-v7-approved.mp4",
+      "videoBytes": 355326,
+      "videoSha256": "bb244491cb9b6093ebd7e5312736c5bfee1fe8d058c29d21116827d8ad154581",
+      "spec": {
+        "stableId": "Fred86Reference10",
+        "group": "attachment",
+        "layout": "fixed-cascade",
+        "background": "black",
+        "words": [
+          "信息",
+          "证据",
+          "判断"
+        ],
+        "cues": [
+          10,
+          76,
+          144,
+          212
+        ],
+        "duration": 420,
+        "sfx": [
+          "click",
+          "click",
+          "click"
+        ],
+        "sourceBeatIds": [
+          "86-ref-10a",
+          "86-ref-10b",
+          "86-ref-10c"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-12",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "12",
+      "stableId": "Fred86Reference12",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference12.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "历史明确认可 fixed-dark-window",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "attachment",
+      "layout": "fixed-dark-window",
+      "words": [
+        "收集只是开始",
+        "沉淀才会复利"
+      ],
+      "background": "white",
+      "sfx": [
+        "whoosh",
+        "click"
+      ],
+      "cues": [
+        10,
+        100,
+        194
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference12-v7-approved.mp4",
+      "videoBytes": 383812,
+      "videoSha256": "648d595cbda408714cb5dd13ed516cfa5650b23627a09a14e86787f5231dbf2e",
+      "spec": {
+        "stableId": "Fred86Reference12",
+        "group": "attachment",
+        "layout": "fixed-dark-window",
+        "background": "white",
+        "words": [
+          "收集只是开始",
+          "沉淀才会复利"
+        ],
+        "cues": [
+          10,
+          100,
+          194
+        ],
+        "duration": 420,
+        "sfx": [
+          "whoosh",
+          "click"
+        ],
+        "sourceBeatIds": [
+          "86-ref-12a",
+          "86-ref-12b"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-14",
+      "reviewBatch": "v5-v8-protected",
+      "displayNumber": "14",
+      "stableId": "Fred86Reference14",
+      "version": "v6-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference14.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v6/manifest.json v5-approved",
+        "review-v7 原样保留",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "typography",
+      "layout": "vertical-words",
+      "words": [
+        "搜索",
+        "整理",
+        "测试"
+      ],
+      "background": "white",
+      "sfx": [
+        "click",
+        "click",
+        "pop"
+      ],
+      "cues": [
+        10,
+        94,
+        160,
+        226
+      ],
+      "duration": 390,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference14-v6-approved.mp4",
+      "videoBytes": 343044,
+      "videoSha256": "e3fdd979631e6fedb5c83c21d08a23f977bff051f42f27e3f187e94ea7eb4abb",
+      "spec": {
+        "stableId": "Fred86Reference14",
+        "group": "typography",
+        "layout": "vertical-words",
+        "background": "white",
+        "words": [
+          "搜索",
+          "整理",
+          "测试"
+        ],
+        "cues": [
+          10,
+          94,
+          160,
+          226
+        ],
+        "duration": 390,
+        "sfx": [
+          "click",
+          "click",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-14a",
+          "86-ref-14b",
+          "86-ref-14c"
+        ],
+        "protected": true,
+        "version": "v6-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-15",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "15",
+      "stableId": "Fred86Reference15",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference15.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "typography",
+      "layout": "fixed-counter-slot",
+      "words": [
+        "100",
+        "1",
+        "越来越快"
+      ],
+      "background": "black",
+      "sfx": [
+        "scroll",
+        "pop"
+      ],
+      "cues": [
+        10,
+        86,
+        184
+      ],
+      "duration": 390,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference15-v7-approved.mp4",
+      "videoBytes": 435270,
+      "videoSha256": "398a0189ae62b0ba434a615785173837bdd19a34614c26d129f79de55ea3fd62",
+      "spec": {
+        "stableId": "Fred86Reference15",
+        "group": "typography",
+        "layout": "fixed-counter-slot",
+        "background": "black",
+        "words": [
+          "100",
+          "1",
+          "越来越快"
+        ],
+        "cues": [
+          10,
+          86,
+          184
+        ],
+        "duration": 390,
+        "sfx": [
+          "scroll",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-15a",
+          "86-ref-15b"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-18",
+      "reviewBatch": "v6-v8-protected",
+      "displayNumber": "18",
+      "stableId": "Fred86Reference18",
+      "version": "v6-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference18.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "review-v7 原样保留",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "evidence",
+      "layout": "split-panels",
+      "words": [
+        "得到答案",
+        "形成能力"
+      ],
+      "background": "black",
+      "sfx": [
+        "whoosh",
+        "pop"
+      ],
+      "cues": [
+        10,
+        104,
+        206
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference18-v6-approved.mp4",
+      "videoBytes": 447027,
+      "videoSha256": "43a8ce30ca7a59e4bdb96c082d75770fbfb703910c7d4081c051e900b7c7e360",
+      "spec": {
+        "stableId": "Fred86Reference18",
+        "group": "evidence",
+        "layout": "split-panels",
+        "background": "black",
+        "words": [
+          "得到答案",
+          "形成能力"
+        ],
+        "cues": [
+          10,
+          104,
+          206
+        ],
+        "duration": 420,
+        "sfx": [
+          "whoosh",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-18a",
+          "86-ref-18b"
+        ],
+        "protected": true,
+        "repeatGroup": "v6-approved-evidence-run",
+        "version": "v6-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-20",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "20",
+      "stableId": "Fred86Reference20",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference20.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "evidence",
+      "layout": "fixed-result-board",
+      "words": [
+        "看懂复杂系统",
+        "减少已知错误",
+        "保留人的能力",
+        "选择正确的事"
+      ],
+      "background": "black",
+      "sfx": [
+        "click",
+        "click",
+        "click",
+        "pop"
+      ],
+      "cues": [
+        10,
+        72,
+        128,
+        184,
+        242
+      ],
+      "duration": 450,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference20-v7-approved.mp4",
+      "videoBytes": 421861,
+      "videoSha256": "022f26c7eb2762986a04f42cda610e80f3c32fcd48261fd186b36e352354e3b1",
+      "spec": {
+        "stableId": "Fred86Reference20",
+        "group": "evidence",
+        "layout": "fixed-result-board",
+        "background": "black",
+        "words": [
+          "看懂复杂系统",
+          "减少已知错误",
+          "保留人的能力",
+          "选择正确的事"
+        ],
+        "cues": [
+          10,
+          72,
+          128,
+          184,
+          242
+        ],
+        "duration": 450,
+        "sfx": [
+          "click",
+          "click",
+          "click",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-20a",
+          "86-ref-20b",
+          "86-ref-20c",
+          "86-ref-20d"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-24",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "24",
+      "stableId": "Fred86Reference24",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference24.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "typography",
+      "layout": "fixed-three-column",
+      "words": [
+        "看懂",
+        "检查",
+        "决定"
+      ],
+      "background": "black",
+      "sfx": [
+        "click",
+        "click",
+        "pop"
+      ],
+      "cues": [
+        10,
+        82,
+        150,
+        218
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference24-v7-approved.mp4",
+      "videoBytes": 362535,
+      "videoSha256": "991b2ce3d3866fd6659c68352fdaa960d1c67ba88e8267d6c646b848d5dd2c73",
+      "spec": {
+        "stableId": "Fred86Reference24",
+        "group": "typography",
+        "layout": "fixed-three-column",
+        "background": "black",
+        "words": [
+          "看懂",
+          "检查",
+          "决定"
+        ],
+        "cues": [
+          10,
+          82,
+          150,
+          218
+        ],
+        "duration": 420,
+        "sfx": [
+          "click",
+          "click",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-24a",
+          "86-ref-24b",
+          "86-ref-24c"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-27",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "27",
+      "stableId": "Fred86Reference27",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference27.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "evidence",
+      "layout": "metric-ribbon",
+      "words": [
+        "更快",
+        "更多",
+        "更稳"
+      ],
+      "background": "white",
+      "sfx": [
+        "click",
+        "click",
+        "pop"
+      ],
+      "cues": [
+        10,
+        78,
+        146,
+        214
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference27-v7-approved.mp4",
+      "videoBytes": 361131,
+      "videoSha256": "17d9e7ac6e30e679b628e4b8ec26823bd90dac21a3f4de9d3cb1a1477dfab576",
+      "spec": {
+        "stableId": "Fred86Reference27",
+        "group": "evidence",
+        "layout": "metric-ribbon",
+        "background": "white",
+        "words": [
+          "更快",
+          "更多",
+          "更稳"
+        ],
+        "cues": [
+          10,
+          78,
+          146,
+          214
+        ],
+        "duration": 420,
+        "sfx": [
+          "click",
+          "click",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-27a",
+          "86-ref-27b",
+          "86-ref-27c"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-29",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "29",
+      "stableId": "Fred86Reference29",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference29.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "typography",
+      "layout": "fixed-word-pair",
+      "words": [
+        "得到答案",
+        "形成能力"
+      ],
+      "background": "black",
+      "sfx": [
+        "click",
+        "pop"
+      ],
+      "cues": [
+        10,
+        102,
+        202
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference29-v7-approved.mp4",
+      "videoBytes": 373757,
+      "videoSha256": "038c49a035dc6fdb87bd1e91600fe9608cbff9f6dd431e14abb9acef50f85d70",
+      "spec": {
+        "stableId": "Fred86Reference29",
+        "group": "typography",
+        "layout": "fixed-word-pair",
+        "background": "black",
+        "words": [
+          "得到答案",
+          "形成能力"
+        ],
+        "cues": [
+          10,
+          102,
+          202
+        ],
+        "duration": 420,
+        "sfx": [
+          "click",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-29a",
+          "86-ref-29b"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v7-30",
+      "reviewBatch": "v7-v8-protected",
+      "displayNumber": "30",
+      "stableId": "Fred86Reference30",
+      "version": "v7-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v7/Fred86Reference30.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "production/v8/manifest.json protected:true",
+        "50 页评审本地选择",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "transition",
+      "layout": "fixed-final-line",
+      "words": [
+        "AI 可以升级",
+        "责任不能外包"
+      ],
+      "background": "black",
+      "sfx": [
+        "whoosh",
+        "pop"
+      ],
+      "cues": [
+        10,
+        100,
+        198
+      ],
+      "duration": 420,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference30-v7-approved.mp4",
+      "videoBytes": 377718,
+      "videoSha256": "f5aebd22937f691f49eb7434deb2f63a0b6a07ea5d5f166444df9950a5388674",
+      "spec": {
+        "stableId": "Fred86Reference30",
+        "group": "transition",
+        "layout": "fixed-final-line",
+        "background": "black",
+        "words": [
+          "AI 可以升级",
+          "责任不能外包"
+        ],
+        "cues": [
+          10,
+          100,
+          198
+        ],
+        "duration": 420,
+        "sfx": [
+          "whoosh",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-30a",
+          "86-ref-30b"
+        ],
+        "protected": true,
+        "version": "v7-approved"
+      }
+    },
+    {
+      "approvalId": "reference-v9-49",
+      "reviewBatch": "current-50",
+      "displayNumber": "49",
+      "stableId": "Fred86Reference49",
+      "version": "v9-review",
+      "status": "confirmed-current",
+      "videoSource": "review-v9/videos/Fred86Reference49-v9-review.mp4",
+      "componentRuntime": "v8",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-current-style-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "evidence",
+      "layout": "five-book-shelf-stage",
+      "words": [
+        "五本书",
+        "一条完整路径"
+      ],
+      "background": "black",
+      "sfx": [
+        "whoosh",
+        "pop"
+      ],
+      "cues": [
+        10,
+        96,
+        194
+      ],
+      "duration": 390,
+      "component": "runtime/src/v8/V8Sample.tsx",
+      "video": "videos/current/reference/Fred86Reference49-v9-review.mp4",
+      "videoBytes": 92835,
+      "videoSha256": "15d5499ef278bae712db08d6890f576efeba45d0b4edb0949b3b1fab86917115",
+      "spec": {
+        "stableId": "Fred86Reference49",
+        "group": "evidence",
+        "layout": "five-book-shelf-stage",
+        "background": "black",
+        "words": [
+          "五本书",
+          "一条完整路径"
+        ],
+        "cues": [
+          10,
+          96,
+          194
+        ],
+        "duration": 390,
+        "sfx": [
+          "whoosh",
+          "pop"
+        ],
+        "sourceBeatIds": [
+          "86-ref-49a",
+          "86-ref-49b"
+        ],
+        "referenceId": "apple-design",
+        "version": "v8-new"
+      }
+    },
+    {
+      "approvalId": "motion-v10-01",
+      "reviewBatch": "v10-motion-lab",
+      "displayNumber": "01",
+      "stableId": "FredMotionLab01",
+      "version": "v10",
+      "status": "confirmed-current",
+      "videoSource": "review-v10/videos/FredMotionLab01.mp4",
+      "componentRuntime": "v10",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-v10-motion-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "field-expansion",
+      "layout": "point-to-field",
+      "layoutFamily": "field-expansion",
+      "words": [
+        "AI 让答案更快",
+        "读书让判断更深"
+      ],
+      "background": "white",
+      "sfx": [
+        "pop",
+        "whoosh"
+      ],
+      "cues": [
+        10,
+        92,
+        190
+      ],
+      "duration": 390,
+      "component": "runtime/src/v10/FieldEffects.tsx",
+      "video": "videos/current/motion-lab/FredMotionLab01-v10.mp4",
+      "videoBytes": 126872,
+      "videoSha256": "926342f893415b28a19da9ceb85440ffadf7966154ece33e22bfbb0ccb6ebb3c",
+      "spec": {
+        "stableId": "FredMotionLab01",
+        "layout": "point-to-field",
+        "layoutFamily": "field-expansion",
+        "words": [
+          "AI 让答案更快",
+          "读书让判断更深"
+        ],
+        "background": "white",
+        "majorGeometry": "center point expands into a full black field",
+        "primaryMotion": "radial-field-expansion",
+        "sfx": [
+          "pop",
+          "whoosh"
+        ],
+        "duration": 390,
+        "cues": [
+          10,
+          92,
+          190
+        ],
+        "sourceBeatIds": [
+          "motion-lab-01-1",
+          "motion-lab-01-2"
+        ]
+      }
+    },
+    {
+      "approvalId": "motion-v10-02",
+      "reviewBatch": "v10-motion-lab",
+      "displayNumber": "02",
+      "stableId": "FredMotionLab02",
+      "version": "v10",
+      "status": "confirmed-current",
+      "videoSource": "review-v10/videos/FredMotionLab02.mp4",
+      "componentRuntime": "v10",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-v10-motion-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "field-expansion",
+      "layout": "rounded-window-grow",
+      "layoutFamily": "field-expansion",
+      "words": [
+        "技巧会过期",
+        "判断不会"
+      ],
+      "background": "white",
+      "sfx": [
+        "whoosh",
+        "pop"
+      ],
+      "cues": [
+        10,
+        92,
+        190
+      ],
+      "duration": 420,
+      "component": "runtime/src/v10/FieldEffects.tsx",
+      "video": "videos/current/motion-lab/FredMotionLab02-v10.mp4",
+      "videoBytes": 115600,
+      "videoSha256": "cc8432f750a696b57aa00594fa51e02987acbecc1d65aed1f7e69c821078944b",
+      "spec": {
+        "stableId": "FredMotionLab02",
+        "layout": "rounded-window-grow",
+        "layoutFamily": "field-expansion",
+        "words": [
+          "技巧会过期",
+          "判断不会"
+        ],
+        "background": "white",
+        "majorGeometry": "small rounded black window grows to a dominant field",
+        "primaryMotion": "rounded-window-growth",
+        "sfx": [
+          "whoosh",
+          "pop"
+        ],
+        "duration": 420,
+        "cues": [
+          10,
+          92,
+          190
+        ],
+        "sourceBeatIds": [
+          "motion-lab-02-1",
+          "motion-lab-02-2"
+        ]
+      }
+    },
+    {
+      "approvalId": "motion-v10-04",
+      "reviewBatch": "v10-motion-lab",
+      "displayNumber": "04",
+      "stableId": "FredMotionLab04",
+      "version": "v10",
+      "status": "confirmed-current",
+      "videoSource": "review-v10/videos/FredMotionLab04.mp4",
+      "componentRuntime": "v10",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-v10-motion-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "motion-and-layout",
+      "group": "field-expansion",
+      "layout": "line-to-plane",
+      "layoutFamily": "field-expansion",
+      "words": [
+        "产出变多",
+        "能力仍要积累"
+      ],
+      "background": "white",
+      "sfx": [
+        "swipe",
+        "pop"
+      ],
+      "cues": [
+        10,
+        92,
+        190
+      ],
+      "duration": 420,
+      "component": "runtime/src/v10/FieldEffects.tsx",
+      "video": "videos/current/motion-lab/FredMotionLab04-v10.mp4",
+      "videoBytes": 109728,
+      "videoSha256": "9e34c185d3c96270e3a2afab022bf2653a6ffa5e2a00354d51bd6f82e12be006",
+      "spec": {
+        "stableId": "FredMotionLab04",
+        "layout": "line-to-plane",
+        "layoutFamily": "field-expansion",
+        "words": [
+          "产出变多",
+          "能力仍要积累"
+        ],
+        "background": "white",
+        "majorGeometry": "a centered line thickens into a full field",
+        "primaryMotion": "line-thickens-to-plane",
+        "sfx": [
+          "swipe",
+          "pop"
+        ],
+        "duration": 420,
+        "cues": [
+          10,
+          92,
+          190
+        ],
+        "sourceBeatIds": [
+          "motion-lab-04-1",
+          "motion-lab-04-2"
+        ]
+      }
+    },
+    {
+      "approvalId": "motion-v10-08",
+      "reviewBatch": "v10-motion-lab",
+      "displayNumber": "08",
+      "stableId": "FredMotionLab08",
+      "version": "v10",
+      "status": "confirmed-current",
+      "videoSource": "review-v10/videos/FredMotionLab08.mp4",
+      "componentRuntime": "v10",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-v10-motion-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "window-transform",
+      "layout": "window-compress-band",
+      "layoutFamily": "window-transform",
+      "words": [
+        "执行越来越便宜",
+        "选择越来越重要"
+      ],
+      "background": "white",
+      "sfx": [
+        "swipe",
+        "pop"
+      ],
+      "cues": [
+        10,
+        92,
+        190
+      ],
+      "duration": 420,
+      "component": "runtime/src/v10/WindowEffects.tsx",
+      "video": "videos/current/motion-lab/FredMotionLab08-v10.mp4",
+      "videoBytes": 137311,
+      "videoSha256": "bb45062e8cc2e9841921501a2f5c40f7cba3a675e271c1cae46f15e001415528",
+      "spec": {
+        "stableId": "FredMotionLab08",
+        "layout": "window-compress-band",
+        "layoutFamily": "window-transform",
+        "words": [
+          "执行越来越便宜",
+          "选择越来越重要"
+        ],
+        "background": "white",
+        "majorGeometry": "large black window compresses into a conclusion band",
+        "primaryMotion": "window-to-band-compression",
+        "sfx": [
+          "swipe",
+          "pop"
+        ],
+        "duration": 420,
+        "cues": [
+          10,
+          92,
+          190
+        ],
+        "sourceBeatIds": [
+          "motion-lab-08-1",
+          "motion-lab-08-2"
+        ]
+      }
+    },
+    {
+      "approvalId": "motion-v10-12",
+      "reviewBatch": "v10-motion-lab",
+      "displayNumber": "12",
+      "stableId": "FredMotionLab12",
+      "version": "v10",
+      "status": "confirmed-current",
+      "videoSource": "review-v10/videos/FredMotionLab12.mp4",
+      "componentRuntime": "v10",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-v10-motion-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "group": "wipe-reveal",
+      "layout": "aperture-slice",
+      "layoutFamily": "wipe-reveal",
+      "words": [
+        "得到答案",
+        "形成能力"
+      ],
+      "background": "white",
+      "sfx": [
+        "whoosh",
+        "pop"
+      ],
+      "cues": [
+        10,
+        92,
+        190
+      ],
+      "duration": 390,
+      "component": "runtime/src/v10/WipeEffects.tsx",
+      "video": "videos/current/motion-lab/FredMotionLab12-v10.mp4",
+      "videoBytes": 110030,
+      "videoSha256": "8102957b6f1f957a9eb0de5180ddf7dc70fa099b9e1a3746ee46c81941bc64db",
+      "spec": {
+        "stableId": "FredMotionLab12",
+        "layout": "aperture-slice",
+        "layoutFamily": "wipe-reveal",
+        "words": [
+          "得到答案",
+          "形成能力"
+        ],
+        "background": "white",
+        "majorGeometry": "a narrow black aperture opens horizontally into a stage",
+        "primaryMotion": "horizontal-aperture-open",
+        "sfx": [
+          "whoosh",
+          "pop"
+        ],
+        "duration": 390,
+        "cues": [
+          10,
+          92,
+          190
+        ],
+        "sourceBeatIds": [
+          "motion-lab-12-1",
+          "motion-lab-12-2"
+        ]
+      }
+    },
+    {
+      "approvalId": "motion-v10-16",
+      "reviewBatch": "v10-motion-lab",
+      "displayNumber": "16",
+      "stableId": "FredMotionLab16",
+      "version": "v10",
+      "status": "confirmed-current",
+      "videoSource": "review-v10/videos/FredMotionLab16.mp4",
+      "componentRuntime": "v10",
+      "approvalEvidence": [
+        "Ego Lite localStorage fredtalk-v10-motion-selection-v1 selected:true",
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "carrier-and-motion",
+      "group": "spatial-handoff",
+      "layout": "panels-converge",
+      "layoutFamily": "spatial-handoff",
+      "words": [
+        "我是在找答案",
+        "还是在找支持？"
+      ],
+      "background": "white",
+      "sfx": [
+        "swipe",
+        "pop"
+      ],
+      "cues": [
+        10,
+        92,
+        190
+      ],
+      "duration": 420,
+      "component": "runtime/src/v10/SpatialEffects.tsx",
+      "video": "videos/current/motion-lab/FredMotionLab16-v10.mp4",
+      "videoBytes": 147003,
+      "videoSha256": "14f94446782122648e0690d0cea334ba4a4c0636efb2975d2b51e7f971fc45bb",
+      "spec": {
+        "stableId": "FredMotionLab16",
+        "layout": "panels-converge",
+        "layoutFamily": "spatial-handoff",
+        "words": [
+          "我是在找答案",
+          "还是在找支持？"
+        ],
+        "background": "white",
+        "majorGeometry": "two black panels converge and hand focus to the question",
+        "primaryMotion": "opposed-panel-convergence",
+        "sfx": [
+          "swipe",
+          "pop"
+        ],
+        "duration": 420,
+        "cues": [
+          10,
+          92,
+          190
+        ],
+        "sourceBeatIds": [
+          "motion-lab-16-1",
+          "motion-lab-16-2"
+        ]
+      }
+    },
+    {
+      "approvalId": "reference-v12-v2-01-path-build",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v2-01-path-build",
+      "stableId": "ApprovedV201PathBuild",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v2-01-path-build.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/PathBuild.tsx",
+      "componentExport": "PathBuild",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "path-build",
+      "layoutFamily": "path-build",
+      "words": [
+        "看见信息",
+        "找到规律",
+        "做出选择"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        36,
+        132,
+        228
+      ],
+      "duration": 420,
+      "component": "runtime/src/PathBuild.tsx",
+      "video": "videos/current/reference/ApprovedV201PathBuild-v12-approved.mp4",
+      "videoBytes": 466730,
+      "videoSha256": "f9dc5562d54cda56ae9738da984dc0adf48abe033ce9306bb273f74e90f8a650",
+      "spec": {
+        "stableId": "ApprovedV201PathBuild",
+        "approvalId": "v2-01-path-build",
+        "sourceBeatIds": [
+          "ApprovedV201PathBuild-beat-1",
+          "ApprovedV201PathBuild-beat-2",
+          "ApprovedV201PathBuild-beat-3"
+        ],
+        "scriptAnchor": "看见信息，找到规律，做出选择",
+        "exactScreenWords": [
+          "看见信息",
+          "找到规律",
+          "做出选择"
+        ],
+        "oneQuestion": "保留用户已确认的 v2-01-path-build.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "path-build",
+        "majorGeometry": "vertical path sequence",
+        "readingOrder": [
+          "看见信息",
+          "找到规律",
+          "做出选择"
+        ],
+        "visualCenter": "做出选择",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:4bfb5c11bdac641959ad951b53780fb9b2c628c650768a35f76d82439e994738"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "看见信息",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "找到规律",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "做出选择",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "vertical-path",
+        "spokenOrder": [
+          "ApprovedV201PathBuild-beat-1",
+          "ApprovedV201PathBuild-beat-2",
+          "ApprovedV201PathBuild-beat-3"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV201PathBuild-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 36
+          },
+          {
+            "sourceBeatId": "ApprovedV201PathBuild-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 132
+          },
+          {
+            "sourceBeatId": "ApprovedV201PathBuild-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 228
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "path-build",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 420,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 7,
+        "outputFile": "renders/v12-4k60/v2-01-path-build.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v2-02-word-grid",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v2-02-word-grid",
+      "stableId": "ApprovedV202WordGrid",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v2-02-word-grid.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/WordGrid.tsx",
+      "componentExport": "WordGrid",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "word-grid",
+      "layoutFamily": "word-grid",
+      "words": [
+        "理解",
+        "筛选",
+        "验证",
+        "决定"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        30,
+        102,
+        174,
+        246
+      ],
+      "duration": 390,
+      "component": "runtime/src/WordGrid.tsx",
+      "video": "videos/current/reference/ApprovedV202WordGrid-v12-approved.mp4",
+      "videoBytes": 491793,
+      "videoSha256": "51d675feaef3608ecf2fbced26bd19a43f74a7c68f171c6a6164eaa4f99bb38d",
+      "spec": {
+        "stableId": "ApprovedV202WordGrid",
+        "approvalId": "v2-02-word-grid",
+        "sourceBeatIds": [
+          "ApprovedV202WordGrid-beat-1",
+          "ApprovedV202WordGrid-beat-2",
+          "ApprovedV202WordGrid-beat-3",
+          "ApprovedV202WordGrid-beat-4"
+        ],
+        "scriptAnchor": "理解，筛选，验证，决定",
+        "exactScreenWords": [
+          "理解",
+          "筛选",
+          "验证",
+          "决定"
+        ],
+        "oneQuestion": "保留用户已确认的 v2-02-word-grid.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "word-grid",
+        "majorGeometry": "centered word grid",
+        "readingOrder": [
+          "理解",
+          "筛选",
+          "验证",
+          "决定"
+        ],
+        "visualCenter": "决定",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:d07ffbce9659baf87690c96898bb072f57959b7359049c0ca4411c40ed1f49c1"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "理解",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "筛选",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "验证",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "决定",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "grid",
+        "spokenOrder": [
+          "ApprovedV202WordGrid-beat-1",
+          "ApprovedV202WordGrid-beat-2",
+          "ApprovedV202WordGrid-beat-3",
+          "ApprovedV202WordGrid-beat-4"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV202WordGrid-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 30
+          },
+          {
+            "sourceBeatId": "ApprovedV202WordGrid-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 102
+          },
+          {
+            "sourceBeatId": "ApprovedV202WordGrid-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 174
+          },
+          {
+            "sourceBeatId": "ApprovedV202WordGrid-beat-4",
+            "event": "advance-and-lock",
+            "cueFrame": 246
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "word-grid-build",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 390,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 6.5,
+        "outputFile": "renders/v12-4k60/v2-02-word-grid.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v2-04-two-beat",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v2-04-two-beat",
+      "stableId": "ApprovedV204TwoBeat",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v2-04-two-beat.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/TwoBeat.tsx",
+      "componentExport": "TwoBeat",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "two-beat-contrast",
+      "layoutFamily": "two-beat-contrast",
+      "words": [
+        "答案越来越快",
+        "判断不能外包"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        42,
+        186
+      ],
+      "duration": 390,
+      "component": "runtime/src/TwoBeat.tsx",
+      "video": "videos/current/reference/ApprovedV204TwoBeat-v12-approved.mp4",
+      "videoBytes": 705756,
+      "videoSha256": "44b1d55b5d62c74861483b7c0f37a8a42c927ebc242c708e9dcd236ea192ea32",
+      "spec": {
+        "stableId": "ApprovedV204TwoBeat",
+        "approvalId": "v2-04-two-beat",
+        "sourceBeatIds": [
+          "ApprovedV204TwoBeat-beat-1",
+          "ApprovedV204TwoBeat-beat-2"
+        ],
+        "scriptAnchor": "答案越来越快，判断不能外包",
+        "exactScreenWords": [
+          "答案越来越快",
+          "判断不能外包"
+        ],
+        "oneQuestion": "保留用户已确认的 v2-04-two-beat.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "two-beat-contrast",
+        "majorGeometry": "two beat centered contrast",
+        "readingOrder": [
+          "答案越来越快",
+          "判断不能外包"
+        ],
+        "visualCenter": "判断不能外包",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:22751693e5136ffe71138459887ba162b4163b972ba1c9fd6f78ef19bf6cb1f9"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "答案越来越快",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "判断不能外包",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "two-beat-handoff",
+        "spokenOrder": [
+          "ApprovedV204TwoBeat-beat-1",
+          "ApprovedV204TwoBeat-beat-2"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV204TwoBeat-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 42
+          },
+          {
+            "sourceBeatId": "ApprovedV204TwoBeat-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 186
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "two-beat-lock",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 390,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 6.5,
+        "outputFile": "renders/v12-4k60/v2-04-two-beat.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v3-03-terminal-centered",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v3-03-terminal-centered",
+      "stableId": "ApprovedV303TerminalCentered",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v3-03-terminal-centered.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/TerminalList.tsx",
+      "componentExport": "TerminalList",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "terminal-list",
+      "layoutFamily": "terminal-list",
+      "words": [
+        "先看问题",
+        "再找证据",
+        "最后做决定"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        42,
+        150,
+        258
+      ],
+      "duration": 450,
+      "component": "runtime/src/TerminalList.tsx",
+      "video": "videos/current/reference/ApprovedV303TerminalCentered-v12-approved.mp4",
+      "videoBytes": 450508,
+      "videoSha256": "31cadcab711b3d03dcd10f10d94acaa76ab23220cb7e7f10ef9554f9c3f7b0bd",
+      "spec": {
+        "stableId": "ApprovedV303TerminalCentered",
+        "approvalId": "v3-03-terminal-centered",
+        "sourceBeatIds": [
+          "ApprovedV303TerminalCentered-beat-1",
+          "ApprovedV303TerminalCentered-beat-2",
+          "ApprovedV303TerminalCentered-beat-3"
+        ],
+        "scriptAnchor": "先看问题，再找证据，最后做决定",
+        "exactScreenWords": [
+          "先看问题",
+          "再找证据",
+          "最后做决定"
+        ],
+        "oneQuestion": "保留用户已确认的 v3-03-terminal-centered.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "terminal-list",
+        "majorGeometry": "centered terminal stack",
+        "readingOrder": [
+          "先看问题",
+          "再找证据",
+          "最后做决定"
+        ],
+        "visualCenter": "最后做决定",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:cd17e1acf0124f5adcfb59a096a8f28f0fa966e47adabcd6c401cdcb9b72d839"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "先看问题",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "再找证据",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "最后做决定",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "vertical-stack",
+        "spokenOrder": [
+          "ApprovedV303TerminalCentered-beat-1",
+          "ApprovedV303TerminalCentered-beat-2",
+          "ApprovedV303TerminalCentered-beat-3"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV303TerminalCentered-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 42
+          },
+          {
+            "sourceBeatId": "ApprovedV303TerminalCentered-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 150
+          },
+          {
+            "sourceBeatId": "ApprovedV303TerminalCentered-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 258
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "terminal-sequence",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 450,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 7.5,
+        "outputFile": "renders/v12-4k60/v3-03-terminal-centered.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v3-06-shape-expand",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v3-06-shape-expand",
+      "stableId": "ApprovedV306ShapeExpand",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v3-06-shape-expand.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/ShapeExpand.tsx",
+      "componentExport": "ShapeExpand",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "shape-expand",
+      "layoutFamily": "shape-expand",
+      "words": [
+        "把复杂变清楚"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        72
+      ],
+      "duration": 360,
+      "component": "runtime/src/ShapeExpand.tsx",
+      "video": "videos/current/reference/ApprovedV306ShapeExpand-v12-approved.mp4",
+      "videoBytes": 386943,
+      "videoSha256": "7eacc8eb879bddc79dab8324f52bca54664d0779135d6277e44504c267ad0fcc",
+      "spec": {
+        "stableId": "ApprovedV306ShapeExpand",
+        "approvalId": "v3-06-shape-expand",
+        "sourceBeatIds": [
+          "ApprovedV306ShapeExpand-beat-1"
+        ],
+        "scriptAnchor": "把复杂变清楚",
+        "exactScreenWords": [
+          "把复杂变清楚"
+        ],
+        "oneQuestion": "保留用户已确认的 v3-06-shape-expand.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "shape-expand",
+        "majorGeometry": "point to field expansion",
+        "readingOrder": [
+          "把复杂变清楚"
+        ],
+        "visualCenter": "把复杂变清楚",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:ab29ee7298e15238e5ab07619261b16614c367d7b73eef4b2557e1b101940a37"
+        },
+        "typographyRoles": [
+          {
+            "role": "conclusion",
+            "text": "把复杂变清楚",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "field-expansion",
+        "spokenOrder": [
+          "ApprovedV306ShapeExpand-beat-1"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV306ShapeExpand-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 72
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "shape-expand",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 360,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 6,
+        "outputFile": "renders/v12-4k60/v3-06-shape-expand.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v4-02-module-split",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v4-02-module-split",
+      "stableId": "ApprovedV402ModuleSplit",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v4-02-module-split.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/samples/Sample02ModuleSplit.tsx",
+      "componentExport": "Sample02ModuleSplit",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "module-split",
+      "layoutFamily": "module-split",
+      "words": [
+        "Prompt",
+        "模型原理",
+        "工具教程",
+        "模型一升级，技巧就过期"
+      ],
+      "background": "white",
+      "sfx": [],
+      "cues": [
+        30,
+        96,
+        162,
+        228
+      ],
+      "duration": 390,
+      "component": "runtime/src/samples/Sample02ModuleSplit.tsx",
+      "video": "videos/current/reference/ApprovedV402ModuleSplit-v12-approved.mp4",
+      "videoBytes": 565050,
+      "videoSha256": "005b0a3668a4e611c0f731e3030139715dd944bedd6c141956b45069d337ee5e",
+      "spec": {
+        "stableId": "ApprovedV402ModuleSplit",
+        "approvalId": "v4-02-module-split",
+        "sourceBeatIds": [
+          "ApprovedV402ModuleSplit-beat-1",
+          "ApprovedV402ModuleSplit-beat-2",
+          "ApprovedV402ModuleSplit-beat-3",
+          "ApprovedV402ModuleSplit-beat-4"
+        ],
+        "scriptAnchor": "Prompt，模型原理，工具教程，模型一升级，技巧就过期",
+        "exactScreenWords": [
+          "Prompt",
+          "模型原理",
+          "工具教程",
+          "模型一升级，技巧就过期"
+        ],
+        "oneQuestion": "保留用户已确认的 v4-02-module-split.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "module-split",
+        "majorGeometry": "multi module split and conclusion",
+        "readingOrder": [
+          "Prompt",
+          "模型原理",
+          "工具教程",
+          "模型一升级，技巧就过期"
+        ],
+        "visualCenter": "模型一升级，技巧就过期",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:69637e1fa7618e24e8216cd5b8c7b5f2c899fd3f398a09002a94b6d848ff4b2e"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "Prompt",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "模型原理",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "工具教程",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "模型一升级，技巧就过期",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "module-split",
+        "spokenOrder": [
+          "ApprovedV402ModuleSplit-beat-1",
+          "ApprovedV402ModuleSplit-beat-2",
+          "ApprovedV402ModuleSplit-beat-3",
+          "ApprovedV402ModuleSplit-beat-4"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV402ModuleSplit-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 30
+          },
+          {
+            "sourceBeatId": "ApprovedV402ModuleSplit-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 96
+          },
+          {
+            "sourceBeatId": "ApprovedV402ModuleSplit-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 162
+          },
+          {
+            "sourceBeatId": "ApprovedV402ModuleSplit-beat-4",
+            "event": "advance-and-lock",
+            "cueFrame": 228
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "module-split",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 390,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 6.5,
+        "outputFile": "renders/v12-4k60/v4-02-module-split.mp4",
+        "background": "white"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v4-03-phone-counter",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v4-03-phone-counter",
+      "stableId": "ApprovedV403PhoneCounter",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v4-03-phone-counter.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/samples/Sample03PhoneCounter.tsx",
+      "componentExport": "Sample03PhoneCounter",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "device-counter",
+      "layoutFamily": "device-counter",
+      "words": [
+        "100秒 → 1秒",
+        "答案越来越快",
+        "但判断没有快捷键"
+      ],
+      "background": "white",
+      "sfx": [],
+      "cues": [
+        36,
+        150,
+        252
+      ],
+      "duration": 420,
+      "component": "runtime/src/samples/Sample03PhoneCounter.tsx",
+      "video": "videos/current/reference/ApprovedV403PhoneCounter-v12-approved.mp4",
+      "videoBytes": 696844,
+      "videoSha256": "d22bf8ab24ff008359dab55931f4209f3df7317f572e547e21b0a4cf7fe97cb6",
+      "spec": {
+        "stableId": "ApprovedV403PhoneCounter",
+        "approvalId": "v4-03-phone-counter",
+        "sourceBeatIds": [
+          "ApprovedV403PhoneCounter-beat-1",
+          "ApprovedV403PhoneCounter-beat-2",
+          "ApprovedV403PhoneCounter-beat-3"
+        ],
+        "scriptAnchor": "100秒 → 1秒，答案越来越快，但判断没有快捷键",
+        "exactScreenWords": [
+          "100秒 → 1秒",
+          "答案越来越快",
+          "但判断没有快捷键"
+        ],
+        "oneQuestion": "保留用户已确认的 v4-03-phone-counter.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "device-counter",
+        "majorGeometry": "phone counter with centered conclusion",
+        "readingOrder": [
+          "100秒 → 1秒",
+          "答案越来越快",
+          "但判断没有快捷键"
+        ],
+        "visualCenter": "但判断没有快捷键",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:3dd0fad8172d26bde1b18d8f0967d1cfbafe69e80d5209ef0632330ad8228fe7"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "100秒 → 1秒",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "答案越来越快",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "但判断没有快捷键",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "counter-slot",
+        "spokenOrder": [
+          "ApprovedV403PhoneCounter-beat-1",
+          "ApprovedV403PhoneCounter-beat-2",
+          "ApprovedV403PhoneCounter-beat-3"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV403PhoneCounter-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 36
+          },
+          {
+            "sourceBeatId": "ApprovedV403PhoneCounter-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 150
+          },
+          {
+            "sourceBeatId": "ApprovedV403PhoneCounter-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 252
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "phone-counter",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 420,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 7,
+        "outputFile": "renders/v12-4k60/v4-03-phone-counter.mp4",
+        "background": "white"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v4-05-monitor-emergence",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v4-05-monitor-emergence",
+      "stableId": "ApprovedV405MonitorEmergence",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v4-05-monitor-emergence.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/samples/Sample05MonitorEmergence.tsx",
+      "componentExport": "Sample05MonitorEmergence",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "monitor-emergence",
+      "layoutFamily": "monitor-emergence",
+      "words": [
+        "复杂能力，怎么出现？",
+        "局部连接",
+        "反复反馈",
+        "共同适应",
+        "从连接中涌现"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        24,
+        90,
+        150,
+        210,
+        270
+      ],
+      "duration": 420,
+      "component": "runtime/src/samples/Sample05MonitorEmergence.tsx",
+      "video": "videos/current/reference/ApprovedV405MonitorEmergence-v12-approved.mp4",
+      "videoBytes": 1052077,
+      "videoSha256": "bc0b12b309a84a22a4baacf2411b5a1affe2de72ac1551d3e881a16b6a228369",
+      "spec": {
+        "stableId": "ApprovedV405MonitorEmergence",
+        "approvalId": "v4-05-monitor-emergence",
+        "sourceBeatIds": [
+          "ApprovedV405MonitorEmergence-beat-1",
+          "ApprovedV405MonitorEmergence-beat-2",
+          "ApprovedV405MonitorEmergence-beat-3",
+          "ApprovedV405MonitorEmergence-beat-4",
+          "ApprovedV405MonitorEmergence-beat-5"
+        ],
+        "scriptAnchor": "复杂能力，怎么出现？，局部连接，反复反馈，共同适应，从连接中涌现",
+        "exactScreenWords": [
+          "复杂能力，怎么出现？",
+          "局部连接",
+          "反复反馈",
+          "共同适应",
+          "从连接中涌现"
+        ],
+        "oneQuestion": "保留用户已确认的 v4-05-monitor-emergence.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "monitor-emergence",
+        "majorGeometry": "vertical grid curve branch monitor field",
+        "readingOrder": [
+          "复杂能力，怎么出现？",
+          "局部连接",
+          "反复反馈",
+          "共同适应",
+          "从连接中涌现"
+        ],
+        "visualCenter": "从连接中涌现",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:5c3b1d969ff19314028d92a2f7b621a8ad52157c6ec54ed82cacac2eb2c95bfe"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "复杂能力，怎么出现？",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "局部连接",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "反复反馈",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "共同适应",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "从连接中涌现",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "vertical-grid-curve-branch",
+        "spokenOrder": [
+          "ApprovedV405MonitorEmergence-beat-1",
+          "ApprovedV405MonitorEmergence-beat-2",
+          "ApprovedV405MonitorEmergence-beat-3",
+          "ApprovedV405MonitorEmergence-beat-4",
+          "ApprovedV405MonitorEmergence-beat-5"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV405MonitorEmergence-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 24
+          },
+          {
+            "sourceBeatId": "ApprovedV405MonitorEmergence-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 90
+          },
+          {
+            "sourceBeatId": "ApprovedV405MonitorEmergence-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 150
+          },
+          {
+            "sourceBeatId": "ApprovedV405MonitorEmergence-beat-4",
+            "event": "advance-and-lock",
+            "cueFrame": 210
+          },
+          {
+            "sourceBeatId": "ApprovedV405MonitorEmergence-beat-5",
+            "event": "advance-and-lock",
+            "cueFrame": 270
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "monitor-emergence",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 420,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 7,
+        "outputFile": "renders/v12-4k60/v4-05-monitor-emergence.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v12-v4-06-slot-judgment",
+      "reviewBatch": "v12-40-final-review",
+      "displayNumber": "v4-06-slot-judgment",
+      "stableId": "ApprovedV406SlotJudgment",
+      "version": "v12-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v12-4k60/v4-06-slot-judgment.mp4",
+      "componentRuntime": "v12-original",
+      "componentSource": "src/samples/Sample06SlotJudgment.tsx",
+      "componentExport": "Sample06SlotJudgment",
+      "approvalEvidence": [
+        "review-v12/review-state.json 2026-09-02 全量复审"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "V12 40 条正式视频复评明确保留",
+      "group": "slot-judgment",
+      "layoutFamily": "slot-judgment",
+      "words": [
+        "信息",
+        "证据",
+        "判断"
+      ],
+      "background": "black",
+      "sfx": [],
+      "cues": [
+        48,
+        138,
+        228
+      ],
+      "duration": 390,
+      "component": "runtime/src/samples/Sample06SlotJudgment.tsx",
+      "video": "videos/current/reference/ApprovedV406SlotJudgment-v12-approved.mp4",
+      "videoBytes": 359109,
+      "videoSha256": "59cd13facf1f27ae1b8bc192883871ab39cfab38378ce860a810de5da6a15f67",
+      "spec": {
+        "stableId": "ApprovedV406SlotJudgment",
+        "approvalId": "v4-06-slot-judgment",
+        "sourceBeatIds": [
+          "ApprovedV406SlotJudgment-beat-1",
+          "ApprovedV406SlotJudgment-beat-2",
+          "ApprovedV406SlotJudgment-beat-3"
+        ],
+        "scriptAnchor": "信息，证据，判断",
+        "exactScreenWords": [
+          "信息",
+          "证据",
+          "判断"
+        ],
+        "oneQuestion": "保留用户已确认的 v4-06-slot-judgment.mp4 动效、排版与音效，仅统一正式媒体规格",
+        "layoutFamily": "slot-judgment",
+        "majorGeometry": "centered slot replacement",
+        "readingOrder": [
+          "信息",
+          "证据",
+          "判断"
+        ],
+        "visualCenter": "判断",
+        "styleTrack": "fred-approved-existing-video-v12",
+        "mediaRole": "approved-existing-video",
+        "assetSourceKind": "approved-existing-video",
+        "referenceImages": [
+          {
+            "path": "[LOCAL_PATH]",
+            "responsibility": "User-approved source video; preserve motion, layout, wording and audio exactly"
+          }
+        ],
+        "finalFrameReference": {
+          "path": "[LOCAL_PATH]",
+          "checksum": "sha256:642cddf5d60824a79338717cabcc08abab2f937106e8b675ebf540a355780407"
+        },
+        "typographyRoles": [
+          {
+            "role": "primary",
+            "text": "信息",
+            "sizeClass": "large"
+          },
+          {
+            "role": "primary",
+            "text": "证据",
+            "sizeClass": "large"
+          },
+          {
+            "role": "conclusion",
+            "text": "判断",
+            "sizeClass": "hero"
+          }
+        ],
+        "connectorType": "none",
+        "pathTopology": "slot-replacement",
+        "spokenOrder": [
+          "ApprovedV406SlotJudgment-beat-1",
+          "ApprovedV406SlotJudgment-beat-2",
+          "ApprovedV406SlotJudgment-beat-3"
+        ],
+        "timingSource": "approved-manual-cue",
+        "motionEvents": [
+          {
+            "sourceBeatId": "ApprovedV406SlotJudgment-beat-1",
+            "event": "establish-carrier",
+            "cueFrame": 48
+          },
+          {
+            "sourceBeatId": "ApprovedV406SlotJudgment-beat-2",
+            "event": "advance-and-lock",
+            "cueFrame": 138
+          },
+          {
+            "sourceBeatId": "ApprovedV406SlotJudgment-beat-3",
+            "event": "advance-and-lock",
+            "cueFrame": 228
+          }
+        ],
+        "noFade": true,
+        "primaryMotion": "slot-judgment",
+        "secondaryMotion": "sound-synced-lock",
+        "durationInFrames": 390,
+        "finalHoldFrames": 72,
+        "implementationComponentId": "ApprovedExistingVideo",
+        "protected": true,
+        "approvalStatus": "approved-by-user-2026-09-02",
+        "durationSeconds": 6.5,
+        "outputFile": "renders/v12-4k60/v4-06-slot-judgment.mp4",
+        "background": "black"
+      }
+    },
+    {
+      "approvalId": "reference-v13-13",
+      "reviewBatch": "v13-user-approved-fixes",
+      "displayNumber": "13",
+      "stableId": "V13referencev713",
+      "version": "v13-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v13-4k60/reference-v13-13.mp4",
+      "componentRuntime": "v13-reviewed-fix",
+      "approvalEvidence": [
+        "renders/v13-preview/reference-v13-13.mp4 用户明确回复“可以的”",
+        "production/v13-formal-release/formal-approval.json",
+        "qc/v13-release-qc.json"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "九宫格使用真正黑白棋盘交替；可复用行级快速遮罩和逐行建立语法。",
+      "words": [
+        "Prompt",
+        "模型",
+        "工具",
+        "搜索",
+        "整理",
+        "测试",
+        "输出",
+        "证据",
+        "判断"
+      ],
+      "background": "black",
+      "sfx": [
+        "whoosh",
+        "click",
+        "click"
+      ],
+      "cues": [
+        72,
+        128,
+        184
+      ],
+      "duration": 390,
+      "component": "runtime/src/v13-reviewed-fixes/V13Sample.tsx",
+      "video": "videos/current/reference/V13referencev713-v13-approved.mp4",
+      "videoBytes": 343526,
+      "videoSha256": "e30e7f777b8ac9ae64f904e94d89185e82623bd677af2c5fab506c8ac3f44342",
+      "spec": {
+        "stableId": "V13referencev713",
+        "sourceBeatIds": [
+          "reference-v7-13-beat-1",
+          "reference-v7-13-beat-2",
+          "reference-v7-13-beat-3",
+          "reference-v7-13-beat-4",
+          "reference-v7-13-beat-5",
+          "reference-v7-13-beat-6",
+          "reference-v7-13-beat-7",
+          "reference-v7-13-beat-8",
+          "reference-v7-13-beat-9"
+        ],
+        "approvalId": "reference-v13-13",
+        "sourceKind": "remotion-v13",
+        "duration": 390,
+        "words": [
+          "Prompt",
+          "模型",
+          "工具",
+          "搜索",
+          "整理",
+          "测试",
+          "输出",
+          "证据",
+          "判断"
+        ],
+        "outputFile": "renders/v13-4k60/reference-v13-13.mp4",
+        "cues": [
+          72,
+          128,
+          184
+        ],
+        "sfx": [
+          "whoosh",
+          "click",
+          "click"
+        ],
+        "background": "black",
+        "reviewNote": "保留九宫格逻辑，只把第二行改为黑白黑交替"
+      }
+    },
+    {
+      "approvalId": "reference-v13-19",
+      "reviewBatch": "v13-user-approved-fixes",
+      "displayNumber": "19",
+      "stableId": "V13referencev719",
+      "version": "v13-approved",
+      "status": "confirmed-current",
+      "videoSource": "renders/v13-4k60/reference-v13-19.mp4",
+      "componentRuntime": "v13-reviewed-fix",
+      "approvalEvidence": [
+        "renders/v13-preview/reference-v13-19.mp4 用户明确回复“可以的”",
+        "production/v13-formal-release/formal-approval.json",
+        "qc/v13-release-qc.json"
+      ],
+      "approvalStrength": "strong",
+      "reuseScope": "full",
+      "reviewNote": "三张四字级决策卡两两分组、字号放大，按语序逐卡就位。",
+      "words": [
+        "自己判断",
+        "AI 挑战",
+        "自己决定"
+      ],
+      "background": "white",
+      "sfx": [
+        "click",
+        "click",
+        "pop"
+      ],
+      "cues": [
+        86,
+        156,
+        226
+      ],
+      "duration": 420,
+      "component": "runtime/src/v13-reviewed-fixes/V13Sample.tsx",
+      "video": "videos/current/reference/V13referencev719-v13-approved.mp4",
+      "videoBytes": 220685,
+      "videoSha256": "f75eb1950f4f4d7493b3ef5b2cffd8a1543d5becf1a0f4cf7fa4f34b21071c1a",
+      "spec": {
+        "stableId": "V13referencev719",
+        "sourceBeatIds": [
+          "reference-v7-19-beat-1",
+          "reference-v7-19-beat-2",
+          "reference-v7-19-beat-3"
+        ],
+        "approvalId": "reference-v13-19",
+        "sourceKind": "remotion-v13",
+        "duration": 420,
+        "words": [
+          "自己判断",
+          "AI 挑战",
+          "自己决定"
+        ],
+        "outputFile": "renders/v13-4k60/reference-v13-19.mp4",
+        "cues": [
+          86,
+          156,
+          226
+        ],
+        "sfx": [
+          "click",
+          "click",
+          "pop"
+        ],
+        "background": "white",
+        "reviewNote": "三步决策卡每张收敛为四字级并两行放大"
+      }
+    }
+  ]
+}

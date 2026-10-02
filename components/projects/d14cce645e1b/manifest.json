@@ -1,0 +1,1332 @@
+{
+  "episodeKey": "episode-99-jev-fast-decision-model",
+  "scope": "S07-S12 independent compositions; continuous global audio intervals preserved",
+  "derivedFrom": {
+    "path": "[LOCAL_PATH]",
+    "sha256": "783ba56bf2717e3c8f7a00480d08f4caecd0c2bf1284752187f7d78cfc9b8645",
+    "globalStartFrame": 3282
+  },
+  "script": {
+    "path": "script.txt",
+    "sha256": "5b86fbad20e2ee28f2a39e313d6dc513c971b4ae056e88edcbaadbb90a12fd9f"
+  },
+  "timelineFps": 60,
+  "timingStatus": "audio-aligned",
+  "timingEvidence": "original SRT032-068 mapped at 60fps; scene local clocks; outgoing holds preserve original silent gaps",
+  "sourceSrt": {
+    "path": "[LOCAL_PATH]",
+    "sha256": "4091f9aedff8120ebb7cbfc60db138a85becf72f204b4c82a1640fbe2944c0e8"
+  },
+  "durationInFrames": 3898,
+  "clockContract": {
+    "mode": "scene-local",
+    "sourceRule": "Each composition uses its local useCurrentFrame; cues are scene-local; voice starts at globalStartFrame. Full sequence subtracts page.startFrame."
+  },
+  "parts": [
+    {
+      "id": "s07-s12",
+      "startFrame": 0,
+      "endFrameExclusive": 3898
+    }
+  ],
+  "pages": [
+    {
+      "stableId": "s07-rule-based-packages",
+      "globalStartFrame": 3282,
+      "startFrame": 0,
+      "durationInFrames": 870,
+      "sourceBeatIds": [
+        "srt-032",
+        "srt-033",
+        "srt-034",
+        "srt-035",
+        "srt-036",
+        "srt-037"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 0,
+          "endChar": 86,
+          "text": "我们假设快递仓库来了1万个包裹\n对吧普通的程序最擅长的就是看标签\n比如说重量超过10公斤就放到a的区域\n地址是上海就放到b的区域\n这些事情不需要AI\n程序按照规则执行就行了"
+        }
+      ],
+      "scriptAnchor": "我们假设快递仓库来了1万个包裹\n对吧普通的程序最擅长的就是看标签\n比如说重量超过10公斤就放到a的区域\n地址是上海就放到b的区域\n这些事情不需要AI\n程序按照规则执行就行了",
+      "exactScreenWords": [
+        "10,000",
+        "个包裹",
+        "重量 > 10公斤",
+        "A区",
+        "地址：上海",
+        "B区",
+        "不需要 AI",
+        "按规则执行"
+      ],
+      "oneQuestion": "标签集合与规则分拣",
+      "visualPlan": {
+        "enter": "上游尾帧与10000包裹集合",
+        "change": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域",
+        "read": "保留口播中的具体消息与条件；主体在字幕区之上",
+        "exit": "黑窗口退出，白底黑胶囊标签→按规则执行",
+        "handoff": "黑窗口退出，白底黑胶囊标签→按规则执行"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期仓库/客户消息语义设计；实际复用已保存库的Phone、Desktop、Monitor、Pill载体源码，动作序列为本期适配，未冒称整段原版场景实现。",
+        "anchors": [
+          "C005 tree-to-flow exact selected video",
+          "C012 Sample05MonitorEmergence exact selected video and source",
+          "R014 Clip014 desktop to phone source"
+        ],
+        "styleContract": {
+          "surface": "白黑舞台按语义交接，黑白对比胶囊；库内三色点窗口/手机/显示器，紫色仅划线与判断",
+          "typography": "MiSans 500/600；明确字阶；客户原话全文可读",
+          "geometry": "1920x1080逻辑画布；主体y170-865，保留右上角与底部安全区",
+          "motion": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域",
+          "camera": "载体入场、缩小让位、内容聚焦均绑定真实cue，不做无语义漂浮",
+          "mediaBehavior": "手机和窗口为讲解示意，不伪装真实产品录屏；S07真实上游尾图保留"
+        },
+        "newElements": [
+          "标签集合与规则分拣",
+          "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        ],
+        "risks": [
+          "接缝首尾一致",
+          "最长客户消息不得裁切",
+          "黑底角标对比",
+          "逐句动作须实际可见"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 5,
+        "staticAllowanceSeconds": 2.8,
+        "reason": "每个新语义cue改变对象/关系；完整客户句允许短暂停稳阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-032",
+          "startFrame": 0,
+          "endFrame": 152,
+          "text": "我们假设快递仓库来了1万个包裹"
+        },
+        {
+          "id": "srt-033",
+          "startFrame": 152,
+          "endFrame": 350,
+          "text": "对吧普通的程序最擅长的就是看标签"
+        },
+        {
+          "id": "srt-034",
+          "startFrame": 360,
+          "endFrame": 530,
+          "text": "比如说重量超过10公斤就放到a的区域"
+        },
+        {
+          "id": "srt-035",
+          "startFrame": 546,
+          "endFrame": 666,
+          "text": "地址是上海就放到b的区域"
+        },
+        {
+          "id": "srt-036",
+          "startFrame": 666,
+          "endFrame": 760,
+          "text": "这些事情不需要AI"
+        },
+        {
+          "id": "srt-037",
+          "startFrame": 760,
+          "endFrame": 870,
+          "text": "程序按照规则执行就行了"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-032",
+          "sourceBeatId": "srt-032",
+          "spokenCue": "我们假设快递仓库来了1万个包裹",
+          "cueFrame": 0,
+          "event": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        },
+        {
+          "id": "srt-033",
+          "sourceBeatId": "srt-033",
+          "spokenCue": "对吧普通的程序最擅长的就是看标签",
+          "cueFrame": 152,
+          "event": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        },
+        {
+          "id": "srt-034",
+          "sourceBeatId": "srt-034",
+          "spokenCue": "比如说重量超过10公斤就放到a的区域",
+          "cueFrame": 360,
+          "event": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        },
+        {
+          "id": "srt-035",
+          "sourceBeatId": "srt-035",
+          "spokenCue": "地址是上海就放到b的区域",
+          "cueFrame": 546,
+          "event": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        },
+        {
+          "id": "srt-036",
+          "sourceBeatId": "srt-036",
+          "spokenCue": "这些事情不需要AI",
+          "cueFrame": 666,
+          "event": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        },
+        {
+          "id": "srt-037",
+          "sourceBeatId": "srt-037",
+          "spokenCue": "程序按照规则执行就行了",
+          "cueFrame": 760,
+          "event": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "relation-lines",
+          "frosted-focus"
+        ],
+        "signature": "71a569955cc5fe5bef83088148434a8844f52b3213d1571ab1abeb5a716750a4",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域",
+            "check": "按本页cues检查字句与进入次序"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "标签108px主字，A/B区域112px；不用小备注",
+            "check": "检查最长消息和动态边距，禁止拉伸"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "白黑舞台切换时角标反色；独立固定层",
+            "check": "检查右上角与前景不冲突"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "上游尾帧与10000包裹集合；黑窗口退出，白底黑胶囊标签→按规则执行",
+            "check": "比较相邻两段末帧/首帧对象身份和坐标"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "集合退后建立黑色三色点规则窗口；划出标签字段，包裹实际进入A/B区域",
+            "check": "每次变化须增加条件、关系或结论，不重复换壳"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅场景转交和选中各1至2个短音效，原声取精确全局帧",
+            "check": "核对混音与本页口播起点，无BGM"
+          },
+          {
+            "ruleId": "F09",
+            "decision": "连线只用于条件与目的地，零进度不画点",
+            "check": "检查路径进出和主体同步回收"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "同组同字号同基线"
+          },
+          {
+            "ruleId": "F05",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "核验蒙版下真实来源和恢复期，不掩盖缺失上游尾图"
+          }
+        ]
+      },
+      "narrationDurationInFrames": 870
+    },
+    {
+      "stableId": "s08-natural-language-package",
+      "globalStartFrame": 4152,
+      "startFrame": 870,
+      "durationInFrames": 506,
+      "sourceBeatIds": [
+        "srt-038",
+        "srt-039",
+        "srt-040",
+        "srt-041",
+        "srt-042",
+        "srt-043"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 87,
+          "endChar": 140,
+          "text": "但有些时候包裹上面的\n信息不是标准的标签\n而是一段人话对吧\n比如说客户说电脑坏了\n昨天刚买的\n想赶紧换一个"
+        }
+      ],
+      "scriptAnchor": "但有些时候包裹上面的\n信息不是标准的标签\n而是一段人话对吧\n比如说客户说电脑坏了\n昨天刚买的\n想赶紧换一个",
+      "exactScreenWords": [
+        "不是标准标签",
+        "一段人话",
+        "电脑坏了",
+        "昨天刚买的",
+        "想赶紧换一个"
+      ],
+      "oneQuestion": "标签变为客户手机消息",
+      "visualPlan": {
+        "enter": "延续标签→规则",
+        "change": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面",
+        "read": "保留口播中的具体消息与条件；主体在字幕区之上",
+        "exit": "保留手机全文与人话标题",
+        "handoff": "保留手机全文与人话标题"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期仓库/客户消息语义设计；实际复用已保存库的Phone、Desktop、Monitor、Pill载体源码，动作序列为本期适配，未冒称整段原版场景实现。",
+        "anchors": [
+          "C005 tree-to-flow exact selected video",
+          "C012 Sample05MonitorEmergence exact selected video and source",
+          "R014 Clip014 desktop to phone source"
+        ],
+        "styleContract": {
+          "surface": "白黑舞台按语义交接，黑白对比胶囊；库内三色点窗口/手机/显示器，紫色仅划线与判断",
+          "typography": "MiSans 500/600；明确字阶；客户原话全文可读",
+          "geometry": "1920x1080逻辑画布；主体y170-865，保留右上角与底部安全区",
+          "motion": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面",
+          "camera": "载体入场、缩小让位、内容聚焦均绑定真实cue，不做无语义漂浮",
+          "mediaBehavior": "手机和窗口为讲解示意，不伪装真实产品录屏；S07真实上游尾图保留"
+        },
+        "newElements": [
+          "标签变为客户手机消息",
+          "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        ],
+        "risks": [
+          "接缝首尾一致",
+          "最长客户消息不得裁切",
+          "黑底角标对比",
+          "逐句动作须实际可见"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 5,
+        "staticAllowanceSeconds": 2.8,
+        "reason": "每个新语义cue改变对象/关系；完整客户句允许短暂停稳阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-038",
+          "startFrame": 0,
+          "endFrame": 86,
+          "text": "但有些时候包裹上面的"
+        },
+        {
+          "id": "srt-039",
+          "startFrame": 86,
+          "endFrame": 186,
+          "text": "信息不是标准的标签"
+        },
+        {
+          "id": "srt-040",
+          "startFrame": 186,
+          "endFrame": 272,
+          "text": "而是一段人话对吧"
+        },
+        {
+          "id": "srt-041",
+          "startFrame": 272,
+          "endFrame": 378,
+          "text": "比如说客户说电脑坏了"
+        },
+        {
+          "id": "srt-042",
+          "startFrame": 378,
+          "endFrame": 424,
+          "text": "昨天刚买的"
+        },
+        {
+          "id": "srt-043",
+          "startFrame": 424,
+          "endFrame": 500,
+          "text": "想赶紧换一个"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-038",
+          "sourceBeatId": "srt-038",
+          "spokenCue": "但有些时候包裹上面的",
+          "cueFrame": 870,
+          "event": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        },
+        {
+          "id": "srt-039",
+          "sourceBeatId": "srt-039",
+          "spokenCue": "信息不是标准的标签",
+          "cueFrame": 956,
+          "event": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        },
+        {
+          "id": "srt-040",
+          "sourceBeatId": "srt-040",
+          "spokenCue": "而是一段人话对吧",
+          "cueFrame": 1056,
+          "event": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        },
+        {
+          "id": "srt-041",
+          "sourceBeatId": "srt-041",
+          "spokenCue": "比如说客户说电脑坏了",
+          "cueFrame": 1142,
+          "event": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        },
+        {
+          "id": "srt-042",
+          "sourceBeatId": "srt-042",
+          "spokenCue": "昨天刚买的",
+          "cueFrame": 1248,
+          "event": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        },
+        {
+          "id": "srt-043",
+          "sourceBeatId": "srt-043",
+          "spokenCue": "想赶紧换一个",
+          "cueFrame": 1294,
+          "event": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "relation-lines"
+        ],
+        "signature": "78daacfd8f01b149ee35c934a5494dda52343060c0756a06ed1362a58f6065c9",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面",
+            "check": "按本页cues检查字句与进入次序"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "电脑坏了/昨天刚买的/想赶紧换一个三行84px",
+            "check": "检查最长消息和动态边距，禁止拉伸"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "白黑舞台切换时角标反色；独立固定层",
+            "check": "检查右上角与前景不冲突"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "延续标签→规则；保留手机全文与人话标题",
+            "check": "比较相邻两段末帧/首帧对象身份和坐标"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "划掉标准标签关系，黑底接手机；客户的三句话逐条进入同一聊天界面",
+            "check": "每次变化须增加条件、关系或结论，不重复换壳"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅场景转交和选中各1至2个短音效，原声取精确全局帧",
+            "check": "核对混音与本页口播起点，无BGM"
+          },
+          {
+            "ruleId": "F09",
+            "decision": "连线只用于条件与目的地，零进度不画点",
+            "check": "检查路径进出和主体同步回收"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "同组同字号同基线"
+          }
+        ]
+      },
+      "narrationDurationInFrames": 500
+    },
+    {
+      "stableId": "s09-ambiguous-routing",
+      "globalStartFrame": 4658,
+      "startFrame": 1376,
+      "durationInFrames": 426,
+      "sourceBeatIds": [
+        "srt-044",
+        "srt-045",
+        "srt-046",
+        "srt-047"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 141,
+          "endChar": 183,
+          "text": "这个时候程序就很难只靠几个\n关键词判断它到底是售后的问题\n退款的问题\n还是物流的问题"
+        }
+      ],
+      "scriptAnchor": "这个时候程序就很难只靠几个\n关键词判断它到底是售后的问题\n退款的问题\n还是物流的问题",
+      "exactScreenWords": [
+        "电脑坏了",
+        "昨天刚买的",
+        "想赶紧换一个",
+        "售后",
+        "退款",
+        "物流"
+      ],
+      "oneQuestion": "关键词无法确定目的地",
+      "visualPlan": {
+        "enter": "保留手机客户消息",
+        "change": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判",
+        "read": "保留口播中的具体消息与条件；主体在字幕区之上",
+        "exit": "黑底手机与三个不确定候选",
+        "handoff": "黑底手机与三个不确定候选"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期仓库/客户消息语义设计；实际复用已保存库的Phone、Desktop、Monitor、Pill载体源码，动作序列为本期适配，未冒称整段原版场景实现。",
+        "anchors": [
+          "C005 tree-to-flow exact selected video",
+          "C012 Sample05MonitorEmergence exact selected video and source",
+          "R014 Clip014 desktop to phone source"
+        ],
+        "styleContract": {
+          "surface": "白黑舞台按语义交接，黑白对比胶囊；库内三色点窗口/手机/显示器，紫色仅划线与判断",
+          "typography": "MiSans 500/600；明确字阶；客户原话全文可读",
+          "geometry": "1920x1080逻辑画布；主体y170-865，保留右上角与底部安全区",
+          "motion": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判",
+          "camera": "载体入场、缩小让位、内容聚焦均绑定真实cue，不做无语义漂浮",
+          "mediaBehavior": "手机和窗口为讲解示意，不伪装真实产品录屏；S07真实上游尾图保留"
+        },
+        "newElements": [
+          "关键词无法确定目的地",
+          "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判"
+        ],
+        "risks": [
+          "接缝首尾一致",
+          "最长客户消息不得裁切",
+          "黑底角标对比",
+          "逐句动作须实际可见"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 4,
+        "staticAllowanceSeconds": 2.8,
+        "reason": "每个新语义cue改变对象/关系；完整客户句允许短暂停稳阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-044",
+          "startFrame": 0,
+          "endFrame": 138,
+          "text": "这个时候程序就很难只靠几个"
+        },
+        {
+          "id": "srt-045",
+          "startFrame": 138,
+          "endFrame": 276,
+          "text": "关键词判断它到底是售后的问题"
+        },
+        {
+          "id": "srt-046",
+          "startFrame": 276,
+          "endFrame": 320,
+          "text": "退款的问题"
+        },
+        {
+          "id": "srt-047",
+          "startFrame": 320,
+          "endFrame": 400,
+          "text": "还是物流的问题"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-044",
+          "sourceBeatId": "srt-044",
+          "spokenCue": "这个时候程序就很难只靠几个",
+          "cueFrame": 1376,
+          "event": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判"
+        },
+        {
+          "id": "srt-045",
+          "sourceBeatId": "srt-045",
+          "spokenCue": "关键词判断它到底是售后的问题",
+          "cueFrame": 1514,
+          "event": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判"
+        },
+        {
+          "id": "srt-046",
+          "sourceBeatId": "srt-046",
+          "spokenCue": "退款的问题",
+          "cueFrame": 1652,
+          "event": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判"
+        },
+        {
+          "id": "srt-047",
+          "sourceBeatId": "srt-047",
+          "spokenCue": "还是物流的问题",
+          "cueFrame": 1696,
+          "event": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "relation-lines"
+        ],
+        "signature": "78daacfd8f01b149ee35c934a5494dda52343060c0756a06ed1362a58f6065c9",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判",
+            "check": "按本页cues检查字句与进入次序"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "左消息64px，右目的地72px，分支不交叉不假选中",
+            "check": "检查最长消息和动态边距，禁止拉伸"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "白黑舞台切换时角标反色；独立固定层",
+            "check": "检查右上角与前景不冲突"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "保留手机客户消息；黑底手机与三个不确定候选",
+            "check": "比较相邻两段末帧/首帧对象身份和坐标"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "手机向左让位；售后、退款、物流依次展开为白色候选，并保持问号不误判",
+            "check": "每次变化须增加条件、关系或结论，不重复换壳"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅场景转交和选中各1至2个短音效，原声取精确全局帧",
+            "check": "核对混音与本页口播起点，无BGM"
+          },
+          {
+            "ruleId": "F09",
+            "decision": "连线只用于条件与目的地，零进度不画点",
+            "check": "检查路径进出和主体同步回收"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "同组同字号同基线"
+          }
+        ]
+      },
+      "narrationDurationInFrames": 400
+    },
+    {
+      "stableId": "s10-jev-small-decisions",
+      "globalStartFrame": 5084,
+      "startFrame": 1802,
+      "durationInFrames": 860,
+      "sourceBeatIds": [
+        "srt-048",
+        "srt-049",
+        "srt-050",
+        "srt-051",
+        "srt-052",
+        "srt-053",
+        "srt-054",
+        "srt-055"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 184,
+          "endChar": 267,
+          "text": "Jev就像一个很快的分拣员\n他不负责写长报告\n也不负责跟客户聊天\n他只看当前这句话\n然后做一个小的判断\n这是售后问题还是退款问题\n这是紧急情况吗\n它应该被送到哪个窗口"
+        }
+      ],
+      "scriptAnchor": "Jev就像一个很快的分拣员\n他不负责写长报告\n也不负责跟客户聊天\n他只看当前这句话\n然后做一个小的判断\n这是售后问题还是退款问题\n这是紧急情况吗\n它应该被送到哪个窗口",
+      "exactScreenWords": [
+        "Jev",
+        "不写长报告",
+        "不聊天",
+        "电脑坏了",
+        "昨天刚买的",
+        "想赶紧换一个",
+        "售后",
+        "退款",
+        "物流",
+        "紧急"
+      ],
+      "oneQuestion": "排除长任务再做小判断",
+      "visualPlan": {
+        "enter": "延续黑底分类难题",
+        "change": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断",
+        "read": "保留口播中的具体消息与条件；主体在字幕区之上",
+        "exit": "当前消息缩入售后窗口并显示已送达",
+        "handoff": "当前消息缩入售后窗口并显示已送达"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期仓库/客户消息语义设计；实际复用已保存库的Phone、Desktop、Monitor、Pill载体源码，动作序列为本期适配，未冒称整段原版场景实现。",
+        "anchors": [
+          "C005 tree-to-flow exact selected video",
+          "C012 Sample05MonitorEmergence exact selected video and source",
+          "R014 Clip014 desktop to phone source"
+        ],
+        "styleContract": {
+          "surface": "白黑舞台按语义交接，黑白对比胶囊；库内三色点窗口/手机/显示器，紫色仅划线与判断",
+          "typography": "MiSans 500/600；明确字阶；客户原话全文可读",
+          "geometry": "1920x1080逻辑画布；主体y170-865，保留右上角与底部安全区",
+          "motion": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断",
+          "camera": "载体入场、缩小让位、内容聚焦均绑定真实cue，不做无语义漂浮",
+          "mediaBehavior": "手机和窗口为讲解示意，不伪装真实产品录屏；S07真实上游尾图保留"
+        },
+        "newElements": [
+          "排除长任务再做小判断",
+          "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        ],
+        "risks": [
+          "接缝首尾一致",
+          "最长客户消息不得裁切",
+          "黑底角标对比",
+          "逐句动作须实际可见"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 5,
+        "staticAllowanceSeconds": 2.8,
+        "reason": "每个新语义cue改变对象/关系；完整客户句允许短暂停稳阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-048",
+          "startFrame": 0,
+          "endFrame": 144,
+          "text": "Jev就像一个很快的分拣员"
+        },
+        {
+          "id": "srt-049",
+          "startFrame": 156,
+          "endFrame": 242,
+          "text": "他不负责写长报告"
+        },
+        {
+          "id": "srt-050",
+          "startFrame": 242,
+          "endFrame": 358,
+          "text": "也不负责跟客户聊天"
+        },
+        {
+          "id": "srt-051",
+          "startFrame": 362,
+          "endFrame": 454,
+          "text": "他只看当前这句话"
+        },
+        {
+          "id": "srt-052",
+          "startFrame": 454,
+          "endFrame": 536,
+          "text": "然后做一个小的判断"
+        },
+        {
+          "id": "srt-053",
+          "startFrame": 536,
+          "endFrame": 654,
+          "text": "这是售后问题还是退款问题"
+        },
+        {
+          "id": "srt-054",
+          "startFrame": 654,
+          "endFrame": 744,
+          "text": "这是紧急情况吗"
+        },
+        {
+          "id": "srt-055",
+          "startFrame": 746,
+          "endFrame": 860,
+          "text": "它应该被送到哪个窗口"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-048",
+          "sourceBeatId": "srt-048",
+          "spokenCue": "Jev就像一个很快的分拣员",
+          "cueFrame": 1802,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-049",
+          "sourceBeatId": "srt-049",
+          "spokenCue": "他不负责写长报告",
+          "cueFrame": 1958,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-050",
+          "sourceBeatId": "srt-050",
+          "spokenCue": "也不负责跟客户聊天",
+          "cueFrame": 2044,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-051",
+          "sourceBeatId": "srt-051",
+          "spokenCue": "他只看当前这句话",
+          "cueFrame": 2164,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-052",
+          "sourceBeatId": "srt-052",
+          "spokenCue": "然后做一个小的判断",
+          "cueFrame": 2256,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-053",
+          "sourceBeatId": "srt-053",
+          "spokenCue": "这是售后问题还是退款问题",
+          "cueFrame": 2338,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-054",
+          "sourceBeatId": "srt-054",
+          "spokenCue": "这是紧急情况吗",
+          "cueFrame": 2456,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        },
+        {
+          "id": "srt-055",
+          "sourceBeatId": "srt-055",
+          "spokenCue": "它应该被送到哪个窗口",
+          "cueFrame": 2548,
+          "event": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "relation-lines",
+          "frosted-focus"
+        ],
+        "signature": "71a569955cc5fe5bef83088148434a8844f52b3213d1571ab1abeb5a716750a4",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断",
+            "check": "按本页cues检查字句与进入次序"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "辅助句90px，消息64px，目的地72px；不堆多余卡片",
+            "check": "检查最长消息和动态边距，禁止拉伸"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "白黑舞台切换时角标反色；独立固定层",
+            "check": "检查右上角与前景不冲突"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "延续黑底分类难题；当前消息缩入售后窗口并显示已送达",
+            "check": "比较相邻两段末帧/首帧对象身份和坐标"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "Jev建立；报告写入后划去退场，聊天载体接力；当前句放大到白窗口，扫描后出现类型与紧急判断",
+            "check": "每次变化须增加条件、关系或结论，不重复换壳"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅场景转交和选中各1至2个短音效，原声取精确全局帧",
+            "check": "核对混音与本页口播起点，无BGM"
+          },
+          {
+            "ruleId": "F09",
+            "decision": "连线只用于条件与目的地，零进度不画点",
+            "check": "检查路径进出和主体同步回收"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "同组同字号同基线"
+          },
+          {
+            "ruleId": "F05",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "核验蒙版下真实来源和恢复期，不掩盖缺失上游尾图"
+          }
+        ]
+      },
+      "narrationDurationInFrames": 860
+    },
+    {
+      "stableId": "s11-fixed-options",
+      "globalStartFrame": 5944,
+      "startFrame": 2662,
+      "durationInFrames": 894,
+      "sourceBeatIds": [
+        "srt-056",
+        "srt-057",
+        "srt-058",
+        "srt-059",
+        "srt-060",
+        "srt-061",
+        "srt-062",
+        "srt-063",
+        "srt-064"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 268,
+          "endChar": 367,
+          "text": "它不会自己去发明分类\n而是你提前准备好的\n几个窗口里面选一个\n而Codex就像一个研究员\n它来做分拣就大材小用了\n他虽然也可以做\n但是他更擅长的是把这些结果串起来\n告诉你发生了什么\n以及哪些值得优化"
+        }
+      ],
+      "scriptAnchor": "它不会自己去发明分类\n而是你提前准备好的\n几个窗口里面选一个\n而Codex就像一个研究员\n它来做分拣就大材小用了\n他虽然也可以做\n但是他更擅长的是把这些结果串起来\n告诉你发生了什么\n以及哪些值得优化",
+      "exactScreenWords": [
+        "预设窗口",
+        "售后",
+        "退款",
+        "物流",
+        "Codex",
+        "研究分析",
+        "发生了什么",
+        "哪些值得优化"
+      ],
+      "oneQuestion": "预设分类与研究分析职责",
+      "visualPlan": {
+        "enter": "保留售后送达状态",
+        "change": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题",
+        "read": "保留口播中的具体消息与条件；主体在字幕区之上",
+        "exit": "保留Codex显示器和两个问题",
+        "handoff": "保留Codex显示器和两个问题"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期仓库/客户消息语义设计；实际复用已保存库的Phone、Desktop、Monitor、Pill载体源码，动作序列为本期适配，未冒称整段原版场景实现。",
+        "anchors": [
+          "C005 tree-to-flow exact selected video",
+          "C012 Sample05MonitorEmergence exact selected video and source",
+          "R014 Clip014 desktop to phone source"
+        ],
+        "styleContract": {
+          "surface": "白黑舞台按语义交接，黑白对比胶囊；库内三色点窗口/手机/显示器，紫色仅划线与判断",
+          "typography": "MiSans 500/600；明确字阶；客户原话全文可读",
+          "geometry": "1920x1080逻辑画布；主体y170-865，保留右上角与底部安全区",
+          "motion": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题",
+          "camera": "载体入场、缩小让位、内容聚焦均绑定真实cue，不做无语义漂浮",
+          "mediaBehavior": "手机和窗口为讲解示意，不伪装真实产品录屏；S07真实上游尾图保留"
+        },
+        "newElements": [
+          "预设分类与研究分析职责",
+          "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        ],
+        "risks": [
+          "接缝首尾一致",
+          "最长客户消息不得裁切",
+          "黑底角标对比",
+          "逐句动作须实际可见"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 5,
+        "staticAllowanceSeconds": 2.8,
+        "reason": "每个新语义cue改变对象/关系；完整客户句允许短暂停稳阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-056",
+          "startFrame": 0,
+          "endFrame": 90,
+          "text": "它不会自己去发明分类"
+        },
+        {
+          "id": "srt-057",
+          "startFrame": 90,
+          "endFrame": 170,
+          "text": "而是你提前准备好的"
+        },
+        {
+          "id": "srt-058",
+          "startFrame": 170,
+          "endFrame": 264,
+          "text": "几个窗口里面选一个"
+        },
+        {
+          "id": "srt-059",
+          "startFrame": 264,
+          "endFrame": 378,
+          "text": "而Codex就像一个研究员"
+        },
+        {
+          "id": "srt-060",
+          "startFrame": 380,
+          "endFrame": 532,
+          "text": "它来做分拣就大材小用了"
+        },
+        {
+          "id": "srt-061",
+          "startFrame": 532,
+          "endFrame": 584,
+          "text": "他虽然也可以做"
+        },
+        {
+          "id": "srt-062",
+          "startFrame": 584,
+          "endFrame": 716,
+          "text": "但是他更擅长的是把这些结果串起来"
+        },
+        {
+          "id": "srt-063",
+          "startFrame": 716,
+          "endFrame": 796,
+          "text": "告诉你发生了什么"
+        },
+        {
+          "id": "srt-064",
+          "startFrame": 796,
+          "endFrame": 894,
+          "text": "以及哪些值得优化"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-056",
+          "sourceBeatId": "srt-056",
+          "spokenCue": "它不会自己去发明分类",
+          "cueFrame": 2662,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-057",
+          "sourceBeatId": "srt-057",
+          "spokenCue": "而是你提前准备好的",
+          "cueFrame": 2752,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-058",
+          "sourceBeatId": "srt-058",
+          "spokenCue": "几个窗口里面选一个",
+          "cueFrame": 2832,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-059",
+          "sourceBeatId": "srt-059",
+          "spokenCue": "而Codex就像一个研究员",
+          "cueFrame": 2926,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-060",
+          "sourceBeatId": "srt-060",
+          "spokenCue": "它来做分拣就大材小用了",
+          "cueFrame": 3042,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-061",
+          "sourceBeatId": "srt-061",
+          "spokenCue": "他虽然也可以做",
+          "cueFrame": 3194,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-062",
+          "sourceBeatId": "srt-062",
+          "spokenCue": "但是他更擅长的是把这些结果串起来",
+          "cueFrame": 3246,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-063",
+          "sourceBeatId": "srt-063",
+          "spokenCue": "告诉你发生了什么",
+          "cueFrame": 3378,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        },
+        {
+          "id": "srt-064",
+          "sourceBeatId": "srt-064",
+          "spokenCue": "以及哪些值得优化",
+          "cueFrame": 3458,
+          "event": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "relation-lines"
+        ],
+        "signature": "78daacfd8f01b149ee35c934a5494dda52343060c0756a06ed1362a58f6065c9",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题",
+            "check": "按本页cues检查字句与进入次序"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "研究区无假代码，主字88px、分析问题72px",
+            "check": "检查最长消息和动态边距，禁止拉伸"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "白黑舞台切换时角标反色；独立固定层",
+            "check": "检查右上角与前景不冲突"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "保留售后送达状态；保留Codex显示器和两个问题",
+            "check": "比较相邻两段末帧/首帧对象身份和坐标"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "黑转白；预设三选一，结果退后成为电脑分析输入；分拣让位，结果汇总成两个研究问题",
+            "check": "每次变化须增加条件、关系或结论，不重复换壳"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅场景转交和选中各1至2个短音效，原声取精确全局帧",
+            "check": "核对混音与本页口播起点，无BGM"
+          },
+          {
+            "ruleId": "F09",
+            "decision": "连线只用于条件与目的地，零进度不画点",
+            "check": "检查路径进出和主体同步回收"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "同组同字号同基线"
+          }
+        ]
+      },
+      "narrationDurationInFrames": 894
+    },
+    {
+      "stableId": "s12-cost-efficiency",
+      "globalStartFrame": 6838,
+      "startFrame": 3556,
+      "durationInFrames": 342,
+      "sourceBeatIds": [
+        "srt-065",
+        "srt-066",
+        "srt-067",
+        "srt-068"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 368,
+          "endChar": 402,
+          "text": "而我们过去就是让这种\n研究员来做分拣的工作\n所以说成本高\n效率也很低"
+        }
+      ],
+      "scriptAnchor": "而我们过去就是让这种\n研究员来做分拣的工作\n所以说成本高\n效率也很低",
+      "exactScreenWords": [
+        "Codex",
+        "研究分析",
+        "分拣任务",
+        "成本高",
+        "效率低"
+      ],
+      "oneQuestion": "任务错配导致成本和效率问题",
+      "visualPlan": {
+        "enter": "保留上一段Codex显示器",
+        "change": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作",
+        "read": "保留口播中的具体消息与条件；主体在字幕区之上",
+        "exit": "黑胶囊成本高与白胶囊效率低两步落地",
+        "handoff": "黑胶囊成本高与白胶囊效率低两步落地"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期仓库/客户消息语义设计；实际复用已保存库的Phone、Desktop、Monitor、Pill载体源码，动作序列为本期适配，未冒称整段原版场景实现。",
+        "anchors": [
+          "C005 tree-to-flow exact selected video",
+          "C012 Sample05MonitorEmergence exact selected video and source",
+          "R014 Clip014 desktop to phone source"
+        ],
+        "styleContract": {
+          "surface": "白黑舞台按语义交接，黑白对比胶囊；库内三色点窗口/手机/显示器，紫色仅划线与判断",
+          "typography": "MiSans 500/600；明确字阶；客户原话全文可读",
+          "geometry": "1920x1080逻辑画布；主体y170-865，保留右上角与底部安全区",
+          "motion": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作",
+          "camera": "载体入场、缩小让位、内容聚焦均绑定真实cue，不做无语义漂浮",
+          "mediaBehavior": "手机和窗口为讲解示意，不伪装真实产品录屏；S07真实上游尾图保留"
+        },
+        "newElements": [
+          "任务错配导致成本和效率问题",
+          "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作"
+        ],
+        "risks": [
+          "接缝首尾一致",
+          "最长客户消息不得裁切",
+          "黑底角标对比",
+          "逐句动作须实际可见"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 4,
+        "staticAllowanceSeconds": 2.8,
+        "reason": "每个新语义cue改变对象/关系；完整客户句允许短暂停稳阅读"
+      },
+      "cues": [
+        {
+          "id": "srt-065",
+          "startFrame": 0,
+          "endFrame": 98,
+          "text": "而我们过去就是让这种"
+        },
+        {
+          "id": "srt-066",
+          "startFrame": 98,
+          "endFrame": 210,
+          "text": "研究员来做分拣的工作"
+        },
+        {
+          "id": "srt-067",
+          "startFrame": 210,
+          "endFrame": 278,
+          "text": "所以说成本高"
+        },
+        {
+          "id": "srt-068",
+          "startFrame": 278,
+          "endFrame": 342,
+          "text": "效率也很低"
+        }
+      ],
+      "motionEvents": [
+        {
+          "id": "srt-065",
+          "sourceBeatId": "srt-065",
+          "spokenCue": "而我们过去就是让这种",
+          "cueFrame": 3556,
+          "event": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作"
+        },
+        {
+          "id": "srt-066",
+          "sourceBeatId": "srt-066",
+          "spokenCue": "研究员来做分拣的工作",
+          "cueFrame": 3654,
+          "event": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作"
+        },
+        {
+          "id": "srt-067",
+          "sourceBeatId": "srt-067",
+          "spokenCue": "所以说成本高",
+          "cueFrame": 3766,
+          "event": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作"
+        },
+        {
+          "id": "srt-068",
+          "sourceBeatId": "srt-068",
+          "spokenCue": "效率也很低",
+          "cueFrame": 3834,
+          "event": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作"
+        }
+      ],
+      "sceneGuide": {
+        "type": "relationship",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "relation-lines",
+          "frosted-focus"
+        ],
+        "signature": "71a569955cc5fe5bef83088148434a8844f52b3213d1571ab1abeb5a716750a4",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作",
+            "check": "按本页cues检查字句与进入次序"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "成本高/效率低两列同132px，不用夸大柱图",
+            "check": "检查最长消息和动态边距，禁止拉伸"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "白黑舞台切换时角标反色；独立固定层",
+            "check": "检查右上角与前景不冲突"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "保留上一段Codex显示器；黑胶囊成本高与白胶囊效率低两步落地",
+            "check": "比较相邻两段末帧/首帧对象身份和坐标"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "显示器退后，待分拣任务依次挤入前景，表现让研究员做重复工作",
+            "check": "每次变化须增加条件、关系或结论，不重复换壳"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅场景转交和选中各1至2个短音效，原声取精确全局帧",
+            "check": "核对混音与本页口播起点，无BGM"
+          },
+          {
+            "ruleId": "F09",
+            "decision": "连线只用于条件与目的地，零进度不画点",
+            "check": "检查路径进出和主体同步回收"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "同组同字号同基线"
+          },
+          {
+            "ruleId": "F05",
+            "decision": "候选窗口同组几何一致；S07实际尾图蒙版进入，后续不用无关背景",
+            "check": "核验蒙版下真实来源和恢复期，不掩盖缺失上游尾图"
+          }
+        ]
+      },
+      "narrationDurationInFrames": 342
+    }
+  ]
+}

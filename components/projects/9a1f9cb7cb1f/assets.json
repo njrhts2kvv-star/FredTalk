@@ -1,0 +1,99 @@
+{
+  "sources": [
+    {
+      "source": "[LOCAL_PATH]",
+      "path": "public/fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64"
+    },
+    {
+      "source": "[LOCAL_PATH]",
+      "path": "public/fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a"
+    },
+    {
+      "source": "[LOCAL_PATH]",
+      "path": "public/voice.m4a",
+      "sha256": "05c00ba86caf1393f0e79278df26a438d0dff0cd1d435a90265c75ca326cd377"
+    },
+    {
+      "source": "skills/fredtalk-deck-motion-pipeline/assets/brand/fredtalk-ai-corner.png",
+      "path": "public/brand/fredtalk-ai-corner.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1"
+    },
+    {
+      "source": "skills/fredtalk-deck-motion-pipeline/assets/brand/fredtalk-ai-dark-transparent.png",
+      "path": "public/brand/fredtalk-ai-dark-transparent.png",
+      "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b"
+    },
+    {
+      "source": "skills/fred-remotion-output/assets/sfx/jianying-20260915/09-鼠标单击.wav",
+      "path": "public/sfx/09-鼠标单击.wav",
+      "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884"
+    },
+    {
+      "source": "skills/fred-remotion-output/assets/sfx/jianying-20260915/13-左右滑动.wav",
+      "path": "public/sfx/13-左右滑动.wav",
+      "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd"
+    },
+    {
+      "source": "skills/fred-remotion-output/assets/sfx/jianying-20260915/04-Woosh.wav",
+      "path": "public/sfx/04-Woosh.wav",
+      "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0"
+    },
+    {
+      "source": "components/projects/5fa89bc8e570/originals/ep87/chapter-transitions-2s-v1/public/fonts/MiSans-Bold.otf",
+      "path": "public/fonts/MiSans-Bold.otf",
+      "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247"
+    }
+  ],
+  "media": [
+    {
+      "id": "knowledge",
+      "source": "[LOCAL_PATH]",
+      "path": "public/media/knowledge.mp4",
+      "sha256": "c53610195bbc475999e37617953e1f7420dbcd3436d2f13296d8e2ec3e0d3062",
+      "role": "真实知识库录屏",
+      "required": true
+    },
+    {
+      "id": "conveyor",
+      "source": "[LOCAL_PATH]",
+      "path": "public/media/conveyor.mp4",
+      "sha256": "80295f56a008e22fc94a291a757693943b2550c2851e2fd65fc4e09cb2e4ea03",
+      "role": "用户提供H3角色比喻，非真实物理交接",
+      "required": true
+    },
+    {
+      "id": "sorter",
+      "source": "[LOCAL_PATH] 挑选员动画.mp4",
+      "path": "public/media/sorter.mp4",
+      "sha256": "d9556e185a429b8dde459ce9a16ee8f4e500d7b5c12bc118b6b7aa97c5148102",
+      "role": "用户提供H3角色比喻，非真实物理交接",
+      "required": true
+    },
+    {
+      "id": "researcher",
+      "source": "[LOCAL_PATH] 研究员动画.mp4",
+      "path": "public/media/researcher.mp4",
+      "sha256": "3550507405d95740d857b94cc8c00209acddeb66be048a4b9bd152e89aa96543",
+      "role": "用户提供H3角色比喻，非真实物理交接",
+      "required": true
+    }
+  ],
+  "voiceSha256": "05c00ba86caf1393f0e79278df26a438d0dff0cd1d435a90265c75ca326cd377",
+  "borrowedSources": [
+    {
+      "path": "components/projects/5fa89bc8e570/originals/ep87/chapter-transitions-2s-v1/src/Transition.tsx",
+      "sha256": "de5f02c22eaadfd83e5540a77222c5de85eb6c2583494f2231df00a0a703dde7",
+      "symbol": "Drag",
+      "range": "frames0-119"
+    },
+    {
+      "path": "[LOCAL_PATH]",
+      "originalPath": "[LOCAL_PATH] Pro/03_制作过程/remotion/review-v31-delivery/src/Revisions.tsx",
+      "sha256": "08e6eb97bf25c0edd22499c6cbec660c016ccf62810b79f445cdbcabf160562b",
+      "symbol": "Day",
+      "range": "full geometry formula, current clips separately timed"
+    }
+  ]
+}

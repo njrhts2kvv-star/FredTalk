@@ -1,0 +1,6 @@
+title = "FredTalk source scan"
+[extend]
+useDefault = true
+[allowlist]
+description = "Generated dependency caches and local media stores; source and manifests remain scanned"
+paths = ['''(^|/)node_modules/''', '''(^|/)\.artifacts/''', '''(^|/)dist/''', '''(^|/)\.local/''']

@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "scope": "Fred confirmed five daily font families on 2026-10-02. Frozen original references remain archived; current font-only revisions preserve content, geometry, timing and media.",
+  "defaultBody": [
+    "misans-medium"
+  ],
+  "faces": [
+    {
+      "id": "misans-regular",
+      "label": "MiSans Regular",
+      "family": "Fred MiSans",
+      "weight": 400,
+      "style": "normal",
+      "role": "body",
+      "usage": "长文、真实文档重排与次要说明",
+      "when": "按正文职责使用，长句优先检查行宽和阅读窗口。",
+      "avoid": "不作为大字重点的默认重量。",
+      "sample": "把复杂，讲清楚。",
+      "path": "skills/fred-remotion-output/assets/reference-code/library-remakes-20260916/purple/public/026/MiSans-Regular.otf",
+      "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "MiSans"
+          ],
+          "2": [
+            "Regular"
+          ],
+          "4": [
+            "MiSans"
+          ],
+          "6": [
+            "MiSans-Regular"
+          ]
+        },
+        "weightClass": 330,
+        "variable": false
+      },
+      "examples": [],
+      "familyLabel": "MiSans"
+    },
+    {
+      "id": "misans-medium",
+      "label": "MiSans Medium",
+      "family": "Fred MiSans",
+      "weight": 500,
+      "style": "normal",
+      "role": "body",
+      "usage": "常规讲解正文",
+      "when": "正常叙述、解释卡片、列表与较长阅读。",
+      "avoid": "不因标题变长就把整段缩为小字。",
+      "sample": "把复杂，讲清楚。",
+      "path": "components/projects/76c5cac60ef4/public/Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "MiSans",
+            "MiSans Medium"
+          ],
+          "2": [
+            "Medium",
+            "Regular"
+          ],
+          "4": [
+            "MiSans Medium"
+          ],
+          "6": [
+            "MiSans-Medium"
+          ],
+          "16": [
+            "MiSans"
+          ],
+          "17": [
+            "Medium"
+          ]
+        },
+        "weightClass": 380,
+        "variable": false
+      },
+      "examples": [],
+      "familyLabel": "MiSans"
+    },
+    {
+      "id": "misans-semibold",
+      "label": "MiSans Semibold",
+      "family": "Fred MiSans",
+      "weight": 600,
+      "style": "normal",
+      "role": "body",
+      "usage": "正文主句与中等强调",
+      "when": "同段小标题、关键词与列表当前项。",
+      "avoid": "同职责保持实际字形、字阶和基线一致。",
+      "sample": "把复杂，讲清楚。",
+      "path": "components/projects/76c5cac60ef4/public/Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "MiSans",
+            "MiSans Semibold"
+          ],
+          "2": [
+            "Semibold",
+            "Regular"
+          ],
+          "4": [
+            "MiSans Semibold"
+          ],
+          "6": [
+            "MiSans-Semibold"
+          ],
+          "16": [
+            "MiSans"
+          ],
+          "17": [
+            "Semibold"
+          ]
+        },
+        "weightClass": 520,
+        "variable": false
+      },
+      "examples": [
+        {
+          "id": "library-legacy81-c006",
+          "label": "L81-C006",
+          "title": "关系图退后突出一句重点"
+        }
+      ],
+      "familyLabel": "MiSans"
+    },
+    {
+      "id": "misans-heavy",
+      "label": "MiSans Heavy",
+      "family": "Fred MiSans",
+      "weight": 900,
+      "style": "normal",
+      "role": "display",
+      "usage": "大字结论、能力词与重字胶囊",
+      "when": "大字结论、能力词、重字胶囊与原库思源重字的字体统一。保留原有字号、布局和动作。",
+      "avoid": "长段正文沿正常正文档；源时钟与大字不是固定秒数。",
+      "sample": "把复杂，讲清楚。",
+      "path": "skills/fred-remotion-output/assets/reference-code/library-remakes-20260916/purple/public/026/MiSans-Heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "MiSans",
+            "MiSans Heavy"
+          ],
+          "2": [
+            "Heavy",
+            "Regular"
+          ],
+          "4": [
+            "MiSans Heavy"
+          ],
+          "6": [
+            "MiSans-Heavy"
+          ],
+          "16": [
+            "MiSans"
+          ],
+          "17": [
+            "Heavy"
+          ]
+        },
+        "weightClass": 700,
+        "variable": false
+      },
+      "examples": [
+        {
+          "id": "library-selfpick24-sp012",
+          "label": "SP012",
+          "title": "手机旁三项能力词逐项呈现"
+        },
+        {
+          "id": "library-selfpick24-sp019",
+          "label": "SP019",
+          "title": "三个模型胶囊聚合"
+        },
+        {
+          "id": "library-selfpick24-sp024",
+          "label": "SP024",
+          "title": "深色窗口两行目标文字"
+        },
+        {
+          "id": "library-legacy81-r026",
+          "label": "L81-R026",
+          "title": "胶囊列表建立并聚焦"
+        },
+        {
+          "id": "library-legacy81-b002",
+          "label": "L81-B002",
+          "title": "黑色胶囊展开并强调关键词"
+        }
+      ],
+      "familyLabel": "MiSans"
+    },
+    {
+      "id": "ruizi",
+      "label": "锐字真言体",
+      "family": "Fred RuiZi",
+      "weight": 400,
+      "style": "normal",
+      "role": "display",
+      "usage": "醒目短句与数字",
+      "when": "短标题、醒目结论和原库数黑体标题的字体统一。",
+      "avoid": "单一实际字重，400不表示视觉上细；不要合成900。",
+      "sample": "把复杂，讲清楚。",
+      "path": "skills/fred-remotion-output/assets/reference-code/ep103-selected-20260930/source/public/fonts/RuiZi.ttf",
+      "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "ZhenyanGB",
+            "锐字真言体免费商用"
+          ],
+          "2": [
+            "Regular",
+            "常规"
+          ],
+          "4": [
+            "ZhenyanGB Regular",
+            "锐字真言体免费商用 常规"
+          ],
+          "6": [
+            "ZhenyanGB-Regular"
+          ],
+          "16": [
+            "ZhenyanGB",
+            "锐字真言体免费商用"
+          ],
+          "17": [
+            "Regular",
+            "常规"
+          ]
+        },
+        "weightClass": 400,
+        "variable": false
+      },
+      "examples": [
+        {
+          "id": "library-legacy81-c001",
+          "label": "L81-C001",
+          "title": "逐行建立标题"
+        },
+        {
+          "id": "library-legacy81-r033",
+          "label": "L81-R033",
+          "title": "六格作品墙交接竖图并列"
+        }
+      ],
+      "familyLabel": "锐字真言体"
+    },
+    {
+      "id": "smiley",
+      "label": "得意黑",
+      "family": "Fred Smiley",
+      "weight": 400,
+      "style": "normal",
+      "role": "expression",
+      "usage": "字幕与表达性文字",
+      "when": "独立烧录字幕；源组件明确使用时也可做短句、剧本文字、轻松强调。",
+      "avoid": "正文长阅读默认MiSans；不得把字幕几何套到页面文字。",
+      "sample": "把复杂，讲清楚。",
+      "path": "components/projects/715f24e6f6f4/public/fonts/SmileySans-Oblique.ttf",
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "Smiley Sans Oblique",
+            "得意黑"
+          ],
+          "2": [
+            "Regular"
+          ],
+          "4": [
+            "Smiley Sans Oblique",
+            "得意黑 斜体"
+          ],
+          "6": [
+            "SmileySans-Oblique"
+          ],
+          "16": [
+            "Smiley Sans",
+            "得意黑"
+          ],
+          "17": [
+            "Oblique",
+            "斜体"
+          ]
+        },
+        "weightClass": 400,
+        "variable": false
+      },
+      "examples": [
+        {
+          "id": "library-selfpick24-sp018",
+          "label": "SP018",
+          "title": "剧本文字与人物参考图并列"
+        }
+      ],
+      "familyLabel": "得意黑"
+    },
+    {
+      "id": "wenkai",
+      "label": "霞鹜文楷",
+      "family": "Fred WenKai",
+      "weight": 400,
+      "style": "normal",
+      "role": "handwriting",
+      "usage": "手写关系与解释",
+      "when": "手写、黑板与批注；原沐瑶、龙藏表达统一到文楷。",
+      "avoid": "准确场景实现中是手写骨架候选，粉笔纹理另做；不用于密集UI正文。",
+      "sample": "把复杂，讲清楚。",
+      "path": "components/projects/3042a082b45b/public/fonts/ctw/LXGWWenKai-Regular.ttf",
+      "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "LXGW WenKai",
+            "霞鹜文楷"
+          ],
+          "2": [
+            "Regular"
+          ],
+          "4": [
+            "LXGW WenKai"
+          ],
+          "6": [
+            "LXGWWenKai-Regular"
+          ]
+        },
+        "weightClass": 400,
+        "variable": false
+      },
+      "examples": [
+        {
+          "id": "library-new10-x039",
+          "label": "X039",
+          "title": "四个风格词建立"
+        }
+      ],
+      "familyLabel": "霞鹜文楷"
+    },
+    {
+      "id": "source-code",
+      "label": "Source Code Pro Semibold",
+      "family": "Fred Source Code",
+      "weight": 600,
+      "style": "normal",
+      "role": "code",
+      "usage": "代码、命令与技术标识",
+      "when": "代码片段、终端或技术字段；中文解释另用MiSans。",
+      "avoid": "真实录屏保留原字体；不要把等宽字用于普通中文正文。",
+      "sample": "const answer = await agent.run();",
+      "path": "components/projects/9db3f6625112/public/fonts/SourceCodePro-Semibold.otf",
+      "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+      "fontMetadata": {
+        "names": {
+          "1": [
+            "Source Code Pro Semibold"
+          ],
+          "2": [
+            "Regular"
+          ],
+          "4": [
+            "Source Code Pro Semibold"
+          ],
+          "6": [
+            "SourceCodePro-Semibold"
+          ],
+          "16": [
+            "Source Code Pro"
+          ],
+          "17": [
+            "Semibold"
+          ]
+        },
+        "weightClass": 600,
+        "variable": false
+      },
+      "examples": [],
+      "familyLabel": "Source Code Pro"
+    }
+  ],
+  "levels": [
+    {
+      "role": "一句结论 / 主重点",
+      "rule": "MiSans Heavy 或锐字真言体。按当前文字职责选用，保留有效字形面积与主辅关系。"
+    },
+    {
+      "role": "正文 / 解释 / 列表",
+      "rule": "MiSans Medium 为起点，Semibold 同家族按需；长文正常字重，避免全部变成 Heavy。"
+    },
+    {
+      "role": "字幕 / 口语 / 剧情表达",
+      "rule": "得意黑。独立字幕仍按真实 cue 与横版安全区执行。"
+    },
+    {
+      "role": "手写 / 黑板 / 批注",
+      "rule": "霞鹜文楷。与手写对象和关系配合，纹理是独立图层。"
+    },
+    {
+      "role": "代码 / 技术文字",
+      "rule": "Source Code Pro。中文另配 MiSans；原生录屏保留真实 UI。"
+    }
+  ],
+  "selectionRule": "Current user instruction first; daily five families by text role; MiSans Medium body and Heavy emphasis; original screen recordings retain their native fonts.",
+  "inventorySummary": {
+    "uniqueFiles": 39,
+    "registeredFaces": 17,
+    "otherFiles": "Other saved candidates and calibration files remain dependency records, not defaults."
+  },
+  "familyCount": 5,
+  "revision": "five-families-20261002",
+  "defaultDisplay": [
+    "misans-heavy",
+    "ruizi"
+  ]
+}

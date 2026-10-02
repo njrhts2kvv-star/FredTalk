@@ -1,0 +1,14 @@
+{
+  "id": "B036",
+  "parentSourceSHA256": "fd56803580ac3a71737b9a91602e571be9cde678efdbc6b0fb0e99a14cd700aa",
+  "parentCloudVideoSHA256": "84699e23a76a2876164f031d0daac919e4ad9db98749bb23204802a58c97f6bf",
+  "changes": [
+    "Native independent fixed-position capsule fades; removed upward shared exit",
+    "Equals fixed-position opacity entry at F84-114; exit F260-290",
+    "Right capsule native growth knots F22-40",
+    "Actor crossfade F190-230; sharpening F288-318",
+    "Native 30 fps per-character flicker samples unchanged"
+  ],
+  "renderStatus": "pending-cloud",
+  "normalSpeedAcceptance": false
+}

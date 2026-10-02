@@ -1,0 +1,11 @@
+import {FiveFontFace} from "../../../five-fonts.ts";
+import React,{useEffect,useState} from 'react';
+import {AbsoluteFill,Img,staticFile,delayRender,continueRender,cancelRender} from 'remotion';
+import data from '../../../specs/B066.json';
+import {measured,type ClipSpec} from '../../../runtime/clip-spec';
+export function RebuiltB066({frame,proof=false}:{frame:number;proof?:boolean}){
+ const spec=data as unknown as ClipSpec;const card=data.objects.cards;const font=data.fonts[0];const [handle]=useState(()=>delayRender('B066 document font'));
+ useEffect(()=>{new FiveFontFace(font.family,`url(${staticFile(font.file)})`,{weight:font.weight}).load().then(f=>{document.fonts.add(f);continueRender(handle)}).catch(cancelRender)},[handle,font]);
+ const first=measured(spec,'trackX',frame)[0];const camera=measured(spec,'camera',frame);const shade=measured(spec,'shade',frame);
+ return <AbsoluteFill style={{background:'#fff',overflow:'hidden'}}>{data.content.media.map((src,i)=><div key={i} style={{position:'absolute',left:first+card.pitch*i,top:card.top,width:card.width,height:card.height,borderRadius:card.radius,overflow:'hidden',boxShadow:card.shadow,background:'#f6f3fa'}}><div style={{position:'absolute',inset:0,transform:`scale(${camera[i]})`,transformOrigin:proof?'50% 50%':card.fredOrigins[i]}}>{proof||i!==3?<Img src={staticFile(proof?card.proofFiles[i]:src)} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<div style={{padding:'52px 38px',fontFamily:font.family,fontWeight:400,fontSynthesis:'none'}}><div style={{color:'#8960ca',fontSize:25}}>FRED / 示例记录</div><div style={{marginTop:46,fontSize:44,color:'#17131d'}}>{data.content.reviewUI.heading}</div>{data.content.reviewUI.lines.map((line,j)=><div key={j} style={{fontSize:31,lineHeight:1.5,marginTop:48,paddingBottom:32,borderBottom:'2px solid #ded7e6',color:'#3e3648'}}>{line}</div>)}</div>}</div></div>)}<AbsoluteFill style={{background:`linear-gradient(to right,${shade.map((alpha,i)=>`rgba(0,0,0,${alpha}) ${i*data.objects.shade.step}px`).join(',')})`}}/><div style={{position:'absolute',top:1024,left:0,width:'100%',textAlign:'center',fontSize:34,fontFamily:font.family,color:'#111',opacity:measured(spec,'label',frame)[0]}}>{proof?'苹果':data.content.label}</div></AbsoluteFill>
+}

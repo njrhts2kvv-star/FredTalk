@@ -1,0 +1,23 @@
+{
+  "entry": "../src/index.tsx",
+  "publicDir": "../public",
+  "composition": "FredMotion-019",
+  "inputProps": {},
+  "browsers": 1,
+  "concurrency": 1,
+  "outputDir": "../cloud-output/FredMotion-019",
+  "crf": 15,
+  "jpegQuality": 95,
+  "audio": {
+    "mode": "none"
+  },
+  "imageFormat": "png",
+  "browserExecutable": "../chrome-egl.sh",
+  "chromeMode": "chrome-for-testing",
+  "gl": "angle-egl",
+  "configurationReview": {
+    "status": "verified",
+    "reason": "Reuse same-project single-browser EGL configuration; changed content checked with stills.",
+    "evidence": "Original project validated cloud outputs under fred-library-clean-20260917"
+  }
+}

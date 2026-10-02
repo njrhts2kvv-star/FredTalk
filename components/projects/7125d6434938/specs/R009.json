@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "id": "R009",
+  "title": "三手机并列交接主题标题",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 222,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+    "referenceStart": 45.466667,
+    "referenceEnd": 49.163529,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "sha256": "048fca647789110f9990840f50d2fc2d098a57b4111377fc1a1fdf4df1bfdbdd",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 288.1,
+        "start": 45.466667,
+        "end": 49.163529
+      }
+    ],
+    "totalSelectedDuration": 3.696861999999996,
+    "outputDurationDelta": 0.003138000000004304
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 222,
+        "sourceAsset": 0,
+        "sourceStartPTS": 45.466667,
+        "sourceEndPTS": 49.166667000000004,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/legacy",
+    "compositionId": "Library119-TraeWork",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [
+    {
+      "family": "MiSans Heavy temporary",
+      "file": "fonts/MiSans-Heavy.otf",
+      "license": "fonts/MiSans-License.txt",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "selectionStatus": "inherited-font-pending-own-comparison"
+    }
+  ],
+  "objects": {
+    "phones": {
+      "x": [
+        110,
+        714,
+        1318
+      ],
+      "width": 492,
+      "height": 1000,
+      "radius": 70
+    },
+    "title": {
+      "prefix": "Mic",
+      "emphasis": "Pro",
+      "accent": "#8960ca"
+    },
+    "appInterfaces": {
+      "left": "home dashboard, banner and 3-column device grid",
+      "center": "ledger totals, category icons and transaction rows",
+      "right": "circular music cover, progress, lyrics and transport"
+    }
+  },
+  "tracks": {
+    "phones": {
+      "domain": "outputFrame",
+      "fields": [
+        "leftTop",
+        "middleTop",
+        "rightTop"
+      ],
+      "samples": [
+        [
+          0,
+          28,
+          28,
+          27
+        ],
+        [
+          2,
+          28,
+          28,
+          27
+        ],
+        [
+          4,
+          28,
+          28,
+          27
+        ],
+        [
+          6,
+          28,
+          28,
+          27
+        ],
+        [
+          8,
+          28,
+          28,
+          27
+        ],
+        [
+          10,
+          28,
+          28,
+          28
+        ],
+        [
+          12,
+          28,
+          28,
+          28
+        ],
+        [
+          14,
+          28,
+          28,
+          28
+        ],
+        [
+          16,
+          28,
+          28,
+          28
+        ],
+        [
+          18,
+          28,
+          28,
+          28
+        ],
+        [
+          20,
+          28,
+          28,
+          28
+        ],
+        [
+          22,
+          28,
+          28,
+          28
+        ],
+        [
+          24,
+          28,
+          28,
+          28
+        ],
+        [
+          26,
+          28,
+          28,
+          28
+        ],
+        [
+          28,
+          28,
+          28,
+          29
+        ],
+        [
+          30,
+          28,
+          28,
+          33
+        ],
+        [
+          32,
+          28,
+          28,
+          39
+        ],
+        [
+          34,
+          28,
+          28,
+          50
+        ],
+        [
+          36,
+          29,
+          28,
+          64
+        ],
+        [
+          38,
+          33,
+          28,
+          83
+        ],
+        [
+          40,
+          39,
+          28,
+          109
+        ],
+        [
+          42,
+          50,
+          28,
+          142
+        ],
+        [
+          44,
+          64,
+          29,
+          184
+        ],
+        [
+          46,
+          83,
+          32,
+          240
+        ],
+        [
+          48,
+          109,
+          39,
+          311
+        ],
+        [
+          50,
+          142,
+          50,
+          401
+        ],
+        [
+          52,
+          185,
+          64,
+          509
+        ],
+        [
+          54,
+          240,
+          83,
+          626
+        ],
+        [
+          56,
+          311,
+          109,
+          734
+        ],
+        [
+          58,
+          401,
+          142,
+          824
+        ],
+        [
+          60,
+          509,
+          184,
+          895
+        ],
+        [
+          62,
+          626,
+          240,
+          951
+        ],
+        [
+          64,
+          734,
+          311,
+          994
+        ],
+        [
+          66,
+          824,
+          401,
+          1027
+        ],
+        [
+          68,
+          895,
+          509,
+          1052
+        ],
+        [
+          70,
+          951,
+          626,
+          1071
+        ],
+        [
+          80,
+          1400,
+          1400,
+          1400
+        ]
+      ],
+      "evidence": "analysis/R009/native-measurements.json; dark silhouette top sampling, first24 frames visually stable"
+    },
+    "title": {
+      "domain": "outputFrame",
+      "fields": [
+        "fontSize",
+        "centerX",
+        "blur",
+        "opacity"
+      ],
+      "samples": [
+        [
+          68,
+          125,
+          960,
+          14,
+          0
+        ],
+        [
+          74,
+          130,
+          960,
+          13,
+          1
+        ],
+        [
+          90,
+          135,
+          960,
+          5,
+          1
+        ],
+        [
+          112,
+          140,
+          960,
+          0,
+          1
+        ],
+        [
+          120,
+          140,
+          960,
+          0,
+          1
+        ],
+        [
+          126,
+          350,
+          1040,
+          3,
+          1
+        ],
+        [
+          132,
+          440,
+          1040,
+          2,
+          1
+        ],
+        [
+          170,
+          440,
+          790,
+          0,
+          1
+        ],
+        [
+          192,
+          440,
+          400,
+          0,
+          1
+        ],
+        [
+          200,
+          440,
+          -900,
+          0,
+          1
+        ],
+        [
+          222,
+          440,
+          -900,
+          0,
+          1
+        ]
+      ],
+      "evidence": "native text bounds sampled after blurred title; partial letter clipping precludes direct bbox-width fitting. Sparse transform reconstruction pending detailed compare"
+    },
+    "tailRight": {
+      "domain": "outputFrame",
+      "fields": [
+        "rightEdge"
+      ],
+      "samples": [
+        [
+          170,
+          1560
+        ],
+        [
+          180,
+          1498
+        ],
+        [
+          182,
+          1482
+        ],
+        [
+          184,
+          1462
+        ],
+        [
+          186,
+          1428
+        ],
+        [
+          188,
+          1380
+        ],
+        [
+          190,
+          1308
+        ],
+        [
+          192,
+          1214
+        ],
+        [
+          194,
+          1082
+        ],
+        [
+          196,
+          896
+        ],
+        [
+          198,
+          660
+        ],
+        [
+          200,
+          392
+        ],
+        [
+          202,
+          156
+        ],
+        [
+          204,
+          0
+        ],
+        [
+          206,
+          0
+        ],
+        [
+          208,
+          0
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          212,
+          0
+        ],
+        [
+          214,
+          0
+        ],
+        [
+          216,
+          0
+        ],
+        [
+          218,
+          0
+        ],
+        [
+          220,
+          0
+        ]
+      ],
+      "evidence": "analysis/R009/round2-native/tail-right.json; purple ink right boundary at native30fps; output midpoint interpolated"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R009/review.md",
+    "fontComparison": "analysis/R009/font-candidates.png",
+    "nativeFrameMeasurements": "analysis/R009/native-measurements.json"
+  },
+  "knownIssues": [
+    "0.1秒密采样：当前0.6–1.1秒三卡保持原位，1.2秒直接切到文字；参考46.07–46.87秒手机明显错峰下沉。",
+    "参考47.67–48.83秒标题局部放大并横移，当前2.02–3.03秒只有居中整字缓慢放大。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "96a28bb36f3d1b451e4f1e16a863d829f9a9cdacc1a2f115494a84fd440c282f"
+    },
+    "v2": {
+      "sha256": "7e781b5fbdfff9de6441e50dcd5383150a43b0c75c25e9b7216424cc895a1160",
+      "path": "baseline/v2/videos/R009/7e781b5fbdfff9de6441e50dcd5383150a43b0c75c25e9b7216424cc895a1160.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

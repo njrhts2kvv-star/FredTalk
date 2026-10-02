@@ -1,0 +1,1 @@
+This software uses MiSans (Xiaomi), Noto Sans SC (Google/Adobe), and LXGW WenKai (lxgw). See the accompanying MiSans license and OFL files. Candidate typefaces do not imply source-font identity.

@@ -1,0 +1,18 @@
+{
+  "RobotoCondensed": {
+    "source": "https://github.com/google/fonts/tree/main/ofl/robotocondensed",
+    "file": "RobotoCondensed.ttf",
+    "license": "RobotoCondensed-OFL.txt",
+    "role": "X050 Latin headline candidate, weight 900; no horizontal scale"
+  },
+  "Unifont": {
+    "source": "https://unifoundry.com/pub/unifont/unifont-16.0.04/",
+    "version": "16.0.04",
+    "file": "Unifont.otf",
+    "license": [
+      "Unifont-COPYING.txt",
+      "Unifont-OFL.txt"
+    ],
+    "role": "N030 editable dot matrix candidate; default four-character grid extracted from unifont hex"
+  }
+}

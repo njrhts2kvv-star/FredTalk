@@ -1,0 +1,1 @@
+Entry: src/index.tsx. Dependencies independently installed by parent with Remotion 4.0.519 and matching lockfile. Bundle and 4 representative stills passed; local-check/result.json records actual installed Chrome and 1x1. This is local sampled validation only, not full playback or cloud render.

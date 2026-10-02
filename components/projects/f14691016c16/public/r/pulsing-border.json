@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pulsing-border",
+  "title": "Pulsing Border",
+  "description": "Glowing 'AI is working' frame — a soft pulsing border overlay that breathes around the scene edges while a response streams.",
+  "dependencies": [
+    "remotion",
+    "@paper-design/shaders-react"
+  ],
+  "registryDependencies": [
+    "https://snapcn.dev/r/snap-cn-ui.json"
+  ],
+  "files": [
+    {
+      "path": "registry/snap-cn/pulsing-border/index.tsx",
+      "content": "\"use client\";\n\nimport {\n  PulsingBorder as PaperPulsingBorder,\n  type PulsingBorderProps as PaperPulsingBorderProps,\n} from \"@paper-design/shaders-react\";\nimport { useCallback, useState } from \"react\";\nimport {\n  continueRender,\n  delayRender,\n  useCurrentFrame,\n  useVideoConfig,\n} from \"remotion\";\nimport {\n  mixOklch,\n  parseColor,\n  type SnapCnTheme,\n  toCss,\n  useSnapCnTheme,\n} from \"@/lib/snap-cn-ui\";\n\nexport interface PulsingBorderProps\n  extends Omit<PaperPulsingBorderProps, \"frame\" | \"ref\"> {\n  /** First glow color. Defaults to the design system's `primary`. */\n  glowColorA?: string;\n  /** Second glow color. Defaults to `primary` lifted toward the page. */\n  glowColorB?: string;\n  /** Design-system token overrides. */\n  theme?: Partial<SnapCnTheme>;\n  mode?: \"light\" | \"dark\";\n}\n\n/**\n * \"AI is working\" frame — a soft glowing border that pulses around the\n * edges of the scene while a response streams. Transparent by default so\n * it layers over any content (e.g. a chat UI mid-response).\n *\n * Deterministic: the shader's clock is driven from `useCurrentFrame()`\n * via the `frame` prop, so renders are frame-exact.\n */\nexport function PulsingBorder({\n  speed = 0.6,\n  colorBack = \"#00000000\",\n  colors,\n  glowColorA,\n  glowColorB,\n  roundness = 0.08,\n  thickness = 0.06,\n  intensity = 0.15,\n  bloom = 0.2,\n  className,\n  theme,\n  mode,\n  ...rest\n}: PulsingBorderProps) {\n  const frame = useCurrentFrame();\n  const { fps, width, height } = useVideoConfig();\n  const t = useSnapCnTheme(theme, mode);\n\n  // The shader parses colors in WebGL, not in CSS — it has no `oklch()`. Tokens\n  // are handed over as concrete rgb, which `toCss`/`mixOklch` already emit.\n  const glowA = glowColorA ?? toCss(parseColor(t.primary));\n  const glowB = glowColorB ?? mixOklch(t.primary, t.background, 0.35);\n\n  const [handle] = useState(() => delayRender(\"pulsing-border\"));\n  const gate = useCallback(\n    (element: HTMLDivElement | null) => {\n      if (!element) return;\n      requestAnimationFrame(() =>\n        requestAnimationFrame(() => continueRender(handle)),\n      );\n    },\n    [handle],\n  );\n\n  return (\n    <div\n      ref={gate}\n      className={className}\n      style={{ position: \"absolute\", inset: 0 }}\n    >\n      <PaperPulsingBorder\n        speed={0}\n        frame={(frame / fps) * speed * 1000}\n        colorBack={colorBack}\n        colors={colors ?? [glowA, glowB]}\n        roundness={roundness}\n        thickness={thickness}\n        intensity={intensity}\n        bloom={bloom}\n        fit=\"cover\"\n        width={width}\n        height={height}\n        {...rest}\n      />\n    </div>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/snap-cn/pulsing-border.tsx"
+    }
+  ],
+  "docs": "Docs and props: https://snapcn.dev/docs?ref=cli — pulsing-border draws with WebGL, and Remotion's headless Chromium has no GL context by default — render it with `npx remotion render --gl=angle` (or set `Config.setChromiumOpenGlRenderer(\"angle\")`), or the render fails with 'WebGL is not supported in this browser'.",
+  "type": "registry:component"
+}

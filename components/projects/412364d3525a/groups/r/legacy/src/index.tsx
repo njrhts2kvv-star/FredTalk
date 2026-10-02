@@ -1,0 +1,12 @@
+import r002 from '../../../../specs/R002.json';
+import React from 'react';
+import {AbsoluteFill,Audio,Composition,registerRoot,staticFile,useCurrentFrame,useVideoConfig} from 'remotion';
+import data from '../manifest.json';
+const manifest=data.pages;
+import {Seedance} from './Seedance';
+import {Trae} from './Trae';
+import {useFonts} from './common';
+type Props={clipIndex:number};
+export const Clip=({clipIndex}:Props)=>{useFonts();const frame=useCurrentFrame();const {width}=useVideoConfig();const clip=manifest[clipIndex];const segment=clip.compositionId===r002.implementation.compositionId?r002.sourceMapping.segments.find(s=>frame>=s.outputStartFrame&&frame<s.outputEndFrameExclusive):undefined;const t=segment?segment.sourceStartPTS+(frame-segment.outputStartFrame)/60:clip.start+frame/60;return <AbsoluteFill style={{background:'white',overflow:'hidden'}}><div style={{position:'absolute',width:1920,height:1080,transform:`scale(${width/1920})`,transformOrigin:'0 0',fontFamily:'MiSans',fontWeight:500}}>{clipIndex<7?<Seedance t={t} start={clip.start}/>:<Trae t={t}/>}</div></AbsoluteFill>};
+const Root=()=> <>{manifest.map((clip,i)=><Composition key={clip.id} id={clip.compositionId} component={Clip} durationInFrames={clip.durationInFrames} width={1920} height={1080} fps={60} defaultProps={{clipIndex:i}}/>)}</>;
+registerRoot(Root);

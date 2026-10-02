@@ -1,0 +1,59 @@
+{
+  "brand": {
+    "id": "fred-corner-approved-v1",
+    "activation": "Default for FredTalk 16:9 narrated explainers; opt in for pure B-roll, strict third-party remakes, other aspect ratios; explicit no-branding requests override",
+    "aspectRatio": "16:9",
+    "baseCanvas": {
+      "width": 3840,
+      "height": 2160
+    },
+    "scaleRule": "s=targetWidth/3840=targetHeight/2160; scale destination geometry exactly once; source crop stays in asset pixels",
+    "variants": {
+      "lightBackground": {
+        "asset": "skills/fredtalk-deck-motion-pipeline/assets/brand/fredtalk-ai-corner.png",
+        "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+        "destination": {
+          "x": 3099,
+          "y": 72,
+          "width": 691,
+          "height": 170
+        },
+        "sourceCrop": null
+      },
+      "darkBackground": {
+        "asset": "skills/fredtalk-deck-motion-pipeline/assets/brand/fredtalk-ai-dark-transparent.png",
+        "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+        "sourceCrop": {
+          "x": 295,
+          "y": 184,
+          "width": 1528,
+          "height": 341
+        },
+        "destination": {
+          "x": 3109,
+          "y": 82,
+          "width": 670,
+          "height": 150
+        }
+      }
+    },
+    "activationRevision": "2026-09-16-user-confirmed-default"
+  },
+  "voice": {
+    "path": "public/voice.m4a",
+    "sha256": "05c00ba86caf1393f0e79278df26a438d0dff0cd1d435a90265c75ca326cd377",
+    "volume": 0.93
+  },
+  "sources": [
+    {
+      "copiedSource": "references/branch-scenes.tsx",
+      "sha256": "bdebf2f9b677bf2bc124ec99b9b9ae6f28f627e75338b0ea11d59b04a0728e1e",
+      "role": "Read-only style/motion anchor; not mounted as original full component"
+    },
+    {
+      "copiedSource": "references/motion.ts",
+      "sha256": "b62eaf4f4a8fc8ef494c480c4febb96eb9bd396d392e38e786ed0c3fe78c0b87",
+      "role": "Read-only style/motion anchor; not mounted as original full component"
+    }
+  ]
+}

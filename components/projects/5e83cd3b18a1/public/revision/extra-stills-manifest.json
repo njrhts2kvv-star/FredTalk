@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fred-computer-work",
+    "source": "[LOCAL_PATH] Pro/01_输入素材/动画视频参考/回想细节.mp4",
+    "sourceSha256": "170937db2abdcaa1cabbb78550567fb17a6f70484bbf5d2a2302229e6299c969",
+    "sourceTime": 0.5,
+    "file": "[LOCAL_PATH]",
+    "sha256": "4c71676f604ca365e4bb5f17026ef60854bd4ac076166f9db2539022fe0487ed",
+    "semantic": "傍晚在电脑前打字工作，完整人物与桌面",
+    "review": "Source frames inspected at 0.5, 2.5, 4.5 seconds; selected complete figure and clear action; no dense text screenshot"
+  },
+  {
+    "id": "fred-night-review",
+    "source": "[LOCAL_PATH] Pro/01_输入素材/动画视频参考/第24段-夜晚回听与个人复盘-4K.mp4",
+    "sourceSha256": "f9f855d00813fbc62fe66cba2bf846044911ab035be6cc1acc1aa1dcbd406148",
+    "sourceTime": 0.5,
+    "file": "[LOCAL_PATH]",
+    "sha256": "8ec11e515603578c32ac6c8d9810828c5d848b0805899e3db7103b0b7d473eed",
+    "semantic": "夜晚戴耳机回听并手写复盘，人物与笔记完整",
+    "review": "Source frames inspected at 0.5, 2.5, 4.5 seconds; selected complete figure and clear action; no dense text screenshot"
+  }
+]

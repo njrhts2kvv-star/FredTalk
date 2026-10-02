@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "stableId": "ep87-part-01",
+      "sourceBeatIds": [
+        "chapter-1"
+      ],
+      "kind": "drag",
+      "exactScreenWords": [
+        "Part.01",
+        "准备材料与试批"
+      ],
+      "title": "准备材料与试批",
+      "label": "Part.01",
+      "width": 1120,
+      "titleSize": 152,
+      "labelSize": 96,
+      "durationInFrames": 120,
+      "finalHoldFrames": 72,
+      "settleFrame": 48,
+      "scriptAnchor": "开始之前，我先准备四样东西",
+      "oneQuestion": "准备材料与试批",
+      "layoutFamily": "drag",
+      "majorGeometry": "left aligned title in centered stage",
+      "readingOrder": [
+        "Part.01",
+        "准备材料与试批"
+      ],
+      "visualCenter": "chapter title",
+      "styleTrack": "fred-type",
+      "mediaRole": "typography",
+      "referenceImages": [
+        {
+          "path": "[LOCAL_PATH]",
+          "responsibility": "source layout and ending, except user requested adjustments"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "[LOCAL_PATH]",
+        "checksum": "sha256:586bdd1c8e2f17f4dc617b14a3dbf1277282c6c708cfba125730333fe61031b6"
+      },
+      "typographyRoles": [
+        {
+          "role": "chapter",
+          "text": "Part.01",
+          "sizeClass": "MiSans Medium500"
+        },
+        {
+          "role": "title",
+          "text": "准备材料与试批",
+          "sizeClass": "MiSans Bold700 Chinese / Semibold600 Latin"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "straight reveal",
+      "spokenOrder": [
+        "chapter-1"
+      ],
+      "timingSource": "approved-manual-cue",
+      "motionEvents": [
+        {
+          "sourceBeatId": "chapter-1",
+          "event": "reference motion rebuilt at requested faster timing",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "chapter-1",
+          "event": "stable final hold",
+          "cueFrame": 48
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "drag",
+      "implementationComponentId": "Transition",
+      "background": "black"
+    }
+  ]
+}

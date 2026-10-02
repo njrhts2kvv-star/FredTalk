@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "R024",
+  "title": "竖图逐步增加为作品墙",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 1060,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/01_7671310286283967796_｜第116期｜一口气分享十八个开源免费工作流 今天给大家一口气分享十八个开源模型的免费ComfyUI工作流以及.mp4",
+    "referenceStart": 283.183338,
+    "referenceEnd": 308.850006,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/01_7671310286283967796_｜第116期｜一口气分享十八个开源免费工作流 今天给大家一口气分享十八个开源模型的免费ComfyUI工作流以及.mp4",
+        "sha256": "b56dc45480edb8d1f49c896e3f163b8118539e36933244a41c09f9b681c5c97f",
+        "width": 2560,
+        "height": 1440,
+        "fps": "60/1",
+        "nominalFps": "60/1",
+        "timeBase": "1/15360",
+        "duration": 699.082993,
+        "start": 283.183338,
+        "end": 308.850006
+      }
+    ],
+    "totalSelectedDuration": 25.666668000000016,
+    "outputDurationDelta": -8.000001333333348
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 300,
+        "sourceAsset": 0,
+        "sourceStartPTS": 283.183338,
+        "sourceEndPTS": 288.183338,
+        "speed": 1
+      },
+      {
+        "outputStartFrame": 300,
+        "outputEndFrameExclusive": 960,
+        "sourceAsset": 0,
+        "sourceStartPTS": 292.183338,
+        "sourceEndPTS": 303.183338,
+        "speed": 1
+      },
+      {
+        "outputStartFrame": 960,
+        "outputEndFrameExclusive": 1060,
+        "sourceAsset": 0,
+        "sourceStartPTS": 307.183338,
+        "sourceEndPTS": 308.8500046666667,
+        "speed": 1
+      }
+    ],
+    "omissions": [
+      {
+        "sourceStartPTS": 288.183338,
+        "sourceEndPTS": 292.183338,
+        "reason": "existing approved editorial cut"
+      },
+      {
+        "sourceStartPTS": 303.183338,
+        "sourceEndPTS": 307.183338,
+        "reason": "existing approved editorial cut"
+      }
+    ],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/faithful",
+    "compositionId": "Motion024",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [
+    {
+      "family": "MiSans Heavy temporary",
+      "file": "shared/MiSans-Heavy.otf",
+      "license": "fonts/MiSans-License.txt",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "selectionStatus": "inherited-font-pending-own-comparison"
+    }
+  ],
+  "objects": {
+    "detail": {
+      "viewport": [
+        40,
+        0,
+        1840,
+        1080
+      ],
+      "fredImageNaturalSize": [
+        1080,
+        1920
+      ],
+      "magnifiedImageSize": [
+        3600,
+        6400
+      ],
+      "shoulderCenter": [
+        0.5,
+        0.44
+      ],
+      "faceCenter": [
+        0.49,
+        0.34
+      ],
+      "policy": "independent outer viewport and inner-media camera, authorized Fred media retained"
+    }
+  },
+  "tracks": {
+    "detailCamera": {
+      "domain": "outputFrame",
+      "fields": [
+        "zoom",
+        "facePan"
+      ],
+      "samples": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          153,
+          0,
+          0
+        ],
+        [
+          159,
+          0.12,
+          0
+        ],
+        [
+          165,
+          0.4,
+          0
+        ],
+        [
+          171,
+          0.75,
+          0
+        ],
+        [
+          180,
+          1,
+          0
+        ],
+        [
+          210,
+          1,
+          0
+        ],
+        [
+          222,
+          1,
+          0.1
+        ],
+        [
+          234,
+          1,
+          0.42
+        ],
+        [
+          246,
+          1,
+          0.77
+        ],
+        [
+          264,
+          1,
+          1
+        ],
+        [
+          299,
+          1,
+          1
+        ],
+        [
+          300,
+          0,
+          0
+        ]
+      ],
+      "evidence": "source1.5/3/4.8s inspected; provisional camera curve, native dense calibration pending"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R024/review.md",
+    "fontComparison": "analysis/R024/font-policy.md",
+    "nativeFrameMeasurements": "analysis/R024/sparse-source-anchors.json"
+  },
+  "knownIssues": [
+    "追加相对1.5/2/2.5/3/3.5/4/4.5/4.9秒对应采样：参考286.18–288.08秒为全屏肩部到脸部特写；当前3.0–4.9秒仅竖卡稍放宽到人物中景后回退，未建立等价的主体局部特写。",
+    "此段在已知剪辑映射的首个0–5秒保留范围内，可直接对应，不是因删静止段造成时间错位。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "355bb626a53c938b7c4227c9a725d3ee0c65ddd2b19726f3d319ec8ab6bee9ab"
+    },
+    "v2": {
+      "sha256": "c32d41da56cee9b47cdeb5ce6aa6979a265d1b77c7801e2034214d8693bea197",
+      "path": "baseline/v2/videos/R024/c32d41da56cee9b47cdeb5ce6aa6979a265d1b77c7801e2034214d8693bea197.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

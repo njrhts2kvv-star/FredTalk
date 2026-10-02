@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "recordType": "text-effect",
+  "revision": "2026-09-14-review-r157",
+  "evidence": {
+    "path": "tools/fred-motion-picker/audits/transition-study-20260913/text-user-request.json",
+    "sha256": "a3949f4720d4a8204a505b506216749cd7c54a0f48952265dea45c010757ff2b"
+  },
+  "items": [
+    {
+      "id": "W01",
+      "title": "逐字输出与光标推进",
+      "useWhen": "模拟输入、生成过程或让一段规则逐步变得可读。",
+      "sceneTypes": [
+        "prompt-reading",
+        "summary"
+      ],
+      "tags": [
+        "逐字",
+        "打字",
+        "生成",
+        "光标"
+      ],
+      "phases": [
+        "按当前句输出字符",
+        "关键词出现后保持强调",
+        "句子完成后留阅读时间"
+      ],
+      "transferRules": [
+        "按本期短句和录音设置输出速度，长句不要强行挤进短cue。",
+        "新增实现按完整字素处理中文、emoji和组合字符；稳定最终换行，避免逐字居中导致抖动。"
+      ],
+      "limitations": [
+        "034源码使用slice按代码单元截取，新emoji内容需要适配。",
+        "片段起点已在首行输出途中。"
+      ],
+      "examples": [
+        {
+          "id": "W01",
+          "referenceId": "library-fred-remake-034",
+          "number": 34,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/034_Fred场景实现_第107期_编号需求逐行建立并强调关键词_00m32.00s-00m45.00s.mp4",
+          "sourceSha256": "644ab938e7e00caef15df9fcc780614464cacb43f06e080bba23074088893810",
+          "fps": 30.0,
+          "startFrame": 0,
+          "endFrameExclusive": 108,
+          "startSeconds": 0.0,
+          "endSeconds": 3.6,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W01_034_0.00-3.60.mp4",
+          "previewSha256": "66a0661e418e884566269a6fefd60b91ebf8356359a357f48a941ccf6e41dc4e",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W01.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch2.tsx",
+              "sha256": "6386361ae624334555710a7b33aeafc1dd5bf499d29f32fb8feed1ad5a775f09",
+              "symbol": "case 34",
+              "line": 497,
+              "dispatchNumber": 34
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "text-effects:W01",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "W02",
+      "title": "从左向右刷出文字",
+      "useWhen": "快速建立完整短句、两种方式或并列关键词。",
+      "sceneTypes": [
+        "summary",
+        "relationship",
+        "prompt-reading"
+      ],
+      "tags": [
+        "刷出",
+        "横向",
+        "遮罩",
+        "擦入"
+      ],
+      "phases": [
+        "文字先按完整内容排版",
+        "裁切边界从左到右打开",
+        "完整句子停稳"
+      ],
+      "transferRules": [
+        "保持字形和最终宽度，用clipPath/reveal控制可见范围。",
+        "词组可以依次刷出，不必每个字单独计时。"
+      ],
+      "limitations": [
+        "028的reveal同时有轻微纵向位移；它是遮罩揭示，不是逐字增加字符。"
+      ],
+      "examples": [
+        {
+          "id": "W02",
+          "referenceId": "library-fred-remake-028",
+          "number": 28,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/028_Fred场景实现_第111期_两种生成方式并列强调_00m29.00s-00m34.00s.mp4",
+          "sourceSha256": "66a5237913d808f55ca00fa310ef7a9b3265d3174db9566f7bb46cf90218d514",
+          "fps": 60.0,
+          "startFrame": 81,
+          "endFrameExclusive": 168,
+          "startSeconds": 1.35,
+          "endSeconds": 2.8,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W02_028_1.35-2.80.mp4",
+          "previewSha256": "ca1d8ea3afef248e4b0be9bd18ec6d1356dda8418161a2ce0b2c0a0ae07e22b1",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W02.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch2.tsx",
+              "sha256": "6386361ae624334555710a7b33aeafc1dd5bf499d29f32fb8feed1ad5a775f09",
+              "symbol": "case 28",
+              "line": 282,
+              "dispatchNumber": 28
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "text-effects:W02",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "W03",
+      "title": "纵向遮罩揭示",
+      "useWhen": "在同一阅读位置切换两个关键概念。",
+      "sceneTypes": [
+        "summary",
+        "relationship"
+      ],
+      "tags": [
+        "刷出",
+        "纵向",
+        "上下",
+        "遮罩",
+        "替换"
+      ],
+      "phases": [
+        "旧词结束",
+        "新词从纵向裁切区域揭示",
+        "新词完整出现并保持"
+      ],
+      "transferRules": [
+        "明确是从上到下还是从下到上，按裁切边界设置方向。",
+        "给最终字体的上伸部和下伸部保留遮罩余量。"
+      ],
+      "limitations": [
+        "026此区间是从上向下打开，旧词先切走；不是上下滚轮换词。"
+      ],
+      "examples": [
+        {
+          "id": "W03",
+          "referenceId": "library-fred-remake-026",
+          "number": 26,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/026_Fred场景实现_第112期_工作流退后并突出Skill关键词_02m49.00s-02m57.00s.mp4",
+          "sourceSha256": "9c7e4fe6bdae94c9d97ab6eac3b7ff37d6c41746f0004f801cd469d693b40ff8",
+          "fps": 60.0,
+          "startFrame": 255,
+          "endFrameExclusive": 303,
+          "startSeconds": 4.25,
+          "endSeconds": 5.05,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W03_026_4.25-5.05.mp4",
+          "previewSha256": "bc9c3e968a1eb30fbaa0c660a718eb56176b8a58fed35210ea166de3615ba881",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W03.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch2.tsx",
+              "sha256": "6386361ae624334555710a7b33aeafc1dd5bf499d29f32fb8feed1ad5a775f09",
+              "symbol": "case 26",
+              "line": 222,
+              "dispatchNumber": 26
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "text-effects:W03",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "W04",
+      "title": "文字流整体上卷",
+      "useWhen": "展示问答、对话或逐条追加的信息，保留前后顺序。",
+      "sceneTypes": [
+        "prompt-reading",
+        "relationship",
+        "summary"
+      ],
+      "tags": [
+        "滚动",
+        "上卷",
+        "上下",
+        "对话",
+        "文字流"
+      ],
+      "phases": [
+        "新句进入",
+        "已有文字组向上滚动让位",
+        "当前句停在阅读区"
+      ],
+      "transferRules": [
+        "滚的是文字流容器，句内文字仍保持完整；不要误写为逐字滚动。",
+        "滚动量来自实际行高和占用高度，先测新内容，再确定下一停靠位置。"
+      ],
+      "limitations": [
+        "014源码采用固定短句尺寸和滚动距离，长回复/换行内容需重新测量。"
+      ],
+      "examples": [
+        {
+          "id": "W04",
+          "referenceId": "library-fred-remake-014",
+          "number": 14,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/014_Fred场景实现_第116期_对话气泡接力转入新章节_04m14.00s-04m35.00s.mp4",
+          "sourceSha256": "811fe7e9fb3e984edc71f1521602e3e791d31495a5614ee7b7315441e98fe756",
+          "fps": 60.0,
+          "startFrame": 309,
+          "endFrameExclusive": 432,
+          "startSeconds": 5.15,
+          "endSeconds": 7.2,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W04_014_5.15-7.20.mp4",
+          "previewSha256": "7369bb51d84b8a308d8219ba210781e6035cf0cc5d1fbb73ef200a1b32f8f4b4",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W04.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "ChatChapter",
+              "line": 1211,
+              "dispatchNumber": 14
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "text-effects:W04",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "W05",
+      "title": "文字淡入与淡出",
+      "useWhen": "临时强调结束后让原材料重新承担信息，或轻量建立一层补充文字。",
+      "sceneTypes": [
+        "summary",
+        "prompt-reading",
+        "image-comparison"
+      ],
+      "tags": [
+        "淡入",
+        "淡出",
+        "透明度",
+        "退出"
+      ],
+      "phases": [
+        "按cue改变文字透明度",
+        "主体材料继续保持身份",
+        "淡出到0后才释放旧文字"
+      ],
+      "transferRules": [
+        "透明度作用于正确的文字层，别把背景和文字一起淡掉。",
+        "用户明确选择淡入淡出时可以采用；按阅读节奏留足可读时间。"
+      ],
+      "limitations": [
+        "063是前景文字淡出；009的淡入同时包含水平靠近和背景失焦。",
+        "参考片段不提供统一纯淡化组件，按目标场景保留实际需要的动作层。"
+      ],
+      "examples": [
+        {
+          "id": "W05a",
+          "referenceId": "library-fred-remake-063",
+          "number": 63,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/063_Fred场景实现_第93期_四张手机页面并列形成设计全貌_00m09.00s-00m16.00s.mp4",
+          "sourceSha256": "169086311bdfb74305de99832727c0682bb164552b13420e4e2448f41a924dc4",
+          "fps": 60.0,
+          "startFrame": 225,
+          "endFrameExclusive": 270,
+          "startSeconds": 3.75,
+          "endSeconds": 4.5,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W05a_063_3.75-4.50.mp4",
+          "previewSha256": "c8a07c47ed58204ddc7f050248208031a8573209763f67ed3d765edc2aab2ab9",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W05a.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch3.tsx",
+              "sha256": "2c0b7e0d94eb2c5517dd22fb10e000eea9a665768bf9548ed978cdf6a7c2cb44",
+              "symbol": "PageArray",
+              "line": 960,
+              "dispatchNumber": 63
+            }
+          ]
+        },
+        {
+          "id": "W05b",
+          "referenceId": "library-fred-remake-009",
+          "number": 9,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/009_Fred场景实现_第117期_提示词全貌与参数关键词聚焦_00m41.00s-00m55.00s.mp4",
+          "sourceSha256": "431e7262ec983796bf077ea5d35f726f88c91f9782d9f4f49e542ff421dd3af5",
+          "fps": 60.0,
+          "startFrame": 186,
+          "endFrameExclusive": 252,
+          "startSeconds": 3.1,
+          "endSeconds": 4.2,
+          "preview": "assets/transition-studies/library-fred-20260913/previews/T07a_009_3.10-4.20.mp4",
+          "previewSha256": "b3e6fc2790dbc71f1643c60666b319fd746ad9e6847d2087cb1ddd60502f73ff",
+          "poster": "assets/transition-studies/library-fred-20260913/posters/T07a.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "PromptFocus",
+              "line": 980,
+              "dispatchNumber": 9
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "text-effects:W05",
+        "status": "keep"
+      }
+    },
+    {
+      "id": "W06",
+      "title": "短词错峰落位",
+      "useWhen": "口播依次列举能力、动作或步骤，最后组成一个可读整体。",
+      "sceneTypes": [
+        "summary",
+        "relationship"
+      ],
+      "tags": [
+        "逐项",
+        "短词",
+        "错峰",
+        "落位",
+        "列举"
+      ],
+      "phases": [
+        "每个词按对应cue进入",
+        "轻微位移和转正后停稳",
+        "已出现的词保留到整体读完"
+      ],
+      "transferRules": [
+        "绑定每个短词实际说到的时刻，不按字数机械均分整段。",
+        "把进入时长与停留时长分开，后一个词进入时前一个保持稳定。"
+      ],
+      "limitations": [
+        "010原例带下降和转正；这与逐字输出、段落滚动是不同形式。"
+      ],
+      "examples": [
+        {
+          "id": "W06",
+          "referenceId": "library-fred-remake-010",
+          "number": 10,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/010_Fred场景实现_第117期_能力关键词逐项排成两行_01m11.00s-01m19.60s.mp4",
+          "sourceSha256": "44a9b6faa30f7c886c0810888b7b7babde5099f5f06837a6adc081d3d30374cc",
+          "fps": 60.0,
+          "startFrame": 9,
+          "endFrameExclusive": 195,
+          "startSeconds": 0.15,
+          "endSeconds": 3.25,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W06_010_0.15-3.25.mp4",
+          "previewSha256": "d6b5e1c91187dc16691c34c57f861aaf3617928a45497a60e7887a10f7c1397d",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W06.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch1.tsx",
+              "sha256": "97992eb37638a71c5f8caf3d11dea7ac1815919698ebf51c0a3fe2b1c8e69269",
+              "symbol": "WordRows",
+              "line": 1045,
+              "dispatchNumber": 10
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r157-20260914/user-review.json",
+        "sha256": "6ccf6dc4e7429c63b40a45c8d36e432ef2ec626d0bf89f63500e8e9110212b2f",
+        "decisionKey": "text-effects:W06",
+        "status": "drop"
+      }
+    },
+    {
+      "id": "W07",
+      "title": "同槽换词与短暂虚化",
+      "useWhen": "保持原有排版，对照前后状态或替换一个标签内容。",
+      "sceneTypes": [
+        "summary",
+        "relationship"
+      ],
+      "tags": [
+        "换词",
+        "原位",
+        "同槽",
+        "虚化",
+        "替换"
+      ],
+      "phases": [
+        "载体和位置保持",
+        "当前词按cue换为下一词",
+        "短暂虚化后恢复清晰"
+      ],
+      "transferRules": [
+        "复用槽位与基线，按最长新词预留空间。",
+        "只改变这次要表达的词，其他标签不重复入场。"
+      ],
+      "limitations": [
+        "049是即时文本替换叠加短暂blur，不是双层交叉淡化，也不是字形连续变形。"
+      ],
+      "examples": [
+        {
+          "id": "W07",
+          "referenceId": "library-fred-remake-049",
+          "number": 49,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/049_Fred场景实现_第101期_三项优势沿阶梯逐个建立_01m58.00s-02m05.00s.mp4",
+          "sourceSha256": "dbfe31b3ae18b630d10ab4052d51469b333d8df0414a5e854d76046d364dda80",
+          "fps": 30.0,
+          "startFrame": 123,
+          "endFrameExclusive": 144,
+          "startSeconds": 4.1,
+          "endSeconds": 4.8,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W07_049_4.10-4.80.mp4",
+          "previewSha256": "a776fc3f9139ec4c0e97b76f0279372f5b773394807c5f60258dba9b3c3a9bb3",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W07.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch2.tsx",
+              "sha256": "6386361ae624334555710a7b33aeafc1dd5bf499d29f32fb8feed1ad5a775f09",
+              "symbol": "case 49",
+              "line": 1093,
+              "dispatchNumber": 49
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r157-20260914/user-review.json",
+        "sha256": "6ccf6dc4e7429c63b40a45c8d36e432ef2ec626d0bf89f63500e8e9110212b2f",
+        "decisionKey": "text-effects:W07",
+        "status": "drop"
+      }
+    },
+    {
+      "id": "W08",
+      "title": "数值递变与落定",
+      "useWhen": "突出成本、数量或比例的真实前后变化。",
+      "sceneTypes": [
+        "metric-change",
+        "summary"
+      ],
+      "tags": [
+        "数字",
+        "数值",
+        "计数",
+        "递变",
+        "落定"
+      ],
+      "phases": [
+        "给定真实起止数值",
+        "按进度更新数值",
+        "精确落到最终值并停稳"
+      ],
+      "transferRules": [
+        "使用本期真实数值、单位与格式；字位变化时检查宽度和对齐。",
+        "按需要选等宽数字与固定槽位，不在变化途中改变计量单位。"
+      ],
+      "limitations": [
+        "054是数值插值再取整，不是每一位数字上下翻滚；不能把它标成滚轮动画。",
+        "源片的数字是示例，不带入下一期事实。"
+      ],
+      "examples": [
+        {
+          "id": "W08",
+          "referenceId": "library-fred-remake-054",
+          "number": 54,
+          "sourceVideo": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/previews/054_Fred场景实现_第93期_标签围绕背景并接数字滚动_00m09.00s-00m22.00s.mp4",
+          "sourceSha256": "560f79fafb63447b0b1c6e509bd24b75b0565a4d85d55d40c5cdba92069230b0",
+          "fps": 30.0,
+          "startFrame": 244,
+          "endFrameExclusive": 309,
+          "startSeconds": 8.133333333333333,
+          "endSeconds": 10.3,
+          "preview": "assets/text-studies/library-fred-20260913/previews/W08_054_8.13-10.30.mp4",
+          "previewSha256": "9e674b88595df49c7462732c94932a7290855ecd3e9e7d8aa64060850c5c33d2",
+          "poster": "assets/text-studies/library-fred-20260913/posters/W08.jpg",
+          "sourceCode": [
+            {
+              "path": "skills/fred-remotion-output/assets/reference-code/library-fred-20260913/src/batch3.tsx",
+              "sha256": "2c0b7e0d94eb2c5517dd22fb10e000eea9a665768bf9548ed978cdf6a7c2cb44",
+              "symbol": "LabelCounter",
+              "line": 494,
+              "dispatchNumber": 54
+            }
+          ]
+        }
+      ],
+      "readiness": "Observed text presentation with exact source code; new typography and timing require adaptation.",
+      "selection": {
+        "path": "tools/fred-motion-picker/audits/apply-skill-review-r147-20260913/user-review.json",
+        "sha256": "f0c73850f70a12bef3192d96cd6f42916676f1cfbea57f79f2555e0f6ab934cc",
+        "decisionKey": "text-effects:W08",
+        "status": "keep"
+      }
+    }
+  ]
+}

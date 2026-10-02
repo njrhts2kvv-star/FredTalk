@@ -1,0 +1,48 @@
+#!/usr/bin/env node
+import assert from 'node:assert/strict';
+import {mkdtempSync, readFileSync, writeFileSync, rmSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {join} from 'node:path';
+import {tmpdir} from 'node:os';
+import {spawnSync} from 'node:child_process';
+import {verifyFormalApproval} from './stage-gate-formal.mjs';
+const root=mkdtempSync(join(tmpdir(),'fred-direct-output-'));
+const hash=name=>`sha256:${createHash('sha256').update(readFileSync(join(root,name))).digest('hex')}`;
+const write=(name,value)=>writeFileSync(join(root,name),JSON.stringify(value));
+const ref=name=>({path:name,checksum:hash(name)});
+let count=0;
+try {
+ const out=spawnSync('ffmpeg',['-v','error','-f','lavfi','-i','color=white:s=640x360:r=60','-frames:v','4','-c:v','libx264','-preset','ultrafast','-pix_fmt','yuv420p',join(root,'preview.mp4')],{encoding:'utf8'});assert.equal(out.status,0,out.stderr);
+ const at=new Date().toISOString(), contractChecksum=`sha256:${'1'.repeat(64)}`,sourceTreeChecksum=`sha256:${'2'.repeat(64)}`;
+ const context={source:'conversation',reference:'test user request for this output'};
+ const contract={deliveryProfile:'standalone-video',timelineFps:60,outputSpec:{width:3840,height:2160,fps:60},pages:[{stableId:'p1',startFrame:0,durationInFrames:4}]};
+ const preview={...ref('preview.mp4'),frameRange:[0,4]};
+ const base={approvalKind:'direct-output',contractChecksum,authorization:{action:'direct-output',directExportAuthorized:true,decisionQuote:'直接输出4K60视频，输出后给我看。',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at',frameRange:[0,4],pageIds:['p1'],outputSpec:contract.outputSpec}};
+ const evidence={contractChecksum,sourceTreeChecksum,frameRange:[0,4],previewFiles:[preview],method:'fixture media and source preflight',findings:'four actual frames, complete source timing, and stable layout'};
+ const review={reviewedBy:'agent',reviewedAt:at,contractChecksum,sourceTreeChecksum,previewFiles:[preview],checks:[{kind:'technical',frameRange:[0,4],result:'pass',method:'source and media preflight',findings:'source timing and actual media identity checked'},{kind:'visual',frameRange:[0,4],result:'pass',method:'view all current frames',findings:'all fixture frames reviewed'}]};
+ const run=(name,mutate,expected)=>{const state={approval:structuredClone(base),review:structuredClone(review),evidence:structuredClone(evidence)};mutate?.(state);write('evidence.json',state.evidence);for(const check of state.review.checks)if(check.result==='pass')check.evidence=[ref('evidence.json')];state.review.reviewedAt=new Date().toISOString();write('review.json',state.review);state.approval.internalReview=ref('review.json');write('approval.json',state.approval);const failures=[];verifyFormalApproval({approvalPath:join(root,'approval.json'),contractChecksum,sourceTreeChecksum,contract,pages:contract.pages,failures});if(expected)assert.ok(failures.some(x=>expected.test(x)),`${name}: ${JSON.stringify(failures)}`);else assert.deepEqual(failures,[],name);count++;};
+ run('explicit first direct export is authorization, never sample acceptance');
+ run('ordinary start work lacks direct authorization',s=>{s.approval.authorization.decisionQuote='开始制作吧';delete s.approval.authorization.directExportAuthorized;},/direct-output action/);
+ run('missing conversation provenance',s=>{delete s.approval.authorization.decisionContext;},/conversation/);
+ run('withheld authorization blocks output',s=>{s.approval.authorization.decisionQuote='不要直接输出，等我确认。';s.approval.authorization.directExportAuthorized=false;},/direct-output action/);
+ run('real conversational wording is not artificially narrowed',s=>{s.approval.authorization.decisionQuote='确认，重新渲染吧，就云端渲染吧';});
+ run('front-end delivery wording is not rejected',s=>{s.approval.authorization.decisionQuote='输出完直接放前端给我看';});
+ run('skip checks does not negate the actual render authorization',s=>{s.approval.authorization.decisionQuote='不要检查，直接渲染';});
+ run('unmatched scope rejected',s=>{s.approval.authorization.frameRange=[0,3];},/scope/);
+ run('unmatched output spec rejected',s=>{s.approval.authorization.outputSpec.width=1920;},/output specification/);
+ run('stale source review rejected',s=>{s.review.sourceTreeChecksum='sha256:stale';},/stale/);
+ run('stale artifact rejected',s=>{s.review.previewFiles[0].checksum=`sha256:${'3'.repeat(64)}`;},/checksum/);
+ run('inflated preview range rejected',s=>{s.review.previewFiles[0].frameRange=[0,5];},/range|duration/);
+ run('no QC cannot be marked direct',s=>{s.review.checks=[];},/technical|visual/);
+ run('no visual coverage by default',s=>{s.review.checks=s.review.checks.filter(c=>c.kind!=='visual');},/visual/);
+ run('limited review obeys explicit user instruction and remains pending',s=>{s.approval.reviewPolicy={mode:'limited-by-user',creativeReviewSkippedByUser:true,decisionQuote:'输出之后给我看，不用检查。',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at'};s.review.checks[1]={kind:'visual',frameRange:[0,4],result:'pending',method:'user will inspect',findings:'visual review not performed at the explicit request'};});
+ run('limited review requires recorded user instruction',s=>{s.approval.reviewPolicy={mode:'limited-by-user',decisionQuote:'开始吧',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at'};},/creativeReviewSkippedByUser/);
+ run('explicit limited review permits current source preflight without forced new still',s=>{s.approval.reviewPolicy={mode:'limited-by-user',creativeReviewSkippedByUser:true,decisionQuote:'不用检查直接渲染',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at'};s.review.previewFiles=[];s.evidence.previewFiles=[];s.review.checks[1]={kind:'visual',frameRange:[0,4],result:'pending',method:'user will inspect final output',findings:'no visual sample was requested'};});
+ run('limited review cannot claim visual PASS without actual media',s=>{s.approval.reviewPolicy={mode:'limited-by-user',creativeReviewSkippedByUser:true,decisionQuote:'不用检查直接渲染',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at'};s.review.previewFiles=[];s.evidence.previewFiles=[];},/evidence|visual/);
+ run('limited review still rejects stale source preflight evidence',s=>{s.approval.reviewPolicy={mode:'limited-by-user',creativeReviewSkippedByUser:true,decisionQuote:'不用检查直接渲染',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at'};s.review.previewFiles=[];s.evidence.previewFiles=[];s.evidence.sourceTreeChecksum='sha256:old';s.review.checks[1]={kind:'visual',frameRange:[0,4],result:'pending',method:'user will inspect',findings:'no sample viewed'};},/evidence/);
+ run('skip review never skips technical preflight',s=>{s.approval.reviewPolicy={mode:'limited-by-user',creativeReviewSkippedByUser:true,decisionQuote:'不用检查，给我自己检查。',decisionContext:context,decidedAt:at,timeMeaning:'recorded-at'};s.review.checks=s.review.checks.filter(c=>c.kind!=='technical');},/technical/);
+ run('current sample is not declared user-approved',s=>{s.approval.approvedBy='user';},/sample acceptance/);
+ run('stale evidence binding rejected',s=>{s.evidence.sourceTreeChecksum='sha256:stale';},/evidence/);
+ run('false technical failure blocks',s=>{s.review.checks[0].result='pending';},/technical/);
+ console.log(`PASS: ${count} direct-output authorization and honest review-status cases`);
+}finally{rmSync(root,{recursive:true,force:true});}

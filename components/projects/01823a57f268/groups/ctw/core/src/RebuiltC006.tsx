@@ -1,0 +1,19 @@
+import {FiveFontFace} from "../../../../five-fonts.ts";
+import React from 'react';
+import {AbsoluteFill,useCurrentFrame,delayRender,continueRender,cancelRender,staticFile} from 'remotion';
+import spec from '../../../../specs/C006.json';
+import arrowPaths from '../public/ctw-c006/arrow-paths.json';
+const h=delayRender('C006 licensed font candidates');
+Promise.all([['CTWWenKai','fonts/ctw/LXGWWenKai-Regular.ttf','400'],['CTWSans','fonts/MiSans-Semibold.otf','600']].map(async([family,file,weight])=>{const f=new FiveFontFace(family,`url(${staticFile(file)})`,{weight});await f.load();document.fonts.add(f)})).then(()=>continueRender(h)).catch(cancelRender);
+function sample(name:string,frame:number){const rows=(spec.tracks as any)[name].samples as number[][];let i=0;while(i<rows.length-1&&rows[i+1][0]<=frame)i++;const a=rows[i],b=rows[Math.min(i+1,rows.length-1)],p=b[0]===a[0]?0:(frame-a[0])/(b[0]-a[0]);return a.slice(1).map((x,k)=>x+(b[k+1]-x)*p)}
+const Chalk:React.FC<{children:React.ReactNode}>=({children})=><svg width={1920} height={1080} style={{position:'absolute',inset:0}}><defs><filter id="chalk"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="17" result="grain"/><feColorMatrix in="grain" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.6" intercept="0.4"/></feComponentTransfer><feComposite in="SourceGraphic" operator="in"/></filter></defs>{children}</svg>;
+export const RebuiltC006:React.FC<{referenceWords?:boolean}>=({referenceWords=false})=>{const f=useCurrentFrame();const [x,y,w,height]=sample('window',f),blur=sample('focus',f)[0],dy=y-80;const win=spec.objects.window;const foreground=spec.objects.foreground;return <AbsoluteFill style={{background:'white'}}>
+<div style={{position:'absolute',inset:0,filter:`blur(${blur}px)`,transform:`translateY(${dy}px)`}}>
+<div style={{position:'absolute',left:x,top:80,width:w,height,borderRadius:win.radius,background:win.fill,overflow:'hidden',boxShadow:'32px 20px 29px #0005'}}><div style={{height:win.headerHeight,background:win.headerFill}}/></div>
+{win.controls.map((c,i)=><div key={i} style={{position:'absolute',left:c.x-c.r,top:c.y-c.r,width:2*c.r,height:2*c.r,borderRadius:'50%',background:c.color}}/>)}
+<Chalk>{arrowPaths.map((a,i)=><g key={i} opacity={sample('arrow'+i,f)[0]}>{a.layers.map((layer,j)=><path key={j} d={layer.d} fill="white" opacity={layer.alpha}/>)}</g>)}</Chalk>
+{spec.objects.nodes.map((n,i)=><div key={i} style={{position:'absolute',left:n.x,top:n.y,width:n.w,height:n.h,fontFamily:'CTWWenKai',fontSize:n.fontSize,fontWeight:400,fontSynthesis:'none',filter:'url(#chalk)',whiteSpace:'nowrap',display:'flex',alignItems:'center',justifyContent:'center',color:'#efefed',textAlign:'center',lineHeight:1.05,opacity:sample('node'+i,f)[0]}}>{referenceWords?n.referenceText:n.text}</div>)}
+</div>
+<div style={{position:'absolute',left:foreground.x,top:foreground.y,width:foreground.width,fontFamily:'CTWSans',fontSize:foreground.fontSize,fontWeight:600,color:foreground.color,textAlign:'center',opacity:sample('foreground',f)[0]}}>{referenceWords?'说清楚需求':foreground.text}</div>
+</AbsoluteFill>};
+export const FontProof:React.FC=()=> <AbsoluteFill style={{background:'#202326',padding:70,color:'#f3f3f3'}}>{['CTWWenKai','CTWSans'].map((font,i)=><div key={font} style={{position:'absolute',left:80,top:60+i*440,fontFamily:font,fontSize:156,fontWeight:font==='CTWSans'?600:400,lineHeight:1.2}}><div style={{fontFamily:'sans-serif',fontSize:30,marginBottom:35}}>{font} / 产品 · 设计 · 程序员</div>产品　设计　程序员</div>)}</AbsoluteFill>;

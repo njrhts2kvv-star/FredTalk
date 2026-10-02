@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "source": "Jianying standalone effects; not verified Library originals",
+  "selectionEvidence": "assets/sfx/jianying-20260915/selection.json",
+  "selectionEvidenceSha256": "7c931d195ef0fdd678ab4d079734f9bf49419490cd343abe72b45ba2a1dd8174",
+  "entries": [
+    {
+      "id": "SFX01",
+      "label": "短转场",
+      "file": "assets/sfx/jianying-20260915/01-唰-短转场.wav",
+      "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+      "actions": [
+        "T08",
+        "T10",
+        "W02",
+        "W03"
+      ],
+      "anchor": "move-start",
+      "useWhen": "短窗口进入、文字遮罩刷出",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "01-唰-短转场.mp3",
+      "sourceSha256": "d283d8cbfa6313e784e1d8737df3d5c85caaa7f8f7be271c2a4b69104ed640ca",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/01-唰-短转场.mp3",
+      "originalSha256": "d283d8cbfa6313e784e1d8737df3d5c85caaa7f8f7be271c2a4b69104ed640ca"
+    },
+    {
+      "id": "SFX02",
+      "label": "翻页",
+      "file": "assets/sfx/jianying-20260915/02-书本翻页声.wav",
+      "sha256": "8b156c68ac3cfb21a586624efafc7ecca642f59677021da50909a366e8e6afcc",
+      "actions": [
+        "page-turn"
+      ],
+      "anchor": "change-start",
+      "useWhen": "报告翻页或页面替换",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "02-书本翻页声.mp3",
+      "sourceSha256": "50fe22ece3830dacb6fa8b645cea5ef2ca595185f95b729ac7b3c492b95d656d",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/02-书本翻页声.mp3",
+      "originalSha256": "50fe22ece3830dacb6fa8b645cea5ef2ca595185f95b729ac7b3c492b95d656d"
+    },
+    {
+      "id": "SFX03",
+      "label": "叮",
+      "file": "assets/sfx/jianying-20260915/03-叮.wav",
+      "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+      "actions": [
+        "W08",
+        "result-confirm"
+      ],
+      "anchor": "settle",
+      "useWhen": "数值落定或结果确认，仅响一次",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "03-叮.mp3",
+      "sourceSha256": "0fd51a65b0d989752c4fb1d65ecd81cbf0b8e0d5f447304d206a1ac3caecad47",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/03-叮.mp3",
+      "originalSha256": "0fd51a65b0d989752c4fb1d65ecd81cbf0b8e0d5f447304d206a1ac3caecad47"
+    },
+    {
+      "id": "SFX04",
+      "label": "Woosh",
+      "file": "assets/sfx/jianying-20260915/04-Woosh.wav",
+      "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+      "actions": [
+        "T01",
+        "T02",
+        "T04",
+        "T05",
+        "T06",
+        "T10"
+      ],
+      "anchor": "move-start",
+      "useWhen": "主次交换、侧移、展开、推近或内容接管",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "04-Woosh.mp3",
+      "sourceSha256": "5c379a951438fa9837f59f4ff4f6ef395815d1bbbb64594e4b1072f999d8710d",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/04-Woosh.mp3",
+      "originalSha256": "5c379a951438fa9837f59f4ff4f6ef395815d1bbbb64594e4b1072f999d8710d"
+    },
+    {
+      "id": "SFX05",
+      "label": "弹出",
+      "file": "assets/sfx/jianying-20260915/05-弹出1.wav",
+      "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+      "actions": [
+        "T03",
+        "item-enter"
+      ],
+      "anchor": "reveal",
+      "useWhen": "圆点建立、胶囊或图标出现",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "05-弹出1.mp3",
+      "sourceSha256": "bef2cdc8e9ff8c428e7d9446ccc9b7e4d7de8538cf11971e218cdb4016e2b1d4",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/05-弹出1.mp3",
+      "originalSha256": "bef2cdc8e9ff8c428e7d9446ccc9b7e4d7de8538cf11971e218cdb4016e2b1d4"
+    },
+    {
+      "id": "SFX07",
+      "label": "提示",
+      "file": "assets/sfx/jianying-20260915/07-提示音.wav",
+      "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+      "actions": [
+        "result-confirm"
+      ],
+      "anchor": "reveal",
+      "useWhen": "重要结果出现，与03二选一",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "07-提示音.mp3",
+      "sourceSha256": "0e44878ef86e8a1b9f3f30e2ecb8e69f849cbd0748e03de160386ac0ce68dcff",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/07-提示音.mp3",
+      "originalSha256": "0e44878ef86e8a1b9f3f30e2ecb8e69f849cbd0748e03de160386ac0ce68dcff"
+    },
+    {
+      "id": "SFX08",
+      "label": "打字",
+      "file": "assets/sfx/jianying-20260915/08-打字声.wav",
+      "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+      "actions": [
+        "W01"
+      ],
+      "anchor": "interval",
+      "useWhen": "匹配完整的实际输入区间和停顿，停字即停声；长段输入不能只在开头响一小截，素材不足须处理衔接后随画面试听",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "08-打字声.mp3",
+      "sourceSha256": "31fef1615e1ded4d57c81f0945e412cccbf0c2a5358f8cb62efd02c6626ac607",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/08-打字声.mp3",
+      "originalSha256": "31fef1615e1ded4d57c81f0945e412cccbf0c2a5358f8cb62efd02c6626ac607"
+    },
+    {
+      "id": "SFX09",
+      "label": "点击",
+      "file": "assets/sfx/jianying-20260915/09-鼠标单击.wav",
+      "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+      "actions": [
+        "click",
+        "search-select"
+      ],
+      "anchor": "contact",
+      "useWhen": "真实点击或选择瞬间，不随光标移动连响",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "09-鼠标单击.mp3",
+      "sourceSha256": "dbafeebc3f7297dabd5f72f27f01ecc005023a34c488b62952029798d3220cec",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/09-鼠标单击.mp3",
+      "originalSha256": "dbafeebc3f7297dabd5f72f27f01ecc005023a34c488b62952029798d3220cec"
+    },
+    {
+      "id": "SFX11",
+      "label": "弹簧",
+      "file": "assets/sfx/jianying-20260915/11-卡通弹簧音2.wav",
+      "sha256": "365effeaf0b54816f973a00f308f14b71cd6d2bb8769d67536cbe2d9c26afe23",
+      "actions": [
+        "T01",
+        "T03"
+      ],
+      "anchor": "rebound",
+      "useWhen": "明显弹性回弹才采用，非所有缩放",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "11-卡通弹簧音2.mp3",
+      "sourceSha256": "f99403e674396f22e22f417f4ace9543ce46498ba2f04cf6bcdc9bff692a0846",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/11-卡通弹簧音2.mp3",
+      "originalSha256": "f99403e674396f22e22f417f4ace9543ce46498ba2f04cf6bcdc9bff692a0846"
+    },
+    {
+      "id": "SFX13",
+      "label": "滑动",
+      "file": "assets/sfx/jianying-20260915/13-左右滑动.wav",
+      "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+      "actions": [
+        "T02",
+        "T05",
+        "T08",
+        "W04"
+      ],
+      "anchor": "move-start",
+      "useWhen": "对象让位、图卡展开或整组文字上卷",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -12.7,
+        "limiterNeeded": false
+      },
+      "originalName": "13-左右滑动.mp3",
+      "sourceSha256": "87accf38b4a17cf074791fd082e0275bc3b7dc55e894b02d7bbd4086ff9477a4",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/13-左右滑动.mp3",
+      "originalSha256": "87accf38b4a17cf074791fd082e0275bc3b7dc55e894b02d7bbd4086ff9477a4"
+    },
+    {
+      "id": "SFX15",
+      "label": "消息",
+      "file": "assets/sfx/jianying-20260915/15-消息提示声.wav",
+      "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+      "actions": [
+        "W04",
+        "reply-enter"
+      ],
+      "anchor": "reveal",
+      "useWhen": "新回复进入，非旧文字上卷全过程",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "15-消息提示声.mp3",
+      "sourceSha256": "8f689d00408588169206981ff1f2eb27c87521674278ca6dfee77898971a264e",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/15-消息提示声.mp3",
+      "originalSha256": "8f689d00408588169206981ff1f2eb27c87521674278ca6dfee77898971a264e"
+    },
+    {
+      "id": "SFX16",
+      "label": "收线",
+      "file": "assets/sfx/jianying-20260915/16-收线.wav",
+      "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+      "actions": [
+        "T09",
+        "line-collapse"
+      ],
+      "anchor": "move-start",
+      "useWhen": "多对象聚拢或关系线回收，拟物备选",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.6,
+        "limiterNeeded": false
+      },
+      "originalName": "16-收线.mp3",
+      "sourceSha256": "56453fb6574b378a8ca79b3e9b68bde55ce4af9a041b559be3900a21302ec444",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/16-收线.mp3",
+      "originalSha256": "56453fb6574b378a8ca79b3e9b68bde55ce4af9a041b559be3900a21302ec444"
+    },
+    {
+      "id": "SFX18",
+      "label": "快门",
+      "file": "assets/sfx/jianying-20260915/18-相机拍照快门声音.wav",
+      "sha256": "8ce8d5ab1ff16d4b33cfb1e46b2d8a6d1437433465fb2a10e3f37c7d2c71a15f",
+      "actions": [
+        "photo-freeze"
+      ],
+      "anchor": "contact",
+      "useWhen": "拍照、截图或照片定格，不给每次换图加快门",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "18-相机拍照快门声音.mp3",
+      "sourceSha256": "59db254aed67cad80e03a92eb134f5a53de476fde618773917f842677fddd8d4",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/18-相机拍照快门声音.mp3",
+      "originalSha256": "59db254aed67cad80e03a92eb134f5a53de476fde618773917f842677fddd8d4"
+    },
+    {
+      "id": "SFX19",
+      "label": "滚动",
+      "file": "assets/sfx/jianying-20260915/滚动.wav",
+      "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+      "actions": [
+        "number-scroll",
+        "metric-scroll"
+      ],
+      "anchor": "interval",
+      "useWhen": "仅用于数字实际滚动的区间；文档、列表和内容上移不使用，一般数值变化或落定不自动使用",
+      "defaultVolume": 0.5,
+      "bakedGainDb": 8,
+      "qc": {
+        "truePeakDbFS": -1.0,
+        "limiterNeeded": true
+      },
+      "originalName": "滚动.mp3",
+      "sourceSha256": "f2057ad17a4a97f2bf3e5e10a19cde64c50197ce65bff3cc0a7092399ea23783",
+      "selection": "user-authorized-library",
+      "bindingStatus": "suggested-not-mix-auditioned",
+      "originalFile": "assets/sfx/jianying-20260915/originals/滚动.mp3",
+      "originalSha256": "f2057ad17a4a97f2bf3e5e10a19cde64c50197ce65bff3cc0a7092399ea23783"
+    }
+  ]
+}

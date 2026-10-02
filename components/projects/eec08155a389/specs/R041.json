@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "id": "R041",
+  "title": "三张竖卡错落展开",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 360,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/07_7654560132797435151_第101期_用短剧的方式带货有搞头么_把AI短剧和AI带货结合到一起-玩点抽象的_#挑战用ai做100件事_#青年创作者成长计划_#ai创作浪潮计划_#AI短.mp4",
+    "referenceStart": 110,
+    "referenceEnd": 116,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/07_7654560132797435151_第101期_用短剧的方式带货有搞头么_把AI短剧和AI带货结合到一起-玩点抽象的_#挑战用ai做100件事_#青年创作者成长计划_#ai创作浪潮计划_#AI短.mp4",
+        "sha256": "49f812d9b1d49b0c72e85ea56f464850501c9ebe7c3c38e6ed3541913f63fc7b",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 201.866667,
+        "start": 110,
+        "end": 116
+      }
+    ],
+    "totalSelectedDuration": 6,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 360,
+        "sourceAsset": 0,
+        "sourceStartPTS": 110,
+        "sourceEndPTS": 116.0,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/faithful",
+    "compositionId": "Motion041",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [],
+  "objects": {
+    "cards": {
+      "x": [
+        43,
+        671,
+        1299
+      ],
+      "y": 27,
+      "width": 578,
+      "height": 1026,
+      "radius": 58
+    }
+  },
+  "tracks": {
+    "card0": {
+      "domain": "outputFrame",
+      "fields": [
+        "top",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          1080,
+          1
+        ],
+        [
+          34,
+          1080,
+          1
+        ],
+        [
+          36,
+          892,
+          1
+        ],
+        [
+          38,
+          602,
+          1
+        ],
+        [
+          40,
+          312,
+          1
+        ],
+        [
+          42,
+          152,
+          1
+        ],
+        [
+          44,
+          72,
+          1
+        ],
+        [
+          46,
+          36,
+          1
+        ],
+        [
+          48,
+          26,
+          1
+        ],
+        [
+          50,
+          26,
+          1
+        ],
+        [
+          52,
+          26,
+          1
+        ],
+        [
+          54,
+          26,
+          1
+        ],
+        [
+          56,
+          26,
+          1
+        ],
+        [
+          58,
+          26,
+          1
+        ],
+        [
+          60,
+          26,
+          1
+        ],
+        [
+          62,
+          26,
+          1
+        ],
+        [
+          64,
+          26,
+          1
+        ],
+        [
+          284,
+          26,
+          1
+        ],
+        [
+          286,
+          26,
+          0.9174422248620758
+        ],
+        [
+          288,
+          26,
+          0.8299578028320932
+        ],
+        [
+          290,
+          26,
+          0.7516780479983676
+        ],
+        [
+          292,
+          26,
+          0.661533528164241
+        ],
+        [
+          294,
+          26,
+          0.579464044952009
+        ],
+        [
+          296,
+          26,
+          0.4930072223477368
+        ],
+        [
+          298,
+          26,
+          0.4146108604869801
+        ],
+        [
+          300,
+          26,
+          0.33227172352473894
+        ],
+        [
+          302,
+          26,
+          0.24279769409604046
+        ],
+        [
+          304,
+          26,
+          0.163534067471741
+        ],
+        [
+          306,
+          26,
+          0.07791535787425391
+        ],
+        [
+          308,
+          26,
+          0
+        ],
+        [
+          359,
+          26,
+          0
+        ]
+      ],
+      "evidence": "native-measurements.json; opacity uses normalized dark energy, source media change can affect estimates"
+    },
+    "card1": {
+      "domain": "outputFrame",
+      "fields": [
+        "top",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          1080,
+          1
+        ],
+        [
+          42,
+          1080,
+          1
+        ],
+        [
+          44,
+          892,
+          1
+        ],
+        [
+          46,
+          602,
+          1
+        ],
+        [
+          48,
+          312,
+          1
+        ],
+        [
+          50,
+          152,
+          1
+        ],
+        [
+          52,
+          72,
+          1
+        ],
+        [
+          54,
+          36,
+          1
+        ],
+        [
+          56,
+          26,
+          1
+        ],
+        [
+          58,
+          26,
+          1
+        ],
+        [
+          60,
+          26,
+          1
+        ],
+        [
+          62,
+          26,
+          1
+        ],
+        [
+          64,
+          26,
+          1
+        ],
+        [
+          294,
+          26,
+          1
+        ],
+        [
+          296,
+          26,
+          0.9101791894081661
+        ],
+        [
+          298,
+          26,
+          0.8341006299578562
+        ],
+        [
+          300,
+          26,
+          0.7555097759661342
+        ],
+        [
+          302,
+          26,
+          0.6790041264437842
+        ],
+        [
+          304,
+          26,
+          0.5984976478642355
+        ],
+        [
+          306,
+          26,
+          0.5190274907830194
+        ],
+        [
+          308,
+          26,
+          0.4469686025989687
+        ],
+        [
+          310,
+          26,
+          0.36975322986866976
+        ],
+        [
+          312,
+          26,
+          0.2989630504280322
+        ],
+        [
+          314,
+          26,
+          0.2261567546179114
+        ],
+        [
+          316,
+          26,
+          0.15114592034770155
+        ],
+        [
+          318,
+          26,
+          0.07109165478560707
+        ],
+        [
+          320,
+          26,
+          0
+        ],
+        [
+          359,
+          26,
+          0
+        ]
+      ],
+      "evidence": "native-measurements.json; opacity uses normalized dark energy, source media change can affect estimates"
+    },
+    "card2": {
+      "domain": "outputFrame",
+      "fields": [
+        "top",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          1080,
+          1
+        ],
+        [
+          50,
+          1080,
+          1
+        ],
+        [
+          52,
+          892,
+          1
+        ],
+        [
+          54,
+          602,
+          1
+        ],
+        [
+          56,
+          312,
+          1
+        ],
+        [
+          58,
+          152,
+          1
+        ],
+        [
+          60,
+          72,
+          1
+        ],
+        [
+          62,
+          36,
+          1
+        ],
+        [
+          64,
+          26,
+          1
+        ],
+        [
+          304,
+          26,
+          1
+        ],
+        [
+          306,
+          26,
+          0.9174709721836066
+        ],
+        [
+          308,
+          26,
+          0.8412506123313604
+        ],
+        [
+          310,
+          26,
+          0.7608399200328341
+        ],
+        [
+          312,
+          26,
+          0.6894255338867484
+        ],
+        [
+          314,
+          26,
+          0.6114707868292489
+        ],
+        [
+          316,
+          26,
+          0.5364684698997763
+        ],
+        [
+          318,
+          26,
+          0.4554024175504097
+        ],
+        [
+          320,
+          26,
+          0.3817240603196039
+        ],
+        [
+          322,
+          26,
+          0.30008870529981063
+        ],
+        [
+          324,
+          26,
+          0.22503342998239131
+        ],
+        [
+          326,
+          26,
+          0.14496696720551827
+        ],
+        [
+          328,
+          26,
+          0.07340032569408586
+        ],
+        [
+          330,
+          26,
+          0
+        ],
+        [
+          359,
+          26,
+          0
+        ]
+      ],
+      "evidence": "native-measurements.json; opacity uses normalized dark energy, source media change can affect estimates"
+    },
+    "backdropOpacity": {
+      "domain": "outputFrame",
+      "fields": [
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          1.0
+        ],
+        [
+          1,
+          1.0
+        ],
+        [
+          2,
+          0.9328
+        ],
+        [
+          3,
+          0.9328
+        ],
+        [
+          4,
+          0.8613
+        ],
+        [
+          5,
+          0.8613
+        ],
+        [
+          6,
+          0.7941
+        ],
+        [
+          7,
+          0.7941
+        ],
+        [
+          8,
+          0.7213
+        ],
+        [
+          9,
+          0.7213
+        ],
+        [
+          10,
+          0.6471
+        ],
+        [
+          11,
+          0.6471
+        ],
+        [
+          12,
+          0.5812
+        ],
+        [
+          13,
+          0.5812
+        ],
+        [
+          14,
+          0.5056
+        ],
+        [
+          15,
+          0.5056
+        ],
+        [
+          16,
+          0.4328
+        ],
+        [
+          17,
+          0.4328
+        ],
+        [
+          18,
+          0.3599
+        ],
+        [
+          19,
+          0.3599
+        ],
+        [
+          20,
+          0.2871
+        ],
+        [
+          21,
+          0.2871
+        ],
+        [
+          22,
+          0.2199
+        ],
+        [
+          23,
+          0.2199
+        ],
+        [
+          24,
+          0.1499
+        ],
+        [
+          25,
+          0.1499
+        ],
+        [
+          26,
+          0.0798
+        ],
+        [
+          27,
+          0.0798
+        ],
+        [
+          28,
+          0.0084
+        ],
+        [
+          29,
+          0.0084
+        ],
+        [
+          30,
+          0.0084
+        ],
+        [
+          31,
+          0.0084
+        ],
+        [
+          32,
+          0.0084
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          360,
+          0
+        ]
+      ],
+      "evidence": "operations/takeover-r/R041-0/sheet.jpg; native60fps dark-shirt ROI tenth percentile relative to white. Source visible through26, near-white28; replaces premature completion23.4."
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R041/review.md",
+    "fontComparison": "analysis/R041/font-policy.md",
+    "nativeFrameMeasurements": "analysis/R041/native-measurements.json"
+  },
+  "knownIssues": [
+    "当前0.55秒第一张卡已经进入，参考110.55秒近乎空场；当前1.09秒右卡仍半入，参考111.09秒三卡已完整建立。需校准起点、错峰间隔与进入速度。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "a09396d1f51c2660feab25671fdd50adda16c7e038928a6850e34e7a75908650"
+    },
+    "v2": {
+      "sha256": "4d5d1ca6ea1037e43cb7a71d3823c53aa20c260afaba51d7fb4d436354f52860",
+      "path": "baseline/v2/videos/R041/4d5d1ca6ea1037e43cb7a71d3823c53aa20c260afaba51d7fb4d436354f52860.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "fontPolicy": {
+    "noTextReason": "No reconstructed overlay type in selected output; embedded Fred media type preserved."
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

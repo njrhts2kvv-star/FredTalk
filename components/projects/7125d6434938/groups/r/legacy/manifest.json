@@ -1,0 +1,304 @@
+{
+  "pages": [
+    {
+      "id": "ac3434a0-f4af-49ed-8bfb-6d25d4963112",
+      "episodeId": "library-7678716575964204326",
+      "start": 0,
+      "end": 2.958264,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 00:00–00:03",
+      "notes": "",
+      "compositionId": "Library120-Calendar",
+      "durationInFrames": 177,
+      "audio": "audio-0.wav",
+      "sourceBeatIds": [
+        "ac3434a0-f4af-49ed-8bfb-6d25d4963112"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-Calendar"
+    },
+    {
+      "id": "23af11e6-b65c-4f48-b7ca-e6e902531a53",
+      "episodeId": "library-7678716575964204326",
+      "start": 14.55,
+      "end": 67.79756126431414,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 00:15–01:08",
+      "notes": "",
+      "compositionId": "Library120-LongSelection",
+      "durationInFrames": 810,
+      "audio": "audio-1.wav",
+      "sourceBeatIds": [
+        "23af11e6-b65c-4f48-b7ca-e6e902531a53"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-LongSelection"
+    },
+    {
+      "id": "0504f58a-a61b-4d1f-a26a-bcc863f4615b",
+      "episodeId": "library-7678716575964204326",
+      "start": 14.55,
+      "end": 21.65,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 00:15–00:22",
+      "notes": "",
+      "compositionId": "Library120-FeatureText",
+      "durationInFrames": 426,
+      "audio": "audio-2.wav",
+      "sourceBeatIds": [
+        "0504f58a-a61b-4d1f-a26a-bcc863f4615b"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-FeatureText"
+    },
+    {
+      "id": "dbb3175d-cde4-4eb8-b90e-d9ada24e2cf6",
+      "episodeId": "library-7678716575964204326",
+      "start": 22.3,
+      "end": 28.019491,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 00:22–00:28",
+      "notes": "",
+      "compositionId": "Library120-VersionUpgrade",
+      "durationInFrames": 343,
+      "audio": "audio-3.wav",
+      "sourceBeatIds": [
+        "dbb3175d-cde4-4eb8-b90e-d9ada24e2cf6"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-VersionUpgrade"
+    },
+    {
+      "id": "9ec7a56e-7b23-40c0-a3a5-98f35c4b96cd",
+      "episodeId": "library-7678716575964204326",
+      "start": 176.61667,
+      "end": 186.083337,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 02:57–03:06",
+      "notes": "",
+      "compositionId": "Library120-ReferenceCount",
+      "durationInFrames": 568,
+      "audio": "audio-4.wav",
+      "sourceBeatIds": [
+        "9ec7a56e-7b23-40c0-a3a5-98f35c4b96cd"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-ReferenceCount"
+    },
+    {
+      "id": "173a45be-51d7-4692-9c58-ff1fff20cad7",
+      "episodeId": "library-7678716575964204326",
+      "start": 190.733337,
+      "end": 204.433337,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 03:11–03:24",
+      "notes": "",
+      "compositionId": "Library120-UnifiedEncoder",
+      "durationInFrames": 822,
+      "audio": "audio-5.wav",
+      "sourceBeatIds": [
+        "173a45be-51d7-4692-9c58-ff1fff20cad7"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-UnifiedEncoder"
+    },
+    {
+      "id": "817a244b-feed-41fa-9117-4273751d3292",
+      "episodeId": "library-7678716575964204326",
+      "start": 281.333338,
+      "end": 313.100006,
+      "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度 · 04:41–05:13",
+      "notes": "",
+      "compositionId": "Library120-MediaMontage",
+      "durationInFrames": 360,
+      "audio": "audio-6.wav",
+      "sourceBeatIds": [
+        "817a244b-feed-41fa-9117-4273751d3292"
+      ],
+      "source": {
+        "id": "library-7678716575964204326",
+        "title": "｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "filename": "04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "duration": 476.868005,
+        "fps": 60.0,
+        "width": 2560,
+        "height": 1440,
+        "codec": "hevc",
+        "url": "/media/library-7678716575964204326",
+        "poster": "/posters/library-7678716575964204326.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7678716575964204326"
+      },
+      "stableId": "Library120-MediaMontage"
+    },
+    {
+      "id": "c03414b0-3856-498c-83ea-bed93c9646a0",
+      "episodeId": "library-7673448530215832886",
+      "start": 12.5,
+      "end": 37.732794,
+      "title": "第119期 用TraeWork做个小程序 · 00:13–00:38",
+      "notes": "整个镜头变化特别好",
+      "compositionId": "Library119-CameraShowcase",
+      "durationInFrames": 1514,
+      "audio": "audio-7.wav",
+      "sourceBeatIds": [
+        "c03414b0-3856-498c-83ea-bed93c9646a0"
+      ],
+      "source": {
+        "id": "library-7673448530215832886",
+        "title": "第119期 用TraeWork做个小程序",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "filename": "06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "sha256": "048fca647789110f9990840f50d2fc2d098a57b4111377fc1a1fdf4df1bfdbdd",
+        "duration": 288.1,
+        "fps": 30.0,
+        "width": 1920,
+        "height": 1080,
+        "codec": "hevc",
+        "url": "/media/library-7673448530215832886",
+        "poster": "/posters/library-7673448530215832886.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7673448530215832886"
+      },
+      "stableId": "Library119-CameraShowcase"
+    },
+    {
+      "id": "4de0605b-175c-465a-8fcf-72b0248dd5df",
+      "episodeId": "library-7673448530215832886",
+      "start": 45.466667,
+      "end": 49.163529,
+      "title": "第119期 用TraeWork做个小程序 · 00:45–00:49",
+      "notes": "",
+      "compositionId": "Library119-TraeWork",
+      "durationInFrames": 222,
+      "audio": "audio-8.wav",
+      "sourceBeatIds": [
+        "4de0605b-175c-465a-8fcf-72b0248dd5df"
+      ],
+      "source": {
+        "id": "library-7673448530215832886",
+        "title": "第119期 用TraeWork做个小程序",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "filename": "06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "sha256": "048fca647789110f9990840f50d2fc2d098a57b4111377fc1a1fdf4df1bfdbdd",
+        "duration": 288.1,
+        "fps": 30.0,
+        "width": 1920,
+        "height": 1080,
+        "codec": "hevc",
+        "url": "/media/library-7673448530215832886",
+        "poster": "/posters/library-7673448530215832886.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7673448530215832886"
+      },
+      "stableId": "Library119-TraeWork"
+    },
+    {
+      "id": "6334542f-e954-4424-bb26-80781f01b5a8",
+      "episodeId": "library-7673448530215832886",
+      "start": 56.066667,
+      "end": 88.334954,
+      "title": "第119期 用TraeWork做个小程序 · 00:56–01:28",
+      "notes": "",
+      "compositionId": "Library119-PhoneWorkflow",
+      "durationInFrames": 1936,
+      "audio": "audio-9.wav",
+      "sourceBeatIds": [
+        "6334542f-e954-4424-bb26-80781f01b5a8"
+      ],
+      "source": {
+        "id": "library-7673448530215832886",
+        "title": "第119期 用TraeWork做个小程序",
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "filename": "06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "sha256": "048fca647789110f9990840f50d2fc2d098a57b4111377fc1a1fdf4df1bfdbdd",
+        "duration": 288.1,
+        "fps": 30.0,
+        "width": 1920,
+        "height": 1080,
+        "codec": "hevc",
+        "url": "/media/library-7673448530215832886",
+        "poster": "/posters/library-7673448530215832886.jpg",
+        "sourceUrl": "https://www.douyin.com/video/7673448530215832886"
+      },
+      "stableId": "Library119-PhoneWorkflow"
+    }
+  ]
+}

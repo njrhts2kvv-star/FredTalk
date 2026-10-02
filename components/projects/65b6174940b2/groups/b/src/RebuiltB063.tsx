@@ -1,0 +1,14 @@
+import {FiveFontFace} from "../../../five-fonts.ts";
+import React,{useEffect,useState} from 'react';
+import {AbsoluteFill,Img,staticFile,delayRender,continueRender,cancelRender} from 'remotion';
+import data from '../../../specs/B063.json';import {measured,type ClipSpec} from '../../../runtime/clip-spec';
+export function RebuiltB063({frame,proof=false}:{frame:number;proof?:boolean}){
+ const spec=data as unknown as ClipSpec;const font=data.fonts[0];const [handle]=useState(()=>delayRender('B063 measured headline'));const [ascent,setAscent]=useState(148);
+ useEffect(()=>{new FiveFontFace(font.family,`url(${staticFile(font.file)})`,{weight:font.weight}).load().then(face=>{document.fonts.add(face);const c=document.createElement('canvas').getContext('2d')!;c.font=`${font.fontSize}px ${font.family}`;setAscent(c.measureText('天').actualBoundingBoxAscent);continueRender(handle)}).catch(cancelRender)},[handle,font]);
+ const words=proof?data.content.referenceText:data.content.text;const [wx,wy,ww,wh]=measured(spec,'nextWindow',frame);const win=data.objects.nextWindow;
+ return <AbsoluteFill style={{background:'#fff',overflow:'hidden'}}>
+ <AbsoluteFill style={{filter:`blur(${measured(spec,'blur',frame)[0]}px)`}}>{data.content.media.map((src,i)=>{const [x,y,w,h,opacity]=measured(spec,`page${i}`,frame);return <div key={i} style={{position:'absolute',left:x,top:y,width:w,height:h,opacity,borderRadius:data.objects.pages.radius,overflow:'hidden',boxShadow:data.objects.pages.shadow,zIndex:data.objects.pages.zIndex[i]}}><Img src={staticFile(proof?data.objects.pages.proofFiles[i]:src)} style={{width:'100%',height:'100%',objectFit:'cover'}}/></div>})}</AbsoluteFill>
+ <svg width={1920} height={1080} style={{position:'absolute',inset:0,overflow:'visible'}}>{words.map((word,i)=>{const [top,scale,opacity]=measured(spec,`label${i}`,frame);const center=data.objects.labels.centers[i];return <text key={i} x={center} y={top+ascent*scale} textAnchor="middle" opacity={opacity} fill={proof?'#c8dc68':data.content.accent} style={{fontFamily:font.family,fontWeight:400,fontSynthesis:'none',fontSize:font.fontSize*scale,letterSpacing:font.letterSpacing*scale,filter:'drop-shadow(9px 11px 7px #0008)'}}>{word}</text>})}</svg>
+ <div style={{position:'absolute',left:wx,top:wy,width:ww,height:wh,borderRadius:win.radius,overflow:'hidden',background:win.background,boxShadow:'44px 12px 24px #0005'}}><div style={{height:win.headerHeight,background:win.headerBackground}}/>{win.dots.map((dot,i)=><div key={i} style={{position:'absolute',left:dot.x-dot.diameter/2,top:dot.y-dot.diameter/2,width:dot.diameter,height:dot.diameter,borderRadius:'50%',background:dot.color}}/>)}</div>
+ </AbsoluteFill>
+}

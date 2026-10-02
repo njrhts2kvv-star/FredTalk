@@ -1,0 +1,78 @@
+{
+  "pages": [
+    {
+      "stableId": "ep87-part-04",
+      "sourceBeatIds": [
+        "chapter-4"
+      ],
+      "kind": "drag",
+      "exactScreenWords": [
+        "Part.04",
+        "生成讲评课"
+      ],
+      "title": "生成讲评课",
+      "label": "Part.04",
+      "width": 1120,
+      "titleSize": 152,
+      "labelSize": 96,
+      "durationInFrames": 120,
+      "finalHoldFrames": 72,
+      "settleFrame": 48,
+      "scriptAnchor": "我把全班错误率最高的题、对应知识点",
+      "oneQuestion": "生成讲评课",
+      "layoutFamily": "drag",
+      "majorGeometry": "left aligned title in centered stage",
+      "readingOrder": [
+        "Part.04",
+        "生成讲评课"
+      ],
+      "visualCenter": "chapter title",
+      "styleTrack": "fred-type",
+      "mediaRole": "typography",
+      "referenceImages": [
+        {
+          "path": "[LOCAL_PATH]",
+          "responsibility": "source layout and ending, except user requested adjustments"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "[LOCAL_PATH]",
+        "checksum": "sha256:586bdd1c8e2f17f4dc617b14a3dbf1277282c6c708cfba125730333fe61031b6"
+      },
+      "typographyRoles": [
+        {
+          "role": "chapter",
+          "text": "Part.04",
+          "sizeClass": "MiSans Medium500"
+        },
+        {
+          "role": "title",
+          "text": "生成讲评课",
+          "sizeClass": "MiSans Bold700 Chinese / Semibold600 Latin"
+        }
+      ],
+      "connectorType": "none",
+      "pathTopology": "straight reveal",
+      "spokenOrder": [
+        "chapter-4"
+      ],
+      "timingSource": "approved-manual-cue",
+      "motionEvents": [
+        {
+          "sourceBeatId": "chapter-4",
+          "event": "reference motion rebuilt at requested faster timing",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "chapter-4",
+          "event": "stable final hold",
+          "cueFrame": 48
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "drag",
+      "implementationComponentId": "Transition",
+      "background": "black"
+    }
+  ]
+}

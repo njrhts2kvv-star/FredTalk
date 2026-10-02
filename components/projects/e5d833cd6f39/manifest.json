@@ -1,0 +1,2667 @@
+{
+  "episodeKey": "episode-99-jev-fast-decision-model",
+  "scope": "S13-S21 final audio v07 only",
+  "derivedFrom": {
+    "path": "[LOCAL_PATH]",
+    "sha256": "783ba56bf2717e3c8f7a00480d08f4caecd0c2bf1284752187f7d78cfc9b8645"
+  },
+  "timelineFps": 60,
+  "timingStatus": "audio-aligned",
+  "timingEvidence": "最终音频.WAV and 最终音频.srt; explicit per-phrase visualClock and sourceMapping",
+  "clockContract": {
+    "mode": "scene-local",
+    "sourceRule": "Each separate composition receives one page and useCurrentFrame is local. Global narration offset stays in globalVoiceStartFrame."
+  },
+  "durationInFrames": 5190,
+  "script": {
+    "path": "script.txt",
+    "sha256": "62f54290c5470392ac4c1fb2d313596247d65fcfb2e3eebb8e00d80e497a0026"
+  },
+  "parts": [
+    {
+      "id": "s13-waiting-list",
+      "startFrame": 0,
+      "endFrameExclusive": 772
+    },
+    {
+      "id": "s14-install-skill",
+      "startFrame": 772,
+      "endFrameExclusive": 1664
+    },
+    {
+      "id": "s15-use-case-selection",
+      "startFrame": 1664,
+      "endFrameExclusive": 2394
+    },
+    {
+      "id": "s16-task-fit",
+      "startFrame": 2394,
+      "endFrameExclusive": 2836
+    },
+    {
+      "id": "s17-head-to-head",
+      "startFrame": 2836,
+      "endFrameExclusive": 3154
+    },
+    {
+      "id": "s18-benchmark-result",
+      "startFrame": 3154,
+      "endFrameExclusive": 3854
+    },
+    {
+      "id": "s19-browser-use-demo",
+      "startFrame": 3854,
+      "endFrameExclusive": 4290
+    },
+    {
+      "id": "s20-not-replacement",
+      "startFrame": 4290,
+      "endFrameExclusive": 4746
+    },
+    {
+      "id": "s21-final-routing",
+      "startFrame": 4746,
+      "endFrameExclusive": 5190
+    }
+  ],
+  "pages": [
+    {
+      "stableId": "s13-waiting-list",
+      "segmentNumber": 13,
+      "startFrame": 0,
+      "globalVoiceStartFrame": 7116,
+      "durationInFrames": 772,
+      "sourceBeatIds": [
+        "srt-072",
+        "srt-073",
+        "srt-074",
+        "srt-075",
+        "srt-076",
+        "srt-077",
+        "srt-078",
+        "srt-079"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 0,
+          "endChar": 94,
+          "text": "第二部分啊\n就怎么用Jev呢\n我们首先打开这个typesafe官网\n右上角去申请加入waiting list\n大概一个小时左右\n就会给你发邮件去通过\n通过之后呢\n就可以选择注册登录进入后台"
+        }
+      ],
+      "scriptAnchor": "第二部分啊\n就怎么用Jev呢\n我们首先打开这个typesafe官网\n右上角去申请加入waiting list\n大概一个小时左右\n就会给你发邮件去通过\n通过之后呢\n就可以选择注册登录进入后台",
+      "exactScreenWords": [
+        "Part.02",
+        "怎么用 Jev"
+      ],
+      "oneQuestion": "章节入场承接电脑接管；真实操作1x，官网与邮件用短聚焦承接阅读",
+      "visualPlan": {
+        "enter": "电脑进入保持原设计，官网cue处24帧完成推近全屏",
+        "change": "章节入场承接电脑接管；真实操作1x，官网与邮件用短聚焦承接阅读",
+        "read": "真实Waitlist、邮件、注册后台按口播推进",
+        "exit": "后台6.25秒交接S14",
+        "handoff": "右上角标固定，录屏保持同一几何"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按本期真实内容适配；动作锚点不是新片认可",
+        "anchors": [
+          "EP98 S03 Ep95Monitor: same media screen takeover"
+        ],
+        "styleContract": {
+          "surface": "白舞台、克制圆角、轻阴影，非装饰性UI",
+          "typography": "MiSans Medium500/Semibold600，章标题Bold700；无碎小字",
+          "geometry": "保留原始比例；Waitlist停留无隐私的输入前状态，邮件用已遮蔽真画面",
+          "motion": "按官网、Waitlist、邮件、注册四阶段推进；屏幕在114–186帧接管1920×1080，源片不重播",
+          "camera": "电脑承载真实Typesafe官网，屏幕1404×790、中心960/480",
+          "mediaBehavior": "S14继续同一install-safe.mp4从6.25秒开始"
+        },
+        "newElements": [
+          "电脑承载真实Typesafe官网，屏幕1404×790、中心960/480"
+        ],
+        "risks": [
+          "保留原始比例；Waitlist停留无隐私的输入前状态，邮件用已遮蔽真画面",
+          "S14继续同一install-safe.mp4从6.25秒开始"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "install-authorized-v02.mp4",
+          "path": "public/media/install-authorized-v02.mp4",
+          "sha256": "ada68af6fc15744447d65d59d7f5f8b0c564e1f2c70574045db936e8fedcbe84",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              0
+            ],
+            [
+              132,
+              0
+            ],
+            [
+              192,
+              1
+            ],
+            [
+              258,
+              1
+            ],
+            [
+              402,
+              3.4
+            ],
+            [
+              438,
+              3.4
+            ],
+            [
+              498,
+              4.4
+            ],
+            [
+              620,
+              4.4
+            ],
+            [
+              731,
+              6.25
+            ],
+            [
+              772,
+              6.25
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "explicit-proportional-crop-top-anchored",
+          "sourceAudio": "muted",
+          "crop": {
+            "sourceWidth": 3836,
+            "sourceHeight": 2160,
+            "sideInset": "66/74/132 source pixels by source shot",
+            "targetAspect": "16:9",
+            "reviewStatus": "keyframes-reviewed-full-motion-pending",
+            "verticalAnchor": "top except source input/dialog intervals; then bottom"
+          },
+          "frameSelection": "Piecewise Sequence with constant startFrom and playbackRate per interval; Freeze(0) only for source holds"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-072",
+          "sourceBeatId": "srt-072",
+          "spokenCue": "第二部分啊",
+          "cueFrame": 0,
+          "event": "电脑进入保持原设计，官网cue处24帧完成推近全屏"
+        },
+        {
+          "id": "srt-073",
+          "sourceBeatId": "srt-073",
+          "spokenCue": "就怎么用Jev呢",
+          "cueFrame": 50,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        },
+        {
+          "id": "srt-074",
+          "sourceBeatId": "srt-074",
+          "spokenCue": "我们首先打开这个typesafe官网",
+          "cueFrame": 132,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        },
+        {
+          "id": "srt-075",
+          "sourceBeatId": "srt-075",
+          "spokenCue": "右上角去申请加入waiting list",
+          "cueFrame": 258,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        },
+        {
+          "id": "srt-076",
+          "sourceBeatId": "srt-076",
+          "spokenCue": "大概一个小时左右",
+          "cueFrame": 396,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        },
+        {
+          "id": "srt-077",
+          "sourceBeatId": "srt-077",
+          "spokenCue": "就会给你发邮件去通过",
+          "cueFrame": 458,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        },
+        {
+          "id": "srt-078",
+          "sourceBeatId": "srt-078",
+          "spokenCue": "通过之后呢",
+          "cueFrame": 576,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        },
+        {
+          "id": "srt-079",
+          "sourceBeatId": "srt-079",
+          "spokenCue": "就可以选择注册登录进入后台",
+          "cueFrame": 620,
+          "event": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-072",
+          "start": 7116,
+          "end": 7166,
+          "startFrame": 0,
+          "endFrame": 50,
+          "text": "第二部分啊"
+        },
+        {
+          "id": "srt-073",
+          "start": 7166,
+          "end": 7248,
+          "startFrame": 50,
+          "endFrame": 132,
+          "text": "就怎么用Jev呢"
+        },
+        {
+          "id": "srt-074",
+          "start": 7248,
+          "end": 7374,
+          "startFrame": 132,
+          "endFrame": 258,
+          "text": "我们首先打开这个typesafe官网"
+        },
+        {
+          "id": "srt-075",
+          "start": 7374,
+          "end": 7502,
+          "startFrame": 258,
+          "endFrame": 386,
+          "text": "右上角去申请加入waiting list"
+        },
+        {
+          "id": "srt-076",
+          "start": 7512,
+          "end": 7574,
+          "startFrame": 396,
+          "endFrame": 458,
+          "text": "大概一个小时左右"
+        },
+        {
+          "id": "srt-077",
+          "start": 7574,
+          "end": 7672,
+          "startFrame": 458,
+          "endFrame": 556,
+          "text": "就会给你发邮件去通过"
+        },
+        {
+          "id": "srt-078",
+          "start": 7692,
+          "end": 7736,
+          "startFrame": 576,
+          "endFrame": 620,
+          "text": "通过之后呢"
+        },
+        {
+          "id": "srt-079",
+          "start": 7736,
+          "end": 7888,
+          "startFrame": 620,
+          "endFrame": 772,
+          "text": "就可以选择注册登录进入后台"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          0
+        ],
+        [
+          132,
+          0
+        ],
+        [
+          192,
+          1
+        ],
+        [
+          258,
+          1
+        ],
+        [
+          402,
+          3.4
+        ],
+        [
+          438,
+          3.4
+        ],
+        [
+          498,
+          4.4
+        ],
+        [
+          620,
+          4.4
+        ],
+        [
+          731,
+          6.25
+        ],
+        [
+          772,
+          6.25
+        ]
+      ],
+      "mediaFile": "install-authorized-v02.mp4",
+      "sounds": [
+        {
+          "file": "sfx/04-Woosh.wav",
+          "start": 132,
+          "frames": 42,
+          "volume": 0.18
+        }
+      ],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "media-layout",
+          "device-frame",
+          "brand-corner",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "ed808deadbdbc784b6d32ca7dcb4d0772439fbce4d68918526739f9dbc0150fd",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "源操作以1倍速度播放，等候阅读停稳，取消0.2–0.3倍慢放",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "只保护真实凭据，普通邮箱恢复；核对官网操作与角标不重叠",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "只保护真实凭据，普通邮箱恢复；核对官网操作与角标不重叠",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "只保护真实凭据，普通邮箱恢复；核对官网操作与角标不重叠",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "保留原始比例；Waitlist停留无隐私的输入前状态，邮件用已遮蔽真画面",
+            "check": "稳定态同字阶与无无关UI"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S14继续同一install-safe.mp4从6.25秒开始",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "稀疏交接声，口播0.93，无BGM",
+            "check": "最终混音峰值和声画落点"
+          }
+        ]
+      },
+      "layoutFamily": "monitor-to-screen",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          132,
+          114
+        ],
+        [
+          258,
+          248
+        ],
+        [
+          396,
+          400
+        ],
+        [
+          458,
+          456
+        ],
+        [
+          576,
+          558
+        ],
+        [
+          620,
+          608
+        ],
+        [
+          771,
+          745
+        ]
+      ]
+    },
+    {
+      "stableId": "s14-install-skill",
+      "segmentNumber": 14,
+      "startFrame": 772,
+      "globalVoiceStartFrame": 7888,
+      "durationInFrames": 892,
+      "sourceBeatIds": [
+        "srt-080",
+        "srt-081",
+        "srt-082",
+        "srt-083",
+        "srt-084",
+        "srt-085",
+        "srt-086"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 95,
+          "endChar": 207,
+          "text": "然后复制这里的指令发给\n类似Codex这种agent去安装\n官方的typesafe skill\n我们可以看一下Codex的反馈的价值\n包括结构化问题的处理和筛选\n另外你要使用的话就需要用API获取\n之后发给他就可以正常调用了"
+        }
+      ],
+      "scriptAnchor": "然后复制这里的指令发给\n类似Codex这种agent去安装\n官方的typesafe skill\n我们可以看一下Codex的反馈的价值\n包括结构化问题的处理和筛选\n另外你要使用的话就需要用API获取\n之后发给他就可以正常调用了",
+      "exactScreenWords": [],
+      "oneQuestion": "承接官网后台6.25秒",
+      "visualPlan": {
+        "enter": "承接官网后台6.25秒",
+        "change": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏",
+        "read": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+        "exit": "成功响应停留",
+        "handoff": "S15切入Part.03，未改原始录音间隙"
+      },
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "按本期真实内容适配；动作锚点不是新片认可",
+        "anchors": [
+          "EP95 real-content reading"
+        ],
+        "styleContract": {
+          "surface": "白舞台、克制圆角、轻阴影，非装饰性UI",
+          "typography": "MiSans Medium500/Semibold600，章标题Bold700；无碎小字",
+          "geometry": "源片已有zoom，不另加持续放大；敏感表格已本地遮蔽",
+          "motion": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏",
+          "camera": "承接官网后台6.25秒",
+          "mediaBehavior": "S15切入Part.03，未改原始录音间隙"
+        },
+        "newElements": [
+          "承接官网后台6.25秒"
+        ],
+        "risks": [
+          "源片已有zoom，不另加持续放大；敏感表格已本地遮蔽",
+          "S15切入Part.03，未改原始录音间隙"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "install-authorized-v02.mp4",
+          "path": "public/media/install-authorized-v02.mp4",
+          "sha256": "ada68af6fc15744447d65d59d7f5f8b0c564e1f2c70574045db936e8fedcbe84",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              6.25
+            ],
+            [
+              116,
+              8.2
+            ],
+            [
+              200,
+              10.8
+            ],
+            [
+              266,
+              13.8
+            ],
+            [
+              442,
+              16.7
+            ],
+            [
+              586,
+              19.5
+            ],
+            [
+              776,
+              23.5
+            ],
+            [
+              891,
+              25.7
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "explicit-proportional-crop-top-anchored",
+          "sourceAudio": "muted",
+          "crop": {
+            "sourceWidth": 3836,
+            "sourceHeight": 2160,
+            "sideInset": "66/74/132 source pixels by source shot",
+            "targetAspect": "16:9",
+            "reviewStatus": "keyframes-reviewed-full-motion-pending",
+            "verticalAnchor": "top except source input/dialog intervals; then bottom"
+          },
+          "frameSelection": "Piecewise Sequence with constant startFrom and playbackRate per interval; Freeze(0) only for source holds"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-080",
+          "sourceBeatId": "srt-080",
+          "spokenCue": "然后复制这里的指令发给",
+          "cueFrame": 772,
+          "event": "承接官网后台6.25秒"
+        },
+        {
+          "id": "srt-081",
+          "sourceBeatId": "srt-081",
+          "spokenCue": "类似Codex这种agent去安装",
+          "cueFrame": 888,
+          "event": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏"
+        },
+        {
+          "id": "srt-082",
+          "sourceBeatId": "srt-082",
+          "spokenCue": "官方的typesafe skill",
+          "cueFrame": 972,
+          "event": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏"
+        },
+        {
+          "id": "srt-083",
+          "sourceBeatId": "srt-083",
+          "spokenCue": "我们可以看一下Codex的反馈的价值",
+          "cueFrame": 1038,
+          "event": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏"
+        },
+        {
+          "id": "srt-084",
+          "sourceBeatId": "srt-084",
+          "spokenCue": "包括结构化问题的处理和筛选",
+          "cueFrame": 1214,
+          "event": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏"
+        },
+        {
+          "id": "srt-085",
+          "sourceBeatId": "srt-085",
+          "spokenCue": "另外你要使用的话就需要用API获取",
+          "cueFrame": 1358,
+          "event": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏"
+        },
+        {
+          "id": "srt-086",
+          "sourceBeatId": "srt-086",
+          "spokenCue": "之后发给他就可以正常调用了",
+          "cueFrame": 1548,
+          "event": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-080",
+          "start": 7888,
+          "end": 8004,
+          "startFrame": 0,
+          "endFrame": 116,
+          "text": "然后复制这里的指令发给"
+        },
+        {
+          "id": "srt-081",
+          "start": 8004,
+          "end": 8088,
+          "startFrame": 116,
+          "endFrame": 200,
+          "text": "类似Codex这种agent去安装"
+        },
+        {
+          "id": "srt-082",
+          "start": 8088,
+          "end": 8154,
+          "startFrame": 200,
+          "endFrame": 266,
+          "text": "官方的typesafe skill"
+        },
+        {
+          "id": "srt-083",
+          "start": 8154,
+          "end": 8320,
+          "startFrame": 266,
+          "endFrame": 432,
+          "text": "我们可以看一下Codex的反馈的价值"
+        },
+        {
+          "id": "srt-084",
+          "start": 8330,
+          "end": 8466,
+          "startFrame": 442,
+          "endFrame": 578,
+          "text": "包括结构化问题的处理和筛选"
+        },
+        {
+          "id": "srt-085",
+          "start": 8474,
+          "end": 8664,
+          "startFrame": 586,
+          "endFrame": 776,
+          "text": "另外你要使用的话就需要用API获取"
+        },
+        {
+          "id": "srt-086",
+          "start": 8664,
+          "end": 8780,
+          "startFrame": 776,
+          "endFrame": 892,
+          "text": "之后发给他就可以正常调用了"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          6.25
+        ],
+        [
+          116,
+          8.2
+        ],
+        [
+          200,
+          10.8
+        ],
+        [
+          266,
+          13.8
+        ],
+        [
+          442,
+          16.7
+        ],
+        [
+          586,
+          19.5
+        ],
+        [
+          776,
+          23.5
+        ],
+        [
+          891,
+          25.7
+        ]
+      ],
+      "mediaFile": "install-authorized-v02.mp4",
+      "sounds": [
+        {
+          "file": "sfx/09-鼠标单击.wav",
+          "start": 86,
+          "frames": 42,
+          "volume": 0.16
+        }
+      ],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "media-layout",
+          "device-frame",
+          "brand-corner",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "ed808deadbdbc784b6d32ca7dcb4d0772439fbce4d68918526739f9dbc0150fd",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "按复制、发送、安装反馈、结构化、API和成功映射真实录屏",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "源片已有zoom，不另加持续放大；敏感表格已本地遮蔽",
+            "check": "稳定态同字阶与无无关UI"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S15切入Part.03，未改原始录音间隙",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "稀疏交接声，口播0.93，无BGM",
+            "check": "最终混音峰值和声画落点"
+          }
+        ]
+      },
+      "layoutFamily": "continuous-screen",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          116,
+          94
+        ],
+        [
+          200,
+          230
+        ],
+        [
+          266,
+          372
+        ],
+        [
+          442,
+          506
+        ],
+        [
+          586,
+          598
+        ],
+        [
+          776,
+          742
+        ],
+        [
+          891,
+          893
+        ]
+      ]
+    },
+    {
+      "stableId": "s15-use-case-selection",
+      "segmentNumber": 15,
+      "startFrame": 1664,
+      "globalVoiceStartFrame": 8780,
+      "durationInFrames": 730,
+      "sourceBeatIds": [
+        "srt-087",
+        "srt-088",
+        "srt-089",
+        "srt-090",
+        "srt-091",
+        "srt-092"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 208,
+          "endChar": 289,
+          "text": "第三部分就实际的效果怎么样\n我先思考了一下自己日常工作里面\n可能最适合用的就是我每天都在用\n的低粉爆款的视频数据获取的工作\nCodex也反馈\nJev很适合这个工作"
+        }
+      ],
+      "scriptAnchor": "第三部分就实际的效果怎么样\n我先思考了一下自己日常工作里面\n可能最适合用的就是我每天都在用\n的低粉爆款的视频数据获取的工作\nCodex也反馈\nJev很适合这个工作",
+      "exactScreenWords": [
+        "Part.03",
+        "实际效果",
+        "日常工作",
+        "低粉爆款视频处理",
+        "整理素材",
+        "内容分析",
+        "标题、文案、视频内容",
+        "每天重复，逐条判断"
+      ],
+      "oneQuestion": "准确EP87拖选章标题，122帧后退出",
+      "visualPlan": {
+        "enter": "保留章节建立，132帧开始纯白日常工作节点",
+        "change": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心",
+        "read": "展示标题、文案、视频内容及每天重复的判断；550–600帧解释舞台整体上移，真实反馈从下方接管，无交叉淡入",
+        "exit": "10秒真实媒体已全屏，保持右上固定角标，源2秒交给S16",
+        "handoff": "S16从同一真实结果录屏2秒继续"
+      },
+      "implementationMode": "adapted",
+      "referenceChoices": [
+        {
+          "id": "ba58b10b-dd97-4105-95e5-30ee46bcda46",
+          "reason": "用日常工作的根节点展开任务分支，再聚焦其中一项，交给真实反馈",
+          "preserve": "根节点让位、曲线分支逐条绘制、子节点错峰建立、选择焦点收束",
+          "change": "本期任务文字、纯白底与黑白节点、聚焦低粉爆款后整组上移交接真实录屏",
+          "useScope": "Method branch establishment and focus choreography adapted to S15",
+          "useMode": "local",
+          "keyAction": "日常工作展开三项，低粉爆款视频处理移至中心，其余项收回，然后真实媒体由下方接管",
+          "source": {
+            "path": "components/projects/82f6332699c0/src/Scenes.tsx",
+            "sha256": "013bbdfc08523d6a2fe0bfcd98be2b8a56fece7be13637b2d176a25bf5a1be87",
+            "symbol": "Method"
+          },
+          "implementation": {
+            "path": "[LOCAL_PATH]",
+            "sha256": "23a321ecd087b5ed82c0d882939d7ba6451dde1ec177ec5d26310ddc7c89bba1",
+            "symbol": "WorkSelection"
+          },
+          "callSite": {
+            "path": "[LOCAL_PATH]",
+            "sha256": "3f0dcff9c2e993f8351c30e706ccbbd343908539c5a1b59d304c2f9500f397bb",
+            "symbol": "Scene15"
+          }
+        }
+      ],
+      "mediaContract": [
+        {
+          "id": "result.mp4",
+          "path": "public/media/result.mp4",
+          "sha256": "b173899a5fa813e1ee44640fbec64f6970e08e5f6c101d6aa27b40422f25a778",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              0
+            ],
+            [
+              553,
+              0
+            ],
+            [
+              588,
+              0.35
+            ],
+            [
+              729,
+              2
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "explicit-proportional-crop-top-anchored",
+          "sourceAudio": "muted",
+          "crop": {
+            "sourceWidth": 3568,
+            "sourceHeight": 2160,
+            "sideInset": 0,
+            "targetAspect": "16:9",
+            "reviewStatus": "keyframes-reviewed-full-motion-pending",
+            "verticalAnchor": "top except source input/dialog intervals; then bottom"
+          },
+          "frameSelection": "Piecewise Sequence with constant startFrom and playbackRate per interval; Freeze(0) only for source holds"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-087",
+          "sourceBeatId": "srt-087",
+          "spokenCue": "第三部分就实际的效果怎么样",
+          "cueFrame": 1664,
+          "event": "保留章节建立，132帧开始纯白日常工作节点"
+        },
+        {
+          "id": "srt-088",
+          "sourceBeatId": "srt-088",
+          "spokenCue": "我先思考了一下自己日常工作里面",
+          "cueFrame": 1804,
+          "event": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心"
+        },
+        {
+          "id": "srt-089",
+          "sourceBeatId": "srt-089",
+          "spokenCue": "可能最适合用的就是我每天都在用",
+          "cueFrame": 1972,
+          "event": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心"
+        },
+        {
+          "id": "srt-090",
+          "sourceBeatId": "srt-090",
+          "spokenCue": "的低粉爆款的视频数据获取的工作",
+          "cueFrame": 2090,
+          "event": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心"
+        },
+        {
+          "id": "srt-091",
+          "sourceBeatId": "srt-091",
+          "spokenCue": "Codex也反馈",
+          "cueFrame": 2252,
+          "event": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心"
+        },
+        {
+          "id": "srt-092",
+          "sourceBeatId": "srt-092",
+          "spokenCue": "Jev很适合这个工作",
+          "cueFrame": 2308,
+          "event": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-087",
+          "start": 8780,
+          "end": 8910,
+          "startFrame": 0,
+          "endFrame": 130,
+          "text": "第三部分就实际的效果怎么样"
+        },
+        {
+          "id": "srt-088",
+          "start": 8920,
+          "end": 9088,
+          "startFrame": 140,
+          "endFrame": 308,
+          "text": "我先思考了一下自己日常工作里面"
+        },
+        {
+          "id": "srt-089",
+          "start": 9088,
+          "end": 9206,
+          "startFrame": 308,
+          "endFrame": 426,
+          "text": "可能最适合用的就是我每天都在用"
+        },
+        {
+          "id": "srt-090",
+          "start": 9206,
+          "end": 9368,
+          "startFrame": 426,
+          "endFrame": 588,
+          "text": "的低粉爆款的视频数据获取的工作"
+        },
+        {
+          "id": "srt-091",
+          "start": 9368,
+          "end": 9424,
+          "startFrame": 588,
+          "endFrame": 644,
+          "text": "Codex也反馈"
+        },
+        {
+          "id": "srt-092",
+          "start": 9424,
+          "end": 9510,
+          "startFrame": 644,
+          "endFrame": 730,
+          "text": "Jev很适合这个工作"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          0
+        ],
+        [
+          553,
+          0
+        ],
+        [
+          588,
+          0.35
+        ],
+        [
+          729,
+          2
+        ]
+      ],
+      "mediaFile": "result.mp4",
+      "sounds": [
+        {
+          "file": "sfx/13-左右滑动.wav",
+          "start": 6,
+          "frames": 42,
+          "volume": 0.18
+        },
+        {
+          "file": "sfx/04-Woosh.wav",
+          "start": 152,
+          "frames": 42,
+          "volume": 0.18
+        },
+        {
+          "file": "sfx/13-左右滑动.wav",
+          "start": 268,
+          "frames": 42,
+          "volume": 0.12
+        },
+        {
+          "file": "sfx/09-鼠标单击.wav",
+          "start": 396,
+          "frames": 42,
+          "volume": 0.12
+        },
+        {
+          "file": "sfx/04-Woosh.wav",
+          "start": 530,
+          "frames": 42,
+          "volume": 0.18
+        }
+      ],
+      "sceneGuide": {
+        "type": "summary",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects"
+        ],
+        "signature": "7a5eea0a49add8762b280eb85746e7ebcd5fea840d5c35e094c2e3268f4bada3",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "纯白舞台，MiSans大字，黑白节点；不堆叠占位卡片或小装饰",
+            "check": "最长九字节点、字阶、位置与原版动作质感逐阶段对比"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S16从结果2秒继续",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "稀疏交接声，口播0.93，无BGM",
+            "check": "最终混音峰值和声画落点"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "纯白舞台，MiSans大字，黑白节点；不堆叠占位卡片或小装饰",
+            "check": "最长九字节点、字阶、位置与原版动作质感逐阶段对比"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "根节点侧移并依次展开三项工作；408–458帧只保留低粉爆款视频处理并移至中心",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          }
+        ]
+      },
+      "layoutFamily": "chapter-task-media",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          140,
+          122
+        ],
+        [
+          308,
+          258
+        ],
+        [
+          426,
+          460
+        ],
+        [
+          588,
+          600
+        ],
+        [
+          644,
+          680
+        ],
+        [
+          729,
+          763
+        ]
+      ]
+    },
+    {
+      "stableId": "s16-task-fit",
+      "segmentNumber": 16,
+      "startFrame": 2394,
+      "globalVoiceStartFrame": 9512,
+      "durationInFrames": 442,
+      "sourceBeatIds": [
+        "srt-093",
+        "srt-094",
+        "srt-095",
+        "srt-096",
+        "srt-097"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 290,
+          "endChar": 336,
+          "text": "包括去读懂每个视频\n的标签和具体的内容\n然后做清洗\n以及按照我的标准去分类\n同时回答我的问题"
+        }
+      ],
+      "scriptAnchor": "包括去读懂每个视频\n的标签和具体的内容\n然后做清洗\n以及按照我的标准去分类\n同时回答我的问题",
+      "exactScreenWords": [],
+      "oneQuestion": "真实结果从2秒继续",
+      "visualPlan": {
+        "enter": "真实结果从2秒继续",
+        "change": "跟随源视频展示任务维度和分类要求",
+        "read": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+        "exit": "到8.5秒执行区",
+        "handoff": "S17继续8.5秒"
+      },
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "按本期真实内容适配；动作锚点不是新片认可",
+        "anchors": [
+          "EP95 real-content reading"
+        ],
+        "styleContract": {
+          "surface": "白舞台、克制圆角、轻阴影，非装饰性UI",
+          "typography": "MiSans Medium500/Semibold600，章标题Bold700；无碎小字",
+          "geometry": "原比例contain，不盖卡片和附加文字",
+          "motion": "跟随源视频展示任务维度和分类要求",
+          "camera": "真实结果从2秒继续",
+          "mediaBehavior": "S17继续8.5秒"
+        },
+        "newElements": [
+          "真实结果从2秒继续"
+        ],
+        "risks": [
+          "原比例contain，不盖卡片和附加文字",
+          "S17继续8.5秒"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "result.mp4",
+          "path": "public/media/result.mp4",
+          "sha256": "b173899a5fa813e1ee44640fbec64f6970e08e5f6c101d6aa27b40422f25a778",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              2
+            ],
+            [
+              441,
+              8.5
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "explicit-proportional-crop-top-anchored",
+          "sourceAudio": "muted",
+          "crop": {
+            "sourceWidth": 3568,
+            "sourceHeight": 2160,
+            "sideInset": 0,
+            "targetAspect": "16:9",
+            "reviewStatus": "keyframes-reviewed-full-motion-pending",
+            "verticalAnchor": "top except source input/dialog intervals; then bottom"
+          },
+          "frameSelection": "Piecewise Sequence with constant startFrom and playbackRate per interval; Freeze(0) only for source holds"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-093",
+          "sourceBeatId": "srt-093",
+          "spokenCue": "包括去读懂每个视频",
+          "cueFrame": 2394,
+          "event": "真实结果从2秒继续"
+        },
+        {
+          "id": "srt-094",
+          "sourceBeatId": "srt-094",
+          "spokenCue": "的标签和具体的内容",
+          "cueFrame": 2476,
+          "event": "跟随源视频展示任务维度和分类要求"
+        },
+        {
+          "id": "srt-095",
+          "sourceBeatId": "srt-095",
+          "spokenCue": "然后做清洗",
+          "cueFrame": 2574,
+          "event": "跟随源视频展示任务维度和分类要求"
+        },
+        {
+          "id": "srt-096",
+          "sourceBeatId": "srt-096",
+          "spokenCue": "以及按照我的标准去分类",
+          "cueFrame": 2640,
+          "event": "跟随源视频展示任务维度和分类要求"
+        },
+        {
+          "id": "srt-097",
+          "sourceBeatId": "srt-097",
+          "spokenCue": "同时回答我的问题",
+          "cueFrame": 2756,
+          "event": "跟随源视频展示任务维度和分类要求"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-093",
+          "start": 9512,
+          "end": 9594,
+          "startFrame": 0,
+          "endFrame": 82,
+          "text": "包括去读懂每个视频"
+        },
+        {
+          "id": "srt-094",
+          "start": 9594,
+          "end": 9692,
+          "startFrame": 82,
+          "endFrame": 180,
+          "text": "的标签和具体的内容"
+        },
+        {
+          "id": "srt-095",
+          "start": 9692,
+          "end": 9750,
+          "startFrame": 180,
+          "endFrame": 238,
+          "text": "然后做清洗"
+        },
+        {
+          "id": "srt-096",
+          "start": 9758,
+          "end": 9866,
+          "startFrame": 246,
+          "endFrame": 354,
+          "text": "以及按照我的标准去分类"
+        },
+        {
+          "id": "srt-097",
+          "start": 9874,
+          "end": 9954,
+          "startFrame": 362,
+          "endFrame": 442,
+          "text": "同时回答我的问题"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          2
+        ],
+        [
+          441,
+          8.5
+        ]
+      ],
+      "mediaFile": "result.mp4",
+      "sounds": [],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "media-layout",
+          "device-frame",
+          "brand-corner",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "ed808deadbdbc784b6d32ca7dcb4d0772439fbce4d68918526739f9dbc0150fd",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "跟随源视频展示任务维度和分类要求",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "真实录屏铺满16:9；等比裁切源内部空边，保留顶部操作和正文；按完整播放过程核对关键ROI",
+            "check": "核对完整播放和相邻接缝的源像素、裁切边界、关键操作与角标"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "原比例contain，不盖卡片和附加文字",
+            "check": "稳定态同字阶与无无关UI"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S17继续8.5秒",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅原口播，素材音轨静音",
+            "check": "最终混音峰值和声画落点"
+          }
+        ]
+      },
+      "layoutFamily": "continuous-screen",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          82,
+          76
+        ],
+        [
+          180,
+          164
+        ],
+        [
+          226,
+          220
+        ],
+        [
+          362,
+          322
+        ],
+        [
+          441,
+          397
+        ]
+      ]
+    },
+    {
+      "stableId": "s17-head-to-head",
+      "segmentNumber": 17,
+      "startFrame": 2836,
+      "globalVoiceStartFrame": 9968,
+      "durationInFrames": 318,
+      "sourceBeatIds": [
+        "srt-098",
+        "srt-099",
+        "srt-100"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 337,
+          "endChar": 375,
+          "text": "所以说我让Jev和Codex分别按\n我的要求去处理这个任务\n结果让我大吃一惊"
+        }
+      ],
+      "scriptAnchor": "所以说我让Jev和Codex分别按\n我的要求去处理这个任务\n结果让我大吃一惊",
+      "exactScreenWords": [],
+      "oneQuestion": "实际任务指令8.5秒",
+      "visualPlan": {
+        "enter": "实际任务指令8.5秒",
+        "change": "到12秒保留真实执行与首结果，不提前重建数字",
+        "read": "原始UI与产品身份完整保留",
+        "exit": "12秒实际结果状态",
+        "handoff": "S18明确剪辑到报告用时表，不冒称连续实时时长"
+      },
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "按本期真实内容适配；动作锚点不是新片认可",
+        "anchors": [
+          "EP95 real-content reading"
+        ],
+        "styleContract": {
+          "surface": "白舞台、克制圆角、轻阴影，非装饰性UI",
+          "typography": "MiSans Medium500/Semibold600，章标题Bold700；无碎小字",
+          "geometry": "原始UI与产品身份完整保留",
+          "motion": "到12秒保留真实执行与首结果，不提前重建数字",
+          "camera": "实际任务指令8.5秒",
+          "mediaBehavior": "S18明确剪辑到报告用时表，不冒称连续实时时长"
+        },
+        "newElements": [
+          "实际任务指令8.5秒"
+        ],
+        "risks": [
+          "原始UI与产品身份完整保留",
+          "S18明确剪辑到报告用时表，不冒称连续实时时长"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "result.mp4",
+          "path": "public/media/result.mp4",
+          "sha256": "b173899a5fa813e1ee44640fbec64f6970e08e5f6c101d6aa27b40422f25a778",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              8.5
+            ],
+            [
+              247,
+              12
+            ],
+            [
+              317,
+              12
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "contain",
+          "sourceAudio": "muted"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-098",
+          "sourceBeatId": "srt-098",
+          "spokenCue": "所以说我让Jev和Codex分别按",
+          "cueFrame": 2836,
+          "event": "实际任务指令8.5秒"
+        },
+        {
+          "id": "srt-099",
+          "sourceBeatId": "srt-099",
+          "spokenCue": "我的要求去处理这个任务",
+          "cueFrame": 2956,
+          "event": "到12秒保留真实执行与首结果，不提前重建数字"
+        },
+        {
+          "id": "srt-100",
+          "sourceBeatId": "srt-100",
+          "spokenCue": "结果让我大吃一惊",
+          "cueFrame": 3070,
+          "event": "到12秒保留真实执行与首结果，不提前重建数字"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-098",
+          "start": 9968,
+          "end": 10088,
+          "startFrame": 0,
+          "endFrame": 120,
+          "text": "所以说我让Jev和Codex分别按"
+        },
+        {
+          "id": "srt-099",
+          "start": 10088,
+          "end": 10190,
+          "startFrame": 120,
+          "endFrame": 222,
+          "text": "我的要求去处理这个任务"
+        },
+        {
+          "id": "srt-100",
+          "start": 10202,
+          "end": 10286,
+          "startFrame": 234,
+          "endFrame": 318,
+          "text": "结果让我大吃一惊"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          8.5
+        ],
+        [
+          247,
+          12
+        ],
+        [
+          317,
+          12
+        ]
+      ],
+      "mediaFile": "result.mp4",
+      "sounds": [],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "media-layout",
+          "device-frame",
+          "brand-corner",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "ed808deadbdbc784b6d32ca7dcb4d0772439fbce4d68918526739f9dbc0150fd",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "到12秒保留真实执行与首结果，不提前重建数字",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "实际任务指令8.5秒",
+            "check": "核对进场、接管中段与比例"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "原始UI与产品身份完整保留",
+            "check": "核对原始媒体与派生遮蔽副本"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "S18明确剪辑到报告用时表，不冒称连续实时时长",
+            "check": "检查真实sourceTime和终帧"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "原始UI与产品身份完整保留",
+            "check": "稳定态同字阶与无无关UI"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S18明确剪辑到报告用时表，不冒称连续实时时长",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅原口播，素材音轨静音",
+            "check": "最终混音峰值和声画落点"
+          }
+        ]
+      },
+      "layoutFamily": "continuous-screen",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          120,
+          122
+        ],
+        [
+          234,
+          218
+        ],
+        [
+          317,
+          295
+        ]
+      ]
+    },
+    {
+      "stableId": "s18-benchmark-result",
+      "segmentNumber": 18,
+      "startFrame": 3154,
+      "globalVoiceStartFrame": 10290,
+      "durationInFrames": 700,
+      "sourceBeatIds": [
+        "srt-101",
+        "srt-102",
+        "srt-103",
+        "srt-104",
+        "srt-105"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 376,
+          "endChar": 455,
+          "text": "就是Jev做整个任务只花了3.79秒\n而Codex花了8分钟\n如果你觉得它结果会很差\n实际上Jev的准确率达到了83.7%\n而GPT6 Astra才89.2%"
+        }
+      ],
+      "scriptAnchor": "就是Jev做整个任务只花了3.79秒\n而Codex花了8分钟\n如果你觉得它结果会很差\n实际上Jev的准确率达到了83.7%\n而GPT6 Astra才89.2%",
+      "exactScreenWords": [
+        "Jev",
+        "83.7%",
+        "VS",
+        "GPT-6 Astra",
+        "89.2%"
+      ],
+      "oneQuestion": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大",
+      "visualPlan": {
+        "enter": "真实报告用时表，保留3.79秒与8分钟",
+        "change": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大",
+        "read": "两数统一基线，VS居中，白色大字清晰",
+        "exit": "保持数字比较至句末",
+        "handoff": "比较舞台从左退场，航班案例全屏进入"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按当前前端反馈改编；以已选动作关系和既有黑白质感为锚点",
+        "anchors": [
+          "library-fred-remake-003 BrandBranches: title establishes then connects role nodes",
+          "T09: multiple objects converge into a result"
+        ],
+        "styleContract": {
+          "surface": "纯白舞台和黑白前景，S18按要求黑蒙版",
+          "typography": "MiSans 500/600/700，统一同职责字阶",
+          "geometry": "1920x1080逻辑画布，固定右上角标",
+          "motion": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大",
+          "camera": "建立全貌、聚焦处理、退后收束",
+          "mediaBehavior": "比较舞台从左退场，航班案例全屏进入"
+        },
+        "newElements": [
+          "83.7% VS 89.2% 可以加个黑蒙版，出现大字数字对比"
+        ],
+        "risks": [
+          "字体最大包络",
+          "实际句子cue",
+          "相邻交接"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "result.mp4",
+          "path": "public/media/result.mp4",
+          "sha256": "b173899a5fa813e1ee44640fbec64f6970e08e5f6c101d6aa27b40422f25a778",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              14
+            ],
+            [
+              108,
+              16.8
+            ],
+            [
+              321,
+              16.8
+            ],
+            [
+              384,
+              18
+            ],
+            [
+              487,
+              19.6
+            ],
+            [
+              699,
+              19.6
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "contain",
+          "sourceAudio": "muted"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-101",
+          "sourceBeatId": "srt-101",
+          "spokenCue": "就是Jev做整个任务只花了3.79秒",
+          "cueFrame": 3154,
+          "event": "真实报告用时表，保留3.79秒与8分钟"
+        },
+        {
+          "id": "srt-102",
+          "sourceBeatId": "srt-102",
+          "spokenCue": "而Codex花了8分钟",
+          "cueFrame": 3324,
+          "event": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大"
+        },
+        {
+          "id": "srt-103",
+          "sourceBeatId": "srt-103",
+          "spokenCue": "如果你觉得它结果会很差",
+          "cueFrame": 3434,
+          "event": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大"
+        },
+        {
+          "id": "srt-104",
+          "sourceBeatId": "srt-104",
+          "spokenCue": "实际上Jev的准确率达到了83.7%",
+          "cueFrame": 3538,
+          "event": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大"
+        },
+        {
+          "id": "srt-105",
+          "sourceBeatId": "srt-105",
+          "spokenCue": "而GPT6 Astra才89.2%",
+          "cueFrame": 3710,
+          "event": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-101",
+          "start": 10290,
+          "end": 10460,
+          "startFrame": 0,
+          "endFrame": 170,
+          "text": "就是Jev做整个任务只花了3.79秒"
+        },
+        {
+          "id": "srt-102",
+          "start": 10460,
+          "end": 10564,
+          "startFrame": 170,
+          "endFrame": 274,
+          "text": "而Codex花了8分钟"
+        },
+        {
+          "id": "srt-103",
+          "start": 10570,
+          "end": 10674,
+          "startFrame": 280,
+          "endFrame": 384,
+          "text": "如果你觉得它结果会很差"
+        },
+        {
+          "id": "srt-104",
+          "start": 10674,
+          "end": 10846,
+          "startFrame": 384,
+          "endFrame": 556,
+          "text": "实际上Jev的准确率达到了83.7%"
+        },
+        {
+          "id": "srt-105",
+          "start": 10846,
+          "end": 10990,
+          "startFrame": 556,
+          "endFrame": 700,
+          "text": "而GPT6 Astra才89.2%"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          14
+        ],
+        [
+          108,
+          16.8
+        ],
+        [
+          321,
+          16.8
+        ],
+        [
+          384,
+          18
+        ],
+        [
+          487,
+          19.6
+        ],
+        [
+          699,
+          19.6
+        ]
+      ],
+      "mediaFile": "result.mp4",
+      "sounds": [],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "media-layout",
+          "device-frame",
+          "brand-corner",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "ed808deadbdbc784b6d32ca7dcb4d0772439fbce4d68918526739f9dbc0150fd",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "说到准确率时黑蒙版压暗报告，Jev 83.7%与GPT-6 Astra 89.2%按口播接力放大",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "真实报告14秒进入",
+            "check": "核对进场、接管中段与比例"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "用时表停稳，符合率表停稳；不额外加小字，不重建伪表格",
+            "check": "核对原始媒体与派生遮蔽副本"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "S19横向交接新案例，保留原比例",
+            "check": "检查真实sourceTime和终帧"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "用时表停稳，符合率表停稳；不额外加小字，不重建伪表格",
+            "check": "稳定态同字阶与无无关UI"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S19横向交接新案例，保留原比例",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "仅原口播，素材音轨静音",
+            "check": "最终混音峰值和声画落点"
+          }
+        ]
+      },
+      "layoutFamily": "evidence-table-reading",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          170,
+          158
+        ],
+        [
+          280,
+          264
+        ],
+        [
+          384,
+          360
+        ],
+        [
+          556,
+          510
+        ],
+        [
+          699,
+          661
+        ]
+      ]
+    },
+    {
+      "stableId": "s19-browser-use-demo",
+      "segmentNumber": 19,
+      "startFrame": 3854,
+      "globalVoiceStartFrame": 10990,
+      "durationInFrames": 436,
+      "sourceBeatIds": [
+        "srt-106",
+        "srt-107",
+        "srt-108",
+        "srt-109"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 456,
+          "endChar": 512,
+          "text": "另外我看网上有个案例\n就是Browser use官方让\nJev去查取航班信息\nJev全程只花了7秒钟就完成了任务"
+        }
+      ],
+      "scriptAnchor": "另外我看网上有个案例\n就是Browser use官方让\nJev去查取航班信息\nJev全程只花了7秒钟就完成了任务",
+      "exactScreenWords": [],
+      "oneQuestion": "实际航班查询连续播放至结果",
+      "visualPlan": {
+        "enter": "去除外框和阴影，原视频等比铺满16:9",
+        "change": "实际航班查询连续播放至结果",
+        "read": "保留真实界面和结果",
+        "exit": "停在航班结果",
+        "handoff": "S20沿用同一全屏尾态加白蒙版"
+      },
+      "implementationMode": "preserved-media",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "preserved-media",
+        "reason": "按本期真实内容适配；动作锚点不是新片认可",
+        "anchors": [
+          "EP95 real-content reading"
+        ],
+        "styleContract": {
+          "surface": "白舞台、克制圆角、轻阴影，非装饰性UI",
+          "typography": "MiSans Medium500/Semibold600，章标题Bold700；无碎小字",
+          "geometry": "1536×1000按比例contain，保留顶部标题与右侧计时",
+          "motion": "源0.5–7.516秒播放，最后航班结果完整保留",
+          "camera": "前结果退左，新案例从右进入同一白舞台",
+          "mediaBehavior": "S20相同构图、相同源7.516秒上盖白蒙版"
+        },
+        "newElements": [
+          "前结果退左，新案例从右进入同一白舞台"
+        ],
+        "risks": [
+          "1536×1000按比例contain，保留顶部标题与右侧计时",
+          "S20相同构图、相同源7.516秒上盖白蒙版"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "browser-use.mp4",
+          "path": "public/media/browser-use.mp4",
+          "sha256": "dcc8b24fd0db56bd0b5a50b9d88623501e12a12d49a44e3a67fa4362d559d27c",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              0.5
+            ],
+            [
+              435,
+              7.5166667
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "contain",
+          "sourceAudio": "muted"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-106",
+          "sourceBeatId": "srt-106",
+          "spokenCue": "另外我看网上有个案例",
+          "cueFrame": 3854,
+          "event": "去除外框和阴影，原视频等比铺满16:9"
+        },
+        {
+          "id": "srt-107",
+          "sourceBeatId": "srt-107",
+          "spokenCue": "就是Browser use官方让",
+          "cueFrame": 3942,
+          "event": "实际航班查询连续播放至结果"
+        },
+        {
+          "id": "srt-108",
+          "sourceBeatId": "srt-108",
+          "spokenCue": "Jev去查取航班信息",
+          "cueFrame": 4038,
+          "event": "实际航班查询连续播放至结果"
+        },
+        {
+          "id": "srt-109",
+          "sourceBeatId": "srt-109",
+          "spokenCue": "Jev全程只花了7秒钟就完成了任务",
+          "cueFrame": 4144,
+          "event": "实际航班查询连续播放至结果"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-106",
+          "start": 10990,
+          "end": 11078,
+          "startFrame": 0,
+          "endFrame": 88,
+          "text": "另外我看网上有个案例"
+        },
+        {
+          "id": "srt-107",
+          "start": 11078,
+          "end": 11174,
+          "startFrame": 88,
+          "endFrame": 184,
+          "text": "就是Browser use官方让"
+        },
+        {
+          "id": "srt-108",
+          "start": 11174,
+          "end": 11270,
+          "startFrame": 184,
+          "endFrame": 280,
+          "text": "Jev去查取航班信息"
+        },
+        {
+          "id": "srt-109",
+          "start": 11280,
+          "end": 11426,
+          "startFrame": 290,
+          "endFrame": 436,
+          "text": "Jev全程只花了7秒钟就完成了任务"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          0.5
+        ],
+        [
+          435,
+          7.5166667
+        ]
+      ],
+      "mediaFile": "browser-use.mp4",
+      "sounds": [
+        {
+          "file": "sfx/04-Woosh.wav",
+          "start": 1,
+          "frames": 42,
+          "volume": 0.18
+        }
+      ],
+      "sceneGuide": {
+        "type": "device-demo",
+        "modifiers": [
+          "media-layout",
+          "device-frame",
+          "brand-corner",
+          "object-transition",
+          "sound-effects"
+        ],
+        "signature": "ed808deadbdbc784b6d32ca7dcb4d0772439fbce4d68918526739f9dbc0150fd",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "实际航班查询连续播放至结果",
+            "check": "最新SRT逐句对齐，检查完整动作建立、交接与阅读"
+          },
+          {
+            "ruleId": "F06",
+            "decision": "前结果退左，新案例从右进入同一白舞台",
+            "check": "核对进场、接管中段与比例"
+          },
+          {
+            "ruleId": "F11",
+            "decision": "1536×1000按比例contain，保留顶部标题与右侧计时",
+            "check": "核对原始媒体与派生遮蔽副本"
+          },
+          {
+            "ruleId": "F20",
+            "decision": "S20相同构图、相同源7.516秒上盖白蒙版",
+            "check": "检查真实sourceTime和终帧"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "1536×1000按比例contain，保留顶部标题与右侧计时",
+            "check": "稳定态同字阶与无无关UI"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "S20相同构图、相同源7.516秒上盖白蒙版",
+            "check": "检查实际相邻尾首"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "稀疏交接声，口播0.93，无BGM",
+            "check": "最终混音峰值和声画落点"
+          }
+        ]
+      },
+      "layoutFamily": "case-media-window",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          88,
+          80
+        ],
+        [
+          192,
+          174
+        ],
+        [
+          290,
+          276
+        ],
+        [
+          435,
+          421
+        ]
+      ]
+    },
+    {
+      "stableId": "s20-not-replacement",
+      "segmentNumber": 20,
+      "startFrame": 4290,
+      "globalVoiceStartFrame": 11428,
+      "durationInFrames": 456,
+      "sourceBeatIds": [
+        "srt-110",
+        "srt-111",
+        "srt-112",
+        "srt-113"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 513,
+          "endChar": 563,
+          "text": "所以说对我而言\n我觉得Jev的价值不是去替代Codex\n而是把大量重复的小的\n判断更快更便宜的处理掉"
+        }
+      ],
+      "scriptAnchor": "所以说对我而言\n我觉得Jev的价值不是去替代Codex\n而是把大量重复的小的\n判断更快更便宜的处理掉",
+      "exactScreenWords": [
+        "不是替代 Codex",
+        "Jev",
+        "Codex",
+        "大量重复的小判断",
+        "售后问题？",
+        "需要退款？",
+        "物流问题？",
+        "是否紧急？",
+        "送到哪里？",
+        "符合标准？",
+        "更快，更便宜"
+      ],
+      "oneQuestion": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+      "visualPlan": {
+        "enter": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+        "change": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+        "read": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+        "exit": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+        "handoff": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按当前前端反馈改编；以已选动作关系和既有黑白质感为锚点",
+        "anchors": [
+          "C04 Matrix type-scenes.tsx: staggered point-to-pill expansion",
+          "EP95 row29: centered consolidation; row23: large confident typography"
+        ],
+        "styleContract": {
+          "surface": "纯白舞台和黑白前景，S18按要求黑蒙版",
+          "typography": "MiSans 500/600/700，统一同职责字阶",
+          "geometry": "1920x1080逻辑画布，固定右上角标",
+          "motion": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+          "camera": "建立全貌、聚焦处理、退后收束",
+          "mediaBehavior": "S21以同一黑白节点风格建立规则、筛选和分析交接"
+        },
+        "newElements": [
+          "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜"
+        ],
+        "risks": [
+          "字体最大包络",
+          "实际句子cue",
+          "相邻交接"
+        ],
+        "reviewRequired": true
+      },
+      "mediaContract": [
+        {
+          "id": "browser-use.mp4",
+          "path": "public/media/browser-use.mp4",
+          "sha256": "dcc8b24fd0db56bd0b5a50b9d88623501e12a12d49a44e3a67fa4362d559d27c",
+          "role": "evidence",
+          "required": true,
+          "sourceMapping": [
+            [
+              0,
+              7.5166667
+            ],
+            [
+              455,
+              7.5166667
+            ]
+          ],
+          "sourceTimebase": "seconds",
+          "outputTimebase": "scene-local-60fps",
+          "fit": "contain",
+          "sourceAudio": "muted"
+        }
+      ],
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-110",
+          "sourceBeatId": "srt-110",
+          "spokenCue": "所以说对我而言",
+          "cueFrame": 4290,
+          "event": "全屏航班结果加白蒙版，建立Codex研究窗口与Jev处理节点"
+        },
+        {
+          "id": "srt-111",
+          "sourceBeatId": "srt-111",
+          "spokenCue": "我觉得Jev的价值不是去替代Codex",
+          "cueFrame": 4348,
+          "event": "重复任务从研究窗口拆出，送入Jev；已处理条目合为结果栈"
+        },
+        {
+          "id": "srt-112",
+          "sourceBeatId": "srt-112",
+          "spokenCue": "而是把大量重复的小的",
+          "cueFrame": 4504,
+          "event": "重复任务从研究窗口拆出，送入Jev；已处理条目合为结果栈"
+        },
+        {
+          "id": "srt-113",
+          "sourceBeatId": "srt-113",
+          "spokenCue": "判断更快更便宜的处理掉",
+          "cueFrame": 4610,
+          "event": "重复任务从研究窗口拆出，送入Jev；已处理条目合为结果栈"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-110",
+          "start": 11428,
+          "end": 11486,
+          "startFrame": 0,
+          "endFrame": 58,
+          "text": "所以说对我而言"
+        },
+        {
+          "id": "srt-111",
+          "start": 11486,
+          "end": 11636,
+          "startFrame": 58,
+          "endFrame": 208,
+          "text": "我觉得Jev的价值不是去替代Codex"
+        },
+        {
+          "id": "srt-112",
+          "start": 11642,
+          "end": 11748,
+          "startFrame": 214,
+          "endFrame": 320,
+          "text": "而是把大量重复的小的"
+        },
+        {
+          "id": "srt-113",
+          "start": 11748,
+          "end": 11884,
+          "startFrame": 320,
+          "endFrame": 456,
+          "text": "判断更快更便宜的处理掉"
+        }
+      ],
+      "sourceMapping": [
+        [
+          0,
+          7.5166667
+        ],
+        [
+          455,
+          7.5166667
+        ]
+      ],
+      "mediaFile": "browser-use.mp4",
+      "sounds": [
+        {
+          "file": "sfx/13-左右滑动.wav",
+          "start": 214,
+          "frames": 42,
+          "volume": 0.16
+        }
+      ],
+      "sceneGuide": {
+        "type": "summary",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects"
+        ],
+        "signature": "7a5eea0a49add8762b280eb85746e7ebcd5fea840d5c35e094c2e3268f4bada3",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "中心并列Jev与Codex建立协作，点展开为六项重复判断矩阵，逐个判断后汇为Jev与更快更便宜",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          }
+        ]
+      },
+      "layoutFamily": "media-to-conclusion",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          455,
+          455
+        ]
+      ]
+    },
+    {
+      "stableId": "s21-final-routing",
+      "segmentNumber": 21,
+      "startFrame": 4746,
+      "globalVoiceStartFrame": 11918,
+      "durationInFrames": 444,
+      "sourceBeatIds": [
+        "srt-114",
+        "srt-115",
+        "srt-116",
+        "srt-117",
+        "srt-118"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 564,
+          "endChar": 612,
+          "text": "程序和脚本负责规则\nJev负责筛选\n而Codex负责分析\n这样就可以更快更省\n的去完成我们的任务"
+        }
+      ],
+      "scriptAnchor": "程序和脚本负责规则\nJev负责筛选\n而Codex负责分析\n这样就可以更快更省\n的去完成我们的任务",
+      "exactScreenWords": [
+        "程序和脚本",
+        "规则",
+        "Jev",
+        "筛选",
+        "Codex",
+        "分析",
+        "更快，更省"
+      ],
+      "oneQuestion": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+      "visualPlan": {
+        "enter": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+        "change": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+        "read": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+        "exit": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+        "handoff": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中"
+      },
+      "implementationMode": "original",
+      "referenceChoices": [],
+      "referenceDisposition": {
+        "mode": "original",
+        "reason": "按当前前端反馈改编；以已选动作关系和既有黑白质感为锚点",
+        "anchors": [
+          "C04 Matrix type-scenes.tsx: staggered point-to-pill expansion",
+          "EP95 row29: centered consolidation; row23: large confident typography"
+        ],
+        "styleContract": {
+          "surface": "纯白舞台和黑白前景，S18按要求黑蒙版",
+          "typography": "MiSans 500/600/700，统一同职责字阶",
+          "geometry": "1920x1080逻辑画布，固定右上角标",
+          "motion": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+          "camera": "建立全貌、聚焦处理、退后收束",
+          "mediaBehavior": "结尾稳定阅读，无无关物件"
+        },
+        "newElements": [
+          "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中"
+        ],
+        "risks": [
+          "字体最大包络",
+          "实际句子cue",
+          "相邻交接"
+        ],
+        "reviewRequired": true
+      },
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 5,
+        "reason": "真实阅读停稳与按口播交接"
+      },
+      "motionEvents": [
+        {
+          "id": "srt-114",
+          "sourceBeatId": "srt-114",
+          "spokenCue": "程序和脚本负责规则",
+          "cueFrame": 4746,
+          "event": "规则节点从任务条目建立，并列流程逐站展开"
+        },
+        {
+          "id": "srt-115",
+          "sourceBeatId": "srt-115",
+          "spokenCue": "Jev负责筛选",
+          "cueFrame": 4846,
+          "event": "任务条目先通过程序规则、再经Jev筛选、最后到Codex生成分析报告"
+        },
+        {
+          "id": "srt-116",
+          "sourceBeatId": "srt-116",
+          "spokenCue": "而Codex负责分析",
+          "cueFrame": 4906,
+          "event": "任务条目先通过程序规则、再经Jev筛选、最后到Codex生成分析报告"
+        },
+        {
+          "id": "srt-117",
+          "sourceBeatId": "srt-117",
+          "spokenCue": "这样就可以更快更省",
+          "cueFrame": 5002,
+          "event": "任务条目先通过程序规则、再经Jev筛选、最后到Codex生成分析报告"
+        },
+        {
+          "id": "srt-118",
+          "sourceBeatId": "srt-118",
+          "spokenCue": "的去完成我们的任务",
+          "cueFrame": 5098,
+          "event": "任务条目先通过程序规则、再经Jev筛选、最后到Codex生成分析报告"
+        }
+      ],
+      "cues": [
+        {
+          "id": "srt-114",
+          "start": 11918,
+          "end": 12006,
+          "startFrame": 0,
+          "endFrame": 88,
+          "text": "程序和脚本负责规则"
+        },
+        {
+          "id": "srt-115",
+          "start": 12018,
+          "end": 12078,
+          "startFrame": 100,
+          "endFrame": 160,
+          "text": "Jev负责筛选"
+        },
+        {
+          "id": "srt-116",
+          "start": 12078,
+          "end": 12172,
+          "startFrame": 160,
+          "endFrame": 254,
+          "text": "而Codex负责分析"
+        },
+        {
+          "id": "srt-117",
+          "start": 12174,
+          "end": 12270,
+          "startFrame": 256,
+          "endFrame": 352,
+          "text": "这样就可以更快更省"
+        },
+        {
+          "id": "srt-118",
+          "start": 12270,
+          "end": 12362,
+          "startFrame": 352,
+          "endFrame": 444,
+          "text": "的去完成我们的任务"
+        }
+      ],
+      "sourceMapping": [],
+      "mediaFile": null,
+      "sounds": [
+        {
+          "file": "sfx/13-左右滑动.wav",
+          "start": 100,
+          "frames": 42,
+          "volume": 0.16
+        },
+        {
+          "file": "sfx/13-左右滑动.wav",
+          "start": 160,
+          "frames": 42,
+          "volume": 0.16
+        },
+        {
+          "file": "sfx/04-Woosh.wav",
+          "start": 272,
+          "frames": 42,
+          "volume": 0.18
+        }
+      ],
+      "sceneGuide": {
+        "type": "summary",
+        "modifiers": [
+          "brand-corner",
+          "object-transition",
+          "text-presentation",
+          "sound-effects",
+          "frosted-focus"
+        ],
+        "signature": "1c01c6fd59c84c077f4a6eef78d15eca1cb8d9aea849a2b0226c0f600e228951",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F12",
+            "decision": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F19",
+            "decision": "按Fred最新明确要求，角标位置固定右上；不再为录屏内容跳到其他角落",
+            "check": "检查13–21全部关键帧及交接，角标位置与尺寸稳定"
+          },
+          {
+            "ruleId": "F04",
+            "decision": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F10",
+            "decision": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F14",
+            "decision": "三个520px宽胶囊按口播展开职责，结尾全屏黑色半透明蒙版与18px模糊，176px大字居中",
+            "check": "检查最大字宽、运动包络、字幕区域、逐句cue与实际前后交接"
+          },
+          {
+            "ruleId": "F05",
+            "decision": "黑色透明蒙版弱化完整三角色背景，模糊18px并居中176px结论；角标保持清晰",
+            "check": "实际代表帧检查黑白过渡、遮罩边界、清晰文字和固定角标"
+          }
+        ]
+      },
+      "layoutFamily": "roles-to-outcome",
+      "visualClock": [
+        [
+          0,
+          0
+        ],
+        [
+          443,
+          443
+        ]
+      ]
+    }
+  ],
+  "revisionStatus": "S14-S17 accepted V06 design, final audio realignment; S13/S18-S21 revision previews pending",
+  "referenceCatalogRevision": "2026-09-16-library-remakes-local-reuse"
+}

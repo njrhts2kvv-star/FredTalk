@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-09-30-motion-readiness-routing",
+  "types": [
+    {
+      "id": "prompt-reading",
+      "title": "长文／提示词聚焦",
+      "when": "完整提示词、AGENTS规则、交接笔记或长文逐项讲解。",
+      "ruleIds": [
+        "F01",
+        "F02",
+        "F08"
+      ],
+      "flow": [
+        "建立本期要求阅读的文本与必要上下文",
+        "按当前阅读任务选择静态停留、滚动定位、高亮或靠近",
+        "已选择连续聚焦时直接交给下一重点，实际阅读保持可读"
+      ],
+      "referenceQueries": [
+        "完整提示词",
+        "荧光笔",
+        "交接笔记"
+      ],
+      "inputs": [
+        "本期要求展示的原文范围；需要高亮时提供准确字符范围",
+        "重点与阅读区间的音频cue",
+        "最长内容的实际字体和可读区域"
+      ],
+      "exitCheck": "要求展示的最后内容没有遗漏；若使用高亮/相机则命中当前短语，文档与承载几何协调。",
+      "implementationRefs": [
+        "skills/fred-remake/references/prompt-and-detail-camera.md"
+      ]
+    },
+    {
+      "id": "image-comparison",
+      "title": "图片对比／证据特写",
+      "when": "单图证据特写、多图比较或同图连续细节。",
+      "ruleIds": [
+        "F01",
+        "F03",
+        "F04"
+      ],
+      "flow": [
+        "让观众辨认本句要讲的原图与对象；上游已建立时可直接承接",
+        "按需要保持完整展示或从正确原图进入局部",
+        "按口播交接后续证据；仅在实际需要时对照、返回全图或揭晓"
+      ],
+      "referenceQueries": [
+        "图片对比",
+        "局部放大"
+      ],
+      "inputs": [
+        "实际使用的一张或多张原图及身份",
+        "本片需要的真实ROI；只完整展示时可不设特写",
+        "同职责几何、实际主次及出现/揭晓cue（如有）"
+      ],
+      "exitCheck": "媒体来自正确原图；本句证据都被呈现；单图不补第二图，多图比较关系清楚，同职责元素协调。",
+      "implementationRefs": [
+        "skills/fred-remake/references/prompt-and-detail-camera.md"
+      ]
+    },
+    {
+      "id": "device-demo",
+      "title": "电脑／手机实操",
+      "when": "真实软件操作或结果展示；按需使用电脑/手机/iPad载体或直接全屏内容。",
+      "ruleIds": [
+        "F01",
+        "F06",
+        "F11"
+      ],
+      "flow": [
+        "建立可辨认的真实内容，设备身份只在需要时出现",
+        "按阅读任务保持全屏、在设备内展示或靠近实际操作区域",
+        "视频保持有效播放时钟；截图保留清楚内容，按语义接管或交出焦点"
+      ],
+      "referenceQueries": [
+        "电脑",
+        "手机",
+        "屏幕"
+      ],
+      "inputs": [
+        "实际截图/录屏与有效区域",
+        "使用设备时的屏幕bbox；使用视频时的素材入出点",
+        "当前需要保留的产品/界面身份"
+      ],
+      "exitCheck": "UI可读、比例正确；视频时钟连续，设备/裁切若存在则同步；不因换素材推翻未要求修改的动作。",
+      "implementationRefs": [
+        "skills/fred-remake/references/device-camera-rhythm.md"
+      ]
+    },
+    {
+      "id": "search-process",
+      "title": "搜索／筛选／结果",
+      "when": "输入查询、历史对话检索、列表筛选与结果选择。",
+      "ruleIds": [
+        "F01",
+        "F08",
+        "F11"
+      ],
+      "flow": [
+        "让观众识别输入框与查询内容",
+        "提交后返回与当前查询相关的结果",
+        "选中目标并进入内容，剩余结果合理收起"
+      ],
+      "referenceQueries": [
+        "搜索",
+        "列表",
+        "聊天"
+      ],
+      "inputs": [
+        "实际查询词和结果内容",
+        "输入/提交/选中cue",
+        "真实操作或解释性演示的用途说明"
+      ],
+      "exitCheck": "能看出是在搜索；结果与查询对应；列表刷动后无意外大空场、残字或角标冲突。",
+      "implementationRefs": []
+    },
+    {
+      "id": "metric-change",
+      "title": "数值／余量变化",
+      "when": "Token条、百分比、数量、节省或消耗。",
+      "ruleIds": [
+        "F01",
+        "F08"
+      ],
+      "flow": [
+        "建立数值含义、单位和起点",
+        "按内容选择纯数字或配套条形/图表，使用同一数据与cue",
+        "稳定展示本句结果或对应结论"
+      ],
+      "referenceQueries": [
+        "数值",
+        "计数",
+        "进度"
+      ],
+      "inputs": [
+        "数值起终点与单位",
+        "真实值或示意值的依据",
+        "变化对应的口播cue"
+      ],
+      "exitCheck": "实际使用的数字、单位、条长或图表与同一数据一致；示意不冒充实测；不为类型补画无职责进度条。",
+      "implementationRefs": []
+    },
+    {
+      "id": "relationship",
+      "title": "关系／分支／职责",
+      "when": "主次任务、流程关系、权限边界、多项职责。",
+      "ruleIds": [
+        "F01",
+        "F08"
+      ],
+      "flow": [
+        "建立本句相关对象和实际关系",
+        "用排布、主次、文字、加号或有职责的连接表达关系",
+        "按口播选择保持并列、强调、归组或收回"
+      ],
+      "referenceQueries": [
+        "分支",
+        "主任务",
+        "流程"
+      ],
+      "inputs": [
+        "实际对象、关系和先后要求；只有使用连线时才提供边",
+        "当前主次身份及变更cue",
+        "本片实际采用的显示与交接状态"
+      ],
+      "exitCheck": "视觉关系与语义一致；实际运动不碰撞；有连线时使用relation-lines附加项检查意义及进出状态。",
+      "implementationRefs": []
+    },
+    {
+      "id": "summary",
+      "title": "判断／章节／收束",
+      "when": "一句强判断、章节转换、角色分工或结尾总结。",
+      "ruleIds": [
+        "F01",
+        "F08",
+        "F12"
+      ],
+      "flow": [
+        "从已有内容接走当前结论",
+        "收起重复过程，给结论足够视觉分量",
+        "按后续责任交接或留下稳定结束状态"
+      ],
+      "referenceQueries": [
+        "结论",
+        "章节",
+        "大字"
+      ],
+      "inputs": [
+        "本句唯一结论",
+        "上游留下的对象状态",
+        "实际需要保留的结果或下一步"
+      ],
+      "exitCheck": "结论清楚、阅读充分；无需复杂动作也可成立，避免无信息重复；标题/Logo按当前合同，不自动继承Demo。",
+      "implementationRefs": []
+    },
+    {
+      "id": "custom",
+      "title": "新的呈现方式",
+      "when": "现有类型无法准确承担当前语义时。",
+      "ruleIds": [
+        "F01",
+        "F08"
+      ],
+      "flow": [
+        "解释观众要理解的对象关系",
+        "按本句设计可辨的状态变化",
+        "验证阅读与下一镜头交接"
+      ],
+      "referenceQueries": [],
+      "inputs": [
+        "为何现有类型不合适",
+        "本句动作关系和真实材料",
+        "专属风险与检查方法"
+      ],
+      "exitCheck": "没有为套库而扭曲内容；新增方式经过当前内容短样检查，不继承旧片批准。",
+      "implementationRefs": []
+    }
+  ],
+  "modifiers": [
+    {
+      "id": "character",
+      "title": "加入Fred人物",
+      "when": "人物指向、制止、观察或情绪参与。",
+      "ruleIds": [
+        "F13"
+      ],
+      "implementationRefs": []
+    },
+    {
+      "id": "frosted-focus",
+      "title": "毛玻璃／蒙版强调",
+      "when": "保留背景内容，由前景重点接管。",
+      "ruleIds": [
+        "F05"
+      ],
+      "implementationRefs": [
+        "skills/fred-remotion-output/references/media-and-overlays.md"
+      ]
+    },
+    {
+      "id": "fixed-background",
+      "title": "叠加时固定背景",
+      "when": "只加前景重点，原设备/背景在叠加窗口保持原位。",
+      "ruleIds": [
+        "F07"
+      ],
+      "implementationRefs": []
+    },
+    {
+      "id": "detail-camera",
+      "title": "追加原图局部特写",
+      "when": "主场景之外需要单图或多图的真实ROI特写；不隐含第二张图、标签或揭晓。",
+      "ruleIds": [
+        "F03"
+      ],
+      "implementationRefs": [
+        "skills/fred-remake/references/prompt-and-detail-camera.md"
+      ]
+    },
+    {
+      "id": "device-frame",
+      "title": "用设备承载当前内容",
+      "when": "长文、图片或视频需要电脑/手机/iPad载体；设备可承载静态图，不强制屏幕推进。",
+      "ruleIds": [
+        "F06"
+      ],
+      "implementationRefs": [
+        "skills/fred-remake/references/device-camera-rhythm.md"
+      ]
+    },
+    {
+      "id": "relation-lines",
+      "title": "加入连接或环绕线",
+      "when": "本场景实际使用连接线、分支边、描边或环绕线；relationship类型也按实际使用加入。",
+      "ruleIds": [
+        "F09"
+      ],
+      "implementationRefs": []
+    },
+    {
+      "id": "object-transition",
+      "title": "对象过渡与焦点交接",
+      "when": "局部交替缩放、上下左右让位、聚拢展开或跨段接力。",
+      "ruleIds": [
+        "F01",
+        "F04",
+        "F10"
+      ],
+      "implementationRefs": [
+        "skills/fred-remotion-output/references/object-transitions.md",
+        "skills/fred-remotion-output/references/production-defaults.md"
+      ]
+    },
+    {
+      "id": "text-presentation",
+      "title": "文字输出与退出",
+      "when": "逐字、滚动、刷出、淡入淡出、原位换词或数值递变。",
+      "ruleIds": [
+        "F01",
+        "F08",
+        "F12"
+      ],
+      "implementationRefs": [
+        "skills/fred-remotion-output/references/text-presentation.md",
+        "skills/fred-remotion-output/references/production-defaults.md"
+      ]
+    },
+    {
+      "id": "sound-effects",
+      "title": "动作音效",
+      "when": "为实际输入、滚动、交接、点击或结果落定选配音效",
+      "ruleIds": [
+        "F14"
+      ],
+      "implementationRefs": [
+        "skills/fred-remotion-output/references/sound-effects.md"
+      ]
+    },
+    {
+      "id": "brand-corner",
+      "title": "固定品牌角标",
+      "when": "FredTalk横版解释动画沿用既有规范；源视频播放窗口关闭新增右上角角标，混合场景按当前窗口显隐。",
+      "ruleIds": [
+        "F19"
+      ],
+      "implementationRefs": [
+        "skills/fred-remake/references/corner-branding.md"
+      ]
+    },
+    {
+      "id": "media-layout",
+      "title": "横竖媒体与播放编排",
+      "when": "图片、视频和录屏需要保持比例、选择载体、按口播进入退出或重定时。",
+      "ruleIds": [
+        "F20"
+      ],
+      "implementationRefs": [
+        "skills/fred-remotion-output/references/media-and-overlays.md"
+      ]
+    }
+  ],
+  "stageRules": {
+    "planning": [
+      "F16"
+    ],
+    "joining": [
+      "F10"
+    ],
+    "render": [
+      "F14",
+      "F17",
+      "F18"
+    ],
+    "revision": [
+      "F15"
+    ]
+  },
+  "principle": "Type follows the main explanatory job, modifiers follow actual effects. No fixed layout or automatic visual approval.",
+  "stageReferences": {
+    "joining": [
+      "skills/fred-remotion-output/references/object-transitions.md"
+    ],
+    "planning": [
+      "skills/fred-remotion-output/references/storyboard.md",
+      "skills/fred-remotion-output/references/production-defaults.md"
+    ],
+    "render": [
+      "skills/fred-remotion-output/references/render-and-delivery.md",
+      "skills/fred-remake/references/render-failure-checks.md"
+    ],
+    "revision": [
+      "skills/fred-remotion-output/references/render-and-delivery.md",
+      "skills/fred-remotion-output/references/segment-review.md"
+    ]
+  },
+  "designGuide": {
+    "reference": "skills/fred-remotion-output/DESIGN.md",
+    "reuseMap": "skills/fred-remotion-output/references/component-reuse-map.md",
+    "scope": "新构图与本次改动使用当前设计偏好；保护已有认可范围，不改旧选片状态。首次原创/新构图读全文，其余按当前场景取用。",
+    "defaults": [
+      "主文字清楚，删冗余小字；真实长文按阅读任务聚焦，不缩字塞满。",
+      "不默认加PPT左上页眉；黑白实心胶囊/卡片靠填充和柔和阴影，无装饰细描边。",
+      "紫色仅当前重点，不大面积染色；不加装饰icon，真实产品Logo/录屏原生图标保留。",
+      "流程先用时序、归组、主次交换和同一对象接力；连接线/箭头只在确有必要时使用。",
+      "总结可让已建立材料在黑白半透明毛玻璃后退，清晰前景接走重点。",
+      "动作按内容决定进入、变化、阅读与交接；文字、载体和镜头分工，稳定阅读不强迫运动。",
+      "分辨率缩放不等于内容重排；复用时核对真实props、内容容量、秒/帧时钟及字幕运动范围。"
+    ]
+  }
+}

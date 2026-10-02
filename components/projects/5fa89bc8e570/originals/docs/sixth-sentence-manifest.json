@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "sixth-v1",
+  "episode": "82_豆包面试",
+  "fps": 60,
+  "width": 3840,
+  "height": 2160,
+  "pages": [
+    {
+      "stableId": "sixth-recruitment",
+      "sourceBeatIds": [
+        "carry",
+        "record",
+        "deny",
+        "agent",
+        "task",
+        "chat",
+        "conclusion"
+      ],
+      "durationInFrames": 893,
+      "componentId": "SixthSentence"
+    }
+  ]
+}

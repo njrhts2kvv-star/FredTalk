@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "distribution": "portable",
+  "catalog": "library/catalog.json",
+  "mediaManifest": "library/media-manifest.json"
+}

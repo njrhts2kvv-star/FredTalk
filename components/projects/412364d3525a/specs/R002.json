@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "id": "R002",
+  "title": "功能文字交接媒体展示",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 810,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+    "referenceStart": 14.55,
+    "referenceEnd": 67.79756126431414,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "width": 2560,
+        "height": 1440,
+        "fps": "60/1",
+        "nominalFps": "60/1",
+        "timeBase": "1/15360",
+        "duration": 476.868005,
+        "start": 14.55,
+        "end": 67.79756126431414
+      }
+    ],
+    "totalSelectedDuration": 53.24756126431414,
+    "outputDurationDelta": -39.74756126431414
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 810,
+        "sourceAsset": 0,
+        "sourceStartPTS": 14.55,
+        "sourceEndPTS": 28.05,
+        "speed": 1
+      }
+    ],
+    "omissions": [
+      {
+        "sourceStartPTS": 28.05,
+        "sourceEndPTS": 67.79756126431414,
+        "reason": "fixed existing short output duration; only corresponding opening selection retained, no total-duration normalization"
+      }
+    ],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/legacy",
+    "compositionId": "Library120-LongSelection",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready",
+    "dependencies": [
+      "specs/R003.json",
+      "specs/R004.json",
+      "groups/r/legacy/src/FeaturesV3.tsx",
+      "groups/r/legacy/src/VersionV3.tsx"
+    ]
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [
+    {
+      "family": "MiSans Heavy temporary",
+      "file": "fonts/MiSans-Heavy.otf",
+      "license": "fonts/MiSans-License.txt",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "selectionStatus": "inherited-font-pending-own-comparison"
+    }
+  ],
+  "objects": {
+    "featureLines": {
+      "dependency": "R003",
+      "count": 3,
+      "copyPolicy": "retain Fred copy"
+    },
+    "window": {
+      "dependency": "R003",
+      "outFlip": [
+        425,
+        465
+      ]
+    },
+    "versionWindow": {
+      "dependency": "R004",
+      "startFrame": 465
+    },
+    "openingResidual": {
+      "role": "brief prior scene rectangle",
+      "frames": [
+        0,
+        8
+      ]
+    },
+    "webpageBackground": {
+      "headline": [
+        770,
+        90
+      ],
+      "inputPanel": [
+        570,
+        192,
+        800,
+        266
+      ],
+      "thumbnailRow": [
+        580,
+        550,
+        4,
+        170,
+        100,
+        30
+      ],
+      "caseGrid": [
+        405,
+        755,
+        4,
+        185,
+        24
+      ],
+      "mediaPolicy": "Fred assets inside image slots only",
+      "geometryStatus": "manual source-frame estimate; fine calibration pending"
+    }
+  },
+  "tracks": {
+    "sourceTime": {
+      "domain": "outputFrame",
+      "fields": [
+        "sourcePTS"
+      ],
+      "samples": [
+        [
+          0,
+          14.55
+        ],
+        [
+          810,
+          28.05
+        ]
+      ],
+      "evidence": "fixed approved 13.5 second selection"
+    },
+    "windowFlip": {
+      "domain": "outputFrame",
+      "fields": [
+        "left",
+        "width"
+      ],
+      "samples": [
+        [
+          0,
+          238,
+          1445
+        ],
+        [
+          425,
+          239,
+          1443
+        ],
+        [
+          426,
+          239,
+          1443
+        ],
+        [
+          427,
+          239,
+          1443
+        ],
+        [
+          428,
+          239,
+          1443
+        ],
+        [
+          429,
+          239,
+          1443
+        ],
+        [
+          430,
+          239,
+          1442
+        ],
+        [
+          431,
+          240,
+          1440
+        ],
+        [
+          432,
+          241,
+          1436
+        ],
+        [
+          433,
+          243,
+          1430
+        ],
+        [
+          434,
+          245,
+          1423
+        ],
+        [
+          435,
+          248,
+          1413
+        ],
+        [
+          436,
+          252,
+          1400
+        ],
+        [
+          437,
+          256,
+          1386
+        ],
+        [
+          438,
+          262,
+          1367
+        ],
+        [
+          439,
+          269,
+          1344
+        ],
+        [
+          440,
+          277,
+          1317
+        ],
+        [
+          441,
+          286,
+          1286
+        ],
+        [
+          442,
+          298,
+          1247
+        ],
+        [
+          443,
+          311,
+          1203
+        ],
+        [
+          444,
+          328,
+          1149
+        ],
+        [
+          445,
+          347,
+          1085
+        ],
+        [
+          446,
+          369,
+          1011
+        ],
+        [
+          447,
+          394,
+          925
+        ],
+        [
+          448,
+          425,
+          826
+        ],
+        [
+          449,
+          456,
+          722
+        ],
+        [
+          450,
+          488,
+          616
+        ],
+        [
+          451,
+          518,
+          516
+        ],
+        [
+          452,
+          543,
+          433
+        ],
+        [
+          453,
+          566,
+          358
+        ],
+        [
+          454,
+          585,
+          294
+        ],
+        [
+          455,
+          601,
+          241
+        ],
+        [
+          456,
+          615,
+          195
+        ],
+        [
+          457,
+          626,
+          158
+        ],
+        [
+          458,
+          636,
+          126
+        ],
+        [
+          459,
+          644,
+          99
+        ],
+        [
+          460,
+          651,
+          77
+        ],
+        [
+          461,
+          656,
+          58
+        ],
+        [
+          462,
+          660,
+          44
+        ],
+        [
+          463,
+          664,
+          31
+        ],
+        [
+          464,
+          667,
+          21
+        ],
+        [
+          465,
+          670,
+          13
+        ]
+      ],
+      "evidence": "analysis/R002/exit-window.json"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R002/review.md",
+    "fontComparison": "analysis/R003/font-candidates.png",
+    "nativeFrameMeasurements": "analysis/R002/exit-window.json"
+  },
+  "knownIssues": [
+    "原参考33.91秒人物、38.75秒胶囊、53.28秒关键词、58.12–67.75秒传送带等阶段未见于当前。",
+    "需要先确认R002短版的授权范围，再判断是否补齐；不能把当前短版标成整个原范围场景实现良好。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "485335589f7559fe1d05102b13b5e9816c6ca2428be2ce1e3cc12b4ea3f260f4"
+    },
+    "v2": {
+      "sha256": "4ffeee0c79ea09c4928e567a5de2a80f66f12b34a4f045bf6a759e85e751efc9",
+      "path": "baseline/v2/videos/R002/4ffeee0c79ea09c4928e567a5de2a80f66f12b34a4f045bf6a759e85e751efc9.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

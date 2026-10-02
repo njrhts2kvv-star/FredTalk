@@ -1,0 +1,38 @@
+[
+  {
+    "file": "fred-alpha-0.webm",
+    "source": "[LOCAL_PATH]",
+    "sha256": "5a8b1a330e3335d210affee7263ac79047e55598fcf0777825c1ae901e3d9f4c",
+    "duration": 5.033
+  },
+  {
+    "file": "fred-alpha-1.webm",
+    "source": "[LOCAL_PATH]",
+    "sha256": "27de8d557f62cd7df5e4e3413a67987cb9834d81cefd57eaaa9b4f3031d1ee73",
+    "duration": 5.033
+  },
+  {
+    "file": "fred-alpha-2.webm",
+    "source": "[LOCAL_PATH]",
+    "sha256": "b69bb340bf9a49d26ab8b7254cf178fb954ed28ada17b69ac132cade73d6644a",
+    "duration": 5.033
+  },
+  {
+    "file": "fred-alpha-3.webm",
+    "source": "[LOCAL_PATH]",
+    "sha256": "0eaefdf4e21f4ea95a178f02c297aa5c62590c984b7a32874930e341a9735f70",
+    "duration": 5.033
+  },
+  {
+    "file": "fred-alpha-4.webm",
+    "source": "[LOCAL_PATH]",
+    "sha256": "6e45e8786249d49962e7c842de591e19c3c9325884b3b5483170417c82a73349",
+    "duration": 5.033
+  },
+  {
+    "file": "fred-alpha-5.webm",
+    "source": "[LOCAL_PATH]",
+    "sha256": "748b29835f6d976dc15031f26ba93fd5a272afceebec3c8dd4906261f1134e67",
+    "duration": 5.033
+  }
+]

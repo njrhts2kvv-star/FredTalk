@@ -1,0 +1,2769 @@
+[
+  {
+    "id": "component:fred-motion-source-71c3af2e6344fae5",
+    "label": "C001",
+    "title": "逐行建立标题",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-C001"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-45633f0ba1312901",
+    "label": "C002",
+    "title": "从一个起点建立信息矩阵",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-C002"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-1dfc94887a443768",
+    "label": "C003",
+    "title": "主题展开分支后聚焦其中一项",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-C003"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-3ac3e90a812732a8",
+    "label": "C004",
+    "title": "展开当前项再回到列表",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-C004"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-5ed896c29673a304",
+    "label": "C005",
+    "title": "分支树收束为输入输出流程",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-C005"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-d5f140332b4e985f",
+    "label": "C006",
+    "title": "关系图退后突出一句重点",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B064"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-18358c1869e1072a",
+    "label": "C007",
+    "title": "公式与关键词之间切换焦点",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-C007"
+    ]
+  },
+  {
+    "id": "component:fred-motion-source-f9dc5562d54cda56",
+    "label": "C008",
+    "title": "前一步引出后一步",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:fred-motion-source-51d675feaef3608e",
+    "label": "C009",
+    "title": "多个词组成信息结构",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:fred-motion-source-e3fdd979631e6fed",
+    "label": "C013",
+    "title": "连续动词按语序接替",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:fred-motion-source-e30e7f777b8ac9ae",
+    "label": "C017",
+    "title": "黑白文字矩阵逐行建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:fred-motion-source-2d6091077a210695",
+    "label": "C034",
+    "title": "章节标题建立与编号反白",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:fred-motion-source-7056fea710f9cc93",
+    "label": "C035",
+    "title": "选框定位后建立章节标题",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-shot-avatar-bracket-carousel",
+    "label": "V037",
+    "title": "对焦框头像轮换",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-snap-prompt-send",
+    "label": "V064",
+    "title": "提示词输入与发送",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-talk-chat-message-flow",
+    "label": "V072",
+    "title": "聊天消息推进",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-talk-glass-code-walk",
+    "label": "V085",
+    "title": "玻璃代码面板巡游",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-talk-grid-to-hero",
+    "label": "V086",
+    "title": "网格聚焦主画面",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-talk-highlighter-sweep",
+    "label": "V087",
+    "title": "荧光笔刷出重点",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-talk-scribble-annotation",
+    "label": "V097",
+    "title": "手绘笔迹标注",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:preview-v2-talk-stack-fan-out",
+    "label": "V098",
+    "title": "卡片扇形展开",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-002",
+    "label": "B002",
+    "title": "黑色胶囊展开并强调关键词",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B002"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-003",
+    "label": "B003",
+    "title": "大字结论接模型分支关系图",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-009",
+    "label": "B009",
+    "title": "提示词全貌与参数关键词聚焦",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B009"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-011",
+    "label": "B011",
+    "title": "单个媒体窗口扩展成四格作品墙",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B011"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-012",
+    "label": "B012",
+    "title": "案例窗口接三个人物与职责标签",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-013",
+    "label": "B013",
+    "title": "能力标签从少到多建立",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-014",
+    "label": "B014",
+    "title": "对话气泡接力转入新章节",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B014"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-018",
+    "label": "B018",
+    "title": "纵向胶囊清单逐项填入",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B018"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-019",
+    "label": "B019",
+    "title": "三张图片卡转为能力分类",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B019"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-020",
+    "label": "B020",
+    "title": "单张作品扩展为多格图片墙",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B020"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-023",
+    "label": "B023",
+    "title": "双手机虚化后前置能力词",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-024",
+    "label": "B024",
+    "title": "单个视频通话扩展成三手机对照",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B024"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-027",
+    "label": "B027",
+    "title": "Agent与Skill组合关系建立",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B027"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-028",
+    "label": "B028",
+    "title": "两种生成方式并列强调",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-033",
+    "label": "B033",
+    "title": "三行痛点覆盖虚化表格",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-034",
+    "label": "B034",
+    "title": "编号需求逐行建立并强调关键词",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-035",
+    "label": "B035",
+    "title": "四部手机并列展示设计结果",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B035"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-036",
+    "label": "B036",
+    "title": "两个胶囊组成想法等于成果",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B036"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-038",
+    "label": "B038",
+    "title": "三层黑色短句概括现场观点",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B038"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-041",
+    "label": "B041",
+    "title": "多列竖图滚动展示模型结果",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B041"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-042",
+    "label": "B042",
+    "title": "三项业务词错位阶梯排列",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B042"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-044",
+    "label": "B044",
+    "title": "多张参考卡片组成紧凑矩阵",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B044"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-046",
+    "label": "B046",
+    "title": "全屏影视画面退成错位双窗口",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B046"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-054",
+    "label": "B054",
+    "title": "标签围绕背景并接数字滚动",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-059",
+    "label": "B059",
+    "title": "手机中的视频放大为独立横窗",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B059"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-060",
+    "label": "B060",
+    "title": "左右分支汇入中心平台关系图",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B060"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-062",
+    "label": "B062",
+    "title": "人物与AI柱状图数值对照",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B062"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-064",
+    "label": "B064",
+    "title": "需求关键词从模糊目录中突出",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B064"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-065",
+    "label": "B065",
+    "title": "用不等号拆开效果与产品概念",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B065"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-066",
+    "label": "B066",
+    "title": "多张竖卡逐个亮起展示重点",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B066"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-069",
+    "label": "B069",
+    "title": "从表格信息切到立体饼图",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B069"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-070",
+    "label": "B070",
+    "title": "阶段标签补齐并交接开发界面",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B070"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-072",
+    "label": "B072",
+    "title": "一张模特图扩展为多张结果图",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B072"
+    ]
+  },
+  {
+    "id": "component:library-fred-remake-073",
+    "label": "B073",
+    "title": "输入指令与Agent任务双色卡对照",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-fred-remake-074",
+    "label": "B074",
+    "title": "失败现象用三种图片状态对比",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B074"
+    ]
+  },
+  {
+    "id": "component:library-new10-n002",
+    "label": "N002",
+    "title": "当前问题写出后斜退进历史队列",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n003",
+    "label": "N003",
+    "title": "多条问句挤成疑问墙后被答案推开",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n004",
+    "label": "N004",
+    "title": "横向曲面视频带停在主片并展平",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n005",
+    "label": "N005",
+    "title": "三项能力从底部向上逐项核验",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n006",
+    "label": "N006",
+    "title": "六格规则入口放大成章节并反转底色",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n007",
+    "label": "N007",
+    "title": "章节正文退场，实例停在页底",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n008",
+    "label": "N008",
+    "title": "商品旁的三个问题转为执行角色和作品",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n010",
+    "label": "N010",
+    "title": "双结果窗口退出并揭开图文对照脚本",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n011",
+    "label": "N011",
+    "title": "单条影片带叠出三行反向流动的作品墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n014",
+    "label": "N014",
+    "title": "三结果归位溯源，再抽离成三窗对照",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n016",
+    "label": "N016",
+    "title": "节点结果抽出为竖横双屏并腾出品牌位",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n018",
+    "label": "N018",
+    "title": "透视目录回选两项并抽出组合结论",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n023",
+    "label": "N023",
+    "title": "画中画参考片段放大为等大双窗对照",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n025",
+    "label": "N025",
+    "title": "人物作为固定支点连接素材列与剪辑时间线",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n026",
+    "label": "N026",
+    "title": "外部素材卡汇集并交给手机聊天输入",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n027",
+    "label": "N027",
+    "title": "流程线绕回下一行，连续建立三排步骤",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n030",
+    "label": "N030",
+    "title": "搜索框缩成查询路标，两路结果展开",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n031",
+    "label": "N031",
+    "title": "多选标签收回表单，再展开生成段落",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n032",
+    "label": "N032",
+    "title": "条件问号变成答案徽章，人物接住结论",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n037",
+    "label": "N037",
+    "title": "头像先脉冲，三个行动图标依次跳出",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n038",
+    "label": "N038",
+    "title": "海报错层汇聚后散到四边，中央让出主题",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n040",
+    "label": "N040",
+    "title": "输入框从页面中浮起，提交后落回双栏结果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n043",
+    "label": "N043",
+    "title": "长文面板横向展开为背景，手机重新到前景",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n044",
+    "label": "N044",
+    "title": "商品大图压成附件，输入框被提到前景",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n045",
+    "label": "N045",
+    "title": "三张作品错峰上退，重置成两张对照图",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n046",
+    "label": "N046",
+    "title": "大幅结果图收回聊天记录，继续阅读生成说明",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n047",
+    "label": "N047",
+    "title": "手机从局部近景退到全貌，再解锁进入聊天",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n049",
+    "label": "N049",
+    "title": "问题与答案错峰上升接成一句，再交给实操",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-n054",
+    "label": "N054",
+    "title": "证据页缩小侧移，右侧能力清单逐项补齐",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x002",
+    "label": "X002",
+    "title": "多格视频案例墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x003",
+    "label": "X003",
+    "title": "显存条件黑胶囊",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x006",
+    "label": "X006",
+    "title": "三种生成方式清单",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x008",
+    "label": "X008",
+    "title": "提示词与能力黑胶囊",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x009",
+    "label": "X009",
+    "title": "三条基础能力建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x010",
+    "label": "X010",
+    "title": "约束示例黑卡",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x014",
+    "label": "X014",
+    "title": "报告卡局部放大",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x015",
+    "label": "X015",
+    "title": "三张商品卡片轮换",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x017",
+    "label": "X017",
+    "title": "三模型图标清单",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x019",
+    "label": "X019",
+    "title": "免费规则窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x020",
+    "label": "X020",
+    "title": "四格视频成果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x022",
+    "label": "X022",
+    "title": "角色虚化前的三项概念",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x023",
+    "label": "X023",
+    "title": "倾斜目录沿箭头逐项滚动",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x024",
+    "label": "X024",
+    "title": "手机聊天输入并展示回复",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x025",
+    "label": "X025",
+    "title": "文档推近逐行阅读",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x027",
+    "label": "X027",
+    "title": "页面虚化前的三行优势",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x029",
+    "label": "X029",
+    "title": "三张竖图依次建立并替换",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x032",
+    "label": "X032",
+    "title": "手机侧移让出两行输入类型",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x037",
+    "label": "X037",
+    "title": "插画叠放转四格",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x039",
+    "label": "X039",
+    "title": "四个风格词建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x040",
+    "label": "X040",
+    "title": "图片视频成片三步串联",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x043",
+    "label": "X043",
+    "title": "聊天消息逐条增加",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-new10-x050",
+    "label": "X050",
+    "title": "错误与Token词覆盖虚化界面",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:3e869438-3e2d-46eb-85ce-fd617f98e519",
+    "label": "E02",
+    "title": "三行标题进入桌面窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:2379919d-bedc-4290-9407-44a02dbf67b6",
+    "label": "E04",
+    "title": "显示器靠近并继续建立结果",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "clip:aa0612eb-9d33-484d-9d74-869f4c6fa265",
+    "label": "E08",
+    "title": "记忆分类分支与重新使用",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:1c8d9653-36d4-44cd-851e-2d593c767f0d",
+    "label": "E11",
+    "title": "人物制止并把任务拉回结论",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "clip:8ca27f6a-3969-4789-a6b3-34f3778ac700",
+    "label": "E13",
+    "title": "手机操作与现成日期组件对照",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:4b5b8eb5-14b8-4fe9-86fe-e9bee5d02751",
+    "label": "E14",
+    "title": "多组图片对比、局部特写与完整提示词",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:b59de57b-6a3f-4004-b0c1-87e1b5e67ec9",
+    "label": "E15",
+    "title": "桌面实操接管画面并展示生成结果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:ba3b3390-728d-455f-96e4-299422d899e7",
+    "label": "E16",
+    "title": "一致性对比与连续图片替换",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "clip:e22bdbe4-d455-487b-a011-68c5a1006f33",
+    "label": "E18",
+    "title": "Token 余量变化与详细交接笔记",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "clip:ep99-selected-s05",
+    "label": "99-05",
+    "title": "三段视频轮流成为主画面",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:ep99-selected-s09",
+    "label": "99-09",
+    "title": "手机侧移，让出三项待判断类别",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:ep99-selected-s13",
+    "label": "99-13",
+    "title": "章节标题交接真实操作录屏",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:ep99-selected-s20",
+    "label": "99-20",
+    "title": "概念组合交接判断矩阵，再收束结论",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "clip:ep99-selected-s21",
+    "label": "99-21",
+    "title": "三种职责并列，暗色毛玻璃提炼结论",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "transitions:T01",
+    "label": "T01",
+    "title": "胶囊交替缩放与主次交换",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B038"
+    ]
+  },
+  {
+    "id": "transitions:T02",
+    "label": "T02",
+    "title": "侧移让位与回中",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-T02"
+    ]
+  },
+  {
+    "id": "transitions:T03",
+    "label": "T03",
+    "title": "圆点展开为胶囊",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-T03"
+    ]
+  },
+  {
+    "id": "transitions:T04",
+    "label": "T04",
+    "title": "胶囊扩张覆盖画面",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "transitions:T05",
+    "label": "T05",
+    "title": "单主体向左右展开为并列组",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-T05"
+    ]
+  },
+  {
+    "id": "transitions:T06",
+    "label": "T06",
+    "title": "局部放大、横移与回到全貌",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "L81-T06"
+    ]
+  },
+  {
+    "id": "transitions:T07",
+    "label": "T07",
+    "title": "背景失焦与前景重点接力",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B009"
+    ]
+  },
+  {
+    "id": "transitions:T08",
+    "label": "T08",
+    "title": "错峰上移与下一窗口接入",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-T08"
+    ]
+  },
+  {
+    "id": "transitions:T09",
+    "label": "T09",
+    "title": "多对象聚拢并归为一个概念",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-T09"
+    ]
+  },
+  {
+    "id": "transitions:T10",
+    "label": "T10",
+    "title": "载体退后、内部内容放大接管",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-T10"
+    ]
+  },
+  {
+    "id": "text-effects:W01",
+    "label": "W01",
+    "title": "逐字输出与光标推进",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-W01"
+    ]
+  },
+  {
+    "id": "text-effects:W02",
+    "label": "W02",
+    "title": "从左向右刷出文字",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "text-effects:W03",
+    "label": "W03",
+    "title": "纵向遮罩揭示",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "text-effects:W04",
+    "label": "W04",
+    "title": "文字流整体上卷",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-W04"
+    ]
+  },
+  {
+    "id": "text-effects:W05",
+    "label": "W05",
+    "title": "文字淡入与淡出",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-W05"
+    ]
+  },
+  {
+    "id": "text-effects:W08",
+    "label": "W08",
+    "title": "数值递变与落定",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-W08"
+    ]
+  },
+  {
+    "id": "component:ep103-selected-01",
+    "label": "103-01",
+    "title": "资料卡散开，中央聚焦问题",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep103-selected-02",
+    "label": "103-02",
+    "title": "证据窗让位，说明逐项建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep103-selected-03",
+    "label": "103-03",
+    "title": "持续带教：资料补入，状态保留",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep107-selected-01",
+    "label": "107-01",
+    "title": "资料卡连续让位，问题窗建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep107-selected-02",
+    "label": "107-02",
+    "title": "三项流程收束，接力真实案例",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep107-selected-03",
+    "label": "107-03",
+    "title": "同尺度版本窗，箭头建立比较",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep107-selected-04",
+    "label": "107-04",
+    "title": "三项能力按口播建立，汇聚长胶囊",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:ep107-selected-05",
+    "label": "107-05",
+    "title": "居中结论让位，两项原因刷入",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "remake:ac3434a0-f4af-49ed-8bfb-6d25d4963112",
+    "label": "R001",
+    "title": "主题文字放大交接日历窗口",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R001"
+    ]
+  },
+  {
+    "id": "remake:23af11e6-b65c-4f48-b7ca-e6e902531a53",
+    "label": "R002",
+    "title": "功能文字交接媒体展示",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R002"
+    ]
+  },
+  {
+    "id": "remake:0504f58a-a61b-4d1f-a26a-bcc863f4615b",
+    "label": "R003",
+    "title": "三行文字逐步建立",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R003"
+    ]
+  },
+  {
+    "id": "remake:dbb3175d-cde4-4eb8-b90e-d9ada24e2cf6",
+    "label": "R004",
+    "title": "窗口翻转与版本升级",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R004"
+    ]
+  },
+  {
+    "id": "remake:9ec7a56e-7b23-40c0-a3a5-98f35c4b96cd",
+    "label": "R005",
+    "title": "数字展开为分类分支",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R005"
+    ]
+  },
+  {
+    "id": "remake:173a45be-51d7-4692-9c58-ff1fff20cad7",
+    "label": "R006",
+    "title": "多种输入汇聚为统一入口",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R006"
+    ]
+  },
+  {
+    "id": "remake:817a244b-feed-41fa-9117-4273751d3292",
+    "label": "R007",
+    "title": "媒体窗口交替展示",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R007"
+    ]
+  },
+  {
+    "id": "remake:c03414b0-3856-498c-83ea-bed93c9646a0",
+    "label": "R008",
+    "title": "手机界面推进并展开结果",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R008"
+    ]
+  },
+  {
+    "id": "remake:4de0605b-175c-465a-8fcf-72b0248dd5df",
+    "label": "R009",
+    "title": "三手机并列交接主题标题",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R009"
+    ]
+  },
+  {
+    "id": "remake:6334542f-e954-4424-bb26-80781f01b5a8",
+    "label": "R010",
+    "title": "手机旋转并展开三种布局",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "B006",
+      "B007"
+    ]
+  },
+  {
+    "id": "remake:c8011ff2-b54f-4a8d-a9ee-e0c16b7dba7e",
+    "label": "R011",
+    "title": "功能文字交接媒体展示",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "R002"
+    ]
+  },
+  {
+    "id": "remake:library-premark-01",
+    "label": "R012",
+    "title": "媒体窗口交替展示",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "R007"
+    ]
+  },
+  {
+    "id": "remake:080ace05-64d9-4688-b6c6-f3fae8000b80",
+    "label": "R013",
+    "title": "圆形展开为关键词胶囊",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "B002"
+    ]
+  },
+  {
+    "id": "remake:336f4340-b660-449e-b8bf-bb98f93112f0",
+    "label": "R014",
+    "title": "桌面窗口交接手机界面",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R014"
+    ]
+  },
+  {
+    "id": "remake:8b36b0ed-2635-425e-95cc-86963933ee5c",
+    "label": "R015",
+    "title": "多场景窗口连续交接",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R015"
+    ]
+  },
+  {
+    "id": "remake:fd5543db-239c-4202-8779-c3361304af36",
+    "label": "R016",
+    "title": "素材与代码窗口交替",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R016"
+    ]
+  },
+  {
+    "id": "remake:a00078ff-e9df-4b0e-ad34-903aaddf58f8",
+    "label": "R017",
+    "title": "代码窗口退后交接结论",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "L81-R017"
+    ]
+  },
+  {
+    "id": "remake:920459b5-fa9e-4c85-8e53-1d7e645eb5f5",
+    "label": "R021",
+    "title": "对话气泡接力转入新章节",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "B014"
+    ]
+  },
+  {
+    "id": "remake:64ce1199-b744-4860-9cbe-874cb5f08bc4",
+    "label": "R022",
+    "title": "对话气泡接力转入新章节",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "B014"
+    ]
+  },
+  {
+    "id": "remake:531f9a69-8fc5-4925-ba64-78e7741c6175",
+    "label": "R023",
+    "title": "对话气泡接力转入新章节",
+    "visibleByDefault": false,
+    "selectionStatus": "candidate",
+    "hiddenReason": "merged",
+    "mergedInto": [
+      "B014"
+    ]
+  },
+  {
+    "id": "remake:41038f87-c9f4-442b-ad5f-70c691f21475",
+    "label": "R024",
+    "title": "竖图逐步增加为作品墙",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R024"
+    ]
+  },
+  {
+    "id": "remake:9f907122-a240-4e79-8682-9404df4200bb",
+    "label": "R025",
+    "title": "两张竖图成组轮换",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R025"
+    ]
+  },
+  {
+    "id": "remake:3a0fd8a6-8baf-4727-bdd9-bb7b316c4ebc",
+    "label": "R026",
+    "title": "胶囊列表建立并聚焦",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R026"
+    ]
+  },
+  {
+    "id": "remake:412db22d-8975-4465-8363-a372314a34b4",
+    "label": "R027",
+    "title": "双竖屏画面交替",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R027"
+    ]
+  },
+  {
+    "id": "remake:808a9857-4efd-414e-8007-a67edb3024a9",
+    "label": "R028",
+    "title": "工作流退后交接说明舞台",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R028"
+    ]
+  },
+  {
+    "id": "remake:library-round2-04",
+    "label": "R033",
+    "title": "六格作品墙交接竖图并列",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R033"
+    ]
+  },
+  {
+    "id": "remake:library-round3-01",
+    "label": "R036",
+    "title": "三枚竖胶囊合为横向窗口",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R036"
+    ]
+  },
+  {
+    "id": "remake:library-round3-03",
+    "label": "R038",
+    "title": "横屏缩小让位给竖屏",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R038"
+    ]
+  },
+  {
+    "id": "remake:library-round3-06",
+    "label": "R041",
+    "title": "三张竖卡错落展开",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R041"
+    ]
+  },
+  {
+    "id": "remake:library-round3-07",
+    "label": "R042",
+    "title": "竖卡与产品图并列",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R042"
+    ]
+  },
+  {
+    "id": "remake:library-round3-09",
+    "label": "R044",
+    "title": "单横屏展开为六格",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R044"
+    ]
+  },
+  {
+    "id": "remake:library-round3-10",
+    "label": "R045",
+    "title": "胶囊标题交接图片墙",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R045"
+    ]
+  },
+  {
+    "id": "remake:library-round4-01",
+    "label": "R048",
+    "title": "多页文档退后再前置叠放",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "remake:library-round4-02",
+    "label": "R049",
+    "title": "文档局部抽出并排后归位",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "library-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "remake:library-round4-06",
+    "label": "R051",
+    "title": "说明面板与图片叠放展开四格",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R051"
+    ]
+  },
+  {
+    "id": "remake:library-round4-07",
+    "label": "R052",
+    "title": "参考卡让位给两组结果",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R052"
+    ]
+  },
+  {
+    "id": "remake:library-round4-09",
+    "label": "R053",
+    "title": "三枚胶囊建立后逐项退出",
+    "visibleByDefault": false,
+    "selectionStatus": "optional",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-R053"
+    ]
+  },
+  {
+    "id": "combined-remake:SP001",
+    "label": "SP001",
+    "title": "三张人物穿搭图并列展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP002",
+    "label": "SP002",
+    "title": "素材展示与用户痛点并列 · 短段",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "SP003"
+    ]
+  },
+  {
+    "id": "combined-remake:SP003",
+    "label": "SP003",
+    "title": "素材展示与用户痛点并列 · 长段",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP004",
+    "label": "SP004",
+    "title": "“0—1”数字胶囊开场",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP005",
+    "label": "SP005",
+    "title": "筹划阶段三条黑色胶囊",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "SP008"
+    ]
+  },
+  {
+    "id": "combined-remake:SP006",
+    "label": "SP006",
+    "title": "手机输入界面聚焦",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP007",
+    "label": "SP007",
+    "title": "数据表格前置展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP008",
+    "label": "SP008",
+    "title": "筹划阶段清单加勾强调",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP009",
+    "label": "SP009",
+    "title": "“应用逻辑”关键词前置",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP010",
+    "label": "SP010",
+    "title": "文档长页浮在模糊界面前",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP011",
+    "label": "SP011",
+    "title": "30+ 能力四格分类展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP012",
+    "label": "SP012",
+    "title": "手机旁三项能力词逐项呈现",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP013",
+    "label": "SP013",
+    "title": "白色应用界面操作展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP014",
+    "label": "SP014",
+    "title": "四格视频素材展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP015",
+    "label": "SP015",
+    "title": "素材卡片与结果窗口的连线",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "SP016"
+    ]
+  },
+  {
+    "id": "combined-remake:SP016",
+    "label": "SP016",
+    "title": "素材到结果的连线扩展段",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP017",
+    "label": "SP017",
+    "title": "三行制作流程文字",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP018",
+    "label": "SP018",
+    "title": "剧本文字与人物参考图并列",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP019",
+    "label": "SP019",
+    "title": "三个模型胶囊聚合",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP020",
+    "label": "SP020",
+    "title": "模型、脚本、产品图三胶囊",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP021",
+    "label": "SP021",
+    "title": "深色窗口中的三行能力词",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP022",
+    "label": "SP022",
+    "title": "实拍素材片段",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP023",
+    "label": "SP023",
+    "title": "深色窗口三项任务清单",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "combined-remake:SP024",
+    "label": "SP024",
+    "title": "深色窗口两行目标文字",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b002",
+    "label": "L81-B002",
+    "title": "黑色胶囊展开并强调关键词",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b006",
+    "label": "L81-B006",
+    "title": "手机横屏流程转为竖屏与窗口并列",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b007",
+    "label": "L81-B007",
+    "title": "单个手机展开成三种界面布局",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b008",
+    "label": "L81-B008",
+    "title": "操作界面装入黑框并突出操作结果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b009",
+    "label": "L81-B009",
+    "title": "提示词全貌与参数关键词聚焦",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b011",
+    "label": "L81-B011",
+    "title": "单个媒体窗口扩展成四格作品墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b014",
+    "label": "L81-B014",
+    "title": "对话气泡接力转入新章节",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b016",
+    "label": "L81-B016",
+    "title": "双行主题装入深色窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b018",
+    "label": "L81-B018",
+    "title": "纵向胶囊清单逐项填入",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b019",
+    "label": "L81-B019",
+    "title": "三张图片卡转为能力分类",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b020",
+    "label": "L81-B020",
+    "title": "单张作品扩展为多格图片墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b024",
+    "label": "L81-B024",
+    "title": "单个视频通话扩展成三手机对照",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b026",
+    "label": "L81-B026",
+    "title": "工作流退后并突出Skill关键词",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b027",
+    "label": "L81-B027",
+    "title": "Agent与Skill组合关系建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b035",
+    "label": "L81-B035",
+    "title": "四部手机并列展示设计结果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b036",
+    "label": "L81-B036",
+    "title": "两个胶囊组成想法等于成果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b038",
+    "label": "L81-B038",
+    "title": "三层黑色短句概括现场观点",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b041",
+    "label": "L81-B041",
+    "title": "多列竖图滚动展示模型结果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b042",
+    "label": "L81-B042",
+    "title": "三项业务词错位阶梯排列",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b044",
+    "label": "L81-B044",
+    "title": "多张参考卡片组成紧凑矩阵",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b046",
+    "label": "L81-B046",
+    "title": "全屏影视画面退成错位双窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b059",
+    "label": "L81-B059",
+    "title": "手机中的视频放大为独立横窗",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b060",
+    "label": "L81-B060",
+    "title": "左右分支汇入中心平台关系图",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b062",
+    "label": "L81-B062",
+    "title": "人物与AI柱状图数值对照",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b063",
+    "label": "L81-B063",
+    "title": "四张手机页面并列形成设计全貌",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b064",
+    "label": "L81-B064",
+    "title": "需求关键词从模糊目录中突出",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b065",
+    "label": "L81-B065",
+    "title": "用不等号拆开效果与产品概念",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b066",
+    "label": "L81-B066",
+    "title": "多张竖卡逐个亮起展示重点",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b069",
+    "label": "L81-B069",
+    "title": "从表格信息切到立体饼图",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b070",
+    "label": "L81-B070",
+    "title": "阶段标签补齐并交接开发界面",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b072",
+    "label": "L81-B072",
+    "title": "一张模特图扩展为多张结果图",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b074",
+    "label": "L81-B074",
+    "title": "失败现象用三种图片状态对比",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-b075",
+    "label": "L81-B075",
+    "title": "虚线圆角舞台从标题切入案例",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-c001",
+    "label": "L81-C001",
+    "title": "逐行建立标题",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-c002",
+    "label": "L81-C002",
+    "title": "从一个起点建立信息矩阵",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-c003",
+    "label": "L81-C003",
+    "title": "主题展开分支后聚焦其中一项",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-c004",
+    "label": "L81-C004",
+    "title": "展开当前项再回到列表",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-c005",
+    "label": "L81-C005",
+    "title": "分支树收束为输入输出流程",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-c006",
+    "label": "L81-C006",
+    "title": "关系图退后突出一句重点",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B064"
+    ]
+  },
+  {
+    "id": "component:library-legacy81-c007",
+    "label": "L81-C007",
+    "title": "公式与关键词之间切换焦点",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r001",
+    "label": "L81-R001",
+    "title": "主题文字放大交接日历窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r002",
+    "label": "L81-R002",
+    "title": "功能文字交接媒体展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r003",
+    "label": "L81-R003",
+    "title": "三行文字逐步建立",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r004",
+    "label": "L81-R004",
+    "title": "窗口翻转与版本升级",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r005",
+    "label": "L81-R005",
+    "title": "数字展开为分类分支",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r006",
+    "label": "L81-R006",
+    "title": "多种输入汇聚为统一入口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r007",
+    "label": "L81-R007",
+    "title": "媒体窗口交替展示",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r008",
+    "label": "L81-R008",
+    "title": "手机界面推进并展开结果",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r009",
+    "label": "L81-R009",
+    "title": "三手机并列交接主题标题",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r014",
+    "label": "L81-R014",
+    "title": "桌面窗口交接手机界面",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r015",
+    "label": "L81-R015",
+    "title": "多场景窗口连续交接",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r016",
+    "label": "L81-R016",
+    "title": "素材与代码窗口交替",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r017",
+    "label": "L81-R017",
+    "title": "完整提示词窗口收束为一句方法公式",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r024",
+    "label": "L81-R024",
+    "title": "竖图逐步增加为作品墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r025",
+    "label": "L81-R025",
+    "title": "两张结果从界面浮出，并保持双槽成对更换",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r026",
+    "label": "L81-R026",
+    "title": "胶囊列表建立并聚焦",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r027",
+    "label": "L81-R027",
+    "title": "两张竖图让出中间第三项，再收成重点双图",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r028",
+    "label": "L81-R028",
+    "title": "多张参考图依次卷入，汇为结果并交接下一轮",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r033",
+    "label": "L81-R033",
+    "title": "六格作品墙交接竖图并列",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r036",
+    "label": "L81-R036",
+    "title": "三枚竖胶囊合为横向窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r038",
+    "label": "L81-R038",
+    "title": "横屏缩小让位给竖屏，再交接下个窗口",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r041",
+    "label": "L81-R041",
+    "title": "三张竖卡错落展开",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r042",
+    "label": "L81-R042",
+    "title": "有框竖视频与无框主体并列，再转双横窗",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r044",
+    "label": "L81-R044",
+    "title": "一个横向案例缩为首格，依次扩成六格结果墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r045",
+    "label": "L81-R045",
+    "title": "胶囊标题交接图片墙",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r051",
+    "label": "L81-R051",
+    "title": "说明面板与图片叠放展开四格",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r052",
+    "label": "L81-R052",
+    "title": "两组参考视频各展开三个独立结果，再回到实操",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-r053",
+    "label": "L81-R053",
+    "title": "三枚胶囊建立后逐项退出",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t01",
+    "label": "L81-T01",
+    "title": "胶囊交替缩放与主次交换",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B038"
+    ]
+  },
+  {
+    "id": "component:library-legacy81-t02",
+    "label": "L81-T02",
+    "title": "侧移让位与回中",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t03",
+    "label": "L81-T03",
+    "title": "圆点展开为胶囊",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t05",
+    "label": "L81-T05",
+    "title": "单主体向左右展开为并列组",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t06",
+    "label": "L81-T06",
+    "title": "局部放大、横移与回到全貌",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t07",
+    "label": "L81-T07",
+    "title": "背景失焦与前景重点接力",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "confirmed-duplicate",
+    "mergedInto": [
+      "L81-B009"
+    ]
+  },
+  {
+    "id": "component:library-legacy81-t08",
+    "label": "L81-T08",
+    "title": "错峰上移与下一窗口接入",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t09",
+    "label": "L81-T09",
+    "title": "多对象聚拢并归为一个概念",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-t10",
+    "label": "L81-T10",
+    "title": "载体退后、内部内容放大接管",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-w01",
+    "label": "L81-W01",
+    "title": "逐字输出与光标推进",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-w04",
+    "label": "L81-W04",
+    "title": "文字流整体上卷",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-w05",
+    "label": "L81-W05",
+    "title": "文字淡入与淡出",
+    "visibleByDefault": true,
+    "selectionStatus": "keep",
+    "hiddenReason": null,
+    "mergedInto": []
+  },
+  {
+    "id": "component:library-legacy81-w08",
+    "label": "L81-W08",
+    "title": "数值递变与落定",
+    "visibleByDefault": false,
+    "selectionStatus": "keep",
+    "hiddenReason": "user-removed",
+    "mergedInto": []
+  }
+]

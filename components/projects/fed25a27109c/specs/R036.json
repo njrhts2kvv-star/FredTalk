@@ -1,0 +1,638 @@
+{
+  "schemaVersion": 1,
+  "id": "R036",
+  "title": "三枚竖胶囊合为横向窗口",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 300,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+    "referenceStart": 13,
+    "referenceEnd": 18,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+        "sha256": "aa733edcf6bf367a6e3362e0391bf8ceeac8fe9ddbdd2174134bec51b69cd2bd",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 269.0,
+        "start": 13,
+        "end": 18
+      }
+    ],
+    "totalSelectedDuration": 5,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 300,
+        "sourceAsset": 0,
+        "sourceStartPTS": 13,
+        "sourceEndPTS": 18.0,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/faithful",
+    "compositionId": "Motion036",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [
+    {
+      "family": "Alimama ShuHei",
+      "file": "fonts/AlimamaShuHei.ttf",
+      "license": "fonts/AlimamaShuHei-License.txt",
+      "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+      "selectionStatus": "same-glyph candidates viewed; pixel matching pending"
+    }
+  ],
+  "objects": {
+    "outer": {
+      "radius": 114,
+      "mergedBounds": [
+        228,
+        94,
+        1464,
+        892
+      ]
+    },
+    "cards": {
+      "x": [
+        21,
+        672,
+        1326
+      ],
+      "y": 108,
+      "width": 576,
+      "height": 864,
+      "radius": 114
+    },
+    "title": {
+      "authorizedText": "日常记录",
+      "independentOfLogo": true
+    }
+  },
+  "tracks": {
+    "outer": {
+      "domain": "outputFrame",
+      "fields": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "samples": [
+        [
+          224,
+          23,
+          108,
+          1876,
+          864
+        ],
+        [
+          226,
+          26,
+          108,
+          1870,
+          864
+        ],
+        [
+          228,
+          33,
+          108,
+          1855,
+          864
+        ],
+        [
+          230,
+          44,
+          108,
+          1832,
+          864
+        ],
+        [
+          232,
+          63,
+          108,
+          1793,
+          864
+        ],
+        [
+          234,
+          92,
+          108,
+          1735,
+          864
+        ],
+        [
+          236,
+          136,
+          108,
+          1643,
+          864
+        ],
+        [
+          238,
+          191,
+          107,
+          1530,
+          866
+        ],
+        [
+          240,
+          236,
+          97,
+          1439,
+          886
+        ],
+        [
+          242,
+          265,
+          96,
+          1380,
+          888
+        ],
+        [
+          244,
+          264,
+          95,
+          1392,
+          890
+        ],
+        [
+          246,
+          246,
+          94,
+          1428,
+          892
+        ],
+        [
+          248,
+          236,
+          94,
+          1449,
+          892
+        ],
+        [
+          250,
+          230,
+          94,
+          1460,
+          892
+        ],
+        [
+          252,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          254,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          256,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          258,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          260,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          262,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          264,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          266,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          268,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          270,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          272,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          274,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          276,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          278,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          280,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          282,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          284,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          286,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          288,
+          228,
+          94,
+          1464,
+          892
+        ],
+        [
+          290,
+          276,
+          150,
+          1230,
+          780
+        ],
+        [
+          292,
+          320,
+          200,
+          1024,
+          680
+        ],
+        [
+          294,
+          359,
+          242,
+          858,
+          596
+        ],
+        [
+          296,
+          395,
+          282,
+          699,
+          516
+        ],
+        [
+          298,
+          428,
+          329,
+          510,
+          422
+        ]
+      ],
+      "evidence": "native-measurements.json scanlines; last3 exit x corrected for rounded top edge using inspected image"
+    },
+    "merge": {
+      "domain": "outputFrame",
+      "fields": [
+        "progress"
+      ],
+      "samples": [
+        [
+          0,
+          0
+        ],
+        [
+          222,
+          0
+        ],
+        [
+          224,
+          0.00966183574879227
+        ],
+        [
+          226,
+          0.024154589371980676
+        ],
+        [
+          228,
+          0.057971014492753624
+        ],
+        [
+          230,
+          0.1111111111111111
+        ],
+        [
+          232,
+          0.2028985507246377
+        ],
+        [
+          234,
+          0.34299516908212563
+        ],
+        [
+          236,
+          0.5555555555555556
+        ],
+        [
+          238,
+          0.821256038647343
+        ],
+        [
+          240,
+          1
+        ],
+        [
+          242,
+          1
+        ],
+        [
+          298,
+          1
+        ]
+      ],
+      "evidence": "native horizontal extent; overlap occurs before final rounded border settle"
+    },
+    "title": {
+      "domain": "outputFrame",
+      "fields": [
+        "opacity",
+        "x",
+        "colorMix"
+      ],
+      "samples": [
+        [
+          0,
+          0,
+          640,
+          0
+        ],
+        [
+          252,
+          0,
+          640,
+          0
+        ],
+        [
+          266,
+          1,
+          640,
+          0
+        ],
+        [
+          288,
+          1,
+          640,
+          0
+        ],
+        [
+          290,
+          1,
+          692,
+          0.15
+        ],
+        [
+          292,
+          1,
+          744,
+          0.35
+        ],
+        [
+          294,
+          1,
+          796,
+          0.6
+        ],
+        [
+          296,
+          1,
+          848,
+          0.8
+        ],
+        [
+          298,
+          1,
+          886,
+          1
+        ]
+      ],
+      "evidence": "inspection of native source frames; title x provisional; full font matching pending"
+    },
+    "cardEntryY": {
+      "domain": "outputFrame",
+      "fields": [
+        "first",
+        "second",
+        "third"
+      ],
+      "samples": [
+        [
+          20,
+          830,
+          930,
+          570
+        ],
+        [
+          22,
+          790,
+          860,
+          465
+        ],
+        [
+          24,
+          722,
+          780,
+          372
+        ],
+        [
+          26,
+          626,
+          728,
+          298
+        ],
+        [
+          28,
+          482,
+          654,
+          252
+        ],
+        [
+          30,
+          340,
+          548,
+          178
+        ],
+        [
+          32,
+          244,
+          422,
+          140
+        ],
+        [
+          34,
+          184,
+          316,
+          122
+        ],
+        [
+          36,
+          148,
+          240,
+          112
+        ],
+        [
+          38,
+          116,
+          190,
+          108
+        ],
+        [
+          40,
+          108,
+          158,
+          108
+        ],
+        [
+          42,
+          108,
+          136,
+          108
+        ],
+        [
+          44,
+          108,
+          122,
+          108
+        ],
+        [
+          46,
+          108,
+          112,
+          108
+        ],
+        [
+          48,
+          108,
+          108,
+          108
+        ],
+        [
+          298,
+          108,
+          108,
+          108
+        ]
+      ],
+      "evidence": "analysis/R036/round2-native/components.json; rounded black card top edges, excluding shadow. F20–26 third card obscured by foreground Finder, continued observed upward trajectory."
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R036/review.md",
+    "fontComparison": "analysis/R036/font-candidates.png",
+    "nativeFrameMeasurements": "analysis/R036/native-measurements.json"
+  },
+  "knownIssues": [
+    "0.06秒密采样：当前4.04–4.16秒合窗外侧露出矩形灰底及两道竖缝；参考17.04–17.16秒保持完整圆角容器。",
+    "当前4.82–4.94秒文字仍留在缩小黑框内，参考17.82–17.94秒主文字已从标志框中向右独立移出。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "33ada208e950e566621653e8a455c93969c4da1e35837b0a8639974524f2023a"
+    },
+    "v2": {
+      "sha256": "45905e76b848d7e003d48caf2373f35a789f43fdd8a1643484861ec4e1782b3d",
+      "path": "baseline/v2/videos/R036/45905e76b848d7e003d48caf2373f35a789f43fdd8a1643484861ec4e1782b3d.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

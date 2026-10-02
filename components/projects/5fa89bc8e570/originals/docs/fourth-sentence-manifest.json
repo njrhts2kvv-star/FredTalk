@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "ep82-fourth-sentence-reference-remake-v1-4k60",
+  "episode": "82_豆包面试",
+  "scope": "p06-p07-reference-remake",
+  "fps": 60,
+  "width": 3840,
+  "height": 2160,
+  "pages": [
+    {
+      "stableId": "doubao-06-07-authorized-collaboration-reference-remake",
+      "displayPage": "P06-P07",
+      "sourceBeatIds": [
+        "p06-authorized-context",
+        "p06-project-document",
+        "p06-group-chat",
+        "p06-meeting-notes",
+        "p06-task",
+        "p07-share",
+        "p07-permission",
+        "p07-coedit"
+      ],
+      "durationInFrames": 982,
+      "componentId": "FourthSentenceRemake"
+    }
+  ]
+}

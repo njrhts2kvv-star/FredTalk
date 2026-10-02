@@ -1,0 +1,1519 @@
+{
+  "version": 1,
+  "theme": {
+    "background": "#fff",
+    "ink": "#121214",
+    "accent": "#8960ca",
+    "accentLight": "#d2b8f2"
+  },
+  "pages": [
+    {
+      "number": 2,
+      "duration": 5.5,
+      "exactScreenWords": [
+        "把声音留成记忆"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "双媒体并排",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.7,
+          "event": "媒体横向离场圆形进入",
+          "canonicalTime": 0.7
+        },
+        {
+          "time": 1.15,
+          "event": "圆形扩展为胶囊",
+          "canonicalTime": 1.15
+        },
+        {
+          "time": 2,
+          "event": "关键词建立",
+          "canonicalTime": 2
+        },
+        {
+          "time": 4.5,
+          "event": "黑色扩展覆盖舞台",
+          "canonicalTime": 4.5
+        }
+      ],
+      "stableId": "FredMotion-002",
+      "title": "Fred · 黑色胶囊展开并强调关键词",
+      "fps": 60,
+      "durationInFrames": 330,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 1
+    },
+    {
+      "number": 6,
+      "duration": 11.0,
+      "exactScreenWords": [
+        "随时录音",
+        "自动整理",
+        "再次调用",
+        "一、把每天的重要声音记录下来"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "横向旋转收敛",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.7,
+          "event": "首个节点",
+          "canonicalTime": 0.7
+        },
+        {
+          "time": 2,
+          "event": "第二节点",
+          "canonicalTime": 2
+        },
+        {
+          "time": 3.3,
+          "event": "第三节点",
+          "canonicalTime": 3.3
+        },
+        {
+          "time": 5,
+          "event": "手机转回竖屏",
+          "canonicalTime": 5
+        },
+        {
+          "time": 7.5,
+          "event": "右侧窗口进入",
+          "canonicalTime": 7.5
+        },
+        {
+          "time": 9.1,
+          "event": "窗口文字逐字",
+          "canonicalTime": 9.1
+        }
+      ],
+      "stableId": "FredMotion-006",
+      "title": "Fred · 手机横屏流程转为竖屏与窗口并列",
+      "fps": 60,
+      "durationInFrames": 660,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 4
+    },
+    {
+      "number": 7,
+      "duration": 19.0,
+      "exactScreenWords": [
+        "一、把每天的重要声音记录下来"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "退出右侧窗口",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.15,
+          "event": "浅紫设备一背景",
+          "canonicalTime": 1.15
+        },
+        {
+          "time": 2.4,
+          "event": "圆形图标",
+          "canonicalTime": 2.4
+        },
+        {
+          "time": 3.8,
+          "event": "输入栏",
+          "canonicalTime": 3.8
+        },
+        {
+          "time": 5.2,
+          "event": "第一设备左移第二设备入场",
+          "canonicalTime": 5.2
+        },
+        {
+          "time": 8.1,
+          "event": "第二设备模块逐项",
+          "canonicalTime": 8.1
+        },
+        {
+          "time": 12,
+          "event": "第三设备从上进入",
+          "canonicalTime": 12
+        },
+        {
+          "time": 13.3,
+          "event": "圆形",
+          "canonicalTime": 13.3
+        },
+        {
+          "time": 14.6,
+          "event": "图片槽",
+          "canonicalTime": 14.6
+        },
+        {
+          "time": 15.5,
+          "event": "按钮",
+          "canonicalTime": 15.5
+        },
+        {
+          "time": 16.1,
+          "event": "三个设备齐平",
+          "canonicalTime": 16.1
+        },
+        {
+          "time": 18.5,
+          "event": "设备分层离场",
+          "canonicalTime": 18.5
+        }
+      ],
+      "stableId": "FredMotion-007",
+      "title": "Fred · 单个手机展开成三种界面布局",
+      "fps": 60,
+      "durationInFrames": 1140,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 1
+    },
+    {
+      "number": 8,
+      "duration": 11.0,
+      "exactScreenWords": [
+        "记录与整理",
+        "检索与使用",
+        "随时记录",
+        "随时找回"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "设计能力真实UI",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.3,
+          "event": "代码能力真实UI",
+          "canonicalTime": 0.3
+        },
+        {
+          "time": 1.5,
+          "event": "输入工作任务",
+          "canonicalTime": 1.5
+        },
+        {
+          "time": 3,
+          "event": "提交局部推近",
+          "canonicalTime": 3
+        },
+        {
+          "time": 4,
+          "event": "执行过程",
+          "canonicalTime": 4
+        },
+        {
+          "time": 7.6,
+          "event": "结果列表放大+步步在握",
+          "canonicalTime": 7.6
+        },
+        {
+          "time": 9.6,
+          "event": "引证列表+引必有据",
+          "canonicalTime": 9.6
+        }
+      ],
+      "stableId": "FredMotion-008",
+      "title": "Fred · 操作界面装入黑框并突出操作结果",
+      "fps": 60,
+      "durationInFrames": 660,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 4
+    },
+    {
+      "number": 9,
+      "duration": 10.85,
+      "exactScreenWords": [
+        "帮我把【会议】里的内容整理为【待办】。",
+        "按照【项目】归类，保留【时间】。",
+        "记录按这个来：",
+        "- 背景：【讨论主题】",
+        "- 人物：【参与成员】",
+        "- 结论：【确认事项】",
+        "- 行动：【后续待办】",
+        "输出格式选【清单格式】。",
+        "保存位置选【知识库】。",
+        "要求：忠于录音内容，方便后续检索。"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "上一个媒体网格离场",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.4,
+          "event": "提示词窗口进入",
+          "canonicalTime": 0.4
+        },
+        {
+          "time": 0.8,
+          "event": "完整文字建立",
+          "canonicalTime": 0.8
+        },
+        {
+          "time": 3.4,
+          "event": "背景提示词失焦，参数集中前景",
+          "canonicalTime": 3.4
+        },
+        {
+          "time": 9.7,
+          "event": "参数归位文字重新清晰",
+          "canonicalTime": 9.7
+        }
+      ],
+      "stableId": "FredMotion-009",
+      "title": "Fred · 提示词全貌与参数关键词聚焦",
+      "fps": 60,
+      "durationInFrames": 651,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 10
+    },
+    {
+      "number": 11,
+      "duration": 14.0,
+      "exactScreenWords": [
+        "把录音整理为工作记录",
+        "按会议与生活分类",
+        "记录按这个来：",
+        "- 背景：本次讨论",
+        "- 人物：参与成员",
+        "- 结论：确认事项",
+        "- 行动：后续待办",
+        "输出为清晰的清单",
+        "保存到知识库",
+        "之后可以再次检索"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "左上网页",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.4,
+          "event": "右上耳机",
+          "canonicalTime": 1.4
+        },
+        {
+          "time": 3.5,
+          "event": "左下物流网络",
+          "canonicalTime": 3.5
+        },
+        {
+          "time": 4.5,
+          "event": "右下手绘作品",
+          "canonicalTime": 4.5
+        },
+        {
+          "time": 6.5,
+          "event": "作品墙失焦前景提示词",
+          "canonicalTime": 6.5
+        },
+        {
+          "time": 10,
+          "event": "提示词退出作品重新清晰",
+          "canonicalTime": 10
+        }
+      ],
+      "stableId": "FredMotion-011",
+      "title": "Fred · 单个媒体窗口扩展成四格作品墙",
+      "fps": 60,
+      "durationInFrames": 840,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 10
+    },
+    {
+      "number": 14,
+      "duration": 19,
+      "exactScreenWords": [
+        "记录好了吗？",
+        "已经留下来了",
+        "今天的会议说了什么",
+        "找到了",
+        "结论和待办都在这里",
+        "看看相关的记录吧",
+        "声音记忆"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "上下两条气泡已存在",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.1,
+          "event": "右侧询问进入",
+          "canonicalTime": 1.1
+        },
+        {
+          "time": 5.4,
+          "event": "是的左入整体上卷",
+          "canonicalTime": 5.4
+        },
+        {
+          "time": 6.4,
+          "event": "音频的我都学会了",
+          "canonicalTime": 6.4
+        },
+        {
+          "time": 10.4,
+          "event": "讲讲图片类的吧再次上卷",
+          "canonicalTime": 10.4
+        },
+        {
+          "time": 16.1,
+          "event": "对话场景退出图像类进入",
+          "canonicalTime": 16.1
+        },
+        {
+          "time": 20.7,
+          "event": "下一章节交接",
+          "canonicalTime": 20.7
+        }
+      ],
+      "stableId": "FredMotion-014",
+      "title": "Fred · 对话气泡接力转入新章节",
+      "fps": 60,
+      "durationInFrames": 1140,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 7
+    },
+    {
+      "number": 16,
+      "duration": 4.5,
+      "exactScreenWords": [
+        "声音记录",
+        "个人知识库"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Excel数据处理已建立",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.5,
+          "event": "第二行出现",
+          "canonicalTime": 1.5
+        },
+        {
+          "time": 4.1,
+          "event": "窗口整体上移退出",
+          "canonicalTime": 4.1
+        }
+      ],
+      "stableId": "FredMotion-016",
+      "title": "Fred · 双行主题装入深色窗口",
+      "fps": 60,
+      "durationInFrames": 270,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 2
+    },
+    {
+      "number": 18,
+      "duration": 10.0,
+      "exactScreenWords": [
+        "随时记录",
+        "本地整理"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "黑矩形转正",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.5,
+          "event": "四道横线展开",
+          "canonicalTime": 0.5
+        },
+        {
+          "time": 1.7,
+          "event": "四胶囊定型",
+          "canonicalTime": 1.7
+        },
+        {
+          "time": 2.3,
+          "event": "开源免费文字",
+          "canonicalTime": 2.3
+        },
+        {
+          "time": 3.5,
+          "event": "列表左移右侧工作流",
+          "canonicalTime": 3.5
+        },
+        {
+          "time": 5.3,
+          "event": "工作流退出数字8G显存",
+          "canonicalTime": 5.3
+        },
+        {
+          "time": 8.4,
+          "event": "列表回中央左显卡",
+          "canonicalTime": 8.4
+        },
+        {
+          "time": 9.5,
+          "event": "右显卡",
+          "canonicalTime": 9.5
+        }
+      ],
+      "stableId": "FredMotion-018",
+      "title": "Fred · 纵向胶囊清单逐项填入",
+      "fps": 60,
+      "durationInFrames": 600,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 2
+    },
+    {
+      "number": 19,
+      "duration": 13.0,
+      "exactScreenWords": [
+        "会议",
+        "生活",
+        "灵感",
+        "Mic Pro",
+        "Codex",
+        "与",
+        "录音内容",
+        "记录整理",
+        "记忆检索"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "人像卡已出现",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.5,
+          "event": "艺术卡",
+          "canonicalTime": 0.5
+        },
+        {
+          "time": 1.4,
+          "event": "文字卡",
+          "canonicalTime": 1.4
+        },
+        {
+          "time": 2.3,
+          "event": "卡片上移Boogu-Image标题",
+          "canonicalTime": 2.3
+        },
+        {
+          "time": 4.8,
+          "event": "GPT-Image比较",
+          "canonicalTime": 4.8
+        },
+        {
+          "time": 7.8,
+          "event": "标题退出卡片回中央",
+          "canonicalTime": 7.8
+        },
+        {
+          "time": 8.6,
+          "event": "卡片变深色能力词",
+          "canonicalTime": 8.6
+        },
+        {
+          "time": 12.5,
+          "event": "卡片上移退出",
+          "canonicalTime": 12.5
+        }
+      ],
+      "stableId": "FredMotion-019",
+      "title": "Fred · 三张图片卡转为能力分类",
+      "fps": 60,
+      "durationInFrames": 780,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 9
+    },
+    {
+      "number": 20,
+      "duration": 17.0,
+      "exactScreenWords": [
+        "生活片段"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "单竖图",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.6,
+          "event": "漫画右入原图左移",
+          "canonicalTime": 1.6
+        },
+        {
+          "time": 5,
+          "event": "三卡并列",
+          "canonicalTime": 5
+        },
+        {
+          "time": 6.5,
+          "event": "连续向左滑轨展示11张作品",
+          "canonicalTime": 6.5
+        },
+        {
+          "time": 13.3,
+          "event": "六格二行组合",
+          "canonicalTime": 13.3
+        },
+        {
+          "time": 16.95,
+          "event": "保持六格",
+          "canonicalTime": 16.95
+        }
+      ],
+      "stableId": "FredMotion-020",
+      "title": "Fred · 单张作品扩展为多格图片墙",
+      "fps": 60,
+      "durationInFrames": 1020,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 1
+    },
+    {
+      "number": 24,
+      "duration": 6,
+      "exactScreenWords": [
+        "会议结论与后续待办",
+        "刚才会议确认了哪些事情？接下来要做什么？",
+        "记录",
+        "会议内容",
+        "日常交流",
+        "语音备忘"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "中间视频通话",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.4,
+          "event": "左聊天界面推出",
+          "canonicalTime": 1.4
+        },
+        {
+          "time": 2.3,
+          "event": "右聊天界面推出",
+          "canonicalTime": 2.3
+        },
+        {
+          "time": 5.7,
+          "event": "中间切换识别画面",
+          "canonicalTime": 5.7
+        },
+        {
+          "time": 11.4,
+          "event": "三个设备错峰离场",
+          "canonicalTime": 11.4
+        }
+      ],
+      "stableId": "FredMotion-024",
+      "title": "Fred · 单个视频通话扩展成三手机对照",
+      "fps": 60,
+      "durationInFrames": 360,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 6
+    },
+    {
+      "number": 26,
+      "exactScreenWords": [
+        "Codex",
+        "记忆",
+        "录音",
+        "整理",
+        "归类",
+        "检索"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "three media panes",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.8,
+          "event": "canvas blur and Agent",
+          "canonicalTime": 1.8
+        },
+        {
+          "time": 4.5,
+          "event": "replace Agent with Skill",
+          "canonicalTime": 4.5
+        },
+        {
+          "time": 6,
+          "event": "media backplate and scattered roles",
+          "canonicalTime": 6
+        }
+      ],
+      "stableId": "FredMotion-026",
+      "title": "Fred · 工作流退后并突出Skill关键词",
+      "fps": 60,
+      "durationInFrames": 480,
+      "duration": 8.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 6
+    },
+    {
+      "number": 27,
+      "exactScreenWords": [
+        "Codex +",
+        "记忆"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "media fullscreen exits",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.6,
+          "event": "four circles distributed",
+          "canonicalTime": 0.6
+        },
+        {
+          "time": 2,
+          "event": "circles cluster",
+          "canonicalTime": 2
+        },
+        {
+          "time": 3.5,
+          "event": "cluster becomes right circle",
+          "canonicalTime": 3.5
+        },
+        {
+          "time": 4,
+          "event": "Agent+ and Skill establish",
+          "canonicalTime": 4
+        }
+      ],
+      "stableId": "FredMotion-027",
+      "title": "Fred · Agent与Skill组合关系建立",
+      "fps": 60,
+      "durationInFrames": 540,
+      "duration": 9.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 2
+    },
+    {
+      "number": 35,
+      "exactScreenWords": [
+        "声音记忆",
+        "会议记录",
+        "生活片段"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "design canvas",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.15,
+          "event": "four phones enter",
+          "canonicalTime": 0.15
+        },
+        {
+          "time": 1.5,
+          "event": "screens scroll separately",
+          "canonicalTime": 1.5
+        }
+      ],
+      "stableId": "FredMotion-035",
+      "title": "Fred · 四部手机并列展示设计结果",
+      "fps": 60,
+      "durationInFrames": 300,
+      "duration": 5.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 3
+    },
+    {
+      "number": 38,
+      "exactScreenWords": [
+        "随时留下声音",
+        "自动整理记录",
+        "需要时再找回来"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "first pill",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.8,
+          "event": "first retreats top",
+          "canonicalTime": 0.8
+        },
+        {
+          "time": 1.6,
+          "event": "second center",
+          "canonicalTime": 1.6
+        },
+        {
+          "time": 3.6,
+          "event": "second retreats bottom",
+          "canonicalTime": 3.6
+        },
+        {
+          "time": 4.5,
+          "event": "third center",
+          "canonicalTime": 4.5
+        },
+        {
+          "time": 7.8,
+          "event": "equal-size stack",
+          "canonicalTime": 7.8
+        },
+        {
+          "time": 9.5,
+          "event": "return event",
+          "canonicalTime": 9.5
+        }
+      ],
+      "stableId": "FredMotion-038",
+      "title": "Fred · 三层黑色短句概括现场观点",
+      "fps": 60,
+      "durationInFrames": 660,
+      "duration": 11.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 3
+    },
+    {
+      "number": 41,
+      "exactScreenWords": [
+        "把生活留下来",
+        "Record your day"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "vertical cards enter",
+          "canonicalTime": 0
+        },
+        {
+          "time": 2,
+          "event": "fan",
+          "canonicalTime": 2
+        },
+        {
+          "time": 3.5,
+          "event": "row and horizontal scroll",
+          "canonicalTime": 3.5
+        },
+        {
+          "time": 19.5,
+          "event": "three card groups",
+          "canonicalTime": 19.5
+        }
+      ],
+      "stableId": "FredMotion-041",
+      "title": "Fred · 多列竖图滚动展示模型结果",
+      "fps": 60,
+      "durationInFrames": 1380,
+      "duration": 23.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 2
+    },
+    {
+      "number": 42,
+      "exactScreenWords": [
+        "记录",
+        "整理",
+        "回顾"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "window drops",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.4,
+          "event": "purchase",
+          "canonicalTime": 0.4
+        },
+        {
+          "time": 0.9,
+          "event": "sales",
+          "canonicalTime": 0.9
+        },
+        {
+          "time": 1.3,
+          "event": "accounting",
+          "canonicalTime": 1.3
+        },
+        {
+          "time": 4.4,
+          "event": "paper enters",
+          "canonicalTime": 4.4
+        }
+      ],
+      "stableId": "FredMotion-042",
+      "title": "Fred · 三项业务词错位阶梯排列",
+      "fps": 60,
+      "durationInFrames": 300,
+      "duration": 5.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 3
+    },
+    {
+      "number": 44,
+      "exactScreenWords": [
+        "记录",
+        "用声音记录每一天",
+        "Mic Pro"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "cards populate grid",
+          "canonicalTime": 0
+        },
+        {
+          "time": 3,
+          "event": "blur grid and central contact sheet",
+          "canonicalTime": 3
+        },
+        {
+          "time": 5.6,
+          "event": "central sheet shifts left",
+          "canonicalTime": 5.6
+        },
+        {
+          "time": 6.4,
+          "event": "return grid",
+          "canonicalTime": 6.4
+        },
+        {
+          "time": 7.8,
+          "event": "actor handoff",
+          "canonicalTime": 7.8
+        }
+      ],
+      "stableId": "FredMotion-044",
+      "title": "Fred · 多张参考卡片组成紧凑矩阵",
+      "fps": 60,
+      "durationInFrames": 480,
+      "duration": 8.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 3
+    },
+    {
+      "number": 46,
+      "exactScreenWords": [
+        "留下重要的声音",
+        "整理当时的讨论",
+        "形成可回顾的记录",
+        "保留上下文",
+        "需要时再找回来",
+        "继续下一次讨论"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "large video window",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.7,
+          "event": "first shifts upper-left",
+          "canonicalTime": 0.7
+        },
+        {
+          "time": 1.1,
+          "event": "second enters lower-right",
+          "canonicalTime": 1.1
+        },
+        {
+          "time": 4.7,
+          "event": "content cut",
+          "canonicalTime": 4.7
+        }
+      ],
+      "stableId": "FredMotion-046",
+      "title": "Fred · 全屏影视画面退成错位双窗口",
+      "fps": 60,
+      "durationInFrames": 420,
+      "duration": 7.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 6
+    },
+    {
+      "number": 59,
+      "exactScreenWords": [
+        "把真实的声音记录下来"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Tilted phone straightens",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.5,
+          "event": "Push in to phone media",
+          "canonicalTime": 1.5
+        },
+        {
+          "time": 6,
+          "event": "Media carousel moves",
+          "canonicalTime": 6
+        },
+        {
+          "time": 8.2,
+          "event": "Independent landscape media window expands",
+          "canonicalTime": 8.2
+        },
+        {
+          "time": 9,
+          "event": "Phone slides left",
+          "canonicalTime": 9
+        },
+        {
+          "time": 11,
+          "event": "Media takes stage",
+          "canonicalTime": 11
+        }
+      ],
+      "stableId": "FredMotion-059",
+      "title": "Fred · 手机中的视频放大为独立横窗",
+      "fps": 60,
+      "durationInFrames": 720,
+      "duration": 12.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 1
+    },
+    {
+      "number": 60,
+      "exactScreenWords": [
+        "会议",
+        "生活",
+        "灵感",
+        "记录内容",
+        "统一整理声音记录",
+        "时间标记",
+        "一事一条",
+        "知识关联",
+        "录音",
+        "备忘",
+        "待办",
+        "回顾"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Source platform nodes appear",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.7,
+          "event": "User action tags",
+          "canonicalTime": 0.7
+        },
+        {
+          "time": 2.3,
+          "event": "Central platform circle grows",
+          "canonicalTime": 2.3
+        },
+        {
+          "time": 4.5,
+          "event": "Right attributes appear",
+          "canonicalTime": 4.5
+        },
+        {
+          "time": 6.6,
+          "event": "Pull back to whole diagram",
+          "canonicalTime": 6.6
+        }
+      ],
+      "stableId": "FredMotion-060",
+      "title": "Fred · 左右分支汇入中心平台关系图",
+      "fps": 60,
+      "durationInFrames": 480,
+      "duration": 8.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 12
+    },
+    {
+      "number": 62,
+      "exactScreenWords": [
+        "记录示例",
+        "32.0%",
+        "38.0%",
+        "示例数值对比"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "First bar starts at 7.4",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1,
+          "event": "First grows to 32",
+          "canonicalTime": 1
+        },
+        {
+          "time": 4,
+          "event": "Second grows to 38",
+          "canonicalTime": 4
+        },
+        {
+          "time": 7,
+          "event": "Bars reduce for conclusion title",
+          "canonicalTime": 7
+        }
+      ],
+      "stableId": "FredMotion-062",
+      "title": "Fred · 人物与AI柱状图数值对照",
+      "fps": 60,
+      "durationInFrames": 540,
+      "duration": 9.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 4
+    },
+    {
+      "number": 63,
+      "exactScreenWords": [
+        "记录",
+        "整理",
+        "回顾"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Four long pages stagger in",
+          "canonicalTime": 0
+        },
+        {
+          "time": 2,
+          "event": "Pages defocus",
+          "canonicalTime": 2
+        },
+        {
+          "time": 2.2,
+          "event": "Three duration words enter",
+          "canonicalTime": 2.2
+        },
+        {
+          "time": 4,
+          "event": "Clear focus",
+          "canonicalTime": 4
+        },
+        {
+          "time": 5.6,
+          "event": "Pages stagger upward out",
+          "canonicalTime": 5.6
+        },
+        {
+          "time": 6.7,
+          "event": "Dark window enters",
+          "canonicalTime": 6.7
+        }
+      ],
+      "stableId": "FredMotion-063",
+      "title": "Fred · 四张手机页面并列形成设计全貌",
+      "fps": 60,
+      "durationInFrames": 420,
+      "duration": 7.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 3
+    },
+    {
+      "number": 64,
+      "exactScreenWords": [
+        "记录",
+        "整理",
+        "检索",
+        "留下重要内容",
+        "随时找回"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Window enters",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.6,
+          "event": "Triangle roles and arrows establish",
+          "canonicalTime": 0.6
+        },
+        {
+          "time": 4.3,
+          "event": "Blur roles; foreground need label",
+          "canonicalTime": 4.3
+        },
+        {
+          "time": 6.9,
+          "event": "Return focus",
+          "canonicalTime": 6.9
+        },
+        {
+          "time": 7.4,
+          "event": "One click button enters",
+          "canonicalTime": 7.4
+        },
+        {
+          "time": 8.7,
+          "event": "Window leaves",
+          "canonicalTime": 8.7
+        }
+      ],
+      "stableId": "FredMotion-064",
+      "title": "Fred · 需求关键词从模糊目录中突出",
+      "fps": 60,
+      "durationInFrames": 540,
+      "duration": 9.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 5
+    },
+    {
+      "number": 65,
+      "exactScreenWords": [
+        "录音",
+        "记忆",
+        "≠",
+        "内容整理",
+        "再次使用"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Effect label",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.7,
+          "event": "Product label",
+          "canonicalTime": 0.7
+        },
+        {
+          "time": 1.2,
+          "event": "Inequality circle",
+          "canonicalTime": 1.2
+        },
+        {
+          "time": 3.4,
+          "event": "Old statement leaves",
+          "canonicalTime": 3.4
+        },
+        {
+          "time": 3.7,
+          "event": "Conclusion first clause",
+          "canonicalTime": 3.7
+        },
+        {
+          "time": 4.4,
+          "event": "Second clause",
+          "canonicalTime": 4.4
+        }
+      ],
+      "stableId": "FredMotion-065",
+      "title": "Fred · 用不等号拆开效果与产品概念",
+      "fps": 60,
+      "durationInFrames": 360,
+      "duration": 6.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 5
+    },
+    {
+      "number": 66,
+      "exactScreenWords": [
+        "Mic Pro"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "First product card lit",
+          "canonicalTime": 0
+        },
+        {
+          "time": 4.8,
+          "event": "Track moves and mop lit",
+          "canonicalTime": 4.8
+        },
+        {
+          "time": 11.2,
+          "event": "Track moves and apple lit",
+          "canonicalTime": 11.2
+        },
+        {
+          "time": 16,
+          "event": "Pen lit",
+          "canonicalTime": 16
+        }
+      ],
+      "stableId": "FredMotion-066",
+      "title": "Fred · 多张竖卡逐个亮起展示重点",
+      "fps": 60,
+      "durationInFrames": 1020,
+      "duration": 17.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 1
+    },
+    {
+      "number": 69,
+      "exactScreenWords": [
+        "声音输入",
+        "内容归类",
+        "待办整理",
+        "记录阶段"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Document curls away",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.4,
+          "event": "First sector expands",
+          "canonicalTime": 0.4
+        },
+        {
+          "time": 2.1,
+          "event": "Second sector",
+          "canonicalTime": 2.1
+        },
+        {
+          "time": 4.1,
+          "event": "Third sector completes ring",
+          "canonicalTime": 4.1
+        },
+        {
+          "time": 6.1,
+          "event": "Chart pulls back",
+          "canonicalTime": 6.1
+        },
+        {
+          "time": 8,
+          "event": "Phase header enters",
+          "canonicalTime": 8
+        }
+      ],
+      "stableId": "FredMotion-069",
+      "title": "Fred · 从表格信息切到立体饼图",
+      "fps": 60,
+      "durationInFrames": 510,
+      "duration": 8.5,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 4
+    },
+    {
+      "number": 70,
+      "exactScreenWords": [
+        "记录阶段",
+        "整理阶段",
+        "回顾阶段",
+        "Mic Pro",
+        "请把这次会议的录音整理为结论和待办，保存进我的知识库。"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Phone visible",
+          "canonicalTime": 0
+        },
+        {
+          "time": 1.2,
+          "event": "Capsules cover and defocus phone",
+          "canonicalTime": 1.2
+        },
+        {
+          "time": 1.4,
+          "event": "First phase",
+          "canonicalTime": 1.4
+        },
+        {
+          "time": 1.8,
+          "event": "Second phase",
+          "canonicalTime": 1.8
+        },
+        {
+          "time": 4.6,
+          "event": "Third phase",
+          "canonicalTime": 4.6
+        },
+        {
+          "time": 5.5,
+          "event": "Capsules leave into development view",
+          "canonicalTime": 5.5
+        }
+      ],
+      "stableId": "FredMotion-070",
+      "title": "Fred · 阶段标签补齐并交接开发界面",
+      "fps": 60,
+      "durationInFrames": 360,
+      "duration": 6.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 5
+    },
+    {
+      "number": 74,
+      "exactScreenWords": [
+        "未记录",
+        "难回忆",
+        "待整理",
+        "VOICE MEMORY",
+        "今天有什么值得留下的声音？",
+        "把声音交给Mic Pro",
+        "Mic Pro",
+        "Meeting",
+        "Life",
+        "Notes"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Website fades back",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.4,
+          "event": "Three black cards unfold",
+          "canonicalTime": 0.4
+        },
+        {
+          "time": 2.2,
+          "event": "Noise state",
+          "canonicalTime": 2.2
+        },
+        {
+          "time": 2.8,
+          "event": "Blur state",
+          "canonicalTime": 2.8
+        },
+        {
+          "time": 3.4,
+          "event": "404 state",
+          "canonicalTime": 3.4
+        },
+        {
+          "time": 5.5,
+          "event": "Cards leave upward",
+          "canonicalTime": 5.5
+        },
+        {
+          "time": 6.2,
+          "event": "Site view enters",
+          "canonicalTime": 6.2
+        }
+      ],
+      "stableId": "FredMotion-074",
+      "title": "Fred · 失败现象用三种图片状态对比",
+      "fps": 60,
+      "durationInFrames": 480,
+      "duration": 8.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 10
+    },
+    {
+      "number": 75,
+      "exactScreenWords": [
+        "声音记录",
+        "记忆整理",
+        "声音记录与记忆整理"
+      ],
+      "cues": [
+        {
+          "time": 0,
+          "event": "Black dashed stage",
+          "canonicalTime": 0
+        },
+        {
+          "time": 0.6,
+          "event": "Category title",
+          "canonicalTime": 0.6
+        },
+        {
+          "time": 2,
+          "event": "Title relocates top left",
+          "canonicalTime": 2
+        },
+        {
+          "time": 2.9,
+          "event": "Character drawing left",
+          "canonicalTime": 2.9
+        },
+        {
+          "time": 4.9,
+          "event": "Figure right",
+          "canonicalTime": 4.9
+        },
+        {
+          "time": 6,
+          "event": "Center figure focus",
+          "canonicalTime": 6
+        },
+        {
+          "time": 8.5,
+          "event": "New hand-held result",
+          "canonicalTime": 8.5
+        },
+        {
+          "time": 11,
+          "event": "Box focus",
+          "canonicalTime": 11
+        },
+        {
+          "time": 13.2,
+          "event": "Nested dolls focus",
+          "canonicalTime": 13.2
+        }
+      ],
+      "stableId": "FredMotion-075",
+      "title": "Fred · 虚线圆角舞台从标题切入案例",
+      "fps": 60,
+      "durationInFrames": 960,
+      "duration": 16.0,
+      "width": 1920,
+      "height": 1080,
+      "originalWordCount": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Optional local assets and exported runtime data do not belong in site source.
+local-data/
+local-media/
+exports/

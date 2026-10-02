@@ -1,0 +1,6 @@
+{
+  "sourceDependencyLock": "work/fred-library-clean/content-revision/contrast-sources/approved-project/package-lock.json",
+  "copiedLockSha256": "2ed6f4f7df9ed2b1ae1cf455a09dbb8e41e538db18223ea9951ea6f5259df763",
+  "nodeModules": "diagnostic symlink; cloud install should use package-lock",
+  "public": "currently symlink to authorized existing project public; dereference when staging cloud archive"
+}

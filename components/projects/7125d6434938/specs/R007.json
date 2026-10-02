@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "R007",
+  "title": "媒体窗口交替展示",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 360,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+    "referenceStart": 281.333338,
+    "referenceEnd": 313.100006,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
+        "width": 2560,
+        "height": 1440,
+        "fps": "60/1",
+        "nominalFps": "60/1",
+        "timeBase": "1/15360",
+        "duration": 476.868005,
+        "start": 281.333338,
+        "end": 313.100006
+      }
+    ],
+    "totalSelectedDuration": 31.76666799999998,
+    "outputDurationDelta": -25.76666799999998
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 360,
+        "sourceAsset": 0,
+        "sourceStartPTS": 281.333338,
+        "sourceEndPTS": 287.333338,
+        "speed": 1
+      }
+    ],
+    "omissions": [
+      {
+        "sourceStartPTS": 287.333338,
+        "sourceEndPTS": 313.100006,
+        "reason": "fixed existing short output duration; only corresponding opening selection retained, no total-duration normalization"
+      }
+    ],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/legacy",
+    "compositionId": "Library120-MediaMontage",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [],
+  "objects": {
+    "mediaWindow": {
+      "x": 124,
+      "y": 70,
+      "width": 1672,
+      "height": 940,
+      "radius": 70,
+      "media": "revision/fred-conversation.mp4",
+      "fit": "cover"
+    },
+    "webpageBackground": {
+      "headline": [
+        770,
+        90
+      ],
+      "inputPanel": [
+        570,
+        192,
+        800,
+        266
+      ],
+      "thumbnailRow": [
+        580,
+        550,
+        4,
+        170,
+        100,
+        30
+      ],
+      "caseGrid": [
+        405,
+        755,
+        4,
+        185,
+        24
+      ],
+      "mediaPolicy": "Fred assets inside image slots only",
+      "geometryStatus": "manual source-frame estimate; fine calibration pending"
+    }
+  },
+  "tracks": {
+    "window": {
+      "domain": "outputFrame",
+      "fields": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "samples": [
+        [
+          0,
+          124,
+          70,
+          1672,
+          940
+        ],
+        [
+          359,
+          124,
+          70,
+          1672,
+          940
+        ]
+      ],
+      "evidence": "source0/1/3/5.8 native-time images; constant window observed, continuous edge verification pending"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R007/review.md",
+    "fontComparison": "analysis/R007/font-policy.md",
+    "nativeFrameMeasurements": "analysis/R007/sparse-source-anchors.json"
+  },
+  "knownIssues": [
+    "当前0–5.95秒为单个横窗持续展示，原参考301.55及313.05秒还有三条横向分带切换。",
+    "未找到本条独立剪辑映射，不能仅以素材不同定差，也不能认可整个原范围。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "1bbe45b3ad686a0a4eae7efc5b8f2e8dd169d7ccaae61c1d66e4cb80b8a4604a"
+    },
+    "v2": {
+      "sha256": "e928c7be4146064516790f1472f51da6a4cf3c6bdae1d3ffaa02f5b4b2ca085a",
+      "path": "baseline/v2/videos/R007/e928c7be4146064516790f1472f51da6a4cf3c6bdae1d3ffaa02f5b4b2ca085a.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "fontPolicy": {
+    "noTextReason": "No reconstructed overlay type in selected output; embedded Fred media type preserved."
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

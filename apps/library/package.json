@@ -1,0 +1,9 @@
+{
+  "name": "fredtalk-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node build.mjs", "build:standalone": "node build.mjs --standalone"},
+  "dependencies": {"react": "19.2.4", "react-dom": "19.2.4", "remotion": "4.0.473", "@remotion/player": "4.0.473"},
+  "devDependencies": {"esbuild": "0.28.0"}
+}

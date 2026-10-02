@@ -1,0 +1,27 @@
+{
+  "episodeKey": "review-ui-fixture",
+  "title": "逐段审看示例",
+  "timelineFps": 60,
+  "timingStatus": "aligned",
+  "subtitles": {"enabled": true, "cues": [{"startSeconds": 0, "endSeconds": 2, "text": "当前句字幕"}, {"startSeconds": 8, "endSeconds": 9, "text": "另一段字幕"}]},
+  "brandCorner": {"enabled": true},
+  "pages": [{
+    "stableId": "scene-one",
+    "startFrame": 0,
+    "durationInFrames": 300,
+    "sourceSpans": [{"text": "先说明这句话要表达什么，再让同一个对象变化。"}],
+    "productionRoute": {"suggested": "remotion", "suggestionReason": "同一对象的变化能说明判断过程。"},
+    "storyboardReview": {
+      "candidates": [{"id": "option-a", "label": "对象接力", "imagePath": "candidate.png", "sha256": "__CANDIDATE_SHA__", "clipPath": "preview.mp4"}],
+      "assistantRecommendation": {"candidateId": "option-a", "reason": "原对象可以继续承接下句。", "fixes": ["去掉辅助小字"]}
+    },
+    "keyframeReview": {"frames": [{"id": "focus", "path": "frame.png", "sha256": "__FRAME_SHA__", "timeSeconds": 1, "label": "主对象停稳"}]},
+    "review": {"note": "检查对象退出与下一段的衔接。", "versions": [{"label": "本轮视频", "path": "preview.mp4"}]}
+  }, {
+    "stableId": "scene-two",
+    "startFrame": 300,
+    "durationInFrames": 300,
+    "sourceSpans": [{"text": "第二段暂时没有画面，保留待制作状态。"}],
+    "productionRoute": {"suggested": "generated-video", "suggestionReason": "使用已有生成动画补充真实场景。"}
+  }]
+}

@@ -1,0 +1,1089 @@
+{
+  "schemaVersion": 1,
+  "id": "T05",
+  "title": "单主体向左右展开为并列组",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 150,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/10_7664446070449147177__第73期_随身视频通话私人助理.mp4",
+    "referenceStart": 57.9,
+    "referenceEnd": 60.4,
+    "referenceSegments": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/10_7664446070449147177__第73期_随身视频通话私人助理.mp4",
+        "start": 57.9,
+        "duration": 2.5,
+        "exists": true,
+        "url": "/media/library-7664446070449147177",
+        "end": 60.4
+      }
+    ],
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/10_7664446070449147177__第73期_随身视频通话私人助理.mp4",
+        "sha256": "5d7c4d00a0ed433f658ae99eb943de6e86784d23a501296d419284abd65472d8",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 82.0,
+        "start": 57.9,
+        "end": 60.4
+      }
+    ],
+    "totalSelectedDuration": 2.5,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "policy": "preserve-output-duration-and-native-action-speed",
+    "segments": [
+      {
+        "sourceAsset": 0,
+        "sourceStartPTS": 57.9,
+        "sourceEndPTS": 60.4,
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 150,
+        "speed": 1,
+        "nativeFrameCount": 75
+      }
+    ],
+    "omissions": [],
+    "review": "Native PTS coverage and fixed output frame intervals verified at 1x. This does not accept reconstruction quality."
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/ctw/core",
+    "entry": "src/rebuilt-entry.tsx",
+    "compositionId": "T05",
+    "component": "RebuiltT05",
+    "qualityStatus": "calibration-candidate-not-accepted"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only",
+    "media": [
+      "scenes/fred-meeting-portrait.jpg",
+      "scenes/fred-walk-portrait.jpg",
+      "scenes/fred-street-portrait.jpg"
+    ]
+  },
+  "fonts": [],
+  "objects": {
+    "phones": [
+      {
+        "media": "scenes/fred-meeting-portrait.jpg",
+        "track": "left",
+        "zIndex": 1
+      },
+      {
+        "media": "scenes/fred-walk-portrait.jpg",
+        "track": "right",
+        "zIndex": 1
+      },
+      {
+        "media": "scenes/fred-street-portrait.jpg",
+        "track": "center",
+        "zIndex": 2
+      }
+    ],
+    "phone": {
+      "y": 34,
+      "width": 477,
+      "height": 986,
+      "radius": 77,
+      "border": 13,
+      "notchWidth": 215,
+      "notchHeight": 37
+    }
+  },
+  "tracks": {
+    "left": {
+      "domain": "outputFrame",
+      "fields": [
+        "x"
+      ],
+      "samples": [
+        [
+          0,
+          726
+        ],
+        [
+          2,
+          726
+        ],
+        [
+          4,
+          726
+        ],
+        [
+          6,
+          726
+        ],
+        [
+          8,
+          726
+        ],
+        [
+          10,
+          726
+        ],
+        [
+          12,
+          726
+        ],
+        [
+          14,
+          726
+        ],
+        [
+          16,
+          726
+        ],
+        [
+          18,
+          726
+        ],
+        [
+          20,
+          726
+        ],
+        [
+          22,
+          726
+        ],
+        [
+          24,
+          726
+        ],
+        [
+          26,
+          726
+        ],
+        [
+          28,
+          726
+        ],
+        [
+          30,
+          726
+        ],
+        [
+          32,
+          726
+        ],
+        [
+          34,
+          726
+        ],
+        [
+          36,
+          726
+        ],
+        [
+          38,
+          726
+        ],
+        [
+          40,
+          726
+        ],
+        [
+          42,
+          726
+        ],
+        [
+          44,
+          726
+        ],
+        [
+          46,
+          726
+        ],
+        [
+          48,
+          726
+        ],
+        [
+          50,
+          726
+        ],
+        [
+          52,
+          726
+        ],
+        [
+          54,
+          726
+        ],
+        [
+          56,
+          704
+        ],
+        [
+          58,
+          595
+        ],
+        [
+          60,
+          521
+        ],
+        [
+          62,
+          462
+        ],
+        [
+          64,
+          412
+        ],
+        [
+          66,
+          370
+        ],
+        [
+          68,
+          334
+        ],
+        [
+          70,
+          303
+        ],
+        [
+          72,
+          275
+        ],
+        [
+          74,
+          252
+        ],
+        [
+          76,
+          232
+        ],
+        [
+          78,
+          214
+        ],
+        [
+          80,
+          199
+        ],
+        [
+          82,
+          187
+        ],
+        [
+          84,
+          176
+        ],
+        [
+          86,
+          168
+        ],
+        [
+          88,
+          161
+        ],
+        [
+          90,
+          156
+        ],
+        [
+          92,
+          152
+        ],
+        [
+          94,
+          150
+        ],
+        [
+          96,
+          150
+        ],
+        [
+          98,
+          150
+        ],
+        [
+          100,
+          150
+        ],
+        [
+          102,
+          150
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          106,
+          150
+        ],
+        [
+          108,
+          150
+        ],
+        [
+          110,
+          150
+        ],
+        [
+          112,
+          150
+        ],
+        [
+          114,
+          150
+        ],
+        [
+          116,
+          150
+        ],
+        [
+          118,
+          150
+        ],
+        [
+          120,
+          150
+        ],
+        [
+          122,
+          150
+        ],
+        [
+          124,
+          150
+        ],
+        [
+          126,
+          150
+        ],
+        [
+          128,
+          150
+        ],
+        [
+          130,
+          150
+        ],
+        [
+          132,
+          150
+        ],
+        [
+          134,
+          150
+        ],
+        [
+          136,
+          150
+        ],
+        [
+          138,
+          150
+        ],
+        [
+          140,
+          150
+        ],
+        [
+          142,
+          150
+        ],
+        [
+          144,
+          150
+        ],
+        [
+          146,
+          150
+        ],
+        [
+          148,
+          150
+        ]
+      ],
+      "evidence": "analysis/T05/object-measurements.json"
+    },
+    "right": {
+      "domain": "outputFrame",
+      "fields": [
+        "x"
+      ],
+      "samples": [
+        [
+          0,
+          726
+        ],
+        [
+          2,
+          726
+        ],
+        [
+          4,
+          726
+        ],
+        [
+          6,
+          726
+        ],
+        [
+          8,
+          726
+        ],
+        [
+          10,
+          726
+        ],
+        [
+          12,
+          726
+        ],
+        [
+          14,
+          726
+        ],
+        [
+          16,
+          726
+        ],
+        [
+          18,
+          726
+        ],
+        [
+          20,
+          726
+        ],
+        [
+          22,
+          726
+        ],
+        [
+          24,
+          726
+        ],
+        [
+          26,
+          726
+        ],
+        [
+          28,
+          726
+        ],
+        [
+          30,
+          726
+        ],
+        [
+          32,
+          726
+        ],
+        [
+          34,
+          726
+        ],
+        [
+          36,
+          726
+        ],
+        [
+          38,
+          726
+        ],
+        [
+          40,
+          726
+        ],
+        [
+          42,
+          726
+        ],
+        [
+          44,
+          726
+        ],
+        [
+          46,
+          726
+        ],
+        [
+          48,
+          726
+        ],
+        [
+          50,
+          726
+        ],
+        [
+          52,
+          726
+        ],
+        [
+          54,
+          726
+        ],
+        [
+          56,
+          726
+        ],
+        [
+          58,
+          726
+        ],
+        [
+          60,
+          726
+        ],
+        [
+          62,
+          726
+        ],
+        [
+          64,
+          738
+        ],
+        [
+          66,
+          752
+        ],
+        [
+          68,
+          860
+        ],
+        [
+          70,
+          933
+        ],
+        [
+          72,
+          992
+        ],
+        [
+          74,
+          1041
+        ],
+        [
+          76,
+          1083
+        ],
+        [
+          78,
+          1119
+        ],
+        [
+          80,
+          1150
+        ],
+        [
+          82,
+          1177
+        ],
+        [
+          84,
+          1200
+        ],
+        [
+          86,
+          1220
+        ],
+        [
+          88,
+          1237
+        ],
+        [
+          90,
+          1252
+        ],
+        [
+          92,
+          1265
+        ],
+        [
+          94,
+          1275
+        ],
+        [
+          96,
+          1284
+        ],
+        [
+          98,
+          1290
+        ],
+        [
+          100,
+          1295
+        ],
+        [
+          102,
+          1299
+        ],
+        [
+          104,
+          1301
+        ],
+        [
+          106,
+          1302
+        ],
+        [
+          108,
+          1302
+        ],
+        [
+          110,
+          1302
+        ],
+        [
+          112,
+          1302
+        ],
+        [
+          114,
+          1302
+        ],
+        [
+          116,
+          1302
+        ],
+        [
+          118,
+          1302
+        ],
+        [
+          120,
+          1302
+        ],
+        [
+          122,
+          1302
+        ],
+        [
+          124,
+          1302
+        ],
+        [
+          126,
+          1302
+        ],
+        [
+          128,
+          1302
+        ],
+        [
+          130,
+          1302
+        ],
+        [
+          132,
+          1302
+        ],
+        [
+          134,
+          1302
+        ],
+        [
+          136,
+          1302
+        ],
+        [
+          138,
+          1302
+        ],
+        [
+          140,
+          1302
+        ],
+        [
+          142,
+          1302
+        ],
+        [
+          144,
+          1302
+        ],
+        [
+          146,
+          1302
+        ],
+        [
+          148,
+          1302
+        ]
+      ],
+      "evidence": "analysis/T05/object-measurements.json"
+    },
+    "center": {
+      "domain": "outputFrame",
+      "fields": [
+        "x"
+      ],
+      "samples": [
+        [
+          0,
+          726
+        ],
+        [
+          2,
+          726
+        ],
+        [
+          4,
+          726
+        ],
+        [
+          6,
+          726
+        ],
+        [
+          8,
+          726
+        ],
+        [
+          10,
+          726
+        ],
+        [
+          12,
+          726
+        ],
+        [
+          14,
+          726
+        ],
+        [
+          16,
+          726
+        ],
+        [
+          18,
+          726
+        ],
+        [
+          20,
+          726
+        ],
+        [
+          22,
+          726
+        ],
+        [
+          24,
+          726
+        ],
+        [
+          26,
+          726
+        ],
+        [
+          28,
+          726
+        ],
+        [
+          30,
+          726
+        ],
+        [
+          32,
+          726
+        ],
+        [
+          34,
+          726
+        ],
+        [
+          36,
+          726
+        ],
+        [
+          38,
+          726
+        ],
+        [
+          40,
+          726
+        ],
+        [
+          42,
+          726
+        ],
+        [
+          44,
+          726
+        ],
+        [
+          46,
+          726
+        ],
+        [
+          48,
+          726
+        ],
+        [
+          50,
+          726
+        ],
+        [
+          52,
+          726
+        ],
+        [
+          54,
+          726
+        ],
+        [
+          56,
+          726
+        ],
+        [
+          58,
+          726
+        ],
+        [
+          60,
+          726
+        ],
+        [
+          62,
+          726
+        ],
+        [
+          64,
+          726
+        ],
+        [
+          66,
+          726
+        ],
+        [
+          68,
+          726
+        ],
+        [
+          70,
+          726
+        ],
+        [
+          72,
+          726
+        ],
+        [
+          74,
+          726
+        ],
+        [
+          76,
+          726
+        ],
+        [
+          78,
+          726
+        ],
+        [
+          80,
+          726
+        ],
+        [
+          82,
+          726
+        ],
+        [
+          84,
+          726
+        ],
+        [
+          86,
+          726
+        ],
+        [
+          88,
+          726
+        ],
+        [
+          90,
+          726
+        ],
+        [
+          92,
+          726
+        ],
+        [
+          94,
+          726
+        ],
+        [
+          96,
+          726
+        ],
+        [
+          98,
+          726
+        ],
+        [
+          100,
+          726
+        ],
+        [
+          102,
+          726
+        ],
+        [
+          104,
+          726
+        ],
+        [
+          106,
+          726
+        ],
+        [
+          108,
+          726
+        ],
+        [
+          110,
+          726
+        ],
+        [
+          112,
+          726
+        ],
+        [
+          114,
+          726
+        ],
+        [
+          116,
+          726
+        ],
+        [
+          118,
+          726
+        ],
+        [
+          120,
+          726
+        ],
+        [
+          122,
+          726
+        ],
+        [
+          124,
+          726
+        ],
+        [
+          126,
+          726
+        ],
+        [
+          128,
+          726
+        ],
+        [
+          130,
+          726
+        ],
+        [
+          132,
+          726
+        ],
+        [
+          134,
+          726
+        ],
+        [
+          136,
+          726
+        ],
+        [
+          138,
+          726
+        ],
+        [
+          140,
+          726
+        ],
+        [
+          142,
+          726
+        ],
+        [
+          144,
+          726
+        ],
+        [
+          146,
+          726
+        ],
+        [
+          148,
+          726
+        ]
+      ],
+      "evidence": "analysis/T05/object-measurements.json"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/T05/reference-analysis.json",
+    "fontComparison": "analysis/T05/font-comparison.json",
+    "nativeFrameMeasurements": "analysis/T05/native-measurements.json"
+  },
+  "knownIssues": [
+    "Phone silhouette x sampled every native frame; shell radius and lower boundary calibrated from stable source but require rendered comparison.",
+    "Fred media preserved; source app screen contents intentionally replaced.",
+    "Continuous rebuilt playback not reviewed."
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "323c164e73a3a4fdfbd4015f19ad6033a7402d9568f66226b9f6e824e6add54d"
+    },
+    "v2": null,
+    "v3": null,
+    "calibration": {
+      "path": "analysis/T05/versions/6d8499edbbe04e58185693386aad4ae8bdf72f61dd465c1a513c8d9ca1d4925c.mp4",
+      "sha256": "6d8499edbbe04e58185693386aad4ae8bdf72f61dd465c1a513c8d9ca1d4925c",
+      "role": "local-calibration",
+      "createdAt": "2026-09-28T17:41:03.128375+00:00",
+      "sources": [
+        {
+          "path": "specs/T05.json",
+          "sha256": "cc95e73aebd6608a6f2c07ce579edd725f72383248e25c6c539f756184897078"
+        },
+        {
+          "path": "runtime/clip-spec.ts",
+          "sha256": "59ed7993d04b00bf08beb9cac39b79871fa85e3332a3cbb368735fc964baf366"
+        },
+        {
+          "path": "groups/ctw/core/src/RebuiltT05.tsx",
+          "sha256": "587c3fa838b4a170cccec2199cd01054f8c268b3c10dc4204c44bb6e1755b186"
+        },
+        {
+          "path": "groups/ctw/core/src/RebuiltGrid.tsx",
+          "sha256": "0dd58a03e2a634a3e65f24bb7312b9738b7393b886446e0cced2f3bd8613703f"
+        },
+        {
+          "path": "groups/ctw/core/src/rebuilt-entry.tsx",
+          "sha256": "75b9768802f6448537271c93e0748b1d5722eee25451b6c23fe4a8808df95923"
+        }
+      ],
+      "quality": "not-accepted",
+      "userAcceptance": "not-granted"
+    }
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "fontPolicy": {
+    "noTextReason": "All Fred media are existing image assets. Phone shell contains no editable text."
+  }
+}

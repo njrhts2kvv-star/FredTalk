@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fred · 动效参考库</title>
+<style>
+:root{color-scheme:light;--ink:#121214;--muted:#68666e;--purple:#8960ca;--light:#f2edf9;--line:#e6e3e9}*{box-sizing:border-box}body{margin:0;background:#faf9fb;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.55}button,input,select{font:inherit}button,a,input,select{outline-offset:4px}header{padding:40px max(24px,calc((100vw - 1440px)/2));background:white;border-bottom:1px solid var(--line)}.brand{font-size:13px;font-weight:750;letter-spacing:.1em;color:var(--purple)}h1{font-size:34px;line-height:1.2;margin:12px 0}header p{color:var(--muted);margin:0;max-width:760px}.toolbar{max-width:1488px;margin:0 auto;padding:26px 24px 14px;display:grid;grid-template-columns:minmax(220px,1fr) 220px;gap:12px}input,select{border:1px solid #d6d1de;border-radius:12px;background:white;padding:13px 16px;color:var(--ink);min-width:0}.status{max-width:1488px;margin:auto;padding:0 24px 16px;color:var(--muted);font-size:14px}.grid{max-width:1488px;margin:auto;padding:0 24px 48px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:white;border:1px solid var(--line);border-radius:18px;overflow:hidden}.media{aspect-ratio:16/9;position:relative;background:#121214;display:flex;align-items:center;justify-content:center}.cover{padding:0;border:0;background:#121214;width:100%;height:100%;cursor:pointer;position:relative;color:white}.cover img{width:100%;height:100%;object-fit:contain;display:block}.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:#121214cc;border:1px solid #ffffff55;display:grid;place-items:center;font-size:24px}.cover:hover .play{background:var(--purple)}video{width:100%;height:100%;display:block}.body{padding:22px}.topline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.number{font-variant-numeric:tabular-nums;font-size:14px;font-weight:750;color:var(--purple)}.type{font-size:13px;background:var(--light);padding:4px 10px;border-radius:7px}h2{font-size:22px;line-height:1.4;margin:12px 0}.purpose{margin:0 0 18px;color:#45424c;min-height:25px}.facts{display:grid;grid-template-columns:80px 1fr;gap:12px 14px;margin:0;font-size:15px}.facts dt{color:var(--muted)}.facts dd{margin:0;overflow-wrap:anywhere}.params{display:flex;gap:7px;flex-wrap:wrap}.param{background:#f5f4f6;border:1px solid #eeecf0;padding:3px 8px;border-radius:6px;font-size:13px}.actions{display:flex;gap:16px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line);flex-wrap:wrap}.actions a{color:var(--purple);font-weight:650;text-decoration:none}.actions a:hover{text-decoration:underline}.empty{padding:64px 24px;text-align:center;color:var(--muted);grid-column:1/-1}.hint{font-size:13px;color:var(--muted);margin-top:12px}.description{max-width:1488px;margin:auto;padding:0 24px 30px;color:var(--muted);font-size:13px}.missing{position:absolute;inset:0;display:grid;place-items:center;color:#d2b8f2;padding:30px;text-align:center}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}@media(min-width:1200px){.card{display:grid;grid-template-columns:1fr}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.body{padding:20px}.facts{grid-template-columns:68px 1fr}}@media(max-width:740px){header{padding:28px 20px}h1{font-size:28px}.toolbar{padding:20px 20px 12px;grid-template-columns:1fr}.status{padding-left:20px}.grid{grid-template-columns:1fr;padding:0 20px 30px}.body{padding:20px}.facts{grid-template-columns:72px 1fr}h2{font-size:21px}}
+</style>
+</head>
+<body>
+<header><div class="brand">FRED · MOTION LIBRARY</div><h1 id="title">动效参考库</h1><p id="intro">按用途找一个片段，先看呈现，再改成自己的内容。同类片段收在一起，原编号也能找到对应的保留版本。</p></header>
+<main><div class="toolbar"><label class="sr" for="search">搜索编号、用途或关键词</label><input id="search" type="search" placeholder="搜索编号、用途、可改参数…" autocomplete="off"><label class="sr" for="category">按分类筛选</label><select id="category"><option value="">全部分类</option></select></div><div class="status" id="status" role="status" aria-live="polite"></div><div class="grid" id="grid"></div><div class="description">编号沿用原参考清单。合并编号会指向保留版本；播放与下载均使用本文件夹内的视频。</div></main>
+<!-- Replace the token below with JSON.stringify(catalog).replace(/</g,'\\u003c') to keep embedded JSON safe. -->
+<script id="catalog" type="application/json">__CATALOG_DATA__</script>
+<script>
+'use strict';
+// Data is generated from the canonical catalogue by build_reference_shelf.py.
+const raw=JSON.parse(document.getElementById('catalog').textContent);
+const entries=Array.isArray(raw)?raw:(raw.items||[]);
+const meta=Array.isArray(raw)?{}:raw;
+if(meta.title)document.getElementById('title').textContent=meta.title;
+if(meta.description)document.getElementById('intro').textContent=meta.description;
+const fmt=n=>String(n).replace(/^0+(?=\d)/,'').padStart(3,'0');
+const categoryOf=e=>e.category||e.sceneType||'未分类';
+const keep=entries.filter(e=>e.status==='keep'||e.status==='optional');
+const labelOf=e=>e.displayLabel||`#${fmt(e.number)}`;
+// Rejected records never become cards or searchable aliases, even if accidentally included.
+const rejected=new Set(entries.filter(e=>e.status==='reject'||e.status==='drop').map(e=>fmt(e.number)));
+const aliasesOf=e=>[...new Set([...(e.aliases||[]).map(a=>typeof a==='object'?a.number:a),...entries.filter(x=>x.status==='merge'&&fmt(x.representativeNumber)===fmt(e.number)).map(x=>x.number)].map(fmt))].filter(n=>!rejected.has(n)&&n!==fmt(e.number));
+const el=(tag,className,text)=>{const n=document.createElement(tag);if(className)n.className=className;if(text!==undefined)n.textContent=text;return n};
+const path=p=>{if(typeof p!=='string'||!p||/^(?:[a-z]+:|\/|\\)/i.test(p)||p.split(/[\/\\]/).includes('..'))return null;return p};
+const grid=document.getElementById('grid'),search=document.getElementById('search'),select=document.getElementById('category');
+[...new Set(keep.map(categoryOf))].sort((a,b)=>a.localeCompare(b,'zh-CN')).forEach(c=>{const o=el('option','',c);o.value=c;select.append(o)});
+let playing=null;
+function card(e){
+ const article=el('article','card'),media=el('div','media'),cover=el('button','cover');const name=e.title||`片段 ${fmt(e.number)}`;
+ cover.type='button';cover.setAttribute('aria-label',`播放 ${labelOf(e)} ${name}`);
+ const poster=path(e.poster||`posters/${fmt(e.number)}.jpg`),preview=path(e.preview);
+ if(poster){const img=el('img');img.src=poster;img.alt=`${name}封面`;img.loading='lazy';img.addEventListener('error',()=>{img.remove();cover.prepend(el('span','missing',name))},{once:true});cover.append(img)}
+ cover.append(el('span','play','▶'));media.append(cover);
+ cover.addEventListener('click',()=>{if(!preview){cover.replaceChildren(el('span','missing','视频文件尚未加入此片段'));return}if(playing)playing.pause();const video=el('video');video.controls=true;video.playsInline=true;video.preload='metadata';video.src=preview;if(poster)video.poster=poster;video.setAttribute('aria-label',name);video.addEventListener('play',()=>{if(playing&&playing!==video)playing.pause();playing=video});video.addEventListener('error',()=>{media.replaceChildren(el('div','missing','视频暂时无法播放，请检查 previews 文件夹。'))});media.replaceChildren(video);playing=video;video.play().catch(()=>{});});
+ const body=el('div','body'),top=el('div','topline');top.append(el('span','number',labelOf(e)),el('span','type',categoryOf(e)));body.append(top,el('h2','',name),el('p','purpose',e.purpose||'选择这段作为动效参考，再替换内容。'));if(e.status==='optional')body.append(el('p','hint','复刻候选 · 待你复看'));
+ const dl=el('dl','facts');const row=(label,value)=>{dl.append(el('dt','',label));const dd=el('dd');if(value instanceof Node)dd.append(value);else dd.textContent=value;dl.append(dd)};
+ const aliases=aliasesOf(e);row('动作关系',aliases.length?`主代表 · 合并 ${aliases.map(n=>'#'+n).join('、')}${e.retentionNote?'。'+e.retentionNote:''}`:(e.retentionNote||'独立保留'));
+ const params=el('div','params');(e.editableParameters||[]).forEach(p=>params.append(el('span','param',typeof p==='string'?p:p.label||p.name)));row('可改参数',params.childNodes.length?params:'需先提取本次要改的字段');
+ if(e.usageNote)row('使用建议',e.usageNote);if(Array.isArray(e.adaptationNeeds)&&e.adaptationNeeds.length)row('适配事项',e.adaptationNeeds.join('；'));body.append(dl);
+ if(e.assetNote)body.append(el('div','hint',e.assetNote));
+ const actions=el('div','actions');if(preview){const a=el('a','','打开视频');a.href=preview;a.target='_blank';a.rel='noopener';actions.append(a)}
+ const code=path(e.codeEntry||'src/FredMotion.tsx');if(code){const a=el('a','','查看代码');a.href=code;a.target='_blank';a.rel='noopener';actions.append(a)}body.append(actions);article.append(media,body);return article;
+}
+function render(){if(playing){playing.pause();playing=null}const q=search.value.trim().toLowerCase(),numeric=/^#?\d+$/.test(q)?fmt(q.replace('#','')):null;
+ const shown=keep.filter(e=>{if(select.value&&categoryOf(e)!==select.value)return false;if(!q)return true;const aliases=aliasesOf(e);if(numeric)return fmt(e.number)===numeric||aliases.includes(numeric);const exactLabel=keep.some(x=>String(x.displayLabel||'').toLowerCase()===q.replace(/^#/,''));if(exactLabel)return String(e.displayLabel||'').toLowerCase()===q.replace(/^#/,'');const values=[e.number,e.displayLabel,e.title,e.purpose,e.sceneType,e.category,e.usageNote,e.retentionNote,...(e.keywords||[]),...(e.editableParameters||[]).map(p=>typeof p==='string'?p:p.label||p.name),...aliases];return values.join(' ').toLowerCase().includes(q)}).sort((a,b)=>Number(a.number)-Number(b.number));
+ grid.replaceChildren(...shown.map(card));if(!shown.length)grid.append(el('div','empty','没有找到对应片段。试试原编号，或换一个用途关键词。'));document.getElementById('status').textContent=`${shown.length} 个参考片段${shown.length!==keep.length?' · 共 '+keep.length+' 个参考':''}${shown.some(e=>e.status==='optional')?' · 候选仍待复看':''}${numeric&&shown.some(e=>aliasesOf(e).includes(numeric))?' · 已定位到合并后的保留版本':''}`;
+}
+search.addEventListener('input',render);select.addEventListener('change',render);render();
+</script>
+</body></html>

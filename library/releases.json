@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "repository": "njrhts2kvv-star/FredTalk",
+  "tag": "private-library-20261002",
+  "packs": [
+    {
+      "name": "fredtalk-media-01.tar.gz",
+      "size": 661335195,
+      "sha256": "2ebb0278a4a2ab22727d51671bff799d2cf65fdcdaf4d5205ff621b8b5fad221",
+      "objects": 1123
+    },
+    {
+      "name": "fredtalk-media-02.tar.gz",
+      "size": 676375044,
+      "sha256": "6d06ffa6d9af75c94f5c4bb2c991b66a41339812a4d9f457455401284943243e",
+      "objects": 1181
+    },
+    {
+      "name": "fredtalk-media-03.tar.gz",
+      "size": 661110594,
+      "sha256": "0a61dc344d9df29abe491ad42de424e390c976c554c0561f84307df453a39bac",
+      "objects": 837
+    },
+    {
+      "name": "fredtalk-media-04.tar.gz",
+      "size": 679243008,
+      "sha256": "8e7cf6f6a41d2963400a80ad587636ea2ef9ad846b373c2eac2359f988d270a0",
+      "objects": 992
+    },
+    {
+      "name": "fredtalk-media-05.tar.gz",
+      "size": 679506375,
+      "sha256": "901f24eab1437ae36920c57b06cb0496e9078affd6d29eaaa62b9595b63dd34b",
+      "objects": 1058
+    },
+    {
+      "name": "fredtalk-media-06.tar.gz",
+      "size": 670873781,
+      "sha256": "e5a464dc63b12bd3da4c16ae6721481891e5f18477ecede9527858172a638878",
+      "objects": 1155
+    },
+    {
+      "name": "fredtalk-media-07.tar.gz",
+      "size": 686969123,
+      "sha256": "2dce44847694aa4989ad7eded5bf1fd28c0bf6391c471355a8ed44c4d30a8b50",
+      "objects": 1086
+    },
+    {
+      "name": "fredtalk-media-08.tar.gz",
+      "size": 508476244,
+      "sha256": "bda41364f3d5e12b1e6840af29ab281fe8fddb5cbb74e9fb395836a5c1bed2e6",
+      "objects": 727
+    }
+  ]
+}

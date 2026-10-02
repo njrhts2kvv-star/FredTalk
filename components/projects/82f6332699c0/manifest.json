@@ -1,0 +1,499 @@
+{
+  "version": 5,
+  "plan": "../ep82-remotion-redesign-v2.md",
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "subtitleSafeTop": 900,
+  "audio": "voice.wav",
+  "segments": [
+    {
+      "id": "Part1",
+      "durationInFrames": 4080,
+      "audioOffsetFrames": 0
+    },
+    {
+      "id": "Part2",
+      "durationInFrames": 1432,
+      "audioOffsetFrames": 4348
+    }
+  ],
+  "pages": [
+    {
+      "stableId": "ep82-launch",
+      "part": 1,
+      "startFrame": 0,
+      "durationInFrames": 478,
+      "sourceBeatIds": [
+        "srt-1",
+        "srt-2",
+        "srt-3",
+        "srt-4",
+        "srt-5",
+        "srt-6",
+        "srt-7"
+      ],
+      "exactScreenWords": [
+        "豆包工作",
+        "正式发布",
+        "生产力",
+        "办公场景",
+        "AI Agent",
+        "开始干活"
+      ],
+      "implementationComponentId": "launch",
+      "layoutFamily": "title-window-reveal",
+      "cues": [
+        0,
+        2.566,
+        4.033,
+        6.233
+      ],
+      "revisionIntent": "Centered brand enters, settles left while website enters from right, release wording reveals on spoken cue; C02 scene retained."
+    },
+    {
+      "stableId": "ep82-results",
+      "part": 1,
+      "startFrame": 478,
+      "durationInFrames": 858,
+      "sourceBeatIds": [
+        "srt-8",
+        "srt-9",
+        "srt-10",
+        "srt-11",
+        "srt-12",
+        "srt-13",
+        "srt-14"
+      ],
+      "exactScreenWords": [
+        "一整套面试准备与复盘",
+        "候选人对比表",
+        "面试提纲",
+        "统一面试记录",
+        "招聘进度看板",
+        "一下午",
+        "一次任务",
+        "全都在这里"
+      ],
+      "implementationComponentId": "results",
+      "layoutFamily": "collection-focus-compress",
+      "cues": [
+        7.966,
+        9.6,
+        11.966,
+        13.1,
+        14.166,
+        15.45,
+        16.733,
+        17.833,
+        19.8
+      ],
+      "revisionIntent": "Preserve result sequence and one frost; replace abstract time blocks with labeled work stack collecting into a single completed task."
+    },
+    {
+      "stableId": "ep82-feishu",
+      "part": 1,
+      "startFrame": 1336,
+      "durationInFrames": 478,
+      "sourceBeatIds": [
+        "srt-15",
+        "srt-16",
+        "srt-17",
+        "srt-18"
+      ],
+      "exactScreenWords": [
+        "飞书协作",
+        "个人对话",
+        "面试成果",
+        "团队协作"
+      ],
+      "implementationComponentId": "feishu",
+      "layoutFamily": "result-leaves-dialog",
+      "cues": [
+        22.266,
+        24.366,
+        27.4
+      ],
+      "revisionIntent": "Brief real Feishu product view then a result physically leaves the personal dialog and connects teammates."
+    },
+    {
+      "stableId": "ep82-collab",
+      "part": 1,
+      "startFrame": 1814,
+      "durationInFrames": 1416,
+      "sourceBeatIds": [
+        "srt-19",
+        "srt-20",
+        "srt-21",
+        "srt-22",
+        "srt-23",
+        "srt-24",
+        "srt-25",
+        "srt-26",
+        "srt-27",
+        "srt-28",
+        "srt-29"
+      ],
+      "exactScreenWords": [
+        "授权范围内",
+        "项目",
+        "文档",
+        "群聊",
+        "会议纪要",
+        "任务",
+        "表格与文档",
+        "分享",
+        "设置权限",
+        "共同编辑",
+        "HR",
+        "业务面试官",
+        "负责人",
+        "候选人对比表",
+        "面试记录",
+        "招聘进度看板",
+        "无需重复复制",
+        "面试时间",
+        "2026-08-29 10:00",
+        "面试官",
+        "Fred",
+        "面试岗位",
+        "AI 产品运营管理（B端 SaaS）",
+        "面试摘要",
+        "数据源仍需核实",
+        "本人主导访谈、分层、培训和复盘",
+        "能区分个人贡献与团队结果",
+        "共同编辑画布",
+        "面试摘要",
+        "数据源仍需核实",
+        "本人主导访谈、分层、培训和复盘",
+        "能区分个人贡献与团队结果",
+        "待反馈",
+        "提醒反馈",
+        "已更新",
+        "协作示意",
+        "候选人",
+        "待核实事项",
+        "林晓晨",
+        "周予安",
+        "数据分析待核实"
+      ],
+      "implementationComponentId": "collab",
+      "layoutFamily": "context-orbit-shared-canvas",
+      "cues": [
+        30.233,
+        32.6,
+        35.333,
+        37.2,
+        39.266,
+        40.333,
+        43.833,
+        46.133,
+        48.133,
+        51.2
+      ],
+      "revisionIntent": "Preserve context and sharing; restore original large shared canvas and active selection grammar, then zoom through table, record and status board with readable original record excerpts. End with clean no-copy conclusion."
+    },
+    {
+      "stableId": "ep82-permission",
+      "part": 1,
+      "startFrame": 3230,
+      "durationInFrames": 204,
+      "sourceBeatIds": [
+        "srt-30",
+        "srt-31"
+      ],
+      "exactScreenWords": [
+        "只访问有权限的内容"
+      ],
+      "implementationComponentId": "permission",
+      "layoutFamily": "permission-camera",
+      "cues": [
+        53.833,
+        55.333
+      ],
+      "revisionIntent": "Retain selected real permission page; remove external headings and move camera slowly within readable bounds."
+    },
+    {
+      "stableId": "ep82-followup",
+      "part": 1,
+      "startFrame": 3434,
+      "durationInFrames": 646,
+      "sourceBeatIds": [
+        "srt-32",
+        "srt-33",
+        "srt-34",
+        "srt-35",
+        "srt-36"
+      ],
+      "exactScreenWords": [
+        "面试记录",
+        "跟进任务",
+        "负责人",
+        "飞书群",
+        "提醒反馈",
+        "整理面试资料",
+        "推进招聘流程",
+        "面试时间",
+        "2026-08-29 10:00",
+        "面试官",
+        "Fred",
+        "面试岗位",
+        "AI 产品运营管理（B端 SaaS）",
+        "面试摘要",
+        "数据源仍需核实",
+        "本人主导访谈、分层、培训和复盘",
+        "能区分个人贡献与团队结果"
+      ],
+      "implementationComponentId": "followup",
+      "layoutFamily": "record-task-notification",
+      "cues": [
+        57.233,
+        58.8,
+        61.233,
+        63.633,
+        65.533
+      ],
+      "revisionIntent": "Use actual record excerpts in editable typography; align owner and followup message as a centered content group, finish with two unconnected conclusions."
+    },
+    {
+      "stableId": "ep82-value",
+      "part": 2,
+      "startFrame": 4080,
+      "durationInFrames": 454,
+      "sourceBeatIds": [
+        "srt-37",
+        "srt-38",
+        "srt-39"
+      ],
+      "exactScreenWords": [
+        "豆包工作",
+        "生成结果",
+        "整理",
+        "跟进",
+        "把一项工作继续做完",
+        "面试成果",
+        "资料归档",
+        "负责人",
+        "反馈",
+        "面试时间",
+        "2026-08-29 10:00",
+        "面试官",
+        "Fred",
+        "面试岗位",
+        "AI 产品运营管理（B端 SaaS）",
+        "面试摘要",
+        "数据源仍需核实",
+        "本人主导访谈、分层、培训和复盘",
+        "能区分个人贡献与团队结果"
+      ],
+      "implementationComponentId": "value",
+      "layoutFamily": "monitor-camera-workflow",
+      "cues": [
+        0,
+        2.2,
+        4.634
+      ],
+      "revisionIntent": "Hold complete centered monitor for 1.5 seconds; push symmetrically around screen center. Keep internal archive/followup and balanced three-column layout."
+    },
+    {
+      "stableId": "ep82-method",
+      "part": 2,
+      "startFrame": 4534,
+      "durationInFrames": 708,
+      "sourceBeatIds": [
+        "srt-40",
+        "srt-41",
+        "srt-42",
+        "srt-43",
+        "srt-44",
+        "srt-45",
+        "srt-46"
+      ],
+      "exactScreenWords": [
+        "表格与文档",
+        "工作方法",
+        "整理资料",
+        "准备问题",
+        "复盘记录",
+        "可复用 Skill",
+        "保存工作方法",
+        "简历",
+        "岗位要求",
+        "面试记录",
+        "分类归档",
+        "问题清单",
+        "复盘要点"
+      ],
+      "implementationComponentId": "method",
+      "layoutFamily": "branch-detail-and-save",
+      "cues": [
+        7.566,
+        8.567,
+        10.234,
+        12.234,
+        14.4,
+        15.834,
+        17.4
+      ],
+      "revisionIntent": "Retain branches; erase connectors in 0.18 seconds before cards collapse and Skill takes over, no trailing detached paths."
+    },
+    {
+      "stableId": "ep82-judgment",
+      "part": 2,
+      "startFrame": 5242,
+      "durationInFrames": 270,
+      "sourceBeatIds": [
+        "srt-47",
+        "srt-48"
+      ],
+      "exactScreenWords": [
+        "豆包工作",
+        "整理和推进",
+        "面试官",
+        "最终判断"
+      ],
+      "implementationComponentId": "judgment",
+      "layoutFamily": "role-comparison",
+      "cues": [
+        19.367,
+        21.634
+      ],
+      "revisionIntent": "Two clear balanced native contrast panels, human final judgment takes focus, no frost."
+    }
+  ],
+  "assets": [
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/product-2.jpg",
+      "checksum": "sha256:f58f9d450523669f1e23a1a2b3fab5b8f91f23f5d0df5010c10016c601c4811c",
+      "source": "00_每期项目/82_豆包面试/01_输入素材/使用图片/0_2.jpg"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/product-6.jpg",
+      "checksum": "sha256:042f2c9c57cf07e79a69882d3d360aeb52e55d8756c52e583df98f2ee659f6d9",
+      "source": "00_每期项目/82_豆包面试/01_输入素材/使用图片/0_6.jpg"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/product-7.jpg",
+      "checksum": "sha256:7c220f5161e3953dceaa511ce84d168a1192fa3f0294453931fc929543fef642",
+      "source": "00_每期项目/82_豆包面试/01_输入素材/使用图片/0_7.jpg"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/results/candidate-comparison.png",
+      "checksum": "sha256:53992c138b9eb74cd3aa4473e5f4206ec203a6847d18e48d9fb316ef0f854821",
+      "source": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/voice-paced/v7-simple-second/public/second-sentence/candidate-comparison.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/results/interview-outline.png",
+      "checksum": "sha256:5abc897625eb06c840dfbd5fbe6df4fc521d510a56418f0247a48305b38eb0d3",
+      "source": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/voice-paced/v7-simple-second/public/second-sentence/interview-outline.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/results/interview-record.png",
+      "checksum": "sha256:2bffb99a0b19a9d6cb19aea059c6da2e77138ba70f9eb14cf15c895757d5e2bf",
+      "source": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/voice-paced/v7-simple-second/public/second-sentence/interview-record.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/results/recruiting-dashboard.png",
+      "checksum": "sha256:515340beb868405551aab3e3b94591f100b00cb4a55d73445075f1b5add2b56f",
+      "source": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/voice-paced/v7-simple-second/public/second-sentence/recruiting-dashboard.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/doubao.png",
+      "checksum": "sha256:0af8087d94e10bac6bce265f3d758b36b154266425389d3289ec0d730796a4b7",
+      "source": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/voice-paced/v7-simple-second/public/brand/doubao-work-logo-transparent.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/fonts/MiSans-Medium.otf",
+      "checksum": "sha256:f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "source": "skills/fred-remake/assets/fonts/MiSans-Medium.otf"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/fonts/MiSans-Semibold.otf",
+      "checksum": "sha256:8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "source": "skills/fred-remake/assets/fonts/MiSans-Semibold.otf"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/brand-light.png",
+      "checksum": "sha256:ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "source": "skills/fredtalk-deck-motion-pipeline/assets/brand/fredtalk-ai-corner.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/brand-dark-source.png",
+      "checksum": "sha256:5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+      "source": "skills/fredtalk-deck-motion-pipeline/assets/brand/fredtalk-ai-dark-transparent.png"
+    },
+    {
+      "path": "00_每期项目/82_豆包面试/03_制作过程/remotion-remake/brand-review-20260909/preview-v5/public/voice.wav",
+      "checksum": "sha256:d46246cb96d3051f64e00a7f3794f0ab3b946fdd12b8fa9b2dc8e38b9b900d5d",
+      "source": "00_每期项目/82_豆包面试/01_输入素材/待重新剪辑/两段remotion视频/两段remotion视频.WAV"
+    }
+  ],
+  "results": [
+    "candidate-comparison",
+    "interview-outline",
+    "interview-record",
+    "recruiting-dashboard"
+  ],
+  "audioPolicy": "Latest narration only for preview; no burned captions; no additional BGM or scroll effect",
+  "userStatus": "V3 complete 4K accepted with four bounded revisions; V4 internal review pending",
+  "revision": {
+    "preserve": [
+      "audio, durations, all other content and motion"
+    ],
+    "change": [
+      "fixed approved corner brand; select by local background",
+      "hide zero-progress paths",
+      "context cards enter on narration cues",
+      "permission body shrinks before perimeter motion without overlap",
+      "Launch release wording larger, aligned to upper brand group; phone slightly larger, preserving aspect ratio and aligned bottom edge"
+    ]
+  },
+  "recordExcerpt": [
+    "面试时间",
+    "2026-08-29 10:00",
+    "面试官",
+    "Fred",
+    "面试岗位",
+    "AI 产品运营管理（B端 SaaS）",
+    "面试摘要",
+    "数据源仍需核实",
+    "本人主导访谈、分层、培训和复盘",
+    "能区分个人贡献与团队结果"
+  ],
+  "collaborationCopy": [
+    "共同编辑画布",
+    "面试摘要",
+    "数据源仍需核实",
+    "本人主导访谈、分层、培训和复盘",
+    "能区分个人贡献与团队结果",
+    "待反馈",
+    "提醒反馈",
+    "已更新",
+    "协作示意",
+    "候选人",
+    "待核实事项",
+    "林晓晨",
+    "周予安",
+    "数据分析待核实"
+  ],
+  "contextCues": [
+    31.95,
+    32.6,
+    33.05,
+    33.62,
+    34.63
+  ],
+  "patchRanges": {
+    "Part1": [
+      [
+        0,
+        182
+      ],
+      [
+        3674,
+        3846
+      ]
+    ],
+    "Part2": []
+  }
+}

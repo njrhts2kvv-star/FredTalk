@@ -1,0 +1,292 @@
+.case-section {
+  margin-top: 4rem;
+}
+.case-section-heading {
+  margin-bottom: 1.75rem;
+  max-width: 56rem;
+}
+.case-section-heading h2 {
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+.case-section-heading p {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: #515158;
+}
+.case-example {
+  min-width: 0;
+  background: #fff;
+}
+.case-visual {
+  min-width: 0;
+}
+.case-poster {
+  width: 100%;
+  aspect-ratio: 16/9;
+  padding: 0;
+  display: block;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 28px #0000000c;
+}
+.case-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.case-play {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  background: #111;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  box-shadow: 0 4px 18px #0002;
+}
+.case-poster-fallback {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  inset: 0;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.case-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0.65rem 0 1.25rem;
+  font-size: 0.8125rem;
+  color: #515158;
+}
+.case-caption > span {
+  flex: 1;
+  min-width: 180px;
+  line-height: 1.6;
+}
+.case-caption .text-button {
+  font-size: 0.8125rem;
+  white-space: normal;
+}
+.case-explanation h3 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0.9rem;
+}
+.case-explanation p {
+  font-size: 0.9375rem;
+  color: #424248;
+  line-height: 1.85;
+  margin-top: 0.65rem;
+}
+.case-explanation p strong {
+  display: block;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.2rem;
+}
+.case-explanation .case-scope {
+  font-size: 0.8125rem;
+  line-height: 1.8;
+  color: #57575e;
+  margin-top: 1rem;
+}
+.case-pair {
+  display: grid;
+  gap: 2.5rem 1.75rem;
+}
+.case-example .video-stage {
+  background: #111;
+}
+.case-unavailable {
+  font-size: 0.9375rem;
+  padding: 2rem;
+  box-shadow: 0 6px 28px #0000000a;
+  border-radius: 1rem;
+}
+.case-example .video-controls {
+  gap: 0.5rem;
+}
+.case-example .video-controls button,
+.case-example .video-controls select,
+.case-example .video-controls label {
+  font-size: 0.8125rem;
+}
+.case-example .video-controls > span {
+  font-size: 0.75rem;
+}
+.case-example .error-message {
+  margin-top: 1rem;
+}
+.principle-intro {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.principle-intro > p {
+  font-size: 1.0625rem;
+  line-height: 1.9;
+  max-width: 50rem;
+}
+.principle-chapters {
+  display: grid;
+  gap: 4rem;
+}
+.principle-chapter {
+  scroll-margin-top: 6rem;
+}
+.chapter-title {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.chapter-title > span {
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  color: #8554e8;
+}
+.chapter-title h2 {
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
+.chapter-intent {
+  font-size: 1rem;
+  max-width: 55rem;
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+  color: #424248;
+}
+.chapter-example {
+  padding: 1.25rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 40px #0000000c;
+}
+.chapter-example > .segmented {
+  margin-bottom: 1.25rem;
+}
+.chapter-example .case-example {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+}
+.chapter-example .case-caption {
+  margin-bottom: 0;
+}
+.chapter-takeaway {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.3rem;
+  font-size: 0.9375rem;
+  line-height: 1.8;
+}
+.chapter-takeaway p > strong {
+  display: inline-block;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+.chapter-takeaway p:last-child {
+  color: #515158;
+}
+.principle-jump {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.principle-jump button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 14px #0000000a;
+  font-size: 0.875rem;
+  background: #fff;
+}
+.principle-jump button:hover {
+  background: #111;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .case-pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .chapter-example {
+    padding: 1.75rem;
+  }
+  .chapter-title h2 {
+    font-size: 2rem;
+  }
+  .chapter-example .case-example {
+    grid-template-columns: minmax(0, 1.65fr) minmax(220px, 1fr);
+    gap: 2rem;
+  }
+  .chapter-takeaway {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  .case-single .case-example {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+    gap: 2rem;
+  }
+  .principle-intro {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 639px) {
+  .principle-jump {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0.4rem 0.2rem 0.8rem;
+  }
+  .principle-jump button {
+    flex: 0 0 auto;
+  }
+  .principle-intro {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .case-play {
+    right: 0.75rem;
+    bottom: 0.75rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8125rem;
+  }
+  .chapter-example {
+    padding: 0.875rem;
+  }
+  .chapter-title h2 {
+    font-size: 1.45rem;
+  }
+  .case-section-heading h2 {
+    font-size: 1.45rem;
+  }
+  .case-section {
+    margin-top: 3rem;
+  }
+  .principle-chapters {
+    gap: 3rem;
+  }
+  .case-explanation h3 {
+    font-size: 1.2rem;
+  }
+  .chapter-example .segmented button {
+    padding: 0.5rem 0.7rem;
+  }
+  .case-caption .text-button {
+    font-size: 0.8125rem;
+  }
+  .case-pair {
+    gap: 2.5rem;
+  }
+}

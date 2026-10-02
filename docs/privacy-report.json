@@ -1,0 +1,26 @@
+{
+  "imageFilesScanned": 8187,
+  "videoFilesSampled": 414,
+  "videoFramesScanned": 7350,
+  "samplingFps": 2,
+  "ocrFailures": 0,
+  "uniqueQuarantinedObjects": 482,
+  "activeReferences": 177,
+  "referencesWithExcludedPreview": [
+    "103-02",
+    "99-13",
+    "N031",
+    "SP013",
+    "X029"
+  ],
+  "bundledObjects": 180,
+  "bundledBytes": 15660834,
+  "reviewedPaths": 21763,
+  "quarantinedPaths": 961,
+  "safeUniqueObjects": 8159,
+  "safeBytes": 5383791308,
+  "textSecretScanner": "gitleaks 8.30.1",
+  "textSecretFindings": 0,
+  "historicalOriginReferencesRemoved": true,
+  "publicReleaseReady": false
+}

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "R051",
+  "title": "说明面板与图片叠放展开四格",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 480,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/06_7654977522110713123_第100期_搞创作别再被积分卡脖子了_用小云雀短剧Agent2.0场景实现一下火遍全网的国产爱死机_--《丧尸清道夫》_#小云雀AI_#小云雀短剧Agent_#小.mp4",
+    "referenceStart": 77,
+    "referenceEnd": 85,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/06_7654977522110713123_第100期_搞创作别再被积分卡脖子了_用小云雀短剧Agent2.0场景实现一下火遍全网的国产爱死机_--《丧尸清道夫》_#小云雀AI_#小云雀短剧Agent_#小.mp4",
+        "sha256": "dc8f8a465d77f1754a83d0365a2f6f2c27ccc0f106568bad2d6b586d1b92b36c",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 194.1,
+        "start": 77,
+        "end": 85
+      }
+    ],
+    "totalSelectedDuration": 8,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 480,
+        "sourceAsset": 0,
+        "sourceStartPTS": 77,
+        "sourceEndPTS": 85.0,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/faithful",
+    "compositionId": "Motion051",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [
+    {
+      "family": "Source Han Sans SC Heavy",
+      "file": "fonts/SourceHanSansSC-Heavy.otf",
+      "license": "fonts/SourceHanSans-LICENSE.txt",
+      "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+      "selectionStatus": "same-glyph candidates viewed; pixel matching pending"
+    }
+  ],
+  "objects": {
+    "panel": {
+      "x": 206,
+      "width": 1508,
+      "height": 344,
+      "radius": 84,
+      "padding": [
+        35,
+        60
+      ],
+      "fontSize": 49,
+      "lineHeight": 53
+    },
+    "grid": {
+      "x": [
+        77,
+        1170
+      ],
+      "y": [
+        26,
+        456
+      ],
+      "width": 672,
+      "height": 378
+    }
+  },
+  "tracks": {
+    "panel": {
+      "domain": "outputFrame",
+      "fields": [
+        "top"
+      ],
+      "samples": [
+        [
+          0,
+          718
+        ],
+        [
+          300,
+          718
+        ],
+        [
+          302,
+          722
+        ],
+        [
+          304,
+          726
+        ],
+        [
+          306,
+          736
+        ],
+        [
+          308,
+          750
+        ],
+        [
+          310,
+          768
+        ],
+        [
+          312,
+          796
+        ],
+        [
+          314,
+          836
+        ],
+        [
+          316,
+          892
+        ],
+        [
+          318,
+          954
+        ],
+        [
+          320,
+          1008
+        ],
+        [
+          322,
+          1054
+        ],
+        [
+          324,
+          1078
+        ],
+        [
+          326,
+          1140
+        ]
+      ],
+      "evidence": "240 native30fps scanline samples; output326 fully offscreen"
+    },
+    "grid": {
+      "domain": "outputFrame",
+      "fields": [
+        "progress"
+      ],
+      "samples": [
+        [
+          0,
+          0
+        ],
+        [
+          280,
+          0
+        ],
+        [
+          286,
+          0.12
+        ],
+        [
+          292,
+          0.4
+        ],
+        [
+          298,
+          0.76
+        ],
+        [
+          304,
+          0.96
+        ],
+        [
+          310,
+          1
+        ],
+        [
+          479,
+          1
+        ]
+      ],
+      "evidence": "source images4.7/5.1s; intermediate fourth card motion needs native bbox tracking"
+    },
+    "cornerExit": {
+      "domain": "outputFrame",
+      "fields": [
+        "dx",
+        "dy"
+      ],
+      "samples": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          432,
+          0,
+          0
+        ],
+        [
+          438,
+          22,
+          12
+        ],
+        [
+          444,
+          112,
+          64
+        ],
+        [
+          450,
+          386,
+          210
+        ],
+        [
+          456,
+          738,
+          400
+        ],
+        [
+          460,
+          950,
+          520
+        ],
+        [
+          479,
+          1100,
+          650
+        ]
+      ],
+      "evidence": "analysis/R051/round2-native/components.json; native upper left card right/bottom edges normalized relative F432. Reflected for other corners."
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R051/review.md",
+    "fontComparison": "analysis/R051/font-candidates.png",
+    "nativeFrameMeasurements": "analysis/R051/native-measurements.json"
+  },
+  "knownIssues": [
+    "当前0.73–4.36秒说明板为两行小字和扁长黑条，参考77.73–81.36秒为六行左右正文、明显更高的面板。",
+    "当前5.09秒仍有叠放与底部面板，参考82.09秒已进入四格展开；需校准面板高度与退出衔接。"
+  ],
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "f6b81ab7f2ee2a75f0f76d8d3b8344e9dda508a5b0f628522b4d9d68dcf7cee3"
+    },
+    "v2": {
+      "sha256": "81879ceb0eafe49b0d9d80371d931e8fc632cbe9cf41d94db36671601a4d388e",
+      "path": "baseline/v2/videos/R051/81879ceb0eafe49b0d9d80371d931e8fc632cbe9cf41d94db36671601a4d388e.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

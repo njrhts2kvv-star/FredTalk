@@ -1,0 +1,6 @@
+interface:
+  display_name: "Fred 的 Remotion 视频输出"
+  short_description: "从已确定稿件拆连续分镜，选用认可方案与源码，完成云渲染、审看返修和视频交付"
+  default_prompt: "请用 $fred-remotion-output 按我的稿子拆分连续分镜，选择合适的认可方案和代码依赖，检查修好后输出完整 Remotion 视频。"
+policy:
+  allow_implicit_invocation: true

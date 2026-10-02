@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "id": "B059",
+  "title": "手机中的视频放大为独立横窗",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 720,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+    "referenceStart": 94.0,
+    "referenceEnd": 106.0,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+        "sha256": "ae02b97e9cdfc006277588dbd70493c23bc88a1f06ebcc7dc8d93b846a580ec9",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 301.3,
+        "start": 94.0,
+        "end": 106.0
+      }
+    ],
+    "totalSelectedDuration": 12.0,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 720,
+        "sourceAsset": 0,
+        "sourceStartPTS": 94.0,
+        "sourceEndPTS": 106.0,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed",
+    "reviewScope": "Source native sequences and fixed-duration intervals reviewed; mapping is native speed, not visual acceptance."
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/b",
+    "compositionId": "B059",
+    "entry": "src/b-final-four-entry.tsx",
+    "component": "RebuiltBFinalFour",
+    "completenessDecision": "Phone enlargement, carousel, retreat left and landscape takeover present; authorized UI density still differs.",
+    "qualityStatus": "candidate-pending-video-review"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only",
+    "texts": [
+      "把真实的声音记录下来"
+    ],
+    "accent": "#8960ca"
+  },
+  "fonts": [
+    {
+      "family": "MiSansSemi",
+      "file": "fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "license": "fonts/MiSans-License.txt",
+      "status": "Candidate compared visually to native source; low-resolution/stroke/rotation prevents exact identification; pending full-resolution proof"
+    }
+  ],
+  "objects": {
+    "media": "batch3/059-room.jpg",
+    "uiBackground": "#fafafa",
+    "phoneRadius": 70,
+    "phoneBorder": 14
+  },
+  "tracks": {
+    "phone": {
+      "domain": "outputFrame",
+      "fields": [
+        "cx",
+        "cy",
+        "width",
+        "height",
+        "rotation"
+      ],
+      "samples": [
+        [
+          0,
+          960,
+          540,
+          480,
+          1000,
+          22
+        ],
+        [
+          20,
+          960,
+          540,
+          480,
+          1000,
+          2
+        ],
+        [
+          36,
+          960,
+          540,
+          480,
+          1000,
+          0
+        ],
+        [
+          86,
+          960,
+          540,
+          480,
+          1000,
+          0
+        ],
+        [
+          108,
+          960,
+          540,
+          780,
+          1625,
+          0
+        ],
+        [
+          140,
+          960,
+          540,
+          910,
+          1895,
+          0
+        ],
+        [
+          480,
+          960,
+          540,
+          910,
+          1895,
+          0
+        ],
+        [
+          504,
+          300,
+          540,
+          480,
+          1000,
+          0
+        ],
+        [
+          532,
+          280,
+          540,
+          480,
+          1000,
+          0
+        ],
+        [
+          630,
+          280,
+          540,
+          480,
+          1000,
+          0
+        ],
+        [
+          660,
+          -250,
+          540,
+          480,
+          1000,
+          0
+        ],
+        [
+          719,
+          -600,
+          540,
+          480,
+          1000,
+          0
+        ]
+      ],
+      "evidence": "analysis/B059/native-sequence.jpg",
+      "measurementNote": "Selected native frames inspected and normalized to output; intermediate samples still need full-resolution overlay."
+    },
+    "landscape": {
+      "domain": "outputFrame",
+      "fields": [
+        "x",
+        "y",
+        "width",
+        "height",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          1920,
+          400,
+          120,
+          100,
+          0
+        ],
+        [
+          486,
+          1920,
+          400,
+          120,
+          100,
+          0
+        ],
+        [
+          498,
+          830,
+          260,
+          1050,
+          590,
+          1
+        ],
+        [
+          515,
+          620,
+          175,
+          1300,
+          735,
+          1
+        ],
+        [
+          630,
+          620,
+          175,
+          1300,
+          735,
+          1
+        ],
+        [
+          681,
+          140,
+          45,
+          1700,
+          970,
+          1
+        ],
+        [
+          719,
+          140,
+          45,
+          1700,
+          970,
+          1
+        ]
+      ],
+      "evidence": "analysis/B059/native-sequence.jpg",
+      "measurementNote": "Selected native frames inspected and normalized to output; intermediate samples still need full-resolution overlay."
+    },
+    "carousel": {
+      "domain": "outputFrame",
+      "fields": [
+        "offset"
+      ],
+      "samples": [
+        [
+          0,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          82,
+          0
+        ],
+        [
+          100,
+          -195
+        ],
+        [
+          167,
+          -195
+        ],
+        [
+          210,
+          -720
+        ],
+        [
+          288,
+          -720
+        ],
+        [
+          346,
+          -1270
+        ],
+        [
+          455,
+          -1270
+        ],
+        [
+          479,
+          -1270
+        ],
+        [
+          719,
+          -1270
+        ]
+      ],
+      "evidence": "analysis/B059/native-sequence.jpg",
+      "measurementNote": "Selected native frames inspected and normalized to output; intermediate samples still need full-resolution overlay."
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/B059/native-sequence.jpg",
+    "fontComparison": "analysis/B059/font-proof-additional.png",
+    "nativeFrameMeasurements": "analysis/B059/native-measurements.json"
+  },
+  "versions": {
+    "original": {
+      "path": "[LOCAL_PATH]",
+      "sha256": "9df862c79fbd84e29a0911c3f28a10233673386a0e7fdfde2e59be208afc70d5"
+    },
+    "v2": {
+      "sha256": "3045ab92a86ca5012cb65b7f87f869333e15e1eb07333f128f7e6634def3b9d7",
+      "path": "baseline/v2/videos/B059/3045ab92a86ca5012cb65b7f87f869333e15e1eb07333f128f7e6634def3b9d7.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "remainingChecks": [
+    "Densify selected-frame anchors to native per-frame object tracks",
+    "Full-resolution overlay and normal-speed review"
+  ],
+  "originalAuditIssues": [
+    "1.71–6.82 秒参考片段视频处于机身中段且手机上沿越界，当前媒体顶在手机上部并保留大块下方空白；8.53 秒横窗边角与设备间距也需校正。"
+  ]
+}

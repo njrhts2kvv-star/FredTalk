@@ -1,0 +1,1 @@
+import React from 'react';import {Composition,registerRoot,useCurrentFrame} from 'remotion';import {RebuiltB060} from './RebuiltB060';const C=()=> <RebuiltB060 frame={useCurrentFrame()}/>;registerRoot(()=> <Composition id='B060' component={C} width={1920} height={1080} fps={60} durationInFrames={480}/>);

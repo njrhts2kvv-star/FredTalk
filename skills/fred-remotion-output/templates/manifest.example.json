@@ -1,0 +1,178 @@
+{
+  "exampleOnly": true,
+  "note": "Planning-stage field example only, not a render-ready contract or an approved video. Timing is illustrative. Validate planning with --require-scene-guides; add real source, implementation and callSite evidence only after implementation before using --require-reference-usage. Never invent those records to make this example pass implementation checks.",
+  "script": {
+    "path": "example-script.txt",
+    "sha256": "83af13303da7822670768ca617f05b448d71f2065e8667b734ab4c5344c3472a"
+  },
+  "timingStatus": "estimated",
+  "timelineFps": 60,
+  "durationInFrames": 720,
+  "clockContract": {
+    "mode": "scene-local",
+    "sourceRule": "localFrame = frame - scene.startFrame; sequences start at the scene start frame"
+  },
+  "representativeScenes": ["demo-01", "demo-02"],
+  "deliveryProfile": "standalone-video",
+  "parts": [
+    {
+      "id": "PartA",
+      "startFrame": 0,
+      "endFrameExclusive": 720
+    }
+  ],
+  "pages": [
+    {
+      "stableId": "demo-01",
+      "sourceBeatIds": [
+        "beat-01"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 0,
+          "endChar": 11,
+          "text": "先把完整任务写清楚。\n"
+        }
+      ],
+      "scriptAnchor": "先把完整任务写清楚。",
+      "implementationMode": "adapted",
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 1.5
+      },
+      "exactScreenWords": [
+        "完整任务"
+      ],
+      "oneQuestion": "怎样认出任务全貌",
+      "startFrame": 0,
+      "durationInFrames": 360,
+      "visualPlan": {
+        "enter": "建立完整白色文档",
+        "change": "写入本期实际任务",
+        "read": "当前正文停稳阅读",
+        "exit": "保留当前文档与焦点",
+        "handoff": "将文档交给下一镜头"
+      },
+      "motionEvents": [
+        {
+          "sourceBeatId": "beat-01",
+          "event": "建立或聚焦当前信息",
+          "cueFrame": 60,
+          "spokenCue": "完整任务"
+        }
+      ],
+      "referenceChoices": [
+        {
+          "id": "preview-v2-shot-doc-park-left-pill-deal",
+          "reason": "按语义选择文档建立或局部强调",
+          "preserve": "载体与当前内容的动作关系",
+          "change": "替换本期原文和时序",
+          "useScope": "仅借用所需动作，非固定整片布局"
+        }
+      ],
+      "sceneGuide": {
+        "type": "prompt-reading",
+        "modifiers": [],
+        "signature": "1a3d25baeeaa644de001a18a9a7788ea9c77069afd5e006893d37d48defc924c",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "先建立完整任务；第二句到来后才推进当前步骤",
+            "check": "核对示例cue对应动作，无提前聚焦"
+          },
+          {
+            "ruleId": "F02",
+            "decision": "第一句展示完整任务；第二句强调真实的当前步骤词组",
+            "check": "核对分配原文、词组边界及尾条覆盖"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "使用一致主辅字阶，文档正文保持可读",
+            "check": "按最长行检查换行、字重和字幕安全区"
+          }
+        ]
+      }
+    },
+    {
+      "stableId": "demo-02",
+      "sourceBeatIds": [
+        "beat-02"
+      ],
+      "sourceSpans": [
+        {
+          "startChar": 11,
+          "endChar": 31,
+          "text": "再突出当前这一步，其他内容保留在原位。\n"
+        }
+      ],
+      "scriptAnchor": "再突出当前这一步，其他内容保留在原位。",
+      "implementationMode": "adapted",
+      "dynamicContract": {
+        "mode": "mixed",
+        "requiredChangeEvents": 1,
+        "staticAllowanceSeconds": 1.5
+      },
+      "exactScreenWords": [
+        "当前这一步"
+      ],
+      "oneQuestion": "如何把注意力转到当前步骤",
+      "startFrame": 360,
+      "durationInFrames": 360,
+      "visualPlan": {
+        "enter": "承接同一份文档",
+        "change": "靠近当前步骤并刷出重点",
+        "read": "当前正文停稳阅读",
+        "exit": "保留当前文档与焦点",
+        "handoff": "把当前步骤交给后续实际操作"
+      },
+      "motionEvents": [
+        {
+          "sourceBeatId": "beat-02",
+          "event": "建立或聚焦当前信息",
+          "cueFrame": 420,
+          "spokenCue": "当前这一步"
+        }
+      ],
+      "referenceChoices": [
+        {
+          "id": "preview-v2-talk-highlighter-sweep",
+          "reason": "按语义选择文档建立或局部强调",
+          "preserve": "载体与当前内容的动作关系",
+          "change": "替换本期原文和时序",
+          "useScope": "仅借用所需动作，非固定整片布局"
+        }
+      ],
+      "sceneGuide": {
+        "type": "prompt-reading",
+        "modifiers": [
+          "frosted-focus"
+        ],
+        "signature": "0b3ada69c71ca2d1bda8b90f9d6df53e6bb25f0e46ec478ab5807373a0077c71",
+        "applications": [
+          {
+            "ruleId": "F01",
+            "decision": "先建立完整任务；第二句到来后才推进当前步骤",
+            "check": "核对示例cue对应动作，无提前聚焦"
+          },
+          {
+            "ruleId": "F02",
+            "decision": "第一句展示完整任务；第二句强调真实的当前步骤词组",
+            "check": "核对分配原文、词组边界及尾条覆盖"
+          },
+          {
+            "ruleId": "F08",
+            "decision": "使用一致主辅字阶，文档正文保持可读",
+            "check": "按最长行检查换行、字重和字幕安全区"
+          },
+          {
+            "ruleId": "F05",
+            "decision": "当前步骤阅读时以贴合内容的磨砂层弱化后方干扰",
+            "check": "检查文字清晰、承载贴合以及退出时无残留"
+          }
+        ]
+      }
+    }
+  ],
+  "referenceCatalogRevision": "2026-09-14-skill-review-r157"
+}

@@ -1,0 +1,17 @@
+import React from 'react';
+import {Img,staticFile,Freeze} from 'remotion';
+import {M,q,mix,Stage,Media,ClipVideo} from './UI';
+import {RankingV5,RoadmapV5,SummaryV5,CubeV5,DogsV5,FrogV5,OutroV5} from './NewScenes';
+import {Transition} from './Transition';
+const Chapter=({t,at,title,label='Part.01',kind='drag'}:any)=><Freeze frame={Math.round((t-at)*60)}><Transition clip={{stableId:'ep94-chapter',kind,width:1120,titleSize:152,labelSize:96,title,label,durationInFrames:120,settleFrame:48}}/></Freeze>;
+export const Ranking=RankingV5;
+export const Roadmap=RoadmapV5;
+export const Intro=({t}:any)=>{if(t<31.7)return <Chapter t={t} at={28.033} title="测试对比"/>;const progress=Math.min(4,Math.max(0,(t-32)/1.4));return <Stage dark>{t<32.5&&<Chapter t={31.69} at={28.033} title="测试对比"/>}<div style={{position:'absolute',inset:0,background:'#101113',clipPath:`inset(0 ${100*(1-q(t,31.7,32.5))}% 0 0)`}}>{M.cases.map((c:any,i:number)=>{const d=i-progress;return <div key={c.id} style={{position:'absolute',left:360+d*1250,top:140+Math.abs(d)*70,width:1200,height:675,transform:`perspective(2000px) rotateY(${-d*9}deg) scale(${Math.max(.7,1-Math.abs(d)*.1)})`,borderRadius:26,overflow:'hidden',boxShadow:'0 40px 100px #0008'}}><Img src={staticFile(c.assets.left.src)} style={{width:'100%',height:'100%',objectFit:'contain'}}/></div>})}</div></Stage>};
+export const Summary=SummaryV5;
+export const Sketch=({t}:any)=>{let st=0;if(t>=226.933&&t<229.233)st=(t-226.933)*.9;if(t>=229.233&&t<231.666)st=2+t-229.233;if(t>=231.666&&t<233.666)st=4.5;if(t>=233.666)st=Math.min(11.7,5+(t-233.666)*1.86);const z=q(t,223.6,225.3);return <Stage>{t<237.6?<div style={{position:'absolute',left:960,top:mix(435,540,z),width:1440,height:810,transform:`translate(-50%,-50%) scale(${mix(.78,4/3,z)})`}}><div style={{position:'absolute',inset:-22,borderRadius:32,background:'linear-gradient(140deg,#777,#151515 12%,#333 80%,#888)',boxShadow:'0 30px 90px #0004'}}/><div style={{position:'absolute',top:825,left:655,width:130,height:100,background:'linear-gradient(90deg,#888,#ddd,#888)'}}/><div style={{position:'absolute',top:920,left:510,width:420,height:15,borderRadius:20,background:'#aaa'}}/><div style={{position:'absolute',inset:0,overflow:'hidden',borderRadius:12*(1-z)}}><ClipVideo src={M.assets.sketch} time={st} w={1440} h={810}/></div></div>:<Results t={t}/>}</Stage>};
+const Results=({t}:any)=>{const k=Math.min(4,Math.max(0,Math.floor((t-239.5)/1.65)));const p=q(t,237.6,238.4);return <><div style={{position:'absolute',left:190,top:80,width:1540,height:866,transform:`scale(${mix(.72,1,p)})`,borderRadius:52,padding:14,boxSizing:'border-box',background:'linear-gradient(140deg,#aaa,#151515 14%,#333 85%,#aaa)',boxShadow:'0 35px 90px #0003'}}><div style={{position:'relative',width:'100%',height:'100%',borderRadius:40,overflow:'hidden'}}>{M.assets.results.map((src:string,i:number)=><Img key={src} src={staticFile(src)} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'contain',clipPath:i>0?`inset(0 ${100*(1-q(t,239.5+i*1.65,240.2+i*1.65))}% 0 0)`:'none'}}/>)}</div></div></>};
+export const ConsistencyIntro=({t}:any)=><Chapter t={t} at={249.133} title="图像一致性" label="Part.03" kind="aperture"/>;
+export const Cube=CubeV5;
+export const Dogs=DogsV5;
+export const Frog=FrogV5;
+export const Outro=OutroV5;

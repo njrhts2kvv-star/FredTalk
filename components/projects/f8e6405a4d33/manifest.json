@@ -1,0 +1,2131 @@
+{
+  "selectionRevision": 105,
+  "selectionSha256": "be0481ddf3c5b6e0b1522897075776efc434bbfffe9acc9ddb951b95bbbd62a0",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "theme": {
+    "background": "#ffffff",
+    "ink": "#171719",
+    "accent": "#8554E8"
+  },
+  "clips": [
+    {
+      "sourceIndex": 2,
+      "start": 16.8,
+      "end": 23.5,
+      "title": "当前问题写出后斜退进历史队列",
+      "category": "文字与强调",
+      "motionLogic": "当前句水平逐字建立；新问题到来时上一句斜转上移、变灰，当前句始终留在中部黑字，红问号作为各行锚点。",
+      "reuseWhen": "连续追问、逐项排除疑虑、展示问题压力。",
+      "novelty": "已有文字上卷为整体平移；此处新旧句的角度、颜色、层级同步分化，明确当前问句与历史队列。",
+      "closestExisting": [
+        {
+          "id": "W04",
+          "title": "文字流整体上卷",
+          "difference": "已有文字上卷为整体平移；此处新旧句的角度、颜色、层级同步分化，明确当前问句与历史队列。",
+          "mediaUrl": "/reference/W04",
+          "start": 0,
+          "end": 2.05,
+          "label": "W04"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s2-sheet-1.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s2-14-33-1.jpg",
+        "observed": "当前句水平逐字建立；新问题到来时上一句斜转上移、变灰，当前句始终留在中部黑字，红问号作为各行锚点。"
+      },
+      "analysisKey": "a2",
+      "id": "N002",
+      "displayId": "N002",
+      "isExcluded": false,
+      "clipPath": "clips/N002.mp4",
+      "posterPath": "posters/N002.jpg",
+      "durationInFrames": 402
+    },
+    {
+      "sourceIndex": 2,
+      "start": 30.5,
+      "end": 34.8,
+      "title": "多条问句挤成疑问墙后被答案推开",
+      "category": "文字与强调",
+      "motionLogic": "斜排问句收成密集词墙，中心绿色答案由虚到实；两侧问题退开，留下居中的简短结论。",
+      "reuseWhen": "一组共同疑问收束为一个明确回答。",
+      "novelty": "已有多个对象聚拢归类；这里先形成密集问题墙，再由答案从中间排开旧问题，具有问题到答案的方向。",
+      "closestExisting": [
+        {
+          "id": "T09",
+          "title": "多对象聚拢并归为一个概念",
+          "difference": "已有多个对象聚拢归类；这里先形成密集问题墙，再由答案从中间排开旧问题，具有问题到答案的方向。",
+          "mediaUrl": "/reference/T09",
+          "start": 0,
+          "end": 3.1,
+          "label": "T09"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s2-sheet-1.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s2-14-33-2.jpg",
+        "observed": "斜排问句收成密集词墙，中心绿色答案由虚到实；两侧问题退开，留下居中的简短结论。"
+      },
+      "analysisKey": "a3",
+      "id": "N003",
+      "displayId": "N003",
+      "isExcluded": false,
+      "clipPath": "clips/N003.mp4",
+      "posterPath": "posters/N003.jpg",
+      "durationInFrames": 258
+    },
+    {
+      "sourceIndex": 2,
+      "start": 101.65,
+      "end": 107.4,
+      "title": "横向曲面视频带停在主片并展平",
+      "category": "媒体与空间",
+      "motionLogic": "全屏案例退成横向视频轨道，多张带弯折透视的窗口横移；目标视频居中后两侧退场，主片展平放大。",
+      "reuseWhen": "一串案例中选择一个代表作开始讲解。",
+      "novelty": "已有竖卡滚动巡览；这里横片以弯折透视连续穿行，停下时从轨道变回平面单片，保留起承转合。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-041",
+          "title": "多列竖图滚动展示模型结果",
+          "difference": "已有竖卡滚动巡览；这里横片以弯折透视连续穿行，停下时从轨道变回平面单片，保留起承转合。",
+          "mediaUrl": "/reference/library-fred-remake-041",
+          "start": 0,
+          "end": 23.0,
+          "label": "B041"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s2-sheet-2.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s2-100-112-1.jpg",
+        "observed": "全屏案例退成横向视频轨道，多张带弯折透视的窗口横移；目标视频居中后两侧退场，主片展平放大。"
+      },
+      "analysisKey": "a4",
+      "id": "N004",
+      "displayId": "N004",
+      "isExcluded": false,
+      "clipPath": "clips/N004.mp4",
+      "posterPath": "posters/N004.jpg",
+      "durationInFrames": 345
+    },
+    {
+      "sourceIndex": 2,
+      "start": 159.3,
+      "end": 163.5,
+      "title": "三项能力从底部向上逐项核验",
+      "category": "文字与强调",
+      "motionLogic": "已写完的三行清单整体缩小留出右侧状态列；绿点按第三、第二、第一项顺序变成勾，最后展示全通过。",
+      "reuseWhen": "先给条件、再核验能力是否全部满足。",
+      "novelty": "已有任务日志滚动打勾；此处固定清单逆向核验、原文不移动并预留状态列，属于实质编排变体。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-snap-agent-steps",
+          "title": "Agent 步骤推进",
+          "difference": "已有任务日志滚动打勾；此处固定清单逆向核验、原文不移动并预留状态列，属于实质编排变体。",
+          "mediaUrl": "/reference/preview-v2-snap-agent-steps",
+          "start": 0,
+          "end": 5.333,
+          "label": "V057"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s2-sheet-2.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s2-157-164-1.jpg",
+        "observed": "已写完的三行清单整体缩小留出右侧状态列；绿点按第三、第二、第一项顺序变成勾，最后展示全通过。"
+      },
+      "analysisKey": "a5",
+      "id": "N005",
+      "displayId": "N005",
+      "isExcluded": false,
+      "clipPath": "clips/N005.mp4",
+      "posterPath": "posters/N005.jpg",
+      "durationInFrames": 252
+    },
+    {
+      "sourceIndex": 2,
+      "start": 177.8,
+      "end": 186,
+      "title": "六格规则入口放大成章节并反转底色",
+      "category": "转场与交接",
+      "motionLogic": "圆点扩成六张黑卡；第一张扩张接管画面，章节名先居中后停在左上；正文建立后黑白底色反转，关键词保留绿色。",
+      "reuseWhen": "从规则目录进入第一条的章节过渡。",
+      "novelty": "已有点变矩阵只负责阵列建立；这里矩阵中一格继续接管全屏并变为持久章节锚点，底色反转区分标题与正文。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-45633f0ba1312901",
+          "title": "从一个起点建立信息矩阵",
+          "difference": "已有点变矩阵只负责阵列建立；这里矩阵中一格继续接管全屏并变为持久章节锚点，底色反转区分标题与正文。",
+          "mediaUrl": "/reference/fred-motion-source-45633f0ba1312901",
+          "start": 0,
+          "end": 7.4,
+          "label": "C002"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s2-sheet-3.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s2-175-187-1.jpg",
+        "observed": "圆点扩成六张黑卡；第一张扩张接管画面，章节名先居中后停在左上；正文建立后黑白底色反转，关键词保留绿色。"
+      },
+      "analysisKey": "a6",
+      "id": "N006",
+      "displayId": "N006",
+      "isExcluded": false,
+      "clipPath": "clips/N006.mp4",
+      "posterPath": "posters/N006.jpg",
+      "durationInFrames": 492
+    },
+    {
+      "sourceIndex": 2,
+      "start": 198.5,
+      "end": 202.3,
+      "title": "章节正文退场，实例停在页底",
+      "category": "文字与强调",
+      "motionLogic": "左上章节锚点保持；大号解释正文淡退，上移的黑色示例卡停在画面下方，给解释到实例留下明确层级。",
+      "reuseWhen": "概念讲解后立即给一条可套用示例。",
+      "novelty": "已有完整提示词与参数前景切换；这里保持章节小标题，将解释正文直接替换为下方实例卡，并非模糊背景提词。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-009",
+          "title": "提示词全貌与参数关键词聚焦",
+          "difference": "已有完整提示词与参数前景切换；这里保持章节小标题，将解释正文直接替换为下方实例卡，并非模糊背景提词。",
+          "mediaUrl": "/reference/library-fred-remake-009",
+          "start": 0,
+          "end": 10.85,
+          "label": "B009"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s2-sheet-3.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s2-197-205-1.jpg",
+        "observed": "左上章节锚点保持；大号解释正文淡退，上移的黑色示例卡停在画面下方，给解释到实例留下明确层级。"
+      },
+      "analysisKey": "a7",
+      "id": "N007",
+      "displayId": "N007",
+      "isExcluded": false,
+      "clipPath": "clips/N007.mp4",
+      "posterPath": "posters/N007.jpg",
+      "durationInFrames": 228
+    },
+    {
+      "sourceIndex": 3,
+      "start": 43.5,
+      "end": 51.5,
+      "title": "商品旁的三个问题转为执行角色和作品",
+      "category": "关系与流程",
+      "motionLogic": "商品抠图固定在左侧，右侧窗口提出受众、渠道、卖点；窗口离开后同处建立研究、文案、设计角色，最后切到四张商品结果。",
+      "reuseWhen": "同一对象的需求如何分配给团队并产出成果。",
+      "novelty": "已有案例退场后角色分工；此处以固定商品贯穿问题到角色再到结果，保留同一对象的因果链。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-012",
+          "title": "案例窗口接三个人物与职责标签",
+          "difference": "已有案例退场后角色分工；此处以固定商品贯穿问题到角色再到结果，保留同一对象的因果链。",
+          "mediaUrl": "/reference/library-fred-remake-012",
+          "start": 0,
+          "end": 8.5,
+          "label": "B012"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s3-sheet-1.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s3-42-54-1.jpg",
+        "observed": "商品抠图固定在左侧，右侧窗口提出受众、渠道、卖点；窗口离开后同处建立研究、文案、设计角色，最后切到四张商品结果。"
+      },
+      "analysisKey": "a8",
+      "id": "N008",
+      "displayId": "N008",
+      "isExcluded": false,
+      "clipPath": "clips/N008.mp4",
+      "posterPath": "posters/N008.jpg",
+      "durationInFrames": 480
+    },
+    {
+      "sourceIndex": 4,
+      "start": 180.2,
+      "end": 186,
+      "title": "双结果窗口退出并揭开图文对照脚本",
+      "category": "转场与交接",
+      "motionLogic": "大视频退成两张并排窗口；双窗向两侧离开，中央出现文字脚本、右侧出现逐镜参考图，纵向滚动展示脚本与画面对齐。",
+      "reuseWhen": "看完结果，回溯其脚本与分镜组织方法。",
+      "novelty": "已有完整规则文档巡游；此处从双结果反推脚本，文本与逐镜图片双列同步，让输出与过程发生联系。",
+      "closestExisting": [
+        {
+          "id": "39e34005-9690-452c-80e7-b09950a294c4",
+          "title": "完整规则文档巡游与前后说明",
+          "difference": "已有完整规则文档巡游；此处从双结果反推脚本，文本与逐镜图片双列同步，让输出与过程发生联系。",
+          "mediaUrl": "/reference/39e34005-9690-452c-80e7-b09950a294c4",
+          "start": 0,
+          "end": 12.75,
+          "label": "E07"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s4-sheet-3.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s4-178-188-1.jpg",
+        "observed": "大视频退成两张并排窗口；双窗向两侧离开，中央出现文字脚本、右侧出现逐镜参考图，纵向滚动展示脚本与画面对齐。"
+      },
+      "analysisKey": "a10",
+      "id": "N010",
+      "displayId": "N010",
+      "isExcluded": false,
+      "clipPath": "clips/N010.mp4",
+      "posterPath": "posters/N010.jpg",
+      "durationInFrames": 348
+    },
+    {
+      "sourceIndex": 4,
+      "start": 192,
+      "end": 199.5,
+      "title": "单条影片带叠出三行反向流动的作品墙",
+      "category": "媒体与空间",
+      "motionLogic": "一行横向电影片段先通过，第二行从上方补齐，第三行从下方进入；三条视频带差向流动形成密集但有行秩序的作品墙。",
+      "reuseWhen": "展示跨题材的大量视频成果。",
+      "novelty": "已有单张展开多格墙；此处以横向连续运动为核心，三行错时进入和反向运动使画面从一条带增殖为墙。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-020",
+          "title": "单张作品扩展为多格图片墙",
+          "difference": "已有单张展开多格墙；此处以横向连续运动为核心，三行错时进入和反向运动使画面从一条带增殖为墙。",
+          "mediaUrl": "/reference/library-fred-remake-020",
+          "start": 0,
+          "end": 17.0,
+          "label": "B020"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s4-sheet-3.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s4-192-206-1.jpg",
+        "observed": "一行横向电影片段先通过，第二行从上方补齐，第三行从下方进入；三条视频带差向流动形成密集但有行秩序的作品墙。"
+      },
+      "analysisKey": "a11",
+      "id": "N011",
+      "displayId": "N011",
+      "isExcluded": false,
+      "clipPath": "clips/N011.mp4",
+      "posterPath": "posters/N011.jpg",
+      "durationInFrames": 450
+    },
+    {
+      "sourceIndex": 4,
+      "start": 418.7,
+      "end": 425.5,
+      "title": "三结果归位溯源，再抽离成三窗对照",
+      "category": "数据与对比",
+      "motionLogic": "当前视频缩回三个竖列节点，保留左侧共享输入；三份结果从节点图中抽出并重排成上二下一三角布局，背景节点淡退。",
+      "reuseWhen": "先交代相同输入，再并排比较三个模型的输出。",
+      "novelty": "已有三视频轮流主画面；此处三结果先归位证明来源，再同时抽离为三窗比较，重点是溯源后比较。",
+      "closestExisting": [
+        {
+          "id": "ep99-selected-s05",
+          "title": "三段视频轮流成为主画面",
+          "difference": "已有三视频轮流主画面；此处三结果先归位证明来源，再同时抽离为三窗比较，重点是溯源后比较。",
+          "mediaUrl": "/reference/ep99-selected-s05",
+          "start": 0,
+          "end": 10.666666666666666,
+          "label": "99-05"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s4-sheet-6.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s4-418-432-1.jpg",
+        "observed": "当前视频缩回三个竖列节点，保留左侧共享输入；三份结果从节点图中抽出并重排成上二下一三角布局，背景节点淡退。"
+      },
+      "analysisKey": "a14",
+      "id": "N014",
+      "displayId": "N014",
+      "isExcluded": false,
+      "clipPath": "clips/N014.mp4",
+      "posterPath": "posters/N014.jpg",
+      "durationInFrames": 408
+    },
+    {
+      "sourceIndex": 4,
+      "start": 461.8,
+      "end": 467.3,
+      "title": "节点结果抽出为竖横双屏并腾出品牌位",
+      "category": "媒体与空间",
+      "motionLogic": "画布中的竖图和横向视频一起放大，节点背景失焦退去；竖图占左，横片占右上，右下留白建立品牌字标。",
+      "reuseWhen": "一套素材同时展示竖版与横版结果并收尾署名。",
+      "novelty": "已有错位双横窗；这里从实际节点溯源，横竖异形结果合成 L 形并明确让出右下品牌槽，作为收尾构图变体。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-046",
+          "title": "全屏影视画面退成错位双窗口",
+          "difference": "已有错位双横窗；这里从实际节点溯源，横竖异形结果合成 L 形并明确让出右下品牌槽，作为收尾构图变体。",
+          "mediaUrl": "/reference/library-fred-remake-046",
+          "start": 0,
+          "end": 7.0,
+          "label": "B046"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s4-sheet-6.jpg"
+        ],
+        "denseSheet": "evidence-a/dense-s4-462-473-1.jpg",
+        "observed": "画布中的竖图和横向视频一起放大，节点背景失焦退去；竖图占左，横片占右上，右下留白建立品牌字标。"
+      },
+      "analysisKey": "a16",
+      "id": "N016",
+      "displayId": "N016",
+      "isExcluded": false,
+      "clipPath": "clips/N016.mp4",
+      "posterPath": "posters/N016.jpg",
+      "durationInFrames": 330
+    },
+    {
+      "sourceIndex": 5,
+      "start": 16.5,
+      "end": 23.3,
+      "title": "影片中的角色被抽出并建立身份档案",
+      "category": "媒体与空间",
+      "motionLogic": "影片继续播放时，人物轮廓描白并独立成为前景；背景影片消失，人物缩至右侧，左侧逐行写出身份字段。",
+      "reuseWhen": "介绍案例主角、从真实案例抽出一个实体、建立用户或 Agent 档案。",
+      "novelty": "同一人物在影片与结构化档案之间保持视觉身份，完成从案例到实体的转换。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-012",
+          "title": "案例窗口接三个人物与职责标签",
+          "difference": "旧组件先退出案例再换为三角色；这里保留从原画面抠出的同一个主体，且字段与主体组成档案。",
+          "mediaUrl": "/reference/library-fred-remake-012",
+          "start": 0,
+          "end": 8.5,
+          "label": "B012"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s5-overview-01.jpg",
+          "evidence-b/s5-overview-02.jpg",
+          "evidence-b/s5-overview-03.jpg",
+          "evidence-b/s5-overview-04.jpg"
+        ],
+        "denseSheet": "evidence-b/s5-opening-01.jpg",
+        "observed": "17 秒起人物白描边出现在影片上；20 秒影片被清走，20.5 秒人物移右；21–22.5 秒左侧姓名、种族、职务、特性依次建立。"
+      },
+      "analysisKey": "b1",
+      "id": "N017",
+      "displayId": "N017",
+      "isExcluded": false,
+      "clipPath": "clips/N017.mp4",
+      "posterPath": "posters/N017.jpg",
+      "durationInFrames": 408
+    },
+    {
+      "sourceIndex": 5,
+      "start": 62.4,
+      "end": 70.2,
+      "title": "透视目录回选两项并抽出组合结论",
+      "category": "关系与流程",
+      "motionLogic": "倾斜目录沿固定箭头反向滚动，描边框锁定邮箱，再定位 Agent World；目录清空，两个被选条目组成加法短句，随后各自替换为身份与自由。",
+      "reuseWhen": "从功能列表挑出两项并解释其组合意义。",
+      "novelty": "包含选择、抽取、概念映射三步；与普通选项轮播相比，有明确选择结果。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-shot-picker-carousel-feature-cycle",
+          "title": "选择器轮播与功能切换",
+          "difference": "旧组件只轮换中央选项；本段从目录抽出两个被选项并排相加，再逐项映射成概念。",
+          "mediaUrl": "/reference/preview-v2-shot-picker-carousel-feature-cycle",
+          "start": 0,
+          "end": 3.6,
+          "label": "V050"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s5-overview-01.jpg",
+          "evidence-b/s5-overview-02.jpg",
+          "evidence-b/s5-overview-03.jpg",
+          "evidence-b/s5-overview-04.jpg"
+        ],
+        "denseSheet": "evidence-b/s5-listfocus-01.jpg",
+        "observed": "62.5 秒固定箭头处为文件管理，63.5 秒紫框圈邮箱，64 秒改圈 Agent World；66 秒组合句出现，67.5–68.5 秒左右分别变成身份、自由。"
+      },
+      "analysisKey": "b2",
+      "id": "N018",
+      "displayId": "N018",
+      "isExcluded": false,
+      "clipPath": "clips/N018.mp4",
+      "posterPath": "posters/N018.jpg",
+      "durationInFrames": 468
+    },
+    {
+      "sourceIndex": 7,
+      "start": 33.1,
+      "end": 37.3,
+      "title": "画中画参考片段放大为等大双窗对照",
+      "category": "数据与对比",
+      "motionLogic": "生成视频全屏播放、参考片段以小窗叠于右下；主视频缩至左窗，同时参考片段小窗扩为右窗，两窗等大并同步切换相同镜头。",
+      "reuseWhen": "前后版本对照、AI 改造与参考片段比较、同步验证视觉一致性。",
+      "novelty": "通过容器层级变化从主次观看切到公平对照，保留同一两份素材。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-046",
+          "title": "全屏影视画面退成错位双窗口",
+          "difference": "旧组件从单案例增加第二案例成为错位布局；这里已有画中画参考片段，两个既有画面变成同尺寸且配对同步。",
+          "mediaUrl": "/reference/library-fred-remake-046",
+          "start": 0,
+          "end": 7.0,
+          "label": "B046"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s7-overview-01.jpg",
+          "evidence-b/s7-overview-02.jpg",
+          "evidence-b/s7-overview-03.jpg"
+        ],
+        "denseSheet": "evidence-b/s7-compare-01.jpg",
+        "observed": "33.5 秒仍是右下小参考片段，34.5 秒主画面收缩，小参考片段保留并扩张；35 秒两窗等大；35.5–36 秒两边共同切到车头细节。"
+      },
+      "analysisKey": "b7",
+      "id": "N023",
+      "displayId": "N023",
+      "isExcluded": false,
+      "clipPath": "clips/N023.mp4",
+      "posterPath": "posters/N023.jpg",
+      "durationInFrames": 252
+    },
+    {
+      "sourceIndex": 7,
+      "start": 49,
+      "end": 54.1,
+      "title": "人物作为固定支点连接素材列与剪辑时间线",
+      "category": "媒体与空间",
+      "motionLogic": "人物居中，左侧多张素材纵向滚动；素材列退出，人物稍移左让右侧窄长剪辑时间线进入，形成从素材到制作环节的空间接力。",
+      "reuseWhen": "说明制作负担、从整理素材过渡到剪辑工序、人物贯穿多个工作阶段。",
+      "novelty": "两种不同信息载体从人物两侧接替，人物是连续的语义支点。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-012",
+          "title": "案例窗口接三个人物与职责标签",
+          "difference": "旧组件先收掉案例再摆角色职责；本段保留单个人物，让素材列和时间线依次从两侧接棒。",
+          "mediaUrl": "/reference/library-fred-remake-012",
+          "start": 0,
+          "end": 8.5,
+          "label": "B012"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s7-overview-01.jpg",
+          "evidence-b/s7-overview-02.jpg",
+          "evidence-b/s7-overview-03.jpg"
+        ],
+        "denseSheet": "evidence-b/s7-phone-01.jpg",
+        "observed": "49–50.5 秒左侧汽车素材条持续纵向滚动，人物仍在；51 秒右侧剪辑时间线进入，51.5 秒人物左移，53.5 秒时间线退出。"
+      },
+      "analysisKey": "b9",
+      "id": "N025",
+      "displayId": "N025",
+      "isExcluded": false,
+      "clipPath": "clips/N025.mp4",
+      "posterPath": "posters/N025.jpg",
+      "durationInFrames": 306
+    },
+    {
+      "sourceIndex": 7,
+      "start": 84.1,
+      "end": 91.7,
+      "title": "外部素材卡汇集并交给手机聊天输入",
+      "category": "界面与交互",
+      "motionLogic": "手机靠左，三份素材在右侧按主次大小建立；手机打开上传控件并显示素材缩略图；外部卡片离场，手机回中，文字需求发送。",
+      "reuseWhen": "解释多模态输入、将素材交给 Agent、从素材准备转入指令提交。",
+      "novelty": "外部材料展示与屏内上传状态衔接；不只是手机旁的三条能力文字。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-059",
+          "title": "手机中的视频放大为独立横窗",
+          "difference": "旧组件从手机向外放大一个视频；本段反向将多份外部素材交给屏内对话，随后补充需求。",
+          "mediaUrl": "/reference/library-fred-remake-059",
+          "start": 0,
+          "end": 12.0,
+          "label": "B059"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s7-overview-01.jpg",
+          "evidence-b/s7-overview-02.jpg",
+          "evidence-b/s7-overview-03.jpg"
+        ],
+        "denseSheet": "evidence-b/s7-input-01.jpg",
+        "observed": "84.5 秒第一素材卡出现，86 秒三卡有主次地组成竖列；87.5 秒手机打开上传栏；89 秒外部卡片退出且屏内有缩略图；89.5 秒手机回中，91 秒文字消息已发送。未将其描述为每张卡都沿飞行轨迹直接钻入屏幕。"
+      },
+      "analysisKey": "b10",
+      "id": "N026",
+      "displayId": "N026",
+      "isExcluded": false,
+      "clipPath": "clips/N026.mp4",
+      "posterPath": "posters/N026.jpg",
+      "durationInFrames": 456
+    },
+    {
+      "sourceIndex": 8,
+      "start": 100.4,
+      "end": 109.7,
+      "title": "流程线绕回下一行，连续建立三排步骤",
+      "category": "关系与流程",
+      "motionLogic": "第一行保留；行尾手绘连线向下折返至下一行开头；第二行沿遮罩建立；同样绕回第三行并落定。",
+      "reuseWhen": "步骤超过一行的教程、生产链或依赖流程；避免把长链缩成小字。",
+      "novelty": "已有C008是单行三步；这里增加“跨行不断线”的明确路径拓扑，读序由回转箭头保持。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-f9dc5562d54cda56",
+          "title": "前一步引出后一步",
+          "difference": "旧片只在一行中逐项接箭头，没有行尾折返、再行进及第三排。",
+          "mediaUrl": "/reference/fred-motion-source-f9dc5562d54cda56",
+          "start": 0,
+          "end": 7.0,
+          "label": "C008"
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "evidence": {
+        "sheets": [
+          "evidence-c/s8/sheet02.jpg",
+          "evidence-c/ref-fred-motion-source-f9dc5562d54cda56.jpg"
+        ],
+        "denseSheet": "evidence-c/s8_96_114_2.jpg",
+        "observed": "101.25起回转线从第一行末端画向第二行左侧；102.75第二行出现；105.25再画下弯线；107.75第三行揭示，108.25完整停留。"
+      },
+      "analysisKey": "c1",
+      "id": "N027",
+      "displayId": "N027",
+      "isExcluded": false,
+      "clipPath": "clips/N027.mp4",
+      "posterPath": "posters/N027.jpg",
+      "durationInFrames": 558
+    },
+    {
+      "sourceIndex": 10,
+      "start": 9.5,
+      "end": 15.0,
+      "title": "搜索框缩成查询路标，两路结果展开",
+      "category": "界面与交互",
+      "motionLogic": "空心圆横向扩成搜索框；输入关键词；框携带同一关键词缩到左上；两个手机结果页错峰升起并开始滚动。",
+      "reuseWhen": "先提出检索条件，再并列展示不同来源的结果；适合资料搜集或多平台同题搜索。",
+      "novelty": "输入框和设备展开均是已有基础动作，保留为组合变体：同一查询从输入对象变为双结果共同条件。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-snap-prompt-send",
+          "title": "提示词输入与发送",
+          "difference": "旧片输入并发送结束；这里输入框不消失，降格留作两路结果的共同查询标签。",
+          "mediaUrl": "/reference/preview-v2-snap-prompt-send",
+          "start": 0,
+          "end": 5.5,
+          "label": "V064"
+        },
+        {
+          "id": "library-fred-remake-024",
+          "title": "单个视频通话扩展成三手机对照",
+          "difference": "旧片从一部设备展开多种功能；这里先建查询再展两个来源结果。",
+          "mediaUrl": "/reference/library-fred-remake-024",
+          "start": 0,
+          "end": 6.0,
+          "label": "B024"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-c/s10/sheet01.jpg",
+          "evidence-c/ref-preview-v2-snap-prompt-send.jpg"
+        ],
+        "denseSheet": "evidence-c/s10_9_18_1.jpg",
+        "observed": "9.75空心圆；10.75完整搜索框；11.75输入AI编程；12.75查询框左上缩小、两个手机错峰进入；13.25双结果稳定。不是将单独圆点变胶囊再算一个新增。"
+      },
+      "analysisKey": "c4",
+      "id": "N030",
+      "displayId": "N030",
+      "isExcluded": false,
+      "clipPath": "clips/N030.mp4",
+      "posterPath": "posters/N030.jpg",
+      "durationInFrames": 330
+    },
+    {
+      "sourceIndex": 10,
+      "start": 222.5,
+      "end": 228.3,
+      "title": "多选标签收回表单，再展开生成段落",
+      "category": "界面与交互",
+      "motionLogic": "从概览切到手机内选项面板；点选多个标签，选项变紫色；关闭面板后保留已选标签；标签下方生成对应文本段落。",
+      "reuseWhen": "展示用少量标签代替手动写作，解释结构化输入怎样得到自然语言输出。",
+      "novelty": "真实界面交互参考；复用其状态关系，不将录屏本身视为原创动画。可作为交互变体，不是新增运镜；与日期单值回填不同，多个离散选择被收束成正文。素材是实际录屏，应重建简洁大字号界面。",
+      "closestExisting": [
+        {
+          "id": "8ca27f6a-3969-4789-a6b3-34f3778ac700",
+          "title": "手机操作与现成日期组件对照",
+          "difference": "旧片只选择一个日期回填并旁置日历；本段是多选集合保留，再由集合生成一段正文。",
+          "mediaUrl": "/reference/8ca27f6a-3969-4789-a6b3-34f3778ac700",
+          "start": 0,
+          "end": 9.866667,
+          "label": "E13"
+        },
+        {
+          "id": "preview-v2-snap-agent-steps",
+          "title": "Agent 步骤推进",
+          "difference": "旧片逐行报告执行状态，本段保留用户选项与文本产物的直接对应。",
+          "mediaUrl": "/reference/preview-v2-snap-agent-steps",
+          "start": 0,
+          "end": 5.333,
+          "label": "V057"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "evidence": {
+        "sheets": [
+          "evidence-c/s10/sheet04.jpg",
+          "evidence-c/ref-E13.jpg"
+        ],
+        "denseSheet": "evidence-c/s10_216_239_1.jpg",
+        "observed": "223.35出现标签面板；224.05 JavaScript/Python变紫；226.15多选积累；226.85回到表单显示标签；227.55其下出现文本结果。参考片段字小，价值在交互状态而非可直接套用画面。"
+      },
+      "analysisKey": "c5",
+      "referenceNature": "screen-interaction",
+      "id": "N031",
+      "displayId": "N031",
+      "isExcluded": false,
+      "clipPath": "clips/N031.mp4",
+      "posterPath": "posters/N031.jpg",
+      "durationInFrames": 348
+    },
+    {
+      "sourceIndex": 1,
+      "start": 40,
+      "end": 45.5,
+      "title": "条件问号变成答案徽章，人物接住结论",
+      "category": "文字与强调",
+      "motionLogic": "上一条长条件收为小圆问号；人物从右进入，问号原位换成“能”，圆徽章移至人物左侧，与人物形成一问一答的稳定组合。",
+      "reuseWhen": "先讲条件，再明确能否做到，适合判断型转折。",
+      "novelty": "原组件是圆点扩成胶囊并填词；此处是胶囊收缩成疑问符号，再用人物与答案徽章揭晓结论。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-002",
+          "title": "黑色胶囊展开并强调关键词",
+          "difference": "原组件是圆点扩成胶囊并填词；此处是胶囊收缩成疑问符号，再用人物与答案徽章揭晓结论。",
+          "mediaUrl": "/reference/library-fred-remake-002",
+          "start": 0,
+          "end": 5.5,
+          "label": "B002"
+        },
+        {
+          "id": "X003",
+          "title": "显存条件黑胶囊",
+          "difference": "X003止于40秒，呈现条件胶囊的建立；补段从40秒开始，关注收缩、问号到答案和人物让位，不重发条件建立。",
+          "label": "本轮已看 X003",
+          "mediaUrl": "/clip/X003",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "new-logic",
+      "priority": "A",
+      "comparedCurrent": [
+        {
+          "id": "X003",
+          "difference": "X003止于40秒，呈现条件胶囊的建立；补段从40秒开始，关注收缩、问号到答案和人物让位，不重发条件建立。"
+        }
+      ],
+      "reviewReason": "上轮只截了胶囊建立，漏掉其后完整的问答转换。",
+      "referenceNature": "edited-motion",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s1-sheet-1.jpg"
+        ],
+        "denseSheet": "evidence-a/supp-tight-s1-39.75-45.75-1.jpg",
+        "observed": "上一条长条件收为小圆问号；人物从右进入，问号原位换成“能”，圆徽章移至人物左侧，与人物形成一问一答的稳定组合。"
+      },
+      "overlapWithCurrent": [],
+      "supplementAnalysisKey": "a1",
+      "id": "N032",
+      "displayId": "N032",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N032.mp4",
+      "posterPath": "posters/N032.jpg",
+      "sourceId": "7688320285052800319",
+      "sourceSha256": "7f405f56e41e552c96ef3bfe3f9f4caa9ee634e6aace4891100d922c8de7daa6",
+      "currentDifference": "X003「显存条件黑胶囊」：X003止于40秒，呈现条件胶囊的建立；补段从40秒开始，关注收缩、问号到答案和人物让位，不重发条件建立。",
+      "durationInFrames": 330
+    },
+    {
+      "sourceIndex": 3,
+      "start": 155.9,
+      "end": 158.5,
+      "title": "头像先脉冲，三个行动图标依次跳出",
+      "category": "文字与强调",
+      "motionLogic": "页面背景失焦，头像落在上方并发出放射线；下方点赞、分享、收藏依次弹入，各自出现短暂放射粒点，最后三图标稳定排列。",
+      "reuseWhen": "片尾行动引导、三步轻操作提示。",
+      "novelty": "已有点扩信息矩阵；这里头像是起始节拍，三个行动图标各自带独立爆发反馈，最终形成上主下三项的行动区。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-45633f0ba1312901",
+          "title": "从一个起点建立信息矩阵",
+          "difference": "已有点扩信息矩阵；这里头像是起始节拍，三个行动图标各自带独立爆发反馈，最终形成上主下三项的行动区。",
+          "mediaUrl": "/reference/fred-motion-source-45633f0ba1312901",
+          "start": 0,
+          "end": 7.4,
+          "label": "C002"
+        },
+        {
+          "id": "N016",
+          "title": "节点结果抽出为竖横双屏并腾出品牌位",
+          "difference": "N016用双屏腾出品牌位，本段只有头像和行动图标的顺序反馈，不重复媒体双屏收尾。",
+          "label": "本轮已看 N016",
+          "mediaUrl": "/clip/N016",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "N016",
+          "difference": "N016用双屏腾出品牌位，本段只有头像和行动图标的顺序反馈，不重复媒体双屏收尾。"
+        }
+      ],
+      "reviewReason": "前轮没有单独列任何片尾行动动效，本次仅留一个代表版本，其他9期同款不再补。",
+      "referenceNature": "edited-motion",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s3-sheet-2.jpg"
+        ],
+        "denseSheet": "evidence-a/supp-tight-s3-155.75-159.1-1.jpg",
+        "observed": "页面背景失焦，头像落在上方并发出放射线；下方点赞、分享、收藏依次弹入，各自出现短暂放射粒点，最后三图标稳定排列。"
+      },
+      "overlapWithCurrent": [],
+      "supplementAnalysisKey": "a7",
+      "id": "N037",
+      "displayId": "N037",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N037.mp4",
+      "posterPath": "posters/N037.jpg",
+      "sourceId": "7684030886492310810",
+      "sourceSha256": "98e01d883e3145d1086505a8f4e70dfac938cf13f793da29b806b8bdda96d04d",
+      "currentDifference": "N016「节点结果抽出为竖横双屏并腾出品牌位」：N016用双屏腾出品牌位，本段只有头像和行动图标的顺序反馈，不重复媒体双屏收尾。",
+      "durationInFrames": 156
+    },
+    {
+      "sourceIndex": 4,
+      "start": 2.5,
+      "end": 8.8,
+      "title": "海报错层汇聚后散到四边，中央让出主题",
+      "category": "媒体与空间",
+      "motionLogic": "多张不同尺寸海报从小而淡建立、错层汇聚为一组并推进；随后向四周退让，只在画面边缘留局部海报，中央由虚到实建立主题。",
+      "reuseWhen": "先用作品证明量级，再在中央引出共同主题。",
+      "novelty": "已有紧凑矩阵前置单页；这里海报由自由错层构图转为四边框景，中央留白是最终状态，不是盖住素材的前景卡。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-044",
+          "title": "多张参考卡片组成紧凑矩阵",
+          "difference": "已有紧凑矩阵前置单页；这里海报由自由错层构图转为四边框景，中央留白是最终状态，不是盖住素材的前景卡。",
+          "mediaUrl": "/reference/library-fred-remake-044",
+          "start": 0,
+          "end": 8.0,
+          "label": "B044"
+        },
+        {
+          "id": "N011",
+          "title": "单条影片带叠出三行反向流动的作品墙",
+          "difference": "N011是三行连续影片带叠出墙；本段是海报组散到四边给中央让位，两者布局目的不同。",
+          "label": "本轮已看 N011",
+          "mediaUrl": "/clip/N011",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "N011",
+          "difference": "N011是三行连续影片带叠出墙；本段是海报组散到四边给中央让位，两者布局目的不同。"
+        }
+      ],
+      "reviewReason": "用户选了素材墙与卡片轮换，本次补回有完整汇聚再让位动作的开头，而非只截静态海报。",
+      "referenceNature": "edited-motion",
+      "evidence": {
+        "sheets": [
+          "evidence-a/s4-sheet-1.jpg"
+        ],
+        "denseSheet": "evidence-a/supp-tight-s4-2.5-9-1.jpg",
+        "observed": "多张不同尺寸海报从小而淡建立、错层汇聚为一组并推进；随后向四周退让，只在画面边缘留局部海报，中央由虚到实建立主题。"
+      },
+      "overlapWithCurrent": [],
+      "supplementAnalysisKey": "a8",
+      "id": "N038",
+      "displayId": "N038",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N038.mp4",
+      "posterPath": "posters/N038.jpg",
+      "sourceId": "7683229950509387018",
+      "sourceSha256": "15cf61e6659cd08b5b83169ce2c77f0683f5f77b3fdf4b09ed202a9abf1cb7db",
+      "currentDifference": "N011「单条影片带叠出三行反向流动的作品墙」：N011是三行连续影片带叠出墙；本段是海报组散到四边给中央让位，两者布局目的不同。",
+      "durationInFrames": 378
+    },
+    {
+      "sourceIndex": 5,
+      "start": 46.35,
+      "end": 51.0,
+      "title": "输入框从页面中浮起，提交后落回双栏结果",
+      "category": "界面与交互",
+      "motionLogic": "完整桌面页面建立后背景压暗，底部输入框放大移至中央；输入文字并点发送后恢复整页，右侧出现手机结果。",
+      "reuseWhen": "把指令输入过程与远程执行结果衔接，适合 4–5 秒演示过门。",
+      "novelty": "旧组件侧重独立输入栏展开与文字输入；这里的输入栏从真实页面提起，发送后回到同一页面并展开右侧执行画面。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-snap-prompt-send",
+          "title": "提示词输入与发送",
+          "difference": "旧组件侧重独立输入栏展开与文字输入；这里的输入栏从真实页面提起，发送后回到同一页面并展开右侧执行画面。",
+          "mediaUrl": "/reference/preview-v2-snap-prompt-send",
+          "start": 0,
+          "end": 5.5,
+          "label": "V064"
+        },
+        {
+          "id": "N026",
+          "title": "外部素材卡汇集并交给手机聊天输入",
+          "difference": "N026 是外部素材卡交给手机；本段是桌面输入局部提起，发送后由单栏变双栏，没有素材卡组。",
+          "label": "本轮已看 N026",
+          "mediaUrl": "/clip/N026",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "N026",
+          "title": "外部素材卡汇集并交给手机聊天输入",
+          "difference": "N026 是外部素材卡交给手机；本段是桌面输入局部提起，发送后由单栏变双栏，没有素材卡组。"
+        }
+      ],
+      "reviewReason": "用户保留了聊天输入和手机操作类参考，本段提供此前未列的桌面版输入到执行交接。",
+      "referenceNature": "实用微编排参考；与旧组件存在动作亲缘，不宣称全新运动逻辑",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s5-overview-01.jpg",
+          "evidence-b/s5-overview-02.jpg",
+          "evidence-b/s5-overview-03.jpg",
+          "evidence-b/s5-overview-04.jpg"
+        ],
+        "denseSheet": "evidence-b/sup-s5-composer-01.jpg",
+        "observed": "46.4 秒完整桌面；46.8 秒背景变灰，47.2 秒输入框在中央放大；49.6 秒指针到发送处，50 秒整页复明，50.4 秒右侧手机画面建立。"
+      },
+      "supplementAnalysisKey": "b1",
+      "id": "N040",
+      "displayId": "N040",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N040.mp4",
+      "posterPath": "posters/N040.jpg",
+      "sourceId": "7639367693065325834",
+      "sourceSha256": "357568898725ed2f53e3d23d14789475b1fb0f6e0bdbd10f91b521e36a48a4a6",
+      "currentDifference": "N026「外部素材卡汇集并交给手机聊天输入」：N026 是外部素材卡交给手机；本段是桌面输入局部提起，发送后由单栏变双栏，没有素材卡组。",
+      "durationInFrames": 279
+    },
+    {
+      "sourceIndex": 5,
+      "start": 258.1,
+      "end": 262.2,
+      "title": "长文面板横向展开为背景，手机重新到前景",
+      "category": "媒体与空间",
+      "motionLogic": "黑色长文从左边进入并盖住手机，向横向三列扩展至满屏；文档失焦后手机重新进入中央，继续展示操作。",
+      "reuseWhen": "先交代后台资料或规则总量，再把注意力交还实际操作。",
+      "novelty": "基础关系仍是前后景切换，新增参考价值在于黑文档先从窄面板展开铺满，再成为手机的背景，而非直接放一张虚化底图。",
+      "closestExisting": [
+        {
+          "id": "T07",
+          "title": "背景失焦与前景重点接力",
+          "difference": "基础关系仍是前后景切换，新增参考价值在于黑文档先从窄面板展开铺满，再成为手机的背景，而非直接放一张虚化底图。",
+          "mediaUrl": "/reference/T07",
+          "start": 0,
+          "end": 1.1,
+          "label": "T07"
+        },
+        {
+          "id": "X025",
+          "title": "文档推近逐行阅读",
+          "difference": "X025 对单份文档进行近景阅读；这里不阅读细字，文档从窄到宽铺满，最后降为背景承接手机。",
+          "label": "本轮已看 X025",
+          "mediaUrl": "/clip/X025",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "X025",
+          "title": "文档推近逐行阅读",
+          "difference": "X025 对单份文档进行近景阅读；这里不阅读细字，文档从窄到宽铺满，最后降为背景承接手机。"
+        }
+      ],
+      "reviewReason": "用户保留 X025 等参考片段细节；此处短程载体变换此前未列，且不复用被跳过的圆形图示 N020。",
+      "referenceNature": "实用微编排参考；与旧组件存在动作亲缘，不宣称全新运动逻辑",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s5-overview-01.jpg",
+          "evidence-b/s5-overview-02.jpg",
+          "evidence-b/s5-overview-03.jpg",
+          "evidence-b/s5-overview-04.jpg"
+        ],
+        "denseSheet": "evidence-b/sup-s5-code-01.jpg",
+        "observed": "258.5 秒黑文档从左进入；259 秒向右扩展，259.5 秒三列铺满；260.5 秒文档失焦且手机在前景出现，261 秒手机落定并带键盘。"
+      },
+      "supplementAnalysisKey": "b4",
+      "id": "N043",
+      "displayId": "N043",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N043.mp4",
+      "posterPath": "posters/N043.jpg",
+      "sourceId": "7639367693065325834",
+      "sourceSha256": "357568898725ed2f53e3d23d14789475b1fb0f6e0bdbd10f91b521e36a48a4a6",
+      "currentDifference": "X025「文档推近逐行阅读」：X025 对单份文档进行近景阅读；这里不阅读细字，文档从窄到宽铺满，最后降为背景承接手机。",
+      "durationInFrames": 246
+    },
+    {
+      "sourceIndex": 6,
+      "start": 33.05,
+      "end": 36.45,
+      "title": "商品大图压成附件，输入框被提到前景",
+      "category": "界面与交互",
+      "motionLogic": "两件商品先以大图位于页面前景，随后缩成输入框内的小附件；输入框整体放大浮起，展开附加操作菜单，再建立文字需求。",
+      "reuseWhen": "多模态任务开始时先交代提交的东西，再讲输入方式。",
+      "novelty": "旧组件展示操作和结果，本段专取输入端的两次尺度变化：物品大图成为附件，附件所在输入框再浮起供操作。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-008",
+          "title": "操作界面装入黑框并突出操作结果",
+          "difference": "旧组件展示操作和结果，本段专取输入端的两次尺度变化：物品大图成为附件，附件所在输入框再浮起供操作。",
+          "mediaUrl": "/reference/library-fred-remake-008",
+          "start": 0,
+          "end": 11.0,
+          "label": "B008"
+        },
+        {
+          "id": "N026",
+          "title": "外部素材卡汇集并交给手机聊天输入",
+          "difference": "N026 外部素材列退场、手机回中；本段大商品图缩为桌面输入栏附件，接着把输入栏本身提起来，运动路径和尺度顺序不同。",
+          "label": "本轮已看 N026",
+          "mediaUrl": "/clip/N026",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "N026",
+          "title": "外部素材卡汇集并交给手机聊天输入",
+          "difference": "N026 外部素材列退场、手机回中；本段大商品图缩为桌面输入栏附件，接着把输入栏本身提起来，运动路径和尺度顺序不同。"
+        }
+      ],
+      "reviewReason": "第 6 期被第一轮过度压缩；本段是清晰的输入材料到编辑控件交接，并非普通长录屏。",
+      "referenceNature": "实用微编排参考；与旧组件存在动作亲缘，不宣称全新运动逻辑",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s6-overview-01.jpg",
+          "evidence-b/s6-overview-02.jpg"
+        ],
+        "denseSheet": "evidence-b/sup-s6-composer-01.jpg",
+        "observed": "33.4 秒衣服与裙子为大图；33.8 秒已落为输入框左上附件；34.2 秒输入框放大至前景；35 秒加号菜单打开；36.2 秒文字需求建立。"
+      },
+      "supplementAnalysisKey": "b5",
+      "id": "N044",
+      "displayId": "N044",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N044.mp4",
+      "posterPath": "posters/N044.jpg",
+      "sourceId": "7639368949544537395",
+      "sourceSha256": "46b1d5acf29e98033d4724fa02554e26ab90e077c89d9cf0051256d96b387e15",
+      "currentDifference": "N026「外部素材卡汇集并交给手机聊天输入」：N026 外部素材列退场、手机回中；本段大商品图缩为桌面输入栏附件，接着把输入栏本身提起来，运动路径和尺度顺序不同。",
+      "durationInFrames": 204
+    },
+    {
+      "sourceIndex": 6,
+      "start": 110.1,
+      "end": 113.25,
+      "title": "三张作品错峰上退，重置成两张对照图",
+      "category": "转场与交接",
+      "motionLogic": "三张并排竖卡从左到右错峰向上退出，短暂露出底层页面；下一组两张竖卡在中部并排建立，转换展示组的密度。",
+      "reuseWhen": "一组多案例讲完后，进入两张重点对照，避免连续换图造成分组不清。",
+      "novelty": "已有基础动作是错峰离场与窗口交接；本段具体展示三卡组向双卡组的密度重置，适合作为已有组件的实用编排参考。",
+      "closestExisting": [
+        {
+          "id": "T08",
+          "title": "错峰上移与下一窗口接入",
+          "difference": "已有基础动作是错峰离场与窗口交接；本段具体展示三卡组向双卡组的密度重置，适合作为已有组件的实用编排参考。",
+          "mediaUrl": "/reference/T08",
+          "start": 0,
+          "end": 1.7,
+          "label": "T08"
+        },
+        {
+          "id": "X029",
+          "title": "三张竖图依次建立并替换",
+          "difference": "X029 是三张卡依次出现并在槽内替换图片；本段不做原位换图，而是让上一整组清空，再重建两个新槽位。",
+          "label": "本轮已看 X029",
+          "mediaUrl": "/clip/X029",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "X029",
+          "title": "三张竖图依次建立并替换",
+          "difference": "X029 是三张卡依次出现并在槽内替换图片；本段不做原位换图，而是让上一整组清空，再重建两个新槽位。"
+        }
+      ],
+      "reviewReason": "用户保留三卡建立，补充它的组间交接方式；不重复 X030 已跳过的细节图原位轮换。",
+      "referenceNature": "实用微编排参考；与旧组件存在动作亲缘，不宣称全新运动逻辑",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s6-overview-01.jpg",
+          "evidence-b/s6-overview-02.jpg"
+        ],
+        "denseSheet": "evidence-b/sup-s6-pair-01.jpg",
+        "observed": "110 秒仍为三卡组；110.5 秒左卡上退，111 秒仅右卡还在退场；111.5 秒新双卡出现，112–113 秒稳定并排。"
+      },
+      "supplementAnalysisKey": "b6",
+      "id": "N045",
+      "displayId": "N045",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N045.mp4",
+      "posterPath": "posters/N045.jpg",
+      "sourceId": "7639368949544537395",
+      "sourceSha256": "46b1d5acf29e98033d4724fa02554e26ab90e077c89d9cf0051256d96b387e15",
+      "currentDifference": "X029「三张竖图依次建立并替换」：X029 是三张卡依次出现并在槽内替换图片；本段不做原位换图，而是让上一整组清空，再重建两个新槽位。",
+      "durationInFrames": 189
+    },
+    {
+      "sourceIndex": 6,
+      "start": 127.05,
+      "end": 130.2,
+      "title": "大幅结果图收回聊天记录，继续阅读生成说明",
+      "category": "界面与交互",
+      "motionLogic": "生成结果占据前景；结果缩小落回对话中的原位置，后面聊天页面由模糊转清晰；页面继续展示后续文本说明。",
+      "reuseWhen": "看完大图后回到工具操作或解释，强调作品确实出自同一对话。",
+      "novelty": "旧组件从设备内向外放大媒体；本段以相反方向把独立成果收回聊天里的真实位置，并继续显示说明。属于返程微编排。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-059",
+          "title": "手机中的视频放大为独立横窗",
+          "difference": "旧组件从设备内向外放大媒体；本段以相反方向把独立成果收回聊天里的真实位置，并继续显示说明。属于返程微编排。",
+          "mediaUrl": "/reference/library-fred-remake-059",
+          "start": 0,
+          "end": 12.0,
+          "label": "B059"
+        },
+        {
+          "id": "X031",
+          "title": "双图左右描边轮换强调",
+          "difference": "X031 是左右半图描边，用户跳过了；本段发生在其结束后，描边完全消失，动作是整张结果图归位到聊天，而非再次强调图片内容。",
+          "label": "本轮已看 X031",
+          "mediaUrl": "/clip/X031",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "X031",
+          "title": "双图左右描边轮换强调",
+          "difference": "X031 是左右半图描边，用户跳过了；本段发生在其结束后，描边完全消失，动作是整张结果图归位到聊天，而非再次强调图片内容。"
+        }
+      ],
+      "reviewReason": "补上第 6 期成果展示之后的返程；时间段不覆盖已跳过的左右描边。",
+      "referenceNature": "实用微编排参考；与旧组件存在动作亲缘，不宣称全新运动逻辑",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s6-overview-01.jpg",
+          "evidence-b/s6-overview-02.jpg"
+        ],
+        "denseSheet": "evidence-b/sup-s6-return-01.jpg",
+        "observed": "127 秒大幅成品仍在；127.5 秒缩小；128 秒已落回聊天结果区域；128.5 秒整个页面清晰，129.5 秒后续文字解释继续。"
+      },
+      "supplementAnalysisKey": "b7",
+      "id": "N046",
+      "displayId": "N046",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N046.mp4",
+      "posterPath": "posters/N046.jpg",
+      "sourceId": "7639368949544537395",
+      "sourceSha256": "46b1d5acf29e98033d4724fa02554e26ab90e077c89d9cf0051256d96b387e15",
+      "currentDifference": "X031「双图左右描边轮换强调」：X031 是左右半图描边，用户跳过了；本段发生在其结束后，描边完全消失，动作是整张结果图归位到聊天，而非再次强调图片内容。",
+      "durationInFrames": 189
+    },
+    {
+      "sourceIndex": 7,
+      "start": 55.1,
+      "end": 58.8,
+      "title": "手机从局部近景退到全貌，再解锁进入聊天",
+      "category": "界面与交互",
+      "motionLogic": "手机以放大的局部锁屏从左侧进入，缩小并居中露出完整设备；解锁进入主页，再打开聊天，建立实际操作的起点。",
+      "reuseWhen": "从口播或人物引导进入手机实操；用近景到全貌控制观众注意力。",
+      "novelty": "沿用局部与全貌的基础动作，补充局部设备入场、退全貌、解锁与进入聊天的实际衔接节奏。",
+      "closestExisting": [
+        {
+          "id": "T06",
+          "title": "局部放大、横移与回到全貌",
+          "difference": "沿用局部与全貌的基础动作，补充局部设备入场、退全貌、解锁与进入聊天的实际衔接节奏。",
+          "mediaUrl": "/reference/T06",
+          "start": 0,
+          "end": 8.9,
+          "label": "T06"
+        },
+        {
+          "id": "N025",
+          "title": "人物作为固定支点连接素材列与剪辑时间线",
+          "difference": "N025 以人物连接素材列和剪辑时间线，在54.1秒已结束；本段人物已经完全退场，是随后全新的手机载体建立过程。",
+          "label": "本轮已看 N025",
+          "mediaUrl": "/clip/N025",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "comparedCurrent": [
+        {
+          "id": "N025",
+          "title": "人物作为固定支点连接素材列与剪辑时间线",
+          "difference": "N025 以人物连接素材列和剪辑时间线，在54.1秒已结束；本段人物已经完全退场，是随后全新的手机载体建立过程。"
+        }
+      ],
+      "reviewReason": "手机操作的开场动作此前未列；保留 3.7 秒完整进入过程，不截成长段聊天录屏。",
+      "referenceNature": "实用微编排参考；与旧组件存在动作亲缘，不宣称全新运动逻辑",
+      "evidence": {
+        "sheets": [
+          "evidence-b/s7-overview-01.jpg",
+          "evidence-b/s7-overview-02.jpg",
+          "evidence-b/s7-overview-03.jpg"
+        ],
+        "denseSheet": "evidence-b/sup-s7-unlock-01.jpg",
+        "observed": "55.25 秒左侧出现放大的锁屏局部；56.5 秒全手机露出并居中；56.75 秒解锁过渡，57 秒主页，58 秒聊天背景建立。"
+      },
+      "supplementAnalysisKey": "b8",
+      "id": "N047",
+      "displayId": "N047",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N047.mp4",
+      "posterPath": "posters/N047.jpg",
+      "sourceId": "7637881184076172598",
+      "sourceSha256": "b25e0b6b286fcff816cdf29a66a39dcf9f5647b9e8009f7bd8b4afa92ceca651",
+      "currentDifference": "N025「人物作为固定支点连接素材列与剪辑时间线」：N025 以人物连接素材列和剪辑时间线，在54.1秒已结束；本段人物已经完全退场，是随后全新的手机载体建立过程。",
+      "durationInFrames": 222
+    },
+    {
+      "sourceIndex": 9,
+      "start": 23.9,
+      "end": 26.7,
+      "title": "问题与答案错峰上升接成一句，再交给实操",
+      "category": "转场与交接",
+      "motionLogic": "聊天窗口上退；左侧“有问题”先从下方升到阅读位；右侧“找AI”随后追到同一基线；两词退出后真实工具窗口入场。",
+      "reuseWhen": "由前面的问题证据转为解决方法、问题/答案两拍后马上实操。",
+      "novelty": "短桥段的价值是先后两拍、同基线合句、交给真实操作，不是只取两行标题。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-042",
+          "title": "三项业务词错位阶梯排列",
+          "difference": "旧片三个业务词停在阶梯位；本段两个词的终点归到同一行，再马上让工具界面接管。",
+          "mediaUrl": "/reference/library-fred-remake-042",
+          "start": 0,
+          "end": 5.0,
+          "label": "B042"
+        },
+        {
+          "id": "X043",
+          "title": "聊天消息逐条增加",
+          "difference": "X043止于聊天消息推进；此处从聊天退场开始，完整承担“聊天证据到工具演示”的交接，未重复聊天内容。",
+          "label": "本轮已看 X043",
+          "mediaUrl": "/clip/X043",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "comparedCurrent": [
+        {
+          "id": "X043",
+          "difference": "X043止于聊天消息推进；此处从聊天退场开始，完整承担“聊天证据到工具演示”的交接，未重复聊天内容。"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "reviewReason": "原批只截取聊天内容，本次补出聊天退场到双词再到实操的完整短交接。",
+      "referenceNature": "微编排参考",
+      "evidence": {
+        "sheets": [
+          "evidence-c/s9_23_28_1.jpg"
+        ],
+        "denseSheet": "evidence-c/s9_23_28_1.jpg",
+        "observed": "24.25左词升入，24.75右词从下方出现，25.25两词同一基线，25.75窗口边缘进入，26.25工具全貌。"
+      },
+      "supplementAnalysisKey": "c2",
+      "id": "N049",
+      "displayId": "N049",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N049.mp4",
+      "posterPath": "posters/N049.jpg",
+      "sourceId": "7632352535503719714",
+      "sourceSha256": "8143312ec2cb02196db69d41b97c0d24178883dcd7f599732f2ef75e38b56e0b",
+      "currentDifference": "X043「聊天消息逐条增加」：X043止于聊天消息推进；此处从聊天退场开始，完整承担“聊天证据到工具演示”的交接，未重复聊天内容。",
+      "durationInFrames": 168
+    },
+    {
+      "sourceIndex": 10,
+      "start": 51.35,
+      "end": 55.85,
+      "title": "人物两手分别托起两个用途，视线接力成对照",
+      "category": "关系与流程",
+      "motionLogic": "人物先侧看右手，右侧用途词落在手掌上方；视线转向另一侧；左侧用途词出现；人物回到正面，双手与双词形成平衡终态。",
+      "reuseWhen": "一个主体带来两种用途、两类受益或两条可选路径；可替换为真人抠像或简洁图标。",
+      "novelty": "人物视线和手掌成为标签锚点，是两项用途的具体表演变体，区别于无指向的角色动作素材。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-5a8b1a330e3335d2",
+          "title": "伸手示意",
+          "difference": "旧素材只有伸手动作；这里两次视线转移与两标签出现绑定，最终形成左右对照。",
+          "mediaUrl": "/reference/fred-motion-source-5a8b1a330e3335d2",
+          "start": 0,
+          "end": 5.033,
+          "label": "C023"
+        },
+        {
+          "id": "N025",
+          "title": "人物作为固定支点连接素材列与剪辑时间线",
+          "difference": "N025人物连接素材到时间线的输入输出；这里没有连线和处理链，双手各自托起等权用途。",
+          "label": "本轮已看 N025",
+          "mediaUrl": "/clip/N025",
+          "start": 0,
+          "end": null
+        },
+        {
+          "id": "source-alternative-N052",
+          "title": "另一参考片段版本：左右手托出两项议题",
+          "difference": "同样由双手与视线依次引出左右两词，仅文字、发光底座与镜头缩放不同，因此不重复列为新增候选。",
+          "label": "同动作另一参考片段",
+          "mediaUrl": "/source/4",
+          "start": 301.6,
+          "end": 305.75
+        }
+      ],
+      "comparedCurrent": [
+        {
+          "id": "N025",
+          "difference": "N025人物连接素材到时间线的输入输出；这里没有连线和处理链，双手各自托起等权用途。"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "reviewReason": "用户保留了人物支点类画面，本次补上双手与双词同步这一具体微编排。",
+      "referenceNature": "人物与文字微编排",
+      "evidence": {
+        "sheets": [
+          "evidence-c/s10_44_58_1.jpg",
+          "evidence-c/s10_44_58_2.jpg"
+        ],
+        "denseSheet": "evidence-c/s10_44_58_2.jpg",
+        "observed": "51.75右侧“找到工作”淡入；52.25右词稳定；53.25人物向左看；53.75“简化工作”出现；54.25正面双词落定。"
+      },
+      "supplementAnalysisKey": "c5",
+      "alternativeSource": {
+        "sourceIndex": 4,
+        "start": 301.6,
+        "end": 305.75,
+        "title": "另一参考片段版本：左右手托出两项议题",
+        "difference": "同样由双手与视线依次引出左右两词，仅文字、发光底座与镜头缩放不同，因此不重复列为新增候选。"
+      },
+      "id": "N052",
+      "displayId": "N052",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N052.mp4",
+      "posterPath": "posters/N052.jpg",
+      "sourceId": "7631575401503984911",
+      "sourceSha256": "803506a6c85c2a6deb0a8c471e3ca2969d2748c9378602aa40ac0d6e4eeea75b",
+      "currentDifference": "N025「人物作为固定支点连接素材列与剪辑时间线」：N025人物连接素材到时间线的输入输出；这里没有连线和处理链，双手各自托起等权用途。",
+      "durationInFrames": 270
+    },
+    {
+      "sourceIndex": 10,
+      "start": 189.6,
+      "end": 194.8,
+      "title": "证据页缩小侧移，右侧能力清单逐项补齐",
+      "category": "文字与强调",
+      "motionLogic": "完整用量页面缩成左侧证据窗；右侧第一个能力词建立；页面继续滚动，右侧其余能力词依次从灰转黑；最终形成左证据、右清单的稳定布局。",
+      "reuseWhen": "在保留来源证据时总结功能清单、套餐范围、报告发现；每新增一词对应一次讲述。",
+      "novelty": "主动作虽已有侧移让位，但此处保留滚动证据与逐项清单同步，适合作为完整示例，非新拓扑。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-shot-doc-park-left-pill-deal",
+          "title": "文档靠左与胶囊展开",
+          "difference": "旧片文档部分出画且逐张发牌胶囊/换字幕；此处保留完整小窗并持续滚动，右侧固定纵向清单逐条变实。",
+          "mediaUrl": "/reference/preview-v2-shot-doc-park-left-pill-deal",
+          "start": 0,
+          "end": 5.8,
+          "label": "V044"
+        },
+        {
+          "id": "X032",
+          "title": "手机侧移让出两行输入类型",
+          "difference": "X032手机侧移仅加两类输入；本段横向证据页保持持续滚动，五项列表逐条累积，属于更密的证据+清单安排。",
+          "label": "本轮已看 X032",
+          "mediaUrl": "/clip/X032",
+          "start": 0,
+          "end": null
+        }
+      ],
+      "comparedCurrent": [
+        {
+          "id": "X032",
+          "difference": "X032手机侧移仅加两类输入；本段横向证据页保持持续滚动，五项列表逐条累积，属于更密的证据+清单安排。"
+        }
+      ],
+      "dedupVerdict": "distinct-variant",
+      "priority": "B",
+      "reviewReason": "用户已保留页面重点和侧边能力词，本次补充持续滚动证据与五项词同步累积的完整安排。",
+      "referenceNature": "微编排参考",
+      "evidence": {
+        "sheets": [
+          "evidence-c/s10_186_195_1.jpg"
+        ],
+        "denseSheet": "evidence-c/s10_186_195_1.jpg",
+        "observed": "189.75页面全貌；190.25缩小；190.75左移第一词出现；191.25第二词；192.25第三词；192.75第四词；193.25第五词；193.75全部稳定。"
+      },
+      "supplementAnalysisKey": "c7",
+      "id": "N054",
+      "displayId": "N054",
+      "isExcluded": false,
+      "reviewBatch": "supplement-20260928",
+      "clipPath": "clips/N054.mp4",
+      "posterPath": "posters/N054.jpg",
+      "sourceId": "7631575401503984911",
+      "sourceSha256": "803506a6c85c2a6deb0a8c471e3ca2969d2748c9378602aa40ac0d6e4eeea75b",
+      "currentDifference": "X032「手机侧移让出两行输入类型」：X032手机侧移仅加两类输入；本段横向证据页保持持续滚动，五项列表逐条累积，属于更密的证据+清单安排。",
+      "durationInFrames": 312
+    },
+    {
+      "sourceIndex": 1,
+      "start": 16,
+      "end": 23,
+      "title": "多格视频案例墙",
+      "reason": "素材改变，仍是已有多媒体矩阵。",
+      "closestExistingId": "library-fred-remake-044",
+      "analysisKey": "a2",
+      "id": "X002",
+      "displayId": "X002",
+      "isExcluded": true,
+      "clipPath": "clips/X002.mp4",
+      "posterPath": "posters/X002.jpg",
+      "category": "转场与交接",
+      "motionLogic": "素材改变，仍是已有多媒体矩阵。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-044",
+          "difference": "素材改变，仍是已有多媒体矩阵。",
+          "title": "多张参考卡片组成紧凑矩阵",
+          "mediaUrl": "/reference/library-fred-remake-044",
+          "start": 0,
+          "end": 8.0,
+          "label": "B044"
+        }
+      ],
+      "durationInFrames": 420
+    },
+    {
+      "sourceIndex": 1,
+      "start": 33,
+      "end": 40,
+      "title": "显存条件黑胶囊",
+      "reason": "圆点到胶囊及逐字已有。",
+      "closestExistingId": "library-fred-remake-002",
+      "analysisKey": "a3",
+      "id": "X003",
+      "displayId": "X003",
+      "isExcluded": true,
+      "clipPath": "clips/X003.mp4",
+      "posterPath": "posters/X003.jpg",
+      "category": "转场与交接",
+      "motionLogic": "圆点到胶囊及逐字已有。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-002",
+          "difference": "圆点到胶囊及逐字已有。",
+          "title": "黑色胶囊展开并强调关键词",
+          "mediaUrl": "/reference/library-fred-remake-002",
+          "start": 0,
+          "end": 5.5,
+          "label": "B002"
+        }
+      ],
+      "durationInFrames": 420
+    },
+    {
+      "sourceIndex": 1,
+      "start": 229,
+      "end": 235,
+      "title": "三种生成方式清单",
+      "reason": "背景虚化后列三项，无新增。",
+      "closestExistingId": "library-fred-remake-033",
+      "analysisKey": "a6",
+      "id": "X006",
+      "displayId": "X006",
+      "isExcluded": true,
+      "clipPath": "clips/X006.mp4",
+      "posterPath": "posters/X006.jpg",
+      "category": "转场与交接",
+      "motionLogic": "背景虚化后列三项，无新增。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-033",
+          "difference": "背景虚化后列三项，无新增。",
+          "title": "三行痛点覆盖虚化表格",
+          "mediaUrl": "/reference/library-fred-remake-033",
+          "start": 0,
+          "end": 4.5,
+          "label": "B033"
+        }
+      ],
+      "durationInFrames": 360
+    },
+    {
+      "sourceIndex": 2,
+      "start": 137,
+      "end": 147,
+      "title": "提示词与能力黑胶囊",
+      "reason": "普通双胶囊层叠换文案。",
+      "closestExistingId": "library-fred-remake-038",
+      "analysisKey": "a8",
+      "id": "X008",
+      "displayId": "X008",
+      "isExcluded": true,
+      "clipPath": "clips/X008.mp4",
+      "posterPath": "posters/X008.jpg",
+      "category": "转场与交接",
+      "motionLogic": "普通双胶囊层叠换文案。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-038",
+          "difference": "普通双胶囊层叠换文案。",
+          "title": "三层黑色短句概括现场观点",
+          "mediaUrl": "/reference/library-fred-remake-038",
+          "start": 0,
+          "end": 11.0,
+          "label": "B038"
+        }
+      ],
+      "durationInFrames": 600
+    },
+    {
+      "sourceIndex": 2,
+      "start": 149,
+      "end": 156,
+      "title": "三条基础能力建立",
+      "reason": "标准编号需求逐行写入。",
+      "closestExistingId": "library-fred-remake-034",
+      "analysisKey": "a9",
+      "id": "X009",
+      "displayId": "X009",
+      "isExcluded": true,
+      "clipPath": "clips/X009.mp4",
+      "posterPath": "posters/X009.jpg",
+      "category": "转场与交接",
+      "motionLogic": "标准编号需求逐行写入。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-034",
+          "difference": "标准编号需求逐行写入。",
+          "title": "编号需求逐行建立并强调关键词",
+          "mediaUrl": "/reference/library-fred-remake-034",
+          "start": 0,
+          "end": 13.0,
+          "label": "B034"
+        }
+      ],
+      "durationInFrames": 420
+    },
+    {
+      "sourceIndex": 2,
+      "start": 206.5,
+      "end": 213,
+      "title": "约束示例黑卡",
+      "reason": "与本批摘要示例替换同一逻辑，保留较短完整的摘要版本。",
+      "closestExistingId": "library-fred-remake-009",
+      "analysisKey": "a10",
+      "id": "X010",
+      "displayId": "X010",
+      "isExcluded": true,
+      "clipPath": "clips/X010.mp4",
+      "posterPath": "posters/X010.jpg",
+      "category": "转场与交接",
+      "motionLogic": "与本批摘要示例替换同一逻辑，保留较短完整的摘要版本。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-009",
+          "difference": "与本批摘要示例替换同一逻辑，保留较短完整的摘要版本。",
+          "title": "提示词全貌与参数关键词聚焦",
+          "mediaUrl": "/reference/library-fred-remake-009",
+          "start": 0,
+          "end": 10.85,
+          "label": "B009"
+        }
+      ],
+      "durationInFrames": 390
+    },
+    {
+      "sourceIndex": 3,
+      "start": 69,
+      "end": 75,
+      "title": "报告卡局部放大",
+      "reason": "单卡从界面前置再回到报告，已有局部放大覆盖。",
+      "closestExistingId": "T06",
+      "analysisKey": "a14",
+      "id": "X014",
+      "displayId": "X014",
+      "isExcluded": true,
+      "clipPath": "clips/X014.mp4",
+      "posterPath": "posters/X014.jpg",
+      "category": "转场与交接",
+      "motionLogic": "单卡从界面前置再回到报告，已有局部放大覆盖。",
+      "closestExisting": [
+        {
+          "id": "T06",
+          "difference": "单卡从界面前置再回到报告，已有局部放大覆盖。",
+          "title": "局部放大、横移与回到全貌",
+          "mediaUrl": "/reference/T06",
+          "start": 0,
+          "end": 8.9,
+          "label": "T06"
+        }
+      ],
+      "durationInFrames": 360
+    },
+    {
+      "sourceIndex": 3,
+      "start": 88.3,
+      "end": 95.2,
+      "title": "三张商品卡片轮换",
+      "reason": "与现有三卡/多卡对比重复，仅素材换图。",
+      "closestExistingId": "library-fred-remake-019",
+      "analysisKey": "a15",
+      "id": "X015",
+      "displayId": "X015",
+      "isExcluded": true,
+      "clipPath": "clips/X015.mp4",
+      "posterPath": "posters/X015.jpg",
+      "category": "转场与交接",
+      "motionLogic": "与现有三卡/多卡对比重复，仅素材换图。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-019",
+          "difference": "与现有三卡/多卡对比重复，仅素材换图。",
+          "title": "三张图片卡转为能力分类",
+          "mediaUrl": "/reference/library-fred-remake-019",
+          "start": 0,
+          "end": 13.0,
+          "label": "B019"
+        }
+      ],
+      "durationInFrames": 414
+    },
+    {
+      "sourceIndex": 4,
+      "start": 219,
+      "end": 226,
+      "title": "三模型图标清单",
+      "reason": "图标加文字逐行出现，不因品牌不同计新增。",
+      "closestExistingId": "fred-motion-source-71c3af2e6344fae5",
+      "analysisKey": "a17",
+      "id": "X017",
+      "displayId": "X017",
+      "isExcluded": true,
+      "clipPath": "clips/X017.mp4",
+      "posterPath": "posters/X017.jpg",
+      "category": "转场与交接",
+      "motionLogic": "图标加文字逐行出现，不因品牌不同计新增。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-71c3af2e6344fae5",
+          "difference": "图标加文字逐行出现，不因品牌不同计新增。",
+          "title": "逐行建立标题",
+          "mediaUrl": "/reference/fred-motion-source-71c3af2e6344fae5",
+          "start": 0,
+          "end": 3.5,
+          "label": "C001"
+        }
+      ],
+      "durationInFrames": 420
+    },
+    {
+      "sourceIndex": 4,
+      "start": 261,
+      "end": 270,
+      "title": "免费规则窗口",
+      "reason": "黑窗口逐行打字已存在，多次规则窗口只留排除示例。",
+      "closestExistingId": "library-fred-remake-034",
+      "analysisKey": "a19",
+      "id": "X019",
+      "displayId": "X019",
+      "isExcluded": true,
+      "clipPath": "clips/X019.mp4",
+      "posterPath": "posters/X019.jpg",
+      "category": "转场与交接",
+      "motionLogic": "黑窗口逐行打字已存在，多次规则窗口只留排除示例。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-034",
+          "difference": "黑窗口逐行打字已存在，多次规则窗口只留排除示例。",
+          "title": "编号需求逐行建立并强调关键词",
+          "mediaUrl": "/reference/library-fred-remake-034",
+          "start": 0,
+          "end": 13.0,
+          "label": "B034"
+        }
+      ],
+      "durationInFrames": 540
+    },
+    {
+      "sourceIndex": 4,
+      "start": 439.5,
+      "end": 448,
+      "title": "四格视频成果",
+      "reason": "单片扩成四格完全是现役逻辑。",
+      "closestExistingId": "library-fred-remake-011",
+      "analysisKey": "a20",
+      "id": "X020",
+      "displayId": "X020",
+      "isExcluded": true,
+      "clipPath": "clips/X020.mp4",
+      "posterPath": "posters/X020.jpg",
+      "category": "转场与交接",
+      "motionLogic": "单片扩成四格完全是现役逻辑。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-011",
+          "difference": "单片扩成四格完全是现役逻辑。",
+          "title": "单个媒体窗口扩展成四格作品墙",
+          "mediaUrl": "/reference/library-fred-remake-011",
+          "start": 0,
+          "end": 14.0,
+          "label": "B011"
+        }
+      ],
+      "durationInFrames": 510
+    },
+    {
+      "sourceIndex": 5,
+      "start": 33.3,
+      "end": 35.9,
+      "title": "角色虚化前的三项概念",
+      "reason": "主体虚化后前置文字已有多项；字体和颜色不足以单独入库。",
+      "closestExistingId": "library-fred-remake-033",
+      "analysisKey": "b2",
+      "id": "X022",
+      "displayId": "X022",
+      "isExcluded": true,
+      "clipPath": "clips/X022.mp4",
+      "posterPath": "posters/X022.jpg",
+      "category": "转场与交接",
+      "motionLogic": "主体虚化后前置文字已有多项；字体和颜色不足以单独入库。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-033",
+          "difference": "主体虚化后前置文字已有多项；字体和颜色不足以单独入库。",
+          "title": "三行痛点覆盖虚化表格",
+          "mediaUrl": "/reference/library-fred-remake-033",
+          "start": 0,
+          "end": 4.5,
+          "label": "B033"
+        }
+      ],
+      "durationInFrames": 156
+    },
+    {
+      "sourceIndex": 5,
+      "start": 39.1,
+      "end": 45.4,
+      "title": "倾斜目录沿箭头逐项滚动",
+      "reason": "单独看这段仍是固定焦点选择器，只保留后续回选并组合概念的完整变体。",
+      "closestExistingId": "preview-v2-shot-picker-carousel-feature-cycle",
+      "analysisKey": "b3",
+      "id": "X023",
+      "displayId": "X023",
+      "isExcluded": true,
+      "clipPath": "clips/X023.mp4",
+      "posterPath": "posters/X023.jpg",
+      "category": "转场与交接",
+      "motionLogic": "单独看这段仍是固定焦点选择器，只保留后续回选并组合概念的完整变体。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-shot-picker-carousel-feature-cycle",
+          "difference": "单独看这段仍是固定焦点选择器，只保留后续回选并组合概念的完整变体。",
+          "title": "选择器轮播与功能切换",
+          "mediaUrl": "/reference/preview-v2-shot-picker-carousel-feature-cycle",
+          "start": 0,
+          "end": 3.6,
+          "label": "V050"
+        }
+      ],
+      "durationInFrames": 378
+    },
+    {
+      "sourceIndex": 5,
+      "start": 82,
+      "end": 88,
+      "title": "手机聊天输入并展示回复",
+      "reason": "主要是原产品录屏输入，没有新增独立动画结构。",
+      "closestExistingId": "preview-v2-talk-chat-message-flow",
+      "analysisKey": "b4",
+      "id": "X024",
+      "displayId": "X024",
+      "isExcluded": true,
+      "clipPath": "clips/X024.mp4",
+      "posterPath": "posters/X024.jpg",
+      "category": "转场与交接",
+      "motionLogic": "主要是原产品录屏输入，没有新增独立动画结构。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-talk-chat-message-flow",
+          "difference": "主要是原产品录屏输入，没有新增独立动画结构。",
+          "title": "聊天消息推进",
+          "mediaUrl": "/reference/preview-v2-talk-chat-message-flow",
+          "start": 0,
+          "end": 8.7,
+          "label": "V072"
+        }
+      ],
+      "durationInFrames": 360
+    },
+    {
+      "sourceIndex": 5,
+      "start": 154,
+      "end": 161,
+      "title": "文档推近逐行阅读",
+      "reason": "局部推近与文档阅读库中已有，不因换成长文而新增。",
+      "closestExistingId": "39e34005-9690-452c-80e7-b09950a294c4",
+      "analysisKey": "b5",
+      "id": "X025",
+      "displayId": "X025",
+      "isExcluded": true,
+      "clipPath": "clips/X025.mp4",
+      "posterPath": "posters/X025.jpg",
+      "category": "转场与交接",
+      "motionLogic": "局部推近与文档阅读库中已有，不因换成长文而新增。",
+      "closestExisting": [
+        {
+          "id": "39e34005-9690-452c-80e7-b09950a294c4",
+          "difference": "局部推近与文档阅读库中已有，不因换成长文而新增。",
+          "title": "完整规则文档巡游与前后说明",
+          "mediaUrl": "/reference/39e34005-9690-452c-80e7-b09950a294c4",
+          "start": 0,
+          "end": 12.75,
+          "label": "E07"
+        }
+      ],
+      "durationInFrames": 420
+    },
+    {
+      "sourceIndex": 6,
+      "start": 29,
+      "end": 33,
+      "title": "页面虚化前的三行优势",
+      "reason": "页面后退虚化、前景三行词依次建立，旧库已覆盖。",
+      "closestExistingId": "library-fred-remake-033",
+      "analysisKey": "b7",
+      "id": "X027",
+      "displayId": "X027",
+      "isExcluded": true,
+      "clipPath": "clips/X027.mp4",
+      "posterPath": "posters/X027.jpg",
+      "category": "转场与交接",
+      "motionLogic": "页面后退虚化、前景三行词依次建立，旧库已覆盖。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-033",
+          "difference": "页面后退虚化、前景三行词依次建立，旧库已覆盖。",
+          "title": "三行痛点覆盖虚化表格",
+          "mediaUrl": "/reference/library-fred-remake-033",
+          "start": 0,
+          "end": 4.5,
+          "label": "B033"
+        }
+      ],
+      "durationInFrames": 240
+    },
+    {
+      "sourceIndex": 6,
+      "start": 72.1,
+      "end": 78.8,
+      "title": "三张竖图依次建立并替换",
+      "reason": "三图建立及原位换图已有图片墙和一致性对比；只增加槽位不能算新逻辑。",
+      "closestExistingId": "ba3b3390-728d-455f-96e4-299422d899e7",
+      "analysisKey": "b9",
+      "id": "X029",
+      "displayId": "X029",
+      "isExcluded": true,
+      "clipPath": "clips/X029.mp4",
+      "posterPath": "posters/X029.jpg",
+      "category": "转场与交接",
+      "motionLogic": "三图建立及原位换图已有图片墙和一致性对比；只增加槽位不能算新逻辑。",
+      "closestExisting": [
+        {
+          "id": "ba3b3390-728d-455f-96e4-299422d899e7",
+          "difference": "三图建立及原位换图已有图片墙和一致性对比；只增加槽位不能算新逻辑。",
+          "title": "一致性对比与连续图片替换",
+          "mediaUrl": "/reference/ba3b3390-728d-455f-96e4-299422d899e7",
+          "start": 0,
+          "end": 12.0,
+          "label": "E16"
+        }
+      ],
+      "durationInFrames": 402
+    },
+    {
+      "sourceIndex": 7,
+      "start": 59.7,
+      "end": 64.2,
+      "title": "手机侧移让出两行输入类型",
+      "reason": "与现役手机侧移让出待判断类别同类，文字变化不算新增。",
+      "closestExistingId": "ep99-selected-s09",
+      "analysisKey": "b12",
+      "id": "X032",
+      "displayId": "X032",
+      "isExcluded": true,
+      "clipPath": "clips/X032.mp4",
+      "posterPath": "posters/X032.jpg",
+      "category": "转场与交接",
+      "motionLogic": "与现役手机侧移让出待判断类别同类，文字变化不算新增。",
+      "closestExisting": [
+        {
+          "id": "ep99-selected-s09",
+          "difference": "与现役手机侧移让出待判断类别同类，文字变化不算新增。",
+          "title": "手机侧移，让出三项待判断类别",
+          "mediaUrl": "/reference/ep99-selected-s09",
+          "start": 0,
+          "end": 6.8,
+          "label": "99-09"
+        }
+      ],
+      "durationInFrames": 270
+    },
+    {
+      "sourceIndex": 8,
+      "start": 59,
+      "end": 65,
+      "title": "插画叠放转四格",
+      "reason": "多张图片从叠放到四格，与已有作品墙同构。",
+      "closestExistingId": "library-fred-remake-011",
+      "analysisKey": "c2",
+      "id": "X037",
+      "displayId": "X037",
+      "isExcluded": true,
+      "clipPath": "clips/X037.mp4",
+      "posterPath": "posters/X037.jpg",
+      "category": "转场与交接",
+      "motionLogic": "多张图片从叠放到四格，与已有作品墙同构。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-011",
+          "difference": "多张图片从叠放到四格，与已有作品墙同构。",
+          "title": "单个媒体窗口扩展成四格作品墙",
+          "mediaUrl": "/reference/library-fred-remake-011",
+          "start": 0,
+          "end": 14.0,
+          "label": "B011"
+        }
+      ],
+      "durationInFrames": 360
+    },
+    {
+      "sourceIndex": 8,
+      "start": 84,
+      "end": 92,
+      "title": "四个风格词建立",
+      "reason": "常规词组逐个补齐；仅内容词变化。",
+      "closestExistingId": "fred-motion-source-51d675feaef3608e",
+      "analysisKey": "c4",
+      "id": "X039",
+      "displayId": "X039",
+      "isExcluded": true,
+      "clipPath": "clips/X039.mp4",
+      "posterPath": "posters/X039.jpg",
+      "category": "转场与交接",
+      "motionLogic": "常规词组逐个补齐；仅内容词变化。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-51d675feaef3608e",
+          "difference": "常规词组逐个补齐；仅内容词变化。",
+          "title": "多个词组成信息结构",
+          "mediaUrl": "/reference/fred-motion-source-51d675feaef3608e",
+          "start": 0,
+          "end": 6.5,
+          "label": "C009"
+        }
+      ],
+      "durationInFrames": 480
+    },
+    {
+      "sourceIndex": 8,
+      "start": 114,
+      "end": 122,
+      "title": "图片视频成片三步串联",
+      "reason": "图标换词版单行三步流程，不因改成图标新增。",
+      "closestExistingId": "fred-motion-source-f9dc5562d54cda56",
+      "analysisKey": "c5",
+      "id": "X040",
+      "displayId": "X040",
+      "isExcluded": true,
+      "clipPath": "clips/X040.mp4",
+      "posterPath": "posters/X040.jpg",
+      "category": "转场与交接",
+      "motionLogic": "图标换词版单行三步流程，不因改成图标新增。",
+      "closestExisting": [
+        {
+          "id": "fred-motion-source-f9dc5562d54cda56",
+          "difference": "图标换词版单行三步流程，不因改成图标新增。",
+          "title": "前一步引出后一步",
+          "mediaUrl": "/reference/fred-motion-source-f9dc5562d54cda56",
+          "start": 0,
+          "end": 7.0,
+          "label": "C008"
+        }
+      ],
+      "durationInFrames": 480
+    },
+    {
+      "sourceIndex": 9,
+      "start": 12,
+      "end": 22,
+      "title": "聊天消息逐条增加",
+      "reason": "已有聊天推进完全覆盖；真实消息内容不构成新动作。",
+      "closestExistingId": "preview-v2-talk-chat-message-flow",
+      "analysisKey": "c8",
+      "id": "X043",
+      "displayId": "X043",
+      "isExcluded": true,
+      "clipPath": "clips/X043.mp4",
+      "posterPath": "posters/X043.jpg",
+      "category": "转场与交接",
+      "motionLogic": "已有聊天推进完全覆盖；真实消息内容不构成新动作。",
+      "closestExisting": [
+        {
+          "id": "preview-v2-talk-chat-message-flow",
+          "difference": "已有聊天推进完全覆盖；真实消息内容不构成新动作。",
+          "title": "聊天消息推进",
+          "mediaUrl": "/reference/preview-v2-talk-chat-message-flow",
+          "start": 0,
+          "end": 8.7,
+          "label": "V072"
+        }
+      ],
+      "durationInFrames": 600
+    },
+    {
+      "sourceIndex": 10,
+      "start": 155,
+      "end": 164,
+      "title": "错误与Token词覆盖虚化界面",
+      "reason": "还是虚化背景前大字重点，不能按换词拆两项新增。",
+      "closestExistingId": "library-fred-remake-009",
+      "analysisKey": "c15",
+      "id": "X050",
+      "displayId": "X050",
+      "isExcluded": true,
+      "clipPath": "clips/X050.mp4",
+      "posterPath": "posters/X050.jpg",
+      "category": "转场与交接",
+      "motionLogic": "还是虚化背景前大字重点，不能按换词拆两项新增。",
+      "closestExisting": [
+        {
+          "id": "library-fred-remake-009",
+          "difference": "还是虚化背景前大字重点，不能按换词拆两项新增。",
+          "title": "提示词全貌与参数关键词聚焦",
+          "mediaUrl": "/reference/library-fred-remake-009",
+          "start": 0,
+          "end": 10.85,
+          "label": "B009"
+        }
+      ],
+      "durationInFrames": 540
+    }
+  ],
+  "deferredIds": [
+    "N052"
+  ]
+}
