@@ -18,5 +18,7 @@ jobs:
           cache: npm
           cache-dependency-path: apps/library/package-lock.json
       - run: python -m unittest discover -s tests
-      - run: npm --prefix apps/library ci --ignore-scripts --no-audit --no-fund
-      - run: npm --prefix apps/library run build
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+        working-directory: apps/library
+      - run: npm run build
+        working-directory: apps/library

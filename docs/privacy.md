@@ -18,7 +18,7 @@ Credentials and personal paths are excluded or replaced in text. Nested Git hist
 
 Historical person/episode sourcing instructions have been removed from the exported Skill and source descriptions. The entry is rewritten around this repository's catalog, project paths, optional media and validation steps. FredTalk branding and illustrative characters are retained by the owner's choice. Required third-party license notices remain distinct from production instructions.
 
-The text secret scan uses Gitleaks 8.30.1; generated dependency directories and local object stores are excluded from that text pass and handled separately. The final source scan found no credential matches. Only actual published paths are included in the release manifest; original local locations and raw OCR findings remain outside the repository.
+The text secret scan uses Gitleaks 8.30.1; generated dependency directories and local object stores are excluded from that text pass and handled separately. The final source scan found no credential matches. Only actual distribution paths are included in the release manifest; original local locations and raw OCR findings remain outside the repository.
 
 ## What this review does not prove
 

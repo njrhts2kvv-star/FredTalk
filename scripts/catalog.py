@@ -5,7 +5,12 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def main():
  p=argparse.ArgumentParser(description=__doc__)
- p.add_argument('--id');p.add_argument('--query',default='');p.add_argument('--scene-type');p.add_argument('--use');p.add_argument('--source');p.add_argument('--collection');p.add_argument('--kind');p.add_argument('--limit',type=int,default=3);p.add_argument('--full',action='store_true');p.add_argument('--list',action='store_true');p.add_argument('--project-root');p.add_argument('--status',default='keep');args=p.parse_args()
+ p.add_argument('--episode');p.add_argument('--with',dest='modifiers');p.add_argument('--id');p.add_argument('--query',default='');p.add_argument('--scene-type');p.add_argument('--use');p.add_argument('--source');p.add_argument('--collection');p.add_argument('--kind');p.add_argument('--limit',type=int,default=3);p.add_argument('--full',action='store_true');p.add_argument('--list',action='store_true');p.add_argument('--project-root');p.add_argument('--status',default='keep');args=p.parse_args()
+ if args.kind == 'rules':
+  rules=json.loads((ROOT/'skills/fred-remotion-output/references/feedback-rules.json').read_text())['rules']
+  if args.id:rules=[x for x in rules if x['id']==args.id]
+  if args.query:rules=[x for x in rules if all(t in json.dumps(x,ensure_ascii=False).lower() for t in args.query.lower().split())]
+  print(json.dumps({'count':len(rules),'entries':rules[:args.limit]},ensure_ascii=False,indent=2));return
  data=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=data['items']
  if args.list:
   print(json.dumps(data['scenarios'],ensure_ascii=False,indent=2));return
@@ -14,7 +19,9 @@ def main():
  if args.use:items=[i for i in items if args.use in i.get('matching',{}).get('useIds',[])]
  if args.source:items=[i for i in items if args.source==i.get('matching',{}).get('sourceId')]
  if args.collection:items=[i for i in items if args.collection in json.dumps(i,ensure_ascii=False)]
- if args.kind:items=[i for i in items if args.kind==i.get('kind')]
+ if args.kind == 'transitions':items=[i for i in items if i.get('kind')=='transitions' or i['label'].startswith('L81-T')]
+ elif args.kind == 'text-effects':items=[i for i in items if i.get('kind')=='text-effects' or i['label'].startswith('L81-W')]
+ elif args.kind:items=[i for i in items if args.kind==i.get('kind')]
  if args.query:
   terms=args.query.lower().split()
   def score(i):

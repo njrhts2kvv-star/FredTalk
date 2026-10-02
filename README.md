@@ -33,7 +33,7 @@ flowchart LR
     F --> G[Remotion render and delivery]
 ```
 
-The library starts with **177 active references**, **16 non-empty usage scenarios**, **288 historical identities**, and **72 source project snapshots**. These counts describe this export, not a promise that every snapshot is a fully parameterized component.
+The library starts with **177 catalog references (5 previews quarantined)**, **16 non-empty usage scenarios**, **288 historical identities**, and **72 source project snapshots**. These counts describe this export, not a promise that every snapshot is a fully parameterized component.
 
 ## What you can do
 
@@ -53,14 +53,16 @@ Requires Python 3.11+, Node.js 22+ and npm. The commands below require the [GitH
 ```bash
 gh repo clone njrhts2kvv-star/FredTalk
 cd FredTalk
-npm --prefix apps/library ci
-npm --prefix apps/library run build
+cd apps/library
+npm ci
+npm run build
+cd ../..
 python3 scripts/library_server.py
 ```
 
 Open **http://127.0.0.1:3061/design/**. If that port is in use, run `python3 scripts/library_server.py --port 3063`.
 
-A small set of silent examples is included in Git. The full catalog and source text remain searchable without downloading the media pack. Missing videos are marked as optional downloads; they do not point to the author's computer.
+A small set of silent examples is included in Git. The full catalog and source text remain searchable without downloading the media pack. Uninstalled videos are marked as optional downloads. Five previews are quarantined for privacy review and are not included in the packs; they need safe replacements. No item points to the author's computer.
 
 ```bash
 # Inspect the size and availability of optional packages.
@@ -126,7 +128,7 @@ No public media website is deployed by this export. Do not change visibility unt
 
 ```bash
 python3 -m unittest discover -s tests
-npm --prefix apps/library run build
+(cd apps/library && npm run build)
 ```
 
 Local review notes are written to `.local/`, which is ignored by Git. The server binds to loopback and exposes only catalog-declared resources.
