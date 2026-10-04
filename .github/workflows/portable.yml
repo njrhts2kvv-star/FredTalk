@@ -19,13 +19,13 @@ jobs:
           node-version: '22'
           cache: npm
           cache-dependency-path: apps/library/package-lock.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+        working-directory: apps/library
       - run: python -m unittest discover -s tests
       - run: node tests/test_review_timeline.cjs
       - run: python scripts/check_public_text.py --pattern 'b[o]b' --pattern '秋[芝]' --pattern 'Kenny[ ]Wang' --pattern '/[U]sers/'
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python -m pip install -r skills/audio-subtitle-roughcut/requirements.txt
       - run: python -m unittest discover -s skills/audio-subtitle-roughcut/scripts -p 'test_*.py'
-      - run: npm ci --ignore-scripts --no-audit --no-fund
-        working-directory: apps/library
       - run: npm run build
         working-directory: apps/library
