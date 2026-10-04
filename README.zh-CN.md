@@ -6,7 +6,7 @@
 
 一套面向口播视频的 Agent Skill、可检索动效库和 Remotion 制作审看流程。
 
-[在线视觉库](https://www.fred-fu.com/visual-library) · [English](README.md) · [简体中文](README.zh-CN.md) · [快速开始](#快速开始) · [架构](docs/architecture.md) · [脱敏报告](docs/privacy.md)
+[在线视觉库](https://www.fred-fu.com/visual-library) · [简体中文](README.md) · [English](README.en.md) · [快速开始](#快速开始) · [架构](docs/architecture.md) · [脱敏报告](docs/privacy.md)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
@@ -146,8 +146,8 @@ python3 -m unittest discover -s tests
 当前尚未授予统一开源许可。源码、字体、参考媒体及第三方依赖可能具有不同的权利归属和许可条件。公开可访问不代表可以任意再分发。请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与公开前检查。
 
 
-## 2026-10-04 update / 本次更新
+## 2026-10-04 本次更新
 
-The portable Skill now includes a current-catalog delivery gate, parsed source invocation checks, audio-synchronized discrete keyframe review, and the optional audio/subtitle roughcut Skill. No private narration, credentials or episode feedback is included. Natural-voice preprocessing requires the user's own verified environment. Historical snapshots and third-party assets retain the release limitations in docs/public-release.md.
+便携版现在包含当前目录交付门禁、源码调用解析检查、音频同步关键帧审看，以及可选的音频字幕粗剪 Skill。未包含私人录音、凭证或单期反馈。自然人声预处理需要使用者自己的已验证环境。历史源码快照与第三方素材仍受 [公开发布说明](docs/public-release.md) 中的限制。
 
 便携版已更新认可组件/二创约束、真实源码调用检查、关键帧随音频播放和独立音频字幕粗剪。具体范围见对应SKILL.md；旧源快照不因此成为通用参数接口或公开素材授权。
