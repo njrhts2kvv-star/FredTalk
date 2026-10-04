@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 281.333338,
     "referenceEnd": 313.100006,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/04_7678716575964204326_｜第120期｜小云雀Seedance2.5发布 AI视频卷出新高度.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "2367db1462cb249e9f274421f8e8e71096cbec87545dde30a2028d7ddd8c16e8",
         "width": 2560,
         "height": 1440,

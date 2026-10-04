@@ -24,8 +24,8 @@
   "rows": [
     {
       "code": "SP001",
-      "creator": "FredTalk",
-      "source": "第90期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7641588345159699775",
       "start": 17.716667,
       "end": 34.9,
@@ -33,15 +33,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/20_7641588345159699775_｜第90期｜用AI搞电商必须要解决批量的问题 批量处理多张图片-换品换色=换装换脸-洗图场景实现-修图去水印-套图.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP002",
-      "creator": "FredTalk",
-      "source": "第91期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7644939441085140262",
       "start": 183.41667,
       "end": 188.41667,
@@ -49,15 +50,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/18_7644939441085140262_｜第91期｜不写脚本也能快速制作产品大片 8类电商产品视频一键生成批量制作有质有量.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": "SP003"
+      "containedBy": "SP003",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP003",
-      "creator": "FredTalk",
-      "source": "第91期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7644939441085140262",
       "start": 183.41667,
       "end": 192.87961,
@@ -65,15 +67,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/18_7644939441085140262_｜第91期｜不写脚本也能快速制作产品大片 8类电商产品视频一键生成批量制作有质有量.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP004",
-      "creator": "FredTalk",
-      "source": "第92期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7643373199354252607",
       "start": 0,
       "end": 5.116666,
@@ -81,15 +84,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP005",
-      "creator": "FredTalk",
-      "source": "第92期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7643373199354252607",
       "start": 22.766667,
       "end": 26.666667,
@@ -97,15 +101,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP006",
-      "creator": "FredTalk",
-      "source": "第92期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7643373199354252607",
       "start": 41.166667,
       "end": 51.950001,
@@ -113,15 +118,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP007",
-      "creator": "FredTalk",
-      "source": "第92期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7643373199354252607",
       "start": 69.266668,
       "end": 85.150011,
@@ -129,15 +135,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP008",
-      "creator": "FredTalk",
-      "source": "第92期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7643373199354252607",
       "start": 92.550001,
       "end": 98.710305,
@@ -145,15 +152,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP009",
-      "creator": "FredTalk",
-      "source": "第92期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7643373199354252607",
       "start": 112.766668,
       "end": 119.250002,
@@ -161,15 +169,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP010",
-      "creator": "FredTalk",
-      "source": "第93期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7646432482899873075",
       "start": 53.850001,
       "end": 58.850001,
@@ -177,15 +186,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/17_7646432482899873075__第93期_一键学会产品设计邪修大法 一键生成产品及UI设计图，一键制作前端代码，打破设计与技术壁垒，设计界的.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP011",
-      "creator": "FredTalk",
-      "source": "第95期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7648299999901519119",
       "start": 3.444408,
       "end": 8.434471,
@@ -193,15 +203,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP012",
-      "creator": "FredTalk",
-      "source": "第95期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7648299999901519119",
       "start": 17.65,
       "end": 32.683332,
@@ -209,15 +220,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP013",
-      "creator": "FredTalk",
-      "source": "第95期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7648299999901519119",
       "start": 43.683334,
       "end": 55.96325,
@@ -225,15 +237,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP014",
-      "creator": "FredTalk",
-      "source": "第95期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7648299999901519119",
       "start": 236.483338,
       "end": 245.637177,
@@ -241,15 +254,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP015",
-      "creator": "FredTalk",
-      "source": "第97期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7651253650899209499",
       "start": 5.033333,
       "end": 13.148694,
@@ -257,15 +271,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": "SP016"
+      "containedBy": "SP016",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP016",
-      "creator": "FredTalk",
-      "source": "第97期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7651253650899209499",
       "start": 5.033333,
       "end": 18,
@@ -273,15 +288,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP017",
-      "creator": "FredTalk",
-      "source": "第97期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7651253650899209499",
       "start": 77.816668,
       "end": 82.435718,
@@ -289,15 +305,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP018",
-      "creator": "FredTalk",
-      "source": "第97期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7651253650899209499",
       "start": 111.250002,
       "end": 115.506959,
@@ -305,15 +322,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP019",
-      "creator": "FredTalk",
-      "source": "第101期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7654560132797435151",
       "start": 35,
       "end": 48.24018942688255,
@@ -321,15 +339,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/07_7654560132797435151_第101期_用短剧的方式带货有搞头么_把AI短剧和AI带货结合到一起-玩点抽象的_#挑战用ai做100件事_#青年创作者成长计划_#ai创作浪潮计划_#AI短.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP020",
-      "creator": "FredTalk",
-      "source": "第101期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7654560132797435151",
       "start": 114.933335,
       "end": 125.083335,
@@ -337,15 +356,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/07_7654560132797435151_第101期_用短剧的方式带货有搞头么_把AI短剧和AI带货结合到一起-玩点抽象的_#挑战用ai做100件事_#青年创作者成长计划_#ai创作浪潮计划_#AI短.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "Motion041",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP021",
-      "creator": "FredTalk",
-      "source": "第106期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7656312200281345307",
       "start": 63.633334,
       "end": 65.466667,
@@ -353,15 +373,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP022",
-      "creator": "FredTalk",
-      "source": "第106期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7656312200281345307",
       "start": 166.86667,
       "end": 171.104536,
@@ -369,15 +390,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP023",
-      "creator": "FredTalk",
-      "source": "第108期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7660135356024573236",
       "start": 12,
       "end": 15.25,
@@ -385,15 +407,16 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/13_7660135356024573236__第108期_3分钟了解全能AI助理的小妙招.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "SP024",
-      "creator": "FredTalk",
-      "source": "第108期",
+      "creator": null,
+      "source": "Historical motion reference",
       "sourceId": "library-7660135356024573236",
       "start": 145.683336,
       "end": 150.005622,
@@ -401,10 +424,11 @@
       "kind": "用户已选；画面标签为中帧工作标签",
       "note": "",
       "clipPath": "[LOCAL_PATH]",
-      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/13_7660135356024573236__第108期_3分钟了解全能AI助理的小妙招.mp4",
+      "sourcePath": "[PRIVATE_REFERENCE]",
       "sourceUrl": "",
       "relatedExisting": "",
-      "containedBy": ""
+      "containedBy": "",
+      "referenceOwnership": "not asserted by this distribution"
     },
     {
       "code": "Q01",
@@ -417,7 +441,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7685386476665802026",
+      "sourceUrl": "",
       "relatedExisting": "C04 从一个起点建立信息矩阵",
       "containedBy": ""
     },
@@ -432,7 +456,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7685063012075572532",
+      "sourceUrl": "",
       "relatedExisting": "snap-agent-steps Agent 步骤推进",
       "containedBy": ""
     },
@@ -447,7 +471,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7685276904210894120",
+      "sourceUrl": "",
       "relatedExisting": "C07 分支树收束为输入输出流程",
       "containedBy": ""
     },
@@ -462,7 +486,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7667987528863042852",
+      "sourceUrl": "",
       "relatedExisting": "C05 主题展开分支后聚焦",
       "containedBy": ""
     },
@@ -477,7 +501,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7663913737614609707",
+      "sourceUrl": "",
       "relatedExisting": "C06 展开当前项再回到列表",
       "containedBy": ""
     },
@@ -492,7 +516,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7644073688056237348",
+      "sourceUrl": "",
       "relatedExisting": "C07 分支树收束为输入输出流程",
       "containedBy": ""
     },
@@ -507,7 +531,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7640385127511641382",
+      "sourceUrl": "",
       "relatedExisting": "C05 主题展开分支后聚焦",
       "containedBy": ""
     },
@@ -522,7 +546,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7637371229166423322",
+      "sourceUrl": "",
       "relatedExisting": "手机横屏流程转为竖屏与窗口并列",
       "containedBy": ""
     },
@@ -537,7 +561,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7636497165430394162",
+      "sourceUrl": "",
       "relatedExisting": "ApprovedV201PathBuild 前一步引出后一步",
       "containedBy": ""
     },
@@ -552,7 +576,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7632140069431790884",
+      "sourceUrl": "",
       "relatedExisting": "左右分支汇入中心平台关系图",
       "containedBy": ""
     },
@@ -567,7 +591,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7629304745429093672",
+      "sourceUrl": "",
       "relatedExisting": "Library N001 双栏同位对照",
       "containedBy": ""
     },
@@ -582,7 +606,7 @@
       "note": "",
       "clipPath": "[LOCAL_PATH]",
       "sourcePath": "[LOCAL_PATH]",
-      "sourceUrl": "https://www.douyin.com/video/7624107331466382642",
+      "sourceUrl": "",
       "relatedExisting": "C04 从一个起点建立信息矩阵",
       "containedBy": ""
     }

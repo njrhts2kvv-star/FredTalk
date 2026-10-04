@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/10_7664446070449147177__第73期_随身视频通话私人助理.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 57,
     "referenceEnd": 69,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/10_7664446070449147177__第73期_随身视频通话私人助理.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "5d7c4d00a0ed433f658ae99eb943de6e86784d23a501296d419284abd65472d8",
         "width": 1920,
         "height": 1080,

@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/01_7671310286283967796_｜第116期｜一口气分享十八个开源免费工作流 今天给大家一口气分享十八个开源模型的免费ComfyUI工作流以及.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 254.0,
     "referenceEnd": 275.0,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/01_7671310286283967796_｜第116期｜一口气分享十八个开源免费工作流 今天给大家一口气分享十八个开源模型的免费ComfyUI工作流以及.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "b56dc45480edb8d1f49c896e3f163b8118539e36933244a41c09f9b681c5c97f",
         "width": 2560,
         "height": 1440,

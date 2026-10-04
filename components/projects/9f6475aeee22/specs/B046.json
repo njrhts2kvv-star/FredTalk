@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/06_7654977522110713123_第100期_搞创作别再被积分卡脖子了_用小云雀短剧Agent2.0场景实现一下火遍全网的国产爱死机_--《丧尸清道夫》_#小云雀AI_#小云雀短剧Agent_#小.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 47,
     "referenceEnd": 54,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/06_7654977522110713123_第100期_搞创作别再被积分卡脖子了_用小云雀短剧Agent2.0场景实现一下火遍全网的国产爱死机_--《丧尸清道夫》_#小云雀AI_#小云雀短剧Agent_#小.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "dc8f8a465d77f1754a83d0365a2f6f2c27ccc0f106568bad2d6b586d1b92b36c",
         "width": 1920,
         "height": 1080,

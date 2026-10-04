@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 57,
     "referenceEnd": 68,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "048fca647789110f9990840f50d2fc2d098a57b4111377fc1a1fdf4df1bfdbdd",
         "width": 1920,
         "height": 1080,

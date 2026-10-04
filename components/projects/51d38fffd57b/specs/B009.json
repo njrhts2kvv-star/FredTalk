@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/07_7671584927443356938__第117期_ 一句话用千问办公做出电影级网页 带你轻松制作电影级质感的视频网页，手把手教程，无需剪辑无需写代.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 41,
     "referenceEnd": 55,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/07_7671584927443356938__第117期_ 一句话用千问办公做出电影级网页 带你轻松制作电影级质感的视频网页，手把手教程，无需剪辑无需写代.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "052f316b2c7add60466a1c0eb2449382dd74d5568be0fea4cf8ede34efa4f0e1",
         "width": 2560,
         "height": 1440,

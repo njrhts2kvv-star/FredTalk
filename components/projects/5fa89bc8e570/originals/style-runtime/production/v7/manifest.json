@@ -1,7 +1,7 @@
 {
   "version": "7.0.0",
   "episode": 86,
-  "purpose": "深度对标 Library 固定舞台语法：保护 9 条认可样片，重做 11 条并新增 10 条，总计 30 条",
+  "purpose": "固定舞台场景维护：保护 9 条认可样片，重做 11 条并新增 10 条，总计 30 条",
   "pages": [
     {"stableId":"Fred86Reference01","group":"transition","layout":"dot-expand","background":"white","words":["不直接讲 AI","反而更懂 AI"],"cues":[12,86,164],"duration":390,"sfx":["pop","whoosh"],"sourceBeatIds":["86-ref-01a","86-ref-01b"],"protected":true,"version":"v6-approved"},
     {"stableId":"Fred86Reference02","group":"transition","layout":"fixed-split-copy","background":"black","words":["AI 让执行越来越便宜","判断，反而更贵"],"cues":[10,94,184],"duration":420,"sfx":["whoosh","click"],"sourceBeatIds":["86-ref-02a","86-ref-02b"],"protected":false,"version":"v7-redesign"},

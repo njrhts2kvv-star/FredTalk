@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 21.4,
     "referenceEnd": 24.9,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "url": "/media/library-7656312200281345307",
         "start": 21.4,
         "end": 24.9
@@ -23,7 +23,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "aa733edcf6bf367a6e3362e0391bf8ceeac8fe9ddbdd2174134bec51b69cd2bd",
         "width": 1920,
         "height": 1080,

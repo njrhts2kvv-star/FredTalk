@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/10_7650131785040334099_第93期_是时候开始用AI处理表格了_数据多、分类乱、看不懂、表格的事儿交给AI就好了_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个_#青.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 17.130000000000003,
     "referenceEnd": 19.300000000000004,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/10_7650131785040334099_第93期_是时候开始用AI处理表格了_数据多、分类乱、看不懂、表格的事儿交给AI就好了_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个_#青.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 17.130000000000003,
         "duration": 2.17,
         "exists": true,
@@ -25,7 +25,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/10_7650131785040334099_第93期_是时候开始用AI处理表格了_数据多、分类乱、看不懂、表格的事儿交给AI就好了_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个_#青.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "d8a0b09e79fb2240bb4a88abecc340a4926f1b162fa2f64ebaf16d3fff63d2e8",
         "width": 1920,
         "height": 1080,

@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 101.9,
     "referenceEnd": 105.9,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 101.9,
         "duration": 4.0,
         "exists": true,
@@ -25,7 +25,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "ae02b97e9cdfc006277588dbd70493c23bc88a1f06ebcc7dc8d93b846a580ec9",
         "width": 1920,
         "height": 1080,

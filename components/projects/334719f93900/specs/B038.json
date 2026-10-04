@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/02_7656820652804017454_探路美图影像节看看AI应用走向交付时代的样子_#美图影像节_#2026美图影像节_#美图设计室.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 31,
     "referenceEnd": 42,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/02_7656820652804017454_探路美图影像节看看AI应用走向交付时代的样子_#美图影像节_#2026美图影像节_#美图设计室.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "e2227dee77a0584b15db1eef8f07d709e2b08b450b4c3424eb67416bee54f1fd",
         "width": 1280,
         "height": 720,

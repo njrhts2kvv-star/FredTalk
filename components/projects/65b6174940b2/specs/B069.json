@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 84.5,
     "referenceEnd": 93,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "999e7d0a9a008401be293302708c9f108705eef92833b567030628030e8c535b",
         "width": 1920,
         "height": 1080,

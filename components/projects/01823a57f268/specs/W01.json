@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/01_7657139004143357234_｜第107期｜TRAEWorkDesign模式_#TRAE_#TRAEWorkdesign模式.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 32.0,
     "referenceEnd": 35.6,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/01_7657139004143357234_｜第107期｜TRAEWorkDesign模式_#TRAE_#TRAEWorkdesign模式.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 32.0,
         "duration": 3.6,
         "exists": true,
@@ -25,7 +25,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/01_7657139004143357234_｜第107期｜TRAEWorkDesign模式_#TRAE_#TRAEWorkdesign模式.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "42bb59a0a6cc6441faaad5c73ee7bde30f37e60eb0074b27a3d659ee18dc6cc2",
         "width": 1280,
         "height": 720,

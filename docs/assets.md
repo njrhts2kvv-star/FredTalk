@@ -4,7 +4,7 @@ The original local Skill directory was approximately 43 GB. Before privacy exclu
 
 ## Why Git plus release packs?
 
-Git tracks source, instructions, manifests and the small demo. Large media is delivered through assets attached to a release of the **same private repository**. Access requires repository permission; `gh` handles authentication using the user's normal login. No credential is embedded in a manifest or URL.
+Git tracks source, instructions, manifests and the small demo. Large media is delivered through assets attached to a release of the **same public repository**. Published packs are publicly accessible; `gh` uses the user's normal login when required by the download tool. No credential is embedded in a manifest or URL.
 
 This avoids large binary Git history and makes the full media download optional. It does not require a running cloud VM or paid Git LFS storage.
 
@@ -19,7 +19,7 @@ python3 scripts/assets.py materialize --project components/projects/PROJECT_ID
 
 Find the exact project directory with `python3 scripts/catalog.py --id SP024 --full`. Replace `PROJECT_ID` with the reported directory name.
 
-The release contains 71 logical packs in 73 files. One larger pack uses three smaller parts; the installer assembles these automatically and validates both part hashes and the combined hash.
+The current release declares 45 logical packs in 67 downloadable files. Multipart packs are assembled automatically; both part hashes and the combined hash are validated. Read `library/releases.json` for the current release identity and sizes.
 
 The installer validates the release pack hash, every object hash, object size and archive member name. It rejects directories, links and unexpected members. Downloaded archives are removed after successful extraction. Re-running the download can re-fetch packs; keep sufficient temporary disk space.
 

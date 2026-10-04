@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/14_7657916545519209728__第105期_0经验也能轻松上手的Excel神器 让Excel函数公式再也难不住你，0经验小白的Excel必备.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 0,
     "referenceEnd": 10.9,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/14_7657916545519209728__第105期_0经验也能轻松上手的Excel神器 让Excel函数公式再也难不住你，0经验小白的Excel必备.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "url": "/media/library-7657916545519209728",
         "start": 0,
         "end": 10.9
@@ -23,7 +23,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/14_7657916545519209728__第105期_0经验也能轻松上手的Excel神器 让Excel函数公式再也难不住你，0经验小白的Excel必备.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "d0c5a5560d2fe77d76a43efc6432884b74dfdc52a4ffda99e212e7d9014f9344",
         "width": 2560,
         "height": 1440,

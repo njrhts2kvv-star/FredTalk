@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/17_7646432482899873075__第93期_一键学会产品设计邪修大法 一键生成产品及UI设计图，一键制作前端代码，打破设计与技术壁垒，设计界的.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 12.75,
     "referenceEnd": 13.5,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/17_7646432482899873075__第93期_一键学会产品设计邪修大法 一键生成产品及UI设计图，一键制作前端代码，打破设计与技术壁垒，设计界的.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 12.75,
         "duration": 0.75,
         "exists": true,
@@ -23,7 +23,7 @@
         "end": 13.5
       },
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/07_7671584927443356938__第117期_ 一句话用千问办公做出电影级网页 带你轻松制作电影级质感的视频网页，手把手教程，无需剪辑无需写代.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 44.1,
         "duration": 1.1,
         "exists": true,
@@ -33,7 +33,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/17_7646432482899873075__第93期_一键学会产品设计邪修大法 一键生成产品及UI设计图，一键制作前端代码，打破设计与技术壁垒，设计界的.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "67164fd5c31fdb8db0da4bd66ec00e82090ca73204cbda5c657e101975f54566",
         "width": 2560,
         "height": 1440,
@@ -45,7 +45,7 @@
         "end": 13.5
       },
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/07_7671584927443356938__第117期_ 一句话用千问办公做出电影级网页 带你轻松制作电影级质感的视频网页，手把手教程，无需剪辑无需写代.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "052f316b2c7add60466a1c0eb2449382dd74d5568be0fea4cf8ede34efa4f0e1",
         "width": 2560,
         "height": 1440,

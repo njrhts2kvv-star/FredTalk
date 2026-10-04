@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/18_7644939441085140262_｜第91期｜不写脚本也能快速制作产品大片 8类电商产品视频一键生成批量制作有质有量.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 38,
     "referenceEnd": 44,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/18_7644939441085140262_｜第91期｜不写脚本也能快速制作产品大片 8类电商产品视频一键生成批量制作有质有量.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "c358379543db1afb903d638c54c9c0cfe7b9dda68d44a882ef43d83ae6b578c8",
         "width": 2590,
         "height": 1440,

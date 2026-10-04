@@ -1,4 +1,4 @@
-# Fred / Library selected remakes v2
+# FredTalk editable scene collection v2
 
 This is the editable production project, not a completed visual acceptance certificate.
 All 54 composition IDs remain registered. N052 is deferred at the user's request;

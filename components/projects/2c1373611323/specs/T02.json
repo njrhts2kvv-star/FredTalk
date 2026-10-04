@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/02_7667534962446404918_｜第114期｜又一款免费图片生成模型Boogu Image 又来了一款全新的开源免费图片生成模型-Boogu.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 7.1,
     "referenceEnd": 9.799999999999999,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/02_7667534962446404918_｜第114期｜又一款免费图片生成模型Boogu Image 又来了一款全新的开源免费图片生成模型-Boogu.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 7.1,
         "duration": 2.6999999999999997,
         "exists": true,
@@ -23,7 +23,7 @@
         "end": 9.799999999999999
       },
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "start": 22.3,
         "duration": 3.6000000000000005,
         "exists": true,
@@ -33,7 +33,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/02_7667534962446404918_｜第114期｜又一款免费图片生成模型Boogu Image 又来了一款全新的开源免费图片生成模型-Boogu.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "3d1809706b378e475a621ad518e5c0c279a4e62bca6329de6bbcb5e86fe80e4c",
         "width": 1920,
         "height": 1080,
@@ -45,7 +45,7 @@
         "end": 9.799999999999999
       },
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "ae02b97e9cdfc006277588dbd70493c23bc88a1f06ebcc7dc8d93b846a580ec9",
         "width": 1920,
         "height": 1080,

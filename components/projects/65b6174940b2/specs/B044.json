@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/05_7655626244238757155_第100期_人人都能拥有的高效AI助理_#豆包ai_#豆包电脑端_#青年创作者成长计划.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 1,
     "referenceEnd": 9,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/05_7655626244238757155_第100期_人人都能拥有的高效AI助理_#豆包ai_#豆包电脑端_#青年创作者成长计划.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "7310675caa6e93a0b476a3a14dd1efe55107110ef9617fc24b13706b1932873d",
         "width": 1280,
         "height": 720,

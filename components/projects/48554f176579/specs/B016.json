@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/08_7670160630447492379__第115期_ 专业且好用的AI数据办公平台 一站式数据办公平台，让解决复杂数据分析问题从此变得更简单更高效~.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 11,
     "referenceEnd": 15.5,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/08_7670160630447492379__第115期_ 专业且好用的AI数据办公平台 一站式数据办公平台，让解决复杂数据分析问题从此变得更简单更高效~.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "7fa482369eefd43c2103d165456c1d95283bd557376cfa1d2e581f04fe2a1353",
         "width": 2560,
         "height": 1440,

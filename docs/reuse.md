@@ -31,3 +31,7 @@ The visual-library preview remains silent. Raw narration is excluded. When a sou
 
 
 Current delivery uses the portable library_gate.py against library/catalog.json. Historical production receipt/importer checks remain reference implementations. See the main Skill for the current gate, synchronized audio review and optional roughcut workflows.
+
+## Source metadata
+
+“FredTalk component library” identifies the collection, not the original author of every reference. A source snapshot may implement a reference-derived motion relationship. Private original-video locators are withheld as `[PRIVATE_REFERENCE]`; `creator: null` means this distribution does not assert that author. Stable IDs, timing maps and hashes remain available for technical traceability. Original provenance evidence is preserved privately. Current media provenance is separate from motion reference provenance; replacing embedded media does not make the underlying reference design independently authored. Required attribution and licenses remain applicable.

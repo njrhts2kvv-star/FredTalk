@@ -10,13 +10,13 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/04_7655938290343873835_第104期_人人都需要高效好用的数据看板_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 16,
     "referenceEnd": 21,
     "referenceSegments": null,
     "assets": [
       {
-        "path": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/04_7655938290343873835_第104期_人人都需要高效好用的数据看板_#人类对豆包的开发不足百分之一_#我的同事豆包_#豆包还能干这个.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "ca549be97dbffd249ffa0b03e50aab7ef7e4ff42357366d9717ff4fc85ea8128",
         "width": 1920,
         "height": 1080,

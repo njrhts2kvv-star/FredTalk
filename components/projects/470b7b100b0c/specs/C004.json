@@ -10,12 +10,12 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/02_7667534962446404918_｜第114期｜又一款免费图片生成模型Boogu Image 又来了一款全新的开源免费图片生成模型-Boogu.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 15.4,
     "referenceEnd": 25.2,
     "referenceSegments": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/02_7667534962446404918_｜第114期｜又一款免费图片生成模型Boogu Image 又来了一款全新的开源免费图片生成模型-Boogu.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "url": "/media/library-7667534962446404918",
         "start": 15.4,
         "end": 25.2
@@ -23,7 +23,7 @@
     ],
     "assets": [
       {
-        "path": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/02_7667534962446404918_｜第114期｜又一款免费图片生成模型Boogu Image 又来了一款全新的开源免费图片生成模型-Boogu.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "3d1809706b378e475a621ad518e5c0c279a4e62bca6329de6bbcb5e86fe80e4c",
         "width": 1920,
         "height": 1080,
