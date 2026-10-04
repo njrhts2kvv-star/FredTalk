@@ -77,6 +77,12 @@ class DeliveryGateTests(unittest.TestCase):
         self.keyframe_scene()
         self.assertEqual(gate.validate_library_gate(self.manifest,'keyframes',self.base,self.catalog),[])
 
+    def test_source_symbol_must_exist(self):
+        self.keyframe_scene()
+        self.page['referenceChoices'][0]['source']['symbol']='MissingFunction'
+        self.accept('keyframes')
+        self.assertTrue(gate.validate_library_gate(self.manifest,'keyframes',self.base,self.catalog))
+
     def test_commented_call_is_not_execution_evidence(self):
         self.keyframe_scene(False)
         self.assertTrue(gate.validate_library_gate(self.manifest,'keyframes',self.base,self.catalog))

@@ -94,6 +94,7 @@ def validate_library_gate(manifest, stage, base, catalog=None):
                     for name in ['source','implementation','callSite']:
                         record = ref.get(name,{}); path = file(record,sid+'/'+name)
                         if not text(record.get('symbol')): errors.append(sid+'/'+name+': symbol required')
+                        elif name=='source' and path and record['symbol'] not in path.read_text(): errors.append(sid+': source symbol not found')
                         if name!='source' and path:
                             symbol = record.get('symbol') if name=='implementation' else record.get('callee')
                             if not text(symbol): errors.append(sid+': explicit callee required')
