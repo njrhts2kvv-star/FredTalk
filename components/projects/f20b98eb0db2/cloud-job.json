@@ -1,0 +1,20 @@
+{
+  "project": "supplemental/B072",
+  "entry": "src/index.tsx",
+  "compositionId": "B072",
+  "publicDir": "public",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationInFrames": 1080,
+  "codec": "h264",
+  "audio": "muted:true required",
+  "remotionVersion": "4.0.473",
+  "sourceProvenance": "provenance.json",
+  "localDiagnostic": "B072-takeover-candidate.mp4",
+  "localDiagnosticSHA256": "4244a40932120c8530743c8dfc986f626b486751449dfc63e5bb91749ff6c4b9",
+  "localDiagnosticNote": "Rendered before cloud-only user directive;1080p60 1080video frames;silentAAC track present so not final silent artifact;decodepassed;continuous quality unreviewed",
+  "officialDelivery": "cloud render required",
+  "normalSpeedPlaybackViewed": false,
+  "visualAcceptance": false
+}

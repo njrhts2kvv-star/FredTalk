@@ -1,450 +1,402 @@
 {
   "schemaVersion": 1,
   "repository": "njrhts2kvv-star/FredTalk",
-  "tag": "private-library-20261002",
+  "tag": "visual-library-materials-20261004",
+  "manifestSha256": "8f5ba8726b690e03afed19c31df60d60e8226f4b6f4ef813b22e6d06abb48673",
   "packs": [
     {
-      "name": "fredtalk-assets-001.tar.gz",
-      "size": 77319217,
-      "sha256": "e3c62066ac3f1cc79dbc7421b4859b463b1d958cda3ba5771fc29341092b3e3e",
-      "objects": 154
+      "name": "fredtalk-materials-001.tar.gz",
+      "size": 75727321,
+      "sha256": "3e0e155efe4996af5f1812d796948c0f46adaab24e8d38159c0e0d87500bbe69",
+      "objects": 125
     },
     {
-      "name": "fredtalk-assets-002.tar.gz",
-      "size": 71041485,
-      "sha256": "5deb367d8fb1b54087be723c31171f3ea480c15c7fb09b1f7641377c7cc55efa",
-      "objects": 135
+      "name": "fredtalk-materials-002.tar.gz",
+      "size": 73323573,
+      "sha256": "0ec87c4f62df2c806d9c3f0b0340c19ea0ecbabc90891f785d5b728473f2f5e1",
+      "objects": 72
     },
     {
-      "name": "fredtalk-assets-003.tar.gz",
-      "size": 69703767,
-      "sha256": "ed82ed825f93f4f3ba4c84e49a0782edd4ae3068930c853983e93481a955105e",
+      "name": "fredtalk-materials-003.tar.gz",
+      "size": 65345993,
+      "sha256": "c27d5b03938d65915f695f47a5dd35c9e845fd976f862b3d29df58e1179d7f56",
+      "objects": 91
+    },
+    {
+      "name": "fredtalk-materials-004.tar.gz",
+      "size": 81283169,
+      "sha256": "b79956fc81006df5142a7bd225d1c1258cffa378aaf14cee329892b7100e99da",
+      "objects": 71
+    },
+    {
+      "name": "fredtalk-materials-005.tar.gz",
+      "size": 78860058,
+      "sha256": "76b81598953c8bc6f071615c30a824c4078c1700d35219f73c96ce81034d411a",
+      "objects": 104
+    },
+    {
+      "name": "fredtalk-materials-006.tar.gz",
+      "size": 80680689,
+      "sha256": "de0d96b8c957243921a971155e4fc231ae8de23597b389599d2ff3355d0f717d",
+      "objects": 137
+    },
+    {
+      "name": "fredtalk-materials-007.tar.gz",
+      "size": 82334846,
+      "sha256": "3d318549523fb68cffbdfd6acd2bd476c2957225465e3d37b035d074dfa703cd",
+      "objects": 45
+    },
+    {
+      "name": "fredtalk-materials-008.tar.gz",
+      "size": 79972085,
+      "sha256": "65cd91cec45c3538c7ef0e7768feb76e561be726b235ab5b075866b6d5272456",
+      "objects": 104
+    },
+    {
+      "name": "fredtalk-materials-009.tar.gz",
+      "size": 64009853,
+      "sha256": "773ddb2696ba1b87be897a625054c8552a524a6dfb583958b13386980497d8ee",
+      "objects": 74
+    },
+    {
+      "name": "fredtalk-materials-010.tar.gz",
+      "size": 69878161,
+      "sha256": "4499dd1305ce7f4741005f3bebbde68be916bd830f5dca180d0b4e89a3263adf",
+      "objects": 95
+    },
+    {
+      "name": "fredtalk-materials-011.tar.gz",
+      "size": 78882575,
+      "sha256": "aabf03ba7e452cabd6a4ef13523b42ed54c165c8aedde7fc59cb8071a5a13627",
+      "objects": 124
+    },
+    {
+      "name": "fredtalk-materials-012.tar.gz",
+      "size": 50358023,
+      "sha256": "b61ee5bc1fda5e815f4ecd68aa58410ce67e866a6280b0ea4e78ed000b8c78c1",
+      "objects": 76
+    },
+    {
+      "name": "fredtalk-materials-013.tar.gz",
+      "size": 165729457,
+      "sha256": "dd538fe6b4ab2b5a2a2997dac5890ab06683607dbcd01615fc92f53393a363a2",
+      "objects": 1
+    },
+    {
+      "name": "fredtalk-materials-014.tar.gz",
+      "size": 81320543,
+      "sha256": "54cb505de866d1848109883517eeb1c33a8991414ee46c9ccafe457cf4a1028e",
+      "objects": 81
+    },
+    {
+      "name": "fredtalk-materials-015.tar.gz",
+      "size": 78729386,
+      "sha256": "f71f61792031c4dc2564669816fbd28d67cb510ebf7f695cbef22f561daaae80",
+      "objects": 125
+    },
+    {
+      "name": "fredtalk-materials-016.tar.gz",
+      "size": 75302558,
+      "sha256": "e069917f84f6197b25e422f06fa4dadc94db5be3674c09e42107dda7f89bcc0e",
+      "objects": 80
+    },
+    {
+      "name": "fredtalk-materials-017.tar.gz",
+      "size": 79413311,
+      "sha256": "ef8e2d634ffae992bb6b3b0ae2b009768b37e3b5c6490e3b0cf2ff53c11a8106",
+      "objects": 60
+    },
+    {
+      "name": "fredtalk-materials-018.tar.gz",
+      "size": 74528391,
+      "sha256": "0ee1f09e643f707b250e7a684f64138bb6415daa0dbbefb4e02ef968a8081bac",
+      "objects": 124
+    },
+    {
+      "name": "fredtalk-materials-019.tar.gz",
+      "size": 82290725,
+      "sha256": "6a31860bd508ed3a23d0e062cbabc8d199cabe54252340c862fb2367ecbebeeb",
+      "objects": 72
+    },
+    {
+      "name": "fredtalk-materials-020.tar.gz",
+      "size": 78799242,
+      "sha256": "8c217ed1e7b3852731dba90a6d9fa6efc13f5bcba1ebccdba02b80378e2f4061",
+      "objects": 100
+    },
+    {
+      "name": "fredtalk-materials-021.tar.gz",
+      "size": 79217701,
+      "sha256": "e5dbe5f981695780fd51025729c3f9b4efd9ce2f8b110249c1ca6f32e6026c28",
+      "objects": 127
+    },
+    {
+      "name": "fredtalk-materials-022.tar.gz",
+      "size": 64775572,
+      "sha256": "b14c78df982ef254f05d5849d65fce60dcceaff36e00cda1ea17bc04357f7533",
       "objects": 86
     },
     {
-      "name": "fredtalk-assets-004.tar.gz",
-      "size": 64161022,
-      "sha256": "e62a24234dbdaab1c2dfb844c7095bbc2937cb446538c6d72998744516019305",
-      "objects": 130
+      "name": "fredtalk-materials-023.tar.gz",
+      "size": 81090705,
+      "sha256": "300dcf9dfda0b074106ca12db654dcc9cc3dcbdc8bc1f42317791f05b0c87451",
+      "objects": 74
     },
     {
-      "name": "fredtalk-assets-005.tar.gz",
-      "size": 65691344,
-      "sha256": "f9431b83469f0c539d2a4e43a5042ef5c93522d1bd51dd8ba47fa483bc85226c",
-      "objects": 115
+      "name": "fredtalk-materials-024.tar.gz",
+      "size": 73239749,
+      "sha256": "89b0006f9e002f937c6b3869b3947bdf9c33e4466386a2f7444b980df73238b1",
+      "objects": 73
     },
     {
-      "name": "fredtalk-assets-006.tar.gz",
-      "size": 78624995,
-      "sha256": "61754b392356ef84b7a28196b634f99fb4387667766496f7ba18f30cf7b006e8",
-      "objects": 100
+      "name": "fredtalk-materials-025.tar.gz",
+      "size": 81402301,
+      "sha256": "cc1a29339bbc5e80a992c2404bc8af3fee8d19c6990a87c0c10bfd8e5d62a9a6",
+      "objects": 88
     },
     {
-      "name": "fredtalk-assets-007.tar.gz",
-      "size": 77544017,
-      "sha256": "39181d46be723dfaad8418214919ae1fe87f2ff3fa7bb9cabe954b17d71240e6",
-      "objects": 162
+      "name": "fredtalk-materials-026.tar.gz",
+      "size": 81630922,
+      "sha256": "8fcef8b1b0c9fdb88b8fe90a2a6228e271ab4296b90fbb4f46cdd7666eef8b59",
+      "objects": 84
     },
     {
-      "name": "fredtalk-assets-008.tar.gz",
-      "size": 70752240,
-      "sha256": "71a7a3264dd954b59923d1de95a14f24aeb614d8c2d35931407f0e8641fe66d6",
-      "objects": 98
+      "name": "fredtalk-materials-027.tar.gz",
+      "size": 75989384,
+      "sha256": "fb19b25016448641e998cce72700653c38f1a726816f9d627f02467fcbabce22",
+      "objects": 107
     },
     {
-      "name": "fredtalk-assets-009.tar.gz",
-      "size": 78187140,
-      "sha256": "e45aa567531b486d162e65e6662f44e08a579d24a63d0d2b8240f288cd8ef001",
-      "objects": 129
-    },
-    {
-      "name": "fredtalk-assets-010.tar.gz",
-      "size": 78175249,
-      "sha256": "aa18dbd0d85aeed2c4c9cac81dce1c389c4299042372883dbf487b70d4ad1f46",
-      "objects": 160
-    },
-    {
-      "name": "fredtalk-assets-011.tar.gz",
-      "size": 77978792,
-      "sha256": "f21bf2931c944be4a5e2ff8ce13da6e0d7d01801c65541df2cef4bf88d186f0f",
-      "objects": 99
-    },
-    {
-      "name": "fredtalk-assets-012.tar.gz",
-      "size": 78132924,
-      "sha256": "2852a1d51d6360be2e41ce5ff7f2309308febc3ab711e0268994047742dcc9be",
-      "objects": 130
-    },
-    {
-      "name": "fredtalk-assets-013.tar.gz",
-      "size": 77124063,
-      "sha256": "118225386020596bc11955a36db2b150fa981bc25d854c459173da7733cf824f",
+      "name": "fredtalk-materials-028.tar.gz",
+      "size": 76662948,
+      "sha256": "42c041a3c7f648cdc8abd42cc3690cb5253ab3388a631add582b83325f34c4c6",
       "objects": 126
     },
     {
-      "name": "fredtalk-assets-014.tar.gz",
-      "size": 76591147,
-      "sha256": "3a4c2acebde89c93dea9615e1f14f1f559f967e8bd405f628d0948fa4cb6bdd4",
-      "objects": 128
+      "name": "fredtalk-materials-029.tar.gz",
+      "size": 74919229,
+      "sha256": "3700154deaf19c624ec42ed51dd6b25428bbdfebd2f9bd47d03fd0dec00f129a",
+      "objects": 130
     },
     {
-      "name": "fredtalk-assets-015.tar.gz",
-      "size": 67136829,
-      "sha256": "0659b0baf528b2d1730a3ceb587c554424d80204e2a3162935d7db7105bf4856",
-      "objects": 100
+      "name": "fredtalk-materials-030.tar.gz",
+      "size": 70344678,
+      "sha256": "7d1e80be8da86eed60eaed2654be692cc205c28707e6009c6a6951f75e86aec7",
+      "objects": 99
     },
     {
-      "name": "fredtalk-assets-016.tar.gz",
-      "size": 78079071,
-      "sha256": "0cd2fa633ede2c00d59c12d7a3713e572c5760ffbde91ef9262020be56166e2c",
-      "objects": 139
+      "name": "fredtalk-materials-031.tar.gz",
+      "size": 42875720,
+      "sha256": "9bfe58f649993fc99e7beab1607d1e56ad887ef82fd3b6882a26f3f38f5d92de",
+      "objects": 41
     },
     {
-      "name": "fredtalk-assets-017.tar.gz",
-      "size": 77617042,
-      "sha256": "331de4cb530521d33e234314bd7ed5708e029d149d751f70fd4de3aa53efecac",
-      "objects": 167
+      "name": "fredtalk-materials-032.tar.gz",
+      "size": 82924165,
+      "sha256": "8ec1973e3e45331811c7ad6e91d81ee5ec201a66a9f056e3875aae9c0716e905",
+      "objects": 29
     },
     {
-      "name": "fredtalk-assets-018.tar.gz",
-      "size": 76939929,
-      "sha256": "cf86bcb53938d7d8ffda62119bd10ce067d3f285c7fee51a6cc7e786075f5db6",
-      "objects": 156
+      "name": "fredtalk-materials-033.tar.gz",
+      "size": 82216964,
+      "sha256": "40503a020f350c61a3b18dcf6c8527e1ab3f8a7b28bc38c5483f523ac2fce7ff",
+      "objects": 73
     },
     {
-      "name": "fredtalk-assets-019.tar.gz",
-      "size": 78532385,
-      "sha256": "939b747ce4e05afda60c4f0d742f76df94b6da9245266ccb7620a365b1db99eb",
-      "objects": 153
+      "name": "fredtalk-materials-034.tar.gz",
+      "size": 58722878,
+      "sha256": "1fa8af445c93ab38abcbc6516675d1aa6136ec8845a16602d1ea0a7b94c6b577",
+      "objects": 34
     },
     {
-      "name": "fredtalk-assets-020.tar.gz",
-      "size": 8350677,
-      "sha256": "81f26ab1ffd6269090021e84ba49ec5a7065c3ca48074d41a25ff676e3044359",
-      "objects": 18
+      "name": "fredtalk-materials-035.tar.gz",
+      "size": 79663838,
+      "sha256": "22709413867efe0ebd46c2765f1cb19aa7308aa3bcf2d0d87a40879a7dcaafeb",
+      "objects": 57
     },
     {
-      "name": "fredtalk-assets-021.tar.gz",
-      "size": 165729272,
-      "sha256": "724325d5ca25e1db2caa6d73a11eb54b72fc8cf34615636cc8a8908753c83ff5",
-      "objects": 1,
+      "name": "fredtalk-materials-036.tar.gz",
+      "size": 76821869,
+      "sha256": "3c42177c1449e8fb2f0626654fed8f612206c66f7950f5d9cca4636c42bd24c8",
+      "objects": 142
+    },
+    {
+      "name": "fredtalk-materials-037.tar.gz",
+      "size": 77665967,
+      "sha256": "5f16f57ceecefcb3816122dfa9c78793084eb03e9ecff49a2565206a05712351",
+      "objects": 97
+    },
+    {
+      "name": "fredtalk-materials-038.tar.gz",
+      "size": 79990801,
+      "sha256": "0a95315e8bb4e6c8224cf1475c4c2e56cc67ef21c381217271b3256881608d9a",
+      "objects": 56
+    },
+    {
+      "name": "fredtalk-materials-039.tar.gz",
+      "size": 80953382,
+      "sha256": "12598010b65c0937155f688307acc1dc5a468f41d4923589045a929c3d0e8b48",
+      "objects": 123
+    },
+    {
+      "name": "fredtalk-materials-040.tar.gz",
+      "size": 79202821,
+      "sha256": "7adc6d9f99cff24dab7c162d4df69f19af673f55a8f74c5992645cd4079f864f",
+      "objects": 123
+    },
+    {
+      "name": "fredtalk-materials-041.tar.gz",
+      "size": 58929562,
+      "sha256": "5bf8563b2a311e7309980f53246cabf77e22af52d8e11ac34ffc3eb4e3f81f91",
+      "objects": 65
+    },
+    {
+      "name": "fredtalk-materials-042.tar.gz",
+      "size": 74677201,
+      "sha256": "acc2ab6517cfef8684c089ddd624f120d460352d1a271e4f28174ac405903e42",
+      "objects": 4
+    },
+    {
+      "name": "fredtalk-materials-043.tar.gz",
+      "size": 21979456,
+      "sha256": "55e0f63acd5b2affbd7a174c6835193170fd88a645a3843029da27b52cf0d267",
+      "objects": 1
+    },
+    {
+      "name": "fredtalk-materials-044.tar.gz",
+      "size": 81047385,
+      "sha256": "175500f82d21cf351288eb147e92979f2ba783fea838fda2acb1cb4319741c40",
+      "objects": 99,
       "parts": [
         {
-          "name": "fredtalk-assets-021.tar.gz.part1",
-          "size": 56000000,
-          "sha256": "ee9741c5587668b062746bc71d6c0c1f472c53da5823813d580eea788d0e2b93"
+          "name": "fredtalk-materials-044.tar.gz.part001",
+          "size": 5242880,
+          "sha256": "78ff020590d33aa17959e32e5d303b69533910c2cc355bd213d75966a4768a86"
         },
         {
-          "name": "fredtalk-assets-021.tar.gz.part2",
-          "size": 56000000,
-          "sha256": "ba794b1fabe679e39c14c141865517b82e5680fd435c87ee1b0fb2af479cfacd"
+          "name": "fredtalk-materials-044.tar.gz.part002",
+          "size": 5242880,
+          "sha256": "0205268fc96809e12dde4dda4eb279fc2dbcaaaf1294e172227efed5dddf2abb"
         },
         {
-          "name": "fredtalk-assets-021.tar.gz.part3",
-          "size": 53729272,
-          "sha256": "6688a957006462f63245e8706b411f51f414bdfe0fc5a09df35aa54fcfb493f1"
+          "name": "fredtalk-materials-044.tar.gz.part003",
+          "size": 5242880,
+          "sha256": "1a4edce4c9ae9a3115439a5f90e8148ac0aef26003d232f88bc5fa50bc071502"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part004",
+          "size": 5242880,
+          "sha256": "a1eefd87e304c86056dbcea3e6781dc56d2b8e3cf20ef7c37886c5a1a79fba27"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part005",
+          "size": 5242880,
+          "sha256": "37946b05e27207591995902312b5d7cb1d39447e917895dbb7d0ac2067387ef8"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part006",
+          "size": 5242880,
+          "sha256": "c2117e9f5def79615ca5eb521f66d18f1e1cdea943c2006ce10a87563a2e8c26"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part007",
+          "size": 5242880,
+          "sha256": "29a33697b5e070c559492d904ec68a7cff24827665373e2bf7e88593a3681005"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part008",
+          "size": 5242880,
+          "sha256": "56f1a3fa71037906815bfd1a5e96e3fcc34b628afe38749ba3ffd8b658a66b7e"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part009",
+          "size": 5242880,
+          "sha256": "4aea1cf2293cb211c8dca34850173cac0b69aa2a25f3cf5ad5cc6a6e9616a7cf"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part010",
+          "size": 5242880,
+          "sha256": "e256389c0351c585ec69948ec7762f534cd10067b70cc6a5446284f070f19cae"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part011",
+          "size": 5242880,
+          "sha256": "5319556b3fc01e91af7c85b55e90621fced89b3bc6f5014c61e52e4f90f2ae90"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part012",
+          "size": 5242880,
+          "sha256": "6148065f709c957b97ad7d3c7e4a0883acc06fce67f9de165b23ac62de8da2a2"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part013",
+          "size": 5242880,
+          "sha256": "b2871a689502061fa89e78532e9631c46711e03b573a15bfdd3613f9cf4d52ae"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part014",
+          "size": 5242880,
+          "sha256": "8ed48beff2e2f2ee2cd6d38059c12634222e9a831c85c1521f957627e4e81759"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part015",
+          "size": 5242880,
+          "sha256": "b1fe833dd894f66aa01fe790e01f1ccb0b09166058bff17d1bb2f919de6c2d14"
+        },
+        {
+          "name": "fredtalk-materials-044.tar.gz.part016",
+          "size": 2404185,
+          "sha256": "31bd191fdca19048ba7b0ed008c2b335189b7913d47dcb16fe67b71496887031"
         }
       ]
     },
     {
-      "name": "fredtalk-assets-022.tar.gz",
-      "size": 78811183,
-      "sha256": "aafff7593f11ddc5382553eead8bb4dd903c1aa874e1714b0e3c16626d6903c7",
-      "objects": 82
-    },
-    {
-      "name": "fredtalk-assets-023.tar.gz",
-      "size": 77631360,
-      "sha256": "299e890efbb4b7f9872f10129fcbfd03f655423cddab972a7f3d684d87187a6a",
-      "objects": 149
-    },
-    {
-      "name": "fredtalk-assets-024.tar.gz",
-      "size": 77758858,
-      "sha256": "02207cf28ccd8c6cfbf43c79e711b2e7b553a07c59c710e1c76bf235c40f31bb",
-      "objects": 163
-    },
-    {
-      "name": "fredtalk-assets-025.tar.gz",
-      "size": 78136279,
-      "sha256": "95647fab3cabd1b5d05619199c07e60c37a8e379c60d569d3ba4154d5faae6f6",
-      "objects": 104
-    },
-    {
-      "name": "fredtalk-assets-026.tar.gz",
-      "size": 72153109,
-      "sha256": "5ed8147263d328636bfeaf820cc940b132be2a02f846d84889e789ac4a75fdbb",
-      "objects": 127
-    },
-    {
-      "name": "fredtalk-assets-027.tar.gz",
-      "size": 73436181,
-      "sha256": "4c785a58959f2045dbd1568735b96470a5dc10a6763f9c72b5bc3612efd4d93f",
-      "objects": 71
-    },
-    {
-      "name": "fredtalk-assets-028.tar.gz",
-      "size": 78488202,
-      "sha256": "3900043fb1aa83132182734a42aa8962c7c59b4b222a10c1ace81a275d2c62f0",
-      "objects": 122
-    },
-    {
-      "name": "fredtalk-assets-029.tar.gz",
-      "size": 73870488,
-      "sha256": "6b6edfbbd8bf48af32366f94e493cb02c4cd06ed3dcee99797e1deceb516039b",
-      "objects": 116
-    },
-    {
-      "name": "fredtalk-assets-030.tar.gz",
-      "size": 65057105,
-      "sha256": "f8bc43020aa5830687c0140c6df43510c82db210c523dff7a989733b7a9cced9",
-      "objects": 155
-    },
-    {
-      "name": "fredtalk-assets-031.tar.gz",
-      "size": 79296510,
-      "sha256": "ccba7ed6ce7c2ea24ce5bf93beee05c562a525f1d105f839e3e71f4e48cb455e",
-      "objects": 82
-    },
-    {
-      "name": "fredtalk-assets-032.tar.gz",
-      "size": 77595312,
-      "sha256": "c4a4b3b4337cfba077cf117f3fbb395a11f93cdafd3312a89ef804bb52287196",
-      "objects": 159
-    },
-    {
-      "name": "fredtalk-assets-033.tar.gz",
-      "size": 77110181,
-      "sha256": "0379b26afca98e2ad5fa571c722690024b85695d130fabd868e22421464d47b8",
-      "objects": 119
-    },
-    {
-      "name": "fredtalk-assets-034.tar.gz",
-      "size": 42202514,
-      "sha256": "569ed279b753570a91d7b3aa617c8492f6ae30d9c5fb6e342d238318a1fac409",
-      "objects": 81
-    },
-    {
-      "name": "fredtalk-assets-035.tar.gz",
-      "size": 52587729,
-      "sha256": "f794faff29e691ae9e1f321a544c4f0f2364d0da1be676fa9e4b90fe554f34e0",
-      "objects": 43
-    },
-    {
-      "name": "fredtalk-assets-036.tar.gz",
-      "size": 78884750,
-      "sha256": "869521c71c349bda0394ff533639f326c01139991a858df76d805f1c575b6443",
-      "objects": 68
-    },
-    {
-      "name": "fredtalk-assets-037.tar.gz",
-      "size": 78490386,
-      "sha256": "d494ae740219c0c2b9d1373752cc337f0c44c6b2c33dd7898bec982cc8d28fcf",
-      "objects": 145
-    },
-    {
-      "name": "fredtalk-assets-038.tar.gz",
-      "size": 77409592,
-      "sha256": "27c793e6a9ad0f1a04426205c75c638f37c0340f92db31f75092d6eff7140713",
-      "objects": 139
-    },
-    {
-      "name": "fredtalk-assets-039.tar.gz",
-      "size": 75430904,
-      "sha256": "d969029805480257c552a7b815f21d80a6caf20a77ca427753745c49d34ee254",
-      "objects": 102
-    },
-    {
-      "name": "fredtalk-assets-040.tar.gz",
-      "size": 76847876,
-      "sha256": "bbb83dd0471c55fd84b9aea0e253b07d835522bd1f8036db028b46599e83c3f1",
-      "objects": 119
-    },
-    {
-      "name": "fredtalk-assets-041.tar.gz",
-      "size": 78318195,
-      "sha256": "bcaf53a64b0fe4189ac94f594fa0c9fea23668b7f0e51a219e996c6eb6398a22",
-      "objects": 108
-    },
-    {
-      "name": "fredtalk-assets-042.tar.gz",
-      "size": 78681092,
-      "sha256": "b633a5d293709f0427106114e24b083166d5807784f7a116e44dff74ee085997",
-      "objects": 85
-    },
-    {
-      "name": "fredtalk-assets-043.tar.gz",
-      "size": 77796717,
-      "sha256": "c45f83abd2973eda5ac8cb8d5e61489b1ef024466ab5ce9c55fa941028e3e7c4",
-      "objects": 139
-    },
-    {
-      "name": "fredtalk-assets-044.tar.gz",
-      "size": 73111742,
-      "sha256": "069df7a4953ef642b19b377868eb2c4e343e0c6bf8482ae13ae2e77a4f6c2f69",
-      "objects": 127
-    },
-    {
-      "name": "fredtalk-assets-045.tar.gz",
-      "size": 65053145,
-      "sha256": "f406b9f2db789d6d3462fdbb10daa2dfd2be4ee39a4a1873aee6491372df0df8",
-      "objects": 100
-    },
-    {
-      "name": "fredtalk-assets-046.tar.gz",
-      "size": 69862739,
-      "sha256": "75f5761e8c0e7f0400f50ce978f7759b766dfaaeece81e520772f15e5f95e7ea",
-      "objects": 133
-    },
-    {
-      "name": "fredtalk-assets-047.tar.gz",
-      "size": 78677162,
-      "sha256": "324a5b86c0d7fd52bc15030a785adac767543c3902e746a9a925759a58bae030",
-      "objects": 141
-    },
-    {
-      "name": "fredtalk-assets-048.tar.gz",
-      "size": 77621378,
-      "sha256": "3f1ee6e1431cbfdf83be6debcae49a42fe15738b82c3ae907d0bc0d5a9db8274",
-      "objects": 139
-    },
-    {
-      "name": "fredtalk-assets-049.tar.gz",
-      "size": 72479573,
-      "sha256": "1953d91a359a4997b228aa64f6c3b4117ba905f5598d01d6b3072bc7fb0255be",
-      "objects": 160
-    },
-    {
-      "name": "fredtalk-assets-050.tar.gz",
-      "size": 77537647,
-      "sha256": "e0b97183ec5c6196952c8be394933435af59d8ec89272936491c7988fdc32d01",
-      "objects": 162
-    },
-    {
-      "name": "fredtalk-assets-051.tar.gz",
-      "size": 76555716,
-      "sha256": "99da3963fffbcff14a55067dadb384a41d04f39ed6c5f3f67b7c98e806289e86",
-      "objects": 114
-    },
-    {
-      "name": "fredtalk-assets-052.tar.gz",
-      "size": 77705922,
-      "sha256": "9820cc89f73920ee9c182940c36ccae57a58e45b10c601627d883dd972675bea",
-      "objects": 140
-    },
-    {
-      "name": "fredtalk-assets-053.tar.gz",
-      "size": 68424946,
-      "sha256": "31da861bd03490878b2fa42212971c96f516d6c05a4d6b0ef0d6fc3f52a297b8",
-      "objects": 100
-    },
-    {
-      "name": "fredtalk-assets-054.tar.gz",
-      "size": 79066448,
-      "sha256": "471b91a2b1b1ef1136ec4150889e05c52fcfaf60256f5268428065ee34076691",
-      "objects": 83
-    },
-    {
-      "name": "fredtalk-assets-055.tar.gz",
-      "size": 77127334,
-      "sha256": "b581ef06bd0ae805f3952b7f3ecb0b70d77cb0ef97c5c1d9539322cc06d5a29d",
-      "objects": 122
-    },
-    {
-      "name": "fredtalk-assets-056.tar.gz",
-      "size": 61704846,
-      "sha256": "083c63bef9740ba782aa7f6c135b303d2a01c4e97883895609e5b226ba4d22d2",
-      "objects": 72
-    },
-    {
-      "name": "fredtalk-assets-057.tar.gz",
-      "size": 65608795,
-      "sha256": "4d0b8280f69edd36536799abd6c1e7f72425be2c6b0962c3b52e0e260647f992",
-      "objects": 65
-    },
-    {
-      "name": "fredtalk-assets-058.tar.gz",
-      "size": 69768737,
-      "sha256": "d76f20848ae0c6d90edb800fc8df754724c8ab8741ee180898a0994029354b4c",
-      "objects": 102
-    },
-    {
-      "name": "fredtalk-assets-059.tar.gz",
-      "size": 78868617,
-      "sha256": "0439d517773a09b4c16449b608c28b5f699e62f105131e47423a72556acc24a5",
-      "objects": 123
-    },
-    {
-      "name": "fredtalk-assets-060.tar.gz",
-      "size": 75927239,
-      "sha256": "db0f645b05e7c3472382731b22744f4fe8a8866e7df51ef4752f032238af1a46",
-      "objects": 141
-    },
-    {
-      "name": "fredtalk-assets-061.tar.gz",
-      "size": 77919746,
-      "sha256": "41520266975b6ce7b1d024bc0553d5598d437f2553ca1430e9f3f52c09d06a77",
-      "objects": 176
-    },
-    {
-      "name": "fredtalk-assets-062.tar.gz",
-      "size": 75858615,
-      "sha256": "aebece23b1b35345200c5510b90902b5d953ad9a3d5e84a159a37ef18ccb9c9a",
-      "objects": 167
-    },
-    {
-      "name": "fredtalk-assets-063.tar.gz",
-      "size": 77540353,
-      "sha256": "b341e34923940b57d3b716417cbe612648a41eb56b79ff2dad2b366416fd4fdb",
-      "objects": 57
-    },
-    {
-      "name": "fredtalk-assets-064.tar.gz",
-      "size": 77771277,
-      "sha256": "ca34043482da84ba9b7c4a58139c7b83c6fae434b07fd87fcf39f8e451f0c8c6",
-      "objects": 144
-    },
-    {
-      "name": "fredtalk-assets-065.tar.gz",
-      "size": 78473888,
-      "sha256": "c8043730b375224d06b19dc6bc5de58a68c725518ca17821834e0081a024958c",
-      "objects": 99
-    },
-    {
-      "name": "fredtalk-assets-066.tar.gz",
-      "size": 57740131,
-      "sha256": "19bd1fd1ddd8bf0d1ac9a7ed50a0163ff81def6a8892878784e896b6517c2f03",
-      "objects": 140
-    },
-    {
-      "name": "fredtalk-assets-067.tar.gz",
-      "size": 78207716,
-      "sha256": "406397582fbbc29b7ce4fed5906d2589933973c3fc49ef342cf288f0c51b7721",
-      "objects": 110
-    },
-    {
-      "name": "fredtalk-assets-068.tar.gz",
-      "size": 59945998,
-      "sha256": "9367794d3b49744e022594a44b8fe998bbcee8e489b86fc06a097cbd8b10426b",
-      "objects": 102
-    },
-    {
-      "name": "fredtalk-assets-069.tar.gz",
-      "size": 71969547,
-      "sha256": "1d1ac5c1bf007a0486894553caa17260a5377da9c04afafb24e8cb652d2cc286",
-      "objects": 49
-    },
-    {
-      "name": "fredtalk-assets-070.tar.gz",
-      "size": 78905480,
-      "sha256": "47cdd8ac4cef99b66f33273ba4ab07f39f30b4d51f5b44d35335a8f11913b1ae",
-      "objects": 80
-    },
-    {
-      "name": "fredtalk-assets-071.tar.gz",
-      "size": 25047750,
-      "sha256": "651560ee1bf359566b1d6688abc4306f448a1dd124b10c57005b0e0b19d7e850",
-      "objects": 47
+      "name": "fredtalk-materials-045.tar.gz",
+      "size": 38664685,
+      "sha256": "19544117091d3c965ac92f2013b2d1122aaa094021efa3b3186270397c493d19",
+      "objects": 80,
+      "parts": [
+        {
+          "name": "fredtalk-materials-045.tar.gz.part001",
+          "size": 5242880,
+          "sha256": "3d87b4a11bd0da0c8ce61c030ec7e7f4ec01b6c31aa4394a08c6a85d73e2a272"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part002",
+          "size": 5242880,
+          "sha256": "a729c1b9a07abd50f9817bda02b59070fcac9e60c93479c1dc3459c52e0cba54"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part003",
+          "size": 5242880,
+          "sha256": "c8f4f41cafc1e209e782a62eba26f4769d93d109bf825c801a260192a0fc724d"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part004",
+          "size": 5242880,
+          "sha256": "62fd97212cf58e677264390fd3ce7a7991eb1a82c6d96299700495dde4ae1476"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part005",
+          "size": 5242880,
+          "sha256": "c29c98acbe5b788897a67b902f305d8009da5837911d90be3e038c86e4461268"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part006",
+          "size": 5242880,
+          "sha256": "40957d3b3deb88b767e8278df1eb04890a483dcde034dc6d82c6cdee9caf4e44"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part007",
+          "size": 5242880,
+          "sha256": "a500d9a54c922ab6000747f722789731dc62153bae0e75ef87005694801c7926"
+        },
+        {
+          "name": "fredtalk-materials-045.tar.gz.part008",
+          "size": 1964525,
+          "sha256": "25b237f84f39fd764e2fc936fd82e05f1da248827e5bb747c65fd23acd930b1b"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "replacements": {
+    "decision-background.png": "approved-materials/demo-workspace.svg"
+  },
+  "videoDurations": {
+    "approved-materials/ep108-broll-1.mp4": 5.033333,
+    "approved-materials/ep108-broll-2.mp4": 10.033333,
+    "approved-materials/ep108-broll-3.mp4": 8.033333,
+    "approved-materials/ep108-broll-4.mp4": 10.033333,
+    "approved-materials/ep108-broll-5.mp4": 10.033333,
+    "approved-materials/ep102-cloud-phoenix.mp4": 15.041667
+  },
+  "frameFallback": false,
+  "renderVideos": {
+    "approved-materials/ep108-broll-1.mp4": "approved-materials/ep108-broll-1-1080.mp4",
+    "approved-materials/ep108-broll-2.mp4": "approved-materials/ep108-broll-2-1080.mp4",
+    "approved-materials/ep108-broll-3.mp4": "approved-materials/ep108-broll-3-1080.mp4",
+    "approved-materials/ep108-broll-4.mp4": "approved-materials/ep108-broll-4-1080.mp4",
+    "approved-materials/ep108-broll-5.mp4": "approved-materials/ep108-broll-5-1080.mp4"
+  }
+}

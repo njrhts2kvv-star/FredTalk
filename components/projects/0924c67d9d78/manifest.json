@@ -1,0 +1,4497 @@
+{
+  "schema": "ep94-runtime-v1",
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 17508,
+  "duration": 291.8,
+  "pages": [
+    {
+      "id": "opening",
+      "start": 0,
+      "end": 9.2,
+      "title": "已完成开头",
+      "stableId": "ep94-opening",
+      "sourceBeatIds": [
+        "cue-1",
+        "cue-2",
+        "cue-3",
+        "cue-4",
+        "cue-5",
+        "cue-6"
+      ],
+      "startFrame": 0,
+      "durationInFrames": 552,
+      "scriptAnchor": "你敢信啊 这张我随手乱画的图片 可以生成这样这样 这样还有这样的图片 这就是刚刚发布的image 2.5生图模型的新功能",
+      "exactScreenWords": [
+        "Image 2.5"
+      ],
+      "oneQuestion": "已完成开头",
+      "layoutFamily": "opening",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "已完成开头",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+        "checksum": "sha256:49e53f7d49c9689bad8edf054bc3c193a6c9ed5d1f0e327b787e6e786b02a79e"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-1",
+        "cue-2",
+        "cue-3",
+        "cue-4",
+        "cue-5",
+        "cue-6"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-1",
+          "event": "保留现有开头至 9.200；原字幕和视觉不重复叠加。",
+          "cueFrame": 4
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 9.2,
+      "implementationComponentId": "opening",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "ranking",
+      "start": 9.2,
+      "end": 20.466,
+      "title": "榜单证据",
+      "stableId": "ep94-ranking",
+      "sourceBeatIds": [
+        "cue-7",
+        "cue-8",
+        "cue-9",
+        "cue-10",
+        "cue-11"
+      ],
+      "startFrame": 552,
+      "durationInFrames": 676,
+      "scriptAnchor": "今天刚刚发布啊 image就霸占了Arena文生图总榜前三名 其中2.5的Sunburst和flare模型 分别排第一和第二 很早之前发布的image 2还是排名第三",
+      "exactScreenWords": [
+        "Text-to-Image Arena",
+        "GPT-Image-2.5-Sunburst",
+        "GPT-Image-2.5-Flare",
+        "GPT-Image-2 (medium)",
+        "Preliminary",
+        "2026-09-08"
+      ],
+      "oneQuestion": "榜单证据",
+      "layoutFamily": "ranking",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "榜单证据",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+        "checksum": "sha256:49e53f7d49c9689bad8edf054bc3c193a6c9ed5d1f0e327b787e6e786b02a79e"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "Text-to-Image Arena",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "GPT-Image-2.5-Sunburst",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "GPT-Image-2.5-Flare",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "GPT-Image-2 (medium)",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Preliminary",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "2026-09-08",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-7",
+        "cue-8",
+        "cue-9",
+        "cue-10",
+        "cue-11"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-7",
+          "event": "9.200 接新排名.mp4的推进关系；9.200–12.400 对应源0–3.200，失真文字用真实排名图重建；12.400–13.166 同一榜面回到正面前三行。",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "cue-9",
+          "event": "13.166 点亮前两行，15.500 用共同框圈住第一、第二；保留真实分数与 Preliminary。",
+          "cueFrame": 238
+        },
+        {
+          "sourceBeatId": "cue-11",
+          "event": "突出第三行 Image 2，前两行仍留在同一视口；不动画篡改排名。",
+          "cueFrame": 488
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 11.266000000000002,
+      "implementationComponentId": "ranking",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "roadmap",
+      "start": 20.466,
+      "end": 28.033,
+      "title": "三项内容预告",
+      "stableId": "ep94-roadmap",
+      "sourceBeatIds": [
+        "cue-12",
+        "cue-13",
+        "cue-14",
+        "cue-15"
+      ],
+      "startFrame": 1228,
+      "durationInFrames": 454,
+      "scriptAnchor": "今天我就给大家带来三个内容 image 2.5的测试对比 它的Sketch新功能以及 它的图像的一致性",
+      "exactScreenWords": [
+        "测试对比",
+        "Sketch",
+        "图像一致性"
+      ],
+      "oneQuestion": "三项内容预告",
+      "layoutFamily": "roadmap",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "三项内容预告",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+        "checksum": "sha256:49e53f7d49c9689bad8edf054bc3c193a6c9ed5d1f0e327b787e6e786b02a79e"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "测试对比",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Sketch",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "图像一致性",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-12",
+        "cue-13",
+        "cue-14",
+        "cue-15"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-12",
+          "event": "沿用榜单平面缩成背景对象，依次接出 测试对比 / Sketch / 图像一致性；第一个词最后成为章节入口。",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 7.567,
+      "implementationComponentId": "roadmap",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "compare-intro",
+      "start": 28.033,
+      "end": 39.966,
+      "title": "复杂测试与猜模型",
+      "stableId": "ep94-compare-intro",
+      "sourceBeatIds": [
+        "cue-16",
+        "cue-17",
+        "cue-18",
+        "cue-19",
+        "cue-20",
+        "cue-21",
+        "cue-22",
+        "cue-23"
+      ],
+      "startFrame": 1682,
+      "durationInFrames": 716,
+      "scriptAnchor": "第一部分啊 就是测试对比 因为Image2实际上生图 质量已经非常非常好了 所以说我这次找了 6个非常复杂的场景 大家也可以猜一下每一组 分别到底是哪个模型生成的",
+      "exactScreenWords": [
+        "复杂场景"
+      ],
+      "oneQuestion": "复杂测试与猜模型",
+      "layoutFamily": "compare-intro",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "复杂测试与猜模型",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+        "checksum": "sha256:49e53f7d49c9689bad8edf054bc3c193a6c9ed5d1f0e327b787e6e786b02a79e"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "复杂场景",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-16",
+        "cue-17",
+        "cue-18",
+        "cue-19",
+        "cue-20",
+        "cue-21",
+        "cue-22",
+        "cue-23"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-16",
+          "event": "短章节“01 测试对比”，从上一个词直接接管，不重复先出大标题再出同义小标题。",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "cue-18",
+          "event": "保留主题，给已有好图一个短暂整图位置；不先公布哪一张是哪个模型。",
+          "cueFrame": 104
+        },
+        {
+          "sourceBeatId": "cue-21",
+          "event": "只展示水城、花瓣、相机、背包、图谱五个匿名缩略图，不展示琥珀微距、不加六组数字卡。保留现有录音；35.700 Fred抬头指向，引导猜模型。",
+          "cueFrame": 362
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 11.933,
+      "implementationComponentId": "compare-intro",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "04-miniature-city",
+      "start": 39.966,
+      "end": 80.266,
+      "title": "水巷春集",
+      "stableId": "ep94-04-miniature-city",
+      "sourceBeatIds": [
+        "cue-24",
+        "cue-25",
+        "cue-26",
+        "cue-27",
+        "cue-28",
+        "cue-29",
+        "cue-30",
+        "cue-31",
+        "cue-32",
+        "cue-33",
+        "cue-34",
+        "cue-35",
+        "cue-36",
+        "cue-37",
+        "cue-38",
+        "cue-39",
+        "cue-40",
+        "cue-41",
+        "cue-42"
+      ],
+      "startFrame": 2398,
+      "durationInFrames": 2418,
+      "scriptAnchor": "第一我们先看这座微缩的水城 我给了它这样的提示词 我要求三个不同的桥 两座船还要有书店茶院古塔和戏台 两边把这些主体都做出来了 但是左边的摊位花木灯笼 和建筑细节明显更加丰富 河岸也更加热闹 更接近我想要的那种春日集市的感觉 而右边的建筑分区会更加稀疏一些 很明显质量要相对差一些 所以说结果也很明显 左边是Image2.5 右边是Image2 不过我也还要求了12个行人 左边明显即使是Image2.5 他的人物也画多了 细节丰富 不代表每一条要求他都完成了",
+      "exactScreenWords": [
+        "创作一幅精细、具有博物馆级品质的等距建筑微缩模型：虚构中国水乡街区“水巷春集”。整幅为连续的 16:9 横向构图。长方形抬高地台被一条从左上流向右下的 S 形运河分开。恰好三座桥，在彼此明确分离的位置跨越河道：左上为石拱步行桥，中央为平直木桥，右下为红色廊桥。每座桥都连接两岸陆地，桥墩不堵塞河道。恰好两艘小木船，均位于露天下的水面：一艘在第一、第二座桥之间，一艘在第二、第三座桥之间。屋顶和街道上不能有船。\n运河周围有四座不同的地标：左前方两层书店、左后方茶院、右后方三层八角古塔、右前方小型露天戏台。它们的轮廓各不相同，瓦顶、门、楼梯和建筑结构合理。加入小灯笼、布遮篷、花篮、适量集市摊位，以及站在道路上的 12 个小行人。等距透视一致，阳光来自左上，水面反射暖光；木纹、石材和陶瓦材质清楚区分。采用微缩景观摄影效果，景深足以看清整个模型。\n顶部以优雅、清晰的中文准确写出“水巷春集”。四个小巧、不抢眼的标签分别附在对应地标上，文字准确为“书店”“茶院”“古塔”“戏台”。无其他文字。采用翡翠绿、暖陶土色和象牙白，浅中性背景。细节丰富、生动但清晰；禁止断开的楼梯、重复地标、不可能的桥和悬浮人物。单张图片，16:9，目标 1536×864。",
+        "Image 2",
+        "Image 2.5",
+        "书店 · 摊位",
+        "花木 · 灯笼",
+        "茶院",
+        "戏台",
+        "河岸 · 花木",
+        "集市 · 建筑",
+        "茶院 · 建筑",
+        "戏台 · 河岸",
+        "建筑间距",
+        "左侧街巷行人",
+        "右侧河岸行人"
+      ],
+      "oneQuestion": "水巷春集",
+      "layoutFamily": "comparison",
+      "majorGeometry": "Fitted glass supports, same-source ROI leaders, varied crop shapes, all foreground above y900, actual camera pan and push",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "水巷春集",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-1.png",
+        "checksum": "sha256:49e53f7d49c9689bad8edf054bc3c193a6c9ed5d1f0e327b787e6e786b02a79e"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "创作一幅精细、具有博物馆级品质的等距建筑微缩模型：虚构中国水乡街区“水巷春集”。整幅为连续的 16:9 横向构图。长方形抬高地台被一条从左上流向右下的 S 形运河分开。恰好三座桥，在彼此明确分离的位置跨越河道：左上为石拱步行桥，中央为平直木桥，右下为红色廊桥。每座桥都连接两岸陆地，桥墩不堵塞河道。恰好两艘小木船，均位于露天下的水面：一艘在第一、第二座桥之间，一艘在第二、第三座桥之间。屋顶和街道上不能有船。\n运河周围有四座不同的地标：左前方两层书店、左后方茶院、右后方三层八角古塔、右前方小型露天戏台。它们的轮廓各不相同，瓦顶、门、楼梯和建筑结构合理。加入小灯笼、布遮篷、花篮、适量集市摊位，以及站在道路上的 12 个小行人。等距透视一致，阳光来自左上，水面反射暖光；木纹、石材和陶瓦材质清楚区分。采用微缩景观摄影效果，景深足以看清整个模型。\n顶部以优雅、清晰的中文准确写出“水巷春集”。四个小巧、不抢眼的标签分别附在对应地标上，文字准确为“书店”“茶院”“古塔”“戏台”。无其他文字。采用翡翠绿、暖陶土色和象牙白，浅中性背景。细节丰富、生动但清晰；禁止断开的楼梯、重复地标、不可能的桥和悬浮人物。单张图片，16:9，目标 1536×864。",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "书店 · 摊位",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "花木 · 灯笼",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "茶院",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "戏台",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "河岸 · 花木",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "集市 · 建筑",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "茶院 · 建筑",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "戏台 · 河岸",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "建筑间距",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "左侧街巷行人",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "右侧河岸行人",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-24",
+        "cue-25",
+        "cue-26",
+        "cue-27",
+        "cue-28",
+        "cue-29",
+        "cue-30",
+        "cue-31",
+        "cue-32",
+        "cue-33",
+        "cue-34",
+        "cue-35",
+        "cue-36",
+        "cue-37",
+        "cue-38",
+        "cue-39",
+        "cue-40",
+        "cue-41",
+        "cue-42"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-24",
+          "cueFrame": 700,
+          "event": "left: 书店 · 摊位, 花木 · 灯笼"
+        },
+        {
+          "sourceBeatId": "cue-24",
+          "cueFrame": 860,
+          "event": "left: 茶院, 戏台"
+        },
+        {
+          "sourceBeatId": "cue-24",
+          "cueFrame": 1016,
+          "event": "left: 河岸 · 花木, 集市 · 建筑"
+        },
+        {
+          "sourceBeatId": "cue-24",
+          "cueFrame": 1250,
+          "event": "right: 茶院 · 建筑, 戏台 · 河岸"
+        },
+        {
+          "sourceBeatId": "cue-24",
+          "cueFrame": 1424,
+          "event": "right: 建筑间距, 河岸 · 花木"
+        },
+        {
+          "sourceBeatId": "cue-24",
+          "cueFrame": 1919,
+          "event": "left: 左侧街巷行人, 右侧河岸行人"
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 40.300000000000004,
+      "implementationComponentId": "Comparison",
+      "finalHoldFrames": 1,
+      "repeatGroup": "five-narrated-comparisons"
+    },
+    {
+      "id": "01-gilded-petal",
+      "start": 80.266,
+      "end": 123.8,
+      "title": "鎏金花瓣",
+      "stableId": "ep94-01-gilded-petal",
+      "sourceBeatIds": [
+        "cue-43",
+        "cue-44",
+        "cue-45",
+        "cue-46",
+        "cue-47",
+        "cue-48",
+        "cue-49",
+        "cue-50",
+        "cue-51",
+        "cue-52",
+        "cue-53",
+        "cue-54",
+        "cue-55",
+        "cue-56",
+        "cue-57",
+        "cue-58",
+        "cue-59",
+        "cue-60",
+        "cue-61",
+        "cue-62",
+        "cue-63",
+        "cue-64",
+        "cue-65",
+        "cue-66"
+      ],
+      "startFrame": 4816,
+      "durationInFrames": 2612,
+      "scriptAnchor": "第二我们再看这张鎏金的花瓣 啊我给了他这样的提示词 难点是同一张图里面 要分清楚花瓣 薄纱丝绸和透明的金色液体 右边的花瓣会更加舒展 纤维一条条透出来 衣服的内层丝绸和外面 的薄纱也比较容易分开 左边同样有透光和衣料的纹理 但花瓣的形状啊 更像一个贝壳形的一个托盘 结果当然很明显 右边是Image2.5 左边还是Image2 这组2.5的材质层次也明显更好 尤其是花瓣透光和 衣服叠起来的一些地方 不过呢 我的提示词要求是金色 只是一层透明的液膜 两边都有些地方像镀了金边 这个细节啊 还没有完全做对",
+      "exactScreenWords": [
+        "创作电影感的真人奇幻时装摄影，16:9 横幅。一位成年东亚女性侧坐在一片巨大象牙白花瓣的凹面内，花瓣漂浮在平静、如黑色镜面的湖水上。完整展现坐姿：双膝并拢朝右，一只手自然靠在花瓣内壁，双腿均由同一片花瓣承托。花瓣是真实植物材质：细腻的纵向纤维、半透明卷边、不透明而柔韧的象牙白中心。只有边缘覆有极薄、透明的琥珀金色液体薄膜，透过薄膜仍能看见纤维。花瓣不能由金属或玻璃制成。后方仅留一道渐渐消散的尾波。\n女性黑发低盘，一枚古金色花瓣发簪末端带一颗珍珠；内层是不透明的深青色连衣裙，中层为象牙白丝袍，外层为覆盖腿部的透明香槟色薄纱。三层衣料必须清楚区分，只有袖口有金线缝饰。自然面容、细碎发丝、可信的手指，光线穿透薄纱。水面高度的中广角镜头，主体略偏右，前景留大片蓝黑色水面，远处是柔和虚化的芦苇。\n左后方暖主光勾勒花瓣和脸颊，只在局部出现香槟色反光，不要处处金黄。具有触感的写实奇幻流体特效，精致杂志造型，戏剧性而平静。禁止船体、船桨、其他人物、重复承托花瓣、融合的双腿、实心金花瓣、管道、巨浪、文字、标志或水印。单张完整 16:9 图片，目标 1536×864。",
+        "Image 2",
+        "Image 2.5",
+        "花瓣纤维",
+        "内层丝绸",
+        "外层薄纱",
+        "透光 · 衣纹",
+        "贝壳形轮廓",
+        "衣料叠层",
+        "透明液膜要求",
+        "左图 · 金边",
+        "右图 · 金边"
+      ],
+      "oneQuestion": "鎏金花瓣",
+      "layoutFamily": "comparison",
+      "majorGeometry": "Fitted glass supports, same-source ROI leaders, varied crop shapes, all foreground above y900, actual camera pan and push",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "鎏金花瓣",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-2.png",
+        "checksum": "sha256:037b4dd67248702ab2af5941d56ab2278623529e98fccde594e6f88d3183c0d3"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "创作电影感的真人奇幻时装摄影，16:9 横幅。一位成年东亚女性侧坐在一片巨大象牙白花瓣的凹面内，花瓣漂浮在平静、如黑色镜面的湖水上。完整展现坐姿：双膝并拢朝右，一只手自然靠在花瓣内壁，双腿均由同一片花瓣承托。花瓣是真实植物材质：细腻的纵向纤维、半透明卷边、不透明而柔韧的象牙白中心。只有边缘覆有极薄、透明的琥珀金色液体薄膜，透过薄膜仍能看见纤维。花瓣不能由金属或玻璃制成。后方仅留一道渐渐消散的尾波。\n女性黑发低盘，一枚古金色花瓣发簪末端带一颗珍珠；内层是不透明的深青色连衣裙，中层为象牙白丝袍，外层为覆盖腿部的透明香槟色薄纱。三层衣料必须清楚区分，只有袖口有金线缝饰。自然面容、细碎发丝、可信的手指，光线穿透薄纱。水面高度的中广角镜头，主体略偏右，前景留大片蓝黑色水面，远处是柔和虚化的芦苇。\n左后方暖主光勾勒花瓣和脸颊，只在局部出现香槟色反光，不要处处金黄。具有触感的写实奇幻流体特效，精致杂志造型，戏剧性而平静。禁止船体、船桨、其他人物、重复承托花瓣、融合的双腿、实心金花瓣、管道、巨浪、文字、标志或水印。单张完整 16:9 图片，目标 1536×864。",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "花瓣纤维",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "内层丝绸",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "外层薄纱",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "透光 · 衣纹",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "贝壳形轮廓",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "衣料叠层",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "透明液膜要求",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "左图 · 金边",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "右图 · 金边",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-43",
+        "cue-44",
+        "cue-45",
+        "cue-46",
+        "cue-47",
+        "cue-48",
+        "cue-49",
+        "cue-50",
+        "cue-51",
+        "cue-52",
+        "cue-53",
+        "cue-54",
+        "cue-55",
+        "cue-56",
+        "cue-57",
+        "cue-58",
+        "cue-59",
+        "cue-60",
+        "cue-61",
+        "cue-62",
+        "cue-63",
+        "cue-64",
+        "cue-65",
+        "cue-66"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 736,
+          "event": "right: 花瓣纤维"
+        },
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 834,
+          "event": "right: 内层丝绸, 外层薄纱"
+        },
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 1046,
+          "event": "left: 透光 · 衣纹"
+        },
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 1236,
+          "event": "left: 贝壳形轮廓"
+        },
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 1732,
+          "event": "right: 花瓣纤维, 衣料叠层"
+        },
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 2118,
+          "event": "right: 透明液膜要求"
+        },
+        {
+          "sourceBeatId": "cue-43",
+          "cueFrame": 2324,
+          "event": "both: 左图 · 金边, 右图 · 金边"
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 43.53399999999999,
+      "implementationComponentId": "Comparison",
+      "finalHoldFrames": 1,
+      "repeatGroup": "five-narrated-comparisons"
+    },
+    {
+      "id": "03-split-camera",
+      "start": 123.8,
+      "end": 153.133,
+      "title": "半实物半线框相机",
+      "stableId": "ep94-03-split-camera",
+      "sourceBeatIds": [
+        "cue-67",
+        "cue-68",
+        "cue-69",
+        "cue-70",
+        "cue-71",
+        "cue-72",
+        "cue-73",
+        "cue-74",
+        "cue-75",
+        "cue-76",
+        "cue-77",
+        "cue-78",
+        "cue-79",
+        "cue-80"
+      ],
+      "startFrame": 7428,
+      "durationInFrames": 1760,
+      "scriptAnchor": "第三组是要一半实物一半相框的相机 给了他这样的提示词 我要求同一台相机从中间切开 右边只留线框 镜头和机身要接得上 左边的网格更加的规整 右半边主要用线条交代结构 右边虽然也有线框 但镜头中心还保留了实物一样的光影 而且画出来了 一条贯穿背景的分隔线 所以说这组左边是2.5 它的线框效果更加规整 也更接近我的要求",
+      "exactScreenWords": [
+        "创作高端产品可视化：恰好一台虚构的紧凑型无反相机，以四分之三角度悬浮在深炭灰背景上，16:9 横幅。银色拉丝铝机身、黑色颗粒皮革握柄，一枚带六个同心环的大圆柱镜头，顶部滚花拨盘、小快门按钮，两侧各一个背带耳。无标志或文字。\n用一条绝对锐利的竖直边界穿过投影中心，分割同一台实体相机。边界左侧为不透明、照片级真实的金属、皮革、镀膜光学玻璃和柔和反射；右侧只有工程线框，以细白线为主，低饱和琥珀色线少于 20%。线框侧没有不透明表面填充。每个镜头环、轮廓、拨盘和转角都必须跨边界连续，位置、角度、比例完全一致。这是一台连续相机改变渲染方式，不能是并列的两台相机。两侧镜头椭圆保持同一透视。\n不要虚构内部机械，只展现外壳、镜筒和可见控制件的几何。禁止渐变过渡、重影副本、镜像第二视角、爆炸图、分离的前后视图或底座。真实侧用柔和中性影棚光，线框在暗背景上清晰可见。单台相机约占画面宽度 70%，完整保留镜头和机身。单张 16:9 图片，目标 1536×864。",
+        "Image 2",
+        "Image 2.5",
+        "顶部线框",
+        "机身网格",
+        "镜头衔接",
+        "镜头残留光影",
+        "机身线条",
+        "贯穿背景的分隔线"
+      ],
+      "oneQuestion": "半实物半线框相机",
+      "layoutFamily": "comparison",
+      "majorGeometry": "Fitted glass supports, same-source ROI leaders, varied crop shapes, all foreground above y900, actual camera pan and push",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "半实物半线框相机",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-3-unique-2.png",
+        "checksum": "sha256:037b4dd67248702ab2af5941d56ab2278623529e98fccde594e6f88d3183c0d3"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "创作高端产品可视化：恰好一台虚构的紧凑型无反相机，以四分之三角度悬浮在深炭灰背景上，16:9 横幅。银色拉丝铝机身、黑色颗粒皮革握柄，一枚带六个同心环的大圆柱镜头，顶部滚花拨盘、小快门按钮，两侧各一个背带耳。无标志或文字。\n用一条绝对锐利的竖直边界穿过投影中心，分割同一台实体相机。边界左侧为不透明、照片级真实的金属、皮革、镀膜光学玻璃和柔和反射；右侧只有工程线框，以细白线为主，低饱和琥珀色线少于 20%。线框侧没有不透明表面填充。每个镜头环、轮廓、拨盘和转角都必须跨边界连续，位置、角度、比例完全一致。这是一台连续相机改变渲染方式，不能是并列的两台相机。两侧镜头椭圆保持同一透视。\n不要虚构内部机械，只展现外壳、镜筒和可见控制件的几何。禁止渐变过渡、重影副本、镜像第二视角、爆炸图、分离的前后视图或底座。真实侧用柔和中性影棚光，线框在暗背景上清晰可见。单台相机约占画面宽度 70%，完整保留镜头和机身。单张 16:9 图片，目标 1536×864。",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "顶部线框",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "机身网格",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "镜头衔接",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "镜头残留光影",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "机身线条",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "贯穿背景的分隔线",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-67",
+        "cue-68",
+        "cue-69",
+        "cue-70",
+        "cue-71",
+        "cue-72",
+        "cue-73",
+        "cue-74",
+        "cue-75",
+        "cue-76",
+        "cue-77",
+        "cue-78",
+        "cue-79",
+        "cue-80"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-67",
+          "cueFrame": 676,
+          "event": "left: 顶部线框, 机身网格, 镜头衔接"
+        },
+        {
+          "sourceBeatId": "cue-67",
+          "cueFrame": 972,
+          "event": "right: 镜头残留光影, 机身线条"
+        },
+        {
+          "sourceBeatId": "cue-67",
+          "cueFrame": 1234,
+          "event": "right: 贯穿背景的分隔线"
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 29.333000000000013,
+      "implementationComponentId": "Comparison",
+      "finalHoldFrames": 1,
+      "repeatGroup": "five-narrated-comparisons"
+    },
+    {
+      "id": "05-guofeng-inventory",
+      "start": 153.133,
+      "end": 185.933,
+      "title": "藏珍阁背包界面",
+      "stableId": "ep94-05-guofeng-inventory",
+      "sourceBeatIds": [
+        "cue-81",
+        "cue-82",
+        "cue-83",
+        "cue-84",
+        "cue-85",
+        "cue-86",
+        "cue-87",
+        "cue-88",
+        "cue-89",
+        "cue-90",
+        "cue-91",
+        "cue-92",
+        "cue-93",
+        "cue-94",
+        "cue-95",
+        "cue-96",
+        "cue-97",
+        "cue-98",
+        "cue-99"
+      ],
+      "startFrame": 9188,
+      "durationInFrames": 1968,
+      "scriptAnchor": "第四啊 我们再看国风游戏的一个背包啊 这组其实差异并没有前面那么大 九宫格的这种物品栏 8件物品 中文和数值两边都做出来 而且都是正确的 选中的这种发簪和右边放大的 发簪也都保留了3条的珠坠 两边都能够把内容写对 但是我们再看一些背景这种花木啊 金属的高光和一些细装饰 左边这一张还是要更加精致一些 右边字体更大 信息更直接 也完成了基本要求 所以说很明显 左边是Image2.5 右边是image 2",
+      "exactScreenWords": [
+        "设计一张精致的虚构中国奇幻卡牌 RPG 背包界面，16:9 横屏，目标 1536×864。这是游戏 UI 概念图，不能冒充真实软件截图。使用克制的深海军蓝、旧金色细纹、象牙白文字和少量玉色高光；精细雕刻金属框、细腻角花和轻微宣纸面板，不要喧闹的红金广告风。层级实用，阅读清晰。\n左上标题准确为“藏珍阁”。右上有两个独立资源计数：金币图标配“12800”，玉石图标配“360”。左侧导航竖排恰好四项：“全部”“武器”“防具”“材料”，选中“全部”。中左背包为对齐的 3×3 九宫格，恰好九个槽位，按行依次为：玉剑／蓝袍／铜镜；金花簪／紫水晶／竹简；红药瓶／丝囊／空格。九种轮廓各不相同，不重复图标。仅在水晶、竹简、药瓶右下角分别标堆叠数“12”“3”“8”。金花簪格以细发光边框选中，不能放大超出格子。\n右侧详情展示同一枚金花簪的大图：弯曲金色簪杆、五瓣花、恰好三串珍珠流苏。小图与大图设计一致。详情文字准确为“流光花簪”“品质：珍稀”“等级：20”“属性：灵力 +18”“细金绕花，珠坠映月。”底部两个明确分开的按钮为“装备”“锁定”。页脚背包数量准确为“8/60”。文字足够大、可读，中文字形风格统一，所有框对齐。无装饰性文字块、额外格子、额外菜单、鼠标、设备模型或水印。工艺材质丰富，布局干净可用。",
+        "Image 2",
+        "Image 2.5",
+        "物品格 · 流光花簪",
+        "详情图 · 三条珠坠",
+        "背景花木",
+        "边缘装饰",
+        "金属高光",
+        "界面装饰",
+        "字号 · 信息"
+      ],
+      "oneQuestion": "藏珍阁背包界面",
+      "layoutFamily": "comparison",
+      "majorGeometry": "Fitted glass supports, same-source ROI leaders, varied crop shapes, all foreground above y900, actual camera pan and push",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "藏珍阁背包界面",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-1.png",
+        "checksum": "sha256:39f3658133e856bd7b07bc0aa9f747a8e563452c32427697e3012ff0c7a42eec"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "设计一张精致的虚构中国奇幻卡牌 RPG 背包界面，16:9 横屏，目标 1536×864。这是游戏 UI 概念图，不能冒充真实软件截图。使用克制的深海军蓝、旧金色细纹、象牙白文字和少量玉色高光；精细雕刻金属框、细腻角花和轻微宣纸面板，不要喧闹的红金广告风。层级实用，阅读清晰。\n左上标题准确为“藏珍阁”。右上有两个独立资源计数：金币图标配“12800”，玉石图标配“360”。左侧导航竖排恰好四项：“全部”“武器”“防具”“材料”，选中“全部”。中左背包为对齐的 3×3 九宫格，恰好九个槽位，按行依次为：玉剑／蓝袍／铜镜；金花簪／紫水晶／竹简；红药瓶／丝囊／空格。九种轮廓各不相同，不重复图标。仅在水晶、竹简、药瓶右下角分别标堆叠数“12”“3”“8”。金花簪格以细发光边框选中，不能放大超出格子。\n右侧详情展示同一枚金花簪的大图：弯曲金色簪杆、五瓣花、恰好三串珍珠流苏。小图与大图设计一致。详情文字准确为“流光花簪”“品质：珍稀”“等级：20”“属性：灵力 +18”“细金绕花，珠坠映月。”底部两个明确分开的按钮为“装备”“锁定”。页脚背包数量准确为“8/60”。文字足够大、可读，中文字形风格统一，所有框对齐。无装饰性文字块、额外格子、额外菜单、鼠标、设备模型或水印。工艺材质丰富，布局干净可用。",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "物品格 · 流光花簪",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "详情图 · 三条珠坠",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "背景花木",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "边缘装饰",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "金属高光",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "界面装饰",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "字号 · 信息",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-81",
+        "cue-82",
+        "cue-83",
+        "cue-84",
+        "cue-85",
+        "cue-86",
+        "cue-87",
+        "cue-88",
+        "cue-89",
+        "cue-90",
+        "cue-91",
+        "cue-92",
+        "cue-93",
+        "cue-94",
+        "cue-95",
+        "cue-96",
+        "cue-97",
+        "cue-98",
+        "cue-99"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-81",
+          "cueFrame": 656,
+          "event": "left: 物品格 · 流光花簪, 详情图 · 三条珠坠"
+        },
+        {
+          "sourceBeatId": "cue-81",
+          "cueFrame": 962,
+          "event": "right: 物品格 · 流光花簪, 详情图 · 三条珠坠"
+        },
+        {
+          "sourceBeatId": "cue-81",
+          "cueFrame": 1078,
+          "event": "left: 背景花木, 边缘装饰"
+        },
+        {
+          "sourceBeatId": "cue-81",
+          "cueFrame": 1250,
+          "event": "left: 金属高光, 界面装饰"
+        },
+        {
+          "sourceBeatId": "cue-81",
+          "cueFrame": 1530,
+          "event": "right: 字号 · 信息"
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 32.79999999999998,
+      "implementationComponentId": "Comparison",
+      "finalHoldFrames": 1,
+      "repeatGroup": "five-narrated-comparisons"
+    },
+    {
+      "id": "06-mechanical-atlas",
+      "start": 185.933,
+      "end": 209.2,
+      "title": "星轨仪机械图谱",
+      "stableId": "ep94-06-mechanical-atlas",
+      "sourceBeatIds": [
+        "cue-100",
+        "cue-101",
+        "cue-102",
+        "cue-103",
+        "cue-104",
+        "cue-105",
+        "cue-106",
+        "cue-107",
+        "cue-108",
+        "cue-109",
+        "cue-110",
+        "cue-111",
+        "cue-112",
+        "cue-113"
+      ],
+      "startFrame": 11156,
+      "durationInFrames": 1396,
+      "scriptAnchor": "最后啊这张机械的图谱 其实问题就更有意思啊 我给了它这样的提示词 要求是一个太阳 三颗行星 还要有正视图侧视图和5层的拆解 右边的玻璃反光木纹 和黄铜层次更加丰富 三个行星也数对了 左边的主图却多画了一颗 变成了4颗 结果很明显 右边是image二点五 左边是image2",
+      "exactScreenWords": [
+        "创作一幅构图精美的 16:9 横向工程图谱，展示虚构的手摇天体演示仪，目标 1536×864。奶油色档案纸，细致墨线制图，克制的金色与青色点缀。主标题准确为“星轨仪”，副标题准确为“手摇天体演示装置”。这是概念教育插画，不是真实历史专利或科学校准仪器；无官方印章或真实认证声明。\n主图占左半部：精细黄铜天体仪安置在深胡桃木长方形底座上，四个黄铜脚，右侧伸出一个手摇柄，中心一个金色太阳球，三条轨道臂末端恰好三个不同的行星球：蓝色、铁锈红、玉色。可见摇柄轴连接大齿轮，与其啮合的小齿轮连接中央竖轴。齿牙分明、轴线同心，金属高光、木纹、带轻微反射的玻璃罩各自材质清晰。玻璃罩垂直向上提起，与装置完全分离，并和底座边缘对齐。\n右半部有三个对齐的小技术图，准确标注“正视图”“侧视图”“结构分解”。正侧视图描绘同一装置，四脚、右侧摇柄、中心太阳和三颗行星一致。分解图恰好五组沿轴对齐的组件：玻璃罩、带中心太阳的三臂轨道组件、中央轴、带摇柄的双齿轮传动组件、胡桃木底座。细而干净的投影线把组件连接到正确位置，无随机悬浮螺丝或无关机械。左下材质样本准确标注“黄铜”“胡桃木”“玻璃”。精细排线、连贯透视、严谨印刷图谱字体；无乱码段落、水印、重复的中心太阳。一张统一完整的图片，不能是无关物件拼贴。",
+        "Image 2",
+        "Image 2.5",
+        "玻璃反光",
+        "木纹",
+        "黄铜",
+        "三颗行星 · 太阳另计",
+        "四颗行星 · 太阳另计"
+      ],
+      "oneQuestion": "星轨仪机械图谱",
+      "layoutFamily": "comparison",
+      "majorGeometry": "Fitted glass supports, same-source ROI leaders, varied crop shapes, all foreground above y900, actual camera pan and push",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "星轨仪机械图谱",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-1.png",
+        "checksum": "sha256:39f3658133e856bd7b07bc0aa9f747a8e563452c32427697e3012ff0c7a42eec"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "创作一幅构图精美的 16:9 横向工程图谱，展示虚构的手摇天体演示仪，目标 1536×864。奶油色档案纸，细致墨线制图，克制的金色与青色点缀。主标题准确为“星轨仪”，副标题准确为“手摇天体演示装置”。这是概念教育插画，不是真实历史专利或科学校准仪器；无官方印章或真实认证声明。\n主图占左半部：精细黄铜天体仪安置在深胡桃木长方形底座上，四个黄铜脚，右侧伸出一个手摇柄，中心一个金色太阳球，三条轨道臂末端恰好三个不同的行星球：蓝色、铁锈红、玉色。可见摇柄轴连接大齿轮，与其啮合的小齿轮连接中央竖轴。齿牙分明、轴线同心，金属高光、木纹、带轻微反射的玻璃罩各自材质清晰。玻璃罩垂直向上提起，与装置完全分离，并和底座边缘对齐。\n右半部有三个对齐的小技术图，准确标注“正视图”“侧视图”“结构分解”。正侧视图描绘同一装置，四脚、右侧摇柄、中心太阳和三颗行星一致。分解图恰好五组沿轴对齐的组件：玻璃罩、带中心太阳的三臂轨道组件、中央轴、带摇柄的双齿轮传动组件、胡桃木底座。细而干净的投影线把组件连接到正确位置，无随机悬浮螺丝或无关机械。左下材质样本准确标注“黄铜”“胡桃木”“玻璃”。精细排线、连贯透视、严谨印刷图谱字体；无乱码段落、水印、重复的中心太阳。一张统一完整的图片，不能是无关物件拼贴。",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "玻璃反光",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "木纹",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "黄铜",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "三颗行星 · 太阳另计",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "四颗行星 · 太阳另计",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-100",
+        "cue-101",
+        "cue-102",
+        "cue-103",
+        "cue-104",
+        "cue-105",
+        "cue-106",
+        "cue-107",
+        "cue-108",
+        "cue-109",
+        "cue-110",
+        "cue-111",
+        "cue-112",
+        "cue-113"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-100",
+          "cueFrame": 640,
+          "event": "right: 玻璃反光, 木纹, 黄铜"
+        },
+        {
+          "sourceBeatId": "cue-100",
+          "cueFrame": 852,
+          "event": "right: 三颗行星 · 太阳另计"
+        },
+        {
+          "sourceBeatId": "cue-100",
+          "cueFrame": 978,
+          "event": "left: 四颗行星 · 太阳另计"
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 23.266999999999996,
+      "implementationComponentId": "Comparison",
+      "finalHoldFrames": 1,
+      "repeatGroup": "five-narrated-comparisons"
+    },
+    {
+      "id": "compare-summary",
+      "start": 209.2,
+      "end": 222.6,
+      "title": "复杂图片结论",
+      "stableId": "ep94-compare-summary",
+      "sourceBeatIds": [
+        "cue-114",
+        "cue-115",
+        "cue-116",
+        "cue-117",
+        "cue-118",
+        "cue-119",
+        "cue-120",
+        "cue-121"
+      ],
+      "startFrame": 12552,
+      "durationInFrames": 804,
+      "scriptAnchor": "总结下来啊 我觉得结论很明显 就是复杂的图片2.5确实明显要好很多 场景更丰富 材料层次更分明 整体也更加精致 不过在一些简单图片上面来讲啊 我觉得差异并没有那么大",
+      "exactScreenWords": [
+        "复杂图片，2.5 明显更好",
+        "场景更丰富",
+        "层次更分明",
+        "整体更精致",
+        "简单图片",
+        "差异相对小"
+      ],
+      "oneQuestion": "复杂图片结论",
+      "layoutFamily": "compare-summary",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "复杂图片结论",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-1.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-1.png",
+        "checksum": "sha256:39f3658133e856bd7b07bc0aa9f747a8e563452c32427697e3012ff0c7a42eec"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "复杂图片，2.5 明显更好",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "场景更丰富",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "层次更分明",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "整体更精致",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "简单图片",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "差异相对小",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-114",
+        "cue-115",
+        "cue-116",
+        "cue-117",
+        "cue-118",
+        "cue-119",
+        "cue-120",
+        "cue-121"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-114",
+          "event": "五组证据缩略保留在后，前景清晰出现“复杂图片，2.5 明显更好”；仅此处使用完整毛玻璃聚焦。",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "cue-117",
+          "event": "城市、花瓣、相机/图谱分别接对应结论：场景更丰富 / 层次更分明 / 整体更精致。",
+          "cueFrame": 336
+        },
+        {
+          "sourceBeatId": "cue-120",
+          "event": "结论缩到上方，补一句“简单图片差异较小”；不再插入未录音的新案例。",
+          "cueFrame": 582
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 13.400000000000006,
+      "implementationComponentId": "compare-summary",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "sketch",
+      "start": 222.6,
+      "end": 249.133,
+      "title": "Sketch实操",
+      "stableId": "ep94-sketch",
+      "sourceBeatIds": [
+        "cue-122",
+        "cue-123",
+        "cue-124",
+        "cue-125",
+        "cue-126",
+        "cue-127",
+        "cue-128",
+        "cue-129",
+        "cue-130",
+        "cue-131",
+        "cue-132",
+        "cue-133",
+        "cue-134",
+        "cue-135",
+        "cue-136"
+      ],
+      "startFrame": 13356,
+      "durationInFrames": 1592,
+      "scriptAnchor": "第二部分啊 就是开头展示这个功能 新增的一个功能叫Sketch 在Chatgpt里面输入@Sketch 你就可以直接画一个草图作为参考 比如我刚刚随便画了一通 然后让它基于自己的 理解生成最有创意的图片 生成5张 结果很明显 远远超出我的预期啊 它生成的折纸、人物、建筑这条龙和花瓣 和我画的内容形状都一致但是风 但是风格均不同 质量非常非常好",
+      "exactScreenWords": [
+        "同一张草图"
+      ],
+      "oneQuestion": "Sketch实操",
+      "layoutFamily": "sketch",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "Sketch实操",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+        "checksum": "sha256:a2b865c7293a4e790bc2c2ef780ac6e9a47692fba5e98e759c8f55e99ba5885f"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "同一张草图",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-122",
+        "cue-123",
+        "cue-124",
+        "cue-125",
+        "cue-126",
+        "cue-127",
+        "cue-128",
+        "cue-129",
+        "cue-130",
+        "cue-131",
+        "cue-132",
+        "cue-133",
+        "cue-134",
+        "cue-135",
+        "cue-136"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-122",
+          "event": "已有结果收为一张媒体卡，转“02 Sketch”，使用第82期已建立窗体→内容推进的关系。",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "cue-125",
+          "event": "真实录屏中 @Sketch 菜单入口近景；一次点击示意，焦点随菜单到画布，不画假菜单。",
+          "cueFrame": 260
+        },
+        {
+          "sourceBeatId": "cue-126",
+          "event": "进入真实绘画画布并框重点；231.666 画完的草图保留，录屏位置稳定，底部磨砂条承接字幕。",
+          "cueFrame": 398
+        },
+        {
+          "sourceBeatId": "cue-128",
+          "event": "真实输入框文本分段推进到“最有创意 / 5 张”；跳过输入法等待但保留真实内容，不伪造生成速度。",
+          "cueFrame": 664
+        },
+        {
+          "sourceBeatId": "cue-131",
+          "event": "草图在旁、成果主舞台进入；回收设备壳让图片可读，原绘图仍能定位。",
+          "cueFrame": 900
+        },
+        {
+          "sourceBeatId": "cue-133",
+          "event": "折纸→人物→建筑→龙→花瓣按录音内五个词定位切换；PNG 单独出现，不使用五联小图替代。",
+          "cueFrame": 1060
+        },
+        {
+          "sourceBeatId": "cue-134",
+          "event": "草图与末张大图短暂对照，再展开五张结果全貌；原始比例不变。",
+          "cueFrame": 1298
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 26.533000000000015,
+      "implementationComponentId": "sketch",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "consistency-intro",
+      "start": 249.133,
+      "end": 254.266,
+      "title": "一致性入口",
+      "stableId": "ep94-consistency-intro",
+      "sourceBeatIds": [
+        "cue-137",
+        "cue-138"
+      ],
+      "startFrame": 14948,
+      "durationInFrames": 308,
+      "scriptAnchor": "第三部分就是图片的一致性啊 Image2.5很大的一个进步就是一致性",
+      "exactScreenWords": [
+        "图像一致性",
+        "只改指定部分"
+      ],
+      "oneQuestion": "一致性入口",
+      "layoutFamily": "consistency-intro",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "一致性入口",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+        "checksum": "sha256:a2b865c7293a4e790bc2c2ef780ac6e9a47692fba5e98e759c8f55e99ba5885f"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "图像一致性",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "只改指定部分",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-137",
+        "cue-138"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-137",
+          "event": "接“03 图像一致性”；由五种风格转为同一对象连续编辑，不重复刚才五联画排版。",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 5.132999999999981,
+      "implementationComponentId": "consistency-intro",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "cube",
+      "start": 254.266,
+      "end": 261.5,
+      "title": "官方方块对照",
+      "stableId": "ep94-cube",
+      "sourceBeatIds": [
+        "cue-139",
+        "cue-140",
+        "cue-141",
+        "cue-142"
+      ],
+      "startFrame": 15256,
+      "durationInFrames": 434,
+      "scriptAnchor": "我不知道以前大家有没有遇到过 就是image2生成的图片 你可能每修改一次 它就会有一些细节缺失或者变化了",
+      "exactScreenWords": [
+        "Image 2",
+        "Image 2.5"
+      ],
+      "oneQuestion": "官方方块对照",
+      "layoutFamily": "cube",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "官方方块对照",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+        "checksum": "sha256:a2b865c7293a4e790bc2c2ef780ac6e9a47692fba5e98e759c8f55e99ba5885f"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "Image 2",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-139",
+        "cue-140",
+        "cue-141",
+        "cue-142"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-139",
+          "event": "官方方块双栏示例，原左 Image 2 / 右 Image 2.5 保持；原速 3 秒 + 关键帧停留，必要时双侧同步重播一次。",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 7.234000000000009,
+      "implementationComponentId": "cube",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "dogs",
+      "start": 261.5,
+      "end": 268.366,
+      "title": "五张狗狗变化",
+      "stableId": "ep94-dogs",
+      "sourceBeatIds": [
+        "cue-143",
+        "cue-144"
+      ],
+      "startFrame": 15690,
+      "durationInFrames": 412,
+      "scriptAnchor": "而image2.5可以在较长的chatgpt对话里面 它能够更可靠地遵从特定的编辑指令",
+      "exactScreenWords": [
+        "只改指定部分"
+      ],
+      "oneQuestion": "五张狗狗变化",
+      "layoutFamily": "dogs",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "五张狗狗变化",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+        "checksum": "sha256:a2b865c7293a4e790bc2c2ef780ac6e9a47692fba5e98e759c8f55e99ba5885f"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "只改指定部分",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-143",
+        "cue-144"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-143",
+          "event": "五张狗图在同一固定槽位顺序快切，计数 1/5→5/5；停在红头盔/鞋/绿外套变化上，背景整张保留。",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 6.8659999999999854,
+      "implementationComponentId": "dogs",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "frog",
+      "start": 268.366,
+      "end": 275.5,
+      "title": "逐根点蜡烛",
+      "stableId": "ep94-frog",
+      "sourceBeatIds": [
+        "cue-145",
+        "cue-146",
+        "cue-147",
+        "cue-148"
+      ],
+      "startFrame": 16102,
+      "durationInFrames": 428,
+      "scriptAnchor": "即使经过了多次编辑 也能够保持一致 而可以避免每次修改它可能 都会有一些小细节丢失或者变化",
+      "exactScreenWords": [
+        "每次点亮一根"
+      ],
+      "oneQuestion": "逐根点蜡烛",
+      "layoutFamily": "frog",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "逐根点蜡烛",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+        "checksum": "sha256:a2b865c7293a4e790bc2c2ef780ac6e9a47692fba5e98e759c8f55e99ba5885f"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "每次点亮一根",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-145",
+        "cue-146",
+        "cue-147",
+        "cue-148"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-145",
+          "event": "原 4:3 蛋糕视频完整显示，每轮新增一根亮蜡烛。原速4.8秒后首/尾同尺度对照，框蜡烛、蛋糕纹理和青蛙。",
+          "cueFrame": 0
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 7.1340000000000146,
+      "implementationComponentId": "frog",
+      "finalHoldFrames": 1
+    },
+    {
+      "id": "outro",
+      "start": 275.5,
+      "end": 291.8,
+      "title": "结尾",
+      "stableId": "ep94-outro",
+      "sourceBeatIds": [
+        "cue-149",
+        "cue-150",
+        "cue-151",
+        "cue-152",
+        "cue-153",
+        "cue-154",
+        "cue-155",
+        "cue-156",
+        "cue-157",
+        "cue-158"
+      ],
+      "startFrame": 16530,
+      "durationInFrames": 978,
+      "scriptAnchor": "总结来讲 Image2.5升级还是非常大的 尤其是对我这种对 图片要求比较高的人 这种细节的提升大大 降低了我抽卡的次数 现在你打开Codex或者GPT 网页就可以使用它啦 大家快去试一试吧 OK以上就是本期全部内容",
+      "exactScreenWords": [
+        "Image 2.5",
+        "细节 · 材质 · 一致性",
+        "材质层次 更清楚",
+        "细节提升 更可靠",
+        "减少 反复抽卡"
+      ],
+      "oneQuestion": "结尾",
+      "layoutFamily": "outro",
+      "majorGeometry": "1920x1080 stage; key foreground y<900; caption reserve 900-1080; media retain original aspect",
+      "readingOrder": [
+        "primary content",
+        "focused evidence",
+        "conclusion"
+      ],
+      "visualCenter": "结尾",
+      "styleTrack": "real-evidence",
+      "mediaRole": "real-evidence",
+      "assetSourceKind": "local-original",
+      "referenceImages": [
+        {
+          "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+          "responsibility": "User accepted storyboard spatial direction; known source and text errors must be corrected"
+        }
+      ],
+      "finalFrameReference": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/storyboard-v1/generated/space-4-unique-2.png",
+        "checksum": "sha256:a2b865c7293a4e790bc2c2ef780ac6e9a47692fba5e98e759c8f55e99ba5885f"
+      },
+      "typographyRoles": [
+        {
+          "role": "screen-copy",
+          "text": "Image 2.5",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "细节 · 材质 · 一致性",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "材质层次 更清楚",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "细节提升 更可靠",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        },
+        {
+          "role": "screen-copy",
+          "text": "减少 反复抽卡",
+          "sizeClass": "28px full prompt / 25px details / 66px headline"
+        }
+      ],
+      "connectorType": "source-anchored-callout",
+      "pathTopology": "focused ROI to original media; no exchanged sides",
+      "spokenOrder": [
+        "cue-149",
+        "cue-150",
+        "cue-151",
+        "cue-152",
+        "cue-153",
+        "cue-154",
+        "cue-155",
+        "cue-156",
+        "cue-157",
+        "cue-158"
+      ],
+      "timingSource": "audio-timecode",
+      "motionEvents": [
+        {
+          "sourceBeatId": "cue-149",
+          "event": "Fred振作展示从有效动作入点出现，指向五组成果和“Image 2.5 升级明显”；不加第四个大章节。",
+          "cueFrame": 0
+        },
+        {
+          "sourceBeatId": "cue-151",
+          "event": "由两三张具体质感细节引出“减少反复抽卡”；作为Fred体验判断，不编造节省百分比或抽卡次数。",
+          "cueFrame": 184
+        },
+        {
+          "sourceBeatId": "cue-155",
+          "event": "Codex / ChatGPT 网页两个入口字样并列，真实界面素材有来源才加入；已有 Sketch 页面可作 ChatGPT 背景，未取得Codex界面则保持文字。",
+          "cueFrame": 552
+        },
+        {
+          "sourceBeatId": "cue-158",
+          "event": "短收束，保留末句到291.800；不另加会延长音频的片尾或新旁白。",
+          "cueFrame": 858
+        }
+      ],
+      "noFade": true,
+      "primaryMotion": "media transform with stable reading holds",
+      "duration": 16.30000000000001,
+      "implementationComponentId": "outro",
+      "finalHoldFrames": 1
+    }
+  ],
+  "cases": [
+    {
+      "id": "04-miniature-city",
+      "title": "水巷春集",
+      "start": 39.966,
+      "end": 80.266,
+      "assets": {
+        "left": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/chatgpt-pro/04-miniature-city.png",
+          "sha256": "c72460a6efefbb4e692fc0f93373a3800ddd30abb937ccf89f9bb5524479e432",
+          "size": [
+            1672,
+            941
+          ],
+          "model": "Image 2.5",
+          "entry": "ChatGPT Pro",
+          "revealAt": 67.166,
+          "src": "case-1-left.png"
+        },
+        "right": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/lovart-image2-low/04-miniature-city.png",
+          "sha256": "3c3d4d989dafa319babe11245b09263b557937d14f9d029f7b4fab10ff62d01e",
+          "size": [
+            2048,
+            1152
+          ],
+          "model": "Image 2",
+          "entry": "Lovart · low · 16:9 · 1 image",
+          "revealAt": 68.566,
+          "src": "case-1-right.png"
+        }
+      },
+      "prompt": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/remotion-remake/ep94/v3/prompts/04-miniature-city-zh.md",
+        "sha256": "f85a69f7dbb0d3d6f20c7935356860597690b91ed490adf858e3e7e504eaa812",
+        "sameTextBothEntries": true,
+        "screenWords": [
+          "三座不同的桥 · 两艘船",
+          "书店 · 茶院 · 古塔 · 戏台",
+          "12 位行人"
+        ],
+        "exactExcerpts": [
+          "Exactly THREE bridges",
+          "Exactly TWO small wooden boats",
+          "12 small pedestrians"
+        ],
+        "fullText": "创作一幅精细、具有博物馆级品质的等距建筑微缩模型：虚构中国水乡街区“水巷春集”。整幅为连续的 16:9 横向构图。长方形抬高地台被一条从左上流向右下的 S 形运河分开。恰好三座桥，在彼此明确分离的位置跨越河道：左上为石拱步行桥，中央为平直木桥，右下为红色廊桥。每座桥都连接两岸陆地，桥墩不堵塞河道。恰好两艘小木船，均位于露天下的水面：一艘在第一、第二座桥之间，一艘在第二、第三座桥之间。屋顶和街道上不能有船。\n运河周围有四座不同的地标：左前方两层书店、左后方茶院、右后方三层八角古塔、右前方小型露天戏台。它们的轮廓各不相同，瓦顶、门、楼梯和建筑结构合理。加入小灯笼、布遮篷、花篮、适量集市摊位，以及站在道路上的 12 个小行人。等距透视一致，阳光来自左上，水面反射暖光；木纹、石材和陶瓦材质清楚区分。采用微缩景观摄影效果，景深足以看清整个模型。\n顶部以优雅、清晰的中文准确写出“水巷春集”。四个小巧、不抢眼的标签分别附在对应地标上，文字准确为“书店”“茶院”“古塔”“戏台”。无其他文字。采用翡翠绿、暖陶土色和象牙白，浅中性背景。细节丰富、生动但清晰；禁止断开的楼梯、重复地标、不可能的桥和悬浮人物。单张图片，16:9，目标 1536×864。",
+        "originalEnglish": "Create an intricate museum-quality isometric architectural miniature of a fictional Chinese canal district called “水巷春集”, in one continuous 16:9 landscape composition. A rectangular raised terrain base is divided by one S-shaped canal flowing from upper left to lower right. Exactly THREE bridges cross the water at clearly separated positions: a stone arch pedestrian bridge near upper left, a straight wooden footbridge in the centre, and a red covered bridge near lower right. All bridges connect dry land on both banks; their supports do not block the canal. Exactly TWO small wooden boats float beneath open sky, one between the first and second bridge and one between the second and third. No boat on a roof or street.\nThere are FOUR distinct architectural landmarks arranged around the canal: a two-storey bookshop at front left, a tea courtyard at rear left, a three-storey octagonal pagoda at rear right, and a small outdoor opera stage at front right. Each has a different silhouette, tiled roofs, doors, stairs and coherent construction. Add tiny lanterns, cloth awnings, baskets of flowers, restrained market stalls and 12 small pedestrians standing on paths. Consistent isometric perspective, sun from upper left, reflected warm light on water, wood grain distinct from stone and ceramic tiles, miniature diorama photography with sufficient depth of field to read the entire model.\nAcross the top, elegant readable Chinese title exactly “水巷春集”. Four small unobtrusive labels attached to their matching landmarks read exactly “书店”“茶院”“古塔”“戏台”. No other text. Colour palette jade green, warm terracotta and ivory, light neutral background. Detailed and lively but legible, no disconnected stairs, duplicated landmarks, impossible bridges or floating people. Single image, 16:9, target 1536×864."
+      },
+      "treatment": "白色观察台：提示词展开为任务条目，再让两张整图从同一任务下展开；巡看摊位、花木、灯笼和河岸。",
+      "callouts": [
+        {
+          "side": "left",
+          "label": "书店与摊位",
+          "roi": [
+            0.01,
+            0.33,
+            0.29,
+            0.39
+          ],
+          "start": 51.633,
+          "end": 56.3,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "河岸花木与灯笼",
+          "roi": [
+            0.26,
+            0.38,
+            0.5,
+            0.48
+          ],
+          "start": 56.3,
+          "end": 60.8,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "建筑与河岸疏密",
+          "roi": [
+            0.06,
+            0.39,
+            0.52,
+            0.49
+          ],
+          "start": 60.8,
+          "end": 65.666,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "行人分布",
+          "roi": [
+            0.03,
+            0.2,
+            0.93,
+            0.66
+          ],
+          "start": 70.033,
+          "end": 78.033,
+          "status": "proposed-source-normalized-roi"
+        }
+      ],
+      "limits": "模型揭晓后保留整图，指向几簇真实行人并显示“要求 12 人 / 实际超出”；未逐个核实总数，不编造精确人数。",
+      "handoff": "河岸框收回成为提示词短行的选中框，接花瓣材质；不让水城变形成花瓣。",
+      "promptEnd": 49.55,
+      "index": 1,
+      "theme": "light",
+      "badgeWords": [
+        "Image 2",
+        "Image 2.5"
+      ],
+      "shots": [
+        {
+          "at": 51.633,
+          "end": 54.3,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.18,
+                0.56
+              ],
+              "span": [
+                0.24,
+                0.3
+              ],
+              "label": "书店 · 摊位",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.31,
+                0.68
+              ],
+              "span": [
+                0.22,
+                0.24
+              ],
+              "label": "花木 · 灯笼",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 54.3,
+          "end": 56.9,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.36,
+                0.2
+              ],
+              "span": [
+                0.27,
+                0.29
+              ],
+              "label": "茶院",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.86,
+                0.56
+              ],
+              "span": [
+                0.24,
+                0.32
+              ],
+              "label": "戏台",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 56.9,
+          "end": 60.8,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.36,
+                0.72
+              ],
+              "span": [
+                0.29,
+                0.29
+              ],
+              "label": "河岸 · 花木",
+              "shape": "capsule"
+            },
+            {
+              "center": [
+                0.73,
+                0.52
+              ],
+              "span": [
+                0.24,
+                0.27
+              ],
+              "label": "集市 · 建筑",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        },
+        {
+          "at": 60.8,
+          "end": 63.7,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.2,
+                0.22
+              ],
+              "span": [
+                0.28,
+                0.3
+              ],
+              "label": "茶院 · 建筑",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.83,
+                0.68
+              ],
+              "span": [
+                0.28,
+                0.33
+              ],
+              "label": "戏台 · 河岸",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 63.7,
+          "end": 65.666,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.61,
+                0.46
+              ],
+              "span": [
+                0.34,
+                0.33
+              ],
+              "label": "建筑间距",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.36,
+                0.81
+              ],
+              "span": [
+                0.34,
+                0.28
+              ],
+              "label": "河岸 · 花木",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 71.95,
+          "end": 77.233,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.26,
+                0.61
+              ],
+              "span": [
+                0.35,
+                0.34
+              ],
+              "label": "左侧街巷行人",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.69,
+                0.57
+              ],
+              "span": [
+                0.31,
+                0.32
+              ],
+              "label": "右侧河岸行人",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        }
+      ],
+      "promptStyle": "white-glass"
+    },
+    {
+      "id": "01-gilded-petal",
+      "title": "鎏金花瓣",
+      "start": 80.266,
+      "end": 123.8,
+      "assets": {
+        "left": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/lovart-image2-low/01-gilded-petal.png",
+          "sha256": "0f743135126f231f75dc09f90536fdb4836dd464706b224848fcd42ec9fbd7f3",
+          "size": [
+            2048,
+            1152
+          ],
+          "model": "Image 2",
+          "entry": "Lovart · low · 16:9 · 1 image",
+          "revealAt": 107.333,
+          "src": "case-2-left.png"
+        },
+        "right": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/chatgpt-pro/01-gilded-petal.png",
+          "sha256": "72465bb3670d1c1129190866ee312103288b437499b6c920f9b0c0945baa15f1",
+          "size": [
+            1672,
+            941
+          ],
+          "model": "Image 2.5",
+          "entry": "ChatGPT Pro",
+          "revealAt": 105.6,
+          "src": "case-2-right.png"
+        }
+      },
+      "prompt": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/remotion-remake/ep94/v3/prompts/01-gilded-petal-zh.md",
+        "sha256": "5d64719ac6ef79399e37e86540b63ebdb7cf88fcdad304d89fcc992b85b485dc",
+        "sameTextBothEntries": true,
+        "screenWords": [
+          "真实花瓣 · 可见纤维",
+          "内层丝绸 · 外层薄纱",
+          "边缘仅覆盖透明金色液膜"
+        ],
+        "exactExcerpts": [
+          "delicate longitudinal fibres",
+          "ivory silk middle robe",
+          "sheer champagne outer gauze",
+          "Fibres remain visible through this film."
+        ],
+        "fullText": "创作电影感的真人奇幻时装摄影，16:9 横幅。一位成年东亚女性侧坐在一片巨大象牙白花瓣的凹面内，花瓣漂浮在平静、如黑色镜面的湖水上。完整展现坐姿：双膝并拢朝右，一只手自然靠在花瓣内壁，双腿均由同一片花瓣承托。花瓣是真实植物材质：细腻的纵向纤维、半透明卷边、不透明而柔韧的象牙白中心。只有边缘覆有极薄、透明的琥珀金色液体薄膜，透过薄膜仍能看见纤维。花瓣不能由金属或玻璃制成。后方仅留一道渐渐消散的尾波。\n女性黑发低盘，一枚古金色花瓣发簪末端带一颗珍珠；内层是不透明的深青色连衣裙，中层为象牙白丝袍，外层为覆盖腿部的透明香槟色薄纱。三层衣料必须清楚区分，只有袖口有金线缝饰。自然面容、细碎发丝、可信的手指，光线穿透薄纱。水面高度的中广角镜头，主体略偏右，前景留大片蓝黑色水面，远处是柔和虚化的芦苇。\n左后方暖主光勾勒花瓣和脸颊，只在局部出现香槟色反光，不要处处金黄。具有触感的写实奇幻流体特效，精致杂志造型，戏剧性而平静。禁止船体、船桨、其他人物、重复承托花瓣、融合的双腿、实心金花瓣、管道、巨浪、文字、标志或水印。单张完整 16:9 图片，目标 1536×864。",
+        "originalEnglish": "Create a cinematic live-action fantasy fashion photograph, landscape 16:9. One adult East Asian woman is seated sideways inside the concave bowl of ONE enormous ivory flower petal drifting across a calm black mirror lake. Show her complete seated pose, knees together angled right, one hand resting naturally against the inner petal wall, both legs supported inside the same petal. The petal is a real botanical material: delicate longitudinal fibres, translucent curled margins, an opaque flexible ivory centre. An extremely thin transparent amber-gold LIQUID coats only the rim. Fibres remain visible through this film. The petal is not made of metal or glass. A single fading wake trails behind it.\nShe has black hair in a low bun, one antique gold petal pin ending in one pearl, an opaque deep-teal inner dress, ivory silk middle robe, and sheer champagne outer gauze over the legs. The three layers remain visibly distinct, with gold stitching only at the cuffs. Natural face, delicate flyaway hairs, convincing fingers, light transmitting through gauze. Water-level medium-wide shot with the subject slightly right of centre, broad empty blue-black foreground water, distant soft reeds. A warm rear-left key light outlines the petal and cheek, localized champagne reflections rather than gold everywhere. Tactile photorealistic fantasy fluid VFX, refined editorial styling, dramatic but calm. No boat hull, oar, extra people, duplicate carrier petals, fused legs, solid gold petal, pipe, giant waves, text, logo or watermark. Fill a single 16:9 image, target 1536×864."
+      },
+      "treatment": "深色摄影展台：提示词在前、媒体退后，条目读完卡片上收；双图正面并列，局部材质切片从原图位置长出。",
+      "callouts": [
+        {
+          "side": "right",
+          "label": "花瓣轮廓与纤维",
+          "roi": [
+            0.17,
+            0.19,
+            0.36,
+            0.49
+          ],
+          "start": 90.366,
+          "end": 94.166,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "丝绸与薄纱叠层",
+          "roi": [
+            0.47,
+            0.28,
+            0.36,
+            0.4
+          ],
+          "start": 94.166,
+          "end": 97.7,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "贝壳形托盘轮廓",
+          "roi": [
+            0.24,
+            0.22,
+            0.74,
+            0.56
+          ],
+          "start": 97.7,
+          "end": 104.166,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "金边",
+          "roi": [
+            0.56,
+            0.49,
+            0.37,
+            0.24
+          ],
+          "start": 115.566,
+          "end": 123.466,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "金边",
+          "roi": [
+            0.34,
+            0.58,
+            0.5,
+            0.2
+          ],
+          "start": 115.566,
+          "end": 123.466,
+          "status": "proposed-source-normalized-roi"
+        }
+      ],
+      "limits": "材质切片加“左图局部 / 右图局部”；金边两侧等尺度并列。保留“2.5 层次明显更好”及“两边透明液膜未完全做对”。",
+      "handoff": "双图保持暗底，材质切片退回；“材质”短词退出后出现相机的“结构”，以线条接力。",
+      "promptEnd": 90.3,
+      "index": 2,
+      "theme": "dark",
+      "badgeWords": [
+        "Image 2",
+        "Image 2.5"
+      ],
+      "shots": [
+        {
+          "at": 92.533,
+          "end": 94.166,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.3,
+                0.4
+              ],
+              "span": [
+                0.23,
+                0.34
+              ],
+              "label": "花瓣纤维",
+              "shape": "round"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "round"
+        },
+        {
+          "at": 94.166,
+          "end": 97.7,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.61,
+                0.45
+              ],
+              "span": [
+                0.22,
+                0.29
+              ],
+              "label": "内层丝绸",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.62,
+                0.63
+              ],
+              "span": [
+                0.28,
+                0.23
+              ],
+              "label": "外层薄纱",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 97.7,
+          "end": 100.866,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.54,
+                0.48
+              ],
+              "span": [
+                0.24,
+                0.3
+              ],
+              "label": "透光 · 衣纹",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 100.866,
+          "end": 104.166,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.65,
+                0.69
+              ],
+              "span": [
+                0.48,
+                0.28
+              ],
+              "label": "贝壳形轮廓",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        },
+        {
+          "at": 109.133,
+          "end": 115.566,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.3,
+                0.4
+              ],
+              "span": [
+                0.26,
+                0.36
+              ],
+              "label": "花瓣纤维",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.61,
+                0.55
+              ],
+              "span": [
+                0.24,
+                0.4
+              ],
+              "label": "衣料叠层",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 115.566,
+          "end": 119,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.72,
+                0.65
+              ],
+              "span": [
+                0.25,
+                0.19
+              ],
+              "label": "透明液膜要求",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        },
+        {
+          "at": 119,
+          "end": 123.8,
+          "side": "both",
+          "items": [
+            {
+              "center": [
+                0.6,
+                0.74
+              ],
+              "span": [
+                0.28,
+                0.2
+              ],
+              "label": "左图 · 金边",
+              "shape": "capsule"
+            },
+            {
+              "center": [
+                0.72,
+                0.65
+              ],
+              "span": [
+                0.25,
+                0.19
+              ],
+              "label": "右图 · 金边",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        }
+      ],
+      "promptStyle": "black-glass",
+      "promptBeats": [
+        {
+          "at": 85.466,
+          "text": "花瓣结构清晰可辨",
+          "support": "微型人物置于花瓣之中；花瓣与人物衣料必须具有清晰区别。"
+        },
+        {
+          "at": 87.033,
+          "text": "薄纱、丝绸、透明金色液膜",
+          "support": "明确区分材质、透光方式与衣料的层层叠叠。金色应像透明液膜。"
+        }
+      ],
+      "promptWindow": [
+        82.333,
+        90.166
+      ],
+      "fullPromptHighlights": [
+        {
+          "at": 85.466,
+          "text": "花瓣是真实植物材质",
+          "duration": 0.45
+        },
+        {
+          "at": 87.033,
+          "text": "透明香槟色薄纱",
+          "duration": 0.45
+        },
+        {
+          "at": 87.7,
+          "text": "象牙白丝袍",
+          "duration": 0.45
+        },
+        {
+          "at": 88.4,
+          "text": "极薄、透明的琥珀金色液体薄膜",
+          "duration": 0.45
+        }
+      ]
+    },
+    {
+      "id": "03-split-camera",
+      "title": "半实物半线框相机",
+      "start": 123.8,
+      "end": 153.133,
+      "assets": {
+        "left": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/chatgpt-pro/03-split-camera.png",
+          "sha256": "76f8df3d9c37370d3c66f86e8d921cbbf3f62a2823bfcc743940ae4b7cb494c8",
+          "size": [
+            1672,
+            941
+          ],
+          "model": "Image 2.5",
+          "entry": "ChatGPT Pro",
+          "revealAt": 146.766,
+          "src": "case-3-left.png"
+        },
+        "right": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/lovart-image2-low/03-split-camera.png",
+          "sha256": "e7bfd7f96613994b7c70ebd9af40fc375e97d22f50bf6314bbccb1fae854b3ee",
+          "size": [
+            2048,
+            1152
+          ],
+          "model": "Image 2",
+          "entry": "Lovart · low · 16:9 · 1 image",
+          "revealAt": 146.766,
+          "src": "case-3-right.png"
+        }
+      },
+      "prompt": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/remotion-remake/ep94/v3/prompts/03-split-camera-zh.md",
+        "sha256": "6b866d5643220b3f6f07c19243f4a5b5b34c7e57d9c8f07dfb63f575f231a572",
+        "sameTextBothEntries": true,
+        "screenWords": [
+          "同一台相机 · 左实物 / 右线框",
+          "两侧镜头与机身连续",
+          "线框半边没有实心表面"
+        ],
+        "exactExcerpts": [
+          "This is one continuous camera",
+          "No opaque surface fills on the wireframe half.",
+          "exactly matching position, angle and scale"
+        ],
+        "fullText": "创作高端产品可视化：恰好一台虚构的紧凑型无反相机，以四分之三角度悬浮在深炭灰背景上，16:9 横幅。银色拉丝铝机身、黑色颗粒皮革握柄，一枚带六个同心环的大圆柱镜头，顶部滚花拨盘、小快门按钮，两侧各一个背带耳。无标志或文字。\n用一条绝对锐利的竖直边界穿过投影中心，分割同一台实体相机。边界左侧为不透明、照片级真实的金属、皮革、镀膜光学玻璃和柔和反射；右侧只有工程线框，以细白线为主，低饱和琥珀色线少于 20%。线框侧没有不透明表面填充。每个镜头环、轮廓、拨盘和转角都必须跨边界连续，位置、角度、比例完全一致。这是一台连续相机改变渲染方式，不能是并列的两台相机。两侧镜头椭圆保持同一透视。\n不要虚构内部机械，只展现外壳、镜筒和可见控制件的几何。禁止渐变过渡、重影副本、镜像第二视角、爆炸图、分离的前后视图或底座。真实侧用柔和中性影棚光，线框在暗背景上清晰可见。单台相机约占画面宽度 70%，完整保留镜头和机身。单张 16:9 图片，目标 1536×864。",
+        "originalEnglish": "Create a premium product visualization of exactly ONE fictional compact mirrorless camera floating in a three-quarter orientation on a deep charcoal background, 16:9 landscape. It has a silver brushed-aluminium body, black pebbled leather grip, one large cylindrical lens with six concentric rings, a top knurled dial, a small shutter button and one strap lug on each side. No logos or lettering.\nSplit this SAME physical camera with an absolutely sharp vertical line through its projected centre. LEFT of the boundary: opaque photorealistic metal, leather, coated optical glass and soft reflections. RIGHT of the boundary: engineering-style wireframe only, with thin white lines and less than 20 percent muted amber lines. No opaque surface fills on the wireframe half. Every lens ring, contour, dial and corner must continue across the boundary with exactly matching position, angle and scale. This is one continuous camera whose rendering style changes, not two adjacent cameras. Lens ellipses maintain the same perspective on both halves. Do not add invented internal machinery: show the geometry of the housing, lens barrel and visible controls. No gradient transition, no ghost copy, no mirrored second view, no explosion, no separate front/back views, no pedestal. Soft neutral studio light on the realistic half; clear wireframe against the dark half. The single camera occupies about 70 percent of frame width with full lens and body in view. Target 1536×864, one 16:9 image."
+      },
+      "treatment": "深灰检视台：用一条限定在图片内部的竖向观察线建立实物/线框要求，再出现完整 A/B；镜头环局部采用同倍率放大。",
+      "callouts": [
+        {
+          "side": "left",
+          "label": "本张相机右半边网格",
+          "roi": [
+            0.49,
+            0.06,
+            0.36,
+            0.82
+          ],
+          "start": 135.066,
+          "end": 139.733,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "镜头中心残留光影",
+          "roi": [
+            0.52,
+            0.34,
+            0.26,
+            0.49
+          ],
+          "start": 140,
+          "end": 144.366,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "贯穿背景的分隔线",
+          "roi": [
+            0.506,
+            0,
+            0.034,
+            0.96
+          ],
+          "start": 144.366,
+          "end": 146.766,
+          "status": "proposed-source-normalized-roi"
+        }
+      ],
+      "limits": "区分“屏幕左图/右图”与“单张相机右半边”。强调线不覆写原分隔线；镜头局部不锐化，不把照片改成真正可旋转 3D。",
+      "handoff": "检查线退场，暗色舞台承接藏珍阁的整图；用选中区域的关系引出物品栏，避免再来一次通用白卡飞入。",
+      "promptEnd": 134.95,
+      "index": 3,
+      "theme": "dark",
+      "badgeWords": [
+        "Image 2",
+        "Image 2.5"
+      ],
+      "shots": [
+        {
+          "at": 135.066,
+          "end": 140,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.7,
+                0.15
+              ],
+              "span": [
+                0.23,
+                0.23
+              ],
+              "label": "顶部线框",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.76,
+                0.4
+              ],
+              "span": [
+                0.27,
+                0.25
+              ],
+              "label": "机身网格",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.59,
+                0.57
+              ],
+              "span": [
+                0.24,
+                0.34
+              ],
+              "label": "镜头衔接",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 140,
+          "end": 144.366,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.645,
+                0.6
+              ],
+              "span": [
+                0.25,
+                0.29
+              ],
+              "label": "镜头残留光影",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.72,
+                0.38
+              ],
+              "span": [
+                0.27,
+                0.26
+              ],
+              "label": "机身线条",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 144.366,
+          "end": 146.766,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.523,
+                0.3
+              ],
+              "span": [
+                0.16,
+                0.56
+              ],
+              "label": "贯穿背景的分隔线",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        }
+      ],
+      "promptStyle": "workbench",
+      "promptBeats": [
+        {
+          "at": 129.333,
+          "text": "同一台相机，从中间切开",
+          "support": "左半保留真实材质，右半仅用精确的线框呈现。"
+        },
+        {
+          "at": 131.566,
+          "text": "右半只保留线框",
+          "support": "没有实物材质、阴影或照片残留。"
+        },
+        {
+          "at": 133.133,
+          "text": "镜头、机身在中线处准确衔接",
+          "support": "同一结构、同一比例，不能成为两台相机。"
+        }
+      ],
+      "promptWindow": [
+        127.866,
+        134.9
+      ],
+      "fullPromptHighlights": [
+        {
+          "at": 129.333,
+          "text": "分割同一台实体相机",
+          "duration": 0.45
+        },
+        {
+          "at": 131.566,
+          "text": "右侧只有工程线框",
+          "duration": 0.45
+        },
+        {
+          "at": 133.133,
+          "text": "每个镜头环、轮廓、拨盘和转角都必须跨边界连续",
+          "duration": 0.45
+        }
+      ]
+    },
+    {
+      "id": "05-guofeng-inventory",
+      "title": "藏珍阁背包界面",
+      "start": 153.133,
+      "end": 185.933,
+      "assets": {
+        "left": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/chatgpt-pro/05-guofeng-inventory.png",
+          "sha256": "816441a3cd79edb66da54559d987d9a3745f34e59db05c4b291e10772e49a5e6",
+          "size": [
+            1672,
+            941
+          ],
+          "model": "Image 2.5",
+          "entry": "ChatGPT Pro",
+          "revealAt": 183.3,
+          "src": "case-4-left.png"
+        },
+        "right": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/lovart-image2-low/05-guofeng-inventory.png",
+          "sha256": "7bb51e8c3412e34e8a57f84e2cba02a8d933e9797d20539ddcc252bcf0daaf72",
+          "size": [
+            2048,
+            1152
+          ],
+          "model": "Image 2",
+          "entry": "Lovart · low · 16:9 · 1 image",
+          "revealAt": 184.6,
+          "src": "case-4-right.png"
+        }
+      },
+      "prompt": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/remotion-remake/ep94/v3/prompts/05-guofeng-inventory-zh.md",
+        "sha256": "ab3963d318ad2e84ca9c8c6eec1ecb9eb1cf65a4e2fc60e3a9b0df66ed99b79e",
+        "sameTextBothEntries": true,
+        "screenWords": [
+          "3×3 格子 · 8 件物品",
+          "同一支花簪 · 3 条珠坠",
+          "中文 / 数值 / 按钮文字准确"
+        ],
+        "exactExcerpts": [
+          "exactly nine slots",
+          "exactly three pearl tassels",
+          "The small selected icon and the large image must depict the same design."
+        ],
+        "fullText": "设计一张精致的虚构中国奇幻卡牌 RPG 背包界面，16:9 横屏，目标 1536×864。这是游戏 UI 概念图，不能冒充真实软件截图。使用克制的深海军蓝、旧金色细纹、象牙白文字和少量玉色高光；精细雕刻金属框、细腻角花和轻微宣纸面板，不要喧闹的红金广告风。层级实用，阅读清晰。\n左上标题准确为“藏珍阁”。右上有两个独立资源计数：金币图标配“12800”，玉石图标配“360”。左侧导航竖排恰好四项：“全部”“武器”“防具”“材料”，选中“全部”。中左背包为对齐的 3×3 九宫格，恰好九个槽位，按行依次为：玉剑／蓝袍／铜镜；金花簪／紫水晶／竹简；红药瓶／丝囊／空格。九种轮廓各不相同，不重复图标。仅在水晶、竹简、药瓶右下角分别标堆叠数“12”“3”“8”。金花簪格以细发光边框选中，不能放大超出格子。\n右侧详情展示同一枚金花簪的大图：弯曲金色簪杆、五瓣花、恰好三串珍珠流苏。小图与大图设计一致。详情文字准确为“流光花簪”“品质：珍稀”“等级：20”“属性：灵力 +18”“细金绕花，珠坠映月。”底部两个明确分开的按钮为“装备”“锁定”。页脚背包数量准确为“8/60”。文字足够大、可读，中文字形风格统一，所有框对齐。无装饰性文字块、额外格子、额外菜单、鼠标、设备模型或水印。工艺材质丰富，布局干净可用。",
+        "originalEnglish": "Design one polished fictional Chinese fantasy card-RPG INVENTORY interface, a single 16:9 landscape screen, target1536×864. This is a game UI concept image, not a real software screenshot. Restrained deep navy blue, aged gold filigree, ivory text and small jade highlights. Sophisticated engraved metal frames, fine ornamental corner motifs and subtle rice-paper panels; no loud red-gold advertising look. Functional hierarchy and clear legibility.\nTop-left title exactly “藏珍阁”. Top-right two separate resource counters: coin icon with “12800”, jade icon with “360”. Left navigation has exactly four vertically stacked entries: “全部”“武器”“防具”“材料”, with “全部” selected. Centre-left inventory is an aligned 3×3 grid, exactly nine slots. In row order show: jade sword / blue robe / bronze mirror; gold hairpin / purple crystal / bamboo scroll; red medicinal bottle / silk pouch / empty slot. These are nine distinct silhouettes, no duplicated icon. Small bottom-right stack counts only on crystal “12”, scroll “3”, medicine “8”. Gold hairpin slot is visibly selected with a fine luminous border, not enlarged beyond the grid.\nRight detail pane shows an enlarged view of the SAME gold hairpin: a curved gold stem, a five-petal flower and exactly three pearl tassels. The small selected icon and the large image must depict the same design. Detail text exactly: “流光花簪”, “品质：珍稀”, “等级：20”, “属性：灵力 +18”, “细金绕花，珠坠映月。” Two clearly separated bottom buttons read “装备” and “锁定”. Footer inventory count exactly “8/60”. Large enough text to read, consistent Chinese glyph style, all frames aligned, no decorative text blocks, no extra slot, no extra menu, no cursor, no device mockup, no watermark. Rich crafted surfaces with a clean usable layout."
+      },
+      "treatment": "界面检视：简洁应用画布承载原图；提示词短条先出，双图后出；重点从九宫格走向被选小图，再走向右侧大图与正文。",
+      "callouts": [
+        {
+          "side": "left",
+          "label": "九宫格",
+          "roi": [
+            0.16,
+            0.11,
+            0.43,
+            0.76
+          ],
+          "start": 157.933,
+          "end": 163.9,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "九宫格",
+          "roi": [
+            0.19,
+            0.12,
+            0.42,
+            0.76
+          ],
+          "start": 157.933,
+          "end": 163.9,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "被选小花簪",
+          "roi": [
+            0.17,
+            0.39,
+            0.135,
+            0.23
+          ],
+          "start": 164.066,
+          "end": 168.766,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "对应大花簪",
+          "roi": [
+            0.66,
+            0.16,
+            0.24,
+            0.32
+          ],
+          "start": 164.066,
+          "end": 168.766,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "花木背景",
+          "roi": [
+            0.0,
+            0.63,
+            0.16,
+            0.35
+          ],
+          "start": 171.1,
+          "end": 173.966,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "花簪高光与装饰",
+          "roi": [
+            0.66,
+            0.16,
+            0.24,
+            0.32
+          ],
+          "start": 173.966,
+          "end": 178.6,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "文字区",
+          "roi": [
+            0.655,
+            0.49,
+            0.32,
+            0.37
+          ],
+          "start": 178.633,
+          "end": 182.333,
+          "status": "proposed-source-normalized-roi"
+        }
+      ],
+      "limits": "本组没有“给了这样的提示词”口播，153.666–155.666 简短展示要点，155.666 开始双图；不要为完整英文强行停顿。连接线仅是视频标注，不伪装真实点击或可交互 App。",
+      "handoff": "物品关系线回收为图谱中的投影关系线；画布抬起成为纸张平面，落到正面双图读数。",
+      "promptEnd": 157.9,
+      "index": 4,
+      "theme": "dark",
+      "badgeWords": [
+        "Image 2",
+        "Image 2.5"
+      ],
+      "shots": [
+        {
+          "at": 164.066,
+          "end": 169.166,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.235,
+                0.505
+              ],
+              "span": [
+                0.145,
+                0.26
+              ],
+              "label": "物品格 · 流光花簪",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.78,
+                0.34
+              ],
+              "span": [
+                0.25,
+                0.41
+              ],
+              "label": "详情图 · 三条珠坠",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 169.166,
+          "end": 171.1,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.27,
+                0.5
+              ],
+              "span": [
+                0.15,
+                0.27
+              ],
+              "label": "物品格 · 流光花簪",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.79,
+                0.35
+              ],
+              "span": [
+                0.26,
+                0.43
+              ],
+              "label": "详情图 · 三条珠坠",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 171.1,
+          "end": 173.966,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.08,
+                0.78
+              ],
+              "span": [
+                0.15,
+                0.34
+              ],
+              "label": "背景花木",
+              "shape": "capsule"
+            },
+            {
+              "center": [
+                0.95,
+                0.5
+              ],
+              "span": [
+                0.09,
+                0.35
+              ],
+              "label": "边缘装饰",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        },
+        {
+          "at": 173.966,
+          "end": 178.633,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.78,
+                0.33
+              ],
+              "span": [
+                0.24,
+                0.38
+              ],
+              "label": "金属高光",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.37,
+                0.18
+              ],
+              "span": [
+                0.3,
+                0.16
+              ],
+              "label": "界面装饰",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 178.633,
+          "end": 182.333,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.8,
+                0.66
+              ],
+              "span": [
+                0.34,
+                0.34
+              ],
+              "label": "字号 · 信息",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        }
+      ],
+      "promptStyle": "inspector",
+      "promptBeats": [
+        {
+          "at": 155.8,
+          "text": "九格背包 · 八件物品",
+          "support": "中文名称与数值清晰；右侧详情应对应同一件物品。"
+        }
+      ],
+      "promptWindow": [
+        155.65,
+        163.65
+      ],
+      "fullPromptHighlights": [
+        {
+          "at": 157.933,
+          "text": "3×3 九宫格",
+          "duration": 0.45
+        },
+        {
+          "at": 159.766,
+          "text": "8/60",
+          "duration": 0.45
+        },
+        {
+          "at": 160.6,
+          "text": "详情文字准确为",
+          "duration": 0.45
+        }
+      ]
+    },
+    {
+      "id": "06-mechanical-atlas",
+      "title": "星轨仪机械图谱",
+      "start": 185.933,
+      "end": 209.2,
+      "assets": {
+        "left": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/lovart-image2-low/06-mechanical-atlas.png",
+          "sha256": "1558170a3140931e514a51c979c7ca00b7525996d7b2fd9b4bf81ad2c8b2f925",
+          "size": [
+            2048,
+            1152
+          ],
+          "model": "Image 2",
+          "entry": "Lovart · low · 16:9 · 1 image",
+          "revealAt": 207.5,
+          "src": "case-5-left.png"
+        },
+        "right": {
+          "path": "00_每期项目/94_image2.5/03_制作过程/complex-cases-v3/chatgpt-pro/06-mechanical-atlas.png",
+          "sha256": "ff087e21870c94b72fd8cf93f0d8c61021370805f42ad418419c647c99a89e09",
+          "size": [
+            1672,
+            941
+          ],
+          "model": "Image 2.5",
+          "entry": "ChatGPT Pro",
+          "revealAt": 206.133,
+          "src": "case-5-right.png"
+        }
+      },
+      "prompt": {
+        "path": "00_每期项目/94_image2.5/03_制作过程/remotion-remake/ep94/v3/prompts/06-mechanical-atlas-zh.md",
+        "sha256": "8fec6196c96147cdb66b09967394002820b3b283fe0254bd1f789b5dca3005bd",
+        "sameTextBothEntries": true,
+        "screenWords": [
+          "1 个太阳 · 3 颗行星",
+          "正视图 · 侧视图 · 结构分解",
+          "5 层组件 · 黄铜 / 胡桃木 / 玻璃"
+        ],
+        "exactExcerpts": [
+          "a central gold sun sphere",
+          "exactly three different planet spheres",
+          "exactly five aligned assemblies"
+        ],
+        "fullText": "创作一幅构图精美的 16:9 横向工程图谱，展示虚构的手摇天体演示仪，目标 1536×864。奶油色档案纸，细致墨线制图，克制的金色与青色点缀。主标题准确为“星轨仪”，副标题准确为“手摇天体演示装置”。这是概念教育插画，不是真实历史专利或科学校准仪器；无官方印章或真实认证声明。\n主图占左半部：精细黄铜天体仪安置在深胡桃木长方形底座上，四个黄铜脚，右侧伸出一个手摇柄，中心一个金色太阳球，三条轨道臂末端恰好三个不同的行星球：蓝色、铁锈红、玉色。可见摇柄轴连接大齿轮，与其啮合的小齿轮连接中央竖轴。齿牙分明、轴线同心，金属高光、木纹、带轻微反射的玻璃罩各自材质清晰。玻璃罩垂直向上提起，与装置完全分离，并和底座边缘对齐。\n右半部有三个对齐的小技术图，准确标注“正视图”“侧视图”“结构分解”。正侧视图描绘同一装置，四脚、右侧摇柄、中心太阳和三颗行星一致。分解图恰好五组沿轴对齐的组件：玻璃罩、带中心太阳的三臂轨道组件、中央轴、带摇柄的双齿轮传动组件、胡桃木底座。细而干净的投影线把组件连接到正确位置，无随机悬浮螺丝或无关机械。左下材质样本准确标注“黄铜”“胡桃木”“玻璃”。精细排线、连贯透视、严谨印刷图谱字体；无乱码段落、水印、重复的中心太阳。一张统一完整的图片，不能是无关物件拼贴。",
+        "originalEnglish": "A beautifully composed 16:9 landscape editorial engineering atlas for a FICTIONAL hand-cranked astronomical orrery, target1536×864. Cream archival paper with delicate ink drafting and carefully restrained gold/teal colour accents. Main title exactly “星轨仪” and subtitle exactly “手摇天体演示装置”. This is a conceptual educational illustration, not an authentic historical patent or scientifically calibrated instrument. No official seals or claims of real certification.\nThe central hero takes the left half: an intricately crafted brass orrery on a dark walnut rectangular base with four brass feet, one crank projecting from the RIGHT side, a central gold sun sphere, and THREE orbital arms ending in exactly three different planet spheres: blue, rust red and jade. The visible crank shaft connects to a large toothed wheel; a meshing smaller wheel connects to the central upright shaft. Clearly separated gear teeth, concentric shafts, metallic highlights, wood grain and glass dome with faint reflections, all distinct materials. The dome is lifted straight upward above the apparatus, fully separated and aligned with its base rim.\nRight half contains three aligned small technical panels labelled exactly “正视图”“侧视图”“结构分解”. Front and side views depict the SAME object with matching four feet, right-side crank, central sun and three planets. The exploded view shows exactly five aligned assemblies: glass dome, three-arm orbital assembly with central sun, central shaft, two-gear drive assembly with crank, walnut base. Thin clean projection lines link each assembly to its correct place; no random floating screws or unrelated machine parts. Bottom-left small material swatches and labels exactly “黄铜”“胡桃木”“玻璃”. Fine ink hatching, coherent perspective, meticulous printed-atlas typography, no paragraph of gibberish, no watermark, no duplicated central sun. One cohesive image, not a collage of unrelated objects."
+      },
+      "treatment": "图谱观察台：完整纸面建立“1 个太阳 / 3 颗行星 / 三视图要求”，然后两张图谱平铺；先看材料，再在主图行星旁逐一标数。",
+      "callouts": [
+        {
+          "side": "right",
+          "label": "玻璃反射",
+          "roi": [
+            0.15,
+            0.03,
+            0.3,
+            0.31
+          ],
+          "start": 196.2,
+          "end": 197.1,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "木纹与黄铜",
+          "roi": [
+            0.11,
+            0.5,
+            0.43,
+            0.38
+          ],
+          "start": 197.1,
+          "end": 199.766,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "right",
+          "label": "主图三颗行星",
+          "roi": [
+            0.14,
+            0.36,
+            0.32,
+            0.22
+          ],
+          "start": 200.133,
+          "end": 202.1,
+          "status": "proposed-source-normalized-roi"
+        },
+        {
+          "side": "left",
+          "label": "主图四颗行星",
+          "roi": [
+            0.125,
+            0.36,
+            0.25,
+            0.2
+          ],
+          "start": 202.233,
+          "end": 205.433,
+          "status": "proposed-source-normalized-roi"
+        }
+      ],
+      "limits": "数字只标主图的行星，不把太阳、反射或副图中的球再算一遍。两张均不据此宣称工程图完全正确。",
+      "handoff": "三颗行星计数收回；保留五组缩略成果作为结论的背景，清晰结论前置。",
+      "promptEnd": 196.1,
+      "index": 5,
+      "theme": "light",
+      "badgeWords": [
+        "Image 2",
+        "Image 2.5"
+      ],
+      "shots": [
+        {
+          "at": 196.6,
+          "end": 200.133,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.29,
+                0.22
+              ],
+              "span": [
+                0.3,
+                0.26
+              ],
+              "label": "玻璃反光",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.28,
+                0.72
+              ],
+              "span": [
+                0.34,
+                0.18
+              ],
+              "label": "木纹",
+              "shape": "rect"
+            },
+            {
+              "center": [
+                0.3,
+                0.6
+              ],
+              "span": [
+                0.34,
+                0.18
+              ],
+              "label": "黄铜",
+              "shape": "rect"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "rect"
+        },
+        {
+          "at": 200.133,
+          "end": 202.233,
+          "side": "right",
+          "items": [
+            {
+              "center": [
+                0.29,
+                0.45
+              ],
+              "span": [
+                0.37,
+                0.24
+              ],
+              "label": "三颗行星 · 太阳另计",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        },
+        {
+          "at": 202.233,
+          "end": 205.433,
+          "side": "left",
+          "items": [
+            {
+              "center": [
+                0.26,
+                0.44
+              ],
+              "span": [
+                0.32,
+                0.22
+              ],
+              "label": "四颗行星 · 太阳另计",
+              "shape": "capsule"
+            }
+          ],
+          "focus": 0,
+          "layoutShape": "capsule"
+        }
+      ],
+      "promptStyle": "drafting",
+      "promptBeats": [
+        {
+          "at": 190.8,
+          "text": "一个太阳，三颗行星",
+          "support": "太阳是恒星，不计入行星数量。"
+        },
+        {
+          "at": 193,
+          "text": "正面、侧面，以及五层拆解",
+          "support": "同一件机械星轨仪，结构与材质保持一致。"
+        }
+      ],
+      "promptWindow": [
+        189.266,
+        195.8
+      ],
+      "fullPromptHighlights": [
+        {
+          "at": 190.8,
+          "text": "中心一个金色太阳球",
+          "duration": 0.45
+        },
+        {
+          "at": 192.033,
+          "text": "恰好三个不同的行星球",
+          "duration": 0.45
+        },
+        {
+          "at": 193,
+          "text": "“正视图”“侧视图”“结构分解”",
+          "duration": 0.45
+        },
+        {
+          "at": 194.4,
+          "text": "恰好五组沿轴对齐的组件",
+          "duration": 0.45
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "opening": "opening.mp4",
+    "audio": "narration.wav",
+    "ranking": "ranking.png",
+    "sketch": "sketch.mp4",
+    "cube": "cube.mp4",
+    "frog": "frog.mp4",
+    "dogs": [
+      "dog-1.png",
+      "dog-2.png",
+      "dog-3.png",
+      "dog-4.png",
+      "dog-5.png"
+    ],
+    "results": [
+      "user-2.png",
+      "user-6.png",
+      "user-4.png",
+      "user-5.png",
+      "user-3.png"
+    ],
+    "drawing": "drawing.jpg",
+    "rankingVideo": "ranking-motion.mp4",
+    "codexLogo": "codex-official-hires.png",
+    "chatgptLogo": "chatgpt-official-hires.png"
+  },
+  "characters": [
+    {
+      "assetId": "fred-character-03",
+      "action": "左下抬头指向",
+      "path": "skills/fred-remake/assets/characters/Fred_左下抬头指向_1440p30_Alpha.webm",
+      "sha256": "67c089234ebd2dc33e904e30cca74d40d9d32b1b49b54a97bebe1934648a4667",
+      "start": 35.7,
+      "end": 39.733,
+      "proposedSourceStart": 1.45,
+      "proposedSourceEnd": 4.1,
+      "targetPhrase": "猜一下哪个模型",
+      "gestureMapping": "source 2.7–3.2s hand rises; target peak around37.2s; hold open pointing pose then exit.",
+      "layout": "人物在左，匿名案例预览在右上；转水城提示词前人物退出。",
+      "sourceFps": 30,
+      "playback": "1x then chosen pose hold if needed; no looping or mirroring",
+      "status": "source-inspected-and-integrity-verified; new-layout-unrendered",
+      "src": "fred-0.webm",
+      "name": "fred-0"
+    },
+    {
+      "assetId": "fred-character-06",
+      "action": "抬手制止",
+      "path": "skills/fred-remake/assets/characters/Fred_抬手制止_1440p30_Alpha.webm",
+      "sha256": "6e45e8786249d49962e7c842de591e19c3c9325884b3b5483170417c82a73349",
+      "start": 121.5,
+      "end": 123.466,
+      "proposedSourceStart": 0.8,
+      "proposedSourceEnd": 2.766,
+      "targetPhrase": "还没有完全做对",
+      "gestureMapping": "source1.3–1.6s palm rises; target around122.1s; exit on case boundary.",
+      "layout": "人物进入预留左侧空带；金边两图缩略保持在右，不压图中缺陷。",
+      "sourceFps": 30,
+      "playback": "1x then chosen pose hold if needed; no looping or mirroring",
+      "status": "source-inspected-and-integrity-verified; new-layout-unrendered",
+      "src": "fred-1.webm",
+      "name": "fred-1"
+    },
+    {
+      "assetId": "fred-character-11",
+      "action": "振作展示",
+      "path": "skills/fred-remake/assets/characters/Fred_振作展示_1440p30_Alpha.webm",
+      "sha256": "0eaefdf4e21f4ea95a178f02c297aa5c62590c984b7a32874930e341a9735f70",
+      "start": 275.5,
+      "end": 279.4,
+      "proposedSourceStart": 1.8,
+      "proposedSourceEnd": 4.2,
+      "targetPhrase": "升级还是非常大的",
+      "gestureMapping": "source2.8–3.1s open-hand display; target around276.6s; hold4.0s pose before lowered-head end.",
+      "layout": "人物在左，成果与结论在右；279.4前退出，让后续细节承担减少抽卡的说明。",
+      "sourceFps": 30,
+      "playback": "1x then chosen pose hold if needed; no looping or mirroring",
+      "status": "source-inspected-and-integrity-verified; new-layout-unrendered",
+      "src": "fred-2.webm",
+      "name": "fred-2"
+    }
+  ],
+  "cues": [
+    {
+      "id": 1,
+      "start": 0.066,
+      "end": 0.666,
+      "text": "你敢信啊"
+    },
+    {
+      "id": 2,
+      "start": 0.666,
+      "end": 2.2,
+      "text": "这张我随手乱画的图片"
+    },
+    {
+      "id": 3,
+      "start": 2.2,
+      "end": 3.666,
+      "text": "可以生成这样这样"
+    },
+    {
+      "id": 4,
+      "start": 3.666,
+      "end": 5.366,
+      "text": "这样还有这样的图片"
+    },
+    {
+      "id": 5,
+      "start": 5.5,
+      "end": 7.1,
+      "text": "这就是刚刚发布的image"
+    },
+    {
+      "id": 6,
+      "start": 7.1,
+      "end": 9.2,
+      "text": "2.5生图模型的新功能"
+    },
+    {
+      "id": 7,
+      "start": 9.2,
+      "end": 10.2,
+      "text": "今天刚刚发布啊"
+    },
+    {
+      "id": 8,
+      "start": 10.2,
+      "end": 13.166,
+      "text": "image就霸占了Arena文生图总榜前三名"
+    },
+    {
+      "id": 9,
+      "start": 13.166,
+      "end": 15.5,
+      "text": "其中2.5的Sunburst和flare模型"
+    },
+    {
+      "id": 10,
+      "start": 15.5,
+      "end": 17.166,
+      "text": "分别排第一和第二"
+    },
+    {
+      "id": 11,
+      "start": 17.333,
+      "end": 20.266,
+      "text": "很早之前发布的image 2还是排名第三"
+    },
+    {
+      "id": 12,
+      "start": 20.466,
+      "end": 22.5,
+      "text": "今天我就给大家带来三个内容"
+    },
+    {
+      "id": 13,
+      "start": 22.666,
+      "end": 24.3,
+      "text": "image 2.5的测试对比"
+    },
+    {
+      "id": 14,
+      "start": 24.333,
+      "end": 26.266,
+      "text": "它的Sketch新功能以及"
+    },
+    {
+      "id": 15,
+      "start": 26.266,
+      "end": 27.733,
+      "text": "它的图像的一致性"
+    },
+    {
+      "id": 16,
+      "start": 28.033,
+      "end": 28.633,
+      "text": "第一部分啊"
+    },
+    {
+      "id": 17,
+      "start": 28.633,
+      "end": 29.766,
+      "text": "就是测试对比"
+    },
+    {
+      "id": 18,
+      "start": 29.766,
+      "end": 31.433,
+      "text": "因为Image2实际上生图"
+    },
+    {
+      "id": 19,
+      "start": 31.433,
+      "end": 32.9,
+      "text": "质量已经非常非常好了"
+    },
+    {
+      "id": 20,
+      "start": 32.933,
+      "end": 34.066,
+      "text": "所以说我这次找了"
+    },
+    {
+      "id": 21,
+      "start": 34.066,
+      "end": 35.7,
+      "text": "6个非常复杂的场景"
+    },
+    {
+      "id": 22,
+      "start": 35.7,
+      "end": 37.666,
+      "text": "大家也可以猜一下每一组"
+    },
+    {
+      "id": 23,
+      "start": 37.666,
+      "end": 39.733,
+      "text": "分别到底是哪个模型生成的"
+    },
+    {
+      "id": 24,
+      "start": 39.966,
+      "end": 42.333,
+      "text": "第一我们先看这座微缩的水城"
+    },
+    {
+      "id": 25,
+      "start": 42.466,
+      "end": 44.133,
+      "text": "我给了它这样的提示词"
+    },
+    {
+      "id": 26,
+      "start": 44.133,
+      "end": 45.833,
+      "text": "我要求三个不同的桥"
+    },
+    {
+      "id": 27,
+      "start": 45.966,
+      "end": 49.333,
+      "text": "两座船还要有书店茶院古塔和戏台"
+    },
+    {
+      "id": 28,
+      "start": 49.633,
+      "end": 51.633,
+      "text": "两边把这些主体都做出来了"
+    },
+    {
+      "id": 29,
+      "start": 51.633,
+      "end": 54.033,
+      "text": "但是左边的摊位花木灯笼"
+    },
+    {
+      "id": 30,
+      "start": 54.033,
+      "end": 56.133,
+      "text": "和建筑细节明显更加丰富"
+    },
+    {
+      "id": 31,
+      "start": 56.3,
+      "end": 57.766,
+      "text": "河岸也更加热闹"
+    },
+    {
+      "id": 32,
+      "start": 57.766,
+      "end": 60.8,
+      "text": "更接近我想要的那种春日集市的感觉"
+    },
+    {
+      "id": 33,
+      "start": 60.8,
+      "end": 63.7,
+      "text": "而右边的建筑分区会更加稀疏一些"
+    },
+    {
+      "id": 34,
+      "start": 63.7,
+      "end": 65.666,
+      "text": "很明显质量要相对差一些"
+    },
+    {
+      "id": 35,
+      "start": 65.666,
+      "end": 67.133,
+      "text": "所以说结果也很明显"
+    },
+    {
+      "id": 36,
+      "start": 67.166,
+      "end": 68.566,
+      "text": "左边是Image2.5"
+    },
+    {
+      "id": 37,
+      "start": 68.566,
+      "end": 69.833,
+      "text": "右边是Image2"
+    },
+    {
+      "id": 38,
+      "start": 70.033,
+      "end": 72.633,
+      "text": "不过我也还要求了12个行人"
+    },
+    {
+      "id": 39,
+      "start": 72.7,
+      "end": 75.233,
+      "text": "左边明显即使是Image2.5"
+    },
+    {
+      "id": 40,
+      "start": 75.333,
+      "end": 77.233,
+      "text": "他的人物也画多了"
+    },
+    {
+      "id": 41,
+      "start": 77.233,
+      "end": 78.033,
+      "text": "细节丰富"
+    },
+    {
+      "id": 42,
+      "start": 78.033,
+      "end": 80.266,
+      "text": "不代表每一条要求他都完成了"
+    },
+    {
+      "id": 43,
+      "start": 80.266,
+      "end": 82.233,
+      "text": "第二我们再看这张鎏金的花瓣"
+    },
+    {
+      "id": 44,
+      "start": 82.333,
+      "end": 84.133,
+      "text": "啊我给了他这样的提示词"
+    },
+    {
+      "id": 45,
+      "start": 84.133,
+      "end": 85.466,
+      "text": "难点是同一张图里面"
+    },
+    {
+      "id": 46,
+      "start": 85.466,
+      "end": 86.966,
+      "text": "要分清楚花瓣"
+    },
+    {
+      "id": 47,
+      "start": 87.033,
+      "end": 90.166,
+      "text": "薄纱丝绸和透明的金色液体"
+    },
+    {
+      "id": 48,
+      "start": 90.366,
+      "end": 92.333,
+      "text": "右边的花瓣会更加舒展"
+    },
+    {
+      "id": 49,
+      "start": 92.533,
+      "end": 94.166,
+      "text": "纤维一条条透出来"
+    },
+    {
+      "id": 50,
+      "start": 94.166,
+      "end": 96.1,
+      "text": "衣服的内层丝绸和外面"
+    },
+    {
+      "id": 51,
+      "start": 96.1,
+      "end": 97.7,
+      "text": "的薄纱也比较容易分开"
+    },
+    {
+      "id": 52,
+      "start": 97.7,
+      "end": 100.8,
+      "text": "左边同样有透光和衣料的纹理"
+    },
+    {
+      "id": 53,
+      "start": 100.866,
+      "end": 102.5,
+      "text": "但花瓣的形状啊"
+    },
+    {
+      "id": 54,
+      "start": 102.5,
+      "end": 104.166,
+      "text": "更像一个贝壳形的一个托盘"
+    },
+    {
+      "id": 55,
+      "start": 104.166,
+      "end": 105.533,
+      "text": "结果当然很明显"
+    },
+    {
+      "id": 56,
+      "start": 105.6,
+      "end": 107.333,
+      "text": "右边是Image2.5"
+    },
+    {
+      "id": 57,
+      "start": 107.333,
+      "end": 108.8,
+      "text": "左边还是Image2"
+    },
+    {
+      "id": 58,
+      "start": 109.133,
+      "end": 111.933,
+      "text": "这组2.5的材质层次也明显更好"
+    },
+    {
+      "id": 59,
+      "start": 111.933,
+      "end": 113.566,
+      "text": "尤其是花瓣透光和"
+    },
+    {
+      "id": 60,
+      "start": 113.566,
+      "end": 115.133,
+      "text": "衣服叠起来的一些地方"
+    },
+    {
+      "id": 61,
+      "start": 115.133,
+      "end": 115.566,
+      "text": "不过呢"
+    },
+    {
+      "id": 62,
+      "start": 115.566,
+      "end": 117.066,
+      "text": "我的提示词要求是金色"
+    },
+    {
+      "id": 63,
+      "start": 117.066,
+      "end": 118.633,
+      "text": "只是一层透明的液膜"
+    },
+    {
+      "id": 64,
+      "start": 119.0,
+      "end": 121.5,
+      "text": "两边都有些地方像镀了金边"
+    },
+    {
+      "id": 65,
+      "start": 121.5,
+      "end": 122.366,
+      "text": "这个细节啊"
+    },
+    {
+      "id": 66,
+      "start": 122.366,
+      "end": 123.466,
+      "text": "还没有完全做对"
+    },
+    {
+      "id": 67,
+      "start": 123.8,
+      "end": 127.8,
+      "text": "第三组是要一半实物一半相框的相机"
+    },
+    {
+      "id": 68,
+      "start": 127.866,
+      "end": 129.333,
+      "text": "给了他这样的提示词"
+    },
+    {
+      "id": 69,
+      "start": 129.333,
+      "end": 131.566,
+      "text": "我要求同一台相机从中间切开"
+    },
+    {
+      "id": 70,
+      "start": 131.566,
+      "end": 132.833,
+      "text": "右边只留线框"
+    },
+    {
+      "id": 71,
+      "start": 133.133,
+      "end": 134.9,
+      "text": "镜头和机身要接得上"
+    },
+    {
+      "id": 72,
+      "start": 135.066,
+      "end": 137.033,
+      "text": "左边的网格更加的规整"
+    },
+    {
+      "id": 73,
+      "start": 137.1,
+      "end": 139.733,
+      "text": "右半边主要用线条交代结构"
+    },
+    {
+      "id": 74,
+      "start": 140.0,
+      "end": 141.666,
+      "text": "右边虽然也有线框"
+    },
+    {
+      "id": 75,
+      "start": 141.666,
+      "end": 144.366,
+      "text": "但镜头中心还保留了实物一样的光影"
+    },
+    {
+      "id": 76,
+      "start": 144.366,
+      "end": 145.133,
+      "text": "而且画出来了"
+    },
+    {
+      "id": 77,
+      "start": 145.133,
+      "end": 146.766,
+      "text": "一条贯穿背景的分隔线"
+    },
+    {
+      "id": 78,
+      "start": 146.766,
+      "end": 148.8,
+      "text": "所以说这组左边是2.5"
+    },
+    {
+      "id": 79,
+      "start": 148.866,
+      "end": 151.2,
+      "text": "它的线框效果更加规整"
+    },
+    {
+      "id": 80,
+      "start": 151.266,
+      "end": 152.8,
+      "text": "也更接近我的要求"
+    },
+    {
+      "id": 81,
+      "start": 153.133,
+      "end": 153.666,
+      "text": "第四啊"
+    },
+    {
+      "id": 82,
+      "start": 153.666,
+      "end": 155.666,
+      "text": "我们再看国风游戏的一个背包啊"
+    },
+    {
+      "id": 83,
+      "start": 155.666,
+      "end": 157.7,
+      "text": "这组其实差异并没有前面那么大"
+    },
+    {
+      "id": 84,
+      "start": 157.933,
+      "end": 159.666,
+      "text": "九宫格的这种物品栏"
+    },
+    {
+      "id": 85,
+      "start": 159.766,
+      "end": 160.6,
+      "text": "8件物品"
+    },
+    {
+      "id": 86,
+      "start": 160.6,
+      "end": 162.733,
+      "text": "中文和数值两边都做出来"
+    },
+    {
+      "id": 87,
+      "start": 162.733,
+      "end": 163.9,
+      "text": "而且都是正确的"
+    },
+    {
+      "id": 88,
+      "start": 164.066,
+      "end": 166.2,
+      "text": "选中的这种发簪和右边放大的"
+    },
+    {
+      "id": 89,
+      "start": 166.2,
+      "end": 168.766,
+      "text": "发簪也都保留了3条的珠坠"
+    },
+    {
+      "id": 90,
+      "start": 169.166,
+      "end": 171.066,
+      "text": "两边都能够把内容写对"
+    },
+    {
+      "id": 91,
+      "start": 171.1,
+      "end": 173.966,
+      "text": "但是我们再看一些背景这种花木啊"
+    },
+    {
+      "id": 92,
+      "start": 173.966,
+      "end": 176.266,
+      "text": "金属的高光和一些细装饰"
+    },
+    {
+      "id": 93,
+      "start": 176.266,
+      "end": 178.6,
+      "text": "左边这一张还是要更加精致一些"
+    },
+    {
+      "id": 94,
+      "start": 178.633,
+      "end": 179.866,
+      "text": "右边字体更大"
+    },
+    {
+      "id": 95,
+      "start": 179.866,
+      "end": 180.9,
+      "text": "信息更直接"
+    },
+    {
+      "id": 96,
+      "start": 180.9,
+      "end": 182.333,
+      "text": "也完成了基本要求"
+    },
+    {
+      "id": 97,
+      "start": 182.333,
+      "end": 183.266,
+      "text": "所以说很明显"
+    },
+    {
+      "id": 98,
+      "start": 183.3,
+      "end": 184.6,
+      "text": "左边是Image2.5"
+    },
+    {
+      "id": 99,
+      "start": 184.6,
+      "end": 185.933,
+      "text": "右边是image 2"
+    },
+    {
+      "id": 100,
+      "start": 185.933,
+      "end": 187.833,
+      "text": "最后啊这张机械的图谱"
+    },
+    {
+      "id": 101,
+      "start": 187.833,
+      "end": 189.266,
+      "text": "其实问题就更有意思啊"
+    },
+    {
+      "id": 102,
+      "start": 189.266,
+      "end": 190.8,
+      "text": "我给了它这样的提示词"
+    },
+    {
+      "id": 103,
+      "start": 190.8,
+      "end": 192.033,
+      "text": "要求是一个太阳"
+    },
+    {
+      "id": 104,
+      "start": 192.033,
+      "end": 193.0,
+      "text": "三颗行星"
+    },
+    {
+      "id": 105,
+      "start": 193.0,
+      "end": 195.8,
+      "text": "还要有正视图侧视图和5层的拆解"
+    },
+    {
+      "id": 106,
+      "start": 196.2,
+      "end": 198.166,
+      "text": "右边的玻璃反光木纹"
+    },
+    {
+      "id": 107,
+      "start": 198.166,
+      "end": 199.766,
+      "text": "和黄铜层次更加丰富"
+    },
+    {
+      "id": 108,
+      "start": 200.133,
+      "end": 202.1,
+      "text": "三个行星也数对了"
+    },
+    {
+      "id": 109,
+      "start": 202.233,
+      "end": 204.533,
+      "text": "左边的主图却多画了一颗"
+    },
+    {
+      "id": 110,
+      "start": 204.533,
+      "end": 205.433,
+      "text": "变成了4颗"
+    },
+    {
+      "id": 111,
+      "start": 205.433,
+      "end": 206.133,
+      "text": "结果很明显"
+    },
+    {
+      "id": 112,
+      "start": 206.133,
+      "end": 207.5,
+      "text": "右边是image二点五"
+    },
+    {
+      "id": 113,
+      "start": 207.5,
+      "end": 209.066,
+      "text": "左边是image2"
+    },
+    {
+      "id": 114,
+      "start": 209.2,
+      "end": 210.0,
+      "text": "总结下来啊"
+    },
+    {
+      "id": 115,
+      "start": 210.0,
+      "end": 211.2,
+      "text": "我觉得结论很明显"
+    },
+    {
+      "id": 116,
+      "start": 211.2,
+      "end": 214.6,
+      "text": "就是复杂的图片2.5确实明显要好很多"
+    },
+    {
+      "id": 117,
+      "start": 214.8,
+      "end": 215.833,
+      "text": "场景更丰富"
+    },
+    {
+      "id": 118,
+      "start": 215.933,
+      "end": 217.233,
+      "text": "材料层次更分明"
+    },
+    {
+      "id": 119,
+      "start": 217.333,
+      "end": 218.9,
+      "text": "整体也更加精致"
+    },
+    {
+      "id": 120,
+      "start": 218.9,
+      "end": 220.9,
+      "text": "不过在一些简单图片上面来讲啊"
+    },
+    {
+      "id": 121,
+      "start": 220.9,
+      "end": 222.6,
+      "text": "我觉得差异并没有那么大"
+    },
+    {
+      "id": 122,
+      "start": 222.6,
+      "end": 223.3,
+      "text": "第二部分啊"
+    },
+    {
+      "id": 123,
+      "start": 223.3,
+      "end": 224.933,
+      "text": "就是开头展示这个功能"
+    },
+    {
+      "id": 124,
+      "start": 225.033,
+      "end": 226.633,
+      "text": "新增的一个功能叫Sketch"
+    },
+    {
+      "id": 125,
+      "start": 226.933,
+      "end": 229.233,
+      "text": "在Chatgpt里面输入@Sketch"
+    },
+    {
+      "id": 126,
+      "start": 229.233,
+      "end": 231.633,
+      "text": "你就可以直接画一个草图作为参考"
+    },
+    {
+      "id": 127,
+      "start": 231.666,
+      "end": 233.5,
+      "text": "比如我刚刚随便画了一通"
+    },
+    {
+      "id": 128,
+      "start": 233.666,
+      "end": 234.8,
+      "text": "然后让它基于自己的"
+    },
+    {
+      "id": 129,
+      "start": 234.8,
+      "end": 236.466,
+      "text": "理解生成最有创意的图片"
+    },
+    {
+      "id": 130,
+      "start": 236.466,
+      "end": 237.266,
+      "text": "生成5张"
+    },
+    {
+      "id": 131,
+      "start": 237.6,
+      "end": 238.533,
+      "text": "结果很明显"
+    },
+    {
+      "id": 132,
+      "start": 238.666,
+      "end": 240.266,
+      "text": "远远超出我的预期啊"
+    },
+    {
+      "id": 133,
+      "start": 240.266,
+      "end": 244.133,
+      "text": "它生成的折纸、人物、建筑这条龙和花瓣"
+    },
+    {
+      "id": 134,
+      "start": 244.233,
+      "end": 246.3,
+      "text": "和我画的内容形状都一致但是风"
+    },
+    {
+      "id": 135,
+      "start": 246.3,
+      "end": 247.566,
+      "text": "但是风格均不同"
+    },
+    {
+      "id": 136,
+      "start": 247.566,
+      "end": 248.766,
+      "text": "质量非常非常好"
+    },
+    {
+      "id": 137,
+      "start": 249.133,
+      "end": 251.6,
+      "text": "第三部分就是图片的一致性啊"
+    },
+    {
+      "id": 138,
+      "start": 251.766,
+      "end": 254.266,
+      "text": "Image2.5很大的一个进步就是一致性"
+    },
+    {
+      "id": 139,
+      "start": 254.266,
+      "end": 255.733,
+      "text": "我不知道以前大家有没有遇到过"
+    },
+    {
+      "id": 140,
+      "start": 255.733,
+      "end": 257.466,
+      "text": "就是image2生成的图片"
+    },
+    {
+      "id": 141,
+      "start": 257.466,
+      "end": 258.8,
+      "text": "你可能每修改一次"
+    },
+    {
+      "id": 142,
+      "start": 258.8,
+      "end": 261.5,
+      "text": "它就会有一些细节缺失或者变化了"
+    },
+    {
+      "id": 143,
+      "start": 261.5,
+      "end": 264.766,
+      "text": "而image2.5可以在较长的chatgpt对话里面"
+    },
+    {
+      "id": 144,
+      "start": 264.766,
+      "end": 268.233,
+      "text": "它能够更可靠地遵从特定的编辑指令"
+    },
+    {
+      "id": 145,
+      "start": 268.366,
+      "end": 269.9,
+      "text": "即使经过了多次编辑"
+    },
+    {
+      "id": 146,
+      "start": 269.9,
+      "end": 270.933,
+      "text": "也能够保持一致"
+    },
+    {
+      "id": 147,
+      "start": 271.033,
+      "end": 273.266,
+      "text": "而可以避免每次修改它可能"
+    },
+    {
+      "id": 148,
+      "start": 273.266,
+      "end": 275.5,
+      "text": "都会有一些小细节丢失或者变化"
+    },
+    {
+      "id": 149,
+      "start": 275.5,
+      "end": 276.3,
+      "text": "总结来讲"
+    },
+    {
+      "id": 150,
+      "start": 276.3,
+      "end": 278.433,
+      "text": "Image2.5升级还是非常大的"
+    },
+    {
+      "id": 151,
+      "start": 278.566,
+      "end": 279.666,
+      "text": "尤其是对我这种对"
+    },
+    {
+      "id": 152,
+      "start": 279.666,
+      "end": 281.066,
+      "text": "图片要求比较高的人"
+    },
+    {
+      "id": 153,
+      "start": 281.066,
+      "end": 282.933,
+      "text": "这种细节的提升大大"
+    },
+    {
+      "id": 154,
+      "start": 282.933,
+      "end": 284.7,
+      "text": "降低了我抽卡的次数"
+    },
+    {
+      "id": 155,
+      "start": 284.7,
+      "end": 286.666,
+      "text": "现在你打开Codex或者GPT"
+    },
+    {
+      "id": 156,
+      "start": 286.666,
+      "end": 288.4,
+      "text": "网页就可以使用它啦"
+    },
+    {
+      "id": 157,
+      "start": 288.466,
+      "end": 289.8,
+      "text": "大家快去试一试吧"
+    },
+    {
+      "id": 158,
+      "start": 289.8,
+      "end": 291.8,
+      "text": "OK以上就是本期全部内容"
+    }
+  ],
+  "parts": [
+    {
+      "id": "PartA",
+      "start": 0,
+      "end": 4816
+    },
+    {
+      "id": "PartB",
+      "start": 4816,
+      "end": 9188
+    },
+    {
+      "id": "PartC",
+      "start": 9188,
+      "end": 13356
+    },
+    {
+      "id": "PartD",
+      "start": 13356,
+      "end": 17508
+    }
+  ],
+  "acceptance": {
+    "kind": "storyboard-direction-only",
+    "quote": "整体都挺好的，另外不需要提 Lovart，就是 image2 和 image2.5 对比就行了",
+    "videoAccepted": false
+  },
+  "screenPolicy": "Model comparisons only Image 2 and Image 2.5; platform names kept in internal provenance only",
+  "revision": "v6-bounded-4k60",
+  "cityPrompt": {
+    "enter": 42.35,
+    "exit": 49.333,
+    "gone": 49.733,
+    "highlights": [
+      {
+        "text": "恰好三座桥",
+        "at": 44.133
+      },
+      {
+        "text": "恰好两艘小木船",
+        "at": 45.966
+      },
+      {
+        "text": "左前方两层书店",
+        "at": 47.15,
+        "duration": 0.28
+      },
+      {
+        "text": "左后方茶院",
+        "at": 47.72,
+        "duration": 0.28
+      },
+      {
+        "text": "右后方三层八角古塔",
+        "at": 48.15,
+        "duration": 0.28
+      },
+      {
+        "text": "右前方小型露天戏台",
+        "at": 48.68,
+        "duration": 0.28
+      }
+    ],
+    "camera": [
+      {
+        "at": 44.133,
+        "end": 44.85,
+        "x": 1100,
+        "y": 210,
+        "scale": 1.9
+      },
+      {
+        "at": 45.966,
+        "end": 46.55,
+        "x": 1495,
+        "y": 264,
+        "scale": 1.9
+      },
+      {
+        "at": 46.85,
+        "end": 47.35,
+        "x": 1100,
+        "y": 373,
+        "scale": 1.52
+      }
+    ]
+  },
+  "cityPromptText": "创作一幅精细、具有博物馆级品质的等距建筑微缩模型：虚构中国水乡街区“水巷春集”。整幅为连续的 16:9 横向构图。长方形抬高地台被一条从左上流向右下的 S 形运河分开。恰好三座桥，在彼此明确分离的位置跨越河道：左上为石拱步行桥，中央为平直木桥，右下为红色廊桥。每座桥都连接两岸陆地，桥墩不堵塞河道。恰好两艘小木船，均位于露天下的水面：一艘在第一、第二座桥之间，一艘在第二、第三座桥之间。屋顶和街道上不能有船。\n运河周围有四座不同的地标：左前方两层书店、左后方茶院、右后方三层八角古塔、右前方小型露天戏台。它们的轮廓各不相同，瓦顶、门、楼梯和建筑结构合理。加入小灯笼、布遮篷、花篮、适量集市摊位，以及站在道路上的 12 个小行人。等距透视一致，阳光来自左上，水面反射暖光；木纹、石材和陶瓦材质清楚区分。采用微缩景观摄影效果，景深足以看清整个模型。\n顶部以优雅、清晰的中文准确写出“水巷春集”。四个小巧、不抢眼的标签分别附在对应地标上，文字准确为“书店”“茶院”“古塔”“戏台”。无其他文字。采用翡翠绿、暖陶土色和象牙白，浅中性背景。细节丰富、生动但清晰；禁止断开的楼梯、重复地标、不可能的桥和悬浮人物。单张图片，16:9，目标 1536×864。",
+  "motionTiming": {
+    "roadmapFocus": [
+      22.666,
+      24.333,
+      26.266
+    ],
+    "summaryFocus": [
+      214.8,
+      215.933,
+      217.333
+    ],
+    "citySubjectReview": [
+      49.633,
+      51.633
+    ],
+    "pedestrianRequirement": [
+      70.033,
+      72.0
+    ]
+  }
+}

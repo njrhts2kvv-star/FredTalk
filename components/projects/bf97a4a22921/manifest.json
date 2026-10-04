@@ -1,0 +1,1487 @@
+{
+  "schemaVersion": 1,
+  "createdDate": "2026-09-29",
+  "scope": "Selected ranges only; no new visual approval or recreation claimed.",
+  "sourceSnapshots": {
+    "library": {
+      "selectionRevision": 24,
+      "manifestPath": "[LOCAL_PATH]",
+      "sha256": "0d8b76444177eaff61c9b7b28d05a637de5eec5efe4e4c7e22868e1a0b4c3125"
+    },
+    "qiuzhi": {
+      "selectionRevision": 16,
+      "catalogPath": "[LOCAL_PATH]",
+      "catalogSha256": "1a2c127f756a7902fed4d3a4933e5f38b62aafce23144789fc073efa9cd749f6",
+      "choicesPath": "[LOCAL_PATH]",
+      "choicesSha256": "0d399e047020827019570cb024327a06158388d1cf267904f9fca712714d80cd"
+    }
+  },
+  "counts": {
+    "library": 24,
+    "qiuzhi": 12,
+    "selectedRanges": 36
+  },
+  "rows": [
+    {
+      "code": "SP001",
+      "creator": "FredTalk",
+      "source": "第90期",
+      "sourceId": "library-7641588345159699775",
+      "start": 17.716667,
+      "end": 34.9,
+      "label": "三张人物穿搭图并列展示",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/20_7641588345159699775_｜第90期｜用AI搞电商必须要解决批量的问题 批量处理多张图片-换品换色=换装换脸-洗图场景实现-修图去水印-套图.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP002",
+      "creator": "FredTalk",
+      "source": "第91期",
+      "sourceId": "library-7644939441085140262",
+      "start": 183.41667,
+      "end": 188.41667,
+      "label": "素材展示与用户痛点并列 · 短段",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/18_7644939441085140262_｜第91期｜不写脚本也能快速制作产品大片 8类电商产品视频一键生成批量制作有质有量.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": "SP003"
+    },
+    {
+      "code": "SP003",
+      "creator": "FredTalk",
+      "source": "第91期",
+      "sourceId": "library-7644939441085140262",
+      "start": 183.41667,
+      "end": 192.87961,
+      "label": "素材展示与用户痛点并列 · 长段",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/18_7644939441085140262_｜第91期｜不写脚本也能快速制作产品大片 8类电商产品视频一键生成批量制作有质有量.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP004",
+      "creator": "FredTalk",
+      "source": "第92期",
+      "sourceId": "library-7643373199354252607",
+      "start": 0,
+      "end": 5.116666,
+      "label": "“0—1”数字胶囊开场",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP005",
+      "creator": "FredTalk",
+      "source": "第92期",
+      "sourceId": "library-7643373199354252607",
+      "start": 22.766667,
+      "end": 26.666667,
+      "label": "筹划阶段三条黑色胶囊",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP006",
+      "creator": "FredTalk",
+      "source": "第92期",
+      "sourceId": "library-7643373199354252607",
+      "start": 41.166667,
+      "end": 51.950001,
+      "label": "手机输入界面聚焦",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP007",
+      "creator": "FredTalk",
+      "source": "第92期",
+      "sourceId": "library-7643373199354252607",
+      "start": 69.266668,
+      "end": 85.150011,
+      "label": "数据表格前置展示",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP008",
+      "creator": "FredTalk",
+      "source": "第92期",
+      "sourceId": "library-7643373199354252607",
+      "start": 92.550001,
+      "end": 98.710305,
+      "label": "筹划阶段清单加勾强调",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP009",
+      "creator": "FredTalk",
+      "source": "第92期",
+      "sourceId": "library-7643373199354252607",
+      "start": 112.766668,
+      "end": 119.250002,
+      "label": "“应用逻辑”关键词前置",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/19_7643373199354252607_｜第92期｜0-1的全案交给一个AI就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP010",
+      "creator": "FredTalk",
+      "source": "第93期",
+      "sourceId": "library-7646432482899873075",
+      "start": 53.850001,
+      "end": 58.850001,
+      "label": "文档长页浮在模糊界面前",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/17_7646432482899873075__第93期_一键学会产品设计邪修大法 一键生成产品及UI设计图，一键制作前端代码，打破设计与技术壁垒，设计界的.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP011",
+      "creator": "FredTalk",
+      "source": "第95期",
+      "sourceId": "library-7648299999901519119",
+      "start": 3.444408,
+      "end": 8.434471,
+      "label": "30+ 能力四格分类展示",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP012",
+      "creator": "FredTalk",
+      "source": "第95期",
+      "sourceId": "library-7648299999901519119",
+      "start": 17.65,
+      "end": 32.683332,
+      "label": "手机旁三项能力词逐项呈现",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP013",
+      "creator": "FredTalk",
+      "source": "第95期",
+      "sourceId": "library-7648299999901519119",
+      "start": 43.683334,
+      "end": 55.96325,
+      "label": "白色应用界面操作展示",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP014",
+      "creator": "FredTalk",
+      "source": "第95期",
+      "sourceId": "library-7648299999901519119",
+      "start": 236.483338,
+      "end": 245.637177,
+      "label": "四格视频素材展示",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/15_7648299999901519119_｜第95期｜千问视频生成提示词大全 把所有的AI视频玩法都放在一起找千问就够了.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP015",
+      "creator": "FredTalk",
+      "source": "第97期",
+      "sourceId": "library-7651253650899209499",
+      "start": 5.033333,
+      "end": 13.148694,
+      "label": "素材卡片与结果窗口的连线",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": "SP016"
+    },
+    {
+      "code": "SP016",
+      "creator": "FredTalk",
+      "source": "第97期",
+      "sourceId": "library-7651253650899209499",
+      "start": 5.033333,
+      "end": 18,
+      "label": "素材到结果的连线扩展段",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP017",
+      "creator": "FredTalk",
+      "source": "第97期",
+      "sourceId": "library-7651253650899209499",
+      "start": 77.816668,
+      "end": 82.435718,
+      "label": "三行制作流程文字",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP018",
+      "creator": "FredTalk",
+      "source": "第97期",
+      "sourceId": "library-7651253650899209499",
+      "start": 111.250002,
+      "end": 115.506959,
+      "label": "剧本文字与人物参考图并列",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/09_7651253650899209499_｜第97期｜一条视频学会Seko无限画布+自动工作流_顶配模型+无限画布+自动生成工作流能否从原点重塑Ai视频的创作体验_#seko_##sekoai_#Sek.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP019",
+      "creator": "FredTalk",
+      "source": "第101期",
+      "sourceId": "library-7654560132797435151",
+      "start": 35,
+      "end": 48.24018942688255,
+      "label": "三个模型胶囊聚合",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/07_7654560132797435151_第101期_用短剧的方式带货有搞头么_把AI短剧和AI带货结合到一起-玩点抽象的_#挑战用ai做100件事_#青年创作者成长计划_#ai创作浪潮计划_#AI短.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP020",
+      "creator": "FredTalk",
+      "source": "第101期",
+      "sourceId": "library-7654560132797435151",
+      "start": 114.933335,
+      "end": 125.083335,
+      "label": "模型、脚本、产品图三胶囊",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/07_7654560132797435151_第101期_用短剧的方式带货有搞头么_把AI短剧和AI带货结合到一起-玩点抽象的_#挑战用ai做100件事_#青年创作者成长计划_#ai创作浪潮计划_#AI短.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "Motion041",
+      "containedBy": ""
+    },
+    {
+      "code": "SP021",
+      "creator": "FredTalk",
+      "source": "第106期",
+      "sourceId": "library-7656312200281345307",
+      "start": 63.633334,
+      "end": 65.466667,
+      "label": "深色窗口中的三行能力词",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP022",
+      "creator": "FredTalk",
+      "source": "第106期",
+      "sourceId": "library-7656312200281345307",
+      "start": 166.86667,
+      "end": 171.104536,
+      "label": "实拍素材片段",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-07-01/FredTalk_ruApz3F4_recent10/videos/03_7656312200281345307_｜第106期｜免费的多模态大模型-文本-图片-视频都能生成_Seedance平替-免费文本对话大模型-免费API-免费生图大模型-免费AI视频_Agnes工作流.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP023",
+      "creator": "FredTalk",
+      "source": "第108期",
+      "sourceId": "library-7660135356024573236",
+      "start": 12,
+      "end": 15.25,
+      "label": "深色窗口三项任务清单",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/13_7660135356024573236__第108期_3分钟了解全能AI助理的小妙招.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "SP024",
+      "creator": "FredTalk",
+      "source": "第108期",
+      "sourceId": "library-7660135356024573236",
+      "start": 145.683336,
+      "end": 150.005622,
+      "label": "深色窗口两行目标文字",
+      "kind": "用户已选；画面标签为中帧工作标签",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "output/douyin-reference/2026-09-06/FredTalk_ruApz3F4_new20/videos/13_7660135356024573236__第108期_3分钟了解全能AI助理的小妙招.mp4",
+      "sourceUrl": "",
+      "relatedExisting": "",
+      "containedBy": ""
+    },
+    {
+      "code": "Q01",
+      "source": "第01条 · 豆包工作",
+      "sourceId": "7685386476665802026",
+      "start": 78,
+      "end": 87,
+      "label": "资料卡逐项建立后汇入工作台",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7685386476665802026",
+      "relatedExisting": "C04 从一个起点建立信息矩阵",
+      "containedBy": ""
+    },
+    {
+      "code": "Q02",
+      "source": "第02条 · 豆包手机助手",
+      "sourceId": "7685063012075572532",
+      "start": 314,
+      "end": 333,
+      "label": "两部手机操作旁任务清单逐项完成",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7685063012075572532",
+      "relatedExisting": "snap-agent-steps Agent 步骤推进",
+      "containedBy": ""
+    },
+    {
+      "code": "Q03",
+      "source": "第03条 · 炉子能力网络",
+      "sourceId": "7685276904210894120",
+      "start": 230,
+      "end": 252,
+      "label": "关系从两端延伸到断链",
+      "kind": "新动作",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7685276904210894120",
+      "relatedExisting": "C07 分支树收束为输入输出流程",
+      "containedBy": ""
+    },
+    {
+      "code": "Q05",
+      "source": "第05条 · Hermes Agent",
+      "sourceId": "7667987528863042852",
+      "start": 222,
+      "end": 244,
+      "label": "单 Agent 分叉成多模型协作",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7667987528863042852",
+      "relatedExisting": "C05 主题展开分支后聚焦",
+      "containedBy": ""
+    },
+    {
+      "code": "Q07",
+      "source": "第07条 · 豆包 Agent 教程",
+      "sourceId": "7663913737614609707",
+      "start": 365,
+      "end": 411,
+      "label": "Skill 结构逐区聚焦并汇成任务模块",
+      "kind": "新动作",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7663913737614609707",
+      "relatedExisting": "C06 展开当前项再回到列表",
+      "containedBy": ""
+    },
+    {
+      "code": "Q11",
+      "source": "第12条 · Google I/O 2026",
+      "sourceId": "7644073688056237348",
+      "start": 50,
+      "end": 58,
+      "label": "四类输入汇合成全模态输出",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7644073688056237348",
+      "relatedExisting": "C07 分支树收束为输入输出流程",
+      "containedBy": ""
+    },
+    {
+      "code": "Q12",
+      "source": "第13条 · Codex 零基础教程",
+      "sourceId": "7640385127511641382",
+      "start": 2342,
+      "end": 2377,
+      "label": "Codex 能力树逐级长出",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7640385127511641382",
+      "relatedExisting": "C05 主题展开分支后聚焦",
+      "containedBy": ""
+    },
+    {
+      "code": "Q13",
+      "source": "第14条 · TRAE SOLO 手机版",
+      "sourceId": "7637371229166423322",
+      "start": 18,
+      "end": 29,
+      "label": "三端同步构成远程指挥中心",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7637371229166423322",
+      "relatedExisting": "手机横屏流程转为竖屏与窗口并列",
+      "containedBy": ""
+    },
+    {
+      "code": "Q14",
+      "source": "第15条 · Claude Code 教程",
+      "sourceId": "7636497165430394162",
+      "start": 3240,
+      "end": 3297,
+      "label": "游戏关卡式技能成长时间轴",
+      "kind": "新动作",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7636497165430394162",
+      "relatedExisting": "ApprovedV201PathBuild 前一步引出后一步",
+      "containedBy": ""
+    },
+    {
+      "code": "Q15",
+      "source": "第17条 · 剪映 Agent",
+      "sourceId": "7632140069431790884",
+      "start": 57,
+      "end": 68,
+      "label": "对话框分发出批量素材",
+      "kind": "新动作",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7632140069431790884",
+      "relatedExisting": "左右分支汇入中心平台关系图",
+      "containedBy": ""
+    },
+    {
+      "code": "Q16",
+      "source": "第19条 · TRAE SOLO 新版",
+      "sourceId": "7629304745429093672",
+      "start": 78,
+      "end": 94,
+      "label": "独立 Agent 与对话 AI 能力并排对照",
+      "kind": "已有变体",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7629304745429093672",
+      "relatedExisting": "Library N001 双栏同位对照",
+      "containedBy": ""
+    },
+    {
+      "code": "Q17",
+      "source": "第20条 · 豆包专家模式",
+      "sourceId": "7624107331466382642",
+      "start": 97,
+      "end": 108,
+      "label": "一个大问题拆成五个小问题",
+      "kind": "新动作",
+      "note": "",
+      "clipPath": "[LOCAL_PATH]",
+      "sourcePath": "[LOCAL_PATH]",
+      "sourceUrl": "https://www.douyin.com/video/7624107331466382642",
+      "relatedExisting": "C04 从一个起点建立信息矩阵",
+      "containedBy": ""
+    }
+  ],
+  "designContract": {
+    "request": "36 clips, source geometry and motion calibration, Fred visual adaptation, single code freeze before one shared-server serial render queue",
+    "authorization": "User explicitly requested complete batch modifications and cloud render on 127.0.0.1, shared queue",
+    "style": {
+      "background": "#FFFFFF",
+      "surface": "#FFFFFF",
+      "text": "#111111",
+      "accent": "#7C3AED",
+      "shadow": "soft",
+      "decorativeBorders": false
+    },
+    "typography": {
+      "primary": "MiSans",
+      "handwritten": "SmileySans",
+      "syntheticWeight": false,
+      "declarations": "Only src/fred-scene.tsx declares font faces; all actual weights and aliases awaited"
+    },
+    "motion": {
+      "sourceTiming": "native-frame events where measured; residual approximations are explicitly listed",
+      "device": "independent native screen clocks and code carriers",
+      "media": "controlled native UI or generated-reference scenes, project Fred characters replacing presenter slots"
+    },
+    "brand": {
+      "enabled": false,
+      "reason": "standalone reusable clip library, not a FredTalk full episode"
+    },
+    "subtitles": {
+      "inventedSubtitles": false,
+      "reason": "Do not invent subtitles against reference audio. Burned native subtitles are documented residuals where unavailable clean media prevents separation."
+    },
+    "acceptance": {
+      "technicalDoesNotImplyVisual": true,
+      "pixelMatchPassed": false,
+      "userAccepted": false
+    }
+  },
+  "pages": [
+    {
+      "stableId": "Q03",
+      "sourceBeatIds": [
+        "qiuzhi-03-230-252"
+      ],
+      "durationInFrames": 660,
+      "fps": 30,
+      "width": 2560,
+      "height": 1440,
+      "exactScreenWords": {
+        "firstNode": "XXX",
+        "secondNode": "XXX",
+        "information": "信息",
+        "practice": "消化\n实践",
+        "result": "XXX",
+        "subtitleA": "先把想法与操作放到同一条线上",
+        "subtitleB": "让信息真正接到可执行的工作里",
+        "subtitleC": "断开的地方，正是下一步要补齐的能力"
+      },
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 230,
+        "endSeconds": 252
+      },
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      }
+    },
+    {
+      "stableId": "SP001",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 17.716667,
+        "endSeconds": 34.9
+      },
+      "fps": 60,
+      "durationInFrames": 1031,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP002",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 183.41667,
+        "endSeconds": 188.41667
+      },
+      "fps": 60,
+      "durationInFrames": 300,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP003",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 183.41667,
+        "endSeconds": 192.87961
+      },
+      "fps": 60,
+      "durationInFrames": 568,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP004",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 0,
+        "endSeconds": 5.116666
+      },
+      "fps": 30,
+      "durationInFrames": 154,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP005",
+      "sourceBeatIds": [
+        "library-92-22.766667-26.666667"
+      ],
+      "durationInFrames": 117,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "exactScreenWords": {
+        "firstPill": "筹划阶段",
+        "subtitle": "第一个是筹划阶段"
+      },
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 22.766667,
+        "endSeconds": 26.666667
+      },
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      }
+    },
+    {
+      "stableId": "SP006",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 41.166667,
+        "endSeconds": 51.950001
+      },
+      "fps": 30,
+      "durationInFrames": 324,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP007",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 69.266668,
+        "endSeconds": 85.150011
+      },
+      "fps": 30,
+      "durationInFrames": 477,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP008",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 92.550001,
+        "endSeconds": 98.710305
+      },
+      "fps": 30,
+      "durationInFrames": 184,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP009",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 112.766668,
+        "endSeconds": 119.250002
+      },
+      "fps": 30,
+      "durationInFrames": 195,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP010",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 53.850001,
+        "endSeconds": 58.850001
+      },
+      "fps": 60,
+      "durationInFrames": 300,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP011",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 3.444408,
+        "endSeconds": 8.434471
+      },
+      "fps": 30,
+      "durationInFrames": 149,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP012",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 17.65,
+        "endSeconds": 32.683332
+      },
+      "fps": 30,
+      "durationInFrames": 450,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP013",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 43.683334,
+        "endSeconds": 55.96325
+      },
+      "fps": 30,
+      "durationInFrames": 368,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP014",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 236.483338,
+        "endSeconds": 245.637177
+      },
+      "fps": 30,
+      "durationInFrames": 274,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP015",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 5.033333,
+        "endSeconds": 13.148694
+      },
+      "fps": 30,
+      "durationInFrames": 244,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP016",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 5.033333,
+        "endSeconds": 18
+      },
+      "fps": 30,
+      "durationInFrames": 389,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP017",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 77.816668,
+        "endSeconds": 82.435718
+      },
+      "fps": 30,
+      "durationInFrames": 138,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP018",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 111.250002,
+        "endSeconds": 115.506959
+      },
+      "fps": 30,
+      "durationInFrames": 127,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP019",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 35,
+        "endSeconds": 48.24018942688255
+      },
+      "fps": 30,
+      "durationInFrames": 398,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP020",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 114.933335,
+        "endSeconds": 125.083335
+      },
+      "fps": 30,
+      "durationInFrames": 305,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP021",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 63.633334,
+        "endSeconds": 65.466667
+      },
+      "fps": 30,
+      "durationInFrames": 55,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP022",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 166.86667,
+        "endSeconds": 171.104536
+      },
+      "fps": 30,
+      "durationInFrames": 128,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "SP023",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 12,
+        "endSeconds": 15.25
+      },
+      "fps": 60,
+      "durationInFrames": 195,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "stableId": "SP024",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 145.683336,
+        "endSeconds": 150.005622
+      },
+      "fps": 60,
+      "durationInFrames": 260,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "stableId": "Q01",
+      "sourceBeatIds": [
+        "qiuzhi-01-78-87"
+      ],
+      "durationInFrames": 270,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "exactScreenWords": {
+        "cards": [
+          "文档",
+          "表格",
+          "群聊",
+          "会议纪要",
+          "日历",
+          "组织关系",
+          "请假审批"
+        ],
+        "destination": "Fred 工作台",
+        "subtitleA": "文档、表格、群聊里的信息",
+        "subtitleB": "会议纪要、日历和协作关系",
+        "subtitleC": "包括请假审批的进度",
+        "subtitleD": "全部汇入 Fred 工作台"
+      },
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 78,
+        "endSeconds": 87
+      },
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      }
+    },
+    {
+      "stableId": "Q02",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 314,
+        "endSeconds": 333
+      },
+      "fps": 30,
+      "durationInFrames": 570,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q05",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 222,
+        "endSeconds": 244
+      },
+      "fps": 30,
+      "durationInFrames": 660,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q07",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 365,
+        "endSeconds": 411
+      },
+      "fps": 30,
+      "durationInFrames": 1380,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q11",
+      "sourceBeatIds": [
+        "qiuzhi-12-50-58"
+      ],
+      "durationInFrames": 240,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "exactScreenWords": {
+        "heading": "Fred Omni",
+        "input": [
+          "文字",
+          "图片",
+          "视频",
+          "音频"
+        ],
+        "output": "全模态输出"
+      },
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 50,
+        "endSeconds": 58
+      },
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      }
+    },
+    {
+      "stableId": "Q12",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 2342,
+        "endSeconds": 2377
+      },
+      "fps": 30,
+      "durationInFrames": 1050,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q13",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 18,
+        "endSeconds": 29
+      },
+      "fps": 30,
+      "durationInFrames": 330,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q14",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 3240,
+        "endSeconds": 3297
+      },
+      "fps": 30,
+      "durationInFrames": 1710,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q15",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 57,
+        "endSeconds": 68
+      },
+      "fps": 30,
+      "durationInFrames": 330,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q16",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 78,
+        "endSeconds": 94
+      },
+      "fps": 30,
+      "durationInFrames": 480,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "stableId": "Q17",
+      "exactScreenWords": {},
+      "sourceClip": "[LOCAL_PATH]",
+      "sourceInterval": {
+        "startSeconds": 97,
+        "endSeconds": 108
+      },
+      "fps": 30,
+      "durationInFrames": 330,
+      "sceneGuide": {
+        "implementationMode": "remotion-rebuild-with-controlled-media",
+        "styleContract": "designContract",
+        "sourceGeometry": "reassessment-20260930 evidence and per-frame track JSON where available",
+        "feedback": "User rejected prior versions: geometry, motion and Fred style mismatch",
+        "preserve": "All 36 selected identities, source interval and audible track",
+        "inspection": "representative frames checked; full new final motion pending",
+        "mediaBoundary": "Native UI source and permitted generated scene layers are recorded per asset; project Fred replacement characters are distinct from source presenter"
+      },
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "reassessment": {
+    "report": "qc/reassessment-20260930/修改意见.md",
+    "phase": "code-frozen",
+    "pixelMatchPassed": false,
+    "batch": "20260930-reassessment02",
+    "fullMotionPassed": false
+  },
+  "codeRevision": {
+    "id": "20260930-code-only",
+    "status": "revised-not-rendered",
+    "report": "qc/code-revision-20260930/修改完成说明.md",
+    "sceneCount": 36,
+    "sourceFramesDecoded": 15140,
+    "oldOutputFramesDecoded": 15140,
+    "rendered": false,
+    "cloudSubmitted": false,
+    "pixelMatchPassed": false,
+    "newMotionPassed": false
+  }
+}

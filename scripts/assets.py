@@ -40,13 +40,19 @@ def assemble_pack(pack, folder):
  temporary.replace(target)
  for part in pack['parts']:(folder/part['name']).unlink()
  return target
+def validate_release_manifest(release, manifest_bytes):
+ expected=release.get('manifestSha256')
+ actual=hashlib.sha256(manifest_bytes).hexdigest()
+ if expected!=actual:
+  raise ValueError('Release manifest does not match current dependencies; rebuild media packs before downloading.')
+
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['status','download','verify','materialize']);p.add_argument('--project',help='Materialize only one repository-relative project directory');args=p.parse_args()
  files=records();unique={v['sha256']:v for v in files.values() if v['status']=='reviewed'}
  if args.action=='status':
   print(json.dumps({'reviewedObjects':len(unique),'downloadBytes':sum(v['size'] for v in unique.values()),'installedObjects':sum(available(v) is not None for v in unique.values()),'excludedPaths':sum(v['status']!='reviewed' for v in files.values())},indent=2));return
  if args.action=='download':
-  release=json.loads((ROOT/'library/releases.json').read_text());folder=ROOT/'.artifacts/downloads';folder.mkdir(parents=True,exist_ok=True)
+  release=json.loads((ROOT/'library/releases.json').read_text());validate_release_manifest(release,(ROOT/'library/media-manifest.json').read_bytes());folder=ROOT/'.artifacts/downloads';folder.mkdir(parents=True,exist_ok=True)
   for pack in release['packs']:
    target=folder/pack['name']
    if not target.exists():

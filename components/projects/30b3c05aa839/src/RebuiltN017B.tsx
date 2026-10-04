@@ -1,0 +1,15 @@
+import {approvedStaticFile as staticFile} from '../material-policy';
+import React from 'react';
+import {AbsoluteFill, Img} from 'remotion';
+type Props={id:string;t:number;overrides?:{words?:string[];assets?:Record<string,string>;accent?:string}};
+const mix=(a:number,b:number,q:number)=>a+(b-a)*q;
+const p=(t:number,a:number,b:number)=>{const x=Math.max(0,Math.min(1,(t-a)/(b-a)));return x*x*(3-2*x)};
+export function RebuiltN017B({t,overrides:o}:Props){
+ const f=Math.round(t*60),extract=p(t,3.2,3.64),reframe=p(t,3.79,4.13),a=o?.accent??'#8554E8';
+ const x=mix(240,184,reframe),w=mix(1440,1552,reframe),h=mix(916,992,reframe);
+ const actorFrame=1+Math.min(150,Math.floor(Math.min(t,3.22)*30));const actorSrc=staticFile(o?.assets?.character??`group-b/character/${String(actorFrame).padStart(4,'0')}.png`);
+ const actorBox={position:'absolute' as const,left:mix(520,840,reframe),top:mix(185,196,reframe),width:mix(710,540,reframe),height:mix(610,430,reframe)};
+ const lineStarts=[4.27,4.65,4.99,5.3],lineEnds=[4.61,4.96,5.27,5.9],lines=[o?.words?.[0]??'姓名：Fred',o?.words?.[1]??'种类：AI',o?.words?.[2]??'职务：Agent',o?.words?.[3]??'特性：全能、自由、独立'];
+ const flash=t<3.2?0:t<3.32?p(t,3.2,3.32)*.64:(1-p(t,3.32,3.64))*.64;
+ return <AbsoluteFill style={{background:'#fff'}}><div style={{position:'absolute',left:x,top:42,width:w,height:h,background:'#202123',borderRadius:26,overflow:'hidden'}}><div style={{position:'absolute',left:0,right:0,top:0,height:92,background:'#111518',display:'flex',alignItems:'center',gap:24,paddingLeft:52}}>{[a,'#bdbdbd','#f1f1f1'].map(c=><span key={c} style={{width:23,height:23,borderRadius:20,background:c}}/>)}</div><div style={{position:'absolute',left:22,right:22,top:105,bottom:20,background:'#000',opacity:1-extract}}><div style={{position:'absolute',inset:'94px 0 94px',overflow:'hidden'}}><Img src={staticFile(o?.assets?.background??'group-b/41-room.jpg')} style={{width:'100%',height:'100%',objectFit:'cover',filter:'brightness(.27) blur(2px)'}}/></div></div><div style={{...actorBox,filter:`drop-shadow(${5*p(t,.12,.45)}px 0 0 white) drop-shadow(${-5*p(t,.12,.45)}px 0 0 white) drop-shadow(0 ${5*p(t,.12,.45)}px 0 white) drop-shadow(0 ${-5*p(t,.12,.45)}px 0 white)`}}><Img src={actorSrc} style={{height:'100%',width:'100%',objectFit:'contain'}}/></div>{lines.map((line,i)=>{const progress=Math.max(0,Math.min(1,(t-lineStarts[i])/(lineEnds[i]-lineStarts[i])));const count=Math.floor(progress*line.length);const cursor=t>=lineStarts[i]&&t<(i<3?lineStarts[i+1]:lineEnds[i]+.23);return <div key={i} style={{position:'absolute',left:112,top:174+i*158,fontSize:108,fontWeight:400,lineHeight:1.2,color:'#fff',whiteSpace:'nowrap'}}>{line.slice(0,count)}{cursor&&<span style={{display:'inline-block',width:45,height:118,verticalAlign:'middle',background:'#ddd',marginLeft:3}}/>}</div>})}</div><AbsoluteFill style={{background:'#fff',opacity:flash}}/></AbsoluteFill>
+}
