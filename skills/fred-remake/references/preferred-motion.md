@@ -4,7 +4,7 @@
 
 ## 查找和使用
 
-Library自选24条当前认可版以 `library-selfpick24-20261001` 查询；SP001–SP024均保留准确视频、源码、依赖和时钟。本批秋芝12条为drop。用途与运行方式见[Library自选24条](../../fred-remotion-output/references/library.md)，保留旧集合选择，不将这次批次排除泛化到所有秋芝参考。
+Library自选24条当前认可版以 `library-selfpick24-20261001` 查询；SP001–SP024均保留准确视频、源码、依赖和时钟。本批另12条为drop。用途与运行方式见[Library自选24条](../../fred-remotion-output/references/library.md)，保留旧集合选择，不将这次批次排除泛化到其他批次参考。
 
 ```bash
 python3 skills/fred-remake/scripts/query-preferred-motion.py --query 提示词
