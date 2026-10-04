@@ -21,7 +21,13 @@ metadata:
 
 只维护一份当前 Manifest。将镜头、文字、材质、保留范围写入 `designContract` 和受影响场景。使用 `scene.py --manifest <path> --scene-id <id>` 读取场景执行包。修方向时同步视觉计划、动作和关键帧目的，不只换一张图。
 
-首次设计读[设计语言](DESIGN.md)、[字体职责](references/typography.md)和[制作默认值](references/production-defaults.md)。组件选型与真实调用见[从内容到组件](references/content-to-component.md)。完整模块适合就复用；无合适方案时允许新建，但要保留风格依据与实际检查。
+首次设计读[设计语言](DESIGN.md)、[字体职责](references/typography.md)和[制作默认值](references/production-defaults.md)。组件选型与真实调用见[从内容到组件](references/content-to-component.md)。完整模块适合就复用；默认复用认可组件或保留核心构图、关系、动作的二创；找不到时报告待选缺口。原创只接受当前用户针对该场景的明确授权。
+
+## 交付门禁（2026-10-04便携版）
+
+建议和关键帧交付前分别运行[组件库交付门禁](references/library-delivery-gate.md)。只通过技术检查不足以交付，助手必须实际审看准确参考和本次输出。直出授权不跳过内部验收，静态帧与音频联动不冒充动态认可。分发gate按本仓库当前catalog和源码hash检查，不能使用生产目录的原始hash。
+
+[统一用途](references/visual-usage.md)使用六类任务检索；字体按原有五家族职责选取。深底可编辑前景紫色使用`#D6BEFF`，浅底保留准确源；历史媒体像素不改。
 
 ## 当前阶段入口
 
@@ -47,6 +53,12 @@ metadata:
 5. 保护非目标画面、时间、音轨和素材。局部返修只处理受影响范围。未经当前授权，不上传私人媒体、调用付费服务或公开发布。
 6. 默认独立16:9，1080p预览、4K60正式；当前项目规格优先。准确场景快照不自动升级为通用参数组件。
 7. FredTalk解释动画使用适用品牌层；主内容为真实录屏、实拍或生成视频时按规则显隐。烧录字幕时检查关键前景在整个运动范围内的避让。
+
+## 音频与关键帧
+
+`build_segment_review.py`读取Manifest的`audio.path/sha256`，音频时间驱动当前场景与离散帧，支持跳帧、倍速与反向定位；见[审看片](references/segment-review.md)。录音或帧换版重新生成页面，hash变更不能复用旧批准。
+
+音频剪切和字幕纠错使用独立[音频和字幕粗剪](../audio-subtitle-roughcut/SKILL.md)。便携包包含本地审片、导出与可选ASR，不包含私人自然人声运行环境。
 
 ## 工具与边界
 

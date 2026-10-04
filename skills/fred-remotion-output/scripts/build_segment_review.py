@@ -25,6 +25,11 @@ def build(manifest_path, output, view='suggestion'):
         raise ValueError('Unknown review view')
     manifest_path, output = Path(manifest_path).resolve(), Path(output).resolve()
     data = json.loads(manifest_path.read_text())
+    from library_gate import validate_library_gate
+    stage = 'keyframes' if any(p.get('keyframeReview', {}).get('frames') for p in data.get('pages', [])) or view == 'keyframes' else 'suggestion'
+    errors = validate_library_gate(data, stage, manifest_path.parent)
+    if errors:
+        raise ValueError('Library delivery gate FAIL:\n' + '\n'.join(errors))
     episode, fps = data['episodeKey'], data['timelineFps']
     if not isinstance(episode, str) or not episode.strip():
         raise ValueError('episodeKey must be a stable nonempty string')
@@ -186,13 +191,21 @@ def build(manifest_path, output, view='suggestion'):
                 advice=review.get('note', '正常速度观看，检查节奏、声音和前后衔接。'))
     if not rows:
         raise ValueError('Manifest has no pages')
+    audio = data.get('audio')
+    audio_player = ''
+    if audio:
+        if not isinstance(audio, dict) or not audio.get('path') or not audio.get('sha256'):
+            raise ValueError('Review audio requires a local path and current sha256')
+        sound = asset(audio['path'], audio['sha256'], required_hash=True)
+        audio_player = f'''<section id="audio-review" aria-label="音频与关键帧"><audio id="review-audio" controls preload="metadata" src="{esc(sound['url'])}" data-sha256="{sound['sha256']}"></audio><label>倍速 <select id="audio-speed"><option>1</option><option>1.25</option><option>1.5</option><option>2</option></select></label><label><input type="checkbox" id="audio-follow" checked>随音频切换关键帧</label><button id="frame-prev">上一帧</button><button id="frame-next">下一帧</button><span id="audio-frame-label" role="status"></span><figure id="audio-frame"></figure><p class="scope-note">这是离散关键帧与音频对照，不代表连续动画已审看。</p></section>'''
     template = Path(__file__).resolve().parents[1] / 'templates/segment-review.html'
     script_json = lambda value: json.dumps(value, ensure_ascii=False).replace('<', '\\u003c')
     replacements = {'__TITLE__': esc(data.get('title', episode) + ' · 逐段审看'), '__ROWS__': ''.join(rows),
                     '__TIMING__': TIMING_LABELS.get(data.get('timingStatus'), '时间待核对 / 估时'),
                     '__STORAGE_KEY__': script_json('fred-segment-review:' + episode),
                     '__EPISODE__': script_json(episode), '__REVIEW_DATA__': script_json(metadata),
-                    '__INITIAL_VIEW__': script_json(view)}
+                    '__INITIAL_VIEW__': script_json(view), '__AUDIO_PLAYER__': audio_player,
+                    '__TIMELINE_SCRIPT__': (template.parent / 'review-timeline.js').read_text()}
     result = re.sub('|'.join(map(re.escape, replacements)), lambda match: replacements[match[0]], template.read_text())
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(result)

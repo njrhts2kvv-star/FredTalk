@@ -17,7 +17,7 @@
 
 FredTalk 把视频制作中的关键判断连起来：**这句话要让观众理解什么、哪种动作有助于解释、真实内容怎样放进去，以及交付前要检查什么。**
 
-仓库包含当前完整的 `fred-remotion-output` Skill 文档、浏览器视觉库、组件源码快照和可选素材包。“完整”指当前 Skill 文档与规则；旧场景复现和云端执行仍需对应素材、环境及配置。目前处于**私有检查阶段**，为后续开源做准备。
+仓库包含当前便携版的 `fred-remotion-output` Skill 文档、浏览器视觉库、组件源码快照和可选素材包。“完整”指当前 Skill 文档与规则；旧场景复现和云端执行仍需对应素材、环境及配置。目前处于**私有检查阶段**，为后续开源做准备。
 
 <table><tr><td><img src="docs/assets/C008.jpg" alt="Step-by-step explanation scene" width="420"></td><td><img src="docs/assets/SP024.jpg" alt="Three clear goals in a dark window" width="420"></td></tr></table>
 
@@ -138,3 +138,10 @@ python3 -m unittest discover -s tests
 ## 许可与归因
 
 当前尚未授予统一开源许可。源码、字体、参考媒体及第三方依赖可能具有不同的权利归属和许可条件。收录在私有库中不代表可以公开再分发。请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与公开前检查。
+
+
+## 2026-10-04 update / 本次更新
+
+The portable Skill now includes a current-catalog delivery gate, parsed source invocation checks, audio-synchronized discrete keyframe review, and the optional audio/subtitle roughcut Skill. No private narration, credentials or episode feedback is included. Natural-voice preprocessing requires the user's own verified environment. Historical snapshots and third-party assets retain the release limitations in docs/public-release.md.
+
+便携版已更新认可组件/二创约束、真实源码调用检查、关键帧随音频播放和独立音频字幕粗剪。具体范围见对应SKILL.md；旧源快照不因此成为通用参数接口或公开素材授权。

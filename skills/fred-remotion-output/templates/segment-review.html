@@ -5,6 +5,7 @@
 <title>__TITLE__</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#fff;color:#202124;font:15px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}header{padding:26px 28px 18px}h1{font-size:24px;margin:0 0 6px}header p{margin:4px 0;color:#666;font-size:14px}.toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px}button,select{font:inherit;background:#fff;border:1px solid #d3d5d8;border-radius:6px;padding:7px 12px;color:#333;cursor:pointer}button.active{background:#222;color:#fff;border-color:#222}button:disabled,select:disabled{cursor:default;opacity:.5}.save,.scope-note{font-size:12px;color:#6a6f76}.save{margin-top:12px}.table-wrap{padding:0 28px 40px;overflow:auto}table{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;border-left:1px solid #d9dce1;border-top:1px solid #d9dce1}col:nth-child(1){width:26%}col:nth-child(2){width:43%}col:nth-child(3){width:31%}th,td{border-right:1px solid #d9dce1;border-bottom:1px solid #d9dce1;padding:16px;vertical-align:top;text-align:left}th{background:#f3f4f5;position:sticky;top:0;z-index:2}td p{margin:8px 0 14px}.time{font-size:12px;color:#6a6f76;font-variant-numeric:tabular-nums}.narration{white-space:pre-line;line-height:1.85}figure{margin:0 0 14px}figcaption{font-size:13px;color:#666;margin-bottom:8px}video{width:100%;aspect-ratio:16/9;object-fit:contain;background:#171717;display:block;border-radius:6px}.file{font-size:12px;color:#555}.badge{display:inline-block;font-size:12px;background:#f0f1f2;padding:3px 9px;border-radius:4px}.badge.keep{background:#e9f3ed;color:#28623c}.badge.change{background:#fff3da;color:#785114}.choice-label{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px;margin:10px 0}.empty{padding:34px 14px;background:#f7f8f9;border:1px dashed #d7dade;text-align:center;color:#777}.candidate{border-top:1px solid #e4e5e7;padding:14px 0}.candidate input{margin-right:7px}.asset-image{display:block;width:100%;padding:0;border:0;background:#f5f5f5;cursor:zoom-in}.asset-image img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain}details{margin:12px 0}summary{font-size:13px;cursor:pointer;color:#555}tr[hidden]{display:none}.rich-feedback{white-space:pre-wrap;overflow-wrap:anywhere;min-height:140px;margin-top:12px;padding:12px;border:1px solid #d3d5d8;border-radius:8px;background:#fff;font-size:14px;line-height:1.8}.rich-feedback:focus{outline:2px solid #969da5;outline-offset:1px}.rich-feedback:empty:before{content:attr(data-placeholder);color:#999;pointer-events:none}.inline-feedback-image{display:inline-block;position:relative;max-width:100%;vertical-align:middle;margin:8px 0;white-space:normal}.inline-feedback-image img{display:block;max-width:100%;max-height:300px;border-radius:6px;cursor:zoom-in}.inline-feedback-image button{position:absolute;right:5px;top:5px;padding:0;width:25px;height:25px;border-radius:50%;background:#fff;box-shadow:0 1px 5px #0004}.feedback-attachments{margin-top:8px}.feedback-attachments span{display:block;font-size:12px;color:#777;margin-top:4px}.history{font-size:13px}.history pre{white-space:pre-wrap;font:inherit;background:#f5f5f5;padding:10px}.history img{max-width:100%;max-height:180px}.image-preview{max-width:92vw;max-height:92vh;border:0;border-radius:12px;padding:16px}.image-preview::backdrop{background:#0009}.image-preview>button{display:block;margin-bottom:10px}.image-preview img{display:block;max-width:85vw;max-height:78vh;object-fit:contain}textarea[hidden]{display:none}@media(min-width:1600px){header,.table-wrap{max-width:1780px;margin:auto}}@media(max-width:900px){header{padding:18px 12px}.table-wrap{padding:0 12px 24px}th,td{padding:10px}body{font-size:14px}}@media(max-width:650px){table{min-width:900px}h1{font-size:20px}}
+#audio-review{padding:12px;background:#f7f7f7;border-radius:8px}#audio-frame{margin:10px 0}#audio-frame img{display:block;width:min(100%,720px);height:auto}#review-audio{max-width:100%;vertical-align:middle}
 </style>
 <body>
 <header>
@@ -12,6 +13,7 @@
 <p>先看图文建议，再看真实关键帧，最后看视频。原文和意见始终在画面两侧。</p>
 <p>__TIMING__ · 意见只保存在当前浏览器，导出后交给助手处理。</p>
 <nav class="toolbar" aria-label="审看阶段"><button data-view-button="suggestion">图文建议</button><button data-view-button="keyframes">真实关键帧</button><button data-view-button="video">视频审看</button></nav>
+__AUDIO_PLAYER__
 <p id="view-hint"></p>
 <nav class="toolbar" aria-label="筛选"><button data-filter="all">全部</button><button data-filter="pending">待看</button><button data-filter="keep">保留主体</button><button data-filter="change">需要修改</button><button data-filter="skip">先跳过</button><button id="export">导出选择与修改意见（含图片）</button></nav>
 <div id="save-state" class="save" role="status">正在读取本机反馈…</div>
@@ -19,6 +21,7 @@
 <main class="table-wrap"><table><colgroup><col><col><col></colgroup><thead><tr><th>逐字稿</th><th id="media-heading">画面建议</th><th>你的选择与修改意见</th></tr></thead><tbody>__ROWS__</tbody></table></main>
 <script id="review-data" type="application/json">__REVIEW_DATA__</script>
 <script>
+__TIMELINE_SCRIPT__
 (()=>{
 'use strict';
 const key=__STORAGE_KEY__,episodeKey=__EPISODE__,metadata=JSON.parse(document.querySelector('#review-data').textContent);
@@ -70,6 +73,28 @@ async function exportData(){await ready;await Promise.all([...pending]);const st
  return {schemaVersion:5,episodeKey,episode:episodeKey,exportedAt:new Date().toISOString(),records:await Promise.all(Object.entries(records).map(([id,record])=>exportRecord(record,currentKeys.has(id)))),legacyFeedback,savedToManifest:false};}
 // The export function also permits local browser verification without initiating a download.
 window.segmentReview={exportData};
+const audio=document.querySelector('#review-audio');
+if(audio){
+ const frames=metadata.filter(item=>item.view==='keyframes'&&item.artifact.available&&Number.isFinite(item.artifact.timeSeconds)&&Number.isFinite(item.context.startSeconds));
+ const preview=document.querySelector('#audio-frame'),label=document.querySelector('#audio-frame-label');
+ let active=null;
+ const show=item=>{
+  if(active?.rowId===item?.rowId)return;
+  active=item; preview.replaceChildren();
+  label.textContent=item?`${item.stableId} · ${item.artifact.timeSeconds.toFixed(3)}s`:'当前时间没有可映射的关键帧';
+  if(item){const image=document.querySelector('#'+item.rowId+' img');if(image)preview.append(image.cloneNode(true));}
+ };
+ const sync=()=>{if(document.querySelector('#audio-follow').checked)show(ReviewTimeline.activeFrame(frames,audio.currentTime));};
+ ['timeupdate','seeked','loadedmetadata','ended'].forEach(event=>audio.addEventListener(event,sync));
+ audio.addEventListener('error',()=>{label.textContent='音频加载失败，请检查本地文件路径。';});
+ document.querySelector('#audio-speed').onchange=e=>{audio.playbackRate=Number(e.target.value);};
+ document.querySelector('#audio-follow').onchange=sync;
+ for(const [id,delta] of [['frame-prev',-1],['frame-next',1]])document.querySelector('#'+id).onclick=()=>{const item=ReviewTimeline.adjacentFrame(frames,active?.rowId,delta);if(item){audio.currentTime=item.artifact.timeSeconds;show(item);}};
+ for(const item of frames){const row=document.getElementById(item.rowId);const button=document.createElement('button');button.textContent='定位音频';button.onclick=()=>{audio.currentTime=item.artifact.timeSeconds;show(item);};row.querySelector('td:nth-child(2)').append(button);}
+ sync();
+ window.segmentReview.audio={sync,frame:()=>active?.rowId||null,sha256:audio.dataset.sha256};
+}
+
 document.querySelector('#export').onclick=async()=>{const button=document.querySelector('#export');button.disabled=true;try{const result=await exportData(),url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'})),link=document.createElement('a');link.href=url;link.download='segment-review-feedback.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent='已导出选择和图文意见，请将文件交给助手。'}catch(error){status.textContent='导出失败：'+error.message}finally{button.disabled=false}};
 document.addEventListener('play',event=>{if(event.target.tagName==='VIDEO')document.querySelectorAll('video').forEach(video=>{if(video!==event.target)video.pause()})},true);
 applyFilter();

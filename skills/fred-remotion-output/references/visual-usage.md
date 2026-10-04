@@ -1,14 +1,21 @@
-# 按用途选择视觉方案
+# 统一用途检索
 
-视觉库与命令行检索读取仓库根目录 `library/catalog.json`。使用具体表达场景缩小选择范围，而不是按某个旧项目或人物来源挑选。
+当前目录已经包含六类任务，来源集合、准确ID、取舍独立保留，不按来源推断用途。
 
-主要方向为讲清一件事、展示操作、展示作品、衔接内容和说明数据。具体场景包括强调一句话、列举、流程、分类分支、提问与回答、输入聊天、聚焦标注、设备操作、并排比较、多图作品墙、作品切换、章节入场、窗口交接、对象让位、文字出入与图表。
+| use | 制作任务 |
+| --- | --- |
+| explain | 讲解段落：分步建立、阅读与收束 |
+| recording-focus | 录屏聚焦：ROI、蒙版、放大、标注 |
+| images | 图片与作品：比例、顺序、裁切、阅读 |
+| video-entry | 录屏与视频入场：全屏、窗口、设备与音轨 |
+| handoff | 内容交接：上段终态、下段首态与对象身份 |
+| data | 数值与图表：数据、单位与共同尺度 |
 
 ```bash
-python3 scripts/catalog.py --list
-python3 scripts/catalog.py --use explain --query "流程" --limit 3
+python3 scripts/catalog.py --use explain --query '对象 接力' --limit 3
+python3 scripts/catalog.py --use recording-focus --limit 3
 ```
 
-返回的用途、输入对象、动作、职责和时长帮助选型，不自动决定本期构图或替代观看真实预览。全库数量与当前可选身份以实际数据库为准。
+matching包含useIds/inputObjects/action/segmentRole/nativeDurationSeconds等字段。短片不是现成20秒模板，本期cue与阅读窗口重新适配。默认目录保留已确认隐藏与去重结果，准确版本仍从条目sources定位；历史资产不因此删改。
 
-封面选关键前景完整、文字可读且能解释用途的真实帧。播放结束回到封面，暂停保留当前帧。预览无音轨。素材未安装或因隐私被隔离时，应显示明确状态，不能回退到私人地址。
+字体按typography.md的五家族职责选择，深底可编辑前景紫色用#D6BEFF，浅底准确源和媒体像素保留。

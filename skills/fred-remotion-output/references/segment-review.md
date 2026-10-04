@@ -124,3 +124,10 @@ node skills/fred-remotion-output/scripts/test_segment_review_browser.cjs
 ```
 
 浏览器测试使用已有 Playwright，不自动安装依赖。它验证三视图、助手建议不预选、真实用户选择、图文导出、保留主体但仍需改、静态认可边界、同路径换图状态失效、历史保留与视频视图。测试 fixture 仅供工具验证，不是生产风格或分镜模板。
+
+
+## 关键帧随音频播放
+
+Manifest可选`audio: {"path":"voice.wav", "sha256":"实际当前文件hash"}`；帧timeSeconds必须是scene_window映射后的全片秒数。生成器校验音频和关键帧hash。页面使用同一音频时钟、场景起止与离散帧时间，支持暂停、拖动、倍速、上一/下一帧及定位音频；没有时间映射的帧不参与联动。场景间空隙与全片结束清空当前帧提示，不将旧帧延续到下段。
+
+意见仍按stableId/view/item/version保存，新增音频控件不会重建旧反馈。录音换版重新生成Manifest/page上下文，不把旧版本选择当新批准。音频联动是静态关键帧审看，animationApproved仍为false。

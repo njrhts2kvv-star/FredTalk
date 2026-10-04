@@ -138,3 +138,10 @@ Contributions should preserve source attribution, identify the exact scene and v
 ## Licensing and attribution
 
 No blanket open-source license has been granted yet. Source projects, fonts, reference media and third-party dependencies may have different owners and license terms. Their presence here is not permission to redistribute them publicly. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and the public-release checklist.
+
+
+## 2026-10-04 update / 本次更新
+
+The portable Skill now includes a current-catalog delivery gate, parsed source invocation checks, audio-synchronized discrete keyframe review, and the optional audio/subtitle roughcut Skill. No private narration, credentials or episode feedback is included. Natural-voice preprocessing requires the user's own verified environment. Historical snapshots and third-party assets retain the release limitations in docs/public-release.md.
+
+便携版已更新认可组件/二创约束、真实源码调用检查、关键帧随音频播放和独立音频字幕粗剪。具体范围见对应SKILL.md；旧源快照不因此成为通用参数接口或公开素材授权。

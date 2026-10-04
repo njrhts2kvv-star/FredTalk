@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 const input=JSON.parse(fs.readFileSync(0,'utf8'));
 const require=createRequire(import.meta.url);
-const ts=require(path.join(input.root,'skills/_runtime/remotion/preferred-motion-v2/node_modules/typescript'));
+const ts=require(path.join(input.root,'apps/library/node_modules/typescript'));
 const results=[];
 for(const request of input.requests){
  const source=ts.createSourceFile(request.path,fs.readFileSync(request.path,'utf8'),ts.ScriptTarget.Latest,true,

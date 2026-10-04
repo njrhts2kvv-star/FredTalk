@@ -28,3 +28,6 @@ Source public directories can include unused branches. A missing quarantined fil
 ## Audio
 
 The visual-library preview remains silent. Raw narration is excluded. When a source composition expects narration, supply your own recording and align its cues. Sound effects and music require their own licensing and input decisions.
+
+
+Current delivery uses the portable library_gate.py against library/catalog.json. Historical production receipt/importer checks remain reference implementations. See the main Skill for the current gate, synchronized audio review and optional roughcut workflows.
