@@ -19,7 +19,13 @@ FredTalk 把视频制作中的关键判断连起来：**这句话要让观众理
 
 仓库包含当前便携版的 `fred-remotion-output` Skill 文档、浏览器视觉库、组件源码快照和可选素材包。“完整”指当前 Skill 文档与规则；旧场景复现和云端执行仍需对应素材、环境及配置。目前处于**私有检查阶段**，为后续开源做准备。
 
-<table><tr><td><img src="docs/assets/C008.jpg" alt="Step-by-step explanation scene" width="420"></td><td><img src="docs/assets/SP024.jpg" alt="Three clear goals in a dark window" width="420"></td></tr></table>
+<table>
+<tr><td width="25%"><img src="docs/assets/C009.jpg" alt="多个词组成信息结构" width="240"><br><sub>C009 · 多个词组成信息结构</sub></td><td width="25%"><img src="docs/assets/N027.jpg" alt="流程线绕回下一行，连续建立三排步骤" width="240"><br><sub>N027 · 流程线绕回下一行，连续建立三排步骤</sub></td><td width="25%"><img src="docs/assets/N043.jpg" alt="长文面板横向展开为背景，手机重新到前景" width="240"><br><sub>N043 · 长文面板横向展开为背景，手机重新到前景</sub></td><td width="25%"><img src="docs/assets/X006.jpg" alt="三种生成方式清单" width="240"><br><sub>X006 · 三种生成方式清单</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/X019.jpg" alt="免费规则窗口" width="240"><br><sub>X019 · 免费规则窗口</sub></td><td width="25%"><img src="docs/assets/X022.jpg" alt="角色虚化前的三项概念" width="240"><br><sub>X022 · 角色虚化前的三项概念</sub></td><td width="25%"><img src="docs/assets/X025.jpg" alt="文档推近逐行阅读" width="240"><br><sub>X025 · 文档推近逐行阅读</sub></td><td width="25%"><img src="docs/assets/E08.jpg" alt="记忆分类分支与重新使用" width="240"><br><sub>E08 · 记忆分类分支与重新使用</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/107-03.jpg" alt="同尺度版本窗，箭头建立比较" width="240"><br><sub>107-03 · 同尺度版本窗，箭头建立比较</sub></td><td width="25%"><img src="docs/assets/107-04.jpg" alt="三项能力按口播建立，汇聚长胶囊" width="240"><br><sub>107-04 · 三项能力按口播建立，汇聚长胶囊</sub></td><td width="25%"><img src="docs/assets/SP014.jpg" alt="四格视频素材展示" width="240"><br><sub>SP014 · 四格视频素材展示</sub></td><td width="25%"><img src="docs/assets/SP021.jpg" alt="深色窗口中的三行能力词" width="240"><br><sub>SP021 · 深色窗口中的三行能力词</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/X010.jpg" alt="约束示例黑卡" width="240"><br><sub>X010 · 约束示例黑卡</sub></td><td width="25%"><img src="docs/assets/C008.jpg" alt="前一步引出后一步" width="240"><br><sub>C008 · 前一步引出后一步</sub></td><td width="25%"><img src="docs/assets/SP024.jpg" alt="深色窗口两行目标文字" width="240"><br><sub>SP024 · 深色窗口两行目标文字</sub></td><td width="25%"><img src="docs/assets/X008.jpg" alt="提示词与能力黑胶囊" width="240"><br><sub>X008 · 提示词与能力黑胶囊</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/X040.jpg" alt="图片视频成片三步串联" width="240"><br><sub>X040 · 图片视频成片三步串联</sub></td><td width="25%"><img src="docs/assets/X037.jpg" alt="插画叠放转四格" width="240"><br><sub>X037 · 插画叠放转四格</sub></td><td width="25%"><img src="docs/assets/N014.jpg" alt="三结果归位溯源，再抽离成三窗对照" width="240"><br><sub>N014 · 三结果归位溯源，再抽离成三窗对照</sub></td><td width="25%"><img src="docs/assets/SP018.jpg" alt="剧本文字与人物参考图并列" width="240"><br><sub>SP018 · 剧本文字与人物参考图并列</sub></td></tr>
+</table>
 
 ## 制作流程
 
