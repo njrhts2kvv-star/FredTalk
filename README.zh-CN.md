@@ -6,7 +6,7 @@
 
 一套面向口播视频的 Agent Skill、可检索动效库和 Remotion 制作审看流程。
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [快速开始](#快速开始) · [架构](docs/architecture.md) · [脱敏报告](docs/privacy.md)
+[在线视觉库](https://www.fred-fu.com/visual-library) · [English](README.md) · [简体中文](README.zh-CN.md) · [快速开始](#快速开始) · [架构](docs/architecture.md) · [脱敏报告](docs/privacy.md)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)

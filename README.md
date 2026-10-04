@@ -6,7 +6,7 @@
 
 An agent skill, a searchable motion library, and a review workflow for narration-led Remotion videos.
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [Quick start](#quick-start) · [Architecture](docs/architecture.md) · [Privacy review](docs/privacy.md)
+[Browse the visual library](https://www.fred-fu.com/visual-library) · [English](README.md) · [简体中文](README.zh-CN.md) · [Quick start](#quick-start) · [Architecture](docs/architecture.md) · [Privacy review](docs/privacy.md)
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
