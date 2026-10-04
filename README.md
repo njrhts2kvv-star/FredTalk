@@ -11,13 +11,13 @@ An agent skill, a searchable motion library, and a review workflow for narration
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
 ![Remotion](https://img.shields.io/badge/Remotion-versioned_projects-000000)
-![Status](https://img.shields.io/badge/status-private_review-orange)
+![Status](https://img.shields.io/badge/status-public-blue)
 
 </div>
 
 FredTalk connects the decisions that usually get lost between writing a script and rendering a video: **what the audience needs to understand, which motion helps explain it, how the real content fits, and what must be checked before delivery.**
 
-It includes the complete active `fred-remotion-output` Skill instructions, a browser-based reference library, source snapshots and an optional media distribution. “Complete” refers to the active Skill instructions and rules; old scene reproduction and cloud execution still need the relevant assets, environment and configuration. It is currently a **private review repository**, prepared for a later open-source release.
+It includes the complete active `fred-remotion-output` Skill instructions, a browser-based reference library, source snapshots and an optional media distribution. “Complete” refers to the active Skill instructions and rules; old scene reproduction and cloud execution still need the relevant assets, environment and configuration. The owner authorized public repository access on 2026-10-04. Source and reviewed media are available publicly; reuse remains subject to the individual license and rights notices.
 
 <table>
 <tr><td width="25%"><img src="docs/assets/C009.jpg" alt="多个词组成信息结构" width="240"><br><sub>C009 · 多个词组成信息结构</sub></td><td width="25%"><img src="docs/assets/N027.jpg" alt="流程线绕回下一行，连续建立三排步骤" width="240"><br><sub>N027 · 流程线绕回下一行，连续建立三排步骤</sub></td><td width="25%"><img src="docs/assets/N043.jpg" alt="长文面板横向展开为背景，手机重新到前景" width="240"><br><sub>N043 · 长文面板横向展开为背景，手机重新到前景</sub></td><td width="25%"><img src="docs/assets/X006.jpg" alt="三种生成方式清单" width="240"><br><sub>X006 · 三种生成方式清单</sub></td></tr>
@@ -39,7 +39,7 @@ flowchart LR
     F --> G[Remotion render and delivery]
 ```
 
-The library starts with **177 catalog references (5 previews quarantined)**, **16 non-empty usage scenarios**, **288 historical identities**, and **72 source project snapshots**. These counts describe this export, not a promise that every snapshot is a fully parameterized component.
+The library starts with **177 catalog references (5 previews quarantined)**, **16 non-empty usage scenarios**, **288 historical identities**, and **72 historical source snapshots and 12 material adaptation projects**. These counts describe this export, not a promise that every snapshot is a fully parameterized component.
 
 ## What you can do
 
@@ -54,7 +54,7 @@ The library starts with **177 catalog references (5 previews quarantined)**, **1
 
 ## Quick start
 
-Requires Python 3.11+, Node.js 22+ and npm. The commands below require the [GitHub CLI](https://cli.github.com/), signed in with an account that has access to this private repository (`gh auth login`).
+Requires Python 3.11+, Node.js 22+ and npm. The commands below use the [GitHub CLI](https://cli.github.com/). The repository is publicly accessible; sign in with `gh auth login` if prompted by the optional asset downloader.
 
 ```bash
 gh repo clone njrhts2kvv-star/FredTalk
@@ -74,7 +74,7 @@ A small set of silent examples is included in Git. The full catalog and source t
 # Inspect the size and availability of optional packages.
 python3 scripts/assets.py status
 
-# Download the reviewed media packs from this private repository's release.
+# Download the reviewed media packs from the current repository release.
 python3 scripts/assets.py download
 
 # Verify content hashes and materialize source-project assets when needed.
@@ -124,11 +124,11 @@ tests/                         Portable distribution checks
 
 ## Privacy and release status
 
-This repository is **private by design**. This export applies privacy rules to account information, credentials and local paths, and excludes raw recordings and nested Git histories. The report defines the checked scope and remaining boundaries. FredTalk branding and illustrative characters are retained by the owner's choice.
+This repository is **public by the owner’s explicit decision**. This export applies privacy rules to account information, credentials and local paths, and excludes raw recordings and nested Git histories. The report defines the checked scope and remaining boundaries. FredTalk branding and illustrative characters are retained by the owner's choice.
 
-Media privacy and code scanning are separate checks. Read the [privacy report](docs/privacy.md) for the actual scan coverage, excluded files and remaining review boundaries. A private repository does **not** make an independently hosted website private.
+Media privacy and code scanning are separate checks. Read the [privacy report](docs/privacy.md) for the actual scan coverage, excluded files and remaining review boundaries. Repository visibility does not control independently hosted websites or CDN caches.
 
-No public media website is deployed by this export. Do not change visibility until the [public-release checklist](docs/public-release.md) is complete.
+The current visual library is available at [FredTalk](https://www.fred-fu.com/visual-library). The superseded media release is retained as a private draft backup. See [publication status](docs/public-release.md) for the checked scope and remaining rights boundaries.
 
 ## Development
 

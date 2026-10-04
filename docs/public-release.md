@@ -10,6 +10,6 @@ This is a release boundary, not a claim that it has passed.
 - [ ] Test a clean clone with only the published documentation and downloadable media.
 - [ ] Verify the per-project dependency and runtime instructions for the examples that will be advertised as reproducible.
 - [ ] Confirm the privacy of any separate website, object store, CDN and logs. GitHub visibility does not control those systems.
-- [ ] Obtain the owner's explicit decision to make the repository and selected release assets public.
+- [x] Owner explicitly authorized public repository access on 2026-10-04.
 
-Until these are resolved, keep GitHub visibility PRIVATE. No public website or object storage is provisioned by the initial export.
+The owner authorized public visibility on 2026-10-04. This authorization does not mark every rights-review item above as completed or grant a blanket open-source/media license. The current 38-item material replacement release is published; the superseded media package release remains a draft backup. A targeted scan of 1,821 Git-history blobs found no private key headers or supported AWS, GitHub and OpenAI credential formats. Current release files match verified hashes.

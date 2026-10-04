@@ -11,13 +11,13 @@
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
 ![Remotion](https://img.shields.io/badge/Remotion-versioned_projects-000000)
-![Status](https://img.shields.io/badge/status-private_review-orange)
+![Status](https://img.shields.io/badge/status-public-blue)
 
 </div>
 
 FredTalk 把视频制作中的关键判断连起来：**这句话要让观众理解什么、哪种动作有助于解释、真实内容怎样放进去，以及交付前要检查什么。**
 
-仓库包含当前便携版的 `fred-remotion-output` Skill 文档、浏览器视觉库、组件源码快照和可选素材包。“完整”指当前 Skill 文档与规则；旧场景复现和云端执行仍需对应素材、环境及配置。目前处于**私有检查阶段**，为后续开源做准备。
+仓库包含当前便携版的 `fred-remotion-output` Skill 文档、浏览器视觉库、组件源码快照和可选素材包。“完整”指当前 Skill 文档与规则；旧场景复现和云端执行仍需对应素材、环境及配置。所有者已于 2026-10-04 授权公开访问；不同内容的许可条件仍分别适用。
 
 <table>
 <tr><td width="25%"><img src="docs/assets/C009.jpg" alt="多个词组成信息结构" width="240"><br><sub>C009 · 多个词组成信息结构</sub></td><td width="25%"><img src="docs/assets/N027.jpg" alt="流程线绕回下一行，连续建立三排步骤" width="240"><br><sub>N027 · 流程线绕回下一行，连续建立三排步骤</sub></td><td width="25%"><img src="docs/assets/N043.jpg" alt="长文面板横向展开为背景，手机重新到前景" width="240"><br><sub>N043 · 长文面板横向展开为背景，手机重新到前景</sub></td><td width="25%"><img src="docs/assets/X006.jpg" alt="三种生成方式清单" width="240"><br><sub>X006 · 三种生成方式清单</sub></td></tr>
@@ -39,7 +39,7 @@ flowchart LR
     F --> G[Remotion渲染与交付]
 ```
 
-当前导出包含 **177 条目录参考（其中 5 条预览隔离）、16 个非空使用场景、288 个历史身份及 72 份源码工程快照**。这些数字描述当前收录范围；准确场景源码不等于已经封装好的通用参数组件。
+当前导出包含 **177 条目录参考（其中 5 条预览隔离）、16 个非空使用场景、288 个历史身份、72 份历史源码工程快照及 12 份素材适配工程**。这些数字描述当前收录范围；准确场景源码不等于已经封装好的通用参数组件。
 
 ## 能做什么
 
@@ -54,7 +54,7 @@ flowchart LR
 
 ## 快速开始
 
-需要 Python 3.11+、Node.js 22+ 和 npm。以下命令需要安装 [GitHub CLI](https://cli.github.com/)，并用有权访问该私有仓库的账号登录（`gh auth login`）。
+需要 Python 3.11+、Node.js 22+ 和 npm。以下命令使用 [GitHub CLI](https://cli.github.com/)。仓库可公开访问；素材下载工具使用 GitHub CLI 时，可按提示登录（`gh auth login`）。
 
 ```bash
 gh repo clone njrhts2kvv-star/FredTalk
@@ -74,7 +74,7 @@ Git 中附带少量无声示例。尚未下载完整素材时，全部目录和�
 # 查看素材包体积和安装状态。
 python3 scripts/assets.py status
 
-# 从同一私有仓库的 Release 下载经过检查的素材包。
+# 从本仓库当前 Release 下载经过检查的素材包。
 python3 scripts/assets.py download
 
 # 检查内容哈希；需要改编工程时再还原素材路径。
@@ -124,11 +124,11 @@ tests/                         便携分发版验证
 
 ## 脱敏与公开状态
 
-本仓库保持**私有**。本导出按规则处理账号信息、凭证及本机路径，并排除原始录音和嵌套 Git 历史；实际检查范围与剩余边界见报告。按所有者要求保留 FredTalk 品牌和卡通示例。
+本仓库已按所有者 2026-10-04 的明确决定**公开**。本导出按规则处理账号信息、凭证及本机路径，并排除原始录音和嵌套 Git 历史；实际检查范围与剩余边界见报告。按所有者要求保留 FredTalk 品牌和卡通示例。
 
-画面隐私与代码密钥分别检查。[脱敏报告](docs/privacy.md)记录实际覆盖、排除文件与尚待检查的边界。GitHub 私有不代表另外部署的网站也是私有。
+画面隐私与代码密钥分别检查。[脱敏报告](docs/privacy.md)记录实际覆盖、排除文件与尚待检查的边界。公开访问不代表所有素材都获得统一再分发许可。
 
-本次导出不部署公网视频站点。完成[公开前检查](docs/public-release.md)后，才能考虑改变可见性。
+在线浏览入口：[FredTalk 视觉库](https://www.fred-fu.com/visual-library)。当前素材包在最新 Release 中提供，旧素材包保留为草稿备份。检查范围和公开决定见[发布记录](docs/public-release.md)。
 
 ## 开发与贡献
 
@@ -143,7 +143,7 @@ python3 -m unittest discover -s tests
 
 ## 许可与归因
 
-当前尚未授予统一开源许可。源码、字体、参考媒体及第三方依赖可能具有不同的权利归属和许可条件。收录在私有库中不代表可以公开再分发。请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与公开前检查。
+当前尚未授予统一开源许可。源码、字体、参考媒体及第三方依赖可能具有不同的权利归属和许可条件。公开可访问不代表可以任意再分发。请参阅 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与公开前检查。
 
 
 ## 2026-10-04 update / 本次更新
