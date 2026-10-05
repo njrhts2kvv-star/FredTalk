@@ -1,7 +1,7 @@
 import ReferencePlayer from "./ReferencePlayer.jsx";
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { CurationPanel } from "./Curation.jsx";
-import { Heading, Segmented, Code, Note, download } from "./UI.jsx";
+import { Heading, Segmented, Code, Note } from "./UI.jsx";
 export const kindNames = {
   remakes: "场景实现素材",
   components: "完整模块",
@@ -10,10 +10,12 @@ export const kindNames = {
   "text-effects": "文字呈现",
 };
 
-export function ReferenceCard({ item, onSelect, variants = [] }) {
+export function ReferenceCard({ item, onSelect, variants = [], playing, onPlaybackChange }) {
   const preview = item.previews?.find((p) => p.posterUrl) || item.previews?.[0];
   const [imageError, setImageError] = useState(false);
-  const [inlinePlayback, setInlinePlayback] = useState(false);
+  const [localPlayback, setLocalPlayback] = useState(false);
+  const inlinePlayback = playing ?? localPlayback;
+  const setInlinePlayback = onPlaybackChange ?? setLocalPlayback;
   const playable = item.previews?.some((p) => p.available && p.videoUrl);
   return (
     <article className="reference-card" data-reference-id={item.id}>
@@ -264,11 +266,12 @@ export function Library({
   const [category, setCategory] = useState("all");
   const [scenario, setScenario] = useState("all");
   const [limit, setLimit] = useState(24);
+  const [activePlaybackId, setActivePlaybackId] = useState(null);
   const scenarios = data?.scenarios || [];
   const visible = (data?.items || []).filter(x => x.visibleByDefault && x.reviewStatus !== "remove");
   const scenarioList = scenarios.filter(s => (category === "all" || s.groupId === category) && visible.some(x => x.matching?.scenarioId === s.id));
-  const chooseGroup = (id) => { setCategory(id); setScenario("all"); setLimit(24); };
-  const chooseScenario = (id) => { setScenario(id); setLimit(24); };
+  const chooseGroup = (id) => { setActivePlaybackId(null); setCategory(id); setScenario("all"); setLimit(24); };
+  const chooseScenario = (id) => { setActivePlaybackId(null); setScenario(id); setLimit(24); };
   const all = data?.items || [];
   const filtered = useMemo(
     () => all.filter((x) => x.visibleByDefault && x.reviewStatus !== "remove" &&
@@ -280,20 +283,7 @@ export function Library({
   const selected = all.find((x) => x.id === selectedId);
   return (
     <>
-      <Heading page="library">
-        <button
-          className="secondary"
-          onClick={() =>
-            download(
-              "FredTalk-visual-review.json",
-              JSON.stringify(curation.states, null, 2),
-              "application/json",
-            )
-          }
-        >
-          导出取舍
-        </button>
-      </Heading>
+      <Heading page="library" />
       <section className="scenario-picker" aria-label="按使用场景筛选">
         <div className="scenario-groups" role="group" aria-label="内容类型">
           {[{id: "all", title: "全部"}, ...(data?.scenarioGroups || [])].map(g => <button key={g.id} aria-pressed={category === g.id} onClick={() => chooseGroup(g.id)}>{g.title}</button>)}
@@ -317,7 +307,12 @@ export function Library({
                 item={x}
                 
                 key={x.id}
-                onSelect={(selected) => onSelectionChange(selected.id)}
+                playing={activePlaybackId === x.id}
+                onPlaybackChange={(playing) => setActivePlaybackId(playing ? x.id : null)}
+                onSelect={(selected) => {
+                  setActivePlaybackId(null);
+                  onSelectionChange(selected.id);
+                }}
               />
             ))}
           </div>
