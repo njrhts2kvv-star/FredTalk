@@ -24,10 +24,10 @@ function ReferenceAddedMetadata({ item, detailed = false }) {
   const validDate = added && Number.isFinite(added.getTime());
   const date = validDate ? addedDateFormat.format(added) : "";
   const timestamp = validDate ? addedTimeFormat.format(added) : "";
-  if (item.isNew !== true && !date) return null;
+  if ((!detailed || item.isNew !== true) && !date) return null;
   return (
     <div className="reference-added-meta">
-      {item.isNew === true && <span className="reference-new-badge">NEW</span>}
+      {detailed && item.isNew === true && <span className="reference-new-badge">NEW</span>}
       {date && (
         <time dateTime={item.addedAt} title={`新增于 ${timestamp}（北京时间）`}>
           {detailed ? `新增 ${timestamp} · 北京时间` : `新增 ${date}`}
@@ -46,6 +46,7 @@ export function ReferenceCard({ item, onSelect, variants = [], playing, onPlayba
   const playable = item.previews?.some((p) => p.available && p.videoUrl);
   return (
     <article className="reference-card" data-reference-id={item.id}>
+      {item.isNew === true && <span className="reference-new-badge">NEW</span>}
       {inlinePlayback ? (
         <div><ReferencePlayer previews={item.previews} autoPlay compact onComplete={() => setInlinePlayback(false)} /><button className="return-poster" onClick={() => setInlinePlayback(false)}>返回封面</button></div>
       ) : (

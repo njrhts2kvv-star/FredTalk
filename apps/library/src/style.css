@@ -1154,12 +1154,29 @@ details[open] > summary:before {
   gap: 24px 18px;
 }
 .reference-card {
+  position: relative;
   display: block;
   padding: 0;
   background: none;
   border-radius: 17px;
   text-align: left;
   min-width: 0;
+}
+.reference-card > .reference-new-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  padding: 11px 16px;
+  border-radius: 0 0 12px 0;
+  background: #7e22ce;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  box-shadow: 0 3px 12px #53109b40;
+  pointer-events: none;
 }
 .reference-image {
   background: #fff;
