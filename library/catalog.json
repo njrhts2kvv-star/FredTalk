@@ -503,6 +503,1836 @@
   },
   "items": [
     {
+      "id": "component:fred-motion-source-51d675feaef3608e",
+      "label": "C009",
+      "title": "多个词组成信息结构",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "多个词组成信息结构",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "分类、分支与归组"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "保留动作关系，复制后适配本期文案、数量、尺寸、cue 与相邻交接。",
+          "参考片段取舍不代表新组合或新适配已获视觉认可。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/0820e43873ea9fb956df2252",
+          "posterUrl": "/api/design-assets/6d2db09c73e238f5c96e66bc",
+          "keyframes": [],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 6.5,
+          "fps": 60.0,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 4.933333333333334,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WordGrid.tsx",
+          "symbol": "",
+          "url": "/api/design-source/3e175db071451bc7429bab03",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "approved-manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/5988b21d686b10ec532182e2",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "fred-motion-source-51d675feaef3608e",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 5,
+      "matching": {
+        "referenceId": "fred-motion-source-51d675feaef3608e",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构"
+        ],
+        "action": "多个词组成信息结构",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 6.5,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "文字",
+          "信息结构",
+          "一段解释",
+          "分类、分支与归组"
+        ],
+        "scenarioId": "relation",
+        "scenarioTitle": "分类、分支与归组",
+        "label": "C009",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "relationship"
+        ]
+      },
+      "sceneTypes": [
+        "relationship"
+      ],
+      "implementation": {
+        "projects": [
+          "components/projects/5fa89bc8e570"
+        ],
+        "compositionId": null,
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 0,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:library-new10-n027",
+      "label": "N027",
+      "title": "流程线绕回下一行，连续建立三排步骤",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "步骤超过一行的教程、生产链或依赖流程；避免把长链缩成小字。",
+      "tags": [
+        "流程线绕回下一行，连续建立三排步骤",
+        "标题与文字",
+        "关系与流程",
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "解释步骤与流程"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/17265130db525128dabbdfbd",
+          "posterUrl": "/api/design-assets/ed7f21d69e2b8a1fdde6d123",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/39d505e5bbb9757923287278",
+              "timeSeconds": 2.05,
+              "frame": 123
+            },
+            {
+              "url": "/api/design-assets/d799e708690b01a2d8bcb868",
+              "timeSeconds": 4.833,
+              "frame": 290
+            },
+            {
+              "url": "/api/design-assets/7426027c8fbb9830cc45d1ee",
+              "timeSeconds": 7.25,
+              "frame": 435
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 9.3,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 8.75,
+          "posterSelection": "reviewed",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sources": [
+        {
+          "label": "BatchC.tsx",
+          "symbol": "BatchC",
+          "url": "/api/design-source/0c420727e2aef11366c5af1a",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "BatchC.tsx",
+          "symbol": "",
+          "url": "/api/design-source/0c420727e2aef11366c5af1a",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/9bd30027ac727e3097c8e526",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "package-lock.json",
+          "symbol": "",
+          "url": "/api/design-source/5d02b542b76987fbac880994",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "material-policy.tsx",
+          "symbol": "",
+          "url": "/api/design-source/496bf6ea78205c1e87f191e2",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "material-bindings.json",
+          "symbol": "",
+          "url": "/api/design-source/7986dba0cc5039b1d159a2b1",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "library-new10-n027",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 999,
+      "matching": {
+        "referenceId": "library-new10-n027",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text",
+          "process"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构"
+        ],
+        "action": "流程线绕回下一行，连续建立三排步骤",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 9.3,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "文字",
+          "信息结构",
+          "一段解释",
+          "解释步骤与流程"
+        ],
+        "scenarioId": "process",
+        "scenarioTitle": "解释步骤与流程",
+        "label": "N027",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "summary"
+      ],
+      "implementation": {
+        "projects": [
+          "components/projects/30b3c05aa839"
+        ],
+        "compositionId": "N027",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
+        "entryPoint": "components/projects/30b3c05aa839/src/index.tsx",
+        "publicDir": "components/projects/30b3c05aa839/public",
+        "runtimeVersion": "4.0.473",
+        "renderInputProps": {
+          "includeNarration": false
+        }
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 2,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      },
+      "materialRevision": "20261004-material-replacements",
+      "previewMatchesImplementation": true,
+      "materialStatus": "rendered-and-reviewed",
+      "materialSources": [
+        "/api/design-source/496bf6ea78205c1e87f191e2",
+        "/api/design-source/7986dba0cc5039b1d159a2b1"
+      ]
+    },
+    {
+      "id": "component:library-new10-n043",
+      "label": "N043",
+      "title": "长文面板横向展开为背景，手机重新到前景",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "先交代后台资料或规则总量，再把注意力交还实际操作。",
+      "tags": [
+        "长文面板横向展开为背景，手机重新到前景",
+        "窗口与设备",
+        "文档与操作演示",
+        "媒体与空间",
+        "讲解段落",
+        "录屏与视频入场",
+        "内容交接",
+        "文字",
+        "信息结构",
+        "录屏",
+        "视频",
+        "窗口",
+        "前后内容",
+        "载体",
+        "一段解释",
+        "输入、聊天与反馈"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/aee5f737225ca18a69ae75f8",
+          "posterUrl": "/api/design-assets/119a02457f1ea64a4fa28df2",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/ac0614ce6825019f25c6740b",
+              "timeSeconds": 0.9,
+              "frame": 54
+            },
+            {
+              "url": "/api/design-assets/16b5bcde6627a8e44d819bec",
+              "timeSeconds": 2.1333333333333333,
+              "frame": 128
+            },
+            {
+              "url": "/api/design-assets/a2f6d63f6778a313f8095694",
+              "timeSeconds": 3.2,
+              "frame": 192
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.1,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 3.1166666666666667,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "BatchB.tsx",
+          "symbol": "",
+          "url": "/api/design-source/cb529c9c35da4b08956cc15d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "library-new10-n043",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 999,
+      "matching": {
+        "referenceId": "library-new10-n043",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text",
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构",
+          "录屏",
+          "视频",
+          "窗口",
+          "前后内容",
+          "载体"
+        ],
+        "action": "长文面板横向展开为背景，手机重新到前景",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 4.1,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "录屏与视频入场",
+          "内容交接",
+          "文字",
+          "信息结构",
+          "录屏",
+          "视频",
+          "窗口",
+          "前后内容",
+          "载体",
+          "一段解释",
+          "输入、聊天与反馈"
+        ],
+        "scenarioId": "input",
+        "scenarioTitle": "输入、聊天与反馈",
+        "label": "N043",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "device-demo",
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo",
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": null,
+        "filename": "ef9fc0c824930a7b.zip",
+        "available": true
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/f383bd215d85"
+        ],
+        "compositionId": "N043",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 2,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:library-new10-x006",
+      "label": "X006",
+      "title": "三种生成方式清单",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "步骤、对象关系、分支或结论交接",
+      "tags": [
+        "三种生成方式清单",
+        "逻辑与流程",
+        "图片与作品展示",
+        "文档与操作演示",
+        "转场与交接",
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "列举要点与能力"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "当前场景源码",
+        "parameters": [],
+        "limitations": [
+          "当前展示沿用统一库的清理版本；按所展示的准确源码适配本期内容。",
+          "不把旧参考的参数接口或参考片段认可自动转移给当前适配。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/9ac0e437cfccfade3037a217",
+          "posterUrl": "/api/design-assets/0e9b1ba455fe0afbbeff6cc0",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/2ad134c67101db6a8cc454f2",
+              "timeSeconds": 1.3166666666666667,
+              "frame": 79
+            },
+            {
+              "url": "/api/design-assets/b0224ed0879ca11cca6cdf9b",
+              "timeSeconds": 3.1166666666666667,
+              "frame": 187
+            },
+            {
+              "url": "/api/design-assets/39a657a423e21ecf35bc59d2",
+              "timeSeconds": 4.683333333333334,
+              "frame": 281
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 6.0,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 4.566666666666666,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RebuiltX006.tsx",
+          "symbol": "",
+          "url": "/api/design-source/11a5032e1939549b4ef77ab3",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "library-new10-x006",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 999,
+      "matching": {
+        "referenceId": "library-new10-x006",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构"
+        ],
+        "action": "三种生成方式清单",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 6.0,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "文字",
+          "信息结构",
+          "一段解释",
+          "列举要点与能力"
+        ],
+        "scenarioId": "list",
+        "scenarioTitle": "列举要点与能力",
+        "label": "X006",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "relationship",
+          "image-comparison",
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "relationship",
+        "image-comparison",
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": null,
+        "filename": "ef9fc0c824930a7b.zip",
+        "available": true
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/d2cd2cc84551"
+        ],
+        "compositionId": "X006",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 2,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:library-new10-x019",
+      "label": "X019",
+      "title": "免费规则窗口",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "标题建立、字体变化或重点词交接",
+      "tags": [
+        "免费规则窗口",
+        "标题与文字",
+        "转场与交接",
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "提出问题与给出答案"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/16368aa88a2eb7847a2011c3",
+          "posterUrl": "/api/design-assets/a0b5fca83c98cb217520d9fb",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/9aeb2cefae36199326d0c243",
+              "timeSeconds": 1.9833333333333334,
+              "frame": 119
+            },
+            {
+              "url": "/api/design-assets/7d927b3b98a331cec108e383",
+              "timeSeconds": 4.683333333333334,
+              "frame": 281
+            },
+            {
+              "url": "/api/design-assets/647d7fc66eeed9d89713599f",
+              "timeSeconds": 7.016666666666667,
+              "frame": 421
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 9.0,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 6.833333333333333,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "XScenesB.tsx",
+          "symbol": "",
+          "url": "/api/design-source/59f1e8629e9abf29f8fe1842",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "library-new10-x019",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 999,
+      "matching": {
+        "referenceId": "library-new10-x019",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构"
+        ],
+        "action": "免费规则窗口",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 9.0,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "文字",
+          "信息结构",
+          "一段解释",
+          "提出问题与给出答案"
+        ],
+        "scenarioId": "question",
+        "scenarioTitle": "提出问题与给出答案",
+        "label": "X019",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "summary"
+      ],
+      "projectDownload": {
+        "url": null,
+        "filename": "ef9fc0c824930a7b.zip",
+        "available": true
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/f383bd215d85"
+        ],
+        "compositionId": "X019",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 2,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:library-new10-x022",
+      "label": "X022",
+      "title": "角色虚化前的三项概念",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "标题建立、字体变化或重点词交接",
+      "tags": [
+        "角色虚化前的三项概念",
+        "标题与文字",
+        "聚焦与转场",
+        "转场与交接",
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "人物素材",
+        "一段解释",
+        "列举要点与能力"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/b1a8e405edf6113c8837b870",
+          "posterUrl": "/api/design-assets/ab8fcda28d107dd16a989d10",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/cf72ccf905b745d1801761d9",
+              "timeSeconds": 0.567,
+              "frame": 34
+            },
+            {
+              "url": "/api/design-assets/1988a3527f3ed45e85c13c0f",
+              "timeSeconds": 1.35,
+              "frame": 81
+            },
+            {
+              "url": "/api/design-assets/747708a0cf611eec334d38ad",
+              "timeSeconds": 2.033,
+              "frame": 122
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 2.6,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 1.9833333333333334,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "XScenesB.tsx",
+          "symbol": "XScenesB",
+          "url": "/api/design-source/69877a1badc6107d19d121da",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "XScenesB.tsx",
+          "symbol": "",
+          "url": "/api/design-source/69877a1badc6107d19d121da",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/fa193431d89dc0dc1f2e105f",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "package-lock.json",
+          "symbol": "",
+          "url": "/api/design-source/d82dab540852c3292dbb420f",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "library-new10-x022",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 999,
+      "matching": {
+        "referenceId": "library-new10-x022",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text",
+          "people"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构",
+          "人物素材"
+        ],
+        "action": "角色虚化前的三项概念",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 2.6,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "文字",
+          "信息结构",
+          "人物素材",
+          "一段解释",
+          "列举要点与能力"
+        ],
+        "scenarioId": "list",
+        "scenarioTitle": "列举要点与能力",
+        "label": "X022",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "summary"
+      ],
+      "implementation": {
+        "projects": [
+          "components/projects/9db3f6625112"
+        ],
+        "compositionId": null,
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 2,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:library-new10-x025",
+      "label": "X025",
+      "title": "文档推近逐行阅读",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "标题建立、字体变化或重点词交接",
+      "tags": [
+        "文档推近逐行阅读",
+        "标题与文字",
+        "聚焦与转场",
+        "转场与交接",
+        "讲解段落",
+        "录屏聚焦",
+        "文字",
+        "信息结构",
+        "真实界面",
+        "前景重点",
+        "文档内容",
+        "一段解释",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/94042fa018cb4880e49bde6d",
+          "posterUrl": "/api/design-assets/30628c37fb5eab71752c36cb",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/d066cc5d5a02407dfd1fbdd4",
+              "timeSeconds": 1.533,
+              "frame": 92
+            },
+            {
+              "url": "/api/design-assets/2cd5934a047a5ca7d7a8a326",
+              "timeSeconds": 3.633,
+              "frame": 218
+            },
+            {
+              "url": "/api/design-assets/b3831b8bf42e8441083fa575",
+              "timeSeconds": 5.467,
+              "frame": 328
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 5.316666666666666,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "BatchB.tsx",
+          "symbol": "BatchB",
+          "url": "/api/design-source/7233b79fc5de50ad28120e4f",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "BatchB.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7233b79fc5de50ad28120e4f",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/fa193431d89dc0dc1f2e105f",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "package-lock.json",
+          "symbol": "",
+          "url": "/api/design-source/d82dab540852c3292dbb420f",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "library-new10-x025",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 999,
+      "matching": {
+        "referenceId": "library-new10-x025",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "recording-focus"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text",
+          "focus",
+          "document"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构",
+          "真实界面",
+          "前景重点",
+          "文档内容"
+        ],
+        "action": "文档推近逐行阅读",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "录屏聚焦",
+          "文字",
+          "信息结构",
+          "真实界面",
+          "前景重点",
+          "文档内容",
+          "一段解释",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "label": "X025",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "summary"
+      ],
+      "implementation": {
+        "projects": [
+          "components/projects/9db3f6625112"
+        ],
+        "compositionId": null,
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 2,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "clip:aa0612eb-9d33-484d-9d74-869f4c6fa265",
+      "label": "E08",
+      "title": "记忆分类分支与重新使用",
+      "kind": "clips",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "从记忆主节点逐项展开回答偏好、常用工具、已确认方案，再转到接着用。",
+      "tags": [
+        "讲解段落",
+        "内容交接",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体",
+        "一段解释",
+        "分类、分支与归组"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "保留动作关系，复制后适配本期文案、数量、尺寸、cue 与相邻交接。",
+          "参考片段取舍不代表新组合或新适配已获视觉认可。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/5b4190fe3f76d09c1d96ac66",
+          "posterUrl": "/api/design-assets/8be28824c010df4d83632791",
+          "keyframes": [],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.216667,
+          "fps": 60.0,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.6,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Config.tsx",
+          "symbol": "Memory",
+          "url": "/api/design-source/9866b616b3e6aabae9f80c69",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "aa0612eb-9d33-484d-9d74-869f4c6fa265",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 20,
+      "matching": {
+        "referenceId": "aa0612eb-9d33-484d-9d74-869f4c6fa265",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "handoff"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text",
+          "handoff",
+          "process"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构",
+          "前后内容",
+          "载体"
+        ],
+        "action": "记忆分类分支与重新使用",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 7.217,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "内容交接",
+          "文字",
+          "信息结构",
+          "前后内容",
+          "载体",
+          "一段解释",
+          "分类、分支与归组"
+        ],
+        "scenarioId": "relation",
+        "scenarioTitle": "分类、分支与归组",
+        "label": "E08",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "relationship"
+        ]
+      },
+      "sceneTypes": [
+        "relationship"
+      ],
+      "implementation": {
+        "projects": [
+          "components/projects/a64e4fb5a587"
+        ],
+        "compositionId": null,
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 1,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:ep107-selected-03",
+      "label": "107-03",
+      "title": "同尺度版本窗，箭头建立比较",
+      "kind": "components",
+      "category": "内容交接",
+      "origin": "FredTalk 组件库",
+      "description": "旧版本与新版本按口播先后建立，箭头明确更新关系，下方落一个判断。",
+      "tags": [
+        "第107期",
+        "107",
+        "107-03",
+        "版本比较",
+        "同尺度",
+        "箭头",
+        "GPT-6",
+        "GPT-6.1",
+        "内容交接",
+        "讲解段落",
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构",
+        "短交接",
+        "并排比较结果"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可只覆盖所选最终R7区间；新文案、素材与数量变化需实际短样检查。",
+          "原媒体、源帧与字体一起保存；保持连续源时钟，不重启中途状态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/274c334857550548062fd94f",
+          "posterUrl": "/api/design-assets/73157f7e94ffab9e4e4f077f",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/c2d4b9a3273e9ab203ff0b7b",
+              "timeSeconds": 1.5333333333333334,
+              "frame": 92
+            },
+            {
+              "url": "/api/design-assets/5584603fcece84ea26fd8fee",
+              "timeSeconds": 3.6333333333333333,
+              "frame": 218
+            },
+            {
+              "url": "/api/design-assets/333812a848ef9ff306168a3e",
+              "timeSeconds": 5.466666666666667,
+              "frame": 328
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 6.016666666666667,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "R6MidMotion.tsx",
+          "symbol": "",
+          "url": "/api/design-source/203d98cf63e879f7ad1926ea",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep107-selected-03",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "handoff",
+      "libraryOrder": 2,
+      "matching": {
+        "referenceId": "ep107-selected-03",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "comparison"
+        ],
+        "inputObjects": [
+          "前后内容",
+          "载体",
+          "文字",
+          "信息结构"
+        ],
+        "action": "同尺度版本窗，箭头建立比较",
+        "segmentRole": "短交接",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
+        "tags": [
+          "内容交接",
+          "讲解段落",
+          "前后内容",
+          "载体",
+          "文字",
+          "信息结构",
+          "短交接",
+          "并排比较结果"
+        ],
+        "scenarioId": "compare",
+        "scenarioTitle": "并排比较结果",
+        "label": "107-03",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "relationship",
+          "image-comparison"
+        ]
+      },
+      "sceneTypes": [
+        "relationship",
+        "image-comparison"
+      ],
+      "projectDownload": {
+        "url": null,
+        "filename": "4a07ce4c76e60079.zip",
+        "available": true
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/bf89393afeeb"
+        ],
+        "compositionId": "EP107VersionComparison",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 1,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
+      "id": "component:ep107-selected-04",
+      "label": "107-04",
+      "title": "三项能力按口播建立，汇聚长胶囊",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "FredTalk 组件库",
+      "description": "分别说明三项能力，再汇聚为同一个产品或总结果。",
+      "tags": [
+        "第107期",
+        "107",
+        "107-04",
+        "三项能力",
+        "云端Agent",
+        "团队协作",
+        "极速决策",
+        "汇聚",
+        "R006",
+        "讲解段落",
+        "内容交接",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体",
+        "一段解释",
+        "列举要点与能力"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可只覆盖所选最终R7区间；新文案、素材与数量变化需实际短样检查。",
+          "原媒体、源帧与字体一起保存；保持连续源时钟，不重启中途状态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/c06d02e97cc62b5a7f463679",
+          "posterUrl": "/api/design-assets/2d6bf5023179d2f296fcc4a2",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/6cc3adbba9a4229d4651d42d",
+              "timeSeconds": 1.5333333333333334,
+              "frame": 92
+            },
+            {
+              "url": "/api/design-assets/2b36728dbb42f6a0df18287d",
+              "timeSeconds": 3.6333333333333333,
+              "frame": 218
+            },
+            {
+              "url": "/api/design-assets/b34032231f7643a6d8a6135a",
+              "timeSeconds": 5.466666666666667,
+              "frame": 328
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 4.483333333333333,
+          "posterSelection": "reviewed",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sources": [
+        {
+          "label": "R6LateMotion.tsx",
+          "symbol": "",
+          "url": "/api/design-source/be5f4ef88993eac2b8f74ff6",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "material-policy.tsx",
+          "symbol": "",
+          "url": "/api/design-source/0682c521792109c64c238b78",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "material-bindings.json",
+          "symbol": "",
+          "url": "/api/design-source/c49e9f9b1811d8bb72c76452",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep107-selected-04",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 3,
+      "matching": {
+        "referenceId": "ep107-selected-04",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "handoff"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text",
+          "handoff",
+          "cards"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构",
+          "前后内容",
+          "载体"
+        ],
+        "action": "三项能力按口播建立，汇聚长胶囊",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "内容交接",
+          "文字",
+          "信息结构",
+          "前后内容",
+          "载体",
+          "一段解释",
+          "列举要点与能力"
+        ],
+        "scenarioId": "list",
+        "scenarioTitle": "列举要点与能力",
+        "label": "107-04",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "relationship",
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "relationship",
+        "summary"
+      ],
+      "projectDownload": {
+        "url": null,
+        "filename": "4a07ce4c76e60079.zip",
+        "available": true
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/7210437846d3"
+        ],
+        "compositionId": "EP107CapabilitiesMerge",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
+        "entryPoint": "components/projects/7210437846d3/src/library-entry.tsx",
+        "publicDir": "components/projects/7210437846d3/public",
+        "runtimeVersion": "4.0.473",
+        "renderInputProps": {
+          "includeNarration": false
+        }
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 1,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      },
+      "materialRevision": "20261004-material-replacements",
+      "previewMatchesImplementation": true,
+      "materialStatus": "rendered-and-reviewed",
+      "materialSources": [
+        "/api/design-source/0682c521792109c64c238b78",
+        "/api/design-source/c49e9f9b1811d8bb72c76452"
+      ]
+    },
+    {
+      "id": "combined-remake:SP014",
+      "referenceId": "library-selfpick24-sp014",
+      "label": "SP014",
+      "title": "四格视频素材展示",
+      "kind": "remakes",
+      "category": "录屏与视频入场",
+      "categoryId": "video-entry",
+      "origin": "FredTalk 组件库",
+      "description": "从单个实拍承载面建立四格连续视频墙，再退场交给关键词。",
+      "tags": [
+        "SP014",
+        "Library",
+        "Library24",
+        "自选24",
+        "revision04",
+        "图片与媒体对照",
+        "第95期",
+        "录屏与视频入场",
+        "图片与作品",
+        "录屏",
+        "视频",
+        "窗口",
+        "图片",
+        "作品",
+        "真实媒体进入讲解",
+        "多图与作品墙"
+      ],
+      "selectionStatus": "keep",
+      "hiddenReason": null,
+      "mergedInto": [],
+      "visibleByDefault": true,
+      "libraryOrder": 13,
+      "reusability": {
+        "level": "snapshot",
+        "label": "当前场景源码",
+        "parameters": [],
+        "limitations": [
+          "当前展示沿用统一库的清理版本；按所展示的准确源码适配本期内容。",
+          "不把旧参考的参数接口或参考片段认可自动转移给当前适配。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/870e7d628c0d5191c612368c",
+          "posterUrl": "/api/design-assets/a3cc17f2c6e7c97af428b6e0",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/14a7e95e3b739ae5963da158",
+              "timeSeconds": 2.0,
+              "frame": 60
+            },
+            {
+              "url": "/api/design-assets/a0e794eb77b0c6c857465197",
+              "timeSeconds": 4.733333333333333,
+              "frame": 142
+            },
+            {
+              "url": "/api/design-assets/8b88aecc520c62769c967eac",
+              "timeSeconds": 7.133333333333334,
+              "frame": 214
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 9.133333333333333,
+          "fps": 30,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 5.833333333333333,
+          "posterSelection": "reviewed",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "sources": [
+        {
+          "label": "comparison-scenes.tsx",
+          "symbol": "",
+          "url": "/api/design-source/8ee63c65daaa58881624468c",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "material-policy.tsx",
+          "symbol": "",
+          "url": "/api/design-source/8b24072e4930ea8d5b3ec194",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "material-bindings.json",
+          "symbol": "",
+          "url": "/api/design-source/8bb53d609f15ba3efd405479",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "matching": {
+        "referenceId": "library-selfpick24-sp014",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "images"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "media"
+        ],
+        "inputObjects": [
+          "录屏",
+          "视频",
+          "窗口",
+          "图片",
+          "作品"
+        ],
+        "action": "四格视频素材展示",
+        "segmentRole": "真实媒体进入讲解",
+        "nativeDurationSeconds": 9.133,
+        "adaptation": "替换真实媒体，保留连续媒体时钟；按片段进出点检查全屏、窗口与设备之间的交接。",
+        "tags": [
+          "录屏与视频入场",
+          "图片与作品",
+          "录屏",
+          "视频",
+          "窗口",
+          "图片",
+          "作品",
+          "真实媒体进入讲解",
+          "多图与作品墙"
+        ],
+        "scenarioId": "wall",
+        "scenarioTitle": "多图与作品墙",
+        "label": "SP014",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "image-comparison"
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison"
+      ],
+      "projectDownload": {
+        "url": null,
+        "filename": "f262d07c1ad47cdc.zip",
+        "available": true
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/bf97a4a22921"
+        ],
+        "compositionId": "SP014",
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
+        "entryPoint": "components/projects/bf97a4a22921/src/library-entry.tsx",
+        "publicDir": "components/projects/bf97a4a22921/public",
+        "runtimeVersion": "4.0.515",
+        "renderInputProps": {
+          "includeNarration": false
+        }
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 8,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      },
+      "materialRevision": "20261004-material-replacements",
+      "previewMatchesImplementation": true,
+      "materialStatus": "rendered-and-reviewed",
+      "materialSources": [
+        "/api/design-source/8b24072e4930ea8d5b3ec194",
+        "/api/design-source/8bb53d609f15ba3efd405479"
+      ]
+    },
+    {
+      "id": "combined-remake:SP021",
+      "referenceId": "library-selfpick24-sp021",
+      "label": "SP021",
+      "title": "深色窗口中的三行能力词",
+      "kind": "remakes",
+      "category": "讲解段落",
+      "categoryId": "explain",
+      "origin": "FredTalk 组件库",
+      "description": "深色窗口里的三行能力词和侧边箭头组成短时强调。",
+      "tags": [
+        "SP021",
+        "Library",
+        "Library24",
+        "自选24",
+        "revision04",
+        "关键词、清单与目标",
+        "第106期",
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "列举要点与能力"
+      ],
+      "selectionStatus": "keep",
+      "hiddenReason": null,
+      "mergedInto": [],
+      "visibleByDefault": true,
+      "libraryOrder": 20,
+      "reusability": {
+        "level": "snapshot",
+        "label": "已认可 · 场景源码",
+        "parameters": [
+          "includeSourceAudio（参考音轨开关，默认true）"
+        ],
+        "limitations": [
+          "固定内容场景；不提供已验证任意文案、数量或画幅的通用参数API。",
+          "素材含真实录屏、人物及原生帧图层，换内容时需准备相应实体媒体。",
+          "用户认可用于复用，不等于与Library参考片段逐像素一致或修后内部全帧动态验收。",
+          "源空心双色箭头改Fred实体紫，属于风格替代。",
+          "当前公开素材包不包含原参考音轨；复用时禁用此旧开关并提供自己的录音。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/db654d03d5013a3cd815cfb9",
+          "posterUrl": "/api/design-assets/9ff7444950d9ee500f380e54",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/6818b25f3e9a49817ae79b4b",
+              "timeSeconds": 0.4,
+              "frame": 12
+            },
+            {
+              "url": "/api/design-assets/c67cfdc5be29c098512f265a",
+              "timeSeconds": 0.9333333333333333,
+              "frame": 28
+            },
+            {
+              "url": "/api/design-assets/92af520b4f021c6af66c60d9",
+              "timeSeconds": 1.4,
+              "frame": 42
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 1.8333333333333333,
+          "fps": 30,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.9333333333333333,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "sp021.tsx",
+          "symbol": "SP021",
+          "url": "/api/design-source/a46308dd46d16d3ec0913760",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "README.md",
+          "symbol": "",
+          "url": "/api/design-source/2dd422729a6a5f7538c9c38b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "compositions.json",
+          "symbol": "",
+          "url": "/api/design-source/3ecb5b3ecb7735ed92f0c3a2",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "dependency-manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/bd63e7ebafe43f2da579f886",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/a913616389b595c6f8e7fb37",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "package-lock.json",
+          "symbol": "",
+          "url": "/api/design-source/676eb6b31a9f9c84f8c6322e",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "package.json",
+          "symbol": "",
+          "url": "/api/design-source/5ab18162fa4b8b18217d6505",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "render.cjs",
+          "symbol": "",
+          "url": "/api/design-source/93358bef51017f3a3e600b0c",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "fred-scene.tsx",
+          "symbol": "",
+          "url": "/api/design-source/102d45f8ec4dd9897b880ba5",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "library-entry.tsx",
+          "symbol": "",
+          "url": "/api/design-source/d6bfca0d734454bb6fe6da90",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "sp021-extra-native.json",
+          "symbol": "",
+          "url": "/api/design-source/5bd513fa45945d0dadd5a6c9",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "sp021-source-motion.json",
+          "symbol": "",
+          "url": "/api/design-source/d0d317d1a96122cfa69b2b2b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "sp021.tsx",
+          "symbol": "",
+          "url": "/api/design-source/a46308dd46d16d3ec0913760",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "matching": {
+        "referenceId": "library-selfpick24-sp021",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "fredtalk",
+        "conceptIds": [
+          "text"
+        ],
+        "inputObjects": [
+          "文字",
+          "信息结构"
+        ],
+        "action": "深色窗口中的三行能力词",
+        "segmentRole": "一段解释",
+        "nativeDurationSeconds": 1.833,
+        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+        "tags": [
+          "讲解段落",
+          "文字",
+          "信息结构",
+          "一段解释",
+          "列举要点与能力"
+        ],
+        "scenarioId": "list",
+        "scenarioTitle": "列举要点与能力",
+        "label": "SP021",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "summary"
+      ],
+      "implementation": {
+        "projects": [
+          "components/projects/715f24e6f6f4"
+        ],
+        "compositionId": null,
+        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
+      },
+      "assetAvailability": {
+        "quarantinedDependencyPaths": 8,
+        "note": "Full project snapshot may include unused branches; check the selected composition."
+      }
+    },
+    {
       "id": "component:fred-motion-source-f9dc5562d54cda56",
       "label": "C008",
       "title": "前一步引出后一步",
@@ -602,117 +2432,6 @@
         "scenarioId": "process",
         "scenarioTitle": "解释步骤与流程",
         "label": "C008",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "relationship"
-        ]
-      },
-      "sceneTypes": [
-        "relationship"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/5fa89bc8e570"
-        ],
-        "compositionId": null,
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 0,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:fred-motion-source-51d675feaef3608e",
-      "label": "C009",
-      "title": "多个词组成信息结构",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "多个词组成信息结构",
-      "tags": [
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "一段解释",
-        "分类、分支与归组"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "保留动作关系，复制后适配本期文案、数量、尺寸、cue 与相邻交接。",
-          "参考片段取舍不代表新组合或新适配已获视觉认可。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/0820e43873ea9fb956df2252",
-          "posterUrl": "/api/design-assets/6d2db09c73e238f5c96e66bc",
-          "keyframes": [],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 6.5,
-          "fps": 60.0,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 4.933333333333334,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "WordGrid.tsx",
-          "symbol": "",
-          "url": "/api/design-source/3e175db071451bc7429bab03",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "approved-manifest.json",
-          "symbol": "",
-          "url": "/api/design-source/5988b21d686b10ec532182e2",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "fred-motion-source-51d675feaef3608e",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 5,
-      "matching": {
-        "referenceId": "fred-motion-source-51d675feaef3608e",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构"
-        ],
-        "action": "多个词组成信息结构",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 6.5,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "一段解释",
-          "分类、分支与归组"
-        ],
-        "scenarioId": "relation",
-        "scenarioTitle": "分类、分支与归组",
-        "label": "C009",
         "categoryId": "explain",
         "category": "讲解段落",
         "sceneTypes": [
@@ -4185,179 +5904,6 @@
       ]
     },
     {
-      "id": "component:library-new10-n027",
-      "label": "N027",
-      "title": "流程线绕回下一行，连续建立三排步骤",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "步骤超过一行的教程、生产链或依赖流程；避免把长链缩成小字。",
-      "tags": [
-        "流程线绕回下一行，连续建立三排步骤",
-        "标题与文字",
-        "关系与流程",
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "一段解释",
-        "解释步骤与流程"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/17265130db525128dabbdfbd",
-          "posterUrl": "/api/design-assets/ed7f21d69e2b8a1fdde6d123",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/39d505e5bbb9757923287278",
-              "timeSeconds": 2.05,
-              "frame": 123
-            },
-            {
-              "url": "/api/design-assets/d799e708690b01a2d8bcb868",
-              "timeSeconds": 4.833,
-              "frame": 290
-            },
-            {
-              "url": "/api/design-assets/7426027c8fbb9830cc45d1ee",
-              "timeSeconds": 7.25,
-              "frame": 435
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 9.3,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 8.75,
-          "posterSelection": "reviewed",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "sources": [
-        {
-          "label": "BatchC.tsx",
-          "symbol": "BatchC",
-          "url": "/api/design-source/0c420727e2aef11366c5af1a",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "BatchC.tsx",
-          "symbol": "",
-          "url": "/api/design-source/0c420727e2aef11366c5af1a",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "index.tsx",
-          "symbol": "",
-          "url": "/api/design-source/9bd30027ac727e3097c8e526",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package-lock.json",
-          "symbol": "",
-          "url": "/api/design-source/5d02b542b76987fbac880994",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-policy.tsx",
-          "symbol": "",
-          "url": "/api/design-source/496bf6ea78205c1e87f191e2",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-bindings.json",
-          "symbol": "",
-          "url": "/api/design-source/7986dba0cc5039b1d159a2b1",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-n027",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-n027",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "process"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构"
-        ],
-        "action": "流程线绕回下一行，连续建立三排步骤",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 9.3,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "一段解释",
-          "解释步骤与流程"
-        ],
-        "scenarioId": "process",
-        "scenarioTitle": "解释步骤与流程",
-        "label": "N027",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "summary"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/30b3c05aa839"
-        ],
-        "compositionId": "N027",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
-        "entryPoint": "components/projects/30b3c05aa839/src/index.tsx",
-        "publicDir": "components/projects/30b3c05aa839/public",
-        "runtimeVersion": "4.0.473",
-        "renderInputProps": {
-          "includeNarration": false
-        }
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      },
-      "materialRevision": "20261004-material-replacements",
-      "previewMatchesImplementation": true,
-      "materialStatus": "rendered-and-reviewed",
-      "materialSources": [
-        "/api/design-source/496bf6ea78205c1e87f191e2",
-        "/api/design-source/7986dba0cc5039b1d159a2b1"
-      ]
-    },
-    {
       "id": "component:library-new10-n030",
       "label": "N030",
       "title": "搜索框缩成查询路标，两路结果展开",
@@ -5295,159 +6841,6 @@
           "components/projects/f383bd215d85"
         ],
         "compositionId": "N040",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:library-new10-n043",
-      "label": "N043",
-      "title": "长文面板横向展开为背景，手机重新到前景",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "先交代后台资料或规则总量，再把注意力交还实际操作。",
-      "tags": [
-        "长文面板横向展开为背景，手机重新到前景",
-        "窗口与设备",
-        "文档与操作演示",
-        "媒体与空间",
-        "讲解段落",
-        "录屏与视频入场",
-        "内容交接",
-        "文字",
-        "信息结构",
-        "录屏",
-        "视频",
-        "窗口",
-        "前后内容",
-        "载体",
-        "一段解释",
-        "输入、聊天与反馈"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/aee5f737225ca18a69ae75f8",
-          "posterUrl": "/api/design-assets/119a02457f1ea64a4fa28df2",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/ac0614ce6825019f25c6740b",
-              "timeSeconds": 0.9,
-              "frame": 54
-            },
-            {
-              "url": "/api/design-assets/16b5bcde6627a8e44d819bec",
-              "timeSeconds": 2.1333333333333333,
-              "frame": 128
-            },
-            {
-              "url": "/api/design-assets/a2f6d63f6778a313f8095694",
-              "timeSeconds": 3.2,
-              "frame": 192
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 4.1,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 3.1166666666666667,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "BatchB.tsx",
-          "symbol": "",
-          "url": "/api/design-source/cb529c9c35da4b08956cc15d",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-n043",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-n043",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain",
-          "video-entry",
-          "handoff"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "media",
-          "handoff"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构",
-          "录屏",
-          "视频",
-          "窗口",
-          "前后内容",
-          "载体"
-        ],
-        "action": "长文面板横向展开为背景，手机重新到前景",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 4.1,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "录屏与视频入场",
-          "内容交接",
-          "文字",
-          "信息结构",
-          "录屏",
-          "视频",
-          "窗口",
-          "前后内容",
-          "载体",
-          "一段解释",
-          "输入、聊天与反馈"
-        ],
-        "scenarioId": "input",
-        "scenarioTitle": "输入、聊天与反馈",
-        "label": "N043",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "device-demo",
-          "prompt-reading"
-        ]
-      },
-      "sceneTypes": [
-        "device-demo",
-        "prompt-reading"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "ef9fc0c824930a7b.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/f383bd215d85"
-        ],
-        "compositionId": "N043",
         "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
       },
       "assetAvailability": {
@@ -6865,140 +8258,6 @@
       }
     },
     {
-      "id": "component:library-new10-x006",
-      "label": "X006",
-      "title": "三种生成方式清单",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "步骤、对象关系、分支或结论交接",
-      "tags": [
-        "三种生成方式清单",
-        "逻辑与流程",
-        "图片与作品展示",
-        "文档与操作演示",
-        "转场与交接",
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "一段解释",
-        "列举要点与能力"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "当前场景源码",
-        "parameters": [],
-        "limitations": [
-          "当前展示沿用统一库的清理版本；按所展示的准确源码适配本期内容。",
-          "不把旧参考的参数接口或参考片段认可自动转移给当前适配。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/9ac0e437cfccfade3037a217",
-          "posterUrl": "/api/design-assets/0e9b1ba455fe0afbbeff6cc0",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/2ad134c67101db6a8cc454f2",
-              "timeSeconds": 1.3166666666666667,
-              "frame": 79
-            },
-            {
-              "url": "/api/design-assets/b0224ed0879ca11cca6cdf9b",
-              "timeSeconds": 3.1166666666666667,
-              "frame": 187
-            },
-            {
-              "url": "/api/design-assets/39a657a423e21ecf35bc59d2",
-              "timeSeconds": 4.683333333333334,
-              "frame": 281
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 6.0,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 4.566666666666666,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "RebuiltX006.tsx",
-          "symbol": "",
-          "url": "/api/design-source/11a5032e1939549b4ef77ab3",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-x006",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-x006",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构"
-        ],
-        "action": "三种生成方式清单",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 6.0,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "一段解释",
-          "列举要点与能力"
-        ],
-        "scenarioId": "list",
-        "scenarioTitle": "列举要点与能力",
-        "label": "X006",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "relationship",
-          "image-comparison",
-          "prompt-reading"
-        ]
-      },
-      "sceneTypes": [
-        "relationship",
-        "image-comparison",
-        "prompt-reading"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "ef9fc0c824930a7b.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/d2cd2cc84551"
-        ],
-        "compositionId": "X006",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
       "id": "component:library-new10-x008",
       "label": "X008",
       "title": "提示词与能力黑胶囊",
@@ -7851,133 +9110,6 @@
       }
     },
     {
-      "id": "component:library-new10-x019",
-      "label": "X019",
-      "title": "免费规则窗口",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "标题建立、字体变化或重点词交接",
-      "tags": [
-        "免费规则窗口",
-        "标题与文字",
-        "转场与交接",
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "一段解释",
-        "提出问题与给出答案"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/16368aa88a2eb7847a2011c3",
-          "posterUrl": "/api/design-assets/a0b5fca83c98cb217520d9fb",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/9aeb2cefae36199326d0c243",
-              "timeSeconds": 1.9833333333333334,
-              "frame": 119
-            },
-            {
-              "url": "/api/design-assets/7d927b3b98a331cec108e383",
-              "timeSeconds": 4.683333333333334,
-              "frame": 281
-            },
-            {
-              "url": "/api/design-assets/647d7fc66eeed9d89713599f",
-              "timeSeconds": 7.016666666666667,
-              "frame": 421
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 9.0,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 6.833333333333333,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "XScenesB.tsx",
-          "symbol": "",
-          "url": "/api/design-source/59f1e8629e9abf29f8fe1842",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-x019",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-x019",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构"
-        ],
-        "action": "免费规则窗口",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 9.0,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "一段解释",
-          "提出问题与给出答案"
-        ],
-        "scenarioId": "question",
-        "scenarioTitle": "提出问题与给出答案",
-        "label": "X019",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "summary"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "ef9fc0c824930a7b.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/f383bd215d85"
-        ],
-        "compositionId": "X019",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
       "id": "component:library-new10-x020",
       "label": "X020",
       "title": "四格视频成果",
@@ -8113,154 +9245,6 @@
         "label": "X020",
         "categoryId": "video-entry",
         "category": "录屏与视频入场",
-        "sceneTypes": [
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "summary"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/9db3f6625112"
-        ],
-        "compositionId": null,
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:library-new10-x022",
-      "label": "X022",
-      "title": "角色虚化前的三项概念",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "标题建立、字体变化或重点词交接",
-      "tags": [
-        "角色虚化前的三项概念",
-        "标题与文字",
-        "聚焦与转场",
-        "转场与交接",
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "人物素材",
-        "一段解释",
-        "列举要点与能力"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/b1a8e405edf6113c8837b870",
-          "posterUrl": "/api/design-assets/ab8fcda28d107dd16a989d10",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/cf72ccf905b745d1801761d9",
-              "timeSeconds": 0.567,
-              "frame": 34
-            },
-            {
-              "url": "/api/design-assets/1988a3527f3ed45e85c13c0f",
-              "timeSeconds": 1.35,
-              "frame": 81
-            },
-            {
-              "url": "/api/design-assets/747708a0cf611eec334d38ad",
-              "timeSeconds": 2.033,
-              "frame": 122
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 2.6,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 1.9833333333333334,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "XScenesB.tsx",
-          "symbol": "XScenesB",
-          "url": "/api/design-source/69877a1badc6107d19d121da",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "XScenesB.tsx",
-          "symbol": "",
-          "url": "/api/design-source/69877a1badc6107d19d121da",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "index.tsx",
-          "symbol": "",
-          "url": "/api/design-source/fa193431d89dc0dc1f2e105f",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package-lock.json",
-          "symbol": "",
-          "url": "/api/design-source/d82dab540852c3292dbb420f",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-x022",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-x022",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "people"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构",
-          "人物素材"
-        ],
-        "action": "角色虚化前的三项概念",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 2.6,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "人物素材",
-          "一段解释",
-          "列举要点与能力"
-        ],
-        "scenarioId": "list",
-        "scenarioTitle": "列举要点与能力",
-        "label": "X022",
-        "categoryId": "explain",
-        "category": "讲解段落",
         "sceneTypes": [
           "summary"
         ]
@@ -8546,164 +9530,6 @@
         "scenarioId": "input",
         "scenarioTitle": "输入、聊天与反馈",
         "label": "X024",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "summary"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/9db3f6625112"
-        ],
-        "compositionId": null,
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:library-new10-x025",
-      "label": "X025",
-      "title": "文档推近逐行阅读",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "标题建立、字体变化或重点词交接",
-      "tags": [
-        "文档推近逐行阅读",
-        "标题与文字",
-        "聚焦与转场",
-        "转场与交接",
-        "讲解段落",
-        "录屏聚焦",
-        "文字",
-        "信息结构",
-        "真实界面",
-        "前景重点",
-        "文档内容",
-        "一段解释",
-        "局部放大与标注"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/94042fa018cb4880e49bde6d",
-          "posterUrl": "/api/design-assets/30628c37fb5eab71752c36cb",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/d066cc5d5a02407dfd1fbdd4",
-              "timeSeconds": 1.533,
-              "frame": 92
-            },
-            {
-              "url": "/api/design-assets/2cd5934a047a5ca7d7a8a326",
-              "timeSeconds": 3.633,
-              "frame": 218
-            },
-            {
-              "url": "/api/design-assets/b3831b8bf42e8441083fa575",
-              "timeSeconds": 5.467,
-              "frame": 328
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 7.0,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 5.316666666666666,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "BatchB.tsx",
-          "symbol": "BatchB",
-          "url": "/api/design-source/7233b79fc5de50ad28120e4f",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "BatchB.tsx",
-          "symbol": "",
-          "url": "/api/design-source/7233b79fc5de50ad28120e4f",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "index.tsx",
-          "symbol": "",
-          "url": "/api/design-source/fa193431d89dc0dc1f2e105f",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package-lock.json",
-          "symbol": "",
-          "url": "/api/design-source/d82dab540852c3292dbb420f",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-x025",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-x025",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain",
-          "recording-focus"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "focus",
-          "document"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构",
-          "真实界面",
-          "前景重点",
-          "文档内容"
-        ],
-        "action": "文档推近逐行阅读",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 7.0,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "录屏聚焦",
-          "文字",
-          "信息结构",
-          "真实界面",
-          "前景重点",
-          "文档内容",
-          "一段解释",
-          "局部放大与标注"
-        ],
-        "scenarioId": "focus",
-        "scenarioTitle": "局部放大与标注",
-        "label": "X025",
         "categoryId": "explain",
         "category": "讲解段落",
         "sceneTypes": [
@@ -10074,121 +10900,6 @@
       },
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "clip:aa0612eb-9d33-484d-9d74-869f4c6fa265",
-      "label": "E08",
-      "title": "记忆分类分支与重新使用",
-      "kind": "clips",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "从记忆主节点逐项展开回答偏好、常用工具、已确认方案，再转到接着用。",
-      "tags": [
-        "讲解段落",
-        "内容交接",
-        "文字",
-        "信息结构",
-        "前后内容",
-        "载体",
-        "一段解释",
-        "分类、分支与归组"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "保留动作关系，复制后适配本期文案、数量、尺寸、cue 与相邻交接。",
-          "参考片段取舍不代表新组合或新适配已获视觉认可。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/5b4190fe3f76d09c1d96ac66",
-          "posterUrl": "/api/design-assets/8be28824c010df4d83632791",
-          "keyframes": [],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 7.216667,
-          "fps": 60.0,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 2.6,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Config.tsx",
-          "symbol": "Memory",
-          "url": "/api/design-source/9866b616b3e6aabae9f80c69",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "aa0612eb-9d33-484d-9d74-869f4c6fa265",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 20,
-      "matching": {
-        "referenceId": "aa0612eb-9d33-484d-9d74-869f4c6fa265",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain",
-          "handoff"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "handoff",
-          "process"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构",
-          "前后内容",
-          "载体"
-        ],
-        "action": "记忆分类分支与重新使用",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 7.217,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "内容交接",
-          "文字",
-          "信息结构",
-          "前后内容",
-          "载体",
-          "一段解释",
-          "分类、分支与归组"
-        ],
-        "scenarioId": "relation",
-        "scenarioTitle": "分类、分支与归组",
-        "label": "E08",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "relationship"
-        ]
-      },
-      "sceneTypes": [
-        "relationship"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/a64e4fb5a587"
-        ],
-        "compositionId": null,
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 1,
         "note": "Full project snapshot may include unused branches; check the selected composition."
       }
     },
@@ -12248,328 +12959,6 @@
       "materialSources": [
         "/api/design-source/dff8e4b3d986f12301d4de0b",
         "/api/design-source/1269bc11662e9a76ba6c5a3c"
-      ]
-    },
-    {
-      "id": "component:ep107-selected-03",
-      "label": "107-03",
-      "title": "同尺度版本窗，箭头建立比较",
-      "kind": "components",
-      "category": "内容交接",
-      "origin": "FredTalk 组件库",
-      "description": "旧版本与新版本按口播先后建立，箭头明确更新关系，下方落一个判断。",
-      "tags": [
-        "第107期",
-        "107",
-        "107-03",
-        "版本比较",
-        "同尺度",
-        "箭头",
-        "GPT-6",
-        "GPT-6.1",
-        "内容交接",
-        "讲解段落",
-        "前后内容",
-        "载体",
-        "文字",
-        "信息结构",
-        "短交接",
-        "并排比较结果"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "认可只覆盖所选最终R7区间；新文案、素材与数量变化需实际短样检查。",
-          "原媒体、源帧与字体一起保存；保持连续源时钟，不重启中途状态。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/274c334857550548062fd94f",
-          "posterUrl": "/api/design-assets/73157f7e94ffab9e4e4f077f",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/c2d4b9a3273e9ab203ff0b7b",
-              "timeSeconds": 1.5333333333333334,
-              "frame": 92
-            },
-            {
-              "url": "/api/design-assets/5584603fcece84ea26fd8fee",
-              "timeSeconds": 3.6333333333333333,
-              "frame": 218
-            },
-            {
-              "url": "/api/design-assets/333812a848ef9ff306168a3e",
-              "timeSeconds": 5.466666666666667,
-              "frame": 328
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 7.0,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 6.016666666666667,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "R6MidMotion.tsx",
-          "symbol": "",
-          "url": "/api/design-source/203d98cf63e879f7ad1926ea",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "ep107-selected-03",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "handoff",
-      "libraryOrder": 2,
-      "matching": {
-        "referenceId": "ep107-selected-03",
-        "primaryUse": "handoff",
-        "useIds": [
-          "handoff",
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "handoff",
-          "text",
-          "comparison"
-        ],
-        "inputObjects": [
-          "前后内容",
-          "载体",
-          "文字",
-          "信息结构"
-        ],
-        "action": "同尺度版本窗，箭头建立比较",
-        "segmentRole": "短交接",
-        "nativeDurationSeconds": 7.0,
-        "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
-        "tags": [
-          "内容交接",
-          "讲解段落",
-          "前后内容",
-          "载体",
-          "文字",
-          "信息结构",
-          "短交接",
-          "并排比较结果"
-        ],
-        "scenarioId": "compare",
-        "scenarioTitle": "并排比较结果",
-        "label": "107-03",
-        "categoryId": "handoff",
-        "category": "内容交接",
-        "sceneTypes": [
-          "relationship",
-          "image-comparison"
-        ]
-      },
-      "sceneTypes": [
-        "relationship",
-        "image-comparison"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "4a07ce4c76e60079.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/bf89393afeeb"
-        ],
-        "compositionId": "EP107VersionComparison",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 1,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:ep107-selected-04",
-      "label": "107-04",
-      "title": "三项能力按口播建立，汇聚长胶囊",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "分别说明三项能力，再汇聚为同一个产品或总结果。",
-      "tags": [
-        "第107期",
-        "107",
-        "107-04",
-        "三项能力",
-        "云端Agent",
-        "团队协作",
-        "极速决策",
-        "汇聚",
-        "R006",
-        "讲解段落",
-        "内容交接",
-        "文字",
-        "信息结构",
-        "前后内容",
-        "载体",
-        "一段解释",
-        "列举要点与能力"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "认可只覆盖所选最终R7区间；新文案、素材与数量变化需实际短样检查。",
-          "原媒体、源帧与字体一起保存；保持连续源时钟，不重启中途状态。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/c06d02e97cc62b5a7f463679",
-          "posterUrl": "/api/design-assets/2d6bf5023179d2f296fcc4a2",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/6cc3adbba9a4229d4651d42d",
-              "timeSeconds": 1.5333333333333334,
-              "frame": 92
-            },
-            {
-              "url": "/api/design-assets/2b36728dbb42f6a0df18287d",
-              "timeSeconds": 3.6333333333333333,
-              "frame": 218
-            },
-            {
-              "url": "/api/design-assets/b34032231f7643a6d8a6135a",
-              "timeSeconds": 5.466666666666667,
-              "frame": 328
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 7.0,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 4.483333333333333,
-          "posterSelection": "reviewed",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "sources": [
-        {
-          "label": "R6LateMotion.tsx",
-          "symbol": "",
-          "url": "/api/design-source/be5f4ef88993eac2b8f74ff6",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-policy.tsx",
-          "symbol": "",
-          "url": "/api/design-source/0682c521792109c64c238b78",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-bindings.json",
-          "symbol": "",
-          "url": "/api/design-source/c49e9f9b1811d8bb72c76452",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "ep107-selected-04",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 3,
-      "matching": {
-        "referenceId": "ep107-selected-04",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain",
-          "handoff"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "handoff",
-          "cards"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构",
-          "前后内容",
-          "载体"
-        ],
-        "action": "三项能力按口播建立，汇聚长胶囊",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 7.0,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "内容交接",
-          "文字",
-          "信息结构",
-          "前后内容",
-          "载体",
-          "一段解释",
-          "列举要点与能力"
-        ],
-        "scenarioId": "list",
-        "scenarioTitle": "列举要点与能力",
-        "label": "107-04",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "relationship",
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "relationship",
-        "summary"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "4a07ce4c76e60079.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/7210437846d3"
-        ],
-        "compositionId": "EP107CapabilitiesMerge",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
-        "entryPoint": "components/projects/7210437846d3/src/library-entry.tsx",
-        "publicDir": "components/projects/7210437846d3/public",
-        "runtimeVersion": "4.0.473",
-        "renderInputProps": {
-          "includeNarration": false
-        }
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 1,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      },
-      "materialRevision": "20261004-material-replacements",
-      "previewMatchesImplementation": true,
-      "materialStatus": "rendered-and-reviewed",
-      "materialSources": [
-        "/api/design-source/0682c521792109c64c238b78",
-        "/api/design-source/c49e9f9b1811d8bb72c76452"
       ]
     },
     {
@@ -15547,179 +15936,6 @@
       }
     },
     {
-      "id": "combined-remake:SP014",
-      "referenceId": "library-selfpick24-sp014",
-      "label": "SP014",
-      "title": "四格视频素材展示",
-      "kind": "remakes",
-      "category": "录屏与视频入场",
-      "categoryId": "video-entry",
-      "origin": "FredTalk 组件库",
-      "description": "从单个实拍承载面建立四格连续视频墙，再退场交给关键词。",
-      "tags": [
-        "SP014",
-        "Library",
-        "Library24",
-        "自选24",
-        "revision04",
-        "图片与媒体对照",
-        "第95期",
-        "录屏与视频入场",
-        "图片与作品",
-        "录屏",
-        "视频",
-        "窗口",
-        "图片",
-        "作品",
-        "真实媒体进入讲解",
-        "多图与作品墙"
-      ],
-      "selectionStatus": "keep",
-      "hiddenReason": null,
-      "mergedInto": [],
-      "visibleByDefault": true,
-      "libraryOrder": 13,
-      "reusability": {
-        "level": "snapshot",
-        "label": "当前场景源码",
-        "parameters": [],
-        "limitations": [
-          "当前展示沿用统一库的清理版本；按所展示的准确源码适配本期内容。",
-          "不把旧参考的参数接口或参考片段认可自动转移给当前适配。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/870e7d628c0d5191c612368c",
-          "posterUrl": "/api/design-assets/a3cc17f2c6e7c97af428b6e0",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/14a7e95e3b739ae5963da158",
-              "timeSeconds": 2.0,
-              "frame": 60
-            },
-            {
-              "url": "/api/design-assets/a0e794eb77b0c6c857465197",
-              "timeSeconds": 4.733333333333333,
-              "frame": 142
-            },
-            {
-              "url": "/api/design-assets/8b88aecc520c62769c967eac",
-              "timeSeconds": 7.133333333333334,
-              "frame": 214
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 9.133333333333333,
-          "fps": 30,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 5.833333333333333,
-          "posterSelection": "reviewed",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "sources": [
-        {
-          "label": "comparison-scenes.tsx",
-          "symbol": "",
-          "url": "/api/design-source/8ee63c65daaa58881624468c",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-policy.tsx",
-          "symbol": "",
-          "url": "/api/design-source/8b24072e4930ea8d5b3ec194",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-bindings.json",
-          "symbol": "",
-          "url": "/api/design-source/8bb53d609f15ba3efd405479",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "matching": {
-        "referenceId": "library-selfpick24-sp014",
-        "primaryUse": "video-entry",
-        "useIds": [
-          "video-entry",
-          "images"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "media"
-        ],
-        "inputObjects": [
-          "录屏",
-          "视频",
-          "窗口",
-          "图片",
-          "作品"
-        ],
-        "action": "四格视频素材展示",
-        "segmentRole": "真实媒体进入讲解",
-        "nativeDurationSeconds": 9.133,
-        "adaptation": "替换真实媒体，保留连续媒体时钟；按片段进出点检查全屏、窗口与设备之间的交接。",
-        "tags": [
-          "录屏与视频入场",
-          "图片与作品",
-          "录屏",
-          "视频",
-          "窗口",
-          "图片",
-          "作品",
-          "真实媒体进入讲解",
-          "多图与作品墙"
-        ],
-        "scenarioId": "wall",
-        "scenarioTitle": "多图与作品墙",
-        "label": "SP014",
-        "categoryId": "video-entry",
-        "category": "录屏与视频入场",
-        "sceneTypes": [
-          "image-comparison"
-        ]
-      },
-      "sceneTypes": [
-        "image-comparison"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "f262d07c1ad47cdc.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/bf97a4a22921"
-        ],
-        "compositionId": "SP014",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
-        "entryPoint": "components/projects/bf97a4a22921/src/library-entry.tsx",
-        "publicDir": "components/projects/bf97a4a22921/public",
-        "runtimeVersion": "4.0.515",
-        "renderInputProps": {
-          "includeNarration": false
-        }
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 8,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      },
-      "materialRevision": "20261004-material-replacements",
-      "previewMatchesImplementation": true,
-      "materialStatus": "rendered-and-reviewed",
-      "materialSources": [
-        "/api/design-source/8b24072e4930ea8d5b3ec194",
-        "/api/design-source/8bb53d609f15ba3efd405479"
-      ]
-    },
-    {
       "id": "combined-remake:SP016",
       "referenceId": "library-selfpick24-sp016",
       "label": "SP016",
@@ -17054,222 +17270,6 @@
         "/api/design-source/87b796235d6e010db3957310",
         "/api/design-source/07b67307c0357e8b0f2f6562"
       ]
-    },
-    {
-      "id": "combined-remake:SP021",
-      "referenceId": "library-selfpick24-sp021",
-      "label": "SP021",
-      "title": "深色窗口中的三行能力词",
-      "kind": "remakes",
-      "category": "讲解段落",
-      "categoryId": "explain",
-      "origin": "FredTalk 组件库",
-      "description": "深色窗口里的三行能力词和侧边箭头组成短时强调。",
-      "tags": [
-        "SP021",
-        "Library",
-        "Library24",
-        "自选24",
-        "revision04",
-        "关键词、清单与目标",
-        "第106期",
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "一段解释",
-        "列举要点与能力"
-      ],
-      "selectionStatus": "keep",
-      "hiddenReason": null,
-      "mergedInto": [],
-      "visibleByDefault": true,
-      "libraryOrder": 20,
-      "reusability": {
-        "level": "snapshot",
-        "label": "已认可 · 场景源码",
-        "parameters": [
-          "includeSourceAudio（参考音轨开关，默认true）"
-        ],
-        "limitations": [
-          "固定内容场景；不提供已验证任意文案、数量或画幅的通用参数API。",
-          "素材含真实录屏、人物及原生帧图层，换内容时需准备相应实体媒体。",
-          "用户认可用于复用，不等于与Library参考片段逐像素一致或修后内部全帧动态验收。",
-          "源空心双色箭头改Fred实体紫，属于风格替代。",
-          "当前公开素材包不包含原参考音轨；复用时禁用此旧开关并提供自己的录音。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/db654d03d5013a3cd815cfb9",
-          "posterUrl": "/api/design-assets/9ff7444950d9ee500f380e54",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/6818b25f3e9a49817ae79b4b",
-              "timeSeconds": 0.4,
-              "frame": 12
-            },
-            {
-              "url": "/api/design-assets/c67cfdc5be29c098512f265a",
-              "timeSeconds": 0.9333333333333333,
-              "frame": 28
-            },
-            {
-              "url": "/api/design-assets/92af520b4f021c6af66c60d9",
-              "timeSeconds": 1.4,
-              "frame": 42
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 1.8333333333333333,
-          "fps": 30,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 0.9333333333333333,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "sp021.tsx",
-          "symbol": "SP021",
-          "url": "/api/design-source/a46308dd46d16d3ec0913760",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "README.md",
-          "symbol": "",
-          "url": "/api/design-source/2dd422729a6a5f7538c9c38b",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "compositions.json",
-          "symbol": "",
-          "url": "/api/design-source/3ecb5b3ecb7735ed92f0c3a2",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "dependency-manifest.json",
-          "symbol": "",
-          "url": "/api/design-source/bd63e7ebafe43f2da579f886",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "manifest.json",
-          "symbol": "",
-          "url": "/api/design-source/a913616389b595c6f8e7fb37",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package-lock.json",
-          "symbol": "",
-          "url": "/api/design-source/676eb6b31a9f9c84f8c6322e",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package.json",
-          "symbol": "",
-          "url": "/api/design-source/5ab18162fa4b8b18217d6505",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "render.cjs",
-          "symbol": "",
-          "url": "/api/design-source/93358bef51017f3a3e600b0c",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "fred-scene.tsx",
-          "symbol": "",
-          "url": "/api/design-source/102d45f8ec4dd9897b880ba5",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "library-entry.tsx",
-          "symbol": "",
-          "url": "/api/design-source/d6bfca0d734454bb6fe6da90",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "sp021-extra-native.json",
-          "symbol": "",
-          "url": "/api/design-source/5bd513fa45945d0dadd5a6c9",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "sp021-source-motion.json",
-          "symbol": "",
-          "url": "/api/design-source/d0d317d1a96122cfa69b2b2b",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "sp021.tsx",
-          "symbol": "",
-          "url": "/api/design-source/a46308dd46d16d3ec0913760",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "matching": {
-        "referenceId": "library-selfpick24-sp021",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构"
-        ],
-        "action": "深色窗口中的三行能力词",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 1.833,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "一段解释",
-          "列举要点与能力"
-        ],
-        "scenarioId": "list",
-        "scenarioTitle": "列举要点与能力",
-        "label": "SP021",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "summary"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/715f24e6f6f4"
-        ],
-        "compositionId": null,
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 8,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
     },
     {
       "id": "combined-remake:SP022",
