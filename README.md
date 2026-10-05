@@ -62,7 +62,7 @@ python3 scripts/library_server.py
 
 ### 下载预览与素材
 
-仓库附带少量示例；完整预览与制作素材通过 Release 下载。先查看体积，再按需安装：
+仓库直接附带[日常使用的五个字体家族](library/fonts/README.md)和少量示例，克隆后即可使用字体；完整预览与其他制作素材通过 Release 下载。先查看体积，再按需安装：
 
 ```bash
 python3 scripts/assets.py status

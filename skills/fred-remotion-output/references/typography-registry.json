@@ -16,7 +16,7 @@
       "when": "按正文职责使用，长句优先检查行宽和阅读窗口。",
       "avoid": "不作为大字重点的默认重量。",
       "sample": "把复杂，讲清楚。",
-      "path": "skills/fred-remotion-output/assets/reference-code/library-remakes-20260916/purple/public/026/MiSans-Regular.otf",
+      "path": "library/fonts/MiSans-Regular.otf",
       "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
       "fontMetadata": {
         "names": {
@@ -50,7 +50,7 @@
       "when": "正常叙述、解释卡片、列表与较长阅读。",
       "avoid": "不因标题变长就把整段缩为小字。",
       "sample": "把复杂，讲清楚。",
-      "path": "components/projects/76c5cac60ef4/public/Medium.otf",
+      "path": "library/fonts/MiSans-Medium.otf",
       "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
       "fontMetadata": {
         "names": {
@@ -92,7 +92,7 @@
       "when": "同段小标题、关键词与列表当前项。",
       "avoid": "同职责保持实际字形、字阶和基线一致。",
       "sample": "把复杂，讲清楚。",
-      "path": "components/projects/76c5cac60ef4/public/Semibold.otf",
+      "path": "library/fonts/MiSans-Semibold.otf",
       "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
       "fontMetadata": {
         "names": {
@@ -140,7 +140,7 @@
       "when": "大字结论、能力词、重字胶囊与原库思源重字的字体统一。保留原有字号、布局和动作。",
       "avoid": "长段正文沿正常正文档；源时钟与大字不是固定秒数。",
       "sample": "把复杂，讲清楚。",
-      "path": "skills/fred-remotion-output/assets/reference-code/library-remakes-20260916/purple/public/026/MiSans-Heavy.otf",
+      "path": "library/fonts/MiSans-Heavy.otf",
       "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
       "fontMetadata": {
         "names": {
@@ -208,7 +208,7 @@
       "when": "短标题、醒目结论和原库数黑体标题的字体统一。",
       "avoid": "单一实际字重，400不表示视觉上细；不要合成900。",
       "sample": "把复杂，讲清楚。",
-      "path": "skills/fred-remotion-output/assets/reference-code/ep103-selected-20260930/source/public/fonts/RuiZi.ttf",
+      "path": "library/fonts/RuiZi.ttf",
       "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
       "fontMetadata": {
         "names": {
@@ -264,7 +264,7 @@
       "when": "独立烧录字幕；源组件明确使用时也可做短句、剧本文字、轻松强调。",
       "avoid": "正文长阅读默认MiSans；不得把字幕几何套到页面文字。",
       "sample": "把复杂，讲清楚。",
-      "path": "components/projects/715f24e6f6f4/public/fonts/SmileySans-Oblique.ttf",
+      "path": "library/fonts/SmileySans-Oblique.ttf",
       "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
       "fontMetadata": {
         "names": {
@@ -314,7 +314,7 @@
       "when": "手写、黑板与批注；原沐瑶、龙藏表达统一到文楷。",
       "avoid": "准确场景实现中是手写骨架候选，粉笔纹理另做；不用于密集UI正文。",
       "sample": "把复杂，讲清楚。",
-      "path": "components/projects/3042a082b45b/public/fonts/ctw/LXGWWenKai-Regular.ttf",
+      "path": "library/fonts/LXGWWenKai-Regular.ttf",
       "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
       "fontMetadata": {
         "names": {
@@ -355,7 +355,7 @@
       "when": "代码片段、终端或技术字段；中文解释另用MiSans。",
       "avoid": "真实录屏保留原字体；不要把等宽字用于普通中文正文。",
       "sample": "const answer = await agent.run();",
-      "path": "components/projects/9db3f6625112/public/fonts/SourceCodePro-Semibold.otf",
+      "path": "library/fonts/SourceCodePro-Semibold.ttf",
       "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
       "fontMetadata": {
         "names": {

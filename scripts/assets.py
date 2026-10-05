@@ -5,13 +5,20 @@ import json
 import shutil
 import subprocess
 import tarfile
+from functools import lru_cache
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def digest(p):
  with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 def records():return json.loads((ROOT/'library/media-manifest.json').read_text())['files']
+@lru_cache(maxsize=4)
+def bundled_fonts(root):
+ registry=root/'skills/fred-remotion-output/references/typography-registry.json'
+ if not registry.is_file():return {}
+ return {face['sha256']:root/face['path'] for face in json.loads(registry.read_text())['faces'] if face['path'].startswith('library/fonts/')}
 def available(v):
- for p in (ROOT/'.artifacts/objects'/v['sha256'],ROOT/'library/demo'/v['sha256']):
+ for p in (bundled_fonts(ROOT).get(v['sha256']),ROOT/'.artifacts/objects'/v['sha256'],ROOT/'library/demo'/v['sha256']):
+  if p is None:continue
   if p.is_file():return p
  return None
 def extract(pack, expected):

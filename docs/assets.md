@@ -6,6 +6,8 @@ The original local Skill directory was approximately 43 GB. Before privacy exclu
 
 Git tracks source, instructions, manifests and the small demo. Large media is delivered through assets attached to a release of the **same public repository**. Published packs are publicly accessible; `gh` uses the user's normal login when required by the download tool. No credential is embedded in a manifest or URL.
 
+The eight daily font files (five families, approximately 53 MiB) are also tracked directly under `library/fonts/`, together with the available license notices. A clone includes these fonts without downloading release packs. The same file identities remain in the existing release packs; the installer recognizes the bundled copies. See [font files and notices](../library/fonts/README.md).
+
 This avoids large binary Git history and makes the full media download optional. It does not require a running cloud VM or paid Git LFS storage.
 
 ## Commands

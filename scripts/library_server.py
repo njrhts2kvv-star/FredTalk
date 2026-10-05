@@ -69,7 +69,7 @@ class Handler(SimpleHTTPRequestHandler):
             else:
                 path = (ROOT / target).resolve()
                 if not path.is_relative_to(ROOT) or not path.is_file(): path = None
-                mime = 'text/plain; charset=utf-8'
+                mime = mimetypes.guess_type(target)[0] if target.startswith('library/fonts/') else 'text/plain; charset=utf-8'
         elif route in ('/', '/design', '/design/'):
             path = ROOT / 'apps/library/dist/index.html'
         elif route.startswith('/design/assets/'):

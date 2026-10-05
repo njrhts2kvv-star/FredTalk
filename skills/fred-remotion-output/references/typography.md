@@ -24,4 +24,4 @@ python3 skills/fred-remotion-output/scripts/typography.py --id misans-medium --i
 
 在现有Manifest的`fonts`绑定本期实际复制文件及hash；场景可用`typography: [{role, fontId, reason, logicalCanvas, fontSize, lineHeight}]`记录本段决定。fontId从注册表选择；精确场景实现自有字体时仍使用该准确源的文件身份。`scene.py`会保留本期根fonts与场景typography，不替调用方猜字号、改变选片或修订旧片。
 
-前端展示是当前字体文件的样张；源码登记、字体加载与用户认可画面分别记录。字体文件仍仅供本地制作，不据本页推定对外分发许可。
+前端展示是当前字体文件的样张；源码登记、字体加载与用户认可画面分别记录。便携仓库在 `library/fonts/` 直接提供当前五家族的八个字体文件，注册表绑定准确路径与 hash。字体各自的许可与来源说明见 `library/fonts/README.md`，不据样张页面推定额外授权。

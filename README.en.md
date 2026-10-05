@@ -62,7 +62,7 @@ Open [http://127.0.0.1:3061/design/](http://127.0.0.1:3061/design/). If the port
 
 ### Download previews and media
 
-A few examples are bundled with the repository. Full previews and production media are available through Releases. Check the package sizes before installing:
+The [five daily font families](library/fonts/README.md) and a few examples are bundled directly with the repository. Fonts work after cloning, without downloading release packs. Full previews and other production media are available through Releases. Check the package sizes before installing:
 
 ```bash
 python3 scripts/assets.py status
