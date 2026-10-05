@@ -1,0 +1,36 @@
+{
+  "renderIds": [
+    "S03",
+    "S05",
+    "S06"
+  ],
+  "pages": [
+    {
+      "stableId": "S03",
+      "startFrame": 831,
+      "durationInFrames": 1775,
+      "narrationSourceStartFrame": 831,
+      "sourceBeatIds": [
+        "S03-voice"
+      ]
+    },
+    {
+      "stableId": "S05",
+      "startFrame": 3282,
+      "durationInFrames": 1151,
+      "narrationSourceStartFrame": 3282,
+      "sourceBeatIds": [
+        "S05-voice"
+      ]
+    },
+    {
+      "stableId": "S06",
+      "startFrame": 4433,
+      "durationInFrames": 1823,
+      "narrationSourceStartFrame": 4433,
+      "sourceBeatIds": [
+        "S06-voice"
+      ]
+    }
+  ]
+}

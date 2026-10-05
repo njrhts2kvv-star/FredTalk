@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "repository": "njrhts2kvv-star/FredTalk",
+  "tag": "ep102-selected-20261005",
+  "packs": [
+    {
+      "name": "fredtalk-ep102-001.tar.gz",
+      "size": 45737603,
+      "sha256": "35e76e1bdca24eebaa39388e5120e23d3fbde5d9223729314f4d8023911f55ca",
+      "objects": 2,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "509f6fdb6c99830c49839f06bfe15f60e3b725690ce275229d4e28f9cd441ef9"
+    },
+    {
+      "name": "fredtalk-ep102-002.tar.gz",
+      "size": 105911252,
+      "sha256": "d6a1d4515e165b99f51909610e65befc5eb58489d1b3122fdc93b70aa9e36a6a",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "parts": [
+        {
+          "name": "fredtalk-ep102-002.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "be2dd5e4f93e70c48200169fc7f9eb3190f19a3df0850f27846666a0869e538a"
+        },
+        {
+          "name": "fredtalk-ep102-002.tar.gz.part002",
+          "size": 24122324,
+          "sha256": "8c2865963e3f50e3a3653168b5024e3b7c4d72497ca13bd5910a91c5c7189ff7"
+        }
+      ],
+      "objectGroupSha256": "21c84d00f837770cf8a8f67f54968b67f46ac435e362816effc18a4e7ae11507"
+    },
+    {
+      "name": "fredtalk-ep102-003.tar.gz",
+      "size": 59242746,
+      "sha256": "42ace039ea7611bbf1fb9f278f6a5a186a13838aa15da58a673c184fe875d5d1",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "2783df05bedb1467d13c2ef63cfc2c56d6b31675d61709945f609fd81b6c7dfc"
+    },
+    {
+      "name": "fredtalk-ep102-004.tar.gz",
+      "size": 38968970,
+      "sha256": "57ed2f26aef181a93f1ded2e24ff331849ea005dffe8c7b2d5635a1c0c31a0d4",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "9002d669bcb38cc6ba4944e21713cd7d83a4c0e8a83f5249103029aeb139a9f6"
+    },
+    {
+      "name": "fredtalk-ep102-005.tar.gz",
+      "size": 57949740,
+      "sha256": "8371fba8813f3fdbe96c936f6836466c981792fa6300f2fce9fa27d14ff200e2",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "d66d7ab73d99b8185a8767280a896bb9ec70c8a94a938b76126eb39dcd154f0f"
+    },
+    {
+      "name": "fredtalk-ep102-006.tar.gz",
+      "size": 86606738,
+      "sha256": "6a819d16941d404e4238598d7dcc7bf806d059f45aeb3b237b1fa854e0f6513a",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "parts": [
+        {
+          "name": "fredtalk-ep102-006.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "445cdff0d436900b50a3e3671748ac953004dd8651c562ad9ce4bfc2fce20fe2"
+        },
+        {
+          "name": "fredtalk-ep102-006.tar.gz.part002",
+          "size": 4817810,
+          "sha256": "7cc4ccf26c485c57774b65f69cf08859f8ad1e6b8a87a9cd9c6918ae15ad468a"
+        }
+      ],
+      "objectGroupSha256": "92c4aade763abd884669bae7c452776ca44c845d0315ff05c1c47e85a999cdb1"
+    },
+    {
+      "name": "fredtalk-ep102-007.tar.gz",
+      "size": 11021351,
+      "sha256": "8b06f6827720d68ae1a20486ae046ef0efb8eb091cfbbb384b2aaa9deda18d0f",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "1cc424c81effc07cfd7baf9b5375653016344bf84b0bee75810ff0cf7e03fe4c"
+    },
+    {
+      "name": "fredtalk-ep102-008.tar.gz",
+      "size": 146350081,
+      "sha256": "bdc1bafd07311ce443e616d953d7ea94db2b57fddc6dd5abd58d807693ea6c0e",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "parts": [
+        {
+          "name": "fredtalk-ep102-008.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "740f602dabc19860fbc566f5905053585912ad58292d4e39ae8125a30434cf5d"
+        },
+        {
+          "name": "fredtalk-ep102-008.tar.gz.part002",
+          "size": 64561153,
+          "sha256": "83ada31148d0d1fdda9ba17d08614fef1e32291a76962fefbd7871dbc1cccdd3"
+        }
+      ],
+      "objectGroupSha256": "fdc2183611e1ebadc49d80ddb2feef47968839d9321707db5ff0260c79acd4e4"
+    },
+    {
+      "name": "fredtalk-ep102-009.tar.gz",
+      "size": 365276855,
+      "sha256": "f7b479d7e31a631d76c78251ffb5593c2279ceb0c5efcd45df0801fce5bbfb12",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "parts": [
+        {
+          "name": "fredtalk-ep102-009.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "d1df265810a4eb34db345bf97debba4dd11acef8ef65472a03b8c357af31fc98"
+        },
+        {
+          "name": "fredtalk-ep102-009.tar.gz.part002",
+          "size": 81788928,
+          "sha256": "27b252cd1d3285c311371f35a61138d26f494e9abccc37342c0606fea1db305c"
+        },
+        {
+          "name": "fredtalk-ep102-009.tar.gz.part003",
+          "size": 81788928,
+          "sha256": "d88e4135f74f7ff649a1eef5cf7c61a51a5e7e1438ae84671af324b205b5a385"
+        },
+        {
+          "name": "fredtalk-ep102-009.tar.gz.part004",
+          "size": 81788928,
+          "sha256": "56be09c0e7324f3d3b473b50d098b71ef0b3c12ea44da94e9859a65e3e95fe85"
+        },
+        {
+          "name": "fredtalk-ep102-009.tar.gz.part005",
+          "size": 38121143,
+          "sha256": "ac8bf49e5202a8726aa679920f609ad7e103dd468f820d2dd3ad4e62ab6b8b9f"
+        }
+      ],
+      "objectGroupSha256": "07e2e7c3fa06d4520f5329be1b01cb1a6b811e25a50360ba5a2117846f7721aa"
+    },
+    {
+      "name": "fredtalk-ep102-010.tar.gz",
+      "size": 31207697,
+      "sha256": "d6291622a4d9afa0fa93a1f1de8f6eb6dc15bb6a6ca2d481b016f547f566be66",
+      "objects": 7,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "b05f2338586b59ff68a080c555f3ef947dcffdfea138badd2757f977081771a2"
+    },
+    {
+      "name": "fredtalk-ep102-011.tar.gz",
+      "size": 116425698,
+      "sha256": "bf6b2dc03d0333e3be03a9c95b52595506308beeed36f04417a3186156ce27ce",
+      "objects": 1,
+      "tag": "ep102-selected-20261005",
+      "parts": [
+        {
+          "name": "fredtalk-ep102-011.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "26c789ea37e7a0727523549f7192fdc1b1d346a0df3aef88b8e617a74bfb8a93"
+        },
+        {
+          "name": "fredtalk-ep102-011.tar.gz.part002",
+          "size": 34636770,
+          "sha256": "86cee58f0c199aa09f85ec03b6e6e6f5f37a75182b6086bafd9068252e44a830"
+        }
+      ],
+      "objectGroupSha256": "d88db77a46e7f84169629bdafb41b2d144cb804c95e1ad4dccf1dfaad2454bb3"
+    },
+    {
+      "name": "fredtalk-ep102-012.tar.gz",
+      "size": 35985239,
+      "sha256": "093fa3d95ffd59485eaf31bb6eabcca84e28290e7ea8107aa70d4290d66543fb",
+      "objects": 19,
+      "tag": "ep102-selected-20261005",
+      "objectGroupSha256": "2a228ca7ba56ae472d6e602ca4bf3a2eccf51e0fdd1a13c3d6546f63ec6930fe"
+    }
+  ],
+  "bundledSharedFiles": [
+    {
+      "path": "fonts/misans-medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "size": 6550784,
+      "kind": "otf",
+      "status": "reviewed"
+    },
+    {
+      "path": "fonts/misans-heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "size": 6677020,
+      "kind": "otf",
+      "status": "reviewed"
+    },
+    {
+      "path": "fonts/SmileySans-Oblique.ttf",
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "size": 2629764,
+      "kind": "ttf",
+      "status": "reviewed"
+    },
+    {
+      "path": "brand/lightBackground.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "size": 207243,
+      "kind": "png",
+      "status": "reviewed"
+    }
+  ],
+  "newObjectCount": 37,
+  "dependencyCount": 41,
+  "uncompressedDependencyBytes": 1133322311
+}

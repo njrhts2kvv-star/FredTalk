@@ -286,5 +286,11 @@
   {
     "path": "components/projects/5fa89bc8e570",
     "sourceFormat": "Remotion project snapshot"
+  },
+  {
+    "path": "components/projects/ep102-selected-20261005/source",
+    "sourceFormat": "Independent Remotion scene snapshots",
+    "collectionId": "ep102-selected-20261005",
+    "addedAt": "2026-10-05T11:47:11+08:00"
   }
 ]

@@ -16,7 +16,13 @@ def module(name):
 class PortableTests(unittest.TestCase):
  def test_active_catalog_keeps_removals_and_valid_sources(self):
   d=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=d['items']
-  self.assertEqual(len(items),177)
+  self.assertEqual(len(items),184)
+  self.assertEqual([i['label'] for i in items[:7]],[f'102-{n:02d}' for n in range(1,8)])
+  self.assertEqual([i['label'] for i in items[7:19]],['C009','N027','N043','X006','X019','X022','X025','E08','107-03','107-04','SP014','SP021'])
+  self.assertEqual(sum(i.get('isNew') is True for i in items),7)
+  for i in items[:7]:
+   self.assertEqual(i['addedAt'],'2026-10-05T11:47:11+08:00')
+   self.assertEqual(i['collectionId'],'ep102-selected-20261005')
   self.assertTrue({'V085','V098','E04','E16','SP004','L81-B060','L81-W08'}.isdisjoint(i['label'] for i in items))
   for i in items:
    for source in i['sources']:
@@ -31,6 +37,20 @@ class PortableTests(unittest.TestCase):
   args=['--id','SP024','--full'];a=subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),*args]);b=subprocess.check_output([sys.executable,str(ROOT/'skills/fred-remotion-output/scripts/references.py'),*args]);self.assertEqual(json.loads(a),json.loads(b));self.assertEqual(json.loads(a)['count'],1)
  def test_quarantined_media_is_never_served(self):
   m=module('library_server');self.assertIsNone(m.media_file({'status':'quarantined','sha256':'0'*64,'size':1}))
+ def test_download_uses_pack_tag_and_preserves_legacy_release_tag(self):
+  import hashlib
+  m=module('assets')
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);(root/'library').mkdir()
+   manifest=b'{"files":{}}';(root/'library/media-manifest.json').write_bytes(manifest)
+   body=b'asset';sha=hashlib.sha256(body).hexdigest()
+   release={'repository':'owner/repo','tag':'legacy','manifestSha256':hashlib.sha256(manifest).hexdigest(),'packs':[{'name':'old.tar.gz','sha256':sha},{'name':'new.tar.gz','sha256':sha,'tag':'new-collection'}]}
+   (root/'library/releases.json').write_text(json.dumps(release))
+   def download(command,check):
+    folder=Path(command[command.index('--dir')+1]);name=command[command.index('--pattern')+1];(folder/name).write_bytes(body)
+   with patch.object(m,'ROOT',root),patch.object(m,'records',return_value={}),patch.object(m,'extract'),patch.object(m.subprocess,'run',side_effect=download) as run,patch.object(sys,'argv',['assets.py','download']):
+    m.main()
+   self.assertEqual([call.args[0][3] for call in run.call_args_list],['legacy','new-collection'])
  def test_multipart_pack_checks_parts_and_combined_hash(self):
   import hashlib
   m=module('assets')

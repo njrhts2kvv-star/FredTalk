@@ -1,0 +1,335 @@
+{
+  "schema": "ep102-install-public-account-redaction-v1",
+  "derivedAt": "2026-10-05T12:33:00+08:00",
+  "status": "PASS",
+  "original": {
+    "path": "media/install.mp4",
+    "sha256": "93396b79f88ffa39a3b3cfe119344f677f3317a7a09ecbfe690d26519a1eb6a4",
+    "preservedPrivately": true
+  },
+  "derived": {
+    "path": "media/install-public-redacted.mp4",
+    "sha256": "8f444f12220280a48c54497c6acc5b1c905e7bf1f7768563e5cb8cd7e8705e11",
+    "bytes": 10719830,
+    "width": 3836,
+    "height": 2160,
+    "fps": 60,
+    "frames": 796,
+    "durationSeconds": 13.266666666666667,
+    "codec": "h264"
+  },
+  "scope": "Only the public source dependency is derived. Original local Skill media and approved final previews are unchanged.",
+  "mask": {
+    "source": "versions/install-v8/install-account-roi-v7.json",
+    "sourceSha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
+    "sourceFrameRangeInclusive": [
+      349,
+      490
+    ],
+    "normalizedCoordinateSpace": [
+      1920,
+      1080
+    ],
+    "nativeCoordinateSpace": [
+      3836,
+      2160
+    ],
+    "marginsNormalized": [
+      12,
+      10
+    ],
+    "color": "#27282c",
+    "opacity": 1,
+    "method": "Solid native-pixel union of adjacent approved ROI samples, rounded outward; public mask is burned into the source dependency before encoding.",
+    "segments": [
+      {
+        "startFrameInclusive": 349,
+        "endFrameInclusive": 355,
+        "box": [
+          1474,
+          1044,
+          598,
+          183
+        ]
+      },
+      {
+        "startFrameInclusive": 356,
+        "endFrameInclusive": 360,
+        "box": [
+          1468,
+          1011,
+          588,
+          197
+        ]
+      },
+      {
+        "startFrameInclusive": 361,
+        "endFrameInclusive": 365,
+        "box": [
+          1468,
+          1011,
+          588,
+          183
+        ]
+      },
+      {
+        "startFrameInclusive": 366,
+        "endFrameInclusive": 366,
+        "box": [
+          1462,
+          988,
+          583,
+          184
+        ]
+      },
+      {
+        "startFrameInclusive": 367,
+        "endFrameInclusive": 372,
+        "box": [
+          1462,
+          983,
+          583,
+          189
+        ]
+      },
+      {
+        "startFrameInclusive": 373,
+        "endFrameInclusive": 375,
+        "box": [
+          1462,
+          983,
+          583,
+          183
+        ]
+      },
+      {
+        "startFrameInclusive": 376,
+        "endFrameInclusive": 378,
+        "box": [
+          1423,
+          944,
+          605,
+          189
+        ]
+      },
+      {
+        "startFrameInclusive": 379,
+        "endFrameInclusive": 384,
+        "box": [
+          1329,
+          860,
+          699,
+          273
+        ]
+      },
+      {
+        "startFrameInclusive": 385,
+        "endFrameInclusive": 385,
+        "box": [
+          1329,
+          860,
+          671,
+          194
+        ]
+      },
+      {
+        "startFrameInclusive": 386,
+        "endFrameInclusive": 390,
+        "box": [
+          1238,
+          775,
+          735,
+          265
+        ]
+      },
+      {
+        "startFrameInclusive": 391,
+        "endFrameInclusive": 395,
+        "box": [
+          1238,
+          775,
+          735,
+          211
+        ]
+      },
+      {
+        "startFrameInclusive": 396,
+        "endFrameInclusive": 396,
+        "box": [
+          1184,
+          737,
+          777,
+          200
+        ]
+      },
+      {
+        "startFrameInclusive": 397,
+        "endFrameInclusive": 402,
+        "box": [
+          1154,
+          701,
+          808,
+          236
+        ]
+      },
+      {
+        "startFrameInclusive": 403,
+        "endFrameInclusive": 405,
+        "box": [
+          1154,
+          701,
+          808,
+          213
+        ]
+      },
+      {
+        "startFrameInclusive": 406,
+        "endFrameInclusive": 407,
+        "box": [
+          1139,
+          698,
+          805,
+          200
+        ]
+      },
+      {
+        "startFrameInclusive": 408,
+        "endFrameInclusive": 414,
+        "box": [
+          1133,
+          681,
+          811,
+          217
+        ]
+      },
+      {
+        "startFrameInclusive": 415,
+        "endFrameInclusive": 415,
+        "box": [
+          1133,
+          681,
+          811,
+          212
+        ]
+      },
+      {
+        "startFrameInclusive": 416,
+        "endFrameInclusive": 425,
+        "box": [
+          1128,
+          681,
+          816,
+          206
+        ]
+      },
+      {
+        "startFrameInclusive": 426,
+        "endFrameInclusive": 426,
+        "box": [
+          1122,
+          681,
+          822,
+          206
+        ]
+      },
+      {
+        "startFrameInclusive": 427,
+        "endFrameInclusive": 435,
+        "box": [
+          1117,
+          676,
+          827,
+          211
+        ]
+      },
+      {
+        "startFrameInclusive": 436,
+        "endFrameInclusive": 444,
+        "box": [
+          1121,
+          669,
+          824,
+          223
+        ]
+      },
+      {
+        "startFrameInclusive": 445,
+        "endFrameInclusive": 445,
+        "box": [
+          1122,
+          676,
+          822,
+          211
+        ]
+      },
+      {
+        "startFrameInclusive": 446,
+        "endFrameInclusive": 455,
+        "box": [
+          1117,
+          676,
+          827,
+          211
+        ]
+      },
+      {
+        "startFrameInclusive": 456,
+        "endFrameInclusive": 456,
+        "box": [
+          1122,
+          676,
+          822,
+          211
+        ]
+      },
+      {
+        "startFrameInclusive": 457,
+        "endFrameInclusive": 475,
+        "box": [
+          819,
+          676,
+          1125,
+          862
+        ]
+      },
+      {
+        "startFrameInclusive": 476,
+        "endFrameInclusive": 480,
+        "box": [
+          754,
+          1325,
+          889,
+          343
+        ]
+      },
+      {
+        "startFrameInclusive": 481,
+        "endFrameInclusive": 490,
+        "box": [
+          721,
+          1457,
+          855,
+          278
+        ]
+      }
+    ]
+  },
+  "audio": "Copied existing AAC bitstream; scene OffthreadVideo remains muted.",
+  "fullDecode": "PASS",
+  "pixelIdentity": "Reencoded public derivative; not compressed-pixel-identical to the original dependency.",
+  "independentPixelVerification": {
+    "basis": "Independent 32-frame OCR and 25 native email-bbox pixel checks passed before the metadata-only timing restoration.",
+    "encodedMdatUnchangedAfterTimingRestoration": true,
+    "ocrPrivacyFindings": 0,
+    "emailBboxesCovered": 25,
+    "maxMaskedBboxRgbChannelStddev": 0.011
+  },
+  "timingRestoration": {
+    "status": "PASS",
+    "movieTimescale": 48000,
+    "videoPresentationSeconds": 13.266667,
+    "audioPresentationSeconds": 13.248,
+    "audioPacketsAndTimesUnchanged": "PASS",
+    "encodedMdatUnchanged": true
+  }
+}

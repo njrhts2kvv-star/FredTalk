@@ -1,0 +1,1 @@
+export function measuredSample(tracks:any,name:string,frame:number):number[]{const rows=tracks[name].samples as number[][];let i=0;while(i<rows.length-1&&rows[i+1][0]<=frame)i++;const a=rows[i],b=rows[Math.min(i+1,rows.length-1)],p=b[0]===a[0]||b[0]-a[0]>1?0:Math.max(0,Math.min(1,(frame-a[0])/(b[0]-a[0])));return a.slice(1).map((x,k)=>x+(b[k+1]-x)*p)}

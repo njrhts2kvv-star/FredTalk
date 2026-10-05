@@ -1,0 +1,6 @@
+source/public/
+source/node_modules/
+source/verification/
+source/outputs/
+source/.bundle/
+source/.assets-cache/

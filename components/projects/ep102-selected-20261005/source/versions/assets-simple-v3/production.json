@@ -1,0 +1,998 @@
+{
+  "pages": [
+    {
+      "stableId": "S01",
+      "startFrame": 0,
+      "durationInFrames": 406,
+      "narrationSourceStartFrame": 0,
+      "sourceBeatIds": [
+        "S01-voice"
+      ]
+    },
+    {
+      "stableId": "S02",
+      "startFrame": 406,
+      "durationInFrames": 425,
+      "narrationSourceStartFrame": 406,
+      "sourceBeatIds": [
+        "S02-voice"
+      ]
+    },
+    {
+      "stableId": "S03",
+      "startFrame": 831,
+      "durationInFrames": 1775,
+      "narrationSourceStartFrame": 831,
+      "sourceBeatIds": [
+        "S03-voice"
+      ]
+    },
+    {
+      "stableId": "S04",
+      "startFrame": 2606,
+      "durationInFrames": 676,
+      "narrationSourceStartFrame": 2606,
+      "sourceBeatIds": [
+        "S04-voice"
+      ]
+    },
+    {
+      "stableId": "S05",
+      "startFrame": 3282,
+      "durationInFrames": 1151,
+      "narrationSourceStartFrame": 3282,
+      "sourceBeatIds": [
+        "S05-voice"
+      ]
+    },
+    {
+      "stableId": "S06",
+      "startFrame": 4433,
+      "durationInFrames": 1823,
+      "narrationSourceStartFrame": 4433,
+      "sourceBeatIds": [
+        "S06-voice"
+      ]
+    },
+    {
+      "stableId": "S07",
+      "startFrame": 6256,
+      "durationInFrames": 2256,
+      "narrationSourceStartFrame": 6256,
+      "sourceBeatIds": [
+        "S07-voice"
+      ]
+    },
+    {
+      "stableId": "S08",
+      "startFrame": 8512,
+      "durationInFrames": 2729,
+      "narrationSourceStartFrame": 8512,
+      "sourceBeatIds": [
+        "S08-voice"
+      ]
+    },
+    {
+      "stableId": "S09",
+      "startFrame": 11241,
+      "durationInFrames": 2581,
+      "narrationSourceStartFrame": 10504,
+      "sourceBeatIds": [
+        "S09-voice"
+      ]
+    },
+    {
+      "stableId": "S10",
+      "startFrame": 13822,
+      "durationInFrames": 2262,
+      "narrationSourceStartFrame": 13085,
+      "sourceBeatIds": [
+        "S10-voice"
+      ]
+    },
+    {
+      "stableId": "S11",
+      "startFrame": 16084,
+      "durationInFrames": 5958,
+      "narrationSourceStartFrame": null,
+      "sourceBeatIds": [
+        "S11-voice"
+      ]
+    },
+    {
+      "stableId": "S12",
+      "startFrame": 22042,
+      "durationInFrames": 512,
+      "narrationSourceStartFrame": 15378,
+      "sourceBeatIds": [
+        "S12-voice"
+      ]
+    },
+    {
+      "stableId": "S13",
+      "startFrame": 22554,
+      "durationInFrames": 340,
+      "narrationSourceStartFrame": 15890,
+      "sourceBeatIds": [
+        "S13-voice"
+      ]
+    },
+    {
+      "stableId": "S14",
+      "startFrame": 22894,
+      "durationInFrames": 547,
+      "narrationSourceStartFrame": 16230,
+      "sourceBeatIds": [
+        "S14-voice"
+      ]
+    },
+    {
+      "stableId": "S15",
+      "startFrame": 23441,
+      "durationInFrames": 1589,
+      "narrationSourceStartFrame": 16777,
+      "sourceBeatIds": [
+        "S15-voice"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "startSeconds": 0.015,
+      "endSeconds": 2.381,
+      "text": "现在用AI生成一段视频已经不难了"
+    },
+    {
+      "startSeconds": 2.381,
+      "endSeconds": 3.448,
+      "text": "像这样的游戏短片"
+    },
+    {
+      "startSeconds": 3.448,
+      "endSeconds": 4.315,
+      "text": "这样的一镜到底"
+    },
+    {
+      "startSeconds": 4.315,
+      "endSeconds": 6.715,
+      "text": "还有这样的打斗场景和东方的美学"
+    },
+    {
+      "startSeconds": 6.768,
+      "endSeconds": 8.168,
+      "text": "但从想法到成片"
+    },
+    {
+      "startSeconds": 8.168,
+      "endSeconds": 9.235,
+      "text": "拆参考写剧本"
+    },
+    {
+      "startSeconds": 9.235,
+      "endSeconds": 10.335,
+      "text": "准备人物和声音"
+    },
+    {
+      "startSeconds": 10.368000000000002,
+      "endSeconds": 11.835,
+      "text": "再挨个生成镜头"
+    },
+    {
+      "startSeconds": 11.901,
+      "endSeconds": 13.798000000000002,
+      "text": "很多步骤还是非常的手动的"
+    },
+    {
+      "startSeconds": 13.856,
+      "endSeconds": 15.356,
+      "text": "而最近我开始探索用"
+    },
+    {
+      "startSeconds": 15.356,
+      "endSeconds": 16.756,
+      "text": "agent来解放我这一切"
+    },
+    {
+      "startSeconds": 16.823,
+      "endSeconds": 18.022999999999996,
+      "text": "刚才这些视频就是我"
+    },
+    {
+      "startSeconds": 18.022999999999996,
+      "endSeconds": 19.689999999999998,
+      "text": "用 WorkBuddy 加 Flova 做的"
+    },
+    {
+      "startSeconds": 19.689999999999998,
+      "endSeconds": 21.955999999999996,
+      "text": "而我没有再自己写过一次提示词"
+    },
+    {
+      "startSeconds": 21.955999999999996,
+      "endSeconds": 23.555999999999997,
+      "text": "也没有手动整理过画布"
+    },
+    {
+      "startSeconds": 23.555999999999997,
+      "endSeconds": 24.622999999999998,
+      "text": "你可以这样理解"
+    },
+    {
+      "startSeconds": 24.689999999999998,
+      "endSeconds": 28.089999999999996,
+      "text": "生图生视频这些模型会负责具体的生成任务"
+    },
+    {
+      "startSeconds": 28.223,
+      "endSeconds": 29.756,
+      "text": "WorkBuddy根据我的需求"
+    },
+    {
+      "startSeconds": 29.756,
+      "endSeconds": 30.89,
+      "text": "安排接下来做什么"
+    },
+    {
+      "startSeconds": 30.89,
+      "endSeconds": 32.456,
+      "text": "再调用Flova这些Skill"
+    },
+    {
+      "startSeconds": 32.656,
+      "endSeconds": 34.59,
+      "text": "而Skill里面就有对应的创作做法"
+    },
+    {
+      "startSeconds": 34.59,
+      "endSeconds": 36.056,
+      "text": "比如说先准备哪些素材"
+    },
+    {
+      "startSeconds": 36.056,
+      "endSeconds": 37.856,
+      "text": "再按照什么步骤往下去做"
+    },
+    {
+      "startSeconds": 37.856,
+      "endSeconds": 39.989,
+      "text": "接下来我就手把手教你怎么做"
+    },
+    {
+      "startSeconds": 40.054,
+      "endSeconds": 41.021,
+      "text": "我们可以拿这个"
+    },
+    {
+      "startSeconds": 41.021,
+      "endSeconds": 43.287,
+      "text": "谭 Sir 历险记 GTA 版为案例"
+    },
+    {
+      "startSeconds": 43.431,
+      "endSeconds": 44.464,
+      "text": "首先我们在WorkBuddy"
+    },
+    {
+      "startSeconds": 44.49699999999999,
+      "endSeconds": 46.397,
+      "text": "连接器里面去搜索 Flova AI"
+    },
+    {
+      "startSeconds": 46.43099999999999,
+      "endSeconds": 48.897,
+      "text": "点击添加之后就会弹出授权的登录"
+    },
+    {
+      "startSeconds": 48.993,
+      "endSeconds": 50.19299999999999,
+      "text": "确认之后你就可以像日常"
+    },
+    {
+      "startSeconds": 50.19299999999999,
+      "endSeconds": 51.95900000000001,
+      "text": "跟WorkBuddy沟通需求一样"
+    },
+    {
+      "startSeconds": 51.95900000000001,
+      "endSeconds": 54.626,
+      "text": "让它去调用Flova帮你去做后续的事情"
+    },
+    {
+      "startSeconds": 54.69299999999999,
+      "endSeconds": 55.425999999999995,
+      "text": "装好以后啊"
+    },
+    {
+      "startSeconds": 55.426,
+      "endSeconds": 57.025999999999996,
+      "text": "我会把对标的视频给到它"
+    },
+    {
+      "startSeconds": 57.093,
+      "endSeconds": 59.759,
+      "text": "最近这个裤头与二胆很火对吧"
+    },
+    {
+      "startSeconds": 59.759,
+      "endSeconds": 61.025999999999996,
+      "text": "我会把视频给到它"
+    },
+    {
+      "startSeconds": 61.025999999999996,
+      "endSeconds": 63.193,
+      "text": "让WorkBuddy去调用视频拉片Skill"
+    },
+    {
+      "startSeconds": 63.62599999999999,
+      "endSeconds": 64.959,
+      "text": "整体的风格是怎么样的"
+    },
+    {
+      "startSeconds": 64.959,
+      "endSeconds": 65.693,
+      "text": "人物怎么动"
+    },
+    {
+      "startSeconds": 65.693,
+      "endSeconds": 66.593,
+      "text": "镜头怎么变化"
+    },
+    {
+      "startSeconds": 66.593,
+      "endSeconds": 67.693,
+      "text": "BGM有什么特色"
+    },
+    {
+      "startSeconds": 67.793,
+      "endSeconds": 69.059,
+      "text": "剧本是怎么反差的"
+    },
+    {
+      "startSeconds": 69.059,
+      "endSeconds": 71.252,
+      "text": "先把这些表现方法理解清楚"
+    },
+    {
+      "startSeconds": 71.31,
+      "endSeconds": 73.61,
+      "text": "后续做我自己的内容才能够学到精髓"
+    },
+    {
+      "startSeconds": 73.87600000000002,
+      "endSeconds": 74.64300000000001,
+      "text": "接下来啊"
+    },
+    {
+      "startSeconds": 74.64300000000001,
+      "endSeconds": 76.03000000000002,
+      "text": "就是把我粗略的想法"
+    },
+    {
+      "startSeconds": 76.03000000000002,
+      "endSeconds": 77.80999999999999,
+      "text": "跟WorkBuddy里面去探讨清楚"
+    },
+    {
+      "startSeconds": 77.80999999999999,
+      "endSeconds": 79.07600000000001,
+      "text": "比如说我自己的想法就是"
+    },
+    {
+      "startSeconds": 79.07600000000001,
+      "endSeconds": 81.51,
+      "text": "诶用谭警官跟几个经典的场景"
+    },
+    {
+      "startSeconds": 81.51,
+      "endSeconds": 83.276,
+      "text": "比如说算了嘛警官"
+    },
+    {
+      "startSeconds": 83.41000000000001,
+      "endSeconds": 84.41000000000001,
+      "text": "走二仙桥"
+    },
+    {
+      "startSeconds": 84.443,
+      "endSeconds": 86.07600000000001,
+      "text": "或者买碟子吗等等"
+    },
+    {
+      "startSeconds": 86.276,
+      "endSeconds": 87.91000000000001,
+      "text": "然后以谭警官为主角"
+    },
+    {
+      "startSeconds": 87.91000000000001,
+      "endSeconds": 89.97599999999998,
+      "text": "再做出这种GTA5的感觉"
+    },
+    {
+      "startSeconds": 90.01,
+      "endSeconds": 90.91000000000001,
+      "text": "同时做出反差"
+    },
+    {
+      "startSeconds": 90.97200000000002,
+      "endSeconds": 93.538,
+      "text": "比如说掏出巨大的红绿灯作为武器"
+    },
+    {
+      "startSeconds": 93.538,
+      "endSeconds": 95.97200000000002,
+      "text": "或者巨大的光盘作为boss的武器等等"
+    },
+    {
+      "startSeconds": 96.038,
+      "endSeconds": 97.438,
+      "text": "然后我就会把这些粗略的"
+    },
+    {
+      "startSeconds": 97.438,
+      "endSeconds": 99.17200000000001,
+      "text": "想法跟WorkBuddy继续去沟通"
+    },
+    {
+      "startSeconds": 99.17200000000001,
+      "endSeconds": 101.80499999999999,
+      "text": "让他帮我完成一个完整的剧本"
+    },
+    {
+      "startSeconds": 101.896,
+      "endSeconds": 104.129,
+      "text": "故事顺了才好做后续的人物资产"
+    },
+    {
+      "startSeconds": 104.26199999999999,
+      "endSeconds": 104.99600000000002,
+      "text": "然后下一步呢"
+    },
+    {
+      "startSeconds": 104.99600000000002,
+      "endSeconds": 106.962,
+      "text": "我就会把这几个经典视频给到它"
+    },
+    {
+      "startSeconds": 107.09599999999999,
+      "endSeconds": 109.26199999999999,
+      "text": "调用 Flova 去生成后续的每个人物"
+    },
+    {
+      "startSeconds": 109.26199999999999,
+      "endSeconds": 110.99600000000002,
+      "text": "包括说谭警官卖碟哥的"
+    },
+    {
+      "startSeconds": 110.99600000000002,
+      "endSeconds": 113.062,
+      "text": "人物三视图以及道具的资产"
+    },
+    {
+      "startSeconds": 113.062,
+      "endSeconds": 115.09599999999999,
+      "text": "为什么这里要先做人物和道具呢"
+    },
+    {
+      "startSeconds": 115.158,
+      "endSeconds": 117.72399999999998,
+      "text": "因为后面非常多的镜头都要用到同一个人物"
+    },
+    {
+      "startSeconds": 117.72399999999998,
+      "endSeconds": 118.75800000000002,
+      "text": "比如说同一个道具"
+    },
+    {
+      "startSeconds": 118.75800000000002,
+      "endSeconds": 120.69100000000002,
+      "text": "我会把这些设定确认下来之后"
+    },
+    {
+      "startSeconds": 120.69100000000002,
+      "endSeconds": 122.891,
+      "text": "后面每一个镜头都会有共同的参考"
+    },
+    {
+      "startSeconds": 122.891,
+      "endSeconds": 124.92400000000002,
+      "text": "人物和道具就更不容易说诶"
+    },
+    {
+      "startSeconds": 124.92400000000002,
+      "endSeconds": 126.85799999999999,
+      "text": "一换镜头就会换一个样子"
+    },
+    {
+      "startSeconds": 127.05799999999998,
+      "endSeconds": 129.89100000000002,
+      "text": "然后我再让WorkBuddy结合剧本和原视频"
+    },
+    {
+      "startSeconds": 129.89100000000002,
+      "endSeconds": 131.24,
+      "text": "准备后续的场景图"
+    },
+    {
+      "startSeconds": 131.317,
+      "endSeconds": 131.95100000000002,
+      "text": "生成之后呢"
+    },
+    {
+      "startSeconds": 131.95100000000002,
+      "endSeconds": 133.084,
+      "text": "我也会让他去评估"
+    },
+    {
+      "startSeconds": 133.084,
+      "endSeconds": 134.349,
+      "text": "整体输出的质量怎么样"
+    },
+    {
+      "startSeconds": 134.409,
+      "endSeconds": 136.175,
+      "text": "如果不行就会再次重新修改"
+    },
+    {
+      "startSeconds": 136.175,
+      "endSeconds": 137.00900000000001,
+      "text": "所以说你看"
+    },
+    {
+      "startSeconds": 137.00900000000001,
+      "endSeconds": 138.075,
+      "text": "他哐哐一顿输出"
+    },
+    {
+      "startSeconds": 138.075,
+      "endSeconds": 139.50900000000001,
+      "text": "我只给了之前的原需求"
+    },
+    {
+      "startSeconds": 139.50900000000001,
+      "endSeconds": 141.60900000000004,
+      "text": "后面所有的内容都是他自己产出的"
+    },
+    {
+      "text": "另外在这个场景里面声音也是非常重要的",
+      "startSeconds": 141.875,
+      "endSeconds": 144.942
+    },
+    {
+      "text": "原视频的语气节奏音色以及BGM",
+      "startSeconds": 144.942,
+      "endSeconds": 148.10900000000004
+    },
+    {
+      "text": "对于整个视频也非常重要",
+      "startSeconds": 148.10900000000004,
+      "endSeconds": 149.60900000000004
+    },
+    {
+      "text": "所以说我会调用 Seed Audio 1.0 模型",
+      "startSeconds": 149.60900000000004,
+      "endSeconds": 151.74199999999996
+    },
+    {
+      "text": "去复刻原视频里面的声音",
+      "startSeconds": 151.74199999999996,
+      "endSeconds": 153.74199999999996
+    },
+    {
+      "text": "一次设计多个候选",
+      "startSeconds": 153.77499999999998,
+      "endSeconds": 155.47500000000002
+    },
+    {
+      "text": "因为它很便宜啊对吧",
+      "startSeconds": 155.54200000000003,
+      "endSeconds": 157.142
+    },
+    {
+      "text": "一秒钟只需要一积分",
+      "startSeconds": 157.26800000000003,
+      "endSeconds": 158.834
+    },
+    {
+      "text": "可以低成本多试几版",
+      "startSeconds": 158.834,
+      "endSeconds": 160.23400000000004
+    },
+    {
+      "text": "达到最好的效果",
+      "startSeconds": 160.23400000000004,
+      "endSeconds": 161.13333333333333
+    },
+    {
+      "text": "我们可以大概听一下",
+      "startSeconds": 161.13466666666665,
+      "endSeconds": 162.40066666666667
+    },
+    {
+      "text": "啊左边就是原音频",
+      "startSeconds": 162.5026666666667,
+      "endSeconds": 164.13333333333333
+    },
+    {
+      "text": "我觉得还是非常非常像的对吧",
+      "startSeconds": 178.71900000000005,
+      "endSeconds": 180.45
+    },
+    {
+      "text": "我觉得整体很像之后",
+      "startSeconds": 180.45066666666673,
+      "endSeconds": 182.2506666666667
+    },
+    {
+      "text": "我们再去生成后续的台词",
+      "startSeconds": 182.2506666666667,
+      "endSeconds": 183.88333333333333
+    },
+    {
+      "text": "另外打斗的声音",
+      "startSeconds": 183.88633333333334,
+      "endSeconds": 185.01933333333332
+    },
+    {
+      "text": "过场的动画也都会一起输出",
+      "startSeconds": 185.01933333333332,
+      "endSeconds": 187.35
+    },
+    {
+      "startSeconds": 187.3523333333333,
+      "endSeconds": 189.3523333333333,
+      "text": "当你人物和声音有了之后呢"
+    },
+    {
+      "startSeconds": 189.3523333333333,
+      "endSeconds": 192.05033333333327,
+      "text": "下一步就是把剧本变成分镜头的图片"
+    },
+    {
+      "startSeconds": 192.09933333333336,
+      "endSeconds": 195.2653333333333,
+      "text": "我会先用分镜把构图和镜头顺序看清楚"
+    },
+    {
+      "startSeconds": 195.2653333333333,
+      "endSeconds": 196.29833333333332,
+      "text": "觉得哪里不对"
+    },
+    {
+      "startSeconds": 196.35833333333326,
+      "endSeconds": 198.79133333333337,
+      "text": "呃就先在图片这里一步一步的修改"
+    },
+    {
+      "startSeconds": 198.82433333333327,
+      "endSeconds": 200.4243333333333,
+      "text": "然后再往下去生成视频"
+    },
+    {
+      "startSeconds": 200.46833333333328,
+      "endSeconds": 203.00033333333332,
+      "text": "这里我会先让他沿用刚才的人物和场景"
+    },
+    {
+      "startSeconds": 203.06033333333326,
+      "endSeconds": 206.02633333333327,
+      "text": "按剧本把每个片段的四宫格分镜图输出出来"
+    },
+    {
+      "startSeconds": 206.02633333333327,
+      "endSeconds": 207.33033333333336,
+      "text": "这样你就可以提前知道"
+    },
+    {
+      "startSeconds": 207.33033333333336,
+      "endSeconds": 210.06033333333326,
+      "text": "这些画面镜头变化是否满足你的需求"
+    },
+    {
+      "startSeconds": 210.06033333333326,
+      "endSeconds": 211.86033333333333,
+      "text": "比如说这里我觉得镜头不够丰富"
+    },
+    {
+      "startSeconds": 211.86033333333333,
+      "endSeconds": 212.72633333333332,
+      "text": "有一些单调"
+    },
+    {
+      "startSeconds": 212.72633333333332,
+      "endSeconds": 215.56033333333326,
+      "text": "我还会让它再次参考原对标视频的镜头变化"
+    },
+    {
+      "startSeconds": 215.59333333333328,
+      "endSeconds": 216.79333333333332,
+      "text": "重新进行输出"
+    },
+    {
+      "startSeconds": 216.79333333333332,
+      "endSeconds": 219.5833333333333,
+      "text": "整个故事和视频的质量就会变得更好"
+    },
+    {
+      "startSeconds": 219.69933333333327,
+      "endSeconds": 220.89933333333332,
+      "text": "比如说这里我觉得"
+    },
+    {
+      "startSeconds": 220.89933333333332,
+      "endSeconds": 222.99933333333334,
+      "text": "谭警官拿的这个武器不对对吧"
+    },
+    {
+      "startSeconds": 222.99933333333334,
+      "endSeconds": 224.03333333333333,
+      "text": "跟我的原资产不对"
+    },
+    {
+      "startSeconds": 224.03333333333333,
+      "endSeconds": 225.9333333333333,
+      "text": "我就会让他重新参考原资产"
+    },
+    {
+      "startSeconds": 225.9333333333333,
+      "endSeconds": 227.19933333333327,
+      "text": "重新去调用输出"
+    },
+    {
+      "startSeconds": 227.19933333333327,
+      "endSeconds": 230.09933333333336,
+      "text": "这样整个故事和视频的质量就会更好"
+    },
+    {
+      "startSeconds": 230.36633333333336,
+      "endSeconds": 232.29333333333332,
+      "text": "最后我会再让WorkBuddy去调用Flova"
+    },
+    {
+      "startSeconds": 232.29333333333332,
+      "endSeconds": 234.99933333333334,
+      "text": "把这些人物场景音频分镜图作为资产"
+    },
+    {
+      "startSeconds": 235.19933333333333,
+      "endSeconds": 237.16633333333337,
+      "text": "全自动的自己产出"
+    },
+    {
+      "startSeconds": 237.16633333333337,
+      "endSeconds": 238.39933333333332,
+      "text": "并输入提示词"
+    },
+    {
+      "startSeconds": 238.43333333333337,
+      "endSeconds": 239.73333333333332,
+      "text": "直接输出最终的视频"
+    },
+    {
+      "startSeconds": 239.73333333333332,
+      "endSeconds": 241.16633333333337,
+      "text": "当然这里还有个小秘诀啊"
+    },
+    {
+      "startSeconds": 241.16633333333337,
+      "endSeconds": 242.43333333333337,
+      "text": "就是我会让它先用"
+    },
+    {
+      "startSeconds": 242.43333333333337,
+      "endSeconds": 244.76633333333334,
+      "text": "Seedence 2.5 生成480P的视频"
+    },
+    {
+      "startSeconds": 244.85533333333333,
+      "endSeconds": 246.25533333333337,
+      "text": "确认没问题之后再超分"
+    },
+    {
+      "startSeconds": 246.25533333333337,
+      "endSeconds": 247.25533333333337,
+      "text": "我们可以看一下"
+    },
+    {
+      "startSeconds": 247.25533333333337,
+      "endSeconds": 249.15533333333335,
+      "text": "因为现在Flova也非常非常便宜"
+    },
+    {
+      "startSeconds": 249.15533333333335,
+      "endSeconds": 251.48933333333335,
+      "text": "就是它的年付会员480P加超分"
+    },
+    {
+      "startSeconds": 251.48933333333335,
+      "endSeconds": 253.79333333333332,
+      "text": "一共只需要6积分一秒啊"
+    },
+    {
+      "startSeconds": 254.04233333333335,
+      "endSeconds": 255.87533333333337,
+      "text": "差不多算下来就是两毛钱一秒"
+    },
+    {
+      "startSeconds": 255.87533333333337,
+      "endSeconds": 258.0733333333334,
+      "text": "比1080P直出要便宜10倍"
+    },
+    {
+      "startSeconds": 258.07533333333333,
+      "endSeconds": 259.17533333333336,
+      "text": "而且对比下来看"
+    },
+    {
+      "startSeconds": 259.17533333333336,
+      "endSeconds": 261.0343333333334,
+      "text": "左右对比完全看不出来差异"
+    },
+    {
+      "startSeconds": 261.18533333333335,
+      "endSeconds": 262.09333333333336,
+      "text": "官方也说了"
+    },
+    {
+      "startSeconds": 262.09333333333336,
+      "endSeconds": 263.37733333333335,
+      "text": "就是10月20号之前购买"
+    },
+    {
+      "startSeconds": 263.37733333333335,
+      "endSeconds": 265.3273333333334,
+      "text": "就可以享受一年的优惠折扣"
+    },
+    {
+      "startSeconds": 265.7273333333334,
+      "endSeconds": 268.07033333333334,
+      "text": "最后啊我们再看最终的成片"
+    },
+    {
+      "startSeconds": 367.36466666666666,
+      "endSeconds": 369.9986666666667,
+      "text": "当然群舞也可以按照这个流程去走"
+    },
+    {
+      "startSeconds": 369.9986666666667,
+      "endSeconds": 371.6646666666666,
+      "text": "我会让WorkBuddy调用这个Skill"
+    },
+    {
+      "startSeconds": 371.6986666666667,
+      "endSeconds": 372.89866666666666,
+      "text": "只需要换一组人物"
+    },
+    {
+      "startSeconds": 372.89866666666666,
+      "endSeconds": 374.4986666666667,
+      "text": "调用这个白模视频和 BGM"
+    },
+    {
+      "startSeconds": 374.4986666666667,
+      "endSeconds": 375.86466666666666,
+      "text": "就能得到这样的视频"
+    },
+    {
+      "startSeconds": 375.8986666666666,
+      "endSeconds": 378.09866666666653,
+      "text": "而像这样超真实的打斗场景"
+    },
+    {
+      "startSeconds": 378.09866666666653,
+      "endSeconds": 379.9986666666666,
+      "text": "也只需要让WorkBuddy调用Flova"
+    },
+    {
+      "startSeconds": 379.9986666666666,
+      "endSeconds": 381.2646666666666,
+      "text": "就可以快速输出"
+    },
+    {
+      "startSeconds": 381.5616666666666,
+      "endSeconds": 383.0276666666666,
+      "text": "最后啊在输出之后啊"
+    },
+    {
+      "startSeconds": 383.02766666666673,
+      "endSeconds": 385.09466666666674,
+      "text": "我会让WorkBuddy把整体画布整理一下"
+    },
+    {
+      "startSeconds": 385.09466666666674,
+      "endSeconds": 386.66166666666675,
+      "text": "满足我这个强迫症的需求"
+    },
+    {
+      "startSeconds": 386.69466666666665,
+      "endSeconds": 387.9616666666667,
+      "text": "不管再杂乱的画布"
+    },
+    {
+      "startSeconds": 387.9616666666667,
+      "endSeconds": 390.5956666666667,
+      "text": "都可以按照元素分类整理的整整齐齐"
+    },
+    {
+      "startSeconds": 390.68966666666665,
+      "endSeconds": 391.45566666666673,
+      "text": "所以说你看"
+    },
+    {
+      "startSeconds": 391.45566666666673,
+      "endSeconds": 393.12266666666665,
+      "text": "这套组合最有意思的地方就是"
+    },
+    {
+      "startSeconds": 393.12266666666665,
+      "endSeconds": 395.45566666666673,
+      "text": "整个视频产出的工作流顺畅无比"
+    },
+    {
+      "startSeconds": 395.45566666666673,
+      "endSeconds": 396.95566666666673,
+      "text": "你只需要输入自然语言"
+    },
+    {
+      "startSeconds": 397.05566666666664,
+      "endSeconds": 398.68966666666665,
+      "text": "WorkBuddy负责理解我的需求"
+    },
+    {
+      "startSeconds": 398.68966666666665,
+      "endSeconds": 400.18966666666665,
+      "text": "再调用Flova里面的Skill"
+    },
+    {
+      "startSeconds": 400.45566666666673,
+      "endSeconds": 402.8896666666667,
+      "text": "Flova又把视频音频图片"
+    },
+    {
+      "startSeconds": 402.8896666666667,
+      "endSeconds": 404.7556666666667,
+      "text": "和资产画布时间线连在一起"
+    },
+    {
+      "startSeconds": 404.7556666666667,
+      "endSeconds": 405.58966666666674,
+      "text": "两个配合啊"
+    },
+    {
+      "startSeconds": 405.58966666666674,
+      "endSeconds": 406.3896666666667,
+      "text": "天衣无缝"
+    },
+    {
+      "startSeconds": 406.3896666666667,
+      "endSeconds": 407.9226666666666,
+      "text": "就能够把前面的想法"
+    },
+    {
+      "startSeconds": 407.9226666666666,
+      "endSeconds": 409.9226666666666,
+      "text": "一步步做成超高质量视频"
+    },
+    {
+      "startSeconds": 409.9226666666666,
+      "endSeconds": 413.08966666666674,
+      "text": "而我就可以把更多的精力放在故事怎么讲"
+    },
+    {
+      "startSeconds": 413.08966666666674,
+      "endSeconds": 414.65566666666666,
+      "text": "哪些镜头值得留下"
+    },
+    {
+      "startSeconds": 414.7556666666667,
+      "endSeconds": 416.8896666666667,
+      "text": "OK以上就是本期所有内容"
+    }
+  ],
+  "revisionContract": {
+    "scope": [
+      "S07"
+    ],
+    "latestRequest": "原画面黑毛玻璃上单行评估输出质量，前段主体背景蒙版",
+    "qualityStage": "one stable title, no multiline card, no scene reshuffle"
+  }
+}

@@ -65,7 +65,7 @@ def main():
    if not target.exists():
     for entry in pack.get('parts',[pack]):
      if not (folder/entry['name']).exists():
-      subprocess.run(['gh','release','download',release['tag'],'--repo',release['repository'],'--pattern',entry['name'],'--dir',str(folder)],check=True)
+      subprocess.run(['gh','release','download',pack.get('tag',release['tag']),'--repo',release['repository'],'--pattern',entry['name'],'--dir',str(folder)],check=True)
     if pack.get('parts'):assemble_pack(pack,folder)
    if digest(target)!=pack['sha256']:raise ValueError('Pack checksum mismatch: '+pack['name'])
    extract(target,{h:v['size'] for h,v in unique.items()});target.unlink()

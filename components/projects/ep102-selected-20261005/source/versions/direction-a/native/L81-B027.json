@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 1,
+  "id": "B027",
+  "title": "Agent与Skill组合关系建立",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 540,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "provenance/11_7663118064795405603__第112期_用Agent一键直出AI视频成片 把成熟的工作流体系和生产方法打包成Skill 用Agent+S.mp4",
+    "referenceStart": 182,
+    "referenceEnd": 191,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "provenance/11_7663118064795405603__第112期_用Agent一键直出AI视频成片 把成熟的工作流体系和生产方法打包成Skill 用Agent+S.mp4",
+        "sha256": "114e72563e7ec8de025083b81b757afe940690714e23702831752ec277ebd595",
+        "width": 2560,
+        "height": 1440,
+        "fps": "60/1",
+        "nominalFps": "60/1",
+        "timeBase": "1/15360",
+        "duration": 453.972993,
+        "start": 182,
+        "end": 191
+      }
+    ],
+    "totalSelectedDuration": 9,
+    "outputDurationDelta": 0.0
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 540,
+        "sourceAsset": 0,
+        "sourceStartPTS": 182,
+        "sourceEndPTS": 191,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed",
+    "reviewScope": "Source native sequences and fixed-duration intervals reviewed; mapping is native speed, not visual acceptance."
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/b",
+    "compositionId": "B027",
+    "entry": "src/b-circle-entry.tsx",
+    "component": "RebuiltB027",
+    "completenessDecision": "Full-screen carrier, four circles, convergence, right circle and Codex/memory title stages present.",
+    "qualityStatus": "candidate-pending-video-review"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only",
+    "texts": [
+      "Codex +",
+      "记忆"
+    ],
+    "accent": "#8960ca",
+    "displayTexts": [
+      "Codex+",
+      "记忆"
+    ],
+    "layoutDecision": "Remove word-space before +; full authorized text retained. Letter spacing -8 reflects measured reference Latin label density."
+  },
+  "fonts": [
+    {
+      "family": "SourceHanHeavy",
+      "file": "font-candidates/SourceHanSansSC-Heavy.otf",
+      "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+      "license": "fonts/SourceHanSans-LICENSE.txt",
+      "status": "candidate-requires-same-glyph-comparison"
+    }
+  ],
+  "objects": {
+    "media": [
+      "batch2/27-a.jpg",
+      "batch2/27-b.jpg",
+      "batch2/27-c.jpg",
+      "batch2/27-d.jpg"
+    ],
+    "label": {
+      "top": 410,
+      "fontSize": 220,
+      "innerSize": 178,
+      "shadow": "12px 8px 18px #0008"
+    }
+  },
+  "tracks": {
+    "circle0": {
+      "domain": "outputFrame",
+      "fields": [
+        "cx",
+        "cy",
+        "width",
+        "height",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          845,
+          540,
+          1690,
+          994,
+          1
+        ],
+        [
+          8,
+          580,
+          540,
+          1080,
+          800,
+          1
+        ],
+        [
+          19,
+          240,
+          540,
+          520,
+          520,
+          1
+        ],
+        [
+          27,
+          240,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          108,
+          240,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          135,
+          905,
+          430,
+          484,
+          484,
+          1
+        ],
+        [
+          162,
+          1130,
+          390,
+          484,
+          484,
+          1
+        ],
+        [
+          189,
+          1130,
+          390,
+          484,
+          484,
+          1
+        ],
+        [
+          207,
+          960,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          216,
+          960,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          232,
+          1140,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          250,
+          1310,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          539,
+          1310,
+          540,
+          484,
+          484,
+          0
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Measured selected native object centers and diameter. Overlap identity and intermediate trajectory require finer per-frame fit; initial morph anchors provisional."
+    },
+    "circle1": {
+      "domain": "outputFrame",
+      "fields": [
+        "cx",
+        "cy",
+        "width",
+        "height",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          2495,
+          540,
+          1690,
+          994,
+          1
+        ],
+        [
+          8,
+          1380,
+          540,
+          1080,
+          800,
+          1
+        ],
+        [
+          19,
+          720,
+          540,
+          520,
+          520,
+          1
+        ],
+        [
+          27,
+          720,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          108,
+          720,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          135,
+          752,
+          430,
+          484,
+          484,
+          1
+        ],
+        [
+          162,
+          790,
+          390,
+          484,
+          484,
+          1
+        ],
+        [
+          189,
+          790,
+          390,
+          484,
+          484,
+          1
+        ],
+        [
+          207,
+          960,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          216,
+          960,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          232,
+          1140,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          250,
+          1310,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          539,
+          1310,
+          540,
+          484,
+          484,
+          0
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Measured selected native object centers and diameter. Overlap identity and intermediate trajectory require finer per-frame fit; initial morph anchors provisional."
+    },
+    "circle2": {
+      "domain": "outputFrame",
+      "fields": [
+        "cx",
+        "cy",
+        "width",
+        "height",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          4145,
+          540,
+          1690,
+          994,
+          1
+        ],
+        [
+          8,
+          2180,
+          540,
+          1080,
+          800,
+          1
+        ],
+        [
+          19,
+          1200,
+          540,
+          520,
+          520,
+          1
+        ],
+        [
+          27,
+          1200,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          108,
+          1200,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          135,
+          890,
+          655,
+          484,
+          484,
+          1
+        ],
+        [
+          162,
+          800,
+          700,
+          484,
+          484,
+          1
+        ],
+        [
+          189,
+          800,
+          700,
+          484,
+          484,
+          1
+        ],
+        [
+          207,
+          960,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          216,
+          960,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          232,
+          1140,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          250,
+          1310,
+          540,
+          484,
+          484,
+          0
+        ],
+        [
+          539,
+          1310,
+          540,
+          484,
+          484,
+          0
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Measured selected native object centers and diameter. Overlap identity and intermediate trajectory require finer per-frame fit; initial morph anchors provisional."
+    },
+    "circle3": {
+      "domain": "outputFrame",
+      "fields": [
+        "cx",
+        "cy",
+        "width",
+        "height",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          5795,
+          540,
+          1690,
+          994,
+          1
+        ],
+        [
+          8,
+          2980,
+          540,
+          1080,
+          800,
+          1
+        ],
+        [
+          19,
+          1680,
+          540,
+          520,
+          520,
+          1
+        ],
+        [
+          27,
+          1680,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          108,
+          1680,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          135,
+          1350,
+          650,
+          484,
+          484,
+          1
+        ],
+        [
+          162,
+          1240,
+          700,
+          484,
+          484,
+          1
+        ],
+        [
+          189,
+          1240,
+          700,
+          484,
+          484,
+          1
+        ],
+        [
+          207,
+          960,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          216,
+          960,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          232,
+          1140,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          250,
+          1310,
+          540,
+          484,
+          484,
+          1
+        ],
+        [
+          539,
+          1310,
+          540,
+          484,
+          484,
+          1
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Measured selected native object centers and diameter. Overlap identity and intermediate trajectory require finer per-frame fit; initial morph anchors provisional."
+    },
+    "roundness": {
+      "domain": "outputFrame",
+      "fields": [
+        "percent"
+      ],
+      "samples": [
+        [
+          0,
+          0
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          19,
+          50
+        ],
+        [
+          539,
+          50
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Fullscreen media to circle topology visible at native0 and27; intermediate shape unconfirmed."
+    },
+    "label": {
+      "domain": "outputFrame",
+      "fields": [
+        "x",
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          -1000,
+          0
+        ],
+        [
+          225,
+          -1000,
+          0
+        ],
+        [
+          238,
+          70,
+          1
+        ],
+        [
+          258,
+          280,
+          1
+        ],
+        [
+          539,
+          280,
+          1
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Left label enters from offscreen during circle shift; final ink left edge x280."
+    },
+    "innerText": {
+      "domain": "outputFrame",
+      "fields": [
+        "opacity"
+      ],
+      "samples": [
+        [
+          0,
+          0
+        ],
+        [
+          265,
+          0
+        ],
+        [
+          280,
+          1
+        ],
+        [
+          539,
+          1
+        ]
+      ],
+      "evidence": "analysis/B027/native-sequence.jpg",
+      "measurementNote": "Native 270 translucent and297 opaque inner label."
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/B027/native-sequence.jpg",
+    "fontComparison": "analysis/B027/font-proof-additional.png",
+    "nativeFrameMeasurements": "analysis/B027/native-measurements.json"
+  },
+  "versions": {
+    "original": {
+      "path": "provenance/video.mp4",
+      "sha256": "9f48758f54e43e51f3b8257c73470e64b6bfa7440d9257ed1fb706e5045f1a69"
+    },
+    "v2": {
+      "sha256": "dd2012c629c34e1ac1c2f7b09c2c6e35e0dd1ab78f6bd074cafa10c528f0dc61",
+      "path": "baseline/v2/videos/B027/dd2012c629c34e1ac1c2f7b09c2c6e35e0dd1ab78f6bd074cafa10c528f0dc61.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "remainingChecks": [
+    "Fine per-native-frame trajectory during circle overlap and fullscreen morph",
+    "Same glyph font comparison",
+    "Output reference overlay",
+    "Normal speed review"
+  ],
+  "originalAuditIssues": [
+    "0 秒原片为全屏媒体，1.28 秒才是四圆；当前 0 秒已经四圆横排。恢复媒体缩为圆形的第一拍。"
+  ]
+}

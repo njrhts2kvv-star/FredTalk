@@ -503,6 +503,1171 @@
   },
   "items": [
     {
+      "id": "component:ep102-selected-01",
+      "label": "102-01",
+      "title": "四作品聚拢并显现组合",
+      "kind": "components",
+      "category": "图片与作品",
+      "origin": "第102期精选",
+      "description": "把多个成品聚拢为一组工具或品牌组合",
+      "tags": [
+        "第102期",
+        "102",
+        "102-01",
+        "图片",
+        "作品卡片",
+        "汇总文字",
+        "用户精选",
+        "图片与作品",
+        "多图与作品墙"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/f70bc0ae49842ff3eebab148",
+          "posterUrl": "/api/design-assets/b385d8d2c6468b6ac26afe1c",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/02f71fd2dfa6a505089a577a",
+              "timeSeconds": 0.0,
+              "frame": 0
+            },
+            {
+              "url": "/api/design-assets/b385d8d2c6468b6ac26afe1c",
+              "timeSeconds": 2.283333333333333,
+              "frame": 137
+            },
+            {
+              "url": "/api/design-assets/8d9a636da52439b6c2e44a99",
+              "timeSeconds": 3.9833333333333334,
+              "frame": 239
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.283333333333333,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected01",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/direction-a/adapters/ToolCombinationV7.tsx",
+          "url": "/api/design-source/e532c29c8acf29d93e52274e",
+          "symbol": "ToolCombinationV7",
+          "sha256": "14862f2129a8b920997648f49fb2020cbe76342c6cc176abb7bccec4384465e8",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-01",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "images",
+      "libraryOrder": 0,
+      "matching": {
+        "referenceId": "ep102-selected-01",
+        "primaryUse": "images",
+        "useIds": [
+          "images",
+          "handoff"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "media",
+          "cards",
+          "handoff",
+          "summary"
+        ],
+        "inputObjects": [
+          "图片",
+          "作品卡片",
+          "汇总文字"
+        ],
+        "action": "四个真实视频沿已测轨迹聚拢，组合文字显现",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 4,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "图片",
+          "作品卡片",
+          "汇总文字",
+          "第102期",
+          "用户精选",
+          "图片与作品",
+          "多图与作品墙"
+        ],
+        "scenarioId": "wall",
+        "scenarioTitle": "多图与作品墙",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-01",
+        "categoryId": "images",
+        "category": "图片与作品",
+        "sceneTypes": [
+          "image-comparison",
+          "relationship"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          15,
+          19
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison",
+        "relationship"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -7,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-01",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
+      "id": "component:ep102-selected-02",
+      "label": "102-02",
+      "title": "设备屏幕连续放大全屏",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "第102期精选",
+      "description": "从设备外壳连续靠近同一录屏",
+      "tags": [
+        "第102期",
+        "102",
+        "102-02",
+        "设备屏幕",
+        "视频",
+        "特写区域",
+        "用户精选",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。",
+          "成片区间最前两帧是既有接缝补片，独立源码保留该补片后继续原S04时钟。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/47852e46227c7e6b185e72bc",
+          "posterUrl": "/api/design-assets/80c79bb08f405afe511e7092",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/0775dab2035b9d0380290873",
+              "timeSeconds": 0.0,
+              "frame": 0
+            },
+            {
+              "url": "/api/design-assets/80c79bb08f405afe511e7092",
+              "timeSeconds": 0.85,
+              "frame": 51
+            },
+            {
+              "url": "/api/design-assets/7cb696534bcfef9979d2a14d",
+              "timeSeconds": 4.266666666666667,
+              "frame": 256
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 6,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.85,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected02",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/install-v8/adapters/MediaRevisionV7.tsx",
+          "url": "/api/design-source/a65892ff4ddedf700b73c7b1",
+          "symbol": "InstallV7",
+          "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-02",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 1,
+      "matching": {
+        "referenceId": "ep102-selected-02",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus",
+          "video-entry"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "focus",
+          "media"
+        ],
+        "inputObjects": [
+          "设备屏幕",
+          "视频",
+          "特写区域"
+        ],
+        "action": "显示器外壳逐渐退出，录屏窗口持续放大至同一大窗",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 6,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "设备屏幕",
+          "视频",
+          "特写区域",
+          "第102期",
+          "用户精选",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-02",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "device-demo",
+          "image-comparison"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          44,
+          50
+        ]
+      },
+      "sceneTypes": [
+        "device-demo",
+        "image-comparison"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -6,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-02",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
+      "id": "component:ep102-selected-03",
+      "label": "102-03",
+      "title": "三视频归入Logo并扩展录屏",
+      "kind": "components",
+      "category": "内容交接",
+      "origin": "第102期精选",
+      "description": "把多个参考视频交给工具后进入真实录屏",
+      "tags": [
+        "第102期",
+        "102",
+        "102-03",
+        "三个视频",
+        "Logo",
+        "录屏",
+        "用户精选",
+        "内容交接",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/17a6d447ee447b29fe7238c5",
+          "posterUrl": "/api/design-assets/a0fdaf6f7800dbc329a83979",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/d9274576234cef40dc4488e3",
+              "timeSeconds": 1.0,
+              "frame": 60
+            },
+            {
+              "url": "/api/design-assets/a0fdaf6f7800dbc329a83979",
+              "timeSeconds": 3.9833333333333334,
+              "frame": 239
+            },
+            {
+              "url": "/api/design-assets/da76a2ce1f9f8b678bf37392",
+              "timeSeconds": 5.983333333333333,
+              "frame": 359
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 3.9833333333333334,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected03",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/direction-a/adapters/MediaRevisionV7.tsx",
+          "url": "/api/design-source/ba8e9b785c56fc0c64592068",
+          "symbol": "PullV7",
+          "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-03",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "handoff",
+      "libraryOrder": 2,
+      "matching": {
+        "referenceId": "ep102-selected-03",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "media",
+          "process",
+          "handoff"
+        ],
+        "inputObjects": [
+          "三个视频",
+          "Logo",
+          "录屏"
+        ],
+        "action": "三视频排列、缩小送入Logo，Logo放大后交接录屏",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 7,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "三个视频",
+          "Logo",
+          "录屏",
+          "第102期",
+          "用户精选",
+          "内容交接",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-03",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "device-demo",
+          "relationship"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          55,
+          62
+        ]
+      },
+      "sceneTypes": [
+        "device-demo",
+        "relationship"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -5,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-03",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
+      "id": "component:ep102-selected-04",
+      "label": "102-04",
+      "title": "双视频与长报告对齐接力",
+      "kind": "components",
+      "category": "图片与作品",
+      "origin": "第102期精选",
+      "description": "并列展示上下两视频与长报告，再交接成品",
+      "tags": [
+        "第102期",
+        "102",
+        "102-04",
+        "两个视频",
+        "报告长图",
+        "用户精选",
+        "图片与作品",
+        "并排比较结果"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/3c3347aa37c8c0b42e2f7a2e",
+          "posterUrl": "/api/design-assets/a93729f6bd26e8e69e3d1b2d",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/8679fe7e5205d73ba5f537d7",
+              "timeSeconds": 0.0,
+              "frame": 0
+            },
+            {
+              "url": "/api/design-assets/f61ebbc103623b77e08ab834",
+              "timeSeconds": 4.566666666666666,
+              "frame": 274
+            },
+            {
+              "url": "/api/design-assets/a93729f6bd26e8e69e3d1b2d",
+              "timeSeconds": 6.85,
+              "frame": 411
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 6.85,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected04",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/direction-a/adapters/MediaRevisionV7.tsx",
+          "url": "/api/design-source/ba8e9b785c56fc0c64592068",
+          "symbol": "PullV7",
+          "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-04",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "images",
+      "libraryOrder": 3,
+      "matching": {
+        "referenceId": "ep102-selected-04",
+        "primaryUse": "images",
+        "useIds": [
+          "images",
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "comparison",
+          "media",
+          "document"
+        ],
+        "inputObjects": [
+          "两个视频",
+          "报告长图"
+        ],
+        "action": "双片上下对齐长报告，暗化后以白色连接交接Logo与成品",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 8,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "两个视频",
+          "报告长图",
+          "第102期",
+          "用户精选",
+          "图片与作品",
+          "并排比较结果"
+        ],
+        "scenarioId": "compare",
+        "scenarioTitle": "并排比较结果",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-04",
+        "categoryId": "images",
+        "category": "图片与作品",
+        "sceneTypes": [
+          "image-comparison",
+          "prompt-reading"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          64,
+          72
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison",
+        "prompt-reading"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -4,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-04",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
+      "id": "component:ep102-selected-05",
+      "label": "102-05",
+      "title": "人物道具从画布提起",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "第102期精选",
+      "description": "从真实画布节点提起人物或道具并完整展示",
+      "tags": [
+        "第102期",
+        "102",
+        "102-05",
+        "画布",
+        "人物",
+        "道具",
+        "用户精选",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/2a3a95e850b65c77381be118",
+          "posterUrl": "/api/design-assets/29455f94d0e7a918d3b40774",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/6750e101fbcbf1458b90be16",
+              "timeSeconds": 1.0,
+              "frame": 60
+            },
+            {
+              "url": "/api/design-assets/29455f94d0e7a918d3b40774",
+              "timeSeconds": 2.0,
+              "frame": 120
+            },
+            {
+              "url": "/api/design-assets/aa64cc6424bc2cbfd6b143ff",
+              "timeSeconds": 5.983333333333333,
+              "frame": 359
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.0,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected05",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/assets-simple-v3/adapters/AssetsReferenceV9.tsx",
+          "url": "/api/design-source/f5ffbffa1d76575c08b3b3dd",
+          "symbol": "AssetsReferenceV9",
+          "sha256": "49002db39393dd3257bf56b6805fea0235cd933f8af2b7056a88e4761812bf56",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-05",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 4,
+      "matching": {
+        "referenceId": "ep102-selected-05",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus",
+          "images"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "focus",
+          "people",
+          "media"
+        ],
+        "inputObjects": [
+          "画布",
+          "人物",
+          "道具"
+        ],
+        "action": "四人物从实际节点放大归位，再交接三道具，背景按原时钟模糊暗化",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 7,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "画布",
+          "人物",
+          "道具",
+          "第102期",
+          "用户精选",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-05",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "image-comparison",
+          "device-demo"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          108,
+          115
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison",
+        "device-demo"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -3,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-05",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
+      "id": "component:ep102-selected-06",
+      "label": "102-06",
+      "title": "原声与A/B候选独立试听",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "第102期精选",
+      "description": "独立试听原声及两组候选并显示真实波形",
+      "tags": [
+        "第102期",
+        "102",
+        "102-06",
+        "原声",
+        "A候选",
+        "B候选",
+        "独立播放窗",
+        "用户精选",
+        "讲解段落",
+        "并排比较结果"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/354229c81298dd1c0edd47fb",
+          "posterUrl": "/api/design-assets/8252594f4cb296b1980b45fd",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/8252594f4cb296b1980b45fd",
+              "timeSeconds": 3.716666666666667,
+              "frame": 223
+            },
+            {
+              "url": "/api/design-assets/bb125a04e8d714372992a4bd",
+              "timeSeconds": 7.416666666666667,
+              "frame": 445
+            },
+            {
+              "url": "/api/design-assets/60ecc3d5a49a8bacc084ec56",
+              "timeSeconds": 12.983333333333333,
+              "frame": 779
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 13,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 3.716666666666667,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected06",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/voice-v13/adapters/VoiceRevisionV13.tsx",
+          "url": "/api/design-source/42b628b031c7ef9f25226585",
+          "symbol": "VoiceRevisionV13",
+          "sha256": "b7c9897347e7b2103d2bbfdbb53a1f962cf00de35e7e1848697d95c63b17108d",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-06",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 5,
+      "matching": {
+        "referenceId": "ep102-selected-06",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "video-entry"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "comparison",
+          "media"
+        ],
+        "inputObjects": [
+          "原声",
+          "A候选",
+          "B候选",
+          "独立播放窗"
+        ],
+        "action": "原声左侧、A/B右侧上下排列，按实际声音播放时钟高亮、显示波形与进度",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 13,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "原声",
+          "A候选",
+          "B候选",
+          "独立播放窗",
+          "第102期",
+          "用户精选",
+          "讲解段落",
+          "并排比较结果"
+        ],
+        "scenarioId": "compare",
+        "scenarioTitle": "并排比较结果",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-06",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "image-comparison",
+          "summary"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          162,
+          175
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison",
+        "summary"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -2,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-06",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
+      "id": "component:ep102-selected-07",
+      "label": "102-07",
+      "title": "画布四列逐一提起并汇总",
+      "kind": "components",
+      "category": "图片与作品",
+      "origin": "第102期精选",
+      "description": "从画布按分类提起四列素材并汇总",
+      "tags": [
+        "第102期",
+        "102",
+        "102-07",
+        "画布四列",
+        "前景卡片",
+        "汇总结果",
+        "用户精选",
+        "图片与作品",
+        "多图与作品墙"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景参考",
+        "parameters": [],
+        "limitations": [
+          "认可范围是Fred指定的最终成片区间；新增内容的适配仍需检查。",
+          "预览为最终4K60成片的独立摘录；便携源码与已核验素材安装器随独立工程分发。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/b34b7a1aa2076c560fadd363",
+          "posterUrl": "/api/design-assets/33a189013f0f874afa4510cd",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/0ad57b5c2af1c7ae367c9d75",
+              "timeSeconds": 1.1333333333333333,
+              "frame": 68
+            },
+            {
+              "url": "/api/design-assets/0c7175b4ef2d25bb0625a1af",
+              "timeSeconds": 4.566666666666666,
+              "frame": 274
+            },
+            {
+              "url": "/api/design-assets/33a189013f0f874afa4510cd",
+              "timeSeconds": 7.983333333333333,
+              "frame": 479
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8,
+          "fps": 60,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 7.983333333333333,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Independent component",
+          "path": "components/projects/ep102-selected-20261005/source/SelectedComponents.tsx",
+          "url": "/api/design-source/977550b9d3d51fdd7abb3d66",
+          "symbol": "EP102Selected07",
+          "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Adopted scene source",
+          "path": "components/projects/ep102-selected-20261005/source/versions/canvas-v17/adapters/CanvasRevisionV14.tsx",
+          "url": "/api/design-source/727b93fa553ff03053b6486e",
+          "symbol": "CanvasRevisionV14",
+          "sha256": "8dd30ff25dd157e8fd3f8e22b233a46f3b3d9cdbfa94f6fad19f0a6e2c69b060",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "Native scene clock",
+          "path": "components/projects/ep102-selected-20261005/source/NativeSceneClock.tsx",
+          "url": "/api/design-source/04654ab383c9cb9f8895bce6",
+          "symbol": "NativeSceneClock",
+          "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep102-selected-07",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "images",
+      "libraryOrder": 6,
+      "matching": {
+        "referenceId": "ep102-selected-07",
+        "primaryUse": "images",
+        "useIds": [
+          "images",
+          "handoff",
+          "explain"
+        ],
+        "sourceId": "ep102",
+        "conceptIds": [
+          "media",
+          "cards",
+          "handoff",
+          "summary"
+        ],
+        "inputObjects": [
+          "画布四列",
+          "前景卡片",
+          "汇总结果"
+        ],
+        "action": "四张完整高清分类图依次提起，已出现组向左让位，最终并排保持",
+        "segmentRole": "完整场景",
+        "nativeDurationSeconds": 8,
+        "adaptation": "保留源动作与媒体时钟，替换本期对象、素材和cue后检查实际输出。",
+        "tags": [
+          "画布四列",
+          "前景卡片",
+          "汇总结果",
+          "第102期",
+          "用户精选",
+          "图片与作品",
+          "多图与作品墙"
+        ],
+        "scenarioId": "wall",
+        "scenarioTitle": "多图与作品墙",
+        "addedAt": "2026-10-05T11:47:11+08:00",
+        "label": "102-07",
+        "categoryId": "images",
+        "category": "图片与作品",
+        "sceneTypes": [
+          "image-comparison",
+          "summary"
+        ],
+        "collectionId": "ep102-selected-20261005",
+        "sourceRangeSeconds": [
+          395,
+          403
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison",
+        "summary"
+      ],
+      "isNew": true,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "displayPriority": -1,
+      "collectionId": "ep102-selected-20261005",
+      "projectDownload": {
+        "url": "https://github.com/njrhts2kvv-star/FredTalk/releases/download/ep102-selected-20261005/ep102-selected-20261005-source.zip",
+        "filename": "ep102-selected-20261005-source.zip",
+        "available": true,
+        "kind": "source-with-verified-asset-installer",
+        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
+        "size": 13966011
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep102-selected-20261005/source"
+        ],
+        "compositionId": "EP102-Selected-07",
+        "reuseBoundary": "Exact scene snapshot. Adapt copy, assets and cues in a separate project and inspect rendered output."
+      }
+    },
+    {
       "id": "component:fred-motion-source-51d675feaef3608e",
       "label": "C009",
       "title": "多个词组成信息结构",
@@ -29788,20 +30953,20 @@
     }
   ],
   "counts": {
-    "total": 288,
-    "available": 288,
+    "total": 295,
+    "available": 295,
     "unavailable": 0,
     "currentRemoved": 17,
-    "visible": 177,
+    "visible": 184,
     "hidden": 111,
     "byReviewKind": {
-      "skill": 146,
+      "skill": 153,
       "remake": 37,
       "combined": 24,
       "registered": 81
     },
     "byKind": {
-      "components": 197,
+      "components": 204,
       "clips": 14,
       "transitions": 10,
       "text-effects": 6,

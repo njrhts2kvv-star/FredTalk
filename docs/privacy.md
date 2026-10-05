@@ -4,7 +4,7 @@ This report records the initial 2026-10-02 export review. Its scan counts are hi
 
 ## Initial export scope (2026-10-02)
 
-- 177 active reference records; five preview entries are quarantined: 103-02, 99-13, N031, SP013, X029.
+- 184 active reference records; five preview entries are quarantined: 103-02, 99-13, N031, SP013, X029.
 - 8,187 unique image files scanned with on-device text recognition.
 - 414 videos sampled at 2 frames per second; 7,350 sampled frames scanned. OCR failures: 0.
 - 482 unique original media objects were conservatively quarantined after potential account, contact, private link or local-path findings. Some may be false positives; none is silently treated as safe.

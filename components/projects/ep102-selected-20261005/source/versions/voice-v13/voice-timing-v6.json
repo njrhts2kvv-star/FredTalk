@@ -1,0 +1,62 @@
+{
+  "narrationParts": [
+    {
+      "sourceStartFrame": 8512,
+      "sourceEndFrame": 9668,
+      "startFrame": 0,
+      "durationInFrames": 1156
+    },
+    {
+      "sourceStartFrame": 9874,
+      "sourceEndFrame": 10054,
+      "startFrame": 1156,
+      "durationInFrames": 180
+    },
+    {
+      "sourceStartFrame": 10174,
+      "sourceEndFrame": 10296,
+      "startFrame": 2193,
+      "durationInFrames": 122
+    },
+    {
+      "sourceStartFrame": 9668,
+      "sourceEndFrame": 9874,
+      "startFrame": 2315,
+      "durationInFrames": 206
+    },
+    {
+      "sourceStartFrame": 10296,
+      "sourceEndFrame": 10504,
+      "startFrame": 2521,
+      "durationInFrames": 208
+    }
+  ],
+  "samples": [
+    {
+      "id": "voice-0",
+      "label": "原声",
+      "startFrame": 1336,
+      "durationInFrames": 258
+    },
+    {
+      "id": "voice-2",
+      "label": "复刻 A",
+      "startFrame": 1615,
+      "durationInFrames": 268
+    },
+    {
+      "id": "voice-3",
+      "label": "复刻 B",
+      "startFrame": 1904,
+      "durationInFrames": 268
+    }
+  ],
+  "insertionStartFrame": 1336,
+  "insertionEndFrame": 2193,
+  "durationInFrames": 2729,
+  "deletedSourceRange": [
+    10054,
+    10174
+  ],
+  "reason": "Original plus two actual replicas, then recorded similarity comment; move existing narration about later dialogue after listening."
+}

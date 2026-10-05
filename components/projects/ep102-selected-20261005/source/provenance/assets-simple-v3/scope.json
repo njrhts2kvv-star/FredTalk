@@ -1,0 +1,16 @@
+{
+  "renderIds": [
+    "S07"
+  ],
+  "pages": [
+    {
+      "stableId": "S07",
+      "startFrame": 6256,
+      "durationInFrames": 2256,
+      "narrationSourceStartFrame": 6256,
+      "sourceBeatIds": [
+        "S07-voice"
+      ]
+    }
+  ]
+}

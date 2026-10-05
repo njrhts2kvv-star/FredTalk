@@ -10,6 +10,33 @@ export const kindNames = {
   "text-effects": "文字呈现",
 };
 
+const addedDateFormat = new Intl.DateTimeFormat("sv-SE", {
+  timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+});
+const addedTimeFormat = new Intl.DateTimeFormat("sv-SE", {
+  timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+  hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23",
+});
+
+function ReferenceAddedMetadata({ item, detailed = false }) {
+  const added = typeof item.addedAt === "string" && item.addedAt.trim()
+    ? new Date(item.addedAt) : null;
+  const validDate = added && Number.isFinite(added.getTime());
+  const date = validDate ? addedDateFormat.format(added) : "";
+  const timestamp = validDate ? addedTimeFormat.format(added) : "";
+  if (item.isNew !== true && !date) return null;
+  return (
+    <div className="reference-added-meta">
+      {item.isNew === true && <span className="reference-new-badge">NEW</span>}
+      {date && (
+        <time dateTime={item.addedAt} title={`新增于 ${timestamp}（北京时间）`}>
+          {detailed ? `新增 ${timestamp} · 北京时间` : `新增 ${date}`}
+        </time>
+      )}
+    </div>
+  );
+}
+
 export function ReferenceCard({ item, onSelect, variants = [], playing, onPlaybackChange }) {
   const preview = item.previews?.find((p) => p.posterUrl) || item.previews?.[0];
   const [imageError, setImageError] = useState(false);
@@ -50,6 +77,7 @@ export function ReferenceCard({ item, onSelect, variants = [], playing, onPlayba
           <span>{item.label}</span>
           <span>{item.origin}</span>
         </p>
+        <ReferenceAddedMetadata item={item} />
         <h3>{item.title}</h3>
         <span className="reference-use">{item.matching?.scenarioTitle || item.category}{item.matching?.nativeDurationSeconds ? ` · 参考片段 ${item.matching.nativeDurationSeconds}s` : ""}</span>
         <span className="reference-type">
@@ -130,6 +158,7 @@ export function ReferenceDialog({
             {item.label} / {kindNames[item.kind]}
           </span>
           <h2 id="reference-title">{item.title}</h2>
+          <ReferenceAddedMetadata item={item} detailed />
         </div>
         <button
           className="close-button"

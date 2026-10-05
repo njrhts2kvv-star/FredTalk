@@ -1207,6 +1207,30 @@ details[open] > summary:before {
 .reference-copy > p > span:first-child {
   color: #7b7b83;
 }
+.reference-added-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin: -1px 0 8px;
+  line-height: 1.4;
+}
+.reference-added-meta .reference-new-badge {
+  color: #7250a7;
+  background: #f0e8fc;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.reference-added-meta time {
+  color: #77747c;
+  font-size: 0.75rem;
+}
+.dialog-top .reference-added-meta {
+  margin: 7px 0 0;
+}
 .reference-copy h3 {
   font-size: 0.9375rem;
   line-height: 1.5;

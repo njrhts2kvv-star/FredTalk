@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "media/game-transition-native-19-21.mp4",
+      "sha256": "fb17f71d947f4e552d7a01f8dce492f0470548bcb6f9275f9bcd256f6ecf34e5",
+      "size": 9492090,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/storm.mp4",
+      "sha256": "248e3cafb516fea0b7774584b3a7e7f7839d2c5777902e20e21808e4417ea112",
+      "size": 36861219,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/fight.mp4",
+      "sha256": "f1b098bc5e416493222743b6dcc668cf341e5bd530883834cf630b15a2d6560f",
+      "size": 105891721,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/oriental.mp4",
+      "sha256": "1918a5233f8d7f6f7fa0744910abb221685b12332508ddf2a44aee169808b30e",
+      "size": 59232619,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/reference-ep1.mp4",
+      "sha256": "0414fd9127d6d2c09aafc7c26179edfb1cb2b0d979078bbbec6ab7401b9545a1",
+      "size": 39074756,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/reference-ep2.mp4",
+      "sha256": "012681feca9416a52bfcf744fc05abaaa077f75913f93f1bed118ea00e09c946",
+      "size": 58102986,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/reference-ep3.mp4",
+      "sha256": "95a4609c42b804c0139509d919b5b4f1a104de0dfb1523f0c73f85c21f8c41fa",
+      "size": 86859687,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/pull-command.mp4",
+      "sha256": "a501c451104a06f964f232bdbb0de914174caf02da4f92896ecff5c935588cc4",
+      "size": 11502656,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/pull.mp4",
+      "sha256": "3e805c6c5c2f73fe1bb26589be8d5a2cca73b6575ebacdcc88b8c5789e971441",
+      "size": 146369767,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/final-demo.mp4",
+      "sha256": "af234ba46a8f404e9b67c2fcdf48270c72daaf3349d41a9a95e8b3a7372451d2",
+      "size": 373948183,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/install-public-redacted.mp4",
+      "sha256": "8f444f12220280a48c54497c6acc5b1c905e7bf1f7768563e5cb8cd7e8705e11",
+      "size": 10719830,
+      "kind": "mp4",
+      "status": "reviewed",
+      "originalSha256": "93396b79f88ffa39a3b3cfe119344f677f3317a7a09ecbfe690d26519a1eb6a4",
+      "derivation": "Approved account ROI burned into public-only dependency; original local Skill asset preserved."
+    },
+    {
+      "path": "media/characters.mp4",
+      "sha256": "f3e8c9fa1f528b4e1c0f415564a163420b9f440375cb12f421fae0eeddb8c312",
+      "size": 11147565,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/daye-character.png",
+      "sha256": "560d0632b324206f7becebe901c45561303d15a468573deac5a4cce4dca88261",
+      "size": 1894691,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/maidi-character.png",
+      "sha256": "12eae1c4e6651d1a0f99a7160a76fc06ec1539d4f80e3336575f498b73484716",
+      "size": 2037911,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/driver-character.png",
+      "sha256": "bfe18db9ff29235a264a75693bfbdc02d313f6a3c058dd7baddad9ab8ce08e39",
+      "size": 1942701,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/stools.png",
+      "sha256": "80938ae348a2bacde5a05f977022b0502d4cea20295b816edd74daee3fdf92bc",
+      "size": 1562228,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/disc.png",
+      "sha256": "61eac32c1ff6f3f3e97726773b80eb136b18f38a6280ed108ec881a08a3b4869",
+      "size": 2081641,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/voice.mp4",
+      "sha256": "3397adba057a3332d3087a231a10c17d6698760d24f65fcfc83b78c85c8f3423",
+      "size": 116748347,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/tan-single.png",
+      "sha256": "c7f5cb5dbb4d0400a2dbf867c59a3ff8026856f79281cb7e1f4e0ce2232e1ba5",
+      "size": 821476,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "media/canvas.png",
+      "sha256": "d6a372ee7381c6753cfa371189fc4c7c24de167ed6350c551333a2788e711a75",
+      "size": 549257,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "fonts/misans-medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "size": 6550784,
+      "kind": "otf",
+      "status": "reviewed"
+    },
+    {
+      "path": "fonts/misans-heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "size": 6677020,
+      "kind": "otf",
+      "status": "reviewed"
+    },
+    {
+      "path": "fonts/SmileySans-Oblique.ttf",
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "size": 2629764,
+      "kind": "ttf",
+      "status": "reviewed"
+    },
+    {
+      "path": "brand/lightBackground.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "size": 207243,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "stills/characters.jpg",
+      "sha256": "d0f2c3522b47f7e5b479adc7fc17bc9ac0cd15f12d6811c2fe0e46f46f831591",
+      "size": 75853,
+      "kind": "jpg",
+      "status": "reviewed"
+    },
+    {
+      "path": "stills/voice-group.jpg",
+      "sha256": "3a38cf3c457291d9b7cca2c6442c4d573c6694c7bf012561be01af6a4ed40ba5",
+      "size": 51070,
+      "kind": "jpg",
+      "status": "reviewed"
+    },
+    {
+      "path": "v8-generated/tan-character-wide-v8.png",
+      "sha256": "c36d4676ea941ec43d190c992427a5c38b8dbe83b3c921d09264a9245593a7e9",
+      "size": 1969934,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "v8-generated/hammer-wide-v8.png",
+      "sha256": "89edd876bd93acd49517ec8e7d9441ce8da3069927ebbe682a0e700981e13e9d",
+      "size": 1932027,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "v14-assets/S14-user-1.png",
+      "sha256": "8a51b5e8ca520851e4b46095178e880fb9e5de53925949512cfef9e13a09fd5b",
+      "size": 487062,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "v14-assets/S14-user-2.png",
+      "sha256": "5a4ddda3e1c69027fd4dddff50410837a96074db24046cdf1b4784ce64de74c4",
+      "size": 268023,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "v14-assets/S14-user-3.png",
+      "sha256": "c158caffe3a695a5f98d28a1406b54445f0e7b078f7aa86b901f658c22b4beae",
+      "size": 208298,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "v14-assets/S14-user-4.png",
+      "sha256": "cb8ffc2205d5f59f2fcf06a99a75593d2cbf02c7e7185e5ca905853e9d854113",
+      "size": 224650,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "clean/S03.png",
+      "sha256": "366b469ba946594836f43d4d6ddfb6e52a544ded8a0ffbdcca0c4d18fa95888e",
+      "size": 8228342,
+      "kind": "png",
+      "status": "reviewed"
+    },
+    {
+      "path": "current/S04.mp4",
+      "sha256": "c7609e840abdb80536cc136e255f945f23d55c87593ea35eeb8e5390277cbd2f",
+      "size": 11706196,
+      "kind": "mp4",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-01.wav",
+      "sha256": "8fb972935a3f1c4aef501eb4d7b5fcc289f49b6c78c8fc1edcaf34fd6c2e1751",
+      "size": 1152102,
+      "kind": "wav",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-02.wav",
+      "sha256": "1744107ee6368a2fd4a3a6e91a7f02a477684a94d38f1967f3f78d653baaa83b",
+      "size": 1728102,
+      "kind": "wav",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-03.wav",
+      "sha256": "87a6335f08854786b2bd2186d6eb2abdbc969f42fac54a3e6334c75f7632f12d",
+      "size": 2016102,
+      "kind": "wav",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-04.wav",
+      "sha256": "a11ae7681ea937631384be2a023273599ac0ec19702c304065f5aa87666ad103",
+      "size": 2304102,
+      "kind": "wav",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-05.wav",
+      "sha256": "e4b1878c98908583d1f1206bd2ad78160d2cd94c411c365cbe36d2fefa7b7f04",
+      "size": 2016102,
+      "kind": "wav",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-06.wav",
+      "sha256": "6aea9f7306c15a256d1bf57b2e694e312abed398bcba6a397de98450f6a6ffb9",
+      "size": 3744102,
+      "kind": "wav",
+      "status": "reviewed"
+    },
+    {
+      "path": "audio/ep102-selected-07.wav",
+      "sha256": "47c43faf669f910d48bbdeb41809dfcf2ab6ef3218ff24cdba710e6f15ba6e2d",
+      "size": 2304102,
+      "kind": "wav",
+      "status": "reviewed"
+    }
+  ]
+}

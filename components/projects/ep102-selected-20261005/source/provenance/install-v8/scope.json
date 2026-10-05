@@ -1,0 +1,95 @@
+{
+  "version": "EP102-keyframes-v8-local-20261004",
+  "feedbackSha256": "531b8ce8e1cf60c2b7737e6411b3e8ba356ec44a3bb2254457e82c9f2a41f097",
+  "renderIds": [
+    "S01",
+    "S02",
+    "S04",
+    "S08",
+    "S12",
+    "S13",
+    "S14"
+  ],
+  "skipIds": [
+    "S03",
+    "S05",
+    "S06",
+    "S07",
+    "S09",
+    "S10",
+    "S15"
+  ],
+  "reuseIds": [
+    "S11"
+  ],
+  "pages": [
+    {
+      "stableId": "S01",
+      "startFrame": 0,
+      "durationInFrames": 406,
+      "narrationSourceStartFrame": 0,
+      "sourceBeatIds": [
+        "S01-voice"
+      ]
+    },
+    {
+      "stableId": "S02",
+      "startFrame": 406,
+      "durationInFrames": 425,
+      "narrationSourceStartFrame": 406,
+      "sourceBeatIds": [
+        "S02-voice"
+      ]
+    },
+    {
+      "stableId": "S04",
+      "startFrame": 2606,
+      "durationInFrames": 676,
+      "narrationSourceStartFrame": 2606,
+      "sourceBeatIds": [
+        "S04-voice"
+      ]
+    },
+    {
+      "stableId": "S08",
+      "startFrame": 8512,
+      "durationInFrames": 2729,
+      "narrationSourceStartFrame": 8512,
+      "sourceBeatIds": [
+        "S08-voice"
+      ]
+    },
+    {
+      "stableId": "S12",
+      "startFrame": 22042,
+      "durationInFrames": 512,
+      "narrationSourceStartFrame": 15378,
+      "sourceBeatIds": [
+        "S12-voice"
+      ]
+    },
+    {
+      "stableId": "S13",
+      "startFrame": 22554,
+      "durationInFrames": 340,
+      "narrationSourceStartFrame": 15890,
+      "sourceBeatIds": [
+        "S13-voice"
+      ]
+    },
+    {
+      "stableId": "S14",
+      "startFrame": 22894,
+      "durationInFrames": 547,
+      "narrationSourceStartFrame": 16230,
+      "sourceBeatIds": [
+        "S14-voice"
+      ]
+    }
+  ],
+  "source": "provenance/src",
+  "master": "provenance/review-audio-v6.wav",
+  "nativePublicCount": 81,
+  "libraryGate": "historical BLOCKED; user directly authorized selected adopted renders",
+  "server": "117.50.190.145"
+}

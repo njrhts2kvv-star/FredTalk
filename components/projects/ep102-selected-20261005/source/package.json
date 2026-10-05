@@ -1,0 +1,25 @@
+{
+  "name": "fred-ep102-selected-components",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "list": "node render.cjs list",
+    "typecheck": "node typecheck.cjs",
+    "stills": "node render.cjs stills",
+    "render": "node render.cjs render",
+    "studio": "remotion studio index.tsx"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.473",
+    "@remotion/cli": "4.0.473",
+    "@remotion/bundler": "4.0.473",
+    "@remotion/renderer": "4.0.473"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3"
+  }
+}

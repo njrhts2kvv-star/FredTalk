@@ -1,0 +1,1163 @@
+{
+  "schema": "ep102-selected-public-source-v1",
+  "createdDate": "2026-10-05",
+  "finalSourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+  "sourceFiles": [
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/SmileySubtitle.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/SmileySubtitle.tsx",
+      "sha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "bytes": 2471,
+      "originalSha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/adapters/MediaRevisionV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/adapters/MediaRevisionV7.tsx",
+      "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+      "bytes": 24240,
+      "originalSha256": "55dd6b30dc0b8cba80844a529f1166e20d0eb7648ccdd28b735b142f645205ce"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/adapters/ToolCombinationV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/adapters/ToolCombinationV7.tsx",
+      "sha256": "14862f2129a8b920997648f49fb2020cbe76342c6cc176abb7bccec4384465e8",
+      "bytes": 2481,
+      "originalSha256": "14862f2129a8b920997648f49fb2020cbe76342c6cc176abb7bccec4384465e8"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/assets.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/assets.json",
+      "sha256": "b6d43c409e91e753cb24ecbdd1bab7eba7c3ee373a91171686178217d5ba8ad5",
+      "bytes": 69344,
+      "originalSha256": "c82f008464d86dc1b75a98a4b0f0fe2a4254825ebbf129b504be0580404b1cc8"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/common.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/common.tsx",
+      "sha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852",
+      "bytes": 2487,
+      "originalSha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/install-account-roi-v7.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/install-account-roi-v7.json",
+      "sha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
+      "bytes": 5143,
+      "originalSha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/native/L81-B027.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/native/L81-B027.json",
+      "sha256": "926372bb9cb7e46e92ce80e5877b15ca1ce92749872e2f9c2aaf972aed47f7a1",
+      "bytes": 12928,
+      "originalSha256": "b50661a1683f516b312bb8c73822a2e05a243e3c588160af922cb5fec61e43f7"
+    },
+    {
+      "version": "direction-a",
+      "path": "versions/direction-a/production.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/production.json",
+      "sha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415",
+      "bytes": 26080,
+      "originalSha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415"
+    },
+    {
+      "version": "direction-a",
+      "path": "provenance/direction-a/src/index-v7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/index-v7.tsx",
+      "sha256": "869d79e6698b5d840e60da16496b474a52d175ce93febfdfc68494c678c6cc6e",
+      "bytes": 6441,
+      "originalSha256": "869d79e6698b5d840e60da16496b474a52d175ce93febfdfc68494c678c6cc6e"
+    },
+    {
+      "version": "direction-a",
+      "path": "provenance/direction-a/package.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/package.json",
+      "sha256": "64e29b3e860298be8c12b3527cd9f4376711c6f7b2db50fd05cefd2a4217c022",
+      "bytes": 277,
+      "originalSha256": "dce8d70f581abed19d97cc4f60af9080a8f88c142973454e5e1c2d98b8833471"
+    },
+    {
+      "version": "direction-a",
+      "path": "provenance/direction-a/environment-package-lock.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/environment-package-lock.json",
+      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
+      "bytes": 110029,
+      "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
+    },
+    {
+      "version": "direction-a",
+      "path": "provenance/direction-a/scope.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/scope.json",
+      "sha256": "cd6a30c6569186f857a8c62c8240673116ccdde0fa5bbd23796ec83f3684fb59",
+      "bytes": 642,
+      "originalSha256": "84ef3f53857cf35da82bb2a84657fa1d3ecea5eb5d6e844a10cfe3c53580e7dd"
+    },
+    {
+      "version": "install-v8",
+      "path": "versions/install-v8/SmileySubtitle.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/SmileySubtitle.tsx",
+      "sha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "bytes": 2471,
+      "originalSha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c"
+    },
+    {
+      "version": "install-v8",
+      "path": "versions/install-v8/adapters/MediaRevisionV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/adapters/MediaRevisionV7.tsx",
+      "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
+      "bytes": 23960,
+      "originalSha256": "dde24727cdfa8933a69fff6f940e319d1c161d3dcf745f6cb73802ac6a9898ab"
+    },
+    {
+      "version": "install-v8",
+      "path": "versions/install-v8/assets.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/assets.json",
+      "sha256": "b6d43c409e91e753cb24ecbdd1bab7eba7c3ee373a91171686178217d5ba8ad5",
+      "bytes": 69344,
+      "originalSha256": "c82f008464d86dc1b75a98a4b0f0fe2a4254825ebbf129b504be0580404b1cc8"
+    },
+    {
+      "version": "install-v8",
+      "path": "versions/install-v8/common.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/common.tsx",
+      "sha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852",
+      "bytes": 2487,
+      "originalSha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852"
+    },
+    {
+      "version": "install-v8",
+      "path": "versions/install-v8/install-account-roi-v7.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/install-account-roi-v7.json",
+      "sha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
+      "bytes": 5143,
+      "originalSha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab"
+    },
+    {
+      "version": "install-v8",
+      "path": "versions/install-v8/production.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/production.json",
+      "sha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415",
+      "bytes": 26080,
+      "originalSha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415"
+    },
+    {
+      "version": "install-v8",
+      "path": "provenance/install-v8/src/index-v7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/index-v7.tsx",
+      "sha256": "9dd43f56f6e9f9c68296b07ea68ded43a719874e9e381280f70847d2ebc46aee",
+      "bytes": 5915,
+      "originalSha256": "9dd43f56f6e9f9c68296b07ea68ded43a719874e9e381280f70847d2ebc46aee"
+    },
+    {
+      "version": "install-v8",
+      "path": "provenance/install-v8/package.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/package.json",
+      "sha256": "64e29b3e860298be8c12b3527cd9f4376711c6f7b2db50fd05cefd2a4217c022",
+      "bytes": 277,
+      "originalSha256": "dce8d70f581abed19d97cc4f60af9080a8f88c142973454e5e1c2d98b8833471"
+    },
+    {
+      "version": "install-v8",
+      "path": "provenance/install-v8/environment-package-lock.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/environment-package-lock.json",
+      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
+      "bytes": 110029,
+      "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
+    },
+    {
+      "version": "install-v8",
+      "path": "provenance/install-v8/scope.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/scope.json",
+      "sha256": "50d51bb0f0ea8d2e7dd1a31a6d8bc76a7416b929f3598ff7b5c6c3165c749e15",
+      "bytes": 1928,
+      "originalSha256": "e78d24656c0b42434b698e05e5a95de716035088bc1d40f57d01fef074b643c9"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/SmileySubtitle.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/SmileySubtitle.tsx",
+      "sha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "bytes": 2471,
+      "originalSha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/adapters/AssetsReferenceV8.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/AssetsReferenceV8.tsx",
+      "sha256": "7575103a649bf3e8dbaa15290bc77f82097385528d04a8fa1edfdd55bf659289",
+      "bytes": 4266,
+      "originalSha256": "7575103a649bf3e8dbaa15290bc77f82097385528d04a8fa1edfdd55bf659289"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/adapters/AssetsReferenceV9.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/AssetsReferenceV9.tsx",
+      "sha256": "49002db39393dd3257bf56b6805fea0235cd933f8af2b7056a88e4761812bf56",
+      "bytes": 7249,
+      "originalSha256": "49002db39393dd3257bf56b6805fea0235cd933f8af2b7056a88e4761812bf56"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/adapters/ExplainRevisionV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/ExplainRevisionV7.tsx",
+      "sha256": "ae319a4f381fbe6e6eb1b4bc148c0e9f6e319d19f0500f96fa777013f1415edf",
+      "bytes": 20909,
+      "originalSha256": "a7930ff84601bacce23468998b356cbd4e19b2912898fada404dc07448f39917"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/adapters/MajorRevisionV8.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/MajorRevisionV8.tsx",
+      "sha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90",
+      "bytes": 12616,
+      "originalSha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/adapters/MediaRevisionV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/MediaRevisionV7.tsx",
+      "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
+      "bytes": 23960,
+      "originalSha256": "dde24727cdfa8933a69fff6f940e319d1c161d3dcf745f6cb73802ac6a9898ab"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/adapters/WeaponCompare.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/WeaponCompare.tsx",
+      "sha256": "c2d000ee58b2b188af6ed9bed011507ae7f61663cfa61982201228cace3dd79a",
+      "bytes": 911,
+      "originalSha256": "c2d000ee58b2b188af6ed9bed011507ae7f61663cfa61982201228cace3dd79a"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/assets.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/assets.json",
+      "sha256": "b6d43c409e91e753cb24ecbdd1bab7eba7c3ee373a91171686178217d5ba8ad5",
+      "bytes": 69344,
+      "originalSha256": "c82f008464d86dc1b75a98a4b0f0fe2a4254825ebbf129b504be0580404b1cc8"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/common.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/common.tsx",
+      "sha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852",
+      "bytes": 2487,
+      "originalSha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/install-account-roi-v7.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/install-account-roi-v7.json",
+      "sha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
+      "bytes": 5143,
+      "originalSha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/bob/manifest.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/bob/manifest.json",
+      "sha256": "38f0b1ac131797f8acdd26ca3b2c9d828458e943fc3184821c15c0aace7f771b",
+      "bytes": 268498,
+      "originalSha256": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/bob/src/batch1.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/bob/src/batch1.tsx",
+      "sha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
+      "bytes": 50199,
+      "originalSha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/ctw/C005.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/ctw/C005.json",
+      "sha256": "f239aaa7bb4dd264c15268b18d5434957b4f4749e60ebc1f31eabe140386ef8a",
+      "bytes": 954145,
+      "originalSha256": "aaf63594c072a45e60751e5b3affcb8bd91df415d8c7ba8bd143ed666d84d6dd"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/ctw/RebuiltC005.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/ctw/RebuiltC005.tsx",
+      "sha256": "9f88265c1cd9a6766f681aeb5f81a7d65025eb8780480f5517fb076b339111c7",
+      "bytes": 2946,
+      "originalSha256": "9f88265c1cd9a6766f681aeb5f81a7d65025eb8780480f5517fb076b339111c7"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/ctw/measuredSample.ts",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/ctw/measuredSample.ts",
+      "sha256": "9a27fa9e5167e6e61fc80960339fdaab20494715fbc8c79cc03ca0ad1ceccbe5",
+      "bytes": 354,
+      "originalSha256": "9a27fa9e5167e6e61fc80960339fdaab20494715fbc8c79cc03ca0ad1ceccbe5"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/new10/MediaScenesB.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/new10/MediaScenesB.tsx",
+      "sha256": "dce968f0ec5f2f219fb58136b4ca68cf4ee770a24601e441e1e7c38cc4b24e6c",
+      "bytes": 19176,
+      "originalSha256": "dce968f0ec5f2f219fb58136b4ca68cf4ee770a24601e441e1e7c38cc4b24e6c"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/new10/n043-document-lines.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/new10/n043-document-lines.json",
+      "sha256": "b81f4ad9dc88f33c8dc38372776d7214b4f462fc0b0aaa41385f461277a1adff",
+      "bytes": 19838,
+      "originalSha256": "b81f4ad9dc88f33c8dc38372776d7214b4f462fc0b0aaa41385f461277a1adff"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/library/selfpick/sp015-016.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/selfpick/sp015-016.tsx",
+      "sha256": "1bd9cd019862fa34de6329006af257e17fcf421d150c5fa6cd7560ef0058df40",
+      "bytes": 3939,
+      "originalSha256": "1bd9cd019862fa34de6329006af257e17fcf421d150c5fa6cd7560ef0058df40"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/native/N023-motion.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/native/N023-motion.json",
+      "sha256": "9687389d286223a50fd873c9899c2d5b8eae02b1072d68a265ec01f6b3d946eb",
+      "bytes": 2974,
+      "originalSha256": "796a97428267140961c8034f4210733d82165a2e80909d286c8575c5fa654cbc"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/production.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/production.json",
+      "sha256": "8b79f26674078d6f93aeaa7d8e009d37e215a926d6f597bbbdea031760e82a36",
+      "bytes": 26321,
+      "originalSha256": "b6869c6acc15f8623d7ee544a136dbcb20e8775b95f020699759d9ea66b666a2"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/voice-timing-v6.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/voice-timing-v6.json",
+      "sha256": "db0a4ecbfdcc42ca1c56411bddd8b0c6e551f74bb62fa5a65a34920cd39e8c5a",
+      "bytes": 1347,
+      "originalSha256": "db0a4ecbfdcc42ca1c56411bddd8b0c6e551f74bb62fa5a65a34920cd39e8c5a"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "versions/assets-simple-v3/voice-waves-v6.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/voice-waves-v6.json",
+      "sha256": "1917430d4d0bc5a79bf5e3c88f7e34c480193cd4fcc5eb6b860aaca80c3f2338",
+      "bytes": 2261,
+      "originalSha256": "eeac00750ffd9b7f2be5fdef8af6e8092999c456eda452eef00dfaeb101bfec1"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "provenance/assets-simple-v3/src/index-v7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/index-v7.tsx",
+      "sha256": "d8e92602fb7d3d1f30732d008a8f6da1398a6ff7c785a00933cec209123c97fb",
+      "bytes": 6100,
+      "originalSha256": "d8e92602fb7d3d1f30732d008a8f6da1398a6ff7c785a00933cec209123c97fb"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "provenance/assets-simple-v3/package.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/package.json",
+      "sha256": "64e29b3e860298be8c12b3527cd9f4376711c6f7b2db50fd05cefd2a4217c022",
+      "bytes": 277,
+      "originalSha256": "dce8d70f581abed19d97cc4f60af9080a8f88c142973454e5e1c2d98b8833471"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "provenance/assets-simple-v3/environment-package-lock.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/environment-package-lock.json",
+      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
+      "bytes": 110029,
+      "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
+    },
+    {
+      "version": "assets-simple-v3",
+      "path": "provenance/assets-simple-v3/scope.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/scope.json",
+      "sha256": "34e5a7c3a04bd23b15f143aa568ed6ac2e4ce440889558b2c5b9a0e8e5207dda",
+      "bytes": 242,
+      "originalSha256": "51db0961036ad55dbb9e230e6c29872c2b0554d6897f3171f25037632e44b45d"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/SmileySubtitle.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/SmileySubtitle.tsx",
+      "sha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "bytes": 2471,
+      "originalSha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/adapters/ExplainRevisionV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/ExplainRevisionV7.tsx",
+      "sha256": "ae319a4f381fbe6e6eb1b4bc148c0e9f6e319d19f0500f96fa777013f1415edf",
+      "bytes": 20909,
+      "originalSha256": "a7930ff84601bacce23468998b356cbd4e19b2912898fada404dc07448f39917"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/adapters/MajorRevisionV8.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/MajorRevisionV8.tsx",
+      "sha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90",
+      "bytes": 12616,
+      "originalSha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/adapters/MediaRevisionV7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/MediaRevisionV7.tsx",
+      "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+      "bytes": 24240,
+      "originalSha256": "55dd6b30dc0b8cba80844a529f1166e20d0eb7648ccdd28b735b142f645205ce"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/adapters/VoiceRevisionV10.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/VoiceRevisionV10.tsx",
+      "sha256": "b79c3ebc02b8e4bd2cb4c07489b4a8a301992fa6dff408a943435188cb2383b9",
+      "bytes": 7622,
+      "originalSha256": "b79c3ebc02b8e4bd2cb4c07489b4a8a301992fa6dff408a943435188cb2383b9"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/adapters/VoiceRevisionV13.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/VoiceRevisionV13.tsx",
+      "sha256": "b7c9897347e7b2103d2bbfdbb53a1f962cf00de35e7e1848697d95c63b17108d",
+      "bytes": 3224,
+      "originalSha256": "b7c9897347e7b2103d2bbfdbb53a1f962cf00de35e7e1848697d95c63b17108d"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/adapters/WeaponCompare.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/WeaponCompare.tsx",
+      "sha256": "c2d000ee58b2b188af6ed9bed011507ae7f61663cfa61982201228cace3dd79a",
+      "bytes": 911,
+      "originalSha256": "c2d000ee58b2b188af6ed9bed011507ae7f61663cfa61982201228cace3dd79a"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/assets.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/assets.json",
+      "sha256": "b6d43c409e91e753cb24ecbdd1bab7eba7c3ee373a91171686178217d5ba8ad5",
+      "bytes": 69344,
+      "originalSha256": "c82f008464d86dc1b75a98a4b0f0fe2a4254825ebbf129b504be0580404b1cc8"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/common.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/common.tsx",
+      "sha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852",
+      "bytes": 2487,
+      "originalSha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/install-account-roi-v7.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/install-account-roi-v7.json",
+      "sha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
+      "bytes": 5143,
+      "originalSha256": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/bob/manifest.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/bob/manifest.json",
+      "sha256": "38f0b1ac131797f8acdd26ca3b2c9d828458e943fc3184821c15c0aace7f771b",
+      "bytes": 268498,
+      "originalSha256": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/bob/src/batch1.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/bob/src/batch1.tsx",
+      "sha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
+      "bytes": 50199,
+      "originalSha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/ctw/C005.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/ctw/C005.json",
+      "sha256": "f239aaa7bb4dd264c15268b18d5434957b4f4749e60ebc1f31eabe140386ef8a",
+      "bytes": 954145,
+      "originalSha256": "aaf63594c072a45e60751e5b3affcb8bd91df415d8c7ba8bd143ed666d84d6dd"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/ctw/RebuiltC005.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/ctw/RebuiltC005.tsx",
+      "sha256": "9f88265c1cd9a6766f681aeb5f81a7d65025eb8780480f5517fb076b339111c7",
+      "bytes": 2946,
+      "originalSha256": "9f88265c1cd9a6766f681aeb5f81a7d65025eb8780480f5517fb076b339111c7"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/ctw/measuredSample.ts",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/ctw/measuredSample.ts",
+      "sha256": "9a27fa9e5167e6e61fc80960339fdaab20494715fbc8c79cc03ca0ad1ceccbe5",
+      "bytes": 354,
+      "originalSha256": "9a27fa9e5167e6e61fc80960339fdaab20494715fbc8c79cc03ca0ad1ceccbe5"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/new10/MediaScenesB.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/new10/MediaScenesB.tsx",
+      "sha256": "dce968f0ec5f2f219fb58136b4ca68cf4ee770a24601e441e1e7c38cc4b24e6c",
+      "bytes": 19176,
+      "originalSha256": "dce968f0ec5f2f219fb58136b4ca68cf4ee770a24601e441e1e7c38cc4b24e6c"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/new10/n043-document-lines.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/new10/n043-document-lines.json",
+      "sha256": "b81f4ad9dc88f33c8dc38372776d7214b4f462fc0b0aaa41385f461277a1adff",
+      "bytes": 19838,
+      "originalSha256": "b81f4ad9dc88f33c8dc38372776d7214b4f462fc0b0aaa41385f461277a1adff"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/selfpick/sp015-016.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/selfpick/sp015-016.tsx",
+      "sha256": "1bd9cd019862fa34de6329006af257e17fcf421d150c5fa6cd7560ef0058df40",
+      "bytes": 3939,
+      "originalSha256": "1bd9cd019862fa34de6329006af257e17fcf421d150c5fa6cd7560ef0058df40"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/voice-v11/B036CostV11.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/voice-v11/B036CostV11.tsx",
+      "sha256": "6f0ed91bb8ac7900f336f3084941caf19c209fbfdea5e59057b8f8dfe3134951",
+      "bytes": 3539,
+      "originalSha256": "6f0ed91bb8ac7900f336f3084941caf19c209fbfdea5e59057b8f8dfe3134951"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/voice-v11/R052AudioCandidatesV11.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/voice-v11/R052AudioCandidatesV11.tsx",
+      "sha256": "8488e5eeeb16c3ccf88ea4c49a91c4642193f3b1828bffced2f21709c9ccf47f",
+      "bytes": 3781,
+      "originalSha256": "8488e5eeeb16c3ccf88ea4c49a91c4642193f3b1828bffced2f21709c9ccf47f"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/voice-v11/b036-native-text-opacity.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/voice-v11/b036-native-text-opacity.json",
+      "sha256": "b9039f8e925cfe7103ff098c75b1281916c33eee9959a3fdc9d0a5458f2eb827",
+      "bytes": 3018,
+      "originalSha256": "11340b3cd1af344264a11947f9ae69371ef36baf96ba48e2b2f8e2d208b65f66"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/x003/RebuiltX003.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/x003/RebuiltX003.tsx",
+      "sha256": "4bb266aa3858cbdd0fa3f60ba207157fb523b1743ad10651ebbbdc0f3f92163e",
+      "bytes": 1564,
+      "originalSha256": "4bb266aa3858cbdd0fa3f60ba207157fb523b1743ad10651ebbbdc0f3f92163e"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/x003/index.ts",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/x003/index.ts",
+      "sha256": "653afe0cecd587164db27b901eaf4ed755c52b87cfee6b2c8901cef5166d194d",
+      "bytes": 61,
+      "originalSha256": "653afe0cecd587164db27b901eaf4ed755c52b87cfee6b2c8901cef5166d194d"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/library/x003/timelines/X003.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/x003/timelines/X003.json",
+      "sha256": "a4e1036f1512c67308cc74b949c8715b76d6cd8f83186846c0b2f6e4e431d378",
+      "bytes": 34582,
+      "originalSha256": "ca5f477fa150f1c7ae8f2d0d0d7d5dfbccffd9d20a89129dc090f499c9b9a600"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/native/N023-motion.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/native/N023-motion.json",
+      "sha256": "9687389d286223a50fd873c9899c2d5b8eae02b1072d68a265ec01f6b3d946eb",
+      "bytes": 2974,
+      "originalSha256": "796a97428267140961c8034f4210733d82165a2e80909d286c8575c5fa654cbc"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/production.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/production.json",
+      "sha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415",
+      "bytes": 26080,
+      "originalSha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/voice-timing-v6.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/voice-timing-v6.json",
+      "sha256": "db0a4ecbfdcc42ca1c56411bddd8b0c6e551f74bb62fa5a65a34920cd39e8c5a",
+      "bytes": 1347,
+      "originalSha256": "db0a4ecbfdcc42ca1c56411bddd8b0c6e551f74bb62fa5a65a34920cd39e8c5a"
+    },
+    {
+      "version": "voice-v13",
+      "path": "versions/voice-v13/voice-waves-v6.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/voice-waves-v6.json",
+      "sha256": "1917430d4d0bc5a79bf5e3c88f7e34c480193cd4fcc5eb6b860aaca80c3f2338",
+      "bytes": 2261,
+      "originalSha256": "eeac00750ffd9b7f2be5fdef8af6e8092999c456eda452eef00dfaeb101bfec1"
+    },
+    {
+      "version": "voice-v13",
+      "path": "provenance/voice-v13/src/index-v7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/index-v7.tsx",
+      "sha256": "462bfb0c73100c300ffb81ec4d3005c2874b5a11b82c50d812ccfecd2e00dd1f",
+      "bytes": 6436,
+      "originalSha256": "462bfb0c73100c300ffb81ec4d3005c2874b5a11b82c50d812ccfecd2e00dd1f"
+    },
+    {
+      "version": "voice-v13",
+      "path": "provenance/voice-v13/package.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/package.json",
+      "sha256": "64e29b3e860298be8c12b3527cd9f4376711c6f7b2db50fd05cefd2a4217c022",
+      "bytes": 277,
+      "originalSha256": "dce8d70f581abed19d97cc4f60af9080a8f88c142973454e5e1c2d98b8833471"
+    },
+    {
+      "version": "voice-v13",
+      "path": "provenance/voice-v13/scope.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/scope.json",
+      "sha256": "925599c67c8b57bcdd44f575010e7cd9d423d015e8d1b53463441a2d5c653338",
+      "bytes": 153,
+      "originalSha256": "c761c778b17ba8b6f4107d7fdc9a831e0af3f04afb0baafdded21d85ccb085a9"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "versions/canvas-v17/SmileySubtitle.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/SmileySubtitle.tsx",
+      "sha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "bytes": 2471,
+      "originalSha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "versions/canvas-v17/adapters/CanvasRevisionV14.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/adapters/CanvasRevisionV14.tsx",
+      "sha256": "8dd30ff25dd157e8fd3f8e22b233a46f3b3d9cdbfa94f6fad19f0a6e2c69b060",
+      "bytes": 2538,
+      "originalSha256": "8dd30ff25dd157e8fd3f8e22b233a46f3b3d9cdbfa94f6fad19f0a6e2c69b060"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "versions/canvas-v17/assets.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/assets.json",
+      "sha256": "b6d43c409e91e753cb24ecbdd1bab7eba7c3ee373a91171686178217d5ba8ad5",
+      "bytes": 69344,
+      "originalSha256": "c82f008464d86dc1b75a98a4b0f0fe2a4254825ebbf129b504be0580404b1cc8"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "versions/canvas-v17/common.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/common.tsx",
+      "sha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852",
+      "bytes": 2487,
+      "originalSha256": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "versions/canvas-v17/production.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/production.json",
+      "sha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415",
+      "bytes": 26080,
+      "originalSha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "provenance/canvas-v17/src/index-v7.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/index-v7.tsx",
+      "sha256": "3ca5893fe5037e317c0cb874a3434a7349cee63c1560bacbda44a737fd33f663",
+      "bytes": 5550,
+      "originalSha256": "3ca5893fe5037e317c0cb874a3434a7349cee63c1560bacbda44a737fd33f663"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "provenance/canvas-v17/package.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/package.json",
+      "sha256": "64e29b3e860298be8c12b3527cd9f4376711c6f7b2db50fd05cefd2a4217c022",
+      "bytes": 277,
+      "originalSha256": "dce8d70f581abed19d97cc4f60af9080a8f88c142973454e5e1c2d98b8833471"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "provenance/canvas-v17/environment-package-lock.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/environment-package-lock.json",
+      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
+      "bytes": 110029,
+      "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
+    },
+    {
+      "version": "canvas-v17",
+      "path": "provenance/canvas-v17/scope.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/scope.json",
+      "sha256": "79a289434747eb9a39b15671416feaef6938e1b1ebf50f35be730037a1e10218",
+      "bytes": 6249,
+      "originalSha256": "79a289434747eb9a39b15671416feaef6938e1b1ebf50f35be730037a1e10218"
+    },
+    {
+      "version": "incoming",
+      "path": "versions/incoming/SmileySubtitle.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/render/incoming/src/SmileySubtitle.tsx",
+      "sha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "bytes": 2471,
+      "originalSha256": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c"
+    },
+    {
+      "version": "incoming",
+      "path": "versions/incoming/contracts.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/render/incoming/src/contracts.json",
+      "sha256": "1e903d119ebea46379cc8570b3b3166cad25d4865ba29bc276cc162559e8c7bb",
+      "bytes": 3552,
+      "originalSha256": "6bccb52aeffb8a22428bf8982dd3997f30c2a54aae25c294be87a4f2668e1046"
+    },
+    {
+      "version": "incoming",
+      "path": "versions/incoming/index.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/render/incoming/src/index.tsx",
+      "sha256": "b746ec182d42cb042dd8d91fb61851529719d239ef9b0dee2fbe442bd7e48f5e",
+      "bytes": 1733,
+      "sourceSha256": "5b39543423a856284c5064efce3393b28a4bb8236fb3370acedda3f650aa93c3",
+      "adaptation": "Expose Incoming export and remove root registration; exact original kept in provenance/incoming/src/index.tsx.",
+      "originalSha256": "b746ec182d42cb042dd8d91fb61851529719d239ef9b0dee2fbe442bd7e48f5e"
+    },
+    {
+      "version": "incoming",
+      "path": "versions/incoming/production.json",
+      "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/render/incoming/src/production.json",
+      "sha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415",
+      "bytes": 26080,
+      "originalSha256": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415"
+    },
+    {
+      "version": "incoming",
+      "path": "provenance/incoming/src/index.tsx",
+      "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/render/incoming/src/index.tsx",
+      "sha256": "5b39543423a856284c5064efce3393b28a4bb8236fb3370acedda3f650aa93c3",
+      "bytes": 1745,
+      "originalSha256": "5b39543423a856284c5064efce3393b28a4bb8236fb3370acedda3f650aa93c3"
+    }
+  ],
+  "publicFiles": [
+    {
+      "path": "media/game-transition-native-19-21.mp4",
+      "episodeRelativeSource": "03_制作过程/revision-v7/render-project/public/media/game-transition-native-19-21.mp4",
+      "sha256": "fb17f71d947f4e552d7a01f8dce492f0470548bcb6f9275f9bcd256f6ecf34e5",
+      "bytes": 9492090
+    },
+    {
+      "path": "media/storm.mp4",
+      "episodeRelativeSource": "01_输入素材/演示素材/Storm.mp4",
+      "sha256": "248e3cafb516fea0b7774584b3a7e7f7839d2c5777902e20e21808e4417ea112",
+      "bytes": 36861219
+    },
+    {
+      "path": "media/fight.mp4",
+      "episodeRelativeSource": "01_输入素材/演示素材/打斗.mp4",
+      "sha256": "f1b098bc5e416493222743b6dcc668cf341e5bd530883834cf630b15a2d6560f",
+      "bytes": 105891721
+    },
+    {
+      "path": "media/oriental.mp4",
+      "episodeRelativeSource": "01_输入素材/演示素材/东方美学.mp4",
+      "sha256": "1918a5233f8d7f6f7fa0744910abb221685b12332508ddf2a44aee169808b30e",
+      "bytes": 59232619
+    },
+    {
+      "path": "media/reference-ep1.mp4",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/0414fd9127d6d2c09aaf-01_裤头与二胆_第一集_进城篇.mp4",
+      "sha256": "0414fd9127d6d2c09aafc7c26179edfb1cb2b0d979078bbbec6ab7401b9545a1",
+      "bytes": 39074756
+    },
+    {
+      "path": "media/reference-ep2.mp4",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/012681feca9416a52bfc-02_裤头与二胆_第二集_小连篇.mp4",
+      "sha256": "012681feca9416a52bfcf744fc05abaaa077f75913f93f1bed118ea00e09c946",
+      "bytes": 58102986
+    },
+    {
+      "path": "media/reference-ep3.mp4",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/95a4609c42b804c01395-03_裤头与二胆_第三集_小连篇.mp4",
+      "sha256": "95a4609c42b804c0139509d919b5b4f1a104de0dfb1523f0c73f85c21f8c41fa",
+      "bytes": 86859687
+    },
+    {
+      "path": "media/pull-command.mp4",
+      "episodeRelativeSource": "01_输入素材/归档/发起拉片.mp4",
+      "sha256": "a501c451104a06f964f232bdbb0de914174caf02da4f92896ecff5c935588cc4",
+      "bytes": 11502656
+    },
+    {
+      "path": "media/pull.mp4",
+      "episodeRelativeSource": "01_输入素材/正式：拉片.mp4",
+      "sha256": "3e805c6c5c2f73fe1bb26589be8d5a2cca73b6575ebacdcc88b8c5789e971441",
+      "bytes": 146369767
+    },
+    {
+      "path": "media/final-demo.mp4",
+      "episodeRelativeSource": "01_输入素材/最终成片.mp4",
+      "sha256": "af234ba46a8f404e9b67c2fcdf48270c72daaf3349d41a9a95e8b3a7372451d2",
+      "bytes": 373948183
+    },
+    {
+      "path": "media/install-public-redacted.mp4",
+      "episodeRelativeSource": "01_输入素材/正式：连接器安装.mp4",
+      "sha256": "8f444f12220280a48c54497c6acc5b1c905e7bf1f7768563e5cb8cd7e8705e11",
+      "bytes": 10719830,
+      "originalSha256": "93396b79f88ffa39a3b3cfe119344f677f3317a7a09ecbfe690d26519a1eb6a4",
+      "derivation": "public-install-account-redaction-v1",
+      "derivationManifest": "public-media-derivations.json"
+    },
+    {
+      "path": "media/characters.mp4",
+      "episodeRelativeSource": "01_输入素材/正式：人物资产.mp4",
+      "sha256": "f3e8c9fa1f528b4e1c0f415564a163420b9f440375cb12f421fae0eeddb8c312",
+      "bytes": 11147565
+    },
+    {
+      "path": "media/daye-character.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/560d0632b324206f7bec-C05_二仙桥大爷_叠帽旧外套三视图.png",
+      "sha256": "560d0632b324206f7becebe901c45561303d15a468573deac5a4cce4dca88261",
+      "bytes": 1894691
+    },
+    {
+      "path": "media/maidi-character.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/12eae1c4e6651d1a0f99-C04_卖碟哥_蓝夹克三视图.png",
+      "sha256": "12eae1c4e6651d1a0f99a7160a76fc06ec1539d4f80e3336575f498b73484716",
+      "bytes": 2037911
+    },
+    {
+      "path": "media/driver-character.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/bfe18db9ff29235a264a-C02_算了嘛_成年男子三视图.png",
+      "sha256": "bfe18db9ff29235a264a75693bfbdc02d313f6a3c058dd7baddad9ab8ce08e39",
+      "bytes": 1942701
+    },
+    {
+      "path": "media/stools.png",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v8-20261004/bundle/public/media/stools.png",
+      "sha256": "80938ae348a2bacde5a05f977022b0502d4cea20295b816edd74daee3fdf92bc",
+      "bytes": 1562228
+    },
+    {
+      "path": "media/disc.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/61eac32c1ff6f3f3e977-P03_普通CD巨盘_营业箱A_接盘纸箱B.png",
+      "sha256": "61eac32c1ff6f3f3e97726773b80eb136b18f38a6280ed108ec881a08a3b4869",
+      "bytes": 2081641
+    },
+    {
+      "path": "media/voice.mp4",
+      "episodeRelativeSource": "01_输入素材/正式：音频资产.mp4",
+      "sha256": "3397adba057a3332d3087a231a10c17d6698760d24f65fcfc83b78c85c8f3423",
+      "bytes": 116748347
+    },
+    {
+      "path": "media/tan-single.png",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/audit/revision-v6/tan-single.png",
+      "sha256": "c7f5cb5dbb4d0400a2dbf867c59a3ff8026856f79281cb7e1f4e0ce2232e1ba5",
+      "bytes": 821476
+    },
+    {
+      "path": "media/canvas.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/recovered-local-files/d6a372ee7381c6753cfa-最终画布.png",
+      "sha256": "d6a372ee7381c6753cfa371189fc4c7c24de167ed6350c551333a2788e711a75",
+      "bytes": 549257
+    },
+    {
+      "path": "fonts/misans-medium.otf",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/public/fonts/misans-medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784
+    },
+    {
+      "path": "fonts/misans-heavy.otf",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/public/fonts/misans-heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "bytes": 6677020
+    },
+    {
+      "path": "fonts/SmileySans-Oblique.ttf",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/public/fonts/SmileySans-Oblique.ttf",
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "bytes": 2629764
+    },
+    {
+      "path": "brand/lightBackground.png",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/public/brand/lightBackground.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "bytes": 207243
+    },
+    {
+      "path": "stills/characters.jpg",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/public/stills/characters.jpg",
+      "sha256": "d0f2c3522b47f7e5b479adc7fc17bc9ac0cd15f12d6811c2fe0e46f46f831591",
+      "bytes": 75853
+    },
+    {
+      "path": "stills/voice-group.jpg",
+      "episodeRelativeSource": "03_制作过程/remotion/keyframes-v2/public/stills/voice-group.jpg",
+      "sha256": "3a38cf3c457291d9b7cca2c6442c4d573c6694c7bf012561be01af6a4ed40ba5",
+      "bytes": 51070
+    },
+    {
+      "path": "v8-generated/tan-character-wide-v8.png",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/public/v8-generated/tan-character-wide-v8.png",
+      "sha256": "c36d4676ea941ec43d190c992427a5c38b8dbe83b3c921d09264a9245593a7e9",
+      "bytes": 1969934
+    },
+    {
+      "path": "v8-generated/hammer-wide-v8.png",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/public/v8-generated/hammer-wide-v8.png",
+      "sha256": "89edd876bd93acd49517ec8e7d9441ce8da3069927ebbe682a0e700981e13e9d",
+      "bytes": 1932027
+    },
+    {
+      "path": "v14-assets/S14-user-1.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/frontend-images/8a51b5e8ca520851e4b46095178e880fb9e5de53925949512cfef9e13a09fd5b.png",
+      "sha256": "8a51b5e8ca520851e4b46095178e880fb9e5de53925949512cfef9e13a09fd5b",
+      "bytes": 487062
+    },
+    {
+      "path": "v14-assets/S14-user-2.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/frontend-images/5a4ddda3e1c69027fd4dddff50410837a96074db24046cdf1b4784ce64de74c4.png",
+      "sha256": "5a4ddda3e1c69027fd4dddff50410837a96074db24046cdf1b4784ce64de74c4",
+      "bytes": 268023
+    },
+    {
+      "path": "v14-assets/S14-user-3.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/frontend-images/c158caffe3a695a5f98d28a1406b54445f0e7b078f7aa86b901f658c22b4beae.png",
+      "sha256": "c158caffe3a695a5f98d28a1406b54445f0e7b078f7aa86b901f658c22b4beae",
+      "bytes": 208298
+    },
+    {
+      "path": "v14-assets/S14-user-4.png",
+      "episodeRelativeSource": "03_制作过程/handoff-20261004/frontend-images/cb8ffc2205d5f59f2fcf06a99a75593d2cbf02c7e7185e5ca905853e9d854113.png",
+      "sha256": "cb8ffc2205d5f59f2fcf06a99a75593d2cbf02c7e7185e5ca905853e9d854113",
+      "bytes": 224650
+    },
+    {
+      "path": "clean/S03.png",
+      "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/clean/S03.png",
+      "sha256": "366b469ba946594836f43d4d6ddfb6e52a544ded8a0ffbdcca0c4d18fa95888e",
+      "bytes": 8228342
+    },
+    {
+      "path": "current/S04.mp4",
+      "episodeRelativeSource": "02_最终输出/已采用分段_4K60_20261004/归档/S04_安装与连接_4K60.mp4",
+      "sha256": "c7609e840abdb80536cc136e255f945f23d55c87593ea35eeb8e5390277cbd2f",
+      "bytes": 11706196
+    },
+    {
+      "path": "audio/ep102-selected-01.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        720000,
+        912000
+      ],
+      "sha256": "8fb972935a3f1c4aef501eb4d7b5fcc289f49b6c78c8fc1edcaf34fd6c2e1751",
+      "bytes": 1152102
+    },
+    {
+      "path": "audio/ep102-selected-02.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        2112000,
+        2400000
+      ],
+      "sha256": "1744107ee6368a2fd4a3a6e91a7f02a477684a94d38f1967f3f78d653baaa83b",
+      "bytes": 1728102
+    },
+    {
+      "path": "audio/ep102-selected-03.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        2640000,
+        2976000
+      ],
+      "sha256": "87a6335f08854786b2bd2186d6eb2abdbc969f42fac54a3e6334c75f7632f12d",
+      "bytes": 2016102
+    },
+    {
+      "path": "audio/ep102-selected-04.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        3072000,
+        3456000
+      ],
+      "sha256": "a11ae7681ea937631384be2a023273599ac0ec19702c304065f5aa87666ad103",
+      "bytes": 2304102
+    },
+    {
+      "path": "audio/ep102-selected-05.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        5184000,
+        5520000
+      ],
+      "sha256": "e4b1878c98908583d1f1206bd2ad78160d2cd94c411c365cbe36d2fefa7b7f04",
+      "bytes": 2016102
+    },
+    {
+      "path": "audio/ep102-selected-06.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        7776000,
+        8400000
+      ],
+      "sha256": "6aea9f7306c15a256d1bf57b2e694e312abed398bcba6a397de98450f6a6ffb9",
+      "bytes": 3744102
+    },
+    {
+      "path": "audio/ep102-selected-07.wav",
+      "source": "official-final-master AAC decoded once to PCM",
+      "sourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+      "sampleRange": [
+        18960000,
+        19344000
+      ],
+      "sha256": "47c43faf669f910d48bbdeb41809dfcf2ab6ef3218ff24cdba710e6f15ba6e2d",
+      "bytes": 2304102
+    }
+  ],
+  "sourceFilesPolicy": "Exact-byte original modules retained; Incoming live export changes only component exposure and root registration, original entry kept in provenance.",
+  "dependencyScope": "Selected runtime branches and import closure only; unrelated source branches are retained for provenance but their media are not copied.",
+  "adaptedFiles": [
+    {
+      "path": "SelectedComponents.tsx",
+      "sha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472",
+      "bytes": 5147,
+      "originalSha256": "6b8c1002c7be22636b4ca9cf5b45be6b3e178fb8ddcc137fdab3f63eb09fc472"
+    },
+    {
+      "path": "NativeSceneClock.tsx",
+      "sha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062",
+      "bytes": 2102,
+      "originalSha256": "981f4634d69343e28e68def65fe40d49357ecf88b9b6072b54c3ab391997c062"
+    },
+    {
+      "path": "IncomingAdapter.tsx",
+      "sha256": "4e376763b3886380d295772ca35ab2272ede68b39ba56441235a91db30c0abe9",
+      "bytes": 1315,
+      "originalSha256": "4e376763b3886380d295772ca35ab2272ede68b39ba56441235a91db30c0abe9"
+    },
+    {
+      "path": "index.tsx",
+      "sha256": "841a2ec22286d807ff2a3bf05804e1e06b46cd969e85b98354fe74073a3ab54d",
+      "bytes": 763,
+      "originalSha256": "841a2ec22286d807ff2a3bf05804e1e06b46cd969e85b98354fe74073a3ab54d"
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "b87f7d3951f918d76820da3500d5bcddca6a6605a790360155a5bcbcafd853ff",
+      "bytes": 4550,
+      "originalSha256": "d5d1b2b86b884b5a6669bc458b1ecdba8202b5882fcc6877c244c829bd40f8df"
+    },
+    {
+      "path": "typecheck.cjs",
+      "sha256": "28578cc06244b929b75bba745ea01fecb7d19bef815ff1277eb00bfa0fb84fb1",
+      "bytes": 1977,
+      "originalSha256": "a82b898b1f786458b2a7b50d931fe641172c3ed72b556e49b46c7230db81e7f0"
+    },
+    {
+      "path": "package.json",
+      "sha256": "800a1989e5b4f59dd610be696d6b7146a55749541e455362b1ec7c9edd0d2d4e",
+      "bytes": 630,
+      "originalSha256": "888f80126139c8ea35e1330b0a2ad0356abb65f68f3cf49fd5e70df85e343512"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "29aed265f966b8a1205bce92aa957bfe97e158aa26ce6180667464f354e58c6d",
+      "bytes": 403,
+      "originalSha256": "3d37f92b93d76536cd580312bd861efd91f68332965f14e7962f112d72ecbe50"
+    },
+    {
+      "path": "component-specs.json",
+      "sha256": "8e760aeb3f0145704e35d036cfc3e94aeab0f84d245ef4e16e967f6b16afa1d1",
+      "bytes": 13752,
+      "originalSha256": "72f2384e6816c94871b6dafd5c2eb44a5b4834c6719693c45ae3e983870782aa"
+    },
+    {
+      "path": "fetch_assets.py",
+      "sha256": "0e67b5cfea70fdd6fd7933f007ac64a98213eda9555024e5162c7d25b78546c4",
+      "bytes": 5159,
+      "publicProjectionAddition": true
+    },
+    {
+      "path": "public-files.json",
+      "sha256": "6ad8e7877e1ed191af201f26998ad47ce467762b53771e11bc94118a600003af",
+      "bytes": 8831,
+      "publicProjectionAddition": true
+    },
+    {
+      "path": "dependency-packs.json",
+      "sha256": "6276c9b2c6ed123e336a4f3be22359fe7920b6e6b49b10339043103c07a9825e",
+      "bytes": 7515,
+      "publicProjectionAddition": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "bcd8998e0995929532d7a2c2d2254d491c45e058517e190a75acffdc367787c3",
+      "bytes": 106332,
+      "publicProjectionAddition": true
+    },
+    {
+      "path": "public-media-derivations.json",
+      "sha256": "a9ce6ac0c6792bc08364014ec015879c6c7851f0152fc179076e956fd079c6ee",
+      "bytes": 6855,
+      "publicProjectionAddition": true
+    }
+  ],
+  "runtime": {
+    "remotion": "4.0.473",
+    "react": "19.2.4",
+    "installation": "npm ci inside source/",
+    "browser": "Remotion-managed Chrome or explicit CHROME_EXECUTABLE environment override.",
+    "warning": "NativeSceneClock uses pinned Remotion internals. Reverify before changing versions."
+  },
+  "mediaClockRestoration": {
+    "implementation": "NativeSceneClock.tsx",
+    "mapping": "Freeze maps each excerpt output frame to localFrameRange[0] + outputFrame in the exact original scene.",
+    "sequenceContext": "Original scene has zero cumulatedNegativeFrom and full native duration. Inner positive Sequences preserve their original media trim and playback-rate clocks.",
+    "compositionMetadata": "The clock subtree restores the full original scene duration in CompositionManager metadata to avoid useTimelinePosition clamping to excerpt duration.",
+    "guard": "ClockGuard reads useCurrentFrame for every rendered frame and throws if it differs from the requested original scene frame.",
+    "audio": "Independent example PCM audio remains outside the clock subtree.",
+    "runtimeConstraint": "Requires the pinned Remotion 4.0.473 runtime; internals must be reverified before any version upgrade.",
+    "rejectedAttempts": [
+      "Negative excerpt Sequence changed cumulatedNegativeFrom and shifted rate != 1 media.",
+      "Freeze with restored SequenceContext but short composition metadata clamped long native frames."
+    ]
+  },
+  "switchLimit": "includeSubtitles=false on 102-02 first two frames replaces the originally compressed captioned S04 media layer with exact InstallV7 source, retaining the Incoming composition and original native clock. This optional clean branch is not a claim of compressed pixel identity.",
+  "updatedAt": "2026-10-05T11:46:22+08:00",
+  "verification": {
+    "originalVerification": "The original package passed exact provenance, TypeScript, stills and continuous visual/technical review before public projection. Public projection verification is recorded separately.",
+    "noNewRenderingRequired": true,
+    "pixelIdentityNotClaimed": true
+  },
+  "publicProjection": {
+    "addedDate": "2026-10-05",
+    "originalFinalSourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
+    "originalSourceFilesKeptPrivately": true,
+    "pathChanges": "Machine absolute paths are replaced only in this public projection. Core scene geometry, frame ranges and clocks are retained.",
+    "npmDependencies": "Pinned source/package.json and source/package-lock.json; install locally with npm ci.",
+    "derivedMediaCount": 1,
+    "derivedMediaPolicy": "Public install recording account region is irreversibly masked. Other 40 example dependency files retain original bytes. Original private media and official extracted preview identity remain unchanged."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true
+  },
+  "include": [
+    "index.tsx",
+    "SelectedComponents.tsx",
+    "versions/**/*"
+  ],
+  "exclude": [
+    "provenance",
+    ".bundle"
+  ]
+}

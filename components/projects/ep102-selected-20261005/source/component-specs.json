@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ep102-selected-01",
+    "displayLabel": "102-01",
+    "number": 1,
+    "title": "四作品聚拢并显现组合",
+    "compositionId": "EP102-Selected-01",
+    "symbol": "EP102Selected01",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected01",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/direction-a/adapters/ToolCombinationV7.tsx",
+      "symbol": "ToolCombinationV7",
+      "sha256": "14862f2129a8b920997648f49fb2020cbe76342c6cc176abb7bccec4384465e8",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/adapters/ToolCombinationV7.tsx",
+      "originalSha256": "14862f2129a8b920997648f49fb2020cbe76342c6cc176abb7bccec4384465e8"
+    },
+    "sourceVersion": "direction-a",
+    "sourceScene": "S03",
+    "sourceSceneArtifactSha256": "4578282750dad562d1546f7004dcb97cd133252a35ed681f7bf522b2c3df8674",
+    "frameRange": [
+      900,
+      1140
+    ],
+    "sourceFrameRange": [
+      900,
+      1140
+    ],
+    "localFrameRange": [
+      69,
+      309
+    ],
+    "startSeconds": 15,
+    "endSeconds": 19,
+    "fps": 60,
+    "durationInFrames": 240,
+    "productionStartFrame": 831,
+    "sourceSceneStartFrame": 831,
+    "sceneTypes": [
+      "explanation"
+    ],
+    "useWhen": "把多个成品聚拢为一组工具或品牌组合",
+    "motionDescription": "四个真实视频沿已测轨迹聚拢，组合文字显现",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-01.wav",
+    "publishState": "public-projection-prepared"
+  },
+  {
+    "id": "ep102-selected-02",
+    "displayLabel": "102-02",
+    "number": 2,
+    "title": "设备屏幕连续放大全屏",
+    "compositionId": "EP102-Selected-02",
+    "symbol": "EP102Selected02",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected02",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/install-v8/adapters/MediaRevisionV7.tsx",
+      "symbol": "InstallV7",
+      "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/adapters/MediaRevisionV7.tsx",
+      "originalSha256": "dde24727cdfa8933a69fff6f940e319d1c161d3dcf745f6cb73802ac6a9898ab"
+    },
+    "sourceVersion": "install-v8",
+    "sourceScene": "S04",
+    "sourceSceneArtifactSha256": "5d5625d71803885b6519ad87472782e9884409b61d396873eb47e9ae9ac58634",
+    "frameRange": [
+      2640,
+      3000
+    ],
+    "sourceFrameRange": [
+      2640,
+      3000
+    ],
+    "localFrameRange": [
+      34,
+      394
+    ],
+    "startSeconds": 44,
+    "endSeconds": 50,
+    "fps": 60,
+    "durationInFrames": 360,
+    "productionStartFrame": 2606,
+    "sourceSceneStartFrame": 2606,
+    "sceneTypes": [
+      "recording-focus"
+    ],
+    "useWhen": "从设备外壳连续靠近同一录屏",
+    "motionDescription": "显示器外壳逐渐退出，录屏窗口持续放大至同一大窗",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-02.wav",
+    "publishState": "public-projection-prepared",
+    "repair": {
+      "localFrameRange": [
+        34,
+        36
+      ],
+      "path": "source/versions/incoming/index.tsx",
+      "symbol": "Incoming",
+      "description": "原Incoming源码的最后两帧，前段无字幕clean PNG交接当前V8片；后续由InstallV7源码连续播放"
+    },
+    "publicMediaDerivatives": [
+      {
+        "id": "install",
+        "path": "media/install-public-redacted.mp4",
+        "sha256": "8f444f12220280a48c54497c6acc5b1c905e7bf1f7768563e5cb8cd7e8705e11",
+        "originalSha256": "93396b79f88ffa39a3b3cfe119344f677f3317a7a09ecbfe690d26519a1eb6a4",
+        "reason": "Account region is hidden in the public source dependency using the existing approved source-frame ROI."
+      }
+    ]
+  },
+  {
+    "id": "ep102-selected-03",
+    "displayLabel": "102-03",
+    "number": 3,
+    "title": "三视频归入Logo并扩展录屏",
+    "compositionId": "EP102-Selected-03",
+    "symbol": "EP102Selected03",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected03",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/direction-a/adapters/MediaRevisionV7.tsx",
+      "symbol": "PullV7",
+      "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/adapters/MediaRevisionV7.tsx",
+      "originalSha256": "55dd6b30dc0b8cba80844a529f1166e20d0eb7648ccdd28b735b142f645205ce"
+    },
+    "sourceVersion": "direction-a",
+    "sourceScene": "S05",
+    "sourceSceneArtifactSha256": "0dd2d58d23861d7acc455f3e39b4e0133789cc3cfe70ef2df5fc78b4ef6b09dc",
+    "frameRange": [
+      3300,
+      3720
+    ],
+    "sourceFrameRange": [
+      3300,
+      3720
+    ],
+    "localFrameRange": [
+      18,
+      438
+    ],
+    "startSeconds": 55,
+    "endSeconds": 62,
+    "fps": 60,
+    "durationInFrames": 420,
+    "productionStartFrame": 3282,
+    "sourceSceneStartFrame": 3282,
+    "sceneTypes": [
+      "content-handoff"
+    ],
+    "useWhen": "把多个参考视频交给工具后进入真实录屏",
+    "motionDescription": "三视频排列、缩小送入Logo，Logo放大后交接录屏",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-03.wav",
+    "publishState": "public-projection-prepared"
+  },
+  {
+    "id": "ep102-selected-04",
+    "displayLabel": "102-04",
+    "number": 4,
+    "title": "双视频与长报告对齐接力",
+    "compositionId": "EP102-Selected-04",
+    "symbol": "EP102Selected04",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected04",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/direction-a/adapters/MediaRevisionV7.tsx",
+      "symbol": "PullV7",
+      "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/adapters/MediaRevisionV7.tsx",
+      "originalSha256": "55dd6b30dc0b8cba80844a529f1166e20d0eb7648ccdd28b735b142f645205ce"
+    },
+    "sourceVersion": "direction-a",
+    "sourceScene": "S05",
+    "sourceSceneArtifactSha256": "0dd2d58d23861d7acc455f3e39b4e0133789cc3cfe70ef2df5fc78b4ef6b09dc",
+    "frameRange": [
+      3840,
+      4320
+    ],
+    "sourceFrameRange": [
+      3840,
+      4320
+    ],
+    "localFrameRange": [
+      558,
+      1038
+    ],
+    "startSeconds": 64,
+    "endSeconds": 72,
+    "fps": 60,
+    "durationInFrames": 480,
+    "productionStartFrame": 3282,
+    "sourceSceneStartFrame": 3282,
+    "sceneTypes": [
+      "images-and-works",
+      "content-handoff"
+    ],
+    "useWhen": "并列展示上下两视频与长报告，再交接成品",
+    "motionDescription": "双片上下对齐长报告，暗化后以白色连接交接Logo与成品",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-04.wav",
+    "publishState": "public-projection-prepared"
+  },
+  {
+    "id": "ep102-selected-05",
+    "displayLabel": "102-05",
+    "number": 5,
+    "title": "人物道具从画布提起",
+    "compositionId": "EP102-Selected-05",
+    "symbol": "EP102Selected05",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected05",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/assets-simple-v3/adapters/AssetsReferenceV9.tsx",
+      "symbol": "AssetsReferenceV9",
+      "sha256": "49002db39393dd3257bf56b6805fea0235cd933f8af2b7056a88e4761812bf56",
+      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/AssetsReferenceV9.tsx",
+      "originalSha256": "49002db39393dd3257bf56b6805fea0235cd933f8af2b7056a88e4761812bf56"
+    },
+    "sourceVersion": "assets-simple-v3",
+    "sourceScene": "S07",
+    "sourceSceneArtifactSha256": "4e6ca0c8874b543433eeb1469226211035acb1464a0310224ee91e4927582fd0",
+    "frameRange": [
+      6480,
+      6900
+    ],
+    "sourceFrameRange": [
+      6480,
+      6900
+    ],
+    "localFrameRange": [
+      224,
+      644
+    ],
+    "startSeconds": 108,
+    "endSeconds": 115,
+    "fps": 60,
+    "durationInFrames": 420,
+    "productionStartFrame": 6256,
+    "sourceSceneStartFrame": 6256,
+    "sceneTypes": [
+      "recording-focus",
+      "images-and-works"
+    ],
+    "useWhen": "从真实画布节点提起人物或道具并完整展示",
+    "motionDescription": "四人物从实际节点放大归位，再交接三道具，背景按原时钟模糊暗化",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-05.wav",
+    "publishState": "public-projection-prepared"
+  },
+  {
+    "id": "ep102-selected-06",
+    "displayLabel": "102-06",
+    "number": 6,
+    "title": "原声与A/B候选独立试听",
+    "compositionId": "EP102-Selected-06",
+    "symbol": "EP102Selected06",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected06",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/voice-v13/adapters/VoiceRevisionV13.tsx",
+      "symbol": "VoiceRevisionV13",
+      "sha256": "b7c9897347e7b2103d2bbfdbb53a1f962cf00de35e7e1848697d95c63b17108d",
+      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/VoiceRevisionV13.tsx",
+      "originalSha256": "b7c9897347e7b2103d2bbfdbb53a1f962cf00de35e7e1848697d95c63b17108d"
+    },
+    "sourceVersion": "voice-v13",
+    "sourceScene": "S08",
+    "sourceSceneArtifactSha256": "6f8f9b2c85b111b17246aaf2b8a5f2589770af6d6124e13b92323f89153921dd",
+    "frameRange": [
+      9720,
+      10500
+    ],
+    "sourceFrameRange": [
+      9720,
+      10500
+    ],
+    "localFrameRange": [
+      1208,
+      1988
+    ],
+    "startSeconds": 162,
+    "endSeconds": 175,
+    "fps": 60,
+    "durationInFrames": 780,
+    "productionStartFrame": 8512,
+    "sourceSceneStartFrame": 8512,
+    "sceneTypes": [
+      "explanation",
+      "images-and-works"
+    ],
+    "useWhen": "独立试听原声及两组候选并显示真实波形",
+    "motionDescription": "原声左侧、A/B右侧上下排列，按实际声音播放时钟高亮、显示波形与进度",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-06.wav",
+    "publishState": "public-projection-prepared"
+  },
+  {
+    "id": "ep102-selected-07",
+    "displayLabel": "102-07",
+    "number": 7,
+    "title": "画布四列逐一提起并汇总",
+    "compositionId": "EP102-Selected-07",
+    "symbol": "EP102Selected07",
+    "sourceCode": {
+      "path": "source/SelectedComponents.tsx",
+      "symbol": "EP102Selected07",
+      "entryPoint": "source/index.tsx"
+    },
+    "exactSourceCode": {
+      "path": "source/versions/canvas-v17/adapters/CanvasRevisionV14.tsx",
+      "symbol": "CanvasRevisionV14",
+      "sha256": "8dd30ff25dd157e8fd3f8e22b233a46f3b3d9cdbfa94f6fad19f0a6e2c69b060",
+      "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/src/adapters/CanvasRevisionV14.tsx",
+      "originalSha256": "8dd30ff25dd157e8fd3f8e22b233a46f3b3d9cdbfa94f6fad19f0a6e2c69b060"
+    },
+    "sourceVersion": "canvas-v17",
+    "sourceScene": "S14",
+    "sourceSceneArtifactSha256": "2c865f53f587b2b50dc11f6128940f4795e2785bd0302f481cfe63408bd9258c",
+    "frameRange": [
+      23700,
+      24180
+    ],
+    "sourceFrameRange": [
+      23700,
+      24180
+    ],
+    "localFrameRange": [
+      24,
+      504
+    ],
+    "startSeconds": 395,
+    "endSeconds": 403,
+    "fps": 60,
+    "durationInFrames": 480,
+    "productionStartFrame": 22894,
+    "sourceSceneStartFrame": 23676,
+    "sceneTypes": [
+      "recording-focus",
+      "images-and-works"
+    ],
+    "useWhen": "从画布按分类提起四列素材并汇总",
+    "motionDescription": "四张完整高清分类图依次提起，已出现组向左让位，最终并排保持",
+    "preserve": [
+      "原始1920逻辑舞台与一次父级缩放",
+      "准确场景帧与每个Sequence媒体时钟",
+      "原函数动作、ROI和对象关系",
+      "真实素材原始像素和原播放速度"
+    ],
+    "audioPath": "audio/ep102-selected-07.wav",
+    "publishState": "public-projection-prepared"
+  }
+]

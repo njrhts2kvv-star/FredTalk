@@ -1,0 +1,163 @@
+{
+  "S04": {
+    "original": "provenance/S04_安装与连接_4K60.mp4",
+    "originalSha256": "c7609e840abdb80536cc136e255f945f23d55c87593ea35eeb8e5390277cbd2f",
+    "previous": "S03",
+    "headFrames": 36,
+    "duration": 676,
+    "ranges": [
+      {
+        "changed": [
+          0,
+          36
+        ],
+        "bridge": [
+          0,
+          169
+        ],
+        "patch": "provenance/S04-head.mp4"
+      }
+    ],
+    "spec": {
+      "width": 3840,
+      "height": 2160,
+      "pix_fmt": "yuvj420p",
+      "color_range": "pc",
+      "color_space": "bt470bg",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/60000",
+      "nb_frames": "676"
+    }
+  },
+  "S06": {
+    "original": "provenance/S06_讨论剧本_4K60.mp4",
+    "originalSha256": "3e6737495a9a58a367d234095a4bf1dc8b4e4317fd8f6faab551781c104d668b",
+    "previous": "S05",
+    "headFrames": 36,
+    "duration": 1823,
+    "ranges": [
+      {
+        "changed": [
+          0,
+          36
+        ],
+        "bridge": [
+          0,
+          118
+        ],
+        "patch": "provenance/S06-head.mp4"
+      }
+    ],
+    "spec": {
+      "width": 3840,
+      "height": 2160,
+      "pix_fmt": "yuvj420p",
+      "color_range": "pc",
+      "color_space": "bt470bg",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/60000",
+      "nb_frames": "1823"
+    }
+  },
+  "S08": {
+    "original": "provenance/S08_声音与配乐_修订3_4K60.mp4",
+    "originalSha256": "64367c0f6f6b06aac68e257ed3f9b87789b943559e2bd173cdd7f7b10cee8eda",
+    "previous": "S07",
+    "headFrames": 24,
+    "duration": 2729,
+    "ranges": [
+      {
+        "changed": [
+          0,
+          24
+        ],
+        "bridge": [
+          0,
+          250
+        ],
+        "patch": "provenance/S08-head.mp4"
+      }
+    ],
+    "spec": {
+      "width": 3840,
+      "height": 2160,
+      "pix_fmt": "yuvj420p",
+      "color_range": "pc",
+      "color_space": "bt470bg",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/60000",
+      "nb_frames": "2729"
+    }
+  },
+  "S09": {
+    "original": "provenance/S09_分镜图四宫格_修订2_4K60.mp4",
+    "originalSha256": "3e73de8bf43422ba4e264c5f222e1972ca023903b2efe0ff8eb1f7fabc9d6295",
+    "previous": "S08",
+    "headFrames": 24,
+    "duration": 2581,
+    "ranges": [
+      {
+        "changed": [
+          0,
+          24
+        ],
+        "bridge": [
+          0,
+          115
+        ],
+        "patch": "provenance/S09-head.mp4"
+      }
+    ],
+    "spec": {
+      "width": 3840,
+      "height": 2160,
+      "pix_fmt": "yuvj420p",
+      "color_range": "pc",
+      "color_space": "bt470bg",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/60000",
+      "nb_frames": "2581"
+    }
+  },
+  "S10": {
+    "original": "provenance/S10_生成视频_修订2_4K60.mp4",
+    "originalSha256": "51facf454ab1695c8a4ad5b9df1902f8fdfe54ec7431651b065835d169a10a1b",
+    "previous": "S09",
+    "headFrames": 36,
+    "duration": 2262,
+    "ranges": [
+      {
+        "changed": [
+          0,
+          36
+        ],
+        "bridge": [
+          0,
+          250
+        ],
+        "patch": "provenance/S10-head.mp4"
+      },
+      {
+        "changed": [
+          2214,
+          2262
+        ],
+        "bridge": [
+          2181,
+          2262
+        ],
+        "patch": "provenance/S10-tail.mp4"
+      }
+    ],
+    "spec": {
+      "width": 3840,
+      "height": 2160,
+      "pix_fmt": "yuvj420p",
+      "color_range": "pc",
+      "color_space": "bt470bg",
+      "avg_frame_rate": "60/1",
+      "time_base": "1/60000",
+      "nb_frames": "2262"
+    }
+  }
+}

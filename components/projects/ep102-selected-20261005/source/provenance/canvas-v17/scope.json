@@ -1,0 +1,90 @@
+{
+  "version": "EP102-formal-s14-s15-v17-20261004",
+  "sourceChecksum": "e9bf04eb3b409afeddbf91407c0491aa6b58b87d095b021e6c8e7c8b84b82b6d",
+  "formalManifestSha256": "fd324251a90f38f133e117b89e192ffc9c50cfdabedc048944192f048422462e",
+  "renderIds": [
+    "S14",
+    "S15"
+  ],
+  "pages": [
+    {
+      "stableId": "S14",
+      "startFrame": 22894,
+      "durationInFrames": 547,
+      "narrationSourceStartFrame": 16230,
+      "sourceBeatIds": [
+        "S14-voice"
+      ]
+    },
+    {
+      "stableId": "S15",
+      "startFrame": 23441,
+      "durationInFrames": 1589,
+      "narrationSourceStartFrame": 16777,
+      "sourceBeatIds": [
+        "S15-voice"
+      ]
+    }
+  ],
+  "audio": {
+    "path": "public/v10-audio/review-audio-s08-v10.wav",
+    "sha256": "a16f51f723c300ecc152fdb7b9dddbad513ad7d12bc5ccb847bf2ff7b3b24167"
+  },
+  "nativeOriginalsRestoredForFormalRender": true,
+  "otherScenesRendered": false,
+  "sourceFreeze": {
+    "sourceChecksum": "e9bf04eb3b409afeddbf91407c0491aa6b58b87d095b021e6c8e7c8b84b82b6d",
+    "fileCount": 48,
+    "sha256": {
+      "src/adapters/AssetExtraction.tsx": "49e90c7b31480299fb0e97e8d93252904e516e37ad298cc80908889ce4651a84",
+      "src/adapters/AssetsReferenceV8.tsx": "2c7b38ddaec37f21c4d40ca35ce5944c6b6eed227580bf3b655d922ad5bc15c1",
+      "src/adapters/CanvasReviewV7.tsx": "2f187814812ca7fa8e4b0c6fdf1776e5d8df3dba6c8b0eeefff137ba3d29db18",
+      "src/adapters/CanvasRevisionV14.tsx": "8dd30ff25dd157e8fd3f8e22b233a46f3b3d9cdbfa94f6fad19f0a6e2c69b060",
+      "src/adapters/DispatchReferenceV8.tsx": "3d33fe899efefd02d1f7751e101a5e228f580fbb7124ffaeb0de94719d9b0266",
+      "src/adapters/ExplainRevisionV6.tsx": "cc0ad7601ac9ff5f67e9e18eb336d14787fa96659589273f875aeec5b52d1dfd",
+      "src/adapters/ExplainRevisionV7.tsx": "a7930ff84601bacce23468998b356cbd4e19b2912898fada404dc07448f39917",
+      "src/adapters/GenerationReferenceV9.tsx": "5cfb96645e51b6aab092d7de4c0c948c92b0aba470b86c119da28ac195bc0392",
+      "src/adapters/MajorRevisionV8.tsx": "abc3ce8be22615c833abb2ba3dac0377f2edf243dd5840bb99c12691acf36ff7",
+      "src/adapters/MediaRevisionV6.tsx": "eaa7fb87d920a58a5dce483e00f2f0720de8939d5976adf2e10aebb167818e47",
+      "src/adapters/MediaRevisionV7.tsx": "dde24727cdfa8933a69fff6f940e319d1c161d3dcf745f6cb73802ac6a9898ab",
+      "src/adapters/OpeningRibbon.tsx": "a5756795ffbb8c7e1a8e89308ee60d18fe280b63a9cb9b24e7c8320fb6462b73",
+      "src/adapters/RevisionRootV6.tsx": "fc47bf87acc8fafa9ec088a6b31b96df143b9db70edee8797033239dba5e8e54",
+      "src/adapters/SourceFocus.tsx": "a856cf9de615a5f7e13a5872d2a195497841419a7f125138e56592a5db42b61a",
+      "src/adapters/SummaryReferenceV8.tsx": "ebc920eb6b54ec289ff9e1c302ca6d9c567011cb4bee0a836433081380e743e0",
+      "src/adapters/TaskBranches.tsx": "ee0e32b0a993dc5badcbc1e2688104642a9089c347ebf50bb66f42c6c8b0d95f",
+      "src/adapters/ToolCombinationV7.tsx": "14862f2129a8b920997648f49fb2020cbe76342c6cc176abb7bccec4384465e8",
+      "src/adapters/ToolRoles.tsx": "59f7c9934a48c0414df9fd92f5a0e9edbd92ce09057d25ebaa7a0bbf507b81dc",
+      "src/adapters/TutorialScenes.tsx": "62522fe510834bc9d2f8149344ef8a4f22224df2caabb293e0b8ab427c26e706",
+      "src/adapters/V2Scenes.tsx": "37d7ae2f2d66c2dbdfc2e4b7d63245739a04ebaf509dc12272f44ee48132178e",
+      "src/adapters/WeaponCompare.tsx": "c2d000ee58b2b188af6ed9bed011507ae7f61663cfa61982201228cace3dd79a",
+      "src/assets.json": "c82f008464d86dc1b75a98a4b0f0fe2a4254825ebbf129b504be0580404b1cc8",
+      "src/common.tsx": "0d3a4462d145160c924466786dc9e4d6c15e9fd7b5dfe9ab54e93ec283db9852",
+      "src/index-v7.tsx": "3ca5893fe5037e317c0cb874a3434a7349cee63c1560bacbda44a737fd33f663",
+      "src/index.tsx": "7b73bbcdd6dc5cc03faddd5812b55bc80121d4ad3b8750f72003c067493d72c9",
+      "src/install-account-roi-v7.json": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
+      "src/install-mask.json": "5fbdcbdfcc821870b4ab0ba57d33316e8072e8c56e7896bbae332ee4d8d4f691",
+      "src/library/bob/manifest.json": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0",
+      "src/library/bob/src/batch1.tsx": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
+      "src/library/ctw/C005.json": "aaf63594c072a45e60751e5b3affcb8bd91df415d8c7ba8bd143ed666d84d6dd",
+      "src/library/ctw/measuredSample.ts": "9a27fa9e5167e6e61fc80960339fdaab20494715fbc8c79cc03ca0ad1ceccbe5",
+      "src/library/ctw/RebuiltC005.tsx": "9f88265c1cd9a6766f681aeb5f81a7d65025eb8780480f5517fb076b339111c7",
+      "src/library/new10/MediaScenesB.tsx": "dce968f0ec5f2f219fb58136b4ca68cf4ee770a24601e441e1e7c38cc4b24e6c",
+      "src/library/new10/n043-document-lines.json": "b81f4ad9dc88f33c8dc38372776d7214b4f462fc0b0aaa41385f461277a1adff",
+      "src/library/selfpick/sp015-016.tsx": "1bd9cd019862fa34de6329006af257e17fcf421d150c5fa6cd7560ef0058df40",
+      "src/native/L81-B027.json": "b50661a1683f516b312bb8c73822a2e05a243e3c588160af922cb5fec61e43f7",
+      "src/native/L81-B027.source.tsx.txt": "4701e1f12ce3abb4037914d09b6060096f4936952fa03f321f625147f03376cf",
+      "src/native/L81-B064.json": "da26a3ef08c5b25c36a475c97bf4b7cb1c0ac993e4a16f8ee5b1e18fc90d6beb",
+      "src/native/L81-B064.source.tsx.txt": "1d0c62508ebb7827189625bffa406d748b3c1b163c43a1ab1008b25df2529404",
+      "src/native/L81-C005.json": "c9a2f68c1105118f3bc700c8cadd651c4cd4ee631c3e948bf795283d8f275c02",
+      "src/native/L81-C005.source.tsx.txt": "36ec6b4e480b7eac8c3c2e13d5359734ed8bcfb871322e9f63e81bf6b424d54b",
+      "src/native/N023-motion.json": "796a97428267140961c8034f4210733d82165a2e80909d286c8575c5fa654cbc",
+      "src/native/native-bbox-b.json": "54d120a0ff36cdc65143c0ff2cb1a861f0695216a90e34fb55b50010d538e4f7",
+      "src/native/RebuiltN004.tsx": "53dd57fc442de654ede6403084a1db9fdd328d3180027e5048b62fe61a6b294e",
+      "src/production.json": "7a875b494fa7dd29ca691fceb4a037dc04fd48f069e88ed5a2ccf07e0b7f8415",
+      "src/SmileySubtitle.tsx": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
+      "src/voice-timing-v6.json": "db0a4ecbfdcc42ca1c56411bddd8b0c6e551f74bb62fa5a65a34920cd39e8c5a",
+      "src/voice-waves-v6.json": "eeac00750ffd9b7f2be5fdef8af6e8092999c456eda452eef00dfaeb101bfec1"
+    }
+  },
+  "preparedAt": "2026-10-04T14:48:35.015824+00:00"
+}

@@ -24,5 +24,15 @@
   "historicalOriginReferencesRemoved": true,
   "publicReleaseReady": false,
   "distributedVideosProbed": 399,
-  "distributedVideosWithAudio": 0
+  "distributedVideosWithAudio": 0,
+  "historicalReport": true,
+  "currentActiveReferences": 184,
+  "subsequentCollections": [
+    {
+      "collectionId": "ep102-selected-20261005",
+      "references": 7,
+      "addedAt": "2026-10-05T11:47:11+08:00",
+      "audit": "docs/ep102-publication.md"
+    }
+  ]
 }

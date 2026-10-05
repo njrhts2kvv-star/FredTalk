@@ -3,7 +3,7 @@
 FredTalk separates instructions, catalog metadata, source snapshots and binary assets.
 
 - **Skill:** `skills/fred-remotion-output/` contains production guidance, scene rules, manifests and validation tools.
-- **Catalog:** `library/catalog.json` is the portable database for the 177 active references. It is JSON, not an online database service. `history.json` preserves the 288 old identities without reactivating removed references or exporting private review notes.
+- **Catalog:** `library/catalog.json` is the portable database for the 184 active references. It is JSON, not an online database service. `history.json` preserves the 288 old identities without reactivating removed references or exporting private review notes.
 - **Source:** `components/projects/` holds independent source snapshots. A reference may map to more than one source file; one project may serve many references. Sanitized derivatives have new identities and do not inherit original byte-level approval claims.
 - **Media:** `media-manifest.json` maps logical paths to reviewed content hashes. Git contains a small demo; the optional private release holds deduplicated objects. The server resolves objects without creating duplicate copies.
 - **Frontend:** `apps/library/` is the current React visual browser, including the five navigation sections and purpose-based scenarios. `library_server.py` exposes only declared assets and source routes, plus local review storage.
