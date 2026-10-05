@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Img, staticFile} from 'remotion';
 import {Media, mix, progress, rect} from '../common';
-import {Batch1} from '../library/bob/src/batch1';
+import {Batch1} from '../library/retained-scenes/src/batch1';
 import {VoiceV8} from './MajorRevisionV8';
 import {PLAYBACK_BOX_V7, PlaybackWindowV7, PixelCrop} from './MediaRevisionV7';
 import timing from '../voice-timing-v6.json';

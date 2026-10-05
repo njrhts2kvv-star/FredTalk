@@ -12,7 +12,7 @@ import b036TextOpacity from './b036-native-text-opacity.json';
  * incoming content instead of the reference actor. No counter is invented.
  */
 export const B036_COST_PROVENANCE = {
-  keepId: 'bob-legacy81-b036',
+  keepId: 'reference-legacy81-b036',
   symbol: 'Batch2 / case 36',
   sourceSha256: '6eeecbf912a94a1f8f632a910c54fea4c1d8b9493ba36a9ad66a8017b75cb142',
   textOpacitySha256: '11340b3cd1af344264a11947f9ae69371ef36baf96ba48e2b2f8e2d208b65f66',

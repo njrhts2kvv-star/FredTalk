@@ -20,4 +20,3 @@ export function Incoming({sceneId}:{sceneId:Sid}){
  </AbsoluteFill>;
 }
 const Root=()=> <>{(Object.keys(contracts) as Sid[]).map(sceneId=><Composition key={sceneId} id={sceneId+'-incoming'} component={Incoming} defaultProps={{sceneId}} width={3840} height={2160} fps={60} durationInFrames={contracts[sceneId].headFrames}/>)}</>;
-

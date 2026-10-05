@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "njrhts2kvv-star/FredTalk",
   "tag": "visual-library-materials-20261004",
-  "manifestSha256": "45bf3905e0d8e6ef42aaa2898554b2b67129ee2654a68578a8c3309e2ab6509a",
+  "manifestSha256": "e93ff51842f704693a565a1fece417dd073829481a3ad296107d25ac7b09d5e7",
   "packs": [
     {
       "name": "fredtalk-materials-001.tar.gz",
@@ -578,8 +578,8 @@
     },
     {
       "name": "fredtalk-ep102-source-archive.tar.gz",
-      "size": 13928878,
-      "sha256": "5d54640a30cda282bd971123dbeec207131e653814d35a39ce5f39427a23bf17",
+      "size": 13930040,
+      "sha256": "c1335964fd804277dd984c72059de878d6a7ff99e00fe63cece8fac67f2d3456",
       "objects": 1,
       "tag": "ep102-selected-20261005"
     }

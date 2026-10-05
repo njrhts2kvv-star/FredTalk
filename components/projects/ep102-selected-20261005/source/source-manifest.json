@@ -15,8 +15,8 @@
       "version": "direction-a",
       "path": "versions/direction-a/adapters/MediaRevisionV7.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/src/adapters/MediaRevisionV7.tsx",
-      "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
-      "bytes": 24240,
+      "sha256": "cbcb76a9e626367afaa8a02fe40efdf7b4fdfd06d9e81fd409976c5ffaca2725",
+      "bytes": 24246,
       "originalSha256": "55dd6b30dc0b8cba80844a529f1166e20d0eb7648ccdd28b735b142f645205ce"
     },
     {
@@ -87,8 +87,8 @@
       "version": "direction-a",
       "path": "provenance/direction-a/environment-package-lock.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/cloud-a/environment-package-lock.json",
-      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
-      "bytes": 110029,
+      "sha256": "844f02b8ea759decd28d2000bd0c5b36fd1e2fc625f572a84dc5e4b06b873036",
+      "bytes": 110041,
       "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
     },
     {
@@ -111,8 +111,8 @@
       "version": "install-v8",
       "path": "versions/install-v8/adapters/MediaRevisionV7.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/src/adapters/MediaRevisionV7.tsx",
-      "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
-      "bytes": 23960,
+      "sha256": "13044021f77d38d6a81e62fe081119405fcafb9537d02c19ee747d11c185bbbe",
+      "bytes": 23966,
       "originalSha256": "dde24727cdfa8933a69fff6f940e319d1c161d3dcf745f6cb73802ac6a9898ab"
     },
     {
@@ -167,8 +167,8 @@
       "version": "install-v8",
       "path": "provenance/install-v8/environment-package-lock.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/adopted-segments-20261004-1830/snapshot/environment-package-lock.json",
-      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
-      "bytes": 110029,
+      "sha256": "844f02b8ea759decd28d2000bd0c5b36fd1e2fc625f572a84dc5e4b06b873036",
+      "bytes": 110041,
       "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
     },
     {
@@ -191,8 +191,8 @@
       "version": "assets-simple-v3",
       "path": "versions/assets-simple-v3/adapters/AssetsReferenceV8.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/AssetsReferenceV8.tsx",
-      "sha256": "7575103a649bf3e8dbaa15290bc77f82097385528d04a8fa1edfdd55bf659289",
-      "bytes": 4266,
+      "sha256": "a29b50d9019d7c1349d0f50b9b19c1205c28b4b1cbc9073dcea5771644620bf4",
+      "bytes": 4278,
       "originalSha256": "7575103a649bf3e8dbaa15290bc77f82097385528d04a8fa1edfdd55bf659289"
     },
     {
@@ -215,16 +215,16 @@
       "version": "assets-simple-v3",
       "path": "versions/assets-simple-v3/adapters/MajorRevisionV8.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/MajorRevisionV8.tsx",
-      "sha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90",
-      "bytes": 12616,
+      "sha256": "b7475f8a6193a3cde0cf1d2a6e695f2bf91ce8919ca532eb03c7293ac5d98758",
+      "bytes": 12627,
       "originalSha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90"
     },
     {
       "version": "assets-simple-v3",
       "path": "versions/assets-simple-v3/adapters/MediaRevisionV7.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/adapters/MediaRevisionV7.tsx",
-      "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
-      "bytes": 23960,
+      "sha256": "13044021f77d38d6a81e62fe081119405fcafb9537d02c19ee747d11c185bbbe",
+      "bytes": 23966,
       "originalSha256": "dde24727cdfa8933a69fff6f940e319d1c161d3dcf745f6cb73802ac6a9898ab"
     },
     {
@@ -261,16 +261,16 @@
     },
     {
       "version": "assets-simple-v3",
-      "path": "versions/assets-simple-v3/library/bob/manifest.json",
-      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/bob/manifest.json",
-      "sha256": "38f0b1ac131797f8acdd26ca3b2c9d828458e943fc3184821c15c0aace7f771b",
-      "bytes": 268498,
+      "path": "versions/assets-simple-v3/library/retained-scenes/manifest.json",
+      "episodeRelativeSource": "[PRIVATE_REFERENCE]",
+      "sha256": "0da8d9a27d88ef3aa0d8eef94a1c29a5aa771c008fa5e61c0ab86fb40040fd8e",
+      "bytes": 270172,
       "originalSha256": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0"
     },
     {
       "version": "assets-simple-v3",
-      "path": "versions/assets-simple-v3/library/bob/src/batch1.tsx",
-      "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/bob/src/batch1.tsx",
+      "path": "versions/assets-simple-v3/library/retained-scenes/src/batch1.tsx",
+      "episodeRelativeSource": "[PRIVATE_REFERENCE]",
       "sha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
       "bytes": 50199,
       "originalSha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45"
@@ -279,8 +279,8 @@
       "version": "assets-simple-v3",
       "path": "versions/assets-simple-v3/library/ctw/C005.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/src/library/ctw/C005.json",
-      "sha256": "f239aaa7bb4dd264c15268b18d5434957b4f4749e60ebc1f31eabe140386ef8a",
-      "bytes": 954145,
+      "sha256": "2b358b19418c5a8d091c9d1ca387d607af8a5dfa33538c1382591d7e52ff8a50",
+      "bytes": 953759,
       "originalSha256": "aaf63594c072a45e60751e5b3affcb8bd91df415d8c7ba8bd143ed666d84d6dd"
     },
     {
@@ -375,8 +375,8 @@
       "version": "assets-simple-v3",
       "path": "provenance/assets-simple-v3/environment-package-lock.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/cloud/s07-simple-20261004-2040/environment-package-lock.json",
-      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
-      "bytes": 110029,
+      "sha256": "844f02b8ea759decd28d2000bd0c5b36fd1e2fc625f572a84dc5e4b06b873036",
+      "bytes": 110041,
       "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
     },
     {
@@ -407,24 +407,24 @@
       "version": "voice-v13",
       "path": "versions/voice-v13/adapters/MajorRevisionV8.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/MajorRevisionV8.tsx",
-      "sha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90",
-      "bytes": 12616,
+      "sha256": "b7475f8a6193a3cde0cf1d2a6e695f2bf91ce8919ca532eb03c7293ac5d98758",
+      "bytes": 12627,
       "originalSha256": "433773ba12cb442903bd81bea4a1c59477517e560ede69018425fa2298658d90"
     },
     {
       "version": "voice-v13",
       "path": "versions/voice-v13/adapters/MediaRevisionV7.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/MediaRevisionV7.tsx",
-      "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
-      "bytes": 24240,
+      "sha256": "cbcb76a9e626367afaa8a02fe40efdf7b4fdfd06d9e81fd409976c5ffaca2725",
+      "bytes": 24246,
       "originalSha256": "55dd6b30dc0b8cba80844a529f1166e20d0eb7648ccdd28b735b142f645205ce"
     },
     {
       "version": "voice-v13",
       "path": "versions/voice-v13/adapters/VoiceRevisionV10.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/adapters/VoiceRevisionV10.tsx",
-      "sha256": "b79c3ebc02b8e4bd2cb4c07489b4a8a301992fa6dff408a943435188cb2383b9",
-      "bytes": 7622,
+      "sha256": "4b77ec0d257cdbe668b1cc08238dc7d95cfa98fe4114a1807664df33df2ea046",
+      "bytes": 7634,
       "originalSha256": "b79c3ebc02b8e4bd2cb4c07489b4a8a301992fa6dff408a943435188cb2383b9"
     },
     {
@@ -469,16 +469,16 @@
     },
     {
       "version": "voice-v13",
-      "path": "versions/voice-v13/library/bob/manifest.json",
-      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/bob/manifest.json",
-      "sha256": "38f0b1ac131797f8acdd26ca3b2c9d828458e943fc3184821c15c0aace7f771b",
-      "bytes": 268498,
+      "path": "versions/voice-v13/library/retained-scenes/manifest.json",
+      "episodeRelativeSource": "[PRIVATE_REFERENCE]",
+      "sha256": "0da8d9a27d88ef3aa0d8eef94a1c29a5aa771c008fa5e61c0ab86fb40040fd8e",
+      "bytes": 270172,
       "originalSha256": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0"
     },
     {
       "version": "voice-v13",
-      "path": "versions/voice-v13/library/bob/src/batch1.tsx",
-      "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/bob/src/batch1.tsx",
+      "path": "versions/voice-v13/library/retained-scenes/src/batch1.tsx",
+      "episodeRelativeSource": "[PRIVATE_REFERENCE]",
       "sha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
       "bytes": 50199,
       "originalSha256": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45"
@@ -487,8 +487,8 @@
       "version": "voice-v13",
       "path": "versions/voice-v13/library/ctw/C005.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/ctw/C005.json",
-      "sha256": "f239aaa7bb4dd264c15268b18d5434957b4f4749e60ebc1f31eabe140386ef8a",
-      "bytes": 954145,
+      "sha256": "2b358b19418c5a8d091c9d1ca387d607af8a5dfa33538c1382591d7e52ff8a50",
+      "bytes": 953759,
       "originalSha256": "aaf63594c072a45e60751e5b3affcb8bd91df415d8c7ba8bd143ed666d84d6dd"
     },
     {
@@ -535,16 +535,16 @@
       "version": "voice-v13",
       "path": "versions/voice-v13/library/voice-v11/B036CostV11.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/voice-v11/B036CostV11.tsx",
-      "sha256": "6f0ed91bb8ac7900f336f3084941caf19c209fbfdea5e59057b8f8dfe3134951",
-      "bytes": 3539,
+      "sha256": "de2439ffba96a0c70359842d5621d1515286af3b98aef70f7e03300cd30a5b08",
+      "bytes": 3545,
       "originalSha256": "6f0ed91bb8ac7900f336f3084941caf19c209fbfdea5e59057b8f8dfe3134951"
     },
     {
       "version": "voice-v13",
       "path": "versions/voice-v13/library/voice-v11/R052AudioCandidatesV11.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/adopted-sync-20261004-2105/formal-s08-s10-v13/S08/src/library/voice-v11/R052AudioCandidatesV11.tsx",
-      "sha256": "8488e5eeeb16c3ccf88ea4c49a91c4642193f3b1828bffced2f21709c9ccf47f",
-      "bytes": 3781,
+      "sha256": "48821684bb05426b3dd4062625f579305c4625ff49179ef7bd350bc76db65fb3",
+      "bytes": 3793,
       "originalSha256": "8488e5eeeb16c3ccf88ea4c49a91c4642193f3b1828bffced2f21709c9ccf47f"
     },
     {
@@ -695,16 +695,16 @@
       "version": "canvas-v17",
       "path": "provenance/canvas-v17/environment-package-lock.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/environment-package-lock.json",
-      "sha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22",
-      "bytes": 110029,
+      "sha256": "844f02b8ea759decd28d2000bd0c5b36fd1e2fc625f572a84dc5e4b06b873036",
+      "bytes": 110041,
       "originalSha256": "8901a6d48aed365197631a2106741a651972e7304c4a2191fd54c7a4dfd5fc22"
     },
     {
       "version": "canvas-v17",
       "path": "provenance/canvas-v17/scope.json",
       "episodeRelativeSource": "03_制作过程/revision-v7/local-revision-v17-s14-s15-20261004/cloud/snapshot-final/scope.json",
-      "sha256": "79a289434747eb9a39b15671416feaef6938e1b1ebf50f35be730037a1e10218",
-      "bytes": 6249,
+      "sha256": "b31b3a1b089af013a7689c3d841ece7e8a16e0a81085536629f265eb376015b8",
+      "bytes": 6400,
       "originalSha256": "79a289434747eb9a39b15671416feaef6938e1b1ebf50f35be730037a1e10218"
     },
     {
@@ -727,8 +727,8 @@
       "version": "incoming",
       "path": "versions/incoming/index.tsx",
       "episodeRelativeSource": "03_制作过程/revision-v7/seam-audit-20261004/render/incoming/src/index.tsx",
-      "sha256": "b746ec182d42cb042dd8d91fb61851529719d239ef9b0dee2fbe442bd7e48f5e",
-      "bytes": 1733,
+      "sha256": "576d285903e0819f5e17de058c0bafe97e206749184749b120cf48535ec92467",
+      "bytes": 1732,
       "sourceSha256": "5b39543423a856284c5064efce3393b28a4bb8236fb3370acedda3f650aa93c3",
       "adaptation": "Expose Incoming export and remove root registration; exact original kept in provenance/incoming/src/index.tsx.",
       "originalSha256": "b746ec182d42cb042dd8d91fb61851529719d239ef9b0dee2fbe442bd7e48f5e"
@@ -1036,7 +1036,7 @@
       "bytes": 2304102
     }
   ],
-  "sourceFilesPolicy": "Exact-byte original modules retained; Incoming live export changes only component exposure and root registration, original entry kept in provenance.",
+  "sourceFilesPolicy": "Private originals retain exact bytes; public modules use neutral identifiers and redacted original locators with originalSha256 retained. Motion, geometry, media and timing remain unchanged.",
   "dependencyScope": "Selected runtime branches and import closure only; unrelated source branches are retained for provenance but their media are not copied.",
   "adaptedFiles": [
     {
@@ -1145,7 +1145,7 @@
     ]
   },
   "switchLimit": "includeSubtitles=false on 102-02 first two frames replaces the originally compressed captioned S04 media layer with exact InstallV7 source, retaining the Incoming composition and original native clock. This optional clean branch is not a claim of compressed pixel identity.",
-  "updatedAt": "2026-10-05T11:46:22+08:00",
+  "updatedAt": "2026-10-05T12:50:52+08:00",
   "verification": {
     "originalVerification": "The original package passed exact provenance, TypeScript, stills and continuous visual/technical review before public projection. Public projection verification is recorded separately.",
     "noNewRenderingRequired": true,
@@ -1155,9 +1155,10 @@
     "addedDate": "2026-10-05",
     "originalFinalSourceSha256": "ec95ad617fc3251a432c983c233ebe27f3d3b5306c0b4c729abde7939b76e542",
     "originalSourceFilesKeptPrivately": true,
-    "pathChanges": "Machine absolute paths are replaced only in this public projection. Core scene geometry, frame ranges and clocks are retained.",
+    "pathChanges": "Machine paths and private original locators are redacted; internal library names and provenance identifiers use neutral public aliases. Original source hashes, licenses, motion, geometry, frame ranges and clocks are retained.",
     "npmDependencies": "Pinned source/package.json and source/package-lock.json; install locally with npm ci.",
     "derivedMediaCount": 1,
-    "derivedMediaPolicy": "Public install recording account region is irreversibly masked. Other 40 example dependency files retain original bytes. Original private media and official extracted preview identity remain unchanged."
+    "derivedMediaPolicy": "Public install recording account region is irreversibly masked. Other 40 example dependency files retain original bytes. Original private media and official extracted preview identity remain unchanged.",
+    "attributionPolicy": "Neutral identifiers do not claim original authorship. Third-party source hashes and applicable license notices are retained."
   }
 }

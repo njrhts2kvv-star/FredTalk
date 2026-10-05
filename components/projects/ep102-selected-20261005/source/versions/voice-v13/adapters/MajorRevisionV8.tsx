@@ -5,7 +5,7 @@ import {PLAYBACK_BOX_V7, PlaybackWindowV7, PixelCrop, CropVideo, RecordingFocus,
 import timing from '../voice-timing-v6.json';
 import waves from '../voice-waves-v6.json';
 import assets from '../assets.json';
-import {Batch1} from '../library/bob/src/batch1';
+import {Batch1} from '../library/retained-scenes/src/batch1';
 import {RebuiltC005} from '../library/ctw/RebuiltC005';
 import {SP016} from '../library/selfpick/sp015-016';
 import {MediaScenesB} from '../library/new10/MediaScenesB';
@@ -126,7 +126,7 @@ export function BoardsV8({frame: f}: Props) {
 function FrostedClassic({id, from, start, box, vertical}: {id: string; from: number; start: number; box: Box; vertical?: boolean}) {
   return <PlaybackWindowV7 box={box}>
     <div style={{position: 'absolute', inset: -35, filter: 'blur(24px)', opacity: .62}}><Clip id={id} from={from} start={start}/></div>
-    {vertical ? <CropVideo id={id} from={from} start={start} roi={[520, 0, 880, 1080]} box={[box[2] * .245, 0, box[2] * .51, box[3]]}/> : <Clip id={id} from={from} start={start}/>} 
+    {vertical ? <CropVideo id={id} from={from} start={start} roi={[520, 0, 880, 1080]} box={[box[2] * .245, 0, box[2] * .51, box[3]]}/> : <Clip id={id} from={from} start={start}/>}
   </PlaybackWindowV7>;
 }
 export function ScriptV8({frame: f}: Props) {

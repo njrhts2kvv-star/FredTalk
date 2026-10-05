@@ -4,7 +4,7 @@ import {Media, mix, progress, rect} from '../../common';
 import waves from '../../voice-waves-v6.json';
 
 /**
- * Episode slots derived from the retained bob-legacy81-r052 / Clip052.
+ * Episode slots derived from the retained reference-legacy81-r052 / Clip052.
  * True source: .../29ba35204f4a7fce.../groups/r/faithful/src/BatchC.tsx,
  * SHA256 c60d41dff95c1aaa5bf6d0bc1ac420ab4bab9f8e61a02405d37fcc98d1a2f38d.
  * Preserve its input shrinking into a source column (1.0–1.5s), followed by
@@ -13,7 +13,7 @@ import waves from '../../voice-waves-v6.json';
  * The horizontal/audio slot sizes differ from the portrait reference slots.
  */
 export const R052_AUDIO_PROVENANCE = {
-  keepId: 'bob-legacy81-r052',
+  keepId: 'reference-legacy81-r052',
   symbol: 'Clip052',
   sourceSha256: 'c60d41dff95c1aaa5bf6d0bc1ac420ab4bab9f8e61a02405d37fcc98d1a2f38d',
   referenceFrames: 360,

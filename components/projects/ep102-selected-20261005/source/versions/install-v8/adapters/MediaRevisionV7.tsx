@@ -282,7 +282,7 @@ function NativeFourGrid({frame, start, end}: {frame: number; start: number; end:
   </Stage>;
 }
 
-/** Bob112 231.4–236.2: same black canvas camera follows the already visible object. */
+/** Reference112 231.4–236.2: same black canvas camera follows the already visible object. */
 function NativeCanvasCamera({frame, start, end, roi}: {frame: number; start: number; end: number; roi: Box}) {
   const q = ease(frame, start, start + 42) * (1 - ease(frame, end - 40, end));
   const [x, y, w, h] = roi, k = mix(1, Math.min(1640 / w, 780 / h), q);

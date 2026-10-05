@@ -11,7 +11,7 @@
   "pages": [
     {
       "number": 2,
-      "candidateId": "bob-premark-02",
+      "candidateId": "reference-premark-02",
       "duration": 5.5,
       "exactScreenWords": [
         "更精准的视频编辑"
@@ -80,7 +80,7 @@
       "finalScanRepair": "Source 0.65-0.90 retains outgoing media as circle enters. Old remake emptied stage at 0.6167-0.6667. Repaired linear media exit.",
       "stableId": "FredMotion-002",
       "sourceBeatIds": [
-        "bob-premark-02"
+        "reference-premark-02"
       ],
       "title": "黑色胶囊展开并强调关键词",
       "episode": "120",
@@ -136,32 +136,32 @@
       "connectorType": "circle-pill",
       "pathTopology": "双媒体并排 -> 媒体横向离场圆形进入 -> 圆形扩展为胶囊 -> 关键词建立 -> 黑色扩展覆盖舞台",
       "spokenOrder": [
-        "bob-premark-02"
+        "reference-premark-02"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-02",
+          "sourceBeatId": "reference-premark-02",
           "event": "双媒体并排",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-02",
+          "sourceBeatId": "reference-premark-02",
           "event": "媒体横向离场圆形进入",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-02",
+          "sourceBeatId": "reference-premark-02",
           "event": "圆形扩展为胶囊",
           "cueFrame": 69
         },
         {
-          "sourceBeatId": "bob-premark-02",
+          "sourceBeatId": "reference-premark-02",
           "event": "关键词建立",
           "cueFrame": 120
         },
         {
-          "sourceBeatId": "bob-premark-02",
+          "sourceBeatId": "reference-premark-02",
           "event": "黑色扩展覆盖舞台",
           "cueFrame": 270
         }
@@ -173,7 +173,7 @@
     },
     {
       "number": 3,
-      "candidateId": "bob-premark-03",
+      "candidateId": "reference-premark-03",
       "duration": 11.0,
       "exactScreenWords": [
         "开源且免费",
@@ -274,7 +274,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-003",
       "sourceBeatIds": [
-        "bob-premark-03"
+        "reference-premark-03"
       ],
       "title": "大字结论接模型分支关系图",
       "episode": "118",
@@ -342,37 +342,37 @@
       "connectorType": "brand-branches",
       "pathTopology": "超大标题收至舞台中央 -> OpenSquilla品牌进入 -> 品牌移至上方 -> 四模型连线依次建立 -> 外框强调整体 -> 分支离场",
       "spokenOrder": [
-        "bob-premark-03"
+        "reference-premark-03"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-03",
+          "sourceBeatId": "reference-premark-03",
           "event": "超大标题收至舞台中央",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-03",
+          "sourceBeatId": "reference-premark-03",
           "event": "OpenSquilla品牌进入",
           "cueFrame": 75
         },
         {
-          "sourceBeatId": "bob-premark-03",
+          "sourceBeatId": "reference-premark-03",
           "event": "品牌移至上方",
           "cueFrame": 162
         },
         {
-          "sourceBeatId": "bob-premark-03",
+          "sourceBeatId": "reference-premark-03",
           "event": "四模型连线依次建立",
           "cueFrame": 174
         },
         {
-          "sourceBeatId": "bob-premark-03",
+          "sourceBeatId": "reference-premark-03",
           "event": "外框强调整体",
           "cueFrame": 255
         },
         {
-          "sourceBeatId": "bob-premark-03",
+          "sourceBeatId": "reference-premark-03",
           "event": "分支离场",
           "cueFrame": 315
         }
@@ -384,7 +384,7 @@
     },
     {
       "number": 9,
-      "candidateId": "bob-premark-09",
+      "candidateId": "reference-premark-09",
       "duration": 14.0,
       "exactScreenWords": [
         "帮我做一个【时长】秒的HTML网页视频，内容是介绍【主题】。",
@@ -488,7 +488,7 @@
       "finalScanRepair": "Source 0.0-0.3 retains moving media until top window enters. Old remake white at 0.0167-0.1667 is unintended. Repaired outgoing media timing and top window entrance.",
       "stableId": "FredMotion-009",
       "sourceBeatIds": [
-        "bob-premark-09"
+        "reference-premark-09"
       ],
       "title": "提示词全貌与参数关键词聚焦",
       "episode": "117",
@@ -598,32 +598,32 @@
       "connectorType": "prompt-keyword-focus",
       "pathTopology": "上一个媒体网格离场 -> 提示词窗口进入 -> 完整文字建立 -> 背景提示词失焦，参数集中前景 -> 参数归位文字重新清晰",
       "spokenOrder": [
-        "bob-premark-09"
+        "reference-premark-09"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-09",
+          "sourceBeatId": "reference-premark-09",
           "event": "上一个媒体网格离场",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-09",
+          "sourceBeatId": "reference-premark-09",
           "event": "提示词窗口进入",
           "cueFrame": 24
         },
         {
-          "sourceBeatId": "bob-premark-09",
+          "sourceBeatId": "reference-premark-09",
           "event": "完整文字建立",
           "cueFrame": 48
         },
         {
-          "sourceBeatId": "bob-premark-09",
+          "sourceBeatId": "reference-premark-09",
           "event": "背景提示词失焦，参数集中前景",
           "cueFrame": 204
         },
         {
-          "sourceBeatId": "bob-premark-09",
+          "sourceBeatId": "reference-premark-09",
           "event": "参数归位文字重新清晰",
           "cueFrame": 582
         }
@@ -635,7 +635,7 @@
     },
     {
       "number": 11,
-      "candidateId": "bob-premark-11",
+      "candidateId": "reference-premark-11",
       "duration": 14.0,
       "exactScreenWords": [
         "帮我做一个【时长】秒的HTML网页视频，内容是介绍【主题】。",
@@ -847,7 +847,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-011",
       "sourceBeatIds": [
-        "bob-premark-11"
+        "reference-premark-11"
       ],
       "title": "单个媒体窗口扩展成四格作品墙",
       "episode": "117",
@@ -957,37 +957,37 @@
       "connectorType": "four-media-grid",
       "pathTopology": "左上网页 -> 右上耳机 -> 左下物流网络 -> 右下手绘作品 -> 作品墙失焦前景提示词 -> 提示词退出作品重新清晰",
       "spokenOrder": [
-        "bob-premark-11"
+        "reference-premark-11"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-11",
+          "sourceBeatId": "reference-premark-11",
           "event": "左上网页",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-11",
+          "sourceBeatId": "reference-premark-11",
           "event": "右上耳机",
           "cueFrame": 84
         },
         {
-          "sourceBeatId": "bob-premark-11",
+          "sourceBeatId": "reference-premark-11",
           "event": "左下物流网络",
           "cueFrame": 210
         },
         {
-          "sourceBeatId": "bob-premark-11",
+          "sourceBeatId": "reference-premark-11",
           "event": "右下手绘作品",
           "cueFrame": 270
         },
         {
-          "sourceBeatId": "bob-premark-11",
+          "sourceBeatId": "reference-premark-11",
           "event": "作品墙失焦前景提示词",
           "cueFrame": 390
         },
         {
-          "sourceBeatId": "bob-premark-11",
+          "sourceBeatId": "reference-premark-11",
           "event": "提示词退出作品重新清晰",
           "cueFrame": 600
         }
@@ -999,7 +999,7 @@
     },
     {
       "number": 12,
-      "candidateId": "bob-premark-12",
+      "candidateId": "reference-premark-12",
       "duration": 8.5,
       "exactScreenWords": [
         "设计",
@@ -1180,7 +1180,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-012",
       "sourceBeatIds": [
-        "bob-premark-12"
+        "reference-premark-12"
       ],
       "title": "案例窗口接三个人物与职责标签",
       "episode": "117",
@@ -1248,52 +1248,52 @@
       "connectorType": "media-to-roles",
       "pathTopology": "首个案例 -> 第二案例 -> 第三案例 -> 第四案例 -> 四格退出 -> 设计人物居中 -> 剪辑角色左入 -> 前端角色右入 -> 辅助角色退场",
       "spokenOrder": [
-        "bob-premark-12"
+        "reference-premark-12"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "首个案例",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "第二案例",
           "cueFrame": 15
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "第三案例",
           "cueFrame": 51
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "第四案例",
           "cueFrame": 99
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "四格退出",
           "cueFrame": 270
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "设计人物居中",
           "cueFrame": 288
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "剪辑角色左入",
           "cueFrame": 330
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "前端角色右入",
           "cueFrame": 348
         },
         {
-          "sourceBeatId": "bob-premark-12",
+          "sourceBeatId": "reference-premark-12",
           "event": "辅助角色退场",
           "cueFrame": 468
         }
@@ -1305,7 +1305,7 @@
     },
     {
       "number": 13,
-      "candidateId": "bob-premark-all-001",
+      "candidateId": "reference-premark-all-001",
       "duration": 7.5,
       "exactScreenWords": [
         "图生图",
@@ -1359,7 +1359,7 @@
       "finalScanRepair": "Rows 2 and 3 disappear at frames 185-186 despite no code hide branch and remain present in source. Removed unnecessary blur(0px) parent layer and isolated capsule paint. Requires new render to verify compositor stability.",
       "stableId": "FredMotion-013",
       "sourceBeatIds": [
-        "bob-premark-all-001"
+        "reference-premark-all-001"
       ],
       "title": "能力标签从少到多建立",
       "episode": "116",
@@ -1517,27 +1517,27 @@
       "connectorType": "capability-grid",
       "pathTopology": "圆形阵列顺次出现 -> 各圆横向扩展胶囊 -> 18个能力按序填字 -> 景深过渡",
       "spokenOrder": [
-        "bob-premark-all-001"
+        "reference-premark-all-001"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-001",
+          "sourceBeatId": "reference-premark-all-001",
           "event": "圆形阵列顺次出现",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-001",
+          "sourceBeatId": "reference-premark-all-001",
           "event": "各圆横向扩展胶囊",
           "cueFrame": 24
         },
         {
-          "sourceBeatId": "bob-premark-all-001",
+          "sourceBeatId": "reference-premark-all-001",
           "event": "18个能力按序填字",
           "cueFrame": 150
         },
         {
-          "sourceBeatId": "bob-premark-all-001",
+          "sourceBeatId": "reference-premark-all-001",
           "event": "景深过渡",
           "cueFrame": 435
         }
@@ -1549,7 +1549,7 @@
     },
     {
       "number": 14,
-      "candidateId": "bob-premark-all-002",
+      "candidateId": "reference-premark-all-002",
       "duration": 21.0,
       "exactScreenWords": [
         "老师在吗？",
@@ -1620,7 +1620,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-014",
       "sourceBeatIds": [
-        "bob-premark-all-002"
+        "reference-premark-all-002"
       ],
       "title": "对话气泡接力转入新章节",
       "episode": "116",
@@ -1712,42 +1712,42 @@
       "connectorType": "chat-chapter",
       "pathTopology": "上下两条气泡已存在 -> 右侧询问进入 -> 是的左入整体上卷 -> 音频的我都学会了 -> 讲讲图片类的吧再次上卷 -> 对话场景退出图像类进入 -> 下一章节交接",
       "spokenOrder": [
-        "bob-premark-all-002"
+        "reference-premark-all-002"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "上下两条气泡已存在",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "右侧询问进入",
           "cueFrame": 66
         },
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "是的左入整体上卷",
           "cueFrame": 324
         },
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "音频的我都学会了",
           "cueFrame": 384
         },
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "讲讲图片类的吧再次上卷",
           "cueFrame": 624
         },
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "对话场景退出图像类进入",
           "cueFrame": 966
         },
         {
-          "sourceBeatId": "bob-premark-all-002",
+          "sourceBeatId": "reference-premark-all-002",
           "event": "下一章节交接",
           "cueFrame": 1242
         }
@@ -1759,7 +1759,7 @@
     },
     {
       "number": 18,
-      "candidateId": "bob-premark-all-006",
+      "candidateId": "reference-premark-all-006",
       "duration": 10.0,
       "exactScreenWords": [
         "开源免费",
@@ -1856,7 +1856,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-018",
       "sourceBeatIds": [
-        "bob-premark-all-006"
+        "reference-premark-all-006"
       ],
       "title": "纵向胶囊清单逐项填入",
       "episode": "114",
@@ -1918,47 +1918,47 @@
       "connectorType": "vertical-capabilities",
       "pathTopology": "黑矩形转正 -> 四道横线展开 -> 四胶囊定型 -> 开源免费文字 -> 列表左移右侧工作流 -> 工作流退出数字8G显存 -> 列表回中央左显卡 -> 右显卡",
       "spokenOrder": [
-        "bob-premark-all-006"
+        "reference-premark-all-006"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "黑矩形转正",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "四道横线展开",
           "cueFrame": 15
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "四胶囊定型",
           "cueFrame": 51
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "开源免费文字",
           "cueFrame": 69
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "列表左移右侧工作流",
           "cueFrame": 105
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "工作流退出数字8G显存",
           "cueFrame": 159
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "列表回中央左显卡",
           "cueFrame": 252
         },
         {
-          "sourceBeatId": "bob-premark-all-006",
+          "sourceBeatId": "reference-premark-all-006",
           "event": "右显卡",
           "cueFrame": 285
         }
@@ -1970,7 +1970,7 @@
     },
     {
       "number": 19,
-      "candidateId": "bob-premark-all-007",
+      "candidateId": "reference-premark-all-007",
       "duration": 13.0,
       "exactScreenWords": [
         "艺术",
@@ -2074,7 +2074,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-019",
       "sourceBeatIds": [
-        "bob-premark-all-007"
+        "reference-premark-all-007"
       ],
       "title": "三张图片卡转为能力分类",
       "episode": "114",
@@ -2178,47 +2178,47 @@
       "connectorType": "image-categories",
       "pathTopology": "人像卡已出现 -> 艺术卡 -> 文字卡 -> 卡片上移Boogu-Image标题 -> GPT-Image比较 -> 标题退出卡片回中央 -> 卡片变深色能力词 -> 卡片上移退出",
       "spokenOrder": [
-        "bob-premark-all-007"
+        "reference-premark-all-007"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "人像卡已出现",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "艺术卡",
           "cueFrame": 15
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "文字卡",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "卡片上移Boogu-Image标题",
           "cueFrame": 69
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "GPT-Image比较",
           "cueFrame": 144
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "标题退出卡片回中央",
           "cueFrame": 234
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "卡片变深色能力词",
           "cueFrame": 258
         },
         {
-          "sourceBeatId": "bob-premark-all-007",
+          "sourceBeatId": "reference-premark-all-007",
           "event": "卡片上移退出",
           "cueFrame": 375
         }
@@ -2230,7 +2230,7 @@
     },
     {
       "number": 20,
-      "candidateId": "bob-premark-all-008",
+      "candidateId": "reference-premark-all-008",
       "duration": 17.0,
       "exactScreenWords": [
         "ガッ"
@@ -2424,7 +2424,7 @@
       "typographyNote": "Artwork-only choreography, no editable headline in reference. Japanese manga sound-effect glyph ガッ is visible within original artwork at local2s. Source subtitle 多宫格的漫画 is narration caption, not a title, and is not added to reconstruction.",
       "stableId": "FredMotion-020",
       "sourceBeatIds": [
-        "bob-premark-all-008"
+        "reference-premark-all-008"
       ],
       "title": "单张作品扩展为多格图片墙",
       "episode": "114",
@@ -2480,37 +2480,37 @@
       "connectorType": "image-wall-travel",
       "pathTopology": "单竖图 -> 漫画右入原图左移 -> 三卡并列 -> 连续向左滑轨展示11张作品 -> 六格二行组合 -> 保持六格",
       "spokenOrder": [
-        "bob-premark-all-008"
+        "reference-premark-all-008"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-008",
+          "sourceBeatId": "reference-premark-all-008",
           "event": "单竖图",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-008",
+          "sourceBeatId": "reference-premark-all-008",
           "event": "漫画右入原图左移",
           "cueFrame": 48
         },
         {
-          "sourceBeatId": "bob-premark-all-008",
+          "sourceBeatId": "reference-premark-all-008",
           "event": "三卡并列",
           "cueFrame": 150
         },
         {
-          "sourceBeatId": "bob-premark-all-008",
+          "sourceBeatId": "reference-premark-all-008",
           "event": "连续向左滑轨展示11张作品",
           "cueFrame": 195
         },
         {
-          "sourceBeatId": "bob-premark-all-008",
+          "sourceBeatId": "reference-premark-all-008",
           "event": "六格二行组合",
           "cueFrame": 399
         },
         {
-          "sourceBeatId": "bob-premark-all-008",
+          "sourceBeatId": "reference-premark-all-008",
           "event": "保持六格",
           "cueFrame": 508
         }
@@ -2522,7 +2522,7 @@
     },
     {
       "number": 23,
-      "candidateId": "bob-premark-all-011",
+      "candidateId": "reference-premark-all-011",
       "duration": 6.0,
       "exactScreenWords": [
         "事物识别",
@@ -2596,7 +2596,7 @@
       "precision": "Full sparse temporal review with exact first and last samples; cues are measured to nearest 0.1s and detailed handoffs still require rendered comparison.",
       "stableId": "FredMotion-023",
       "sourceBeatIds": [
-        "bob-premark-all-011"
+        "reference-premark-all-011"
       ],
       "title": "双手机虚化后前置能力词",
       "episode": "73",
@@ -2658,37 +2658,37 @@
       "connectorType": "two-device-focus",
       "pathTopology": "两部真实手机内容 -> 界面失焦 -> 事物识别 -> 解决方案 -> 文字退场 -> 手机分层上移",
       "spokenOrder": [
-        "bob-premark-all-011"
+        "reference-premark-all-011"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-011",
+          "sourceBeatId": "reference-premark-all-011",
           "event": "两部真实手机内容",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-011",
+          "sourceBeatId": "reference-premark-all-011",
           "event": "界面失焦",
           "cueFrame": 69
         },
         {
-          "sourceBeatId": "bob-premark-all-011",
+          "sourceBeatId": "reference-premark-all-011",
           "event": "事物识别",
           "cueFrame": 75
         },
         {
-          "sourceBeatId": "bob-premark-all-011",
+          "sourceBeatId": "reference-premark-all-011",
           "event": "解决方案",
           "cueFrame": 105
         },
         {
-          "sourceBeatId": "bob-premark-all-011",
+          "sourceBeatId": "reference-premark-all-011",
           "event": "文字退场",
           "cueFrame": 144
         },
         {
-          "sourceBeatId": "bob-premark-all-011",
+          "sourceBeatId": "reference-premark-all-011",
           "event": "手机分层上移",
           "cueFrame": 162
         }
@@ -2700,7 +2700,7 @@
     },
     {
       "number": 24,
-      "candidateId": "bob-premark-all-012",
+      "candidateId": "reference-premark-all-012",
       "duration": 12.0,
       "exactScreenWords": [
         "热量与减脂期食用建议",
@@ -2808,7 +2808,7 @@
       "typographyNote": "These are visible original app UI text inside separately replaceable screenshot assets, no invented foreground headline.",
       "stableId": "FredMotion-024",
       "sourceBeatIds": [
-        "bob-premark-all-012"
+        "reference-premark-all-012"
       ],
       "title": "单个视频通话扩展成三手机对照",
       "episode": "73",
@@ -2894,32 +2894,32 @@
       "connectorType": "single-to-three-devices",
       "pathTopology": "中间视频通话 -> 左聊天界面推出 -> 右聊天界面推出 -> 中间切换识别画面 -> 三个设备错峰离场",
       "spokenOrder": [
-        "bob-premark-all-012"
+        "reference-premark-all-012"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-012",
+          "sourceBeatId": "reference-premark-all-012",
           "event": "中间视频通话",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-012",
+          "sourceBeatId": "reference-premark-all-012",
           "event": "左聊天界面推出",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-all-012",
+          "sourceBeatId": "reference-premark-all-012",
           "event": "右聊天界面推出",
           "cueFrame": 69
         },
         {
-          "sourceBeatId": "bob-premark-all-012",
+          "sourceBeatId": "reference-premark-all-012",
           "event": "中间切换识别画面",
           "cueFrame": 171
         },
         {
-          "sourceBeatId": "bob-premark-all-012",
+          "sourceBeatId": "reference-premark-all-012",
           "event": "三个设备错峰离场",
           "cueFrame": 342
         }
@@ -3038,7 +3038,7 @@
       ],
       "stableId": "FredMotion-027",
       "sourceBeatIds": [
-        "bob-premark-all-015"
+        "reference-premark-all-015"
       ],
       "title": "Agent与Skill组合关系建立",
       "episode": "112",
@@ -3094,32 +3094,32 @@
       "connectorType": "circle-cluster",
       "pathTopology": "media fullscreen exits -> four circles distributed -> circles cluster -> cluster becomes right circle -> Agent+ and Skill establish",
       "spokenOrder": [
-        "bob-premark-all-015"
+        "reference-premark-all-015"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-015",
+          "sourceBeatId": "reference-premark-all-015",
           "event": "media fullscreen exits",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-015",
+          "sourceBeatId": "reference-premark-all-015",
           "event": "four circles distributed",
           "cueFrame": 36
         },
         {
-          "sourceBeatId": "bob-premark-all-015",
+          "sourceBeatId": "reference-premark-all-015",
           "event": "circles cluster",
           "cueFrame": 120
         },
         {
-          "sourceBeatId": "bob-premark-all-015",
+          "sourceBeatId": "reference-premark-all-015",
           "event": "cluster becomes right circle",
           "cueFrame": 210
         },
         {
-          "sourceBeatId": "bob-premark-all-015",
+          "sourceBeatId": "reference-premark-all-015",
           "event": "Agent+ and Skill establish",
           "cueFrame": 240
         }
@@ -3206,7 +3206,7 @@
       ],
       "stableId": "FredMotion-028",
       "sourceBeatIds": [
-        "bob-premark-all-016"
+        "reference-premark-all-016"
       ],
       "title": "两种生成方式并列强调",
       "episode": "111",
@@ -3268,32 +3268,32 @@
       "connectorType": "parallel-terms",
       "pathTopology": "dark director window -> window slides out -> text-to-image -> image-to-image -> landscape media enters",
       "spokenOrder": [
-        "bob-premark-all-016"
+        "reference-premark-all-016"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-016",
+          "sourceBeatId": "reference-premark-all-016",
           "event": "dark director window",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-016",
+          "sourceBeatId": "reference-premark-all-016",
           "event": "window slides out",
           "cueFrame": 78
         },
         {
-          "sourceBeatId": "bob-premark-all-016",
+          "sourceBeatId": "reference-premark-all-016",
           "event": "text-to-image",
           "cueFrame": 96
         },
         {
-          "sourceBeatId": "bob-premark-all-016",
+          "sourceBeatId": "reference-premark-all-016",
           "event": "image-to-image",
           "cueFrame": 132
         },
         {
-          "sourceBeatId": "bob-premark-all-016",
+          "sourceBeatId": "reference-premark-all-016",
           "event": "landscape media enters",
           "cueFrame": 216
         }
@@ -3380,7 +3380,7 @@
       ],
       "stableId": "FredMotion-033",
       "sourceBeatIds": [
-        "bob-premark-all-021"
+        "reference-premark-all-021"
       ],
       "title": "三行痛点覆盖虚化表格",
       "episode": "105",
@@ -3442,32 +3442,32 @@
       "connectorType": "table-focus",
       "pathTopology": "blurred table -> function pain -> pivot pain -> table pain -> return table",
       "spokenOrder": [
-        "bob-premark-all-021"
+        "reference-premark-all-021"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-021",
+          "sourceBeatId": "reference-premark-all-021",
           "event": "blurred table",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-021",
+          "sourceBeatId": "reference-premark-all-021",
           "event": "function pain",
           "cueFrame": 6
         },
         {
-          "sourceBeatId": "bob-premark-all-021",
+          "sourceBeatId": "reference-premark-all-021",
           "event": "pivot pain",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-all-021",
+          "sourceBeatId": "reference-premark-all-021",
           "event": "table pain",
           "cueFrame": 108
         },
         {
-          "sourceBeatId": "bob-premark-all-021",
+          "sourceBeatId": "reference-premark-all-021",
           "event": "return table",
           "cueFrame": 228
         }
@@ -3538,7 +3538,7 @@
       ],
       "stableId": "FredMotion-034",
       "sourceBeatIds": [
-        "bob-premark-all-022"
+        "reference-premark-all-022"
       ],
       "title": "编号需求逐行建立并强调关键词",
       "episode": "107",
@@ -3606,27 +3606,27 @@
       "connectorType": "typed-requirements",
       "pathTopology": "line1 types -> line2 types -> line3 types -> line4 types",
       "spokenOrder": [
-        "bob-premark-all-022"
+        "reference-premark-all-022"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-022",
+          "sourceBeatId": "reference-premark-all-022",
           "event": "line1 types",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-022",
+          "sourceBeatId": "reference-premark-all-022",
           "event": "line2 types",
           "cueFrame": 57
         },
         {
-          "sourceBeatId": "bob-premark-all-022",
+          "sourceBeatId": "reference-premark-all-022",
           "event": "line3 types",
           "cueFrame": 141
         },
         {
-          "sourceBeatId": "bob-premark-all-022",
+          "sourceBeatId": "reference-premark-all-022",
           "event": "line4 types",
           "cueFrame": 270
         }
@@ -3741,7 +3741,7 @@
       ],
       "stableId": "FredMotion-035",
       "sourceBeatIds": [
-        "bob-premark-all-023"
+        "reference-premark-all-023"
       ],
       "title": "四部手机并列展示设计结果",
       "episode": "107",
@@ -3803,22 +3803,22 @@
       "connectorType": "four-phones",
       "pathTopology": "design canvas -> four phones enter -> screens scroll separately",
       "spokenOrder": [
-        "bob-premark-all-023"
+        "reference-premark-all-023"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-023",
+          "sourceBeatId": "reference-premark-all-023",
           "event": "design canvas",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-023",
+          "sourceBeatId": "reference-premark-all-023",
           "event": "four phones enter",
           "cueFrame": 4
         },
         {
-          "sourceBeatId": "bob-premark-all-023",
+          "sourceBeatId": "reference-premark-all-023",
           "event": "screens scroll separately",
           "cueFrame": 45
         }
@@ -3905,7 +3905,7 @@
       ],
       "stableId": "FredMotion-036",
       "sourceBeatIds": [
-        "bob-premark-all-024"
+        "reference-premark-all-024"
       ],
       "title": "两个胶囊组成想法等于成果",
       "episode": "107",
@@ -3967,32 +3967,32 @@
       "connectorType": "pill-equation",
       "pathTopology": "idea pill -> result pill -> equals -> actor behind -> pills recede",
       "spokenOrder": [
-        "bob-premark-all-024"
+        "reference-premark-all-024"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-024",
+          "sourceBeatId": "reference-premark-all-024",
           "event": "idea pill",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-024",
+          "sourceBeatId": "reference-premark-all-024",
           "event": "result pill",
           "cueFrame": 15
         },
         {
-          "sourceBeatId": "bob-premark-all-024",
+          "sourceBeatId": "reference-premark-all-024",
           "event": "equals",
           "cueFrame": 36
         },
         {
-          "sourceBeatId": "bob-premark-all-024",
+          "sourceBeatId": "reference-premark-all-024",
           "event": "actor behind",
           "cueFrame": 90
         },
         {
-          "sourceBeatId": "bob-premark-all-024",
+          "sourceBeatId": "reference-premark-all-024",
           "event": "pills recede",
           "cueFrame": 111
         }
@@ -4089,7 +4089,7 @@
       ],
       "stableId": "FredMotion-038",
       "sourceBeatIds": [
-        "bob-premark-all-026"
+        "reference-premark-all-026"
       ],
       "title": "三层黑色短句概括现场观点",
       "episode": "特别篇",
@@ -4151,42 +4151,42 @@
       "connectorType": "pill-stack",
       "pathTopology": "first pill -> first retreats top -> second center -> second retreats bottom -> third center -> equal-size stack -> return event",
       "spokenOrder": [
-        "bob-premark-all-026"
+        "reference-premark-all-026"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "first pill",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "first retreats top",
           "cueFrame": 24
         },
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "second center",
           "cueFrame": 48
         },
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "second retreats bottom",
           "cueFrame": 108
         },
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "third center",
           "cueFrame": 135
         },
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "equal-size stack",
           "cueFrame": 234
         },
         {
-          "sourceBeatId": "bob-premark-all-026",
+          "sourceBeatId": "reference-premark-all-026",
           "event": "return event",
           "cueFrame": 285
         }
@@ -4412,7 +4412,7 @@
       ],
       "stableId": "FredMotion-041",
       "sourceBeatIds": [
-        "bob-premark-all-029"
+        "reference-premark-all-029"
       ],
       "title": "多列竖图滚动展示模型结果",
       "episode": "106",
@@ -4468,27 +4468,27 @@
       "connectorType": "image-rail",
       "pathTopology": "vertical cards enter -> fan -> row and horizontal scroll -> three card groups",
       "spokenOrder": [
-        "bob-premark-all-029"
+        "reference-premark-all-029"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-029",
+          "sourceBeatId": "reference-premark-all-029",
           "event": "vertical cards enter",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-029",
+          "sourceBeatId": "reference-premark-all-029",
           "event": "fan",
           "cueFrame": 60
         },
         {
-          "sourceBeatId": "bob-premark-all-029",
+          "sourceBeatId": "reference-premark-all-029",
           "event": "row and horizontal scroll",
           "cueFrame": 105
         },
         {
-          "sourceBeatId": "bob-premark-all-029",
+          "sourceBeatId": "reference-premark-all-029",
           "event": "three card groups",
           "cueFrame": 585
         }
@@ -4575,7 +4575,7 @@
       ],
       "stableId": "FredMotion-042",
       "sourceBeatIds": [
-        "bob-premark-all-030"
+        "reference-premark-all-030"
       ],
       "title": "三项业务词错位阶梯排列",
       "episode": "104",
@@ -4637,32 +4637,32 @@
       "connectorType": "stair-list",
       "pathTopology": "window drops -> purchase -> sales -> accounting -> paper enters",
       "spokenOrder": [
-        "bob-premark-all-030"
+        "reference-premark-all-030"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-030",
+          "sourceBeatId": "reference-premark-all-030",
           "event": "window drops",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-030",
+          "sourceBeatId": "reference-premark-all-030",
           "event": "purchase",
           "cueFrame": 12
         },
         {
-          "sourceBeatId": "bob-premark-all-030",
+          "sourceBeatId": "reference-premark-all-030",
           "event": "sales",
           "cueFrame": 27
         },
         {
-          "sourceBeatId": "bob-premark-all-030",
+          "sourceBeatId": "reference-premark-all-030",
           "event": "accounting",
           "cueFrame": 39
         },
         {
-          "sourceBeatId": "bob-premark-all-030",
+          "sourceBeatId": "reference-premark-all-030",
           "event": "paper enters",
           "cueFrame": 132
         }
@@ -4842,7 +4842,7 @@
       ],
       "stableId": "FredMotion-044",
       "sourceBeatIds": [
-        "bob-premark-all-032"
+        "reference-premark-all-032"
       ],
       "title": "多张参考卡片组成紧凑矩阵",
       "episode": "100",
@@ -4904,32 +4904,32 @@
       "connectorType": "reference-grid",
       "pathTopology": "cards populate grid -> blur grid and central contact sheet -> central sheet shifts left -> return grid -> actor handoff",
       "spokenOrder": [
-        "bob-premark-all-032"
+        "reference-premark-all-032"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-032",
+          "sourceBeatId": "reference-premark-all-032",
           "event": "cards populate grid",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-032",
+          "sourceBeatId": "reference-premark-all-032",
           "event": "blur grid and central contact sheet",
           "cueFrame": 90
         },
         {
-          "sourceBeatId": "bob-premark-all-032",
+          "sourceBeatId": "reference-premark-all-032",
           "event": "central sheet shifts left",
           "cueFrame": 168
         },
         {
-          "sourceBeatId": "bob-premark-all-032",
+          "sourceBeatId": "reference-premark-all-032",
           "event": "return grid",
           "cueFrame": 192
         },
         {
-          "sourceBeatId": "bob-premark-all-032",
+          "sourceBeatId": "reference-premark-all-032",
           "event": "actor handoff",
           "cueFrame": 234
         }
@@ -5151,7 +5151,7 @@
       ],
       "stableId": "FredMotion-046",
       "sourceBeatIds": [
-        "bob-premark-all-034"
+        "reference-premark-all-034"
       ],
       "title": "全屏影视画面退成错位双窗口",
       "episode": "100",
@@ -5231,27 +5231,27 @@
       "connectorType": "dual-media",
       "pathTopology": "large video window -> first shifts upper-left -> second enters lower-right -> content cut",
       "spokenOrder": [
-        "bob-premark-all-034"
+        "reference-premark-all-034"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-034",
+          "sourceBeatId": "reference-premark-all-034",
           "event": "large video window",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-034",
+          "sourceBeatId": "reference-premark-all-034",
           "event": "first shifts upper-left",
           "cueFrame": 21
         },
         {
-          "sourceBeatId": "bob-premark-all-034",
+          "sourceBeatId": "reference-premark-all-034",
           "event": "second enters lower-right",
           "cueFrame": 33
         },
         {
-          "sourceBeatId": "bob-premark-all-034",
+          "sourceBeatId": "reference-premark-all-034",
           "event": "content cut",
           "cueFrame": 141
         }
@@ -5378,7 +5378,7 @@
       ],
       "stableId": "FredMotion-054",
       "sourceBeatIds": [
-        "bob-premark-all-042"
+        "reference-premark-all-042"
       ],
       "title": "标签围绕背景并接数字滚动",
       "episode": "93",
@@ -5458,42 +5458,42 @@
       "connectorType": "labels-counter",
       "pathTopology": "Five labels stagger around background -> Label accents change -> Character established -> Table flies in -> Black counter capsule foreground -> Counter settles at 108420 -> Spreadsheet icons surround character",
       "spokenOrder": [
-        "bob-premark-all-042"
+        "reference-premark-all-042"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Five labels stagger around background",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Label accents change",
           "cueFrame": 90
         },
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Character established",
           "cueFrame": 144
         },
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Table flies in",
           "cueFrame": 195
         },
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Black counter capsule foreground",
           "cueFrame": 249
         },
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Counter settles at 108420",
           "cueFrame": 300
         },
         {
-          "sourceBeatId": "bob-premark-all-042",
+          "sourceBeatId": "reference-premark-all-042",
           "event": "Spreadsheet icons surround character",
           "cueFrame": 330
         }
@@ -5596,7 +5596,7 @@
       ],
       "stableId": "FredMotion-059",
       "sourceBeatIds": [
-        "bob-premark-all-047"
+        "reference-premark-all-047"
       ],
       "title": "手机中的视频放大为独立横窗",
       "episode": "95",
@@ -5646,37 +5646,37 @@
       "connectorType": "phone-media-handoff",
       "pathTopology": "Tilted phone straightens -> Push in to phone media -> Media carousel moves -> Independent landscape media window expands -> Phone slides left -> Media takes stage",
       "spokenOrder": [
-        "bob-premark-all-047"
+        "reference-premark-all-047"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-047",
+          "sourceBeatId": "reference-premark-all-047",
           "event": "Tilted phone straightens",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-047",
+          "sourceBeatId": "reference-premark-all-047",
           "event": "Push in to phone media",
           "cueFrame": 45
         },
         {
-          "sourceBeatId": "bob-premark-all-047",
+          "sourceBeatId": "reference-premark-all-047",
           "event": "Media carousel moves",
           "cueFrame": 180
         },
         {
-          "sourceBeatId": "bob-premark-all-047",
+          "sourceBeatId": "reference-premark-all-047",
           "event": "Independent landscape media window expands",
           "cueFrame": 246
         },
         {
-          "sourceBeatId": "bob-premark-all-047",
+          "sourceBeatId": "reference-premark-all-047",
           "event": "Phone slides left",
           "cueFrame": 270
         },
         {
-          "sourceBeatId": "bob-premark-all-047",
+          "sourceBeatId": "reference-premark-all-047",
           "event": "Media takes stage",
           "cueFrame": 330
         }
@@ -5759,7 +5759,7 @@
       "assetInventory": [],
       "stableId": "FredMotion-060",
       "sourceBeatIds": [
-        "bob-premark-all-048"
+        "reference-premark-all-048"
       ],
       "title": "左右分支汇入中心平台关系图",
       "episode": "94",
@@ -5875,32 +5875,32 @@
       "connectorType": "platform-flow",
       "pathTopology": "Source platform nodes appear -> User action tags -> Central platform circle grows -> Right attributes appear -> Pull back to whole diagram",
       "spokenOrder": [
-        "bob-premark-all-048"
+        "reference-premark-all-048"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-048",
+          "sourceBeatId": "reference-premark-all-048",
           "event": "Source platform nodes appear",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-048",
+          "sourceBeatId": "reference-premark-all-048",
           "event": "User action tags",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-all-048",
+          "sourceBeatId": "reference-premark-all-048",
           "event": "Central platform circle grows",
           "cueFrame": 138
         },
         {
-          "sourceBeatId": "bob-premark-all-048",
+          "sourceBeatId": "reference-premark-all-048",
           "event": "Right attributes appear",
           "cueFrame": 270
         },
         {
-          "sourceBeatId": "bob-premark-all-048",
+          "sourceBeatId": "reference-premark-all-048",
           "event": "Pull back to whole diagram",
           "cueFrame": 396
         }
@@ -5970,7 +5970,7 @@
       "assetInventory": [],
       "stableId": "FredMotion-062",
       "sourceBeatIds": [
-        "bob-premark-all-050"
+        "reference-premark-all-050"
       ],
       "title": "人物与AI柱状图数值对照",
       "episode": "94",
@@ -6038,27 +6038,27 @@
       "connectorType": "two-bars-avatar",
       "pathTopology": "First bar starts at 7.4 -> First grows to 32 -> Second grows to 38 -> Bars reduce for conclusion title",
       "spokenOrder": [
-        "bob-premark-all-050"
+        "reference-premark-all-050"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-050",
+          "sourceBeatId": "reference-premark-all-050",
           "event": "First bar starts at 7.4",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-050",
+          "sourceBeatId": "reference-premark-all-050",
           "event": "First grows to 32",
           "cueFrame": 60
         },
         {
-          "sourceBeatId": "bob-premark-all-050",
+          "sourceBeatId": "reference-premark-all-050",
           "event": "Second grows to 38",
           "cueFrame": 240
         },
         {
-          "sourceBeatId": "bob-premark-all-050",
+          "sourceBeatId": "reference-premark-all-050",
           "event": "Bars reduce for conclusion title",
           "cueFrame": 420
         }
@@ -6139,7 +6139,7 @@
       "assetInventory": [],
       "stableId": "FredMotion-064",
       "sourceBeatIds": [
-        "bob-premark-all-052"
+        "reference-premark-all-052"
       ],
       "title": "需求关键词从模糊目录中突出",
       "episode": "93",
@@ -6213,37 +6213,37 @@
       "connectorType": "concept-focus",
       "pathTopology": "Window enters -> Triangle roles and arrows establish -> Blur roles; foreground need label -> Return focus -> One click button enters -> Window leaves",
       "spokenOrder": [
-        "bob-premark-all-052"
+        "reference-premark-all-052"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-052",
+          "sourceBeatId": "reference-premark-all-052",
           "event": "Window enters",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-052",
+          "sourceBeatId": "reference-premark-all-052",
           "event": "Triangle roles and arrows establish",
           "cueFrame": 36
         },
         {
-          "sourceBeatId": "bob-premark-all-052",
+          "sourceBeatId": "reference-premark-all-052",
           "event": "Blur roles; foreground need label",
           "cueFrame": 258
         },
         {
-          "sourceBeatId": "bob-premark-all-052",
+          "sourceBeatId": "reference-premark-all-052",
           "event": "Return focus",
           "cueFrame": 414
         },
         {
-          "sourceBeatId": "bob-premark-all-052",
+          "sourceBeatId": "reference-premark-all-052",
           "event": "One click button enters",
           "cueFrame": 444
         },
         {
-          "sourceBeatId": "bob-premark-all-052",
+          "sourceBeatId": "reference-premark-all-052",
           "event": "Window leaves",
           "cueFrame": 522
         }
@@ -6324,7 +6324,7 @@
       "assetInventory": [],
       "stableId": "FredMotion-065",
       "sourceBeatIds": [
-        "bob-premark-all-053"
+        "reference-premark-all-053"
       ],
       "title": "用不等号拆开效果与产品概念",
       "episode": "91",
@@ -6398,37 +6398,37 @@
       "connectorType": "concept-inequality",
       "pathTopology": "Effect label -> Product label -> Inequality circle -> Old statement leaves -> Conclusion first clause -> Second clause",
       "spokenOrder": [
-        "bob-premark-all-053"
+        "reference-premark-all-053"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-053",
+          "sourceBeatId": "reference-premark-all-053",
           "event": "Effect label",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-053",
+          "sourceBeatId": "reference-premark-all-053",
           "event": "Product label",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-all-053",
+          "sourceBeatId": "reference-premark-all-053",
           "event": "Inequality circle",
           "cueFrame": 72
         },
         {
-          "sourceBeatId": "bob-premark-all-053",
+          "sourceBeatId": "reference-premark-all-053",
           "event": "Old statement leaves",
           "cueFrame": 204
         },
         {
-          "sourceBeatId": "bob-premark-all-053",
+          "sourceBeatId": "reference-premark-all-053",
           "event": "Conclusion first clause",
           "cueFrame": 222
         },
         {
-          "sourceBeatId": "bob-premark-all-053",
+          "sourceBeatId": "reference-premark-all-053",
           "event": "Second clause",
           "cueFrame": 264
         }
@@ -6578,7 +6578,7 @@
       ],
       "stableId": "FredMotion-066",
       "sourceBeatIds": [
-        "bob-premark-all-054"
+        "reference-premark-all-054"
       ],
       "title": "多张竖卡逐个亮起展示重点",
       "episode": "91",
@@ -6628,27 +6628,27 @@
       "connectorType": "vertical-highlight-track",
       "pathTopology": "First product card lit -> Track moves and mop lit -> Track moves and apple lit -> Pen lit",
       "spokenOrder": [
-        "bob-premark-all-054"
+        "reference-premark-all-054"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-054",
+          "sourceBeatId": "reference-premark-all-054",
           "event": "First product card lit",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-054",
+          "sourceBeatId": "reference-premark-all-054",
           "event": "Track moves and mop lit",
           "cueFrame": 288
         },
         {
-          "sourceBeatId": "bob-premark-all-054",
+          "sourceBeatId": "reference-premark-all-054",
           "event": "Track moves and apple lit",
           "cueFrame": 672
         },
         {
-          "sourceBeatId": "bob-premark-all-054",
+          "sourceBeatId": "reference-premark-all-054",
           "event": "Pen lit",
           "cueFrame": 960
         }
@@ -6741,7 +6741,7 @@
       ],
       "stableId": "FredMotion-069",
       "sourceBeatIds": [
-        "bob-premark-all-057"
+        "reference-premark-all-057"
       ],
       "title": "从表格信息切到立体饼图",
       "episode": "92",
@@ -6809,37 +6809,37 @@
       "connectorType": "segmented-donut",
       "pathTopology": "Document curls away -> First sector expands -> Second sector -> Third sector completes ring -> Chart pulls back -> Phase header enters",
       "spokenOrder": [
-        "bob-premark-all-057"
+        "reference-premark-all-057"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-057",
+          "sourceBeatId": "reference-premark-all-057",
           "event": "Document curls away",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-057",
+          "sourceBeatId": "reference-premark-all-057",
           "event": "First sector expands",
           "cueFrame": 12
         },
         {
-          "sourceBeatId": "bob-premark-all-057",
+          "sourceBeatId": "reference-premark-all-057",
           "event": "Second sector",
           "cueFrame": 63
         },
         {
-          "sourceBeatId": "bob-premark-all-057",
+          "sourceBeatId": "reference-premark-all-057",
           "event": "Third sector completes ring",
           "cueFrame": 123
         },
         {
-          "sourceBeatId": "bob-premark-all-057",
+          "sourceBeatId": "reference-premark-all-057",
           "event": "Chart pulls back",
           "cueFrame": 183
         },
         {
-          "sourceBeatId": "bob-premark-all-057",
+          "sourceBeatId": "reference-premark-all-057",
           "event": "Phase header enters",
           "cueFrame": 240
         }
@@ -6954,7 +6954,7 @@
       ],
       "stableId": "FredMotion-070",
       "sourceBeatIds": [
-        "bob-premark-all-058"
+        "reference-premark-all-058"
       ],
       "title": "阶段标签补齐并交接开发界面",
       "episode": "92",
@@ -7028,37 +7028,37 @@
       "connectorType": "phase-handoff",
       "pathTopology": "Phone visible -> Capsules cover and defocus phone -> First phase -> Second phase -> Third phase -> Capsules leave into development view",
       "spokenOrder": [
-        "bob-premark-all-058"
+        "reference-premark-all-058"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-058",
+          "sourceBeatId": "reference-premark-all-058",
           "event": "Phone visible",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-058",
+          "sourceBeatId": "reference-premark-all-058",
           "event": "Capsules cover and defocus phone",
           "cueFrame": 36
         },
         {
-          "sourceBeatId": "bob-premark-all-058",
+          "sourceBeatId": "reference-premark-all-058",
           "event": "First phase",
           "cueFrame": 42
         },
         {
-          "sourceBeatId": "bob-premark-all-058",
+          "sourceBeatId": "reference-premark-all-058",
           "event": "Second phase",
           "cueFrame": 54
         },
         {
-          "sourceBeatId": "bob-premark-all-058",
+          "sourceBeatId": "reference-premark-all-058",
           "event": "Third phase",
           "cueFrame": 138
         },
         {
-          "sourceBeatId": "bob-premark-all-058",
+          "sourceBeatId": "reference-premark-all-058",
           "event": "Capsules leave into development view",
           "cueFrame": 165
         }
@@ -7289,7 +7289,7 @@
       ],
       "stableId": "FredMotion-072",
       "sourceBeatIds": [
-        "bob-premark-all-060"
+        "reference-premark-all-060"
       ],
       "title": "一张模特图扩展为多张结果图",
       "episode": "90",
@@ -7339,47 +7339,47 @@
       "connectorType": "input-output-image-grid",
       "pathTopology": "Dark window enters -> Input portrait -> Six results stagger -> Generate button -> Top three results expand -> Bottom results take focus -> Return grid -> Window exits",
       "spokenOrder": [
-        "bob-premark-all-060"
+        "reference-premark-all-060"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Dark window enters",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Input portrait",
           "cueFrame": 48
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Six results stagger",
           "cueFrame": 108
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Generate button",
           "cueFrame": 228
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Top three results expand",
           "cueFrame": 378
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Bottom results take focus",
           "cueFrame": 672
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Return grid",
           "cueFrame": 900
         },
         {
-          "sourceBeatId": "bob-premark-all-060",
+          "sourceBeatId": "reference-premark-all-060",
           "event": "Window exits",
           "cueFrame": 984
         }
@@ -7456,7 +7456,7 @@
       "assetInventory": [],
       "stableId": "FredMotion-073",
       "sourceBeatIds": [
-        "bob-premark-all-061"
+        "reference-premark-all-061"
       ],
       "title": "输入指令与Agent任务双色卡对照",
       "episode": "90",
@@ -7536,32 +7536,32 @@
       "connectorType": "agent-role-cards",
       "pathTopology": "Asset examples leave -> Input card curls in -> Agent card curls in -> Output card curls in -> Cards stagger upward out",
       "spokenOrder": [
-        "bob-premark-all-061"
+        "reference-premark-all-061"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-061",
+          "sourceBeatId": "reference-premark-all-061",
           "event": "Asset examples leave",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-061",
+          "sourceBeatId": "reference-premark-all-061",
           "event": "Input card curls in",
           "cueFrame": 36
         },
         {
-          "sourceBeatId": "bob-premark-all-061",
+          "sourceBeatId": "reference-premark-all-061",
           "event": "Agent card curls in",
           "cueFrame": 120
         },
         {
-          "sourceBeatId": "bob-premark-all-061",
+          "sourceBeatId": "reference-premark-all-061",
           "event": "Output card curls in",
           "cueFrame": 240
         },
         {
-          "sourceBeatId": "bob-premark-all-061",
+          "sourceBeatId": "reference-premark-all-061",
           "event": "Cards stagger upward out",
           "cueFrame": 372
         }
@@ -7690,7 +7690,7 @@
       ],
       "stableId": "FredMotion-074",
       "sourceBeatIds": [
-        "bob-premark-all-062"
+        "reference-premark-all-062"
       ],
       "title": "失败现象用三种图片状态对比",
       "episode": "34",
@@ -7794,42 +7794,42 @@
       "connectorType": "failure-triptych",
       "pathTopology": "Website fades back -> Three black cards unfold -> Noise state -> Blur state -> 404 state -> Cards leave upward -> Site view enters",
       "spokenOrder": [
-        "bob-premark-all-062"
+        "reference-premark-all-062"
       ],
       "timingSource": "audio-timecode",
       "motionEvents": [
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "Website fades back",
           "cueFrame": 0
         },
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "Three black cards unfold",
           "cueFrame": 24
         },
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "Noise state",
           "cueFrame": 132
         },
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "Blur state",
           "cueFrame": 168
         },
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "404 state",
           "cueFrame": 204
         },
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "Cards leave upward",
           "cueFrame": 330
         },
         {
-          "sourceBeatId": "bob-premark-all-062",
+          "sourceBeatId": "reference-premark-all-062",
           "event": "Site view enters",
           "cueFrame": 372
         }

@@ -10,20 +10,20 @@
     "audio": "none"
   },
   "reference": {
-    "referencePath": "provenance/11_7663118064795405603__第112期_用Agent一键直出AI视频成片 把成熟的工作流体系和生产方法打包成Skill 用Agent+S.mp4",
+    "referencePath": "[PRIVATE_REFERENCE]",
     "referenceStart": 17.4,
     "referenceEnd": 30.9,
     "referenceSegments": [
       {
-        "path": "provenance/11_7663118064795405603__第112期_用Agent一键直出AI视频成片 把成熟的工作流体系和生产方法打包成Skill 用Agent+S.mp4",
-        "url": "/media/bob-7663118064795405603",
+        "path": "[PRIVATE_REFERENCE]",
+        "url": "[PRIVATE_REFERENCE]",
         "start": 17.4,
         "end": 30.9
       }
     ],
     "assets": [
       {
-        "path": "provenance/11_7663118064795405603__第112期_用Agent一键直出AI视频成片 把成熟的工作流体系和生产方法打包成Skill 用Agent+S.mp4",
+        "path": "[PRIVATE_REFERENCE]",
         "sha256": "114e72563e7ec8de025083b81b757afe940690714e23702831752ec277ebd595",
         "width": 2560,
         "height": 1440,
@@ -36,7 +36,8 @@
       }
     ],
     "totalSelectedDuration": 13.5,
-    "outputDurationDelta": 0.0
+    "outputDurationDelta": 0.0,
+    "creator": null
   },
   "sourceMapping": {
     "status": "reviewed",

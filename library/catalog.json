@@ -658,8 +658,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [
@@ -745,7 +745,7 @@
           "path": "components/projects/ep102-selected-20261005/source/versions/install-v8/adapters/MediaRevisionV7.tsx",
           "url": "/api/design-source/a65892ff4ddedf700b73c7b1",
           "symbol": "InstallV7",
-          "sha256": "f8e0ffbb6bb33cc5b6b42b724d44195ea6eac1feef920257b1106349405fce83",
+          "sha256": "13044021f77d38d6a81e62fe081119405fcafb9537d02c19ee747d11c185bbbe",
           "available": true,
           "status": "ready"
         },
@@ -824,8 +824,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [
@@ -910,7 +910,7 @@
           "path": "components/projects/ep102-selected-20261005/source/versions/direction-a/adapters/MediaRevisionV7.tsx",
           "url": "/api/design-source/ba8e9b785c56fc0c64592068",
           "symbol": "PullV7",
-          "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+          "sha256": "cbcb76a9e626367afaa8a02fe40efdf7b4fdfd06d9e81fd409976c5ffaca2725",
           "available": true,
           "status": "ready"
         },
@@ -990,8 +990,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [
@@ -1075,7 +1075,7 @@
           "path": "components/projects/ep102-selected-20261005/source/versions/direction-a/adapters/MediaRevisionV7.tsx",
           "url": "/api/design-source/ba8e9b785c56fc0c64592068",
           "symbol": "PullV7",
-          "sha256": "05036c5a55123af712c238ff2ecb76c25ba5fda979ca433610db3ae97fe82670",
+          "sha256": "cbcb76a9e626367afaa8a02fe40efdf7b4fdfd06d9e81fd409976c5ffaca2725",
           "available": true,
           "status": "ready"
         },
@@ -1154,8 +1154,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [
@@ -1320,8 +1320,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [
@@ -1488,8 +1488,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [
@@ -1656,8 +1656,8 @@
         "filename": "ep102-selected-20261005-source.zip",
         "available": true,
         "kind": "source-with-verified-asset-installer",
-        "sha256": "965ffc82bd911871e16f0029bdfef568fd6c08a6effeb14ef5855167c076a135",
-        "size": 13966011
+        "sha256": "68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6",
+        "size": 13967356
       },
       "implementation": {
         "projects": [

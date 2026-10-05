@@ -63,8 +63,8 @@
       "src/index.tsx": "7b73bbcdd6dc5cc03faddd5812b55bc80121d4ad3b8750f72003c067493d72c9",
       "src/install-account-roi-v7.json": "e4d25436ab5c5657bdc055cd9ba1b35727afc2020a8d3ba91386974c4b4616ab",
       "src/install-mask.json": "5fbdcbdfcc821870b4ab0ba57d33316e8072e8c56e7896bbae332ee4d8d4f691",
-      "src/library/bob/manifest.json": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0",
-      "src/library/bob/src/batch1.tsx": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
+      "[PRIVATE_REFERENCE]/retained-scenes/manifest.json": "de20a90ef7a05a04e3f55733d2d39ddab5efabe7b0105d267e9d09379043b0f0",
+      "[PRIVATE_REFERENCE]/retained-scenes/src/batch1.tsx": "4f5b4fb07884663ea6c5d8be1bb857aa64a366c0d059935e1235a9430b098d45",
       "src/library/ctw/C005.json": "aaf63594c072a45e60751e5b3affcb8bd91df415d8c7ba8bd143ed666d84d6dd",
       "src/library/ctw/measuredSample.ts": "9a27fa9e5167e6e61fc80960339fdaab20494715fbc8c79cc03ca0ad1ceccbe5",
       "src/library/ctw/RebuiltC005.tsx": "9f88265c1cd9a6766f681aeb5f81a7d65025eb8780480f5517fb076b339111c7",
@@ -84,7 +84,8 @@
       "src/SmileySubtitle.tsx": "8cb1f70ca757699cfbb0f42038831552b1deeafacd3312221103f4efe5f54d7c",
       "src/voice-timing-v6.json": "db0a4ecbfdcc42ca1c56411bddd8b0c6e551f74bb62fa5a65a34920cd39e8c5a",
       "src/voice-waves-v6.json": "eeac00750ffd9b7f2be5fdef8af6e8092999c456eda452eef00dfaeb101bfec1"
-    }
+    },
+    "privateLocatorPolicy": "Private source locators are redacted; all original SHA-256 values are retained."
   },
   "preparedAt": "2026-10-04T14:48:35.015824+00:00"
 }
