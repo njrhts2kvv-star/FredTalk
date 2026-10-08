@@ -292,5 +292,21 @@
     "sourceFormat": "Independent Remotion scene snapshots",
     "collectionId": "ep102-selected-20261005",
     "addedAt": "2026-10-05T11:47:11+08:00"
+  },
+  {
+    "path": "components/projects/ep109-selected-20261006",
+    "sourceFormat": "Independent Remotion public project"
+  },
+  {
+    "path": "components/projects/expansion-selected-20261007",
+    "sourceFormat": "Independent Remotion public project"
+  },
+  {
+    "path": "components/projects/interaction-components-20261007",
+    "sourceFormat": "Independent Remotion public project"
+  },
+  {
+    "path": "components/projects/screen-camera-selected-20261007",
+    "sourceFormat": "Independent Remotion public project"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "name": "fred-ep109-selected-components",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "list": "node render.cjs list",
+    "stills": "node render.cjs stills"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "remotion": "4.0.473",
+    "@remotion/bundler": "4.0.473",
+    "@remotion/renderer": "4.0.473",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.17"
+  }
+}

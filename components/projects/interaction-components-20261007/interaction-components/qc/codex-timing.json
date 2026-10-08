@@ -1,0 +1,13 @@
+{
+  "typeStart": 1.8,
+  "typeEnd": 2.8,
+  "sendClick": 3.3499999999999996,
+  "sendAt": 3.4799999999999995,
+  "returnEnd": 4.1,
+  "replyStart": 4.279999999999999,
+  "replyEnd": 7.879999999999999,
+  "mp4MouseStart": 8.379999999999999,
+  "mp4Click": 8.979999999999999,
+  "playStartFrame": 549,
+  "totalFrames": 849
+}

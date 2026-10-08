@@ -1,0 +1,20 @@
+{
+  "name": "fredtalk-expansion-selected-components",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "check": "node check.cjs",
+    "list": "node render.cjs list"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.473",
+    "@remotion/bundler": "4.0.473",
+    "@remotion/renderer": "4.0.473"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.17"
+  }
+}

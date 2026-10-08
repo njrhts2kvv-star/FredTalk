@@ -1,0 +1,1 @@
+{"name":"fred-screen-camera-three-runtime","version":"1.0.0","private":true,"type":"module","dependencies":{"@react-three/fiber":"9.3.0","@remotion/cli":"4.0.451","@remotion/three":"4.0.451","@types/react":"19.2.14","@types/react-dom":"19.2.3","@types/three":"0.180.0","react":"19.2.5","react-dom":"19.2.5","remotion":"4.0.451","three":"0.180.0","typescript":"6.0.3"}}

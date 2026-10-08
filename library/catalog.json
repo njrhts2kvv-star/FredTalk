@@ -503,6 +503,4808 @@
   },
   "items": [
     {
+      "id": "component:screen-camera-cam01",
+      "referenceId": "screen-camera-cam01",
+      "label": "CAM01",
+      "title": "左右换焦与浮起输入，停稳后三项刷出",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "3D录屏运镜",
+      "description": "多次左右/上下换焦，浮起输入区域；到位后同步刷出三项并保留阅读停顿。",
+      "tags": [
+        "3D运镜",
+        "录屏",
+        "成组突出",
+        "CAM01",
+        "3D录屏运镜",
+        "内容驱动"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "screen-camera-selected-20261007",
+      "addedAt": "2026-10-07T22:16:07.280858+08:00",
+      "isNew": true,
+      "displayPriority": -50,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 3D运镜",
+        "parameters": [
+          "shot.media",
+          "shot.cameraKeys",
+          "shot.accents",
+          "shot.lift"
+        ],
+        "limitations": [
+          "镜头、源滚动、停留和成组突出按实际内容与口播重新编排。",
+          "五条准确样例已获Fred认可；新内容与参数需重新检查可读性和动态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/87900b885eb7e5faa1c0cf3a",
+          "posterUrl": "/api/design-assets/f1a413663b7375fcc7a7f4c2",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/f1a413663b7375fcc7a7f4c2",
+              "frame": 348,
+              "timeSeconds": 5.8
+            },
+            {
+              "url": "/api/design-assets/30ba0f2fe696130223742d45",
+              "frame": 528,
+              "timeSeconds": 8.8
+            },
+            {
+              "url": "/api/design-assets/300e53b36b394fb2c88b8f93",
+              "frame": 690,
+              "timeSeconds": 11.5
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 12.8,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "87900b885eb7e5faa1c0cf3a894a5656e267eed861e107acde541444df42be71",
+          "label": "左右换焦与浮起输入，停稳后三项刷出",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CameraExamples.tsx",
+          "path": "camera/src/CameraExamples.tsx",
+          "symbol": "HeldCameraExample",
+          "url": "/api/design-source/83a8dc6b381418c1ad0aa368",
+          "sha256": "83a8dc6b381418c1ad0aa368459e1d0a4dc8a3ce5f43337b042b32cbee6b0606",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "camera/src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/fd3a5721cb39cc096ded8684",
+          "sha256": "fd3a5721cb39cc096ded8684ddb3d9e20d2f9fe8ce91d87fb6ab9cd50b490d55",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "manifest.json",
+          "path": "camera/manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/8d6fadfbe51ef7862d3f6cca",
+          "sha256": "8d6fadfbe51ef7862d3f6ccaaf8b15232f7bd23457a79a38ceae2490eda5503c",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/b530e57329f2c4061ecc4c4f",
+        "filename": "FredTalk-1.5-3D-components-source.zip",
+        "sha256": "b530e57329f2c4061ecc4c4f4ab1fa6d4e29bc33a7c6b878a29c5aca6b5d0c47",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 79483274
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/screen-camera-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "screen-camera-cam01",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "screen-camera-selected",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实录屏"
+        ],
+        "action": "多次左右/上下换焦，浮起输入区域；到位后同步刷出三项并保留阅读停顿。",
+        "segmentRole": "录屏聚焦",
+        "nativeDurationSeconds": 12.8,
+        "adaptation": "先分析实际内容，再设置信息落点、源滚动、停留和成组突出。",
+        "tags": [
+          "3D运镜",
+          "录屏",
+          "成组突出",
+          "CAM01",
+          "3D录屏运镜",
+          "内容驱动"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T22:16:07.280858+08:00",
+        "label": "CAM01",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:screen-camera-cam02",
+      "referenceId": "screen-camera-cam02",
+      "label": "CAM02",
+      "title": "作品到要点与说明，整组黄色刷出",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "3D录屏运镜",
+      "description": "作品、右侧要点与下方说明接力；三项同步刷出，标题与说明成组突出。",
+      "tags": [
+        "3D运镜",
+        "录屏",
+        "成组突出",
+        "CAM02",
+        "3D录屏运镜",
+        "内容驱动"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "screen-camera-selected-20261007",
+      "addedAt": "2026-10-07T22:16:07.280858+08:00",
+      "isNew": true,
+      "displayPriority": -50,
+      "libraryOrder": 1,
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 3D运镜",
+        "parameters": [
+          "shot.media",
+          "shot.cameraKeys",
+          "shot.accents",
+          "shot.lift"
+        ],
+        "limitations": [
+          "镜头、源滚动、停留和成组突出按实际内容与口播重新编排。",
+          "五条准确样例已获Fred认可；新内容与参数需重新检查可读性和动态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/e09be0a34a9b8ac770077c9f",
+          "posterUrl": "/api/design-assets/109f5e30fcc101b3b8f75a62",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/109f5e30fcc101b3b8f75a62",
+              "frame": 228,
+              "timeSeconds": 3.8
+            },
+            {
+              "url": "/api/design-assets/b8550a6a10a93e262f167eee",
+              "frame": 420,
+              "timeSeconds": 7.0
+            },
+            {
+              "url": "/api/design-assets/d3e74c82f62d3b7a3dbd3819",
+              "frame": 570,
+              "timeSeconds": 9.5
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 14.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "e09be0a34a9b8ac770077c9ff44afd4e324ee9f043833a6f74c6c551ebdbc3b2",
+          "label": "作品到要点与说明，整组黄色刷出",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CameraExamples.tsx",
+          "path": "camera/src/CameraExamples.tsx",
+          "symbol": "HeldCameraExample",
+          "url": "/api/design-source/83a8dc6b381418c1ad0aa368",
+          "sha256": "83a8dc6b381418c1ad0aa368459e1d0a4dc8a3ce5f43337b042b32cbee6b0606",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "camera/src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/fd3a5721cb39cc096ded8684",
+          "sha256": "fd3a5721cb39cc096ded8684ddb3d9e20d2f9fe8ce91d87fb6ab9cd50b490d55",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "manifest.json",
+          "path": "camera/manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/8d6fadfbe51ef7862d3f6cca",
+          "sha256": "8d6fadfbe51ef7862d3f6ccaaf8b15232f7bd23457a79a38ceae2490eda5503c",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/b530e57329f2c4061ecc4c4f",
+        "filename": "FredTalk-1.5-3D-components-source.zip",
+        "sha256": "b530e57329f2c4061ecc4c4f4ab1fa6d4e29bc33a7c6b878a29c5aca6b5d0c47",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 79483274
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/screen-camera-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "screen-camera-cam02",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "screen-camera-selected",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实录屏"
+        ],
+        "action": "作品、右侧要点与下方说明接力；三项同步刷出，标题与说明成组突出。",
+        "segmentRole": "录屏聚焦",
+        "nativeDurationSeconds": 14.0,
+        "adaptation": "先分析实际内容，再设置信息落点、源滚动、停留和成组突出。",
+        "tags": [
+          "3D运镜",
+          "录屏",
+          "成组突出",
+          "CAM02",
+          "3D录屏运镜",
+          "内容驱动"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T22:16:07.280858+08:00",
+        "label": "CAM02",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:screen-camera-cam03",
+      "referenceId": "screen-camera-cam03",
+      "label": "CAM03",
+      "title": "提示词上下换焦与成组蒙版双框",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "3D录屏运镜",
+      "description": "跨上下两组提示词换焦，每组共同蒙版；随后标题与说明同时双框强调。",
+      "tags": [
+        "3D运镜",
+        "录屏",
+        "成组突出",
+        "CAM03",
+        "3D录屏运镜",
+        "内容驱动"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "screen-camera-selected-20261007",
+      "addedAt": "2026-10-07T22:16:07.280858+08:00",
+      "isNew": true,
+      "displayPriority": -50,
+      "libraryOrder": 2,
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 3D运镜",
+        "parameters": [
+          "shot.media",
+          "shot.cameraKeys",
+          "shot.accents",
+          "shot.lift"
+        ],
+        "limitations": [
+          "镜头、源滚动、停留和成组突出按实际内容与口播重新编排。",
+          "五条准确样例已获Fred认可；新内容与参数需重新检查可读性和动态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/d6d75de44586cf69af21cae5",
+          "posterUrl": "/api/design-assets/c57c4e2c1ac324642d43de3d",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/c57c4e2c1ac324642d43de3d",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/26434e96ea3b1e8c4b53aac9",
+              "frame": 420,
+              "timeSeconds": 7.0
+            },
+            {
+              "url": "/api/design-assets/7a84e8e76c2649c18bd09c96",
+              "frame": 570,
+              "timeSeconds": 9.5
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 14.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "d6d75de44586cf69af21cae5f6d7e6a8a79e1f4c1633fa6f485e844af2a2b310",
+          "label": "提示词上下换焦与成组蒙版双框",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CameraExamples.tsx",
+          "path": "camera/src/CameraExamples.tsx",
+          "symbol": "HeldCameraExample",
+          "url": "/api/design-source/83a8dc6b381418c1ad0aa368",
+          "sha256": "83a8dc6b381418c1ad0aa368459e1d0a4dc8a3ce5f43337b042b32cbee6b0606",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "camera/src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/fd3a5721cb39cc096ded8684",
+          "sha256": "fd3a5721cb39cc096ded8684ddb3d9e20d2f9fe8ce91d87fb6ab9cd50b490d55",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "manifest.json",
+          "path": "camera/manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/8d6fadfbe51ef7862d3f6cca",
+          "sha256": "8d6fadfbe51ef7862d3f6ccaaf8b15232f7bd23457a79a38ceae2490eda5503c",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/b530e57329f2c4061ecc4c4f",
+        "filename": "FredTalk-1.5-3D-components-source.zip",
+        "sha256": "b530e57329f2c4061ecc4c4f4ab1fa6d4e29bc33a7c6b878a29c5aca6b5d0c47",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 79483274
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/screen-camera-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "screen-camera-cam03",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "screen-camera-selected",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实录屏"
+        ],
+        "action": "跨上下两组提示词换焦，每组共同蒙版；随后标题与说明同时双框强调。",
+        "segmentRole": "录屏聚焦",
+        "nativeDurationSeconds": 14.0,
+        "adaptation": "先分析实际内容，再设置信息落点、源滚动、停留和成组突出。",
+        "tags": [
+          "3D运镜",
+          "录屏",
+          "成组突出",
+          "CAM03",
+          "3D录屏运镜",
+          "内容驱动"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T22:16:07.280858+08:00",
+        "label": "CAM03",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:screen-camera-cam04",
+      "referenceId": "screen-camera-cam04",
+      "label": "CAM04",
+      "title": "Codex输入、发送与回复近景",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "3D录屏运镜",
+      "description": "完整输入同一消息，发送回到对话区，收到回复后镜头靠近并停留。",
+      "tags": [
+        "3D运镜",
+        "Codex",
+        "输入",
+        "发送",
+        "回复",
+        "CAM04",
+        "3D录屏运镜",
+        "内容驱动"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "screen-camera-selected-20261007",
+      "addedAt": "2026-10-07T22:16:07.280858+08:00",
+      "isNew": true,
+      "displayPriority": -50,
+      "libraryOrder": 3,
+      "sceneTypes": [
+        "device-demo",
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 3D运镜",
+        "parameters": [
+          "desktopSrc",
+          "prompt",
+          "typingSeconds"
+        ],
+        "limitations": [
+          "镜头、源滚动、停留和成组突出按实际内容与口播重新编排。",
+          "五条准确样例已获Fred认可；新内容与参数需重新检查可读性和动态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/bb3a55c0ae23f90e7d33399f",
+          "posterUrl": "/api/design-assets/d824ecadee1a8df51efe8b4c",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/4820ee63af78753db047d0ae",
+              "frame": 160,
+              "timeSeconds": 2.6666666666666665
+            },
+            {
+              "url": "/api/design-assets/d824ecadee1a8df51efe8b4c",
+              "frame": 460,
+              "timeSeconds": 7.666666666666667
+            },
+            {
+              "url": "/api/design-assets/6b32a79912650b54c9e60ac1",
+              "frame": 700,
+              "timeSeconds": 11.666666666666666
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 14.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "bb3a55c0ae23f90e7d33399f66931b9fefe67e2722ad104efc0f21863b79c687",
+          "label": "Codex输入、发送与回复近景",
+          "audioPolicy": "interface-sfx"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CodexFullWindowFlow.tsx",
+          "path": "codex/src/CodexFullWindowFlow.tsx",
+          "symbol": "CodexFullWindowFlow",
+          "url": "/api/design-source/b60c19a532c7a8c4032c2488",
+          "sha256": "b60c19a532c7a8c4032c2488ac6ace03a71b7e04ae1e9db4320c026f5489bc01",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "codex/src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/81b1855f339822d7d688f224",
+          "sha256": "81b1855f339822d7d688f224217bfdcaf8f9ba417ac0e0798b9bb9247b40d5cc",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/b530e57329f2c4061ecc4c4f",
+        "filename": "FredTalk-1.5-3D-components-source.zip",
+        "sha256": "b530e57329f2c4061ecc4c4f4ab1fa6d4e29bc33a7c6b878a29c5aca6b5d0c47",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 79483274
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/screen-camera-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "screen-camera-cam04",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus",
+          "handoff"
+        ],
+        "sourceId": "screen-camera-selected",
+        "conceptIds": [
+          "input"
+        ],
+        "inputObjects": [
+          "可编辑消息"
+        ],
+        "action": "完整输入同一消息，发送回到对话区，收到回复后镜头靠近并停留。",
+        "segmentRole": "输入与反馈",
+        "nativeDurationSeconds": 14.0,
+        "adaptation": "先分析实际内容，再设置信息落点、源滚动、停留和成组突出。",
+        "tags": [
+          "3D运镜",
+          "Codex",
+          "输入",
+          "发送",
+          "回复",
+          "CAM04",
+          "3D录屏运镜",
+          "内容驱动"
+        ],
+        "scenarioId": "input",
+        "scenarioTitle": "输入、聊天与反馈",
+        "addedAt": "2026-10-07T22:16:07.280858+08:00",
+        "label": "CAM04",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "device-demo",
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:screen-camera-cam05",
+      "referenceId": "screen-camera-cam05",
+      "label": "CAM05",
+      "title": "白底后倾透视与由下往上聚焦",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "3D录屏运镜",
+      "description": "上沿退远、下沿靠近的白底后倾透视；从下方移向上方，在阅读目标停住后成组强调。",
+      "tags": [
+        "3D运镜",
+        "录屏",
+        "成组突出",
+        "CAM05",
+        "3D录屏运镜",
+        "内容驱动"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "screen-camera-selected-20261007",
+      "addedAt": "2026-10-07T22:16:07.280858+08:00",
+      "isNew": true,
+      "displayPriority": -50,
+      "libraryOrder": 4,
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 3D运镜",
+        "parameters": [
+          "shot.media",
+          "shot.cameraKeys",
+          "shot.accents",
+          "shot.lift"
+        ],
+        "limitations": [
+          "镜头、源滚动、停留和成组突出按实际内容与口播重新编排。",
+          "五条准确样例已获Fred认可；新内容与参数需重新检查可读性和动态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/0bbc98b36c22c04ea3bb3574",
+          "posterUrl": "/api/design-assets/4e32e6fcba99de6f64d5497a",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/4e32e6fcba99de6f64d5497a",
+              "frame": 105,
+              "timeSeconds": 1.75
+            },
+            {
+              "url": "/api/design-assets/db1a63973d0374b74d7e4d11",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/23dbad1c5840d3f9b2d06ef3",
+              "frame": 480,
+              "timeSeconds": 8.0
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 12.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "0bbc98b36c22c04ea3bb3574bc6e3c71930b95110b145d5a1dd394a6ece03e67",
+          "label": "白底后倾透视与由下往上聚焦",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CameraExamples.tsx",
+          "path": "overhead/src/CameraExamples.tsx",
+          "symbol": "CameraExample",
+          "url": "/api/design-source/faa4f799bcbacb724e5bcc52",
+          "sha256": "faa4f799bcbacb724e5bcc525317d2a8b196166cbbe95bfd9b1a17b26ad0b2f6",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "overhead/src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/fd3a5721cb39cc096ded8684",
+          "sha256": "fd3a5721cb39cc096ded8684ddb3d9e20d2f9fe8ce91d87fb6ab9cd50b490d55",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "manifest.json",
+          "path": "overhead/manifest.json",
+          "symbol": "",
+          "url": "/api/design-source/7e0a26f76205915e899aafde",
+          "sha256": "7e0a26f76205915e899aafde6f8deb824a577da39692a0a1bea69346501b4364",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/b530e57329f2c4061ecc4c4f",
+        "filename": "FredTalk-1.5-3D-components-source.zip",
+        "sha256": "b530e57329f2c4061ecc4c4f4ab1fa6d4e29bc33a7c6b878a29c5aca6b5d0c47",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 79483274
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/screen-camera-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "screen-camera-cam05",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "screen-camera-selected",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实录屏"
+        ],
+        "action": "上沿退远、下沿靠近的白底后倾透视；从下方移向上方，在阅读目标停住后成组强调。",
+        "segmentRole": "录屏聚焦",
+        "nativeDurationSeconds": 12.0,
+        "adaptation": "先分析实际内容，再设置信息落点、源滚动、停留和成组突出。",
+        "tags": [
+          "3D运镜",
+          "录屏",
+          "成组突出",
+          "CAM05",
+          "3D录屏运镜",
+          "内容驱动"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T22:16:07.280858+08:00",
+        "label": "CAM05",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:ep109-selected-01",
+      "label": "109-01",
+      "title": "白底点击与弹性视频窗展开",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "origin": "第109期精选",
+      "description": "白底点击与弹性视频窗展开",
+      "tags": [
+        "第109期",
+        "109",
+        "109-01",
+        "鼠标",
+        "视频窗口",
+        "用户精选",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景源码 · 独立工程",
+        "parameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "limitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/51e76fb39b80835ec69067fc",
+          "posterUrl": "/api/design-assets/342470e09ad03258e729b75c",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/1c441f442681b1d67880569a",
+              "frame": 12,
+              "timeSeconds": 0.2
+            },
+            {
+              "url": "/api/design-assets/342470e09ad03258e729b75c",
+              "frame": 60,
+              "timeSeconds": 1.0
+            },
+            {
+              "url": "/api/design-assets/795ecd1ef5d67ceb5699580b",
+              "frame": 119,
+              "timeSeconds": 1.9833333333333334
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 2,
+          "fps": 60,
+          "width": 3840,
+          "height": 2160,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 1.0,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "独立组件",
+          "path": "ep109-selected-20261006/SelectedComponents.tsx",
+          "url": "/api/design-source/096a7713f2f4b56f2551e1f5",
+          "symbol": "EP109Selected01",
+          "sha256": "096a7713f2f4b56f2551e1f508253859082259b6eccb01e50d3f1caf7af95783",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/versions/white/adapters/opening-v5/OpeningV5.tsx",
+          "url": "/api/design-source/637e4ec7e2e78f4d107a574c",
+          "symbol": "OpeningV5",
+          "sha256": "637e4ec7e2e78f4d107a574c5ed18ed5990b722d8988b631b4b87bfd12e9e290",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/NativeSceneClock.tsx",
+          "url": "/api/design-source/86c6edaabf8552051ffb54f7",
+          "symbol": "NativeSceneClock",
+          "sha256": "86c6edaabf8552051ffb54f7b1dc33c439ff73329edb2e080ff70472fac9d348",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep109-selected-01",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "video-entry",
+      "libraryOrder": 0,
+      "addedAt": "2026-10-06T21:39:00+08:00",
+      "isNew": true,
+      "displayPriority": -19.999,
+      "matching": {
+        "referenceId": "ep109-selected-01",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "ep109",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "鼠标",
+          "视频窗口"
+        ],
+        "action": "白底点击与弹性视频窗展开",
+        "segmentRole": "完整选段场景",
+        "nativeDurationSeconds": 2,
+        "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+        "tags": [
+          "第109期",
+          "用户精选",
+          "鼠标",
+          "视频窗口",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-06T21:39:00+08:00",
+        "label": "109-01",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/4852c2e1d6b9157798498ad1",
+        "filename": "ep109-selected-20261006-source.zip",
+        "sha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 209614178
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep109-selected-20261006"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "collectionId": "ep109-selected-20261006"
+    },
+    {
+      "id": "component:ep109-selected-02",
+      "label": "109-02",
+      "title": "主视频侧移与右侧清单逐项显现",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "第109期精选",
+      "description": "主视频侧移与右侧清单逐项显现",
+      "tags": [
+        "第109期",
+        "109",
+        "109-02",
+        "主视频",
+        "三个重点",
+        "用户精选",
+        "讲解段落",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景源码 · 独立工程",
+        "parameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "limitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/86852804f1926c88b5717b2e",
+          "posterUrl": "/api/design-assets/fba2a22981d3948a6dfc8610",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/211ebc4e09b23d41b7b34d8e",
+              "frame": 12,
+              "timeSeconds": 0.2
+            },
+            {
+              "url": "/api/design-assets/fba2a22981d3948a6dfc8610",
+              "frame": 210,
+              "timeSeconds": 3.5
+            },
+            {
+              "url": "/api/design-assets/325b3e1339af22e71d24b4f9",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7,
+          "fps": 60,
+          "width": 3840,
+          "height": 2160,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 3.5,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "独立组件",
+          "path": "ep109-selected-20261006/SelectedComponents.tsx",
+          "url": "/api/design-source/096a7713f2f4b56f2551e1f5",
+          "symbol": "EP109Selected02",
+          "sha256": "096a7713f2f4b56f2551e1f508253859082259b6eccb01e50d3f1caf7af95783",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/versions/v8/adapters/RevisionEntry.tsx",
+          "url": "/api/design-source/f28664e0461a02c0e7659a03",
+          "symbol": "FightReferenceAnalysis",
+          "sha256": "f28664e0461a02c0e7659a038b9d01229a056ced872569a6adc968fa766c5a49",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/NativeSceneClock.tsx",
+          "url": "/api/design-source/86c6edaabf8552051ffb54f7",
+          "symbol": "NativeSceneClock",
+          "sha256": "86c6edaabf8552051ffb54f7b1dc33c439ff73329edb2e080ff70472fac9d348",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep109-selected-02",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 1,
+      "addedAt": "2026-10-06T21:39:00+08:00",
+      "isNew": true,
+      "displayPriority": -19.998,
+      "matching": {
+        "referenceId": "ep109-selected-02",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "video-entry"
+        ],
+        "sourceId": "ep109",
+        "conceptIds": [
+          "media",
+          "process",
+          "summary"
+        ],
+        "inputObjects": [
+          "主视频",
+          "三个重点"
+        ],
+        "action": "主视频侧移与右侧清单逐项显现",
+        "segmentRole": "完整选段场景",
+        "nativeDurationSeconds": 7,
+        "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+        "tags": [
+          "第109期",
+          "用户精选",
+          "主视频",
+          "三个重点",
+          "讲解段落",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-06T21:39:00+08:00",
+        "label": "109-02",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary",
+          "image-comparison"
+        ]
+      },
+      "sceneTypes": [
+        "summary",
+        "image-comparison"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/4852c2e1d6b9157798498ad1",
+        "filename": "ep109-selected-20261006-source.zip",
+        "sha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 209614178
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep109-selected-20261006"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "collectionId": "ep109-selected-20261006"
+    },
+    {
+      "id": "component:ep109-selected-03",
+      "label": "109-03",
+      "title": "录屏真实文字局部提起与连续阅读",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "第109期精选",
+      "description": "录屏真实文字局部提起与连续阅读",
+      "tags": [
+        "第109期",
+        "109",
+        "109-03",
+        "录屏",
+        "真实文字ROI",
+        "蒙版",
+        "用户精选",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景源码 · 独立工程",
+        "parameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "limitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/fc5c2de24b76b77b13399558",
+          "posterUrl": "/api/design-assets/bcef7ec968df6c78199ccd66",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/e528e68b0512205ef8c1b5b5",
+              "frame": 12,
+              "timeSeconds": 0.2
+            },
+            {
+              "url": "/api/design-assets/bcef7ec968df6c78199ccd66",
+              "frame": 330,
+              "timeSeconds": 5.5
+            },
+            {
+              "url": "/api/design-assets/2514c18f24b7219389d4f886",
+              "frame": 659,
+              "timeSeconds": 10.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 11,
+          "fps": 60,
+          "width": 3840,
+          "height": 2160,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 5.5,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "独立组件",
+          "path": "ep109-selected-20261006/SelectedComponents.tsx",
+          "url": "/api/design-source/096a7713f2f4b56f2551e1f5",
+          "symbol": "EP109Selected03",
+          "sha256": "096a7713f2f4b56f2551e1f508253859082259b6eccb01e50d3f1caf7af95783",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/versions/v8/adapters/LateRecordingFocus.tsx",
+          "url": "/api/design-source/e74046743e06246b47844dcc",
+          "symbol": "LateRecordingFocus",
+          "sha256": "e74046743e06246b47844dcc64210e4c01f89b3e7fbca6557cd2cbf6624a5ee6",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/NativeSceneClock.tsx",
+          "url": "/api/design-source/86c6edaabf8552051ffb54f7",
+          "symbol": "NativeSceneClock",
+          "sha256": "86c6edaabf8552051ffb54f7b1dc33c439ff73329edb2e080ff70472fac9d348",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep109-selected-03",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 2,
+      "addedAt": "2026-10-06T21:39:00+08:00",
+      "isNew": true,
+      "displayPriority": -19.997,
+      "matching": {
+        "referenceId": "ep109-selected-03",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "ep109",
+        "conceptIds": [
+          "focus",
+          "document",
+          "media"
+        ],
+        "inputObjects": [
+          "录屏",
+          "真实文字ROI",
+          "蒙版"
+        ],
+        "action": "录屏真实文字局部提起与连续阅读",
+        "segmentRole": "完整选段场景",
+        "nativeDurationSeconds": 11,
+        "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+        "tags": [
+          "第109期",
+          "用户精选",
+          "录屏",
+          "真实文字ROI",
+          "蒙版",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-06T21:39:00+08:00",
+        "label": "109-03",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading",
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "prompt-reading",
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/4852c2e1d6b9157798498ad1",
+        "filename": "ep109-selected-20261006-source.zip",
+        "sha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 209614178
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep109-selected-20261006"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "collectionId": "ep109-selected-20261006"
+    },
+    {
+      "id": "component:ep109-selected-04",
+      "label": "109-04",
+      "title": "画中画扩展为双窗证据对照",
+      "kind": "components",
+      "category": "图片与作品",
+      "origin": "第109期精选",
+      "description": "画中画扩展为双窗证据对照",
+      "tags": [
+        "第109期",
+        "109",
+        "109-04",
+        "主画面",
+        "画中画",
+        "双窗",
+        "用户精选",
+        "图片与作品",
+        "并排比较结果"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景源码 · 独立工程",
+        "parameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "limitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/efa4cbde6cbf7a83c21e220c",
+          "posterUrl": "/api/design-assets/032c4a38faf5a2af98ab588c",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/1929accd7d4696b4a135e50f",
+              "frame": 12,
+              "timeSeconds": 0.2
+            },
+            {
+              "url": "/api/design-assets/032c4a38faf5a2af98ab588c",
+              "frame": 120,
+              "timeSeconds": 2.0
+            },
+            {
+              "url": "/api/design-assets/09af85b6db94bf15935ca87f",
+              "frame": 239,
+              "timeSeconds": 3.9833333333333334
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4,
+          "fps": 60,
+          "width": 3840,
+          "height": 2160,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.0,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "独立组件",
+          "path": "ep109-selected-20261006/SelectedComponents.tsx",
+          "url": "/api/design-source/096a7713f2f4b56f2551e1f5",
+          "symbol": "EP109Selected04",
+          "sha256": "096a7713f2f4b56f2551e1f508253859082259b6eccb01e50d3f1caf7af95783",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/versions/v8/adapters/V4Entry.tsx",
+          "url": "/api/design-source/4e31944e5221a46790858471",
+          "symbol": "RecordedFightEvidence",
+          "sha256": "4e31944e5221a46790858471b6046b06fae80175cb8db5e7deadf71757b78dd6",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/NativeSceneClock.tsx",
+          "url": "/api/design-source/86c6edaabf8552051ffb54f7",
+          "symbol": "NativeSceneClock",
+          "sha256": "86c6edaabf8552051ffb54f7b1dc33c439ff73329edb2e080ff70472fac9d348",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep109-selected-04",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "images",
+      "libraryOrder": 3,
+      "addedAt": "2026-10-06T21:39:00+08:00",
+      "isNew": true,
+      "displayPriority": -19.996,
+      "matching": {
+        "referenceId": "ep109-selected-04",
+        "primaryUse": "images",
+        "useIds": [
+          "images",
+          "handoff"
+        ],
+        "sourceId": "ep109",
+        "conceptIds": [
+          "comparison",
+          "media"
+        ],
+        "inputObjects": [
+          "主画面",
+          "画中画",
+          "双窗"
+        ],
+        "action": "画中画扩展为双窗证据对照",
+        "segmentRole": "完整选段场景",
+        "nativeDurationSeconds": 4,
+        "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+        "tags": [
+          "第109期",
+          "用户精选",
+          "主画面",
+          "画中画",
+          "双窗",
+          "图片与作品",
+          "并排比较结果"
+        ],
+        "scenarioId": "compare",
+        "scenarioTitle": "并排比较结果",
+        "addedAt": "2026-10-06T21:39:00+08:00",
+        "label": "109-04",
+        "categoryId": "images",
+        "category": "图片与作品",
+        "sceneTypes": [
+          "image-comparison"
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/4852c2e1d6b9157798498ad1",
+        "filename": "ep109-selected-20261006-source.zip",
+        "sha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 209614178
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep109-selected-20261006"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "collectionId": "ep109-selected-20261006"
+    },
+    {
+      "id": "component:ep109-selected-05",
+      "label": "109-05",
+      "title": "三行重点与左向箭头逐行聚焦",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "第109期精选",
+      "description": "三行重点与左向箭头逐行聚焦",
+      "tags": [
+        "第109期",
+        "109",
+        "109-05",
+        "三行文字",
+        "左向箭头",
+        "用户精选",
+        "讲解段落",
+        "列举要点与能力"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景源码 · 独立工程",
+        "parameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "limitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/6fc9c0b5b1c0e3c18d124a81",
+          "posterUrl": "/api/design-assets/2c9d87283efdb6eb012741d1",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/bc82482ca3d207ac51e33d30",
+              "frame": 12,
+              "timeSeconds": 0.2
+            },
+            {
+              "url": "/api/design-assets/2c9d87283efdb6eb012741d1",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/8f97e73c3e694e4855553f87",
+              "frame": 179,
+              "timeSeconds": 2.9833333333333334
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3,
+          "fps": 60,
+          "width": 3840,
+          "height": 2160,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 1.5,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "独立组件",
+          "path": "ep109-selected-20261006/SelectedComponents.tsx",
+          "url": "/api/design-source/096a7713f2f4b56f2551e1f5",
+          "symbol": "EP109Selected05",
+          "sha256": "096a7713f2f4b56f2551e1f508253859082259b6eccb01e50d3f1caf7af95783",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/versions/v8/adapters/RevisionVariety.tsx",
+          "url": "/api/design-source/2e38f7115d051f9e7799a720",
+          "symbol": "FightActionFocus",
+          "sha256": "2e38f7115d051f9e7799a720e8b0829130d0b8e493e0192aabf0749ec02f39f8",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/NativeSceneClock.tsx",
+          "url": "/api/design-source/86c6edaabf8552051ffb54f7",
+          "symbol": "NativeSceneClock",
+          "sha256": "86c6edaabf8552051ffb54f7b1dc33c439ff73329edb2e080ff70472fac9d348",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep109-selected-05",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 4,
+      "addedAt": "2026-10-06T21:39:00+08:00",
+      "isNew": true,
+      "displayPriority": -19.995,
+      "matching": {
+        "referenceId": "ep109-selected-05",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "ep109",
+        "conceptIds": [
+          "focus",
+          "process",
+          "summary"
+        ],
+        "inputObjects": [
+          "三行文字",
+          "左向箭头"
+        ],
+        "action": "三行重点与左向箭头逐行聚焦",
+        "segmentRole": "完整选段场景",
+        "nativeDurationSeconds": 3,
+        "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+        "tags": [
+          "第109期",
+          "用户精选",
+          "三行文字",
+          "左向箭头",
+          "讲解段落",
+          "列举要点与能力"
+        ],
+        "scenarioId": "list",
+        "scenarioTitle": "列举要点与能力",
+        "addedAt": "2026-10-06T21:39:00+08:00",
+        "label": "109-05",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "summary"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/4852c2e1d6b9157798498ad1",
+        "filename": "ep109-selected-20261006-source.zip",
+        "sha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 209614178
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep109-selected-20261006"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "collectionId": "ep109-selected-20261006"
+    },
+    {
+      "id": "component:ep109-selected-06",
+      "label": "109-06",
+      "title": "九宫格规划转连续视频并对齐比较",
+      "kind": "components",
+      "category": "内容交接",
+      "origin": "第109期精选",
+      "description": "九宫格规划转连续视频并对齐比较",
+      "tags": [
+        "第109期",
+        "109",
+        "109-06",
+        "九宫格",
+        "连续视频",
+        "用户精选",
+        "内容交接",
+        "并排比较结果"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "准确场景源码 · 独立工程",
+        "parameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "limitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/581cda502fdcf02b1df23e0c",
+          "posterUrl": "/api/design-assets/81e914243ccbedf1695f43b2",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/2e55ffc9fe05d8f913233097",
+              "frame": 12,
+              "timeSeconds": 0.2
+            },
+            {
+              "url": "/api/design-assets/81e914243ccbedf1695f43b2",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/c6ca2069d176927c6d7254b8",
+              "frame": 299,
+              "timeSeconds": 4.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 5,
+          "fps": 60,
+          "width": 3840,
+          "height": 2160,
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "reviewed"
+        }
+      ],
+      "sources": [
+        {
+          "label": "独立组件",
+          "path": "ep109-selected-20261006/SelectedComponents.tsx",
+          "url": "/api/design-source/096a7713f2f4b56f2551e1f5",
+          "symbol": "EP109Selected06",
+          "sha256": "096a7713f2f4b56f2551e1f508253859082259b6eccb01e50d3f1caf7af95783",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/versions/v9/adapters/ChosenModelStoryboard.tsx",
+          "url": "/api/design-source/897dcbe87e03991ed68e0ff4",
+          "symbol": "ChosenModelStoryboard",
+          "sha256": "897dcbe87e03991ed68e0ff405610ac31c243f5f81e024315e92746272748f84",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "原场景与时钟源码",
+          "path": "ep109-selected-20261006/NativeSceneClock.tsx",
+          "url": "/api/design-source/86c6edaabf8552051ffb54f7",
+          "symbol": "NativeSceneClock",
+          "sha256": "86c6edaabf8552051ffb54f7b1dc33c439ff73329edb2e080ff70472fac9d348",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "ep109-selected-06",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "handoff",
+      "libraryOrder": 5,
+      "addedAt": "2026-10-06T21:39:00+08:00",
+      "isNew": true,
+      "displayPriority": -19.994,
+      "matching": {
+        "referenceId": "ep109-selected-06",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "images",
+          "video-entry"
+        ],
+        "sourceId": "ep109",
+        "conceptIds": [
+          "comparison",
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "九宫格",
+          "连续视频"
+        ],
+        "action": "九宫格规划转连续视频并对齐比较",
+        "segmentRole": "完整选段场景",
+        "nativeDurationSeconds": 5,
+        "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+        "tags": [
+          "第109期",
+          "用户精选",
+          "九宫格",
+          "连续视频",
+          "内容交接",
+          "并排比较结果"
+        ],
+        "scenarioId": "compare",
+        "scenarioTitle": "并排比较结果",
+        "addedAt": "2026-10-06T21:39:00+08:00",
+        "label": "109-06",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "image-comparison",
+          "relationship"
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison",
+        "relationship"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/4852c2e1d6b9157798498ad1",
+        "filename": "ep109-selected-20261006-source.zip",
+        "sha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 209614178
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/ep109-selected-20261006"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "collectionId": "ep109-selected-20261006"
+    },
+    {
+      "id": "component:new30-op02",
+      "label": "OP02",
+      "title": "双侧门片揭开新视频",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "origin": "新增精选组件",
+      "description": "双侧门片揭开新视频",
+      "tags": [
+        "新增精选",
+        "OP02",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "imageSources",
+          "start"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "At least 3 imageSources. Defaults: media.videoA, media.works, start=8. Same continuously mounted main source."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/c6070ad62cf8391828fa2571",
+          "posterUrl": "/api/design-assets/3fb7f3307a52d03cbb1e3ead",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/234bc52364f1628294f218d0",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/3fb7f3307a52d03cbb1e3ead",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/49f1c1d4ee98f63c9097d51c",
+              "frame": 138,
+              "timeSeconds": 2.3
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "c6070ad62cf8391828fa25716dbdc7480668a3a6602f300f7795e1b8f99d7b8f",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.9,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpeningScenes.tsx",
+          "path": "expansion-selected-20261007/src/OpeningScenes.tsx",
+          "symbol": "OP02",
+          "url": "/api/design-source/7ffd8e123f571e373a7012be",
+          "sha256": "7ffd8e123f571e373a7012bed97ca238ce3ecc22631da6637ed284e3ec4451fe",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "OP02",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-op02",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "video-entry",
+      "libraryOrder": 0,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -30.0,
+      "matching": {
+        "referenceId": "new30-op02",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "真实视频",
+          "既有画面"
+        ],
+        "action": "两半真实画面让开，后方结果向前接管",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 4,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "OP02",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "OP02",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-op03",
+      "label": "OP03",
+      "title": "圆形入口展开为视频窗",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "origin": "新增精选组件",
+      "description": "圆形入口展开为视频窗",
+      "tags": [
+        "新增精选",
+        "OP03",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Circular crop becomes 16:9. Default media.videoB; start not read by this function."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/f61577a64b6a86de7b384ea8",
+          "posterUrl": "/api/design-assets/c7b67a650902fc80b9118401",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/29b5136757e839ade040791c",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/c7b67a650902fc80b9118401",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/1210675fdb347cb929bf3466",
+              "frame": 138,
+              "timeSeconds": 2.3
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "f61577a64b6a86de7b384ea8ffd76161216046232a03db0e953d91e70e5f71f3",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.9,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpeningScenes.tsx",
+          "path": "expansion-selected-20261007/src/OpeningScenes.tsx",
+          "symbol": "OP03",
+          "url": "/api/design-source/7ffd8e123f571e373a7012be",
+          "sha256": "7ffd8e123f571e373a7012bed97ca238ce3ecc22631da6637ed284e3ec4451fe",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "OP03",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-op03",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "video-entry",
+      "libraryOrder": 1,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.999,
+      "matching": {
+        "referenceId": "new30-op03",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "真实视频",
+          "既有画面"
+        ],
+        "action": "圆形作品入口连成完整横向播放窗口",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 4,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "OP03",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "OP03",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-op05",
+      "label": "OP05",
+      "title": "问题窗口翻面揭示结果",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "origin": "新增精选组件",
+      "description": "问题窗口翻面揭示结果",
+      "tags": [
+        "新增精选",
+        "OP05",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "title"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Default media.videoB and 这段怎么做出来的？; title fixed 128px logical; longer text requires layout check."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/03fa4bb36668b15d03391c2a",
+          "posterUrl": "/api/design-assets/24b17909a6cdf3c14632ee8e",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/8fa866a28d7cb03a3ab36818",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/24b17909a6cdf3c14632ee8e",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/fd9ec324c850dba1c3e04e25",
+              "frame": 138,
+              "timeSeconds": 2.3
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "03fa4bb36668b15d03391c2a13fc9d4c883c1eed560d8d3a5fb5476059717ea1",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.9,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpeningScenes.tsx",
+          "path": "expansion-selected-20261007/src/OpeningScenes.tsx",
+          "symbol": "OP05",
+          "url": "/api/design-source/7ffd8e123f571e373a7012be",
+          "sha256": "7ffd8e123f571e373a7012bed97ca238ce3ecc22631da6637ed284e3ec4451fe",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "OP05",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-op05",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "video-entry",
+      "libraryOrder": 2,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.998,
+      "matching": {
+        "referenceId": "new30-op05",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "真实视频",
+          "既有画面"
+        ],
+        "action": "完整问题作为同一实体表面翻转，交给视频答案",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 4,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "OP05",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "OP05",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-op09",
+      "label": "OP09",
+      "title": "四个画面汇聚成主片",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "origin": "新增精选组件",
+      "description": "四个画面汇聚成主片",
+      "tags": [
+        "新增精选",
+        "OP09",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Auxiliary windows are fixed to media.videoA, media.videoC, media.works[2]; replace those in shared.tsx when adapting. imageSources is not consumed by OP09. Main src default media.videoB."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/245d10442ad9b1727265cf69",
+          "posterUrl": "/api/design-assets/31697556e3d8ba25932647b0",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/d6a9a0ae63c8ce256c07d40a",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/31697556e3d8ba25932647b0",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/e327b795f3c180f6685a3718",
+              "frame": 138,
+              "timeSeconds": 2.3
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "245d10442ad9b1727265cf698f3c82b8e2ec2251fadf561be350d380ec775bcc",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.9,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OpeningScenes.tsx",
+          "path": "expansion-selected-20261007/src/OpeningScenes.tsx",
+          "symbol": "OP09",
+          "url": "/api/design-source/7ffd8e123f571e373a7012be",
+          "sha256": "7ffd8e123f571e373a7012bed97ca238ce3ecc22631da6637ed284e3ec4451fe",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "OP09",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-op09",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "video-entry",
+      "libraryOrder": 3,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.997,
+      "matching": {
+        "referenceId": "new30-op09",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "真实视频",
+          "既有画面"
+        ],
+        "action": "四个真实画面收束，当前主片保持时钟扩展",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 4,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "OP09",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "OP09",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-op10",
+      "label": "OP10",
+      "title": "鼠标连续擦出主视频",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "origin": "新增精选组件",
+      "description": "鼠标连续擦出主视频",
+      "tags": [
+        "新增精选",
+        "OP10",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "start"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Three geometric wipes over one continuous video. Default media.videoC,start=0."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/7c74ea3b23d3d7f9f1ddb769",
+          "posterUrl": "/api/design-assets/6f7b59650c6ea3e1cbea9435",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/22852b0a1085bc243108a1e5",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/6f7b59650c6ea3e1cbea9435",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/0ef0af663934e6b8b36a2ffe",
+              "frame": 138,
+              "timeSeconds": 2.3
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "7c74ea3b23d3d7f9f1ddb76920f1f8bb347abdcd4729c06175afc121a8097a5f",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 0.9,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NovelScenes.tsx",
+          "path": "expansion-selected-20261007/src/NovelScenes.tsx",
+          "symbol": "OP10",
+          "url": "/api/design-source/ed2b5a341fbdcff7d8bbba48",
+          "sha256": "ed2b5a341fbdcff7d8bbba48b351975c323832e21b759e4fe0f58e21639e5a7c",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "OP10",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-op10",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "video-entry",
+      "libraryOrder": 4,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.996,
+      "matching": {
+        "referenceId": "new30-op10",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "video-entry",
+          "handoff"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "真实视频",
+          "既有画面"
+        ],
+        "action": "三段连续鼠标轨迹擦开同一真实视频，最后稳定完整播放",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 4,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "OP10",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "OP10",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-ex05",
+      "label": "EX05",
+      "title": "错误顺序重排成动作关系",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "新增精选组件",
+      "description": "错误顺序重排成动作关系",
+      "tags": [
+        "新增精选",
+        "EX05",
+        "讲解段落",
+        "解释步骤与流程"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "words"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Three labels ~4 Chinese characters at 86px logical; heading at103px; final at95px. Animation timing fixed to eight seconds."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/cf70ded6ffd059b210f367ce",
+          "posterUrl": "/api/design-assets/d0ee2ef2799d2d1adbbaa309",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/c639a6b82f535ed39aac5e3f",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/d0ee2ef2799d2d1adbbaa309",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/a98c1e26f8d45c38b612348b",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "cf70ded6ffd059b210f367ce0d0e8af314dc9a69be3ebe74f4c22beb331bf7d8",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NovelScenes.tsx",
+          "path": "expansion-selected-20261007/src/NovelScenes.tsx",
+          "symbol": "EX05",
+          "url": "/api/design-source/ed2b5a341fbdcff7d8bbba48",
+          "sha256": "ed2b5a341fbdcff7d8bbba48b351975c323832e21b759e4fe0f58e21639e5a7c",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "EX05",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-ex05",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 5,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.995,
+      "matching": {
+        "referenceId": "new30-ex05",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "text",
+          "process"
+        ],
+        "inputObjects": [
+          "三个词组",
+          "解释结论"
+        ],
+        "action": "同三词从反应/接触/发力，沿不同弧线交换位置，组成发力/接触/反应",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 8,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "EX05",
+          "讲解段落",
+          "解释步骤与流程"
+        ],
+        "scenarioId": "process",
+        "scenarioTitle": "解释步骤与流程",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "EX05",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "relationship",
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "relationship",
+        "summary"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-ex08",
+      "label": "EX08",
+      "title": "两组任务展开，完成后合成下一步检查",
+      "kind": "components",
+      "category": "讲解段落",
+      "origin": "新增精选组件",
+      "description": "两组任务展开，完成后合成下一步检查",
+      "tags": [
+        "新增精选",
+        "EX08",
+        "讲解段落",
+        "分类、分支与归组"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "words"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Two groups with two rows each. Fixed nine-second timing; longer copy requires checking final panel and labels."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/11029b17c5931b82b3137172",
+          "posterUrl": "/api/design-assets/7a0508734ceded61130532e6",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/f2559a446ac4afd2bbb22b23",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/7a0508734ceded61130532e6",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/3322f60371ac78e6583d288b",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 9.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "11029b17c5931b82b31371720569b9a03d45f81b8fe87728ef4575c2a3a6996a",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ExplainScenes.tsx",
+          "path": "expansion-selected-20261007/src/ExplainScenes.tsx",
+          "symbol": "EX08",
+          "url": "/api/design-source/59232a697a30852dc7b9edfc",
+          "sha256": "59232a697a30852dc7b9edfc535d662054adb953839c3f97729088607fcef806",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "EX08",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-ex08",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "explain",
+      "libraryOrder": 6,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.994,
+      "matching": {
+        "referenceId": "new30-ex08",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "handoff"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "text",
+          "process",
+          "summary"
+        ],
+        "inputObjects": [
+          "两组任务",
+          "检查结论"
+        ],
+        "action": "Two compact task carriers expand into grouped responsibilities. First and second rows establish independently with reading holds. Both groups collapse to their names, then one large check statement takes over the combined zone.",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 9,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "EX08",
+          "讲解段落",
+          "分类、分支与归组"
+        ],
+        "scenarioId": "relation",
+        "scenarioTitle": "分类、分支与归组",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "EX08",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "relationship",
+          "summary"
+        ]
+      },
+      "sceneTypes": [
+        "relationship",
+        "summary"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-rc01",
+      "label": "RC01",
+      "title": "真实说明窗局部扩展阅读",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "新增精选组件",
+      "description": "真实说明窗局部扩展阅读",
+      "tags": [
+        "新增精选",
+        "RC01",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/ca656ba99280c80395243ec4",
+          "posterUrl": "/api/design-assets/a06a8fb289af17a8ffa171f7",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/44f7e3fcfc68c220a94817d0",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/a06a8fb289af17a8ffa171f7",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/d7faaa71eefea0a30883f1fd",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "ca656ba99280c80395243ec4dc6decab13609dcc8b6bf921b5493fc41d542034",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RecordingScenes.tsx",
+          "path": "expansion-selected-20261007/src/RecordingScenes.tsx",
+          "symbol": "RC01",
+          "url": "/api/design-source/9be3f5d0622018d546726e64",
+          "sha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "RC01",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-rc01",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 7,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.993,
+      "matching": {
+        "referenceId": "new30-rc01",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "focus",
+          "document",
+          "media"
+        ],
+        "inputObjects": [
+          "真实录屏",
+          "ROI",
+          "阅读暂停"
+        ],
+        "action": "The actual right-hand pane expands locally while page identity stays in place; outside context gets a white wash, then the pane returns to its source position.",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 8,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "RC01",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "RC01",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-rc02",
+      "label": "RC02",
+      "title": "整页镜头推近与回全貌",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "新增精选组件",
+      "description": "整页镜头推近与回全貌",
+      "tags": [
+        "新增精选",
+        "RC02",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/2e1fb6d2927271c1bd4e9df4",
+          "posterUrl": "/api/design-assets/fb632177bbe334c6dc63b8fd",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/75ea45dec0781fcd8dbb892f",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/fb632177bbe334c6dc63b8fd",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/6e5dc1f95b17a6369729596a",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "2e1fb6d2927271c1bd4e9df4e326ed3bd144d3bb8f4e3d7d2afe84fd34bfa46c",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RecordingScenes.tsx",
+          "path": "expansion-selected-20261007/src/RecordingScenes.tsx",
+          "symbol": "RC02",
+          "url": "/api/design-source/9be3f5d0622018d546726e64",
+          "sha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "RC02",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-rc02",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 8,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.992,
+      "matching": {
+        "referenceId": "new30-rc02",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "focus",
+          "document",
+          "media"
+        ],
+        "inputObjects": [
+          "真实录屏",
+          "ROI",
+          "阅读暂停"
+        ],
+        "action": "A single camera continuously scales the uninterrupted source around a real ROI; there is no detached duplicate card. Camera positions clamp to source bounds.",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 8,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "RC02",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "RC02",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-rc03",
+      "label": "RC03",
+      "title": "真实动作与结论连续换焦",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "新增精选组件",
+      "description": "真实动作与结论连续换焦",
+      "tags": [
+        "新增精选",
+        "RC03",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "start",
+          "roiA",
+          "roiB",
+          "clock"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/0506b3d067a1a02916e52273",
+          "posterUrl": "/api/design-assets/9d17ee578f60fbb219ad3765",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/d0dae4b59f0f61cf27df75f4",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/9d17ee578f60fbb219ad3765",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/926da611dbac6608ec7565c6",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "0506b3d067a1a02916e52273f57f681da3779a1022e329dfe3a567b05bb283be",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RecordingScenes.tsx",
+          "path": "expansion-selected-20261007/src/RecordingScenes.tsx",
+          "symbol": "RC03",
+          "url": "/api/design-source/9be3f5d0622018d546726e64",
+          "sha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "RC03",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-rc03",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 9,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.991,
+      "matching": {
+        "referenceId": "new30-rc03",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "focus",
+          "document",
+          "media"
+        ],
+        "inputObjects": [
+          "真实录屏",
+          "ROI",
+          "阅读暂停"
+        ],
+        "action": "Camera first establishes the real action video, moves directly across the same source page to its written conclusion, then returns. Media time never restarts between the two ROIs.",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 8,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "RC03",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "RC03",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-rc04",
+      "label": "RC04",
+      "title": "真实段落提起与归位",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "新增精选组件",
+      "description": "真实段落提起与归位",
+      "tags": [
+        "新增精选",
+        "RC04",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/4108568c245d341eac5f4b79",
+          "posterUrl": "/api/design-assets/6f9673c1d7e856b1c10f211e",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/e5fb78f711a9ffb4ede795fa",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/6f9673c1d7e856b1c10f211e",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/98a4552742b2b2f1891f9309",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "4108568c245d341eac5f4b790a42b960c101fe6eea2c4f68b24fd8fb0ab2c6eb",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RecordingScenes.tsx",
+          "path": "expansion-selected-20261007/src/RecordingScenes.tsx",
+          "symbol": "RC04",
+          "url": "/api/design-source/9be3f5d0622018d546726e64",
+          "sha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "RC04",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-rc04",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 10,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.99,
+      "matching": {
+        "referenceId": "new30-rc04",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "focus",
+          "document",
+          "media"
+        ],
+        "inputObjects": [
+          "真实录屏",
+          "ROI",
+          "阅读暂停"
+        ],
+        "action": "Only the actual paragraph crop is lifted to the central reading card; the complete original page remains behind it, then the crop returns exactly to origin. Both video instances use identical startFrom.",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 8,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "RC04",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "RC04",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-rc05",
+      "label": "RC05",
+      "title": "真实长文档纵向跟读",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "origin": "新增精选组件",
+      "description": "真实长文档纵向跟读",
+      "tags": [
+        "新增精选",
+        "RC05",
+        "录屏聚焦",
+        "局部放大与标注"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/32c949078d0062cd060d8cdb",
+          "posterUrl": "/api/design-assets/b35442d70f3f5c759d514d5a",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/2acf64b87e7cd8c130e43885",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/b35442d70f3f5c759d514d5a",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/472469c6b99a3f3d18955320",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 8.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "32c949078d0062cd060d8cdb721aef55a3be807ab32d3e5d47af09b6c36599cf",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "RecordingScenes.tsx",
+          "path": "expansion-selected-20261007/src/RecordingScenes.tsx",
+          "symbol": "RC05",
+          "url": "/api/design-source/9be3f5d0622018d546726e64",
+          "sha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "RC05",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-rc05",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "recording-focus",
+      "libraryOrder": 11,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.989,
+      "matching": {
+        "referenceId": "new30-rc05",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "focus",
+          "document",
+          "media"
+        ],
+        "inputObjects": [
+          "真实录屏",
+          "ROI",
+          "阅读暂停"
+        ],
+        "action": "The real scrolling document separates into a tall reading aperture and a page context window. Natural source scrolling is preserved, the context retains its real scrollbar, and the lower edge softly masks content leaving the aperture. Both views return to a single page.",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 8,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "RC05",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "RC05",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      },
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-hd02",
+      "label": "HD02",
+      "title": "旧片留位新片接管",
+      "kind": "components",
+      "category": "内容交接",
+      "origin": "新增精选组件",
+      "description": "旧片留位新片接管",
+      "tags": [
+        "新增精选",
+        "HD02",
+        "内容交接",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "oldSrc",
+          "src"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Two videos share composition time and default start=0. The next source starts playing while offscreen; it is not reset when expanded."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/df1e3a2470e148e57ea28310",
+          "posterUrl": "/api/design-assets/eae356f51ff7bfe94dd0b731",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/a080a030f0a4db320ca82452",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/eae356f51ff7bfe94dd0b731",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/7be19e02877a68dbb3436a9c",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "df1e3a2470e148e57ea28310665a8071cc77979c27bd750cd872081c8328e26f",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "HandoffScenes.tsx",
+          "path": "expansion-selected-20261007/src/HandoffScenes.tsx",
+          "symbol": "HD02",
+          "url": "/api/design-source/b84d76ec35984ea80b9983b0",
+          "sha256": "b84d76ec35984ea80b9983b084aafe6ffcaf68f7363ea3fe4ded722be8a8f45a",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "HD02",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-hd02",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "handoff",
+      "libraryOrder": 12,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.988,
+      "matching": {
+        "referenceId": "new30-hd02",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "旧视频",
+          "新视频"
+        ],
+        "action": "旧片缩小并保留→新片侧向进入→新片落定准确大窗",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 7,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "HD02",
+          "内容交接",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "scenarioTitle": "窗口与媒体交接",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "HD02",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      },
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:new30-hd03",
+      "label": "HD03",
+      "title": "作品墙抽片播放",
+      "kind": "components",
+      "category": "图片与作品",
+      "origin": "新增精选组件",
+      "description": "作品墙抽片播放",
+      "tags": [
+        "新增精选",
+        "HD03",
+        "图片与作品",
+        "多图与作品墙"
+      ],
+      "selectionStatus": "keep",
+      "reusability": {
+        "level": "snapshot",
+        "label": "用户精选 · 独立场景源码",
+        "parameters": [
+          "src",
+          "works",
+          "selectedIndex"
+        ],
+        "limitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Nine-source wall; images or videos supported by Media. Cursor geometry is fixed to central choice, so noncentral selectedIndex requires cursor adaptation and visual check. Match the selected still identity to the resulting video."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/8878df374617c12e1f54f2b0",
+          "posterUrl": "/api/design-assets/94b045caed4ee4346f1df736",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/da7a429e1d04eae7f9daff29",
+              "frame": 9,
+              "timeSeconds": 0.15
+            },
+            {
+              "url": "/api/design-assets/94b045caed4ee4346f1df736",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/d7038752b88146b0149eb8fc",
+              "frame": 360,
+              "timeSeconds": 6
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "8878df374617c12e1f54f2b0f36fcad79288d59a1637add22ad85cbf62d09209",
+          "audioPolicy": "no-audio-track",
+          "posterTimeSeconds": 2.5,
+          "posterSelection": "actual selected mechanism state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "HandoffScenes.tsx",
+          "path": "expansion-selected-20261007/src/HandoffScenes.tsx",
+          "symbol": "HD03",
+          "url": "/api/design-source/b84d76ec35984ea80b9983b0",
+          "sha256": "b84d76ec35984ea80b9983b084aafe6ffcaf68f7363ea3fe4ded722be8a8f45a",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "shared.tsx",
+          "path": "expansion-selected-20261007/src/shared.tsx",
+          "symbol": "Frame / Media / Window / Fonts",
+          "url": "/api/design-source/b589565211dd4ceca0aab1fd",
+          "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "component-interfaces.json",
+          "path": "expansion-selected-20261007/component-interfaces.json",
+          "symbol": "HD03",
+          "url": "/api/design-source/0b3090bced9692d75312b844",
+          "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "referenceId": "new30-hd03",
+      "mergedInto": [],
+      "hiddenReason": null,
+      "visibleByDefault": true,
+      "categoryId": "images",
+      "libraryOrder": 13,
+      "addedAt": "2026-10-07T08:41:15+08:00",
+      "isNew": true,
+      "displayPriority": -29.987,
+      "matching": {
+        "referenceId": "new30-hd03",
+        "primaryUse": "images",
+        "useIds": [
+          "images",
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "expansion-selected",
+        "conceptIds": [
+          "media",
+          "handoff",
+          "cards"
+        ],
+        "inputObjects": [
+          "九张作品",
+          "对应视频"
+        ],
+        "action": "3×3九作品墙→中央index4的Fred笔电画面抬起、其他画面退后→接同一Fred笔电人物live视频",
+        "segmentRole": "用户已选完整示例组件",
+        "nativeDurationSeconds": 7,
+        "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。",
+        "tags": [
+          "新增精选",
+          "HD03",
+          "图片与作品",
+          "多图与作品墙"
+        ],
+        "scenarioId": "wall",
+        "scenarioTitle": "多图与作品墙",
+        "addedAt": "2026-10-07T08:41:15+08:00",
+        "label": "HD03",
+        "categoryId": "images",
+        "category": "图片与作品",
+        "sceneTypes": [
+          "image-comparison"
+        ]
+      },
+      "sceneTypes": [
+        "image-comparison"
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/8654ff8e2342c4d39011c618",
+        "filename": "expansion-selected-20261007-source.zip",
+        "sha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 158183616
+      },
+      "collectionId": "expansion-selected-20261007",
+      "defaultReuse": true,
+      "implementation": {
+        "projects": [
+          "components/projects/expansion-selected-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "status": "keep"
+    },
+    {
+      "id": "component:interaction-news-brush",
+      "referenceId": "interaction-news-brush",
+      "label": "INT01",
+      "title": "黄色荧光笔刷出与镜头推进",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "交互组件组",
+      "description": "黄色荧光笔刷出与镜头推进",
+      "tags": [
+        "截图聚焦",
+        "交互组件",
+        "INT01",
+        "交互组件组",
+        "先推进再突出"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "interaction-components-20261007",
+      "addedAt": "2026-10-07T15:27:49+08:00",
+      "isNew": true,
+      "displayPriority": -40,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 交互组件",
+        "parameters": [
+          "src",
+          "sourceWidth",
+          "sourceHeight",
+          "regions",
+          "order",
+          "emphasisAt",
+          "cameraSeconds",
+          "zoom"
+        ],
+        "limitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/0cb2f0d0ffbd97ad21bbf3b7",
+          "posterUrl": "/api/design-assets/5c96496af56c811de980a729",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/74bc5bedc349214154db0281",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/3fa2a1efbca61983ef6ebca2",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/5c96496af56c811de980a729",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/5c96496af56c811de980a729",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/ab2d92738f3a6e091d1c3235",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+          "label": "同步推进与突出",
+          "audioPolicy": "no-audio-track"
+        },
+        {
+          "videoUrl": "/api/design-assets/dfe4ccfc0f392b550b78e5f3",
+          "posterUrl": "/api/design-assets/5c96496af56c811de980a729",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/e43ee14fdae35e3b63e1539e",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/fdbbd150af9e54248aad5833",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/3fc1712d5b11fefe3f51c2f2",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/5c96496af56c811de980a729",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/ab2d92738f3a6e091d1c3235",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "dfe4ccfc0f392b550b78e5f3d2df32ff86d6009e3faeccd1fdc492b14bad4709",
+          "label": "先推进，再突出",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NewsFocus.tsx",
+          "path": "src/NewsFocus.tsx",
+          "symbol": "NewsBrushFocus",
+          "url": "/api/design-source/5f839ff118d1050318f4e4c0",
+          "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/326dfbdf816064e397060762",
+        "filename": "interaction-components-20261007-source.zip",
+        "sha256": "326dfbdf816064e3970607624845a290b8d3df689d70eb5061485ba2cc07c8c0",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 18469547
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/interaction-components-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "interaction-news-brush",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "interaction-components",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实截图"
+        ],
+        "action": "黄色荧光笔刷出与镜头推进",
+        "segmentRole": "交互组件",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。",
+        "tags": [
+          "截图聚焦",
+          "交互组件",
+          "INT01",
+          "交互组件组",
+          "先推进再突出"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T15:27:49+08:00",
+        "label": "INT01",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:interaction-news-spotlight",
+      "referenceId": "interaction-news-spotlight",
+      "label": "INT02",
+      "title": "局部蒙版聚焦与镜头推进",
+      "kind": "components",
+      "category": "录屏聚焦",
+      "categoryId": "recording-focus",
+      "origin": "交互组件组",
+      "description": "局部蒙版聚焦与镜头推进",
+      "tags": [
+        "截图聚焦",
+        "交互组件",
+        "INT02",
+        "交互组件组",
+        "先推进再突出"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "interaction-components-20261007",
+      "addedAt": "2026-10-07T15:27:49+08:00",
+      "isNew": true,
+      "displayPriority": -40,
+      "libraryOrder": 1,
+      "sceneTypes": [
+        "prompt-reading",
+        "frosted-focus"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 交互组件",
+        "parameters": [
+          "src",
+          "regions",
+          "order",
+          "emphasisAt",
+          "dimOpacity",
+          "zoom",
+          "sourceWidth",
+          "sourceHeight"
+        ],
+        "limitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/2685893955a82d04984f7255",
+          "posterUrl": "/api/design-assets/c0026b50af0ca692440a2b83",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/d90db900c1a1d8ccac3297a4",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/d80df6d9660ab7e5522c8262",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/c0026b50af0ca692440a2b83",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/c0026b50af0ca692440a2b83",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/51527407e9a257b8ecaca537",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+          "label": "同步推进与突出",
+          "audioPolicy": "no-audio-track"
+        },
+        {
+          "videoUrl": "/api/design-assets/31bbd02acb86c9c20e5bcae2",
+          "posterUrl": "/api/design-assets/c0026b50af0ca692440a2b83",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/e43ee14fdae35e3b63e1539e",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/fdbbd150af9e54248aad5833",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/678e48922d3725506b9951dd",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/c0026b50af0ca692440a2b83",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/51527407e9a257b8ecaca537",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "31bbd02acb86c9c20e5bcae2321b98becf402532783bfc790d4d4a08a596e1f7",
+          "label": "先推进，再突出",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NewsFocus.tsx",
+          "path": "src/NewsFocus.tsx",
+          "symbol": "NewsSpotlightFocus",
+          "url": "/api/design-source/5f839ff118d1050318f4e4c0",
+          "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/326dfbdf816064e397060762",
+        "filename": "interaction-components-20261007-source.zip",
+        "sha256": "326dfbdf816064e3970607624845a290b8d3df689d70eb5061485ba2cc07c8c0",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 18469547
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/interaction-components-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "interaction-news-spotlight",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "interaction-components",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实截图"
+        ],
+        "action": "局部蒙版聚焦与镜头推进",
+        "segmentRole": "交互组件",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。",
+        "tags": [
+          "截图聚焦",
+          "交互组件",
+          "INT02",
+          "交互组件组",
+          "先推进再突出"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T15:27:49+08:00",
+        "label": "INT02",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading",
+          "frosted-focus"
+        ]
+      }
+    },
+    {
+      "id": "component:interaction-codex-full",
+      "referenceId": "interaction-codex-full",
+      "label": "INT03",
+      "title": "Codex全貌、浮起输入、回复与媒体播放",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "交互组件组",
+      "description": "Codex全貌、浮起输入、回复与媒体播放",
+      "tags": [
+        "截图聚焦",
+        "交互组件",
+        "INT03",
+        "交互组件组",
+        "聊天"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "interaction-components-20261007",
+      "addedAt": "2026-10-07T15:27:49+08:00",
+      "isNew": true,
+      "displayPriority": -40,
+      "libraryOrder": 2,
+      "sceneTypes": [
+        "device-demo",
+        "prompt-reading"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 交互组件",
+        "parameters": [
+          "desktopSrc",
+          "playbackSrc",
+          "prompt",
+          "typingSeconds"
+        ],
+        "limitations": [
+          "New content/ROI/timing combinations require current visual checks.",
+          "Screenshot-driven Codex prompt must match the corresponding source message and reply pixels; no automatic OCR.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/ead9a19e7cdc67834904656d",
+          "posterUrl": "/api/design-assets/bc5f9b809e54851f1b088dcd",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/75d75be9b65d7ee7796c7a40",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/bc5f9b809e54851f1b088dcd",
+              "frame": 201,
+              "timeSeconds": 3.35
+            },
+            {
+              "url": "/api/design-assets/4ac63efee887047bc34b3837",
+              "frame": 473,
+              "timeSeconds": 7.883333333333334
+            },
+            {
+              "url": "/api/design-assets/bee4effd705dd4256eb8eaf8",
+              "frame": 669,
+              "timeSeconds": 11.15
+            },
+            {
+              "url": "/api/design-assets/4289f922bd93eb2707ba46ee",
+              "frame": 848,
+              "timeSeconds": 14.133333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 14.15,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "ead9a19e7cdc67834904656dee551044bb26b901915c3e1d52bfdf35496e9376",
+          "label": "Codex全貌、浮起输入、回复与媒体播放",
+          "audioPolicy": "interface-sfx"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CodexFullWindowFlow.tsx",
+          "path": "src/CodexFullWindowFlow.tsx",
+          "symbol": "CodexFullWindowFlow",
+          "url": "/api/design-source/6d69657476f42c06a52bc2e0",
+          "sha256": "6d69657476f42c06a52bc2e03f5b1b1233b9f9f197356d5028a0513aba420987",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/326dfbdf816064e397060762",
+        "filename": "interaction-components-20261007-source.zip",
+        "sha256": "326dfbdf816064e3970607624845a290b8d3df689d70eb5061485ba2cc07c8c0",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 18469547
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/interaction-components-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "interaction-codex-full",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "interaction-components",
+        "conceptIds": [
+          "chat"
+        ],
+        "inputObjects": [
+          "真实截图"
+        ],
+        "action": "Codex全貌、浮起输入、回复与媒体播放",
+        "segmentRole": "交互组件",
+        "nativeDurationSeconds": 14.15,
+        "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。",
+        "tags": [
+          "截图聚焦",
+          "交互组件",
+          "INT03",
+          "交互组件组",
+          "聊天"
+        ],
+        "scenarioId": "input",
+        "scenarioTitle": "输入、聊天与反馈",
+        "addedAt": "2026-10-07T15:27:49+08:00",
+        "label": "INT03",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "device-demo",
+          "prompt-reading"
+        ]
+      }
+    },
+    {
+      "id": "component:interaction-wechat",
+      "referenceId": "interaction-wechat",
+      "label": "INT04",
+      "title": "可编辑微信对话与转发卡片推进",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "交互组件组",
+      "description": "可编辑微信对话与转发卡片推进",
+      "tags": [
+        "截图聚焦",
+        "交互组件",
+        "INT04",
+        "交互组件组",
+        "聊天"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "interaction-components-20261007",
+      "addedAt": "2026-10-07T15:27:49+08:00",
+      "isNew": true,
+      "displayPriority": -40,
+      "libraryOrder": 3,
+      "sceneTypes": [
+        "device-demo"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 交互组件",
+        "parameters": [
+          "contactName",
+          "selfInitial",
+          "peerInitial",
+          "messages",
+          "messageVolume",
+          "withSound",
+          "fontFamily"
+        ],
+        "limitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/2338ef159e035fceeaa316b1",
+          "posterUrl": "/api/design-assets/d48e286d09d905dcad0162be",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/62527fdaad9b69665a155109",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/ea7a46f328a06f5c0fd23d12",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/74a70937e31291c8a2ad4749",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/74a70937e31291c8a2ad4749",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/d48e286d09d905dcad0162be",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/1590cd4efd2963af0b57afc9",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/adeac6cb7e7f4003851a4f94",
+              "frame": 749,
+              "timeSeconds": 12.483333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 12.5,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "2338ef159e035fceeaa316b17ed1d9303a3ecc09283a1e0e8ff42077d2d09b1d",
+          "label": "可编辑微信对话与转发卡片推进",
+          "audioPolicy": "interface-sfx"
+        }
+      ],
+      "sources": [
+        {
+          "label": "WeChatConversation.tsx",
+          "path": "src/WeChatConversation.tsx",
+          "symbol": "WeChatConversation",
+          "url": "/api/design-source/5c6d8e552a6b0924584fcf6d",
+          "sha256": "5c6d8e552a6b0924584fcf6df8f83413dc306d7599d047d503996138e3a86415",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/design-assets/326dfbdf816064e397060762",
+        "filename": "interaction-components-20261007-source.zip",
+        "sha256": "326dfbdf816064e3970607624845a290b8d3df689d70eb5061485ba2cc07c8c0",
+        "available": true,
+        "kind": "independent-source-with-local-media",
+        "size": 18469547
+      },
+      "implementation": {
+        "projects": [
+          "components/projects/interaction-components-20261007"
+        ],
+        "reuseBoundary": "Public independent source snapshot; materialize media declared in library/media-manifest.json."
+      },
+      "matching": {
+        "referenceId": "interaction-wechat",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "interaction-components",
+        "conceptIds": [
+          "chat"
+        ],
+        "inputObjects": [
+          "可编辑消息"
+        ],
+        "action": "可编辑微信对话与转发卡片推进",
+        "segmentRole": "交互组件",
+        "nativeDurationSeconds": 12.5,
+        "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。",
+        "tags": [
+          "截图聚焦",
+          "交互组件",
+          "INT04",
+          "交互组件组",
+          "聊天"
+        ],
+        "scenarioId": "input",
+        "scenarioTitle": "输入、聊天与反馈",
+        "addedAt": "2026-10-07T15:27:49+08:00",
+        "label": "INT04",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "device-demo"
+        ]
+      }
+    },
+    {
       "id": "component:ep102-selected-01",
       "label": "102-01",
       "title": "四作品聚拢并显现组合",
@@ -3282,222 +8084,6 @@
       ]
     },
     {
-      "id": "combined-remake:SP021",
-      "referenceId": "library-selfpick24-sp021",
-      "label": "SP021",
-      "title": "深色窗口中的三行能力词",
-      "kind": "remakes",
-      "category": "讲解段落",
-      "categoryId": "explain",
-      "origin": "FredTalk 组件库",
-      "description": "深色窗口里的三行能力词和侧边箭头组成短时强调。",
-      "tags": [
-        "SP021",
-        "Library",
-        "Library24",
-        "自选24",
-        "revision04",
-        "关键词、清单与目标",
-        "第106期",
-        "讲解段落",
-        "文字",
-        "信息结构",
-        "一段解释",
-        "列举要点与能力"
-      ],
-      "selectionStatus": "keep",
-      "hiddenReason": null,
-      "mergedInto": [],
-      "visibleByDefault": true,
-      "libraryOrder": 20,
-      "reusability": {
-        "level": "snapshot",
-        "label": "已认可 · 场景源码",
-        "parameters": [
-          "includeSourceAudio（参考音轨开关，默认true）"
-        ],
-        "limitations": [
-          "固定内容场景；不提供已验证任意文案、数量或画幅的通用参数API。",
-          "素材含真实录屏、人物及原生帧图层，换内容时需准备相应实体媒体。",
-          "用户认可用于复用，不等于与Library参考片段逐像素一致或修后内部全帧动态验收。",
-          "源空心双色箭头改Fred实体紫，属于风格替代。",
-          "当前公开素材包不包含原参考音轨；复用时禁用此旧开关并提供自己的录音。"
-        ]
-      },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/db654d03d5013a3cd815cfb9",
-          "posterUrl": "/api/design-assets/9ff7444950d9ee500f380e54",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/6818b25f3e9a49817ae79b4b",
-              "timeSeconds": 0.4,
-              "frame": 12
-            },
-            {
-              "url": "/api/design-assets/c67cfdc5be29c098512f265a",
-              "timeSeconds": 0.9333333333333333,
-              "frame": 28
-            },
-            {
-              "url": "/api/design-assets/92af520b4f021c6af66c60d9",
-              "timeSeconds": 1.4,
-              "frame": 42
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 1.8333333333333333,
-          "fps": 30,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 0.9333333333333333,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "sp021.tsx",
-          "symbol": "SP021",
-          "url": "/api/design-source/a46308dd46d16d3ec0913760",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "README.md",
-          "symbol": "",
-          "url": "/api/design-source/2dd422729a6a5f7538c9c38b",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "compositions.json",
-          "symbol": "",
-          "url": "/api/design-source/3ecb5b3ecb7735ed92f0c3a2",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "dependency-manifest.json",
-          "symbol": "",
-          "url": "/api/design-source/bd63e7ebafe43f2da579f886",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "manifest.json",
-          "symbol": "",
-          "url": "/api/design-source/a913616389b595c6f8e7fb37",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package-lock.json",
-          "symbol": "",
-          "url": "/api/design-source/676eb6b31a9f9c84f8c6322e",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package.json",
-          "symbol": "",
-          "url": "/api/design-source/5ab18162fa4b8b18217d6505",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "render.cjs",
-          "symbol": "",
-          "url": "/api/design-source/93358bef51017f3a3e600b0c",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "fred-scene.tsx",
-          "symbol": "",
-          "url": "/api/design-source/102d45f8ec4dd9897b880ba5",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "library-entry.tsx",
-          "symbol": "",
-          "url": "/api/design-source/d6bfca0d734454bb6fe6da90",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "sp021-extra-native.json",
-          "symbol": "",
-          "url": "/api/design-source/5bd513fa45945d0dadd5a6c9",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "sp021-source-motion.json",
-          "symbol": "",
-          "url": "/api/design-source/d0d317d1a96122cfa69b2b2b",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "sp021.tsx",
-          "symbol": "",
-          "url": "/api/design-source/a46308dd46d16d3ec0913760",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "matching": {
-        "referenceId": "library-selfpick24-sp021",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构"
-        ],
-        "action": "深色窗口中的三行能力词",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 1.833,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "文字",
-          "信息结构",
-          "一段解释",
-          "列举要点与能力"
-        ],
-        "scenarioId": "list",
-        "scenarioTitle": "列举要点与能力",
-        "label": "SP021",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "summary"
-        ]
-      },
-      "sceneTypes": [
-        "summary"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/715f24e6f6f4"
-        ],
-        "compositionId": null,
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 8,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
       "id": "component:fred-motion-source-f9dc5562d54cda56",
       "label": "C008",
       "title": "前一步引出后一步",
@@ -3616,7 +8202,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:fred-motion-source-e3fdd979631e6fed",
@@ -3848,7 +8436,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:fred-motion-source-2d6091077a210695",
@@ -4211,7 +8801,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:preview-v2-talk-chat-message-flow",
@@ -4638,7 +9230,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n002",
@@ -6189,7 +10783,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n016",
@@ -6357,7 +10953,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n018",
@@ -6496,202 +11094,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:library-new10-n023",
-      "label": "N023",
-      "title": "画中画参考片段放大为等大双窗对照",
-      "kind": "components",
-      "category": "录屏与视频入场",
-      "origin": "FredTalk 组件库",
-      "description": "前后版本对照、AI 改造与参考片段比较、同步验证视觉一致性。",
-      "tags": [
-        "画中画参考片段放大为等大双窗对照",
-        "逻辑与流程",
-        "数据与对比",
-        "录屏与视频入场",
-        "图片与作品",
-        "内容交接",
-        "录屏",
-        "视频",
-        "窗口",
-        "图片",
-        "作品",
-        "前后内容",
-        "载体",
-        "真实媒体进入讲解",
-        "并排比较结果"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
       },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/3a2a544c2a0d8c10e4ae58d6",
-          "posterUrl": "/api/design-assets/2efbad18f1c60c01b9f03c59",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/0122774e45fb5c06bb0fdce3",
-              "timeSeconds": 0.917,
-              "frame": 55
-            },
-            {
-              "url": "/api/design-assets/d987680fa41fc53a18846a0c",
-              "timeSeconds": 2.183,
-              "frame": 131
-            },
-            {
-              "url": "/api/design-assets/c4acd06dab26908f54f0b6e7",
-              "timeSeconds": 3.283,
-              "frame": 197
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 4.2,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 2.1,
-          "posterSelection": "reviewed",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "sources": [
-        {
-          "label": "BatchC.tsx",
-          "symbol": "BatchC",
-          "url": "/api/design-source/0c420727e2aef11366c5af1a",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "BatchC.tsx",
-          "symbol": "",
-          "url": "/api/design-source/0c420727e2aef11366c5af1a",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "index.tsx",
-          "symbol": "",
-          "url": "/api/design-source/9bd30027ac727e3097c8e526",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "package-lock.json",
-          "symbol": "",
-          "url": "/api/design-source/5d02b542b76987fbac880994",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-policy.tsx",
-          "symbol": "",
-          "url": "/api/design-source/496bf6ea78205c1e87f191e2",
-          "available": true,
-          "status": "ready"
-        },
-        {
-          "label": "material-bindings.json",
-          "symbol": "",
-          "url": "/api/design-source/7986dba0cc5039b1d159a2b1",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-n023",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "video-entry",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-n023",
-        "primaryUse": "video-entry",
-        "useIds": [
-          "video-entry",
-          "images",
-          "handoff"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "media",
-          "handoff",
-          "comparison"
-        ],
-        "inputObjects": [
-          "录屏",
-          "视频",
-          "窗口",
-          "图片",
-          "作品",
-          "前后内容",
-          "载体"
-        ],
-        "action": "画中画参考片段放大为等大双窗对照",
-        "segmentRole": "真实媒体进入讲解",
-        "nativeDurationSeconds": 4.2,
-        "adaptation": "替换真实媒体，保留连续媒体时钟；按片段进出点检查全屏、窗口与设备之间的交接。",
-        "tags": [
-          "录屏与视频入场",
-          "图片与作品",
-          "内容交接",
-          "录屏",
-          "视频",
-          "窗口",
-          "图片",
-          "作品",
-          "前后内容",
-          "载体",
-          "真实媒体进入讲解",
-          "并排比较结果"
-        ],
-        "scenarioId": "compare",
-        "scenarioTitle": "并排比较结果",
-        "label": "N023",
-        "categoryId": "video-entry",
-        "category": "录屏与视频入场",
-        "sceneTypes": [
-          "relationship"
-        ]
-      },
-      "sceneTypes": [
-        "relationship"
-      ],
-      "implementation": {
-        "projects": [
-          "components/projects/30b3c05aa839"
-        ],
-        "compositionId": "N023",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded.",
-        "entryPoint": "components/projects/30b3c05aa839/src/index.tsx",
-        "publicDir": "components/projects/30b3c05aa839/public",
-        "runtimeVersion": "4.0.473",
-        "renderInputProps": {
-          "includeNarration": false
-        }
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      },
-      "materialRevision": "20261004-material-replacements",
-      "previewMatchesImplementation": true,
-      "materialStatus": "rendered-and-reviewed",
-      "materialSources": [
-        "/api/design-source/496bf6ea78205c1e87f191e2",
-        "/api/design-source/7986dba0cc5039b1d159a2b1"
-      ]
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n025",
@@ -6880,7 +11285,9 @@
       "materialSources": [
         "/api/design-source/496bf6ea78205c1e87f191e2",
         "/api/design-source/7986dba0cc5039b1d159a2b1"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n026",
@@ -7372,7 +11779,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n032",
@@ -8597,7 +13006,9 @@
       "materialSources": [
         "/api/design-source/df3b18d6d4a07ae66b8edc3d",
         "/api/design-source/5653e5e1156b8e2c2d1aca14"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-n047",
@@ -8949,157 +13360,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
-    },
-    {
-      "id": "component:library-new10-n054",
-      "label": "N054",
-      "title": "证据页缩小侧移，右侧能力清单逐项补齐",
-      "kind": "components",
-      "category": "讲解段落",
-      "origin": "FredTalk 组件库",
-      "description": "在保留来源证据时总结功能清单、套餐范围、报告发现；每新增一词对应一次讲述。",
-      "tags": [
-        "证据页缩小侧移，右侧能力清单逐项补齐",
-        "逻辑与流程",
-        "文字与强调",
-        "讲解段落",
-        "录屏聚焦",
-        "录屏与视频入场",
-        "文字",
-        "信息结构",
-        "真实界面",
-        "前景重点",
-        "录屏",
-        "视频",
-        "窗口",
-        "一段解释",
-        "列举要点与能力"
-      ],
-      "selectionStatus": "keep",
-      "reusability": {
-        "level": "snapshot",
-        "label": "准确场景参考",
-        "parameters": [],
-        "limitations": [
-          "用户对本批成片整体认可；不表示此组件已用新文案及素材完成通用参数视觉验收。"
-        ]
       },
-      "previews": [
-        {
-          "videoUrl": "/api/design-assets/9c4509ddbc5be542cce34acc",
-          "posterUrl": "/api/design-assets/369190ac2e2a2df22ff516de",
-          "keyframes": [
-            {
-              "url": "/api/design-assets/c30e578cdc3cd53519b0fe4e",
-              "timeSeconds": 1.15,
-              "frame": 69
-            },
-            {
-              "url": "/api/design-assets/620140720c5dcb9bdb379bd7",
-              "timeSeconds": 2.7,
-              "frame": 162
-            },
-            {
-              "url": "/api/design-assets/607a742182ece4b532cef8f0",
-              "timeSeconds": 4.05,
-              "frame": 243
-            }
-          ],
-          "available": true,
-          "status": "ready",
-          "start": 0,
-          "end": 5.2,
-          "fps": 60,
-          "audioPolicy": "no-audio-track",
-          "posterTimeSeconds": 4.466666666666667,
-          "posterSelection": "reviewed"
-        }
-      ],
-      "sources": [
-        {
-          "label": "BatchC.tsx",
-          "symbol": "",
-          "url": "/api/design-source/cf7f1cddbe8c0299b0065243",
-          "available": true,
-          "status": "ready"
-        }
-      ],
-      "referenceId": "library-new10-n054",
-      "mergedInto": [],
-      "hiddenReason": null,
-      "visibleByDefault": true,
-      "categoryId": "explain",
-      "libraryOrder": 999,
-      "matching": {
-        "referenceId": "library-new10-n054",
-        "primaryUse": "explain",
-        "useIds": [
-          "explain",
-          "recording-focus",
-          "video-entry"
-        ],
-        "sourceId": "fredtalk",
-        "conceptIds": [
-          "text",
-          "focus",
-          "media"
-        ],
-        "inputObjects": [
-          "文字",
-          "信息结构",
-          "真实界面",
-          "前景重点",
-          "录屏",
-          "视频",
-          "窗口"
-        ],
-        "action": "证据页缩小侧移，右侧能力清单逐项补齐",
-        "segmentRole": "一段解释",
-        "nativeDurationSeconds": 5.2,
-        "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
-        "tags": [
-          "讲解段落",
-          "录屏聚焦",
-          "录屏与视频入场",
-          "文字",
-          "信息结构",
-          "真实界面",
-          "前景重点",
-          "录屏",
-          "视频",
-          "窗口",
-          "一段解释",
-          "列举要点与能力"
-        ],
-        "scenarioId": "list",
-        "scenarioTitle": "列举要点与能力",
-        "label": "N054",
-        "categoryId": "explain",
-        "category": "讲解段落",
-        "sceneTypes": [
-          "relationship"
-        ]
-      },
-      "sceneTypes": [
-        "relationship"
-      ],
-      "projectDownload": {
-        "url": null,
-        "filename": "ef9fc0c824930a7b.zip",
-        "available": true
-      },
-      "implementation": {
-        "projects": [
-          "components/projects/f383bd215d85"
-        ],
-        "compositionId": "N054",
-        "reuseBoundary": "Sanitized source snapshot; media dependencies are declared in library/media-manifest.json. Inspect the project entry for registration when compositionId is not recorded."
-      },
-      "assetAvailability": {
-        "quarantinedDependencyPaths": 2,
-        "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-x002",
@@ -9554,7 +13817,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-x009",
@@ -9682,7 +13947,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-x010",
@@ -10272,7 +14539,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-x020",
@@ -10995,7 +15264,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-new10-x032",
@@ -12066,7 +16337,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "clip:8ca27f6a-3969-4789-a6b3-34f3778ac700",
@@ -12181,7 +16454,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 1,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "clip:4b5b8eb5-14b8-4fe9-86fe-e9bee5d02751",
@@ -12527,7 +16802,9 @@
         "/api/design-source/84b5a27499dcb7d834d120a3",
         "/api/design-source/c7ee5f3817f5bd3a6c4e6487",
         "/api/design-source/d57cf4e8c3d11feef33baba7"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "clip:ep99-selected-s05",
@@ -12769,7 +17046,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "clip:ep99-selected-s13",
@@ -12891,7 +17170,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "clip:ep99-selected-s20",
@@ -13160,7 +17441,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 2,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:ep103-selected-01",
@@ -13454,7 +17737,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 460,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:ep103-selected-03",
@@ -14754,7 +19039,9 @@
       "materialSources": [
         "/api/design-source/87b796235d6e010db3957310",
         "/api/design-source/07b67307c0357e8b0f2f6562"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "combined-remake:SP006",
@@ -15192,7 +19479,9 @@
       "materialSources": [
         "/api/design-source/87b796235d6e010db3957310",
         "/api/design-source/07b67307c0357e8b0f2f6562"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "combined-remake:SP007",
@@ -15459,7 +19748,9 @@
       "materialSources": [
         "/api/design-source/87b796235d6e010db3957310",
         "/api/design-source/07b67307c0357e8b0f2f6562"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "combined-remake:SP008",
@@ -15804,7 +20095,9 @@
       "materialSources": [
         "/api/design-source/8b24072e4930ea8d5b3ec194",
         "/api/design-source/8bb53d609f15ba3efd405479"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "combined-remake:SP010",
@@ -18188,7 +22481,9 @@
       "materialSources": [
         "/api/design-source/87b796235d6e010db3957310",
         "/api/design-source/07b67307c0357e8b0f2f6562"
-      ]
+      ],
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "combined-remake:SP020",
@@ -19567,7 +23862,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b007",
@@ -19705,7 +24002,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b008",
@@ -19853,7 +24152,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b009",
@@ -20430,7 +24731,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b018",
@@ -21315,7 +25618,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b035",
@@ -21753,7 +26058,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b041",
@@ -23396,7 +27703,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-b070",
@@ -25184,7 +29493,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-r003",
@@ -25317,7 +29628,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-r004",
@@ -26836,7 +31149,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-r024",
@@ -27284,7 +31599,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-r027",
@@ -28399,7 +32716,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-r044",
@@ -29294,7 +33613,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-t03",
@@ -29974,7 +34295,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-t10",
@@ -30116,7 +34439,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-w01",
@@ -30381,7 +34706,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     },
     {
       "id": "component:library-legacy81-w05",
@@ -30514,7 +34841,9 @@
       "assetAvailability": {
         "quarantinedDependencyPaths": 0,
         "note": "Full project snapshot may include unused branches; check the selected composition."
-      }
+      },
+      "archivedFromSkill": true,
+      "defaultReuse": false
     }
   ],
   "matchingConcepts": {
@@ -30953,24 +35282,15 @@
     }
   ],
   "counts": {
-    "total": 295,
-    "available": 295,
-    "unavailable": 0,
-    "currentRemoved": 17,
-    "visible": 184,
-    "hidden": 111,
-    "byReviewKind": {
-      "skill": 153,
-      "remake": 37,
-      "combined": 24,
-      "registered": 81
-    },
+    "total": 210,
+    "visible": 210,
+    "available": 205,
+    "skillActive": 166,
+    "skillArchived": 44,
     "byKind": {
-      "components": 204,
-      "clips": 14,
-      "transitions": 10,
-      "text-effects": 6,
-      "remakes": 61
+      "components": 181,
+      "clips": 10,
+      "remakes": 19
     }
   }
 }

@@ -298,13 +298,14 @@ export function Library({
   const [limit, setLimit] = useState(24);
   const [activePlaybackId, setActivePlaybackId] = useState(null);
   const scenarios = data?.scenarios || [];
-  const visible = (data?.items || []).filter(x => x.visibleByDefault && x.reviewStatus !== "remove");
+  const visible = (data?.items || []).filter(x => x.visibleByDefault && x.reviewStatus !== "remove" && !x.archivedFromSkill);
   const scenarioList = scenarios.filter(s => (category === "all" || s.groupId === category) && visible.some(x => x.matching?.scenarioId === s.id));
   const chooseGroup = (id) => { setActivePlaybackId(null); setCategory(id); setScenario("all"); setLimit(24); };
   const chooseScenario = (id) => { setActivePlaybackId(null); setScenario(id); setLimit(24); };
   const all = data?.items || [];
+  const archived = all.filter(x => x.archivedFromSkill);
   const filtered = useMemo(
-    () => all.filter((x) => x.visibleByDefault && x.reviewStatus !== "remove" &&
+    () => all.filter((x) => x.visibleByDefault && x.reviewStatus !== "remove" && !x.archivedFromSkill &&
       (category === "all" || scenarioList.some(s => s.id === x.matching?.scenarioId)) &&
       (scenario === "all" || x.matching?.scenarioId === scenario)),
     [all, category, scenario, data],
@@ -314,6 +315,12 @@ export function Library({
   return (
     <>
       <Heading page="library" />
+      <section className="release-notice" aria-label="FredTalk 1.5 更新">
+        <strong>FredTalk 1.5 · 新增 29 个组件</strong>
+        <p>5 个 3D 录屏运镜组件，结合成组刷色、蒙版、外框和输入反馈；另新增 24 个交互与精选动画组件。</p>
+        <p>按真实内容和口播编排镜头：重点停稳再突出，经过位置连续移动。</p>
+        <a href="https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v1.5.0">下载 1.5 源码与素材 ↗</a>
+      </section>
       <section className="scenario-picker" aria-label="按使用场景筛选">
         <div className="scenario-groups" role="group" aria-label="内容类型">
           {[{id: "all", title: "全部"}, ...(data?.scenarioGroups || [])].map(g => <button key={g.id} aria-pressed={category === g.id} onClick={() => chooseGroup(g.id)}>{g.title}</button>)}
@@ -360,6 +367,7 @@ export function Library({
           </button>
         </div>
       )}
+      {!!archived.length && <details className="archive-section"><summary>已归档（不建议使用） · {archived.length} 条</summary><div className="reference-grid">{archived.map(x => <ReferenceCard item={x} key={x.id} playing={activePlaybackId === x.id} onPlaybackChange={playing => setActivePlaybackId(playing ? x.id : null)} onSelect={selected => { setActivePlaybackId(null); onSelectionChange(selected.id); }} />)}</div></details>}
       {selected && (
         <ReferenceDialog
           curation={curation}

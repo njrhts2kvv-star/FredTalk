@@ -1,0 +1,632 @@
+{
+  "taskKey": "screen-3d-v8-v2-camera-refinement",
+  "revision": "v8-v2-motion-group-accent",
+  "timelineFps": 60,
+  "durationInFrames": 3120,
+  "outputSpec": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "audio": "none"
+  },
+  "pages": [
+    {
+      "stableId": "CAM01",
+      "title": "V2左右换焦与输入保留，技能说明整组刷出",
+      "durationInFrames": 720,
+      "media": "input.mp4",
+      "sourceName": "input",
+      "cameraKeys": [
+        {
+          "t": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 0.25,
+          "yaw": 0,
+          "pitch": 0,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 0.85,
+          "yaw": -24,
+          "pitch": -8,
+          "zoom": 1.0,
+          "fx": 0.32,
+          "fy": 0.46
+        },
+        {
+          "t": 1.65,
+          "yaw": -24,
+          "pitch": -8,
+          "zoom": 1.0,
+          "fx": 0.32,
+          "fy": 0.46
+        },
+        {
+          "t": 2.25,
+          "yaw": 24,
+          "pitch": 8,
+          "zoom": 1.0,
+          "fx": 0.68,
+          "fy": 0.43
+        },
+        {
+          "t": 3.15,
+          "yaw": 24,
+          "pitch": 8,
+          "zoom": 1.0,
+          "fx": 0.68,
+          "fy": 0.43
+        },
+        {
+          "t": 3.75,
+          "yaw": -22,
+          "pitch": -10,
+          "zoom": 0.94,
+          "fx": 0.44,
+          "fy": 0.54
+        },
+        {
+          "t": 4.65,
+          "yaw": -22,
+          "pitch": -10,
+          "zoom": 0.94,
+          "fx": 0.44,
+          "fy": 0.54
+        },
+        {
+          "t": 5.25,
+          "yaw": 20,
+          "pitch": 10,
+          "zoom": 1.0,
+          "fx": 0.51,
+          "fy": 0.55
+        },
+        {
+          "t": 6.15,
+          "yaw": 20,
+          "pitch": 10,
+          "zoom": 1.0,
+          "fx": 0.51,
+          "fy": 0.55
+        },
+        {
+          "t": 6.7,
+          "yaw": 0,
+          "pitch": -24,
+          "zoom": 0.94,
+          "fx": 0.5,
+          "fy": 0.57
+        },
+        {
+          "t": 7.35,
+          "yaw": -18,
+          "pitch": 5,
+          "zoom": 1.0,
+          "fx": 0.5,
+          "fy": 0.79
+        },
+        {
+          "t": 9.0,
+          "yaw": -18,
+          "pitch": 5,
+          "zoom": 1.0,
+          "fx": 0.5,
+          "fy": 0.79
+        },
+        {
+          "t": 9.65,
+          "yaw": 20,
+          "pitch": 7,
+          "zoom": 1.12,
+          "fx": 0.65,
+          "fy": 0.82
+        },
+        {
+          "t": 10.5,
+          "yaw": 20,
+          "pitch": 7,
+          "zoom": 1.12,
+          "fx": 0.65,
+          "fy": 0.82
+        },
+        {
+          "t": 11.15,
+          "yaw": -16,
+          "pitch": -8,
+          "zoom": 0.96,
+          "fx": 0.49,
+          "fy": 0.79
+        },
+        {
+          "t": 12,
+          "yaw": -16,
+          "pitch": -8,
+          "zoom": 0.96,
+          "fx": 0.49,
+          "fy": 0.79
+        }
+      ],
+      "accents": [
+        {
+          "kind": "yellow",
+          "start": 5.45,
+          "end": 6.1,
+          "rois": [
+            [
+              0.075,
+              0.151,
+              0.455,
+              0.05
+            ],
+            [
+              0.075,
+              0.205,
+              0.46,
+              0.05
+            ],
+            [
+              0.075,
+              0.257,
+              0.35,
+              0.05
+            ]
+          ],
+          "reveal": 0.3
+        }
+      ],
+      "lift": {
+        "roi": [
+          0.110417,
+          0.760185,
+          0.889583,
+          0.216667
+        ],
+        "start": 7,
+        "settledAt": 7.55,
+        "returnAt": 9.35,
+        "end": 9.95
+      },
+      "globalStartFrame": 0,
+      "notes": "Exact V2 cameraKeys and prepared media preserved. Group emphasis added only inside stable camera holds; no narration sync claimed.",
+      "baselineCameraSha256": "27876a314ff240763c6d72b2571f81acb3af76185d72d502f22371cab225624f"
+    },
+    {
+      "stableId": "CAM02",
+      "title": "V2作品到三项与说明，停稳后整组刷出",
+      "durationInFrames": 840,
+      "media": "article.mp4",
+      "sourceName": "article",
+      "cameraKeys": [
+        {
+          "t": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 0.45,
+          "yaw": 0,
+          "pitch": 0,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 1.1,
+          "yaw": -22,
+          "pitch": 8,
+          "zoom": 1.45,
+          "fx": 0.438,
+          "fy": 0.255
+        },
+        {
+          "t": 2.55,
+          "yaw": -22,
+          "pitch": 8,
+          "zoom": 1.45,
+          "fx": 0.438,
+          "fy": 0.255
+        },
+        {
+          "t": 3.15,
+          "yaw": 24,
+          "pitch": 10,
+          "zoom": 1.75,
+          "fx": 0.66,
+          "fy": 0.252
+        },
+        {
+          "t": 4.65,
+          "yaw": 24,
+          "pitch": 10,
+          "zoom": 1.75,
+          "fx": 0.66,
+          "fy": 0.252
+        },
+        {
+          "t": 5.25,
+          "yaw": 0,
+          "pitch": -24,
+          "zoom": 1.16,
+          "fx": 0.55,
+          "fy": 0.48
+        },
+        {
+          "t": 5.9,
+          "yaw": 14,
+          "pitch": 6,
+          "zoom": 1.8,
+          "fx": 0.513,
+          "fy": 0.666
+        },
+        {
+          "t": 8.15,
+          "yaw": 14,
+          "pitch": 6,
+          "zoom": 1.8,
+          "fx": 0.513,
+          "fy": 0.666
+        },
+        {
+          "t": 8.8,
+          "yaw": -20,
+          "pitch": -8,
+          "zoom": 1.6,
+          "fx": 0.515,
+          "fy": 0.83
+        },
+        {
+          "t": 10.15,
+          "yaw": -20,
+          "pitch": -8,
+          "zoom": 1.6,
+          "fx": 0.515,
+          "fy": 0.83
+        },
+        {
+          "t": 10.8,
+          "yaw": 22,
+          "pitch": 9,
+          "zoom": 1.6,
+          "fx": 0.666,
+          "fy": 0.335
+        },
+        {
+          "t": 11.9,
+          "yaw": 22,
+          "pitch": 9,
+          "zoom": 1.6,
+          "fx": 0.666,
+          "fy": 0.335
+        },
+        {
+          "t": 12.55,
+          "yaw": -16,
+          "pitch": -10,
+          "zoom": 1.3,
+          "fx": 0.53,
+          "fy": 0.51
+        },
+        {
+          "t": 14,
+          "yaw": -16,
+          "pitch": -10,
+          "zoom": 1.3,
+          "fx": 0.53,
+          "fy": 0.51
+        }
+      ],
+      "accents": [
+        {
+          "kind": "yellow",
+          "start": 3.35,
+          "end": 4.6,
+          "rois": [
+            [
+              0.61,
+              0.132,
+              0.065,
+              0.055
+            ],
+            [
+              0.61,
+              0.223,
+              0.114,
+              0.055
+            ],
+            [
+              0.61,
+              0.311,
+              0.114,
+              0.055
+            ]
+          ],
+          "reveal": 0.3
+        },
+        {
+          "kind": "yellow",
+          "start": 6.12,
+          "end": 8.08,
+          "rois": [
+            [
+              0.274,
+              0.632,
+              0.445,
+              0.055
+            ],
+            [
+              0.274,
+              0.721,
+              0.481,
+              0.029
+            ],
+            [
+              0.274,
+              0.761,
+              0.16,
+              0.029
+            ]
+          ],
+          "reveal": 0.3
+        },
+        {
+          "kind": "outline",
+          "start": 9.02,
+          "end": 10.1,
+          "rois": [
+            [
+              0.273,
+              0.818,
+              0.482,
+              0.076
+            ]
+          ],
+          "reveal": 0.3
+        }
+      ],
+      "globalStartFrame": 720,
+      "notes": "Exact V2 cameraKeys and prepared media preserved. Group emphasis added only inside stable camera holds; no narration sync claimed.",
+      "baselineCameraSha256": "e5001a54b9451102f46d3e102b9dd1a82711317bec42d966460dc59816758066"
+    },
+    {
+      "stableId": "CAM03",
+      "title": "V2多角度提示词，故事三行与要求三行整组突出",
+      "durationInFrames": 840,
+      "media": "prompt.mp4",
+      "sourceName": "prompt",
+      "cameraKeys": [
+        {
+          "t": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 0.35,
+          "yaw": 0,
+          "pitch": 0,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 1.0,
+          "yaw": -22,
+          "pitch": 9,
+          "zoom": 1.4,
+          "fx": 0.5,
+          "fy": 0.49
+        },
+        {
+          "t": 1.65,
+          "yaw": -22,
+          "pitch": 9,
+          "zoom": 1.4,
+          "fx": 0.5,
+          "fy": 0.49
+        },
+        {
+          "t": 2.25,
+          "yaw": 18,
+          "pitch": 6,
+          "zoom": 2.0,
+          "fx": 0.415,
+          "fy": 0.47
+        },
+        {
+          "t": 3.65,
+          "yaw": 18,
+          "pitch": 6,
+          "zoom": 2.0,
+          "fx": 0.415,
+          "fy": 0.47
+        },
+        {
+          "t": 4.25,
+          "yaw": -20,
+          "pitch": 7,
+          "zoom": 1.9,
+          "fx": 0.44,
+          "fy": 0.513
+        },
+        {
+          "t": 5.65,
+          "yaw": -20,
+          "pitch": 7,
+          "zoom": 1.9,
+          "fx": 0.44,
+          "fy": 0.513
+        },
+        {
+          "t": 6.25,
+          "yaw": 20,
+          "pitch": -7,
+          "zoom": 1.85,
+          "fx": 0.484,
+          "fy": 0.554
+        },
+        {
+          "t": 7.75,
+          "yaw": 20,
+          "pitch": -7,
+          "zoom": 1.85,
+          "fx": 0.484,
+          "fy": 0.554
+        },
+        {
+          "t": 8.35,
+          "yaw": 0,
+          "pitch": -24,
+          "zoom": 1.05,
+          "fx": 0.53,
+          "fy": 0.62
+        },
+        {
+          "t": 8.9,
+          "yaw": -18,
+          "pitch": 8,
+          "zoom": 1.75,
+          "fx": 0.454,
+          "fy": 0.837
+        },
+        {
+          "t": 10.3,
+          "yaw": -18,
+          "pitch": 8,
+          "zoom": 1.75,
+          "fx": 0.454,
+          "fy": 0.837
+        },
+        {
+          "t": 10.95,
+          "yaw": 24,
+          "pitch": 10,
+          "zoom": 1.55,
+          "fx": 0.54,
+          "fy": 0.416
+        },
+        {
+          "t": 11.95,
+          "yaw": 24,
+          "pitch": 10,
+          "zoom": 1.55,
+          "fx": 0.54,
+          "fy": 0.416
+        },
+        {
+          "t": 12.6,
+          "yaw": -16,
+          "pitch": -8,
+          "zoom": 1.2,
+          "fx": 0.535,
+          "fy": 0.52
+        },
+        {
+          "t": 14,
+          "yaw": -16,
+          "pitch": -8,
+          "zoom": 1.2,
+          "fx": 0.535,
+          "fy": 0.52
+        }
+      ],
+      "accents": [
+        {
+          "kind": "mask",
+          "start": 2.45,
+          "end": 3.58,
+          "rois": [
+            [
+              0.294,
+              0.456,
+              0.165,
+              0.03
+            ],
+            [
+              0.294,
+              0.496,
+              0.275,
+              0.03
+            ],
+            [
+              0.294,
+              0.536,
+              0.301,
+              0.03
+            ]
+          ],
+          "reveal": 0.3
+        },
+        {
+          "kind": "mask",
+          "start": 6.45,
+          "end": 7.7,
+          "rois": [
+            [
+              0.294,
+              0.575,
+              0.252,
+              0.03
+            ],
+            [
+              0.294,
+              0.615,
+              0.34,
+              0.03
+            ],
+            [
+              0.294,
+              0.655,
+              0.162,
+              0.03
+            ]
+          ],
+          "reveal": 0.3
+        },
+        {
+          "kind": "outline",
+          "start": 9.1,
+          "end": 10.25,
+          "rois": [
+            [
+              0.274,
+              0.811,
+              0.31,
+              0.055
+            ],
+            [
+              0.274,
+              0.899,
+              0.185,
+              0.028
+            ]
+          ],
+          "reveal": 0.3
+        }
+      ],
+      "globalStartFrame": 1560,
+      "notes": "Exact V2 cameraKeys and prepared media preserved. Group emphasis added only inside stable camera holds; no narration sync claimed.",
+      "baselineCameraSha256": "43b7d6c427e0e1f2611764cd553e232b431f907c3a233bda090dce81f7fadb9b"
+    }
+  ],
+  "designContract": {
+    "baseline": "Exact Finder V2 samples verified by SHA-256; camera routes, quintic easing, source clocks preserved for S1-S3",
+    "change": "Stationary grouped emphasis after arrival; no moving ribbon frames; add S5 overhead bottom-to-top",
+    "narrationSync": "not claimed; source V2 samples are silent and no narration-to-ROI timing is verified",
+    "preserveNewS4": "Parent task maintains Codex input-send-reply separately",
+    "renderStatus": "not rendered or visually accepted"
+  },
+  "mediaClock": "prepared public media is already flattened; runtime clock uses useCurrentFrame"
+}

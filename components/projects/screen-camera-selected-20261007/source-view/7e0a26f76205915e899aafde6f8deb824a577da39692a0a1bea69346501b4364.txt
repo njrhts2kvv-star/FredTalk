@@ -1,0 +1,203 @@
+{
+  "taskKey": "screen-3d-v8-v2-camera-refinement",
+  "revision": "v9-reference-angle",
+  "timelineFps": 60,
+  "durationInFrames": 3120,
+  "outputSpec": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "audio": "none"
+  },
+  "pages": [
+    {
+      "stableId": "CAM05",
+      "title": "向后躺的页面透视：白底、下近上远",
+      "durationInFrames": 720,
+      "media": "article.mp4",
+      "sourceName": "article",
+      "cameraKeys": [
+        {
+          "t": 0,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 0.4,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 0.97,
+          "fx": 0.5,
+          "fy": 0.5
+        },
+        {
+          "t": 1.05,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.5,
+          "fx": 0.52,
+          "fy": 0.66
+        },
+        {
+          "t": 2.65,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.5,
+          "fx": 0.52,
+          "fy": 0.66
+        },
+        {
+          "t": 3.3,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.5,
+          "fx": 0.52,
+          "fy": 0.66
+        },
+        {
+          "t": 5.2,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.5,
+          "fx": 0.52,
+          "fy": 0.66
+        },
+        {
+          "t": 5.9,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.45,
+          "fx": 0.5,
+          "fy": 0.42
+        },
+        {
+          "t": 6.6,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.45,
+          "fx": 0.5,
+          "fy": 0.42
+        },
+        {
+          "t": 7.25,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.5,
+          "fx": 0.655,
+          "fy": 0.25
+        },
+        {
+          "t": 9.3,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.5,
+          "fx": 0.655,
+          "fy": 0.25
+        },
+        {
+          "t": 10,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.15,
+          "fx": 0.51,
+          "fy": 0.3
+        },
+        {
+          "t": 12,
+          "yaw": 0,
+          "pitch": -42,
+          "zoom": 1.15,
+          "fx": 0.51,
+          "fy": 0.3
+        }
+      ],
+      "accents": [
+        {
+          "kind": "outline",
+          "start": 1.25,
+          "end": 2.6,
+          "rois": [
+            [
+              0.273,
+              0.72,
+              0.484,
+              0.075
+            ],
+            [
+              0.273,
+              0.818,
+              0.484,
+              0.076
+            ]
+          ],
+          "reveal": 0.3
+        },
+        {
+          "kind": "yellow",
+          "start": 3.5,
+          "end": 5.15,
+          "rois": [
+            [
+              0.274,
+              0.632,
+              0.445,
+              0.055
+            ],
+            [
+              0.274,
+              0.721,
+              0.481,
+              0.029
+            ],
+            [
+              0.274,
+              0.761,
+              0.16,
+              0.029
+            ]
+          ],
+          "reveal": 0.3
+        },
+        {
+          "kind": "yellow",
+          "start": 7.45,
+          "end": 9.25,
+          "rois": [
+            [
+              0.61,
+              0.132,
+              0.065,
+              0.055
+            ],
+            [
+              0.61,
+              0.223,
+              0.114,
+              0.055
+            ],
+            [
+              0.61,
+              0.311,
+              0.114,
+              0.055
+            ]
+          ],
+          "reveal": 0.3
+        }
+      ],
+      "notes": "User image reference: far upper edge, near lower edge; negative pitch camera below upright source plane, no yaw. Pure white outer background. Original group timings preserved.",
+      "globalStartFrame": 2400
+    }
+  ],
+  "designContract": {
+    "baseline": "Exact Finder V2 samples verified by SHA-256; camera routes, quintic easing, source clocks preserved for S1-S3",
+    "change": "Stationary grouped emphasis after arrival; no moving ribbon frames; add S5 overhead bottom-to-top",
+    "narrationSync": "not claimed; source V2 samples are silent and no narration-to-ROI timing is verified",
+    "preserveNewS4": "Parent task maintains Codex input-send-reply separately",
+    "renderStatus": "not rendered or visually accepted"
+  },
+  "mediaClock": "prepared public media is already flattened; runtime clock uses useCurrentFrame"
+}

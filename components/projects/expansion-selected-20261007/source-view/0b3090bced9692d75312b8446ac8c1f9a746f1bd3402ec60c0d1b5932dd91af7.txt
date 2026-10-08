@@ -1,0 +1,181 @@
+{
+  "OP02": {
+    "props": {
+      "src": "relative public video path",
+      "imageSources": "string[]; reads imageSources[2]",
+      "start": "source start seconds"
+    },
+    "limits": "At least 3 imageSources. Defaults: media.videoA, media.works, start=8. Same continuously mounted main source."
+  },
+  "OP03": {
+    "props": {
+      "src": "relative public video path"
+    },
+    "limits": "Circular crop becomes 16:9. Default media.videoB; start not read by this function."
+  },
+  "OP05": {
+    "props": {
+      "src": "relative public video path",
+      "title": "short single-line text"
+    },
+    "limits": "Default media.videoB and 这段怎么做出来的？; title fixed 128px logical; longer text requires layout check."
+  },
+  "OP09": {
+    "props": {
+      "src": "relative public video path"
+    },
+    "limits": "Auxiliary windows are fixed to media.videoA, media.videoC, media.works[2]; replace those in shared.tsx when adapting. imageSources is not consumed by OP09. Main src default media.videoB."
+  },
+  "OP10": {
+    "props": {
+      "src": "relative public video path",
+      "start": "source start seconds"
+    },
+    "limits": "Three geometric wipes over one continuous video. Default media.videoC,start=0."
+  },
+  "EX05": {
+    "props": {
+      "words": "string[]; 0-2 moving labels, 3 initial heading, 4 final sentence"
+    },
+    "limits": "Three labels ~4 Chinese characters at 86px logical; heading at103px; final at95px. Animation timing fixed to eight seconds."
+  },
+  "EX08": {
+    "props": {
+      "words": "string[]; 0-1 group headings,2-5 row labels,6 final heading,7 final explanation"
+    },
+    "limits": "Two groups with two rows each. Fixed nine-second timing; longer copy requires checking final panel and labels."
+  },
+  "RC01": {
+    "props": {
+      "src": "relative public recording path",
+      "start": "source start seconds",
+      "roi": "1920×1080 normalized source ROI",
+      "clock": "{freezeFrom,freezeTo} in composition seconds, or null"
+    },
+    "defaults": {
+      "start": 3.15,
+      "roi": {
+        "x": 1292,
+        "y": 132,
+        "w": 557,
+        "h": 530
+      },
+      "clock": {
+        "freezeFrom": 1.55,
+        "freezeTo": 5.6
+      }
+    },
+    "limits": "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+  },
+  "RC02": {
+    "props": {
+      "src": "relative public recording path",
+      "start": "source start seconds",
+      "roi": "1920×1080 normalized source ROI",
+      "clock": "{freezeFrom,freezeTo} in composition seconds, or null"
+    },
+    "defaults": {
+      "start": 2.55,
+      "roi": {
+        "x": 1292,
+        "y": 132,
+        "w": 557,
+        "h": 530
+      },
+      "clock": {
+        "freezeFrom": 2.15,
+        "freezeTo": 5.65
+      }
+    },
+    "limits": "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+  },
+  "RC03": {
+    "props": {
+      "src": "relative public recording path",
+      "start": "source start seconds",
+      "roiA": "first1920×1080 normalized source ROI",
+      "roiB": "second1920×1080 normalized source ROI",
+      "clock": "{freezeFrom,freezeTo} in composition seconds, or null"
+    },
+    "defaults": {
+      "start": 2.6,
+      "roiA": {
+        "x": 57,
+        "y": 132,
+        "w": 1235,
+        "h": 660
+      },
+      "roiB": {
+        "x": 1324,
+        "y": 277,
+        "w": 493,
+        "h": 280
+      },
+      "clock": {
+        "freezeFrom": 2.1,
+        "freezeTo": 7.05
+      }
+    },
+    "limits": "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+  },
+  "RC04": {
+    "props": {
+      "src": "relative public recording path",
+      "start": "source start seconds",
+      "roi": "1920×1080 normalized source ROI",
+      "clock": "{freezeFrom,freezeTo} in composition seconds, or null"
+    },
+    "defaults": {
+      "start": 3,
+      "roi": {
+        "x": 1308,
+        "y": 380,
+        "w": 536,
+        "h": 186
+      },
+      "clock": {
+        "freezeFrom": 1.7,
+        "freezeTo": 6.15
+      }
+    },
+    "limits": "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+  },
+  "RC05": {
+    "props": {
+      "src": "relative public recording path",
+      "start": "source start seconds",
+      "roi": "1920×1080 normalized source ROI",
+      "clock": "{freezeFrom,freezeTo} in composition seconds, or null"
+    },
+    "defaults": {
+      "start": 18.4,
+      "roi": {
+        "x": 48,
+        "y": 395,
+        "w": 380,
+        "h": 405
+      },
+      "clock": {
+        "freezeFrom": 1.6,
+        "freezeTo": 7.4
+      }
+    },
+    "limits": "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI.",
+    "additionalLimit": "Three mask bands are hardcoded subdivisions for the original sidebar. A different document needs band geometry adaptation, not only a new ROI."
+  },
+  "HD02": {
+    "props": {
+      "oldSrc": "old relative public video path",
+      "src": "next relative public video path"
+    },
+    "limits": "Two videos share composition time and default start=0. The next source starts playing while offscreen; it is not reset when expanded."
+  },
+  "HD03": {
+    "props": {
+      "src": "relative public video path",
+      "works": "nonempty string[]; truncates to nine",
+      "selectedIndex": "integer selection; clamped to array"
+    },
+    "limits": "Nine-source wall; images or videos supported by Media. Cursor geometry is fixed to central choice, so noncentral selectedIndex requires cursor adaptation and visual check. Match the selected still identity to the resulting video."
+  }
+}

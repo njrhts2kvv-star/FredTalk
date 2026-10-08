@@ -1,6 +1,6 @@
 <div align="center">
 
-# FredTalk
+# FredTalk 1.5
 
 ### Turn a narration script into a motion video with Codex.
 
@@ -99,3 +99,7 @@ Results include previews, source locations and usage notes. See the [source usag
 ## License
 
 The project currently has no blanket open-source license. Check [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the applicable terms before using or redistributing code, fonts and media.
+
+## Version 1.5
+
+29 new components: five content-led 3D screen camera examples, four interaction component types, 14 selected animations, and six EP109 scenes. See [release notes](docs/releases/1.5.md). Camera routes, source scrolling and grouped emphasis must be adapted to actual content and narration.

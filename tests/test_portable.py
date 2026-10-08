@@ -16,20 +16,28 @@ def module(name):
 class PortableTests(unittest.TestCase):
  def test_active_catalog_keeps_removals_and_valid_sources(self):
   d=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=d['items']
-  self.assertEqual(len(items),184)
-  self.assertEqual([i['label'] for i in items[:7]],[f'102-{n:02d}' for n in range(1,8)])
-  self.assertEqual([i['label'] for i in items[7:19]],['C009','N027','N043','X006','X019','X022','X025','E08','107-03','107-04','SP014','SP021'])
-  self.assertEqual(sum(i.get('isNew') is True for i in items),7)
-  for i in items[:7]:
-   self.assertEqual(i['addedAt'],'2026-10-05T11:47:11+08:00')
-   self.assertEqual(i['collectionId'],'ep102-selected-20261005')
+  self.assertEqual(len(items),210)
+  expected={"ep109-selected-20261006":6,"expansion-selected-20261007":14,"interaction-components-20261007":4,"screen-camera-selected-20261007":5}
+  for collection,count in expected.items():
+   selected=[i for i in items if i.get('collectionId')==collection]
+   self.assertEqual(len(selected),count,collection)
+   self.assertTrue(all(i.get('isNew') and i.get('addedAt') for i in selected))
+  self.assertEqual(sum(bool(i.get('archivedFromSkill')) for i in items),44)
+  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),166)
   self.assertTrue({'V085','V098','E04','E16','SP004','L81-B060','L81-W08'}.isdisjoint(i['label'] for i in items))
   for i in items:
    for source in i['sources']:
     self.assertIn(source['url'],routes)
     self.assertTrue((ROOT/routes[source['url']]).is_file(),i['label'])
    for p in i['previews']:
-    self.assertLess(p['start'],p['end']);self.assertEqual(p['audioPolicy'],'no-audio-track')
+    self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['no-audio-track','source-audio','sfx-only','preserved-source-audio','operation-sfx-only','interface-sfx'])
+ def test_new_collection_lookup_and_archive_filter(self):
+  data=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--collection','screen-camera-selected-20261007','--limit','10']))
+  self.assertEqual(data['count'],5)
+  archived=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--status','archived','--limit','1']))
+  self.assertEqual(archived['count'],44)
+  alias=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--id','SP021','--full']))
+  self.assertEqual(alias['entries'][0]['label'],'109-05')
  def test_declared_routes_stay_inside_repository(self):
   for name in json.loads((ROOT/'library/routes.json').read_text()).values():
    self.assertFalse(Path(name).is_absolute());self.assertTrue((ROOT/name).resolve().is_relative_to(ROOT))

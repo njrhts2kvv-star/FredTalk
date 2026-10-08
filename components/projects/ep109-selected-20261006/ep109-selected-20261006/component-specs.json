@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ep109-selected-01",
+    "displayLabel": "109-01",
+    "compositionId": "EP109-Selected-01",
+    "start": 0,
+    "end": 2,
+    "title": "白底点击与弹性视频窗展开",
+    "symbol": "OpeningV5",
+    "frameRange": [
+      0,
+      120
+    ],
+    "durationInFrames": 120
+  },
+  {
+    "id": "ep109-selected-02",
+    "displayLabel": "109-02",
+    "compositionId": "EP109-Selected-02",
+    "start": 20,
+    "end": 27,
+    "title": "主视频侧移与右侧清单逐项显现",
+    "symbol": "FightReferenceAnalysis",
+    "frameRange": [
+      1200,
+      1620
+    ],
+    "durationInFrames": 420
+  },
+  {
+    "id": "ep109-selected-03",
+    "displayLabel": "109-03",
+    "compositionId": "EP109-Selected-03",
+    "start": 54,
+    "end": 65,
+    "title": "录屏真实文字局部提起与连续阅读",
+    "symbol": "LateRecordingFocus",
+    "frameRange": [
+      3240,
+      3900
+    ],
+    "durationInFrames": 660
+  },
+  {
+    "id": "ep109-selected-04",
+    "displayLabel": "109-04",
+    "compositionId": "EP109-Selected-04",
+    "start": 70,
+    "end": 74,
+    "title": "画中画扩展为双窗证据对照",
+    "symbol": "RecordedFightEvidence",
+    "frameRange": [
+      4200,
+      4440
+    ],
+    "durationInFrames": 240
+  },
+  {
+    "id": "ep109-selected-05",
+    "displayLabel": "109-05",
+    "compositionId": "EP109-Selected-05",
+    "start": 107,
+    "end": 110,
+    "title": "三行重点与左向箭头逐行聚焦",
+    "symbol": "FightActionFocus",
+    "frameRange": [
+      6420,
+      6600
+    ],
+    "durationInFrames": 180
+  },
+  {
+    "id": "ep109-selected-06",
+    "displayLabel": "109-06",
+    "compositionId": "EP109-Selected-06",
+    "start": 131,
+    "end": 136,
+    "title": "九宫格规划转连续视频并对齐比较",
+    "symbol": "ChosenModelStoryboard",
+    "frameRange": [
+      7860,
+      8160
+    ],
+    "durationInFrames": 300
+  }
+]

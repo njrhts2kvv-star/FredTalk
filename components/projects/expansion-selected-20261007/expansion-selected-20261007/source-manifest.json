@@ -1,0 +1,331 @@
+{
+  "schema": "fred-expansion-public-source-v1",
+  "collectionId": "expansion-selected-20261007",
+  "selectedLabels": [
+    "OP02",
+    "OP03",
+    "OP05",
+    "OP09",
+    "OP10",
+    "EX05",
+    "EX08",
+    "RC01",
+    "RC02",
+    "RC03",
+    "RC04",
+    "RC05",
+    "HD02",
+    "HD03"
+  ],
+  "approvalScope": "Fourteen exact selected examples and source; presentation/handoff, explanation and recording focus. Not attention-grabbing openings and not general parameter acceptance.",
+  "createdAt": "2026-10-07T08:41:42+08:00",
+  "selectedSourceManifestSha256": "df49bfbd275d22ba0cdd2d9d2f706f1eae204fdf6648d7daa4e7964b902794cf",
+  "originalFunctions": {
+    "OP02": {
+      "file": "src/OpeningScenes.tsx",
+      "sha256": "c609be2fea29f50c0323ece9a2c437054847a2e6d4866f2a61b57cf579d3e58b",
+      "bytes": 785
+    },
+    "OP03": {
+      "file": "src/OpeningScenes.tsx",
+      "sha256": "a5583a938561245099dacffd0414dcfa14d5ebc37db796b6f1d04a29342fcea4",
+      "bytes": 313
+    },
+    "OP05": {
+      "file": "src/OpeningScenes.tsx",
+      "sha256": "2dbcf361cc363fa0eb27f9b25a18a068d243271244de198874586a1a07c9ae5a",
+      "bytes": 692
+    },
+    "OP09": {
+      "file": "src/OpeningScenes.tsx",
+      "sha256": "dd5d7e45857d9cbc6912ae93ac1466acc2f6b4b2eb6a2d14355a261583fb382d",
+      "bytes": 502
+    },
+    "OP10": {
+      "file": "src/NovelScenes.tsx",
+      "sha256": "96ef7b58b8c35e247582b5c39270429b97918aebc8b562b63150d7115e753778",
+      "bytes": 907
+    },
+    "EX05": {
+      "file": "src/NovelScenes.tsx",
+      "sha256": "6d358d77ea48750e287c44a967ec889927db4de9a1dfde948ec0cee13a01c3b3",
+      "bytes": 1160
+    },
+    "EX08": {
+      "file": "src/ExplainScenes.tsx",
+      "sha256": "c3fb2bad2eb7798a67293264de51bd86b1160f6000f8cd7e6de67df85bc4ed1f",
+      "bytes": 1870
+    },
+    "RC01": {
+      "file": "src/RecordingScenes.tsx",
+      "sha256": "c7a18bf07fde80eaa4f4a99254c46045ac72604e1fec36036bfead7dbc17a552",
+      "bytes": 628
+    },
+    "RC02": {
+      "file": "src/RecordingScenes.tsx",
+      "sha256": "975fe79b6d936c80b4a825df8fae3c80505f4efa1b1c478861110b56ab2d9e01",
+      "bytes": 445
+    },
+    "RC03": {
+      "file": "src/RecordingScenes.tsx",
+      "sha256": "ddc48b4ecc7a9463fd8158f987fdeaa1d70a179834e86b983a8e93389309a34f",
+      "bytes": 676
+    },
+    "RC04": {
+      "file": "src/RecordingScenes.tsx",
+      "sha256": "1f80a6bf6377e6cf726d9017f9c881578cdc067d7f165bdf5955e43b24b3ff38",
+      "bytes": 628
+    },
+    "RC05": {
+      "file": "src/RecordingScenes.tsx",
+      "sha256": "92506267266a3d0c5a3a51ddaadb12f4f454a64adfc7de2ed6235754029bd0c7",
+      "bytes": 1740
+    },
+    "HD02": {
+      "file": "src/HandoffScenes.tsx",
+      "sha256": "40a15d1f82bb781ef63a9bc95e30e1d50bc4edc882221758db912ab65747f574",
+      "bytes": 764
+    },
+    "HD03": {
+      "file": "src/HandoffScenes.tsx",
+      "sha256": "445650b5c68a07fea1a47cc7abe778c4b4816f2a4d233fb32233d82e8ee2e556",
+      "bytes": 923
+    }
+  },
+  "sourcePolicy": "Selected function bodies preserved; no rejected exported functions or composition defaults. Public tooling resolves its own node_modules.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "9f0d4585b8bea0ee8eb50298ba24211c478dcd58a2408f0a2f577a4de1c5afd3",
+      "size": 32,
+      "originalSelectedSourceSha256": "9f0d4585b8bea0ee8eb50298ba24211c478dcd58a2408f0a2f577a4de1c5afd3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5daa156b7cf9ef9fe758de4f91eff0eb216ecb539ec0963134df5b4fd98297d5",
+      "size": 1179,
+      "originalSelectedSourceSha256": "c747fcdfaffc4c0b26a9f4ddd298feaa760c203d03b38e338d7d835936560ff8"
+    },
+    {
+      "path": "check.cjs",
+      "sha256": "b57445a4a4a0ee2c602c6e5beabc1f967ca3a3146addc1a3054200fffcf33610",
+      "size": 846,
+      "originalSelectedSourceSha256": "a5cd5b1411d6736cf0149f8f6e8f48378bd66e05267f0b413906d891b2134128"
+    },
+    {
+      "path": "component-interfaces.json",
+      "sha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7",
+      "size": 6925,
+      "originalSelectedSourceSha256": "0b3090bced9692d75312b8446ac8c1f9a746f1bd3402ec60c0d1b5932dd91af7"
+    },
+    {
+      "path": "package.json",
+      "sha256": "7c8e6e0a256b160d8042c40ec1a23515e50f0001afc7cf41b06586394cea6f5f",
+      "size": 441,
+      "originalSelectedSourceSha256": "e620b1294b309700290071814eee238da5016ff101faa5767b9302dde8c24633"
+    },
+    {
+      "path": "public/brand/fredtalk-dark.png",
+      "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+      "size": 762689,
+      "originalSelectedSourceSha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b"
+    },
+    {
+      "path": "public/brand/fredtalk-light.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "size": 207243,
+      "originalSelectedSourceSha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1"
+    },
+    {
+      "path": "public/fonts/Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "size": 6550784,
+      "originalSelectedSourceSha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64"
+    },
+    {
+      "path": "public/fonts/MiSans-Heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "size": 6677020,
+      "originalSelectedSourceSha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c"
+    },
+    {
+      "path": "public/fonts/Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "size": 6530232,
+      "originalSelectedSourceSha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a"
+    },
+    {
+      "path": "public/fonts/SmileySans-Oblique.ttf",
+      "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+      "size": 2629764,
+      "originalSelectedSourceSha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4"
+    },
+    {
+      "path": "public/media/fight-positive.mp4",
+      "sha256": "d2df2bfce7e3ea1f5e7457b453df542776b2d8bed604284a3c0f7a55c7abb93d",
+      "size": 37385362,
+      "originalSelectedSourceSha256": "d2df2bfce7e3ea1f5e7457b453df542776b2d8bed604284a3c0f7a55c7abb93d"
+    },
+    {
+      "path": "public/media/frame-analysis.mp4",
+      "sha256": "579ad2745e16645457f5f725bbf2750dce1077ebbe0ef9ccd3ffefc972d6e047",
+      "size": 35766094,
+      "originalSelectedSourceSha256": "579ad2745e16645457f5f725bbf2750dce1077ebbe0ef9ccd3ffefc972d6e047"
+    },
+    {
+      "path": "public/media/fred-broll2.mp4",
+      "sha256": "523e95c5e6f41d24562aeae3e81004f71dfc7956a59946ac7dd1fae3e4850c79",
+      "size": 22843233,
+      "originalSelectedSourceSha256": "523e95c5e6f41d24562aeae3e81004f71dfc7956a59946ac7dd1fae3e4850c79"
+    },
+    {
+      "path": "public/media/fred-broll3.mp4",
+      "sha256": "e0bffcf51624403d840fb40e294e022798caa5bb81022f8ac17ed37ae97c3aca",
+      "size": 16829463,
+      "originalSelectedSourceSha256": "e0bffcf51624403d840fb40e294e022798caa5bb81022f8ac17ed37ae97c3aca"
+    },
+    {
+      "path": "public/media/fred-still1.png",
+      "sha256": "8118e95216c7466235c8d8d98aded622813c6d401f6ef55f53e9db9aa8828a09",
+      "size": 2595426,
+      "originalSelectedSourceSha256": "8118e95216c7466235c8d8d98aded622813c6d401f6ef55f53e9db9aa8828a09"
+    },
+    {
+      "path": "public/media/fred-still2.png",
+      "sha256": "01cc7b315d12f5dbc092db24f64bfc71c1d7c0792417fd624e46c9b796190e08",
+      "size": 2375375,
+      "originalSelectedSourceSha256": "01cc7b315d12f5dbc092db24f64bfc71c1d7c0792417fd624e46c9b796190e08"
+    },
+    {
+      "path": "public/media/fred-still3.png",
+      "sha256": "9c9c8f7eda5d742ebb1e15e835f5258588953a9fe2d36df86853869ddaabb180",
+      "size": 3722439,
+      "originalSelectedSourceSha256": "9c9c8f7eda5d742ebb1e15e835f5258588953a9fe2d36df86853869ddaabb180"
+    },
+    {
+      "path": "public/media/fred-still4.png",
+      "sha256": "7a7e98cbe5267703014043466740a2393b17aa6ddba09363436723130834c3c9",
+      "size": 3198255,
+      "originalSelectedSourceSha256": "7a7e98cbe5267703014043466740a2393b17aa6ddba09363436723130834c3c9"
+    },
+    {
+      "path": "public/media/fred-still5.png",
+      "sha256": "ffcbfec3d4b69563fef7be2c5d027a6749e0b2625ed12c17367ab79474cd47ca",
+      "size": 3056057,
+      "originalSelectedSourceSha256": "ffcbfec3d4b69563fef7be2c5d027a6749e0b2625ed12c17367ab79474cd47ca"
+    },
+    {
+      "path": "public/media/recording-frame.jpg",
+      "sha256": "54d46e960f4e6e2d13936031c4e2703e606864a1d11281cc697747e5c6fd94a3",
+      "size": 181172,
+      "originalSelectedSourceSha256": "54d46e960f4e6e2d13936031c4e2703e606864a1d11281cc697747e5c6fd94a3"
+    },
+    {
+      "path": "public/media/work-image1.png",
+      "sha256": "bf5c72d6a4c659568411ec06b915405c84c070e53b1b5e2491595235154b9d71",
+      "size": 2784352,
+      "originalSelectedSourceSha256": "bf5c72d6a4c659568411ec06b915405c84c070e53b1b5e2491595235154b9d71"
+    },
+    {
+      "path": "public/media/work-image2.png",
+      "sha256": "460518bbcbb375c8183c594209850217f6a31c060e4475658c027d37f3ba9c57",
+      "size": 2424973,
+      "originalSelectedSourceSha256": "460518bbcbb375c8183c594209850217f6a31c060e4475658c027d37f3ba9c57"
+    },
+    {
+      "path": "public/media/work-image3.png",
+      "sha256": "0a4fc2ddcd9da50a23fe0d69e5d25104285bcb7a809aec95cd222c0d97e3fa74",
+      "size": 2551076,
+      "originalSelectedSourceSha256": "0a4fc2ddcd9da50a23fe0d69e5d25104285bcb7a809aec95cd222c0d97e3fa74"
+    },
+    {
+      "path": "public/media/work-image4.png",
+      "sha256": "71c3208800d5c3613152c6d269fb4a38664c4cf5c1ab495398f0989558ce3140",
+      "size": 2767624,
+      "originalSelectedSourceSha256": "71c3208800d5c3613152c6d269fb4a38664c4cf5c1ab495398f0989558ce3140"
+    },
+    {
+      "path": "render.cjs",
+      "sha256": "f2a83d6b64bd2875f86aaa3dbce414d271b1329260afa823fc84966780f1044a",
+      "size": 1908,
+      "originalSelectedSourceSha256": "265f430d079ec71d815268eceff5580ebea8c42b53259bf0040faf1c8cb0d6ee"
+    },
+    {
+      "path": "src/ExplainScenes.tsx",
+      "sha256": "59232a697a30852dc7b9edfc535d662054adb953839c3f97729088607fcef806",
+      "size": 3072,
+      "originalSelectedSourceSha256": "59232a697a30852dc7b9edfc535d662054adb953839c3f97729088607fcef806"
+    },
+    {
+      "path": "src/FullscreenVideoWindow.tsx",
+      "sha256": "1a98c1d7d12d51872df94e52a4e4fa55a6ed023157610272e07489c9399db7e2",
+      "size": 1285,
+      "originalSelectedSourceSha256": "1a98c1d7d12d51872df94e52a4e4fa55a6ed023157610272e07489c9399db7e2"
+    },
+    {
+      "path": "src/HandoffScenes.tsx",
+      "sha256": "b84d76ec35984ea80b9983b084aafe6ffcaf68f7363ea3fe4ded722be8a8f45a",
+      "size": 3004,
+      "originalSelectedSourceSha256": "b84d76ec35984ea80b9983b084aafe6ffcaf68f7363ea3fe4ded722be8a8f45a"
+    },
+    {
+      "path": "src/NovelScenes.tsx",
+      "sha256": "ed2b5a341fbdcff7d8bbba48b351975c323832e21b759e4fe0f58e21639e5a7c",
+      "size": 3064,
+      "originalSelectedSourceSha256": "ed2b5a341fbdcff7d8bbba48b351975c323832e21b759e4fe0f58e21639e5a7c"
+    },
+    {
+      "path": "src/OpeningScenes.tsx",
+      "sha256": "7ffd8e123f571e373a7012bed97ca238ce3ecc22631da6637ed284e3ec4451fe",
+      "size": 3517,
+      "originalSelectedSourceSha256": "7ffd8e123f571e373a7012bed97ca238ce3ecc22631da6637ed284e3ec4451fe"
+    },
+    {
+      "path": "src/RecordingScenes.tsx",
+      "sha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92",
+      "size": 7726,
+      "originalSelectedSourceSha256": "9be3f5d0622018d546726e642e8c970534098c71b238b493f6aded9ee2612e92"
+    },
+    {
+      "path": "src/assets.json",
+      "sha256": "93553fd4bd3cd1e45ccbc322c5d1b80635da6c3adc5fddff88231567c834a226",
+      "size": 825,
+      "originalSelectedSourceSha256": "93553fd4bd3cd1e45ccbc322c5d1b80635da6c3adc5fddff88231567c834a226"
+    },
+    {
+      "path": "src/fullscreen-video-window-geometry.ts",
+      "sha256": "a4e69abe316ce8f3c161da709431da480519496c2225f70beef914b2bce01948",
+      "size": 1348,
+      "originalSelectedSourceSha256": "a4e69abe316ce8f3c161da709431da480519496c2225f70beef914b2bce01948"
+    },
+    {
+      "path": "src/index.tsx",
+      "sha256": "b27a41cda22c3aadb28d85976e1a4da5063395e655dc85f9a070918da2780deb",
+      "size": 1398,
+      "originalSelectedSourceSha256": "b27a41cda22c3aadb28d85976e1a4da5063395e655dc85f9a070918da2780deb"
+    },
+    {
+      "path": "src/shared.tsx",
+      "sha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b",
+      "size": 5008,
+      "originalSelectedSourceSha256": "b589565211dd4ceca0aab1fdd3bbe57b3db327bc393747fd72c98977d9ab362b"
+    }
+  ],
+  "verification": {
+    "typescriptFiles": 9,
+    "bundle": true,
+    "realBrowserGetCompositions": 14,
+    "runtimeVersions": {
+      "react": "19.2.4",
+      "react-dom": "19.2.4",
+      "remotion": "4.0.473",
+      "@remotion/bundler": "4.0.473",
+      "@remotion/renderer": "4.0.473",
+      "typescript": "5.9.3",
+      "@types/react": "19.2.17"
+    },
+    "buildCachesIncluded": false,
+    "npmInstallExecuted": false,
+    "runtimeCheckMethod": "Existing exact-version physical runtime temporarily linked for verification; link excluded."
+  }
+}

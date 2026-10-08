@@ -14,7 +14,14 @@ def main():
  data=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=data['items']
  if args.list:
   print(json.dumps(data['scenarios'],ensure_ascii=False,indent=2));return
- if args.id:items=[i for i in items if args.id in {i['id'],i['label'],i.get('referenceId')}]
+ if args.id:
+  history=json.loads((ROOT/'library/history.json').read_text())
+  alias=next((i.get('canonicalLabel') for i in history if args.id in {i.get('id'),i.get('label')} and i.get('canonicalLabel')),None)
+  wanted=alias or args.id
+  items=[i for i in items if wanted in {i['id'],i['label'],i.get('referenceId')}]
+ if args.status=='keep':items=[i for i in items if not i.get('archivedFromSkill')]
+ elif args.status=='archived':items=[i for i in items if i.get('archivedFromSkill')]
+
  if args.scene_type:items=[i for i in items if args.scene_type in i.get('sceneTypes',[])]
  if args.use:items=[i for i in items if args.use in i.get('matching',{}).get('useIds',[])]
  if args.source:items=[i for i in items if args.source==i.get('matching',{}).get('sourceId')]
