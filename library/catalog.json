@@ -621,6 +621,15 @@
         "size": 79483274
       },
       "implementation": {
+        "compositionId": "CAM01",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 768,
+        "runtimeVersions": {
+          "remotion": "4.0.451",
+          "react": "19.2.5"
+        },
         "projects": [
           "components/projects/screen-camera-selected-20261007"
         ],
@@ -781,6 +790,15 @@
         "size": 79483274
       },
       "implementation": {
+        "compositionId": "CAM02",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 840,
+        "runtimeVersions": {
+          "remotion": "4.0.451",
+          "react": "19.2.5"
+        },
         "projects": [
           "components/projects/screen-camera-selected-20261007"
         ],
@@ -941,6 +959,15 @@
         "size": 79483274
       },
       "implementation": {
+        "compositionId": "CAM03",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 840,
+        "runtimeVersions": {
+          "remotion": "4.0.451",
+          "react": "19.2.5"
+        },
         "projects": [
           "components/projects/screen-camera-selected-20261007"
         ],
@@ -1094,6 +1121,15 @@
         "size": 79483274
       },
       "implementation": {
+        "compositionId": "CAM04",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 840,
+        "runtimeVersions": {
+          "remotion": "4.0.451",
+          "react": "19.2.5"
+        },
         "projects": [
           "components/projects/screen-camera-selected-20261007"
         ],
@@ -1258,6 +1294,15 @@
         "size": 79483274
       },
       "implementation": {
+        "compositionId": "CAM05",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 720,
+        "runtimeVersions": {
+          "remotion": "4.0.451",
+          "react": "19.2.5"
+        },
         "projects": [
           "components/projects/screen-camera-selected-20261007"
         ],
@@ -1452,6 +1497,15 @@
         "size": 209614178
       },
       "implementation": {
+        "compositionId": "EP109-Selected-01",
+        "fps": 60,
+        "durationInFrames": 120,
+        "sourceFrameRange": [
+          0,
+          120
+        ],
+        "sourceGeometry": "1920x1080 logical stage, one parent scale",
+        "sourcePackageSha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
         "projects": [
           "components/projects/ep109-selected-20261006"
         ],
@@ -1615,6 +1669,15 @@
         "size": 209614178
       },
       "implementation": {
+        "compositionId": "EP109-Selected-02",
+        "fps": 60,
+        "durationInFrames": 420,
+        "sourceFrameRange": [
+          1200,
+          1620
+        ],
+        "sourceGeometry": "1920x1080 logical stage, one parent scale",
+        "sourcePackageSha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
         "projects": [
           "components/projects/ep109-selected-20261006"
         ],
@@ -1780,6 +1843,15 @@
         "size": 209614178
       },
       "implementation": {
+        "compositionId": "EP109-Selected-03",
+        "fps": 60,
+        "durationInFrames": 660,
+        "sourceFrameRange": [
+          3240,
+          3900
+        ],
+        "sourceGeometry": "1920x1080 logical stage, one parent scale",
+        "sourcePackageSha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
         "projects": [
           "components/projects/ep109-selected-20261006"
         ],
@@ -1943,6 +2015,15 @@
         "size": 209614178
       },
       "implementation": {
+        "compositionId": "EP109-Selected-04",
+        "fps": 60,
+        "durationInFrames": 240,
+        "sourceFrameRange": [
+          4200,
+          4440
+        ],
+        "sourceGeometry": "1920x1080 logical stage, one parent scale",
+        "sourcePackageSha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
         "projects": [
           "components/projects/ep109-selected-20261006"
         ],
@@ -2103,6 +2184,15 @@
         "size": 209614178
       },
       "implementation": {
+        "compositionId": "EP109-Selected-05",
+        "fps": 60,
+        "durationInFrames": 180,
+        "sourceFrameRange": [
+          6420,
+          6600
+        ],
+        "sourceGeometry": "1920x1080 logical stage, one parent scale",
+        "sourcePackageSha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
         "projects": [
           "components/projects/ep109-selected-20261006"
         ],
@@ -2267,6 +2357,15 @@
         "size": 209614178
       },
       "implementation": {
+        "compositionId": "EP109-Selected-06",
+        "fps": 60,
+        "durationInFrames": 300,
+        "sourceFrameRange": [
+          7860,
+          8160
+        ],
+        "sourceGeometry": "1920x1080 logical stage, one parent scale",
+        "sourcePackageSha256": "4852c2e1d6b9157798498ad178fe8ee27a7c4c5ad122e1fbbed5c52856b16f91",
         "projects": [
           "components/projects/ep109-selected-20261006"
         ],
@@ -2425,6 +2524,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "OP02",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -2583,6 +2693,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "OP03",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -2742,6 +2863,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "OP05",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -2900,6 +3032,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "OP09",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -3059,6 +3202,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "OP10",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -3218,6 +3372,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "EX05",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 480,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -3379,6 +3544,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "EX08",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 540,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -3541,6 +3717,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "RC01",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 480,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -3703,6 +3890,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "RC02",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 480,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -3866,6 +4064,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "RC03",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 480,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -4028,6 +4237,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "RC04",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 480,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -4190,6 +4410,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "RC05",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 480,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -4349,6 +4580,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "HD02",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 420,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -4511,6 +4753,17 @@
       "collectionId": "expansion-selected-20261007",
       "defaultReuse": true,
       "implementation": {
+        "compositionId": "HD03",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 420,
+        "sourceGeometry": "1920x1080 logical stage; one parent scale",
+        "sourcePackageSha256": "8654ff8e2342c4d39011c6188c957d2bdc94583bc9ed4a34bd85c07b4ed5980b",
+        "runtimeVersions": {
+          "remotion": "4.0.473",
+          "react": "19.2.4"
+        },
         "projects": [
           "components/projects/expansion-selected-20261007"
         ],
@@ -4704,6 +4957,15 @@
         "size": 18469547
       },
       "implementation": {
+        "compositionId": "Yellow-Parallel",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 420,
+        "runtimeVersions": {
+          "remotion": "4.0.519",
+          "react": "19.2.3"
+        },
         "projects": [
           "components/projects/interaction-components-20261007"
         ],
@@ -4929,6 +5191,15 @@
         "size": 18469547
       },
       "implementation": {
+        "compositionId": "Spotlight-Parallel",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 420,
+        "runtimeVersions": {
+          "remotion": "4.0.519",
+          "react": "19.2.3"
+        },
         "projects": [
           "components/projects/interaction-components-20261007"
         ],
@@ -5091,6 +5362,15 @@
         "size": 18469547
       },
       "implementation": {
+        "compositionId": "Codex-EP109",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 849,
+        "runtimeVersions": {
+          "remotion": "4.0.519",
+          "react": "19.2.3"
+        },
         "projects": [
           "components/projects/interaction-components-20261007"
         ],
@@ -5264,6 +5544,15 @@
         "size": 18469547
       },
       "implementation": {
+        "compositionId": "WeChat-Neutral",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 750,
+        "runtimeVersions": {
+          "remotion": "4.0.519",
+          "react": "19.2.3"
+        },
         "projects": [
           "components/projects/interaction-components-20261007"
         ],
