@@ -17,6 +17,8 @@ class PortableTests(unittest.TestCase):
  def test_active_catalog_keeps_removals_and_valid_sources(self):
   d=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=d['items']
   self.assertEqual(len(items),210)
+  self.assertEqual(d['counts']['available'],205)
+  self.assertEqual(d['counts']['unavailable'],5)
   expected={"ep109-selected-20261006":6,"expansion-selected-20261007":14,"interaction-components-20261007":4,"screen-camera-selected-20261007":5}
   for collection,count in expected.items():
    selected=[i for i in items if i.get('collectionId')==collection]
