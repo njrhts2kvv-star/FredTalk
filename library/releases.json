@@ -633,7 +633,19 @@
       "size": 83993739,
       "sha256": "206b3e2ef93b462143fd00a1c1bfc219704bf99bfca498a55308df285a6b45a3",
       "objects": 37,
-      "tag": "v1.5.0"
+      "tag": "v1.5.0",
+      "parts": [
+        {
+          "name": "fredtalk-1.5-001.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "b73340e63a9536f596462baf01e3a7a15bf55c822ab2961fd62a2eabb60b8683"
+        },
+        {
+          "name": "fredtalk-1.5-001.tar.gz.part002",
+          "size": 2204811,
+          "sha256": "5bee89ac5841a81ff727cedaf90648037c40117edbf5610ec4a645bf8a2695ed"
+        }
+      ]
     },
     {
       "name": "fredtalk-1.5-002.tar.gz",
@@ -654,14 +666,43 @@
       "size": 209658586,
       "sha256": "d682b44a6a32656ec730648fcab4c3edf877d77ab0b20b08a2fb347bd13dff44",
       "objects": 1,
-      "tag": "v1.5.0"
+      "tag": "v1.5.0",
+      "parts": [
+        {
+          "name": "fredtalk-1.5-004.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "8d486887984e815f4b1a5b20f6e936517b0dbc43f6efffcbe354760b8a42abdd"
+        },
+        {
+          "name": "fredtalk-1.5-004.tar.gz.part002",
+          "size": 81788928,
+          "sha256": "b16f16429696dc4bcf039ae0ef11a423afd41d2ca081ed79d38dfac8ac388632"
+        },
+        {
+          "name": "fredtalk-1.5-004.tar.gz.part003",
+          "size": 46080730,
+          "sha256": "88293a0e2089fb081948f4ac498d0c37ddeb9a092d022f423ab4f90901132d87"
+        }
+      ]
     },
     {
       "name": "fredtalk-1.5-005.tar.gz",
       "size": 92229522,
       "sha256": "208986885438f836062151329535620db20b892a51aceb04e4f8865bde036bbb",
       "objects": 21,
-      "tag": "v1.5.0"
+      "tag": "v1.5.0",
+      "parts": [
+        {
+          "name": "fredtalk-1.5-005.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "33911f32997eaf5ac9c66481c2feacc50abfa76d935cb04fd16cd370794ac900"
+        },
+        {
+          "name": "fredtalk-1.5-005.tar.gz.part002",
+          "size": 10440594,
+          "sha256": "43ab5d70a9147633b05fc0d4b90914538ff1f2bf43822aeefa323c9878f23c3a"
+        }
+      ]
     },
     {
       "name": "fredtalk-1.5-006.tar.gz",
@@ -675,14 +716,38 @@
       "size": 158224884,
       "sha256": "13a0557f4e0c96243e51b482ea498aff9e1c1c6b4ddddbc609ebd36fabee5f0d",
       "objects": 1,
-      "tag": "v1.5.0"
+      "tag": "v1.5.0",
+      "parts": [
+        {
+          "name": "fredtalk-1.5-007.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "76caee3e0eda802af56cc0fdb2fad3d3fcb1cc85f727afd67c4975488c211000"
+        },
+        {
+          "name": "fredtalk-1.5-007.tar.gz.part002",
+          "size": 76435956,
+          "sha256": "fc0e67684f737d51b1662e291a0b42efeec7f1041aabe91ce8500a7ee6bb5b84"
+        }
+      ]
     },
     {
       "name": "fredtalk-1.5-008.tar.gz",
       "size": 93219162,
       "sha256": "b518c33afdda79e69270c0bddb8252fe51a479181072c3f2f4f9d49b9259f3d2",
       "objects": 61,
-      "tag": "v1.5.0"
+      "tag": "v1.5.0",
+      "parts": [
+        {
+          "name": "fredtalk-1.5-008.tar.gz.part001",
+          "size": 81788928,
+          "sha256": "1f3159dd3d75f74b7a62b03678153e72df85d751d0f4845f777ca7c80fac8cb0"
+        },
+        {
+          "name": "fredtalk-1.5-008.tar.gz.part002",
+          "size": 11430234,
+          "sha256": "cd90feebb772d52d70a16eeec243d65fa4c77cdfd5932321f4a24ac84cd11b2d"
+        }
+      ]
     },
     {
       "name": "fredtalk-1.5-009.tar.gz",
