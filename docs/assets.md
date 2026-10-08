@@ -21,7 +21,7 @@ python3 scripts/assets.py materialize --project components/projects/PROJECT_ID
 
 Find the exact project directory with `python3 scripts/catalog.py --id SP024 --full`. Replace `PROJECT_ID` with the reported directory name.
 
-The current release declares 45 logical packs in 67 downloadable files. Multipart packs are assembled automatically; both part hashes and the combined hash are validated. Read `library/releases.json` for the current release identity and sizes.
+FredTalk 1.5 adds material packs for 29 components while preserving the previously published packs. The current logical packs, downloadable parts, sizes and release tags are declared in `library/releases.json`. Multipart packs are assembled automatically; both part hashes and the combined hash are validated.
 
 The installer validates the release pack hash, every object hash, object size and archive member name. It rejects directories, links and unexpected members. Downloaded archives are removed after successful extraction. Re-running the download can re-fetch packs; keep sufficient temporary disk space.
 
