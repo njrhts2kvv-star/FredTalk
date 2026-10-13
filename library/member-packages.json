@@ -15,9 +15,9 @@
         "requiredMembershipLevels": [
           "exclusive_group"
         ],
-        "durationDays": 30,
+        "durationDays": 14,
         "startsAt": "2026-10-13T03:15:00.000Z",
-        "publicAt": "2026-11-12T03:15:00.000Z"
+        "publicAt": "2026-10-27T03:15:00.000Z"
       },
       "installRoot": ".artifacts/member-components/fred-native-16-20261012",
       "files": {
@@ -234,9 +234,9 @@
         "requiredMembershipLevels": [
           "exclusive_group"
         ],
-        "durationDays": 30,
+        "durationDays": 14,
         "startsAt": "2026-10-13T03:15:00.000Z",
-        "publicAt": "2026-11-12T03:15:00.000Z"
+        "publicAt": "2026-10-27T03:15:00.000Z"
       },
       "installRoot": ".artifacts/member-components/fred-wave2-42-20261012",
       "files": {
@@ -557,9 +557,9 @@
         "requiredMembershipLevels": [
           "exclusive_group"
         ],
-        "durationDays": 30,
+        "durationDays": 14,
         "startsAt": "2026-10-13T03:15:00.000Z",
-        "publicAt": "2026-11-12T03:15:00.000Z"
+        "publicAt": "2026-10-27T03:15:00.000Z"
       },
       "installRoot": ".artifacts/member-components/fred-wave2-fix5-20261012",
       "files": {
@@ -732,9 +732,9 @@
         "requiredMembershipLevels": [
           "exclusive_group"
         ],
-        "durationDays": 30,
+        "durationDays": 14,
         "startsAt": "2026-10-13T03:15:00.000Z",
-        "publicAt": "2026-11-12T03:15:00.000Z"
+        "publicAt": "2026-10-27T03:15:00.000Z"
       },
       "installRoot": ".artifacts/member-components/fred-wave3-40-20261012",
       "files": {
@@ -1047,9 +1047,9 @@
         "requiredMembershipLevels": [
           "exclusive_group"
         ],
-        "durationDays": 30,
+        "durationDays": 14,
         "startsAt": "2026-10-13T03:15:00.000Z",
-        "publicAt": "2026-11-12T03:15:00.000Z"
+        "publicAt": "2026-10-27T03:15:00.000Z"
       },
       "installRoot": ".artifacts/member-components/fred-wave3-extra2-20261012",
       "files": {

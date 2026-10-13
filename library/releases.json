@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "njrhts2kvv-star/FredTalk",
   "tag": "v2.0.0",
-  "manifestSha256": "c85e31bc911d88c322257b7ba07e72210c341f1a816458b0a13c33044e32cfd7",
+  "manifestSha256": "bde52357dd9155a877f963f62358e09abd38d0c0b9dbc239f290ba659efb78a6",
   "packs": [
     {
       "name": "fredtalk-materials-001.tar.gz",

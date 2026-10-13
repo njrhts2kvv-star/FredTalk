@@ -25,6 +25,6 @@ See [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md) and individual notices. 
 
 ## Early access and existing copies / 抢先下载与已有副本
 
-The 30-day exclusive-membership window controls the website's current download service for five new collections. It does not revoke MIT permissions already granted for previously distributed first-party source copies, and it does not remove the right to use, modify or redistribute those copies under MIT. Changing the current main-branch download channel or withdrawing a release attachment is not a license revocation. Existing tags and Git history remain intact.
+The 14-day exclusive-membership window controls the website's current download service for five new collections. It does not revoke MIT permissions already granted for previously distributed first-party source copies, and it does not remove the right to use, modify or redistribute those copies under MIT. Changing the current main-branch download channel or withdrawing a release attachment is not a license revocation. Existing tags and Git history remain intact.
 
-30 天专属会员抢先限定网站当前提供的下载服务。此前已经发布并授予 MIT 许可的原创源码副本继续保有原许可，仍可按 MIT 使用、修改与再分发。改变当前 main 的下载渠道或撤下混合素材包，不等于撤销已有许可。旧标签与 Git 历史保持；公开老组件和 NMC01 继续由 GitHub 提供下载。
+14 天专属会员抢先限定网站当前提供的下载服务。此前已经发布并授予 MIT 许可的原创源码副本继续保有原许可，仍可按 MIT 使用、修改与再分发。改变当前 main 的下载渠道或撤下混合素材包，不等于撤销已有许可。旧标签与 Git 历史保持；公开老组件和 NMC01 继续由 GitHub 提供下载。

@@ -1,6 +1,6 @@
 # Asset installation / 素材安装
 
-公开组件继续从这个 GitHub 仓库的 Release 下载。旧公开包沿用原标签，NMC01 新闻关键词快闪使用独立的公开补包。五个新批次共 105 条组件提供 30 天专属会员抢先：源码 ZIP、源码和原画质素材从 FredTalk 网站获取，普通会员不包含这项抢先权限；实际开始与公开时间以网站显示的日程为准。
+公开组件继续从这个 GitHub 仓库的 Release 下载。旧公开包沿用原标签，NMC01 新闻关键词快闪使用独立的公开补包。五个新批次共 105 条组件提供 14 天专属会员抢先：源码 ZIP、源码和原画质素材从 FredTalk 网站获取，普通会员不包含这项抢先权限；实际开始与公开时间以网站显示的日程为准。
 
 仓库保留全部组件的编号、用法、预览身份、参数与原文件 SHA-256。会员源码不放在当前 `main` 的工程目录中，安装后位于 Git 忽略的 `.artifacts/member-components/`。未安装时，查询明确返回 `needs-auth` 或 `missing`，不会把目录元数据冒充可以运行的源码。曾经发布且已获得 MIT 授权的源码副本仍保留原许可；抢先下载窗口不会撤回这项授权。
 
@@ -79,12 +79,12 @@ The installer does not run npm scripts or source code. Copy a verified project t
 
 `quarantined` records remain visible for traceability and are absent from public packs. Supply your own inputs when a chosen scene requires them. Fred's private background music, machine binding, personal source recordings and account credentials are outside this distribution. Media, fonts and third-party content retain their own licenses and permissions.
 
-抢先时间：北京时间 **2026-10-13 11:15 至 2026-11-12 11:15**（UTC `2026-10-13T03:15:00.000Z` 至 `2026-11-12T03:15:00.000Z`），共 30 天，适用于上述五个批次的专属会员下载。
+抢先时间：北京时间 **2026-10-13 11:15 至 2026-10-27 11:15**（UTC `2026-10-13T03:15:00.000Z` 至 `2026-10-27T03:15:00.000Z`），共 14 天，适用于上述五个批次的专属会员下载。
 
 ## New batches from day one / 后续新批次流程
 
 后续的新批次从第一天就把源码、源码 ZIP 和原画质素材放进网站私有存储。公共仓库只登记目录、用途、参数、海报和明确标注身份的派生预览；公开预览使用网站静态资源 URL，不走会员接口，也不需要 Agent token。
 
-每个 batch 固定 `startsAt` 与恰好 30 天后的 `publicAt`，并只授予有效 `exclusive_group` 抢先读取。发布前核对 main、历史标签候选、仓库自动 archive、Release 包及静态路径，保证新的私有素材没有提前进入公开分发。到期由网站 API 自动允许匿名读取；如需把该批源码和素材补到 GitHub，再确认源码包的许可、第三方范围和完整 hash 后同步公开包。
+每个 batch 固定 `startsAt` 与恰好 14 天后的 `publicAt`，并只授予有效 `exclusive_group` 抢先读取。发布前核对 main、历史标签候选、仓库自动 archive、Release 包及静态路径，保证新的私有素材没有提前进入公开分发。到期由网站 API 自动允许匿名读取；如需把该批源码和素材补到 GitHub，再确认源码包的许可、第三方范围和完整 hash 后同步公开包。
 
 当前这五批已经公开过，并已授予相应原创部分 MIT 许可。已有历史 commit/tag 中的公开源码仍可获取；本次保留这些历史，不声称可以追回已有副本。新的私有发布流程只能约束后续分发。

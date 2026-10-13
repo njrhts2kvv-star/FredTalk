@@ -79,7 +79,7 @@ export function ReferenceCard({ item, onSelect, variants = [], playing, onPlayba
           <span>{item.origin}</span>
         </p>
         <ReferenceAddedMetadata item={item} />
-        {item.earlyAccess?.enabled && <span className="reference-use">专属会员抢先 · 30天 · 预览公开</span>}
+        {item.earlyAccess?.enabled && <span className="reference-use">专属会员抢先{Number.isInteger(item.earlyAccess.durationDays) && item.earlyAccess.durationDays > 0 ? ` · ${item.earlyAccess.durationDays}天` : ""} · 预览公开</span>}
         <h3>{item.title}</h3>
         <span className="reference-use">{item.matching?.scenarioTitle || item.category}{item.matching?.nativeDurationSeconds ? ` · 参考片段 ${item.matching.nativeDurationSeconds}s` : ""}</span>
         <span className="reference-type">

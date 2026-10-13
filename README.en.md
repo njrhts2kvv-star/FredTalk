@@ -82,9 +82,9 @@ python3 scripts/assets.py materialize
 
 The downloader requires the [GitHub CLI](https://cli.github.com/). See [asset installation](docs/assets.md) for more options.
 
-### 30-day exclusive membership early access
+### 14-day exclusive membership early access
 
-Five new batches containing 105 components offer a 30-day head start for the website's **exclusive group** membership. Ordinary membership does not include this window. Exact start and public-access times appear in the [online library](https://www.fred-fu.com/visual-library). Existing public components and NMC01 continue to download from GitHub.
+Five new batches containing 105 components offer a 14-day head start for the website's **exclusive group** membership. Ordinary membership does not include this window. Exact start and public-access times appear in the [online library](https://www.fred-fu.com/visual-library). Existing public components and NMC01 continue to download from GitHub.
 
 The catalog retains IDs, usage metadata, preview identities and original hashes. Download an official source ZIP while signed into the website, attach it to Codex, then paste the component dialog's “Copy for Codex” instructions. The agent installs the local ZIP; you do not need to configure a website token or type terminal commands.
 
@@ -127,6 +127,6 @@ FredTalk first-party code, Skills, templates and documentation are licensed unde
 
 Third-party code, reference-derived project snapshots, fonts, sound effects, images, recordings, videos and branding retain their own licenses or permissions. See [License scope](docs/license-scope.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-The five-batch exclusive access window runs from **2026-10-13 11:15 to 2026-11-12 11:15 Asia/Shanghai**, exactly 30 days (`2026-10-13T03:15:00.000Z` through `2026-11-12T03:15:00.000Z`).
+The five-batch exclusive access window runs from **2026-10-13 11:15 to 2026-10-27 11:15 Asia/Shanghai**, exactly 14 days (`2026-10-13T03:15:00.000Z` through `2026-10-27T03:15:00.000Z`).
 
 Previously public source remains retrievable from its historical commits and tags. The early-access service does not revoke MIT grants or rewrite those histories. For future batches, source, ZIPs and original media start in private storage; only metadata, posters and labeled derivative previews enter the public repository before release.
