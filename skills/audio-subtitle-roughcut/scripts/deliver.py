@@ -3,6 +3,7 @@ import hashlib
 import importlib.util
 import json
 import math
+import os
 import re
 import shutil
 import subprocess
@@ -80,7 +81,7 @@ def main():
     subtitle.write_text('\n'.join(lines))
     measurements = subprocess.run(['ffmpeg', '-nostdin', '-i', str(audio), '-af', 'volumedetect', '-f', 'null', '-'], capture_output=True, text=True, check=True).stderr
     before = subprocess.run(['ffmpeg', '-nostdin', '-i', str(base / 'review-cut.wav'), '-af', f'atempo={args.speed},atrim=start={trim},volumedetect', '-f', 'null', '-'], capture_output=True, text=True, check=True).stderr
-    manifest = dict(version=args.version, filenameStem=stem, speed=args.speed, trimStart=trim, trimMode='manual' if args.trim_start is not None else 'threshold-proposal-needs-audition', gainDb=args.gain_db, passthrough=args.passthrough, peakLimitDb=None if args.passthrough else true_peak_check['limiterCeilingDb'], duration=duration, frames=frames, audioPath=str(audio), subtitlePath=str(subtitle), audioHash=hash_file(audio), subtitleHash=hash_file(subtitle), baseExport=str(base), expectedCues=mapped, subtitleWarnings=result['subtitleWarnings'], measurementLines=[line.strip() for line in measurements.splitlines() if 'mean_volume:' in line or 'max_volume:' in line], listeningReviewed=False)
+    manifest = dict(version=args.version, filenameStem=stem, speed=args.speed, trimStart=trim, trimMode='manual' if args.trim_start is not None else 'threshold-proposal-needs-audition', gainDb=args.gain_db, passthrough=args.passthrough, peakLimitDb=None if args.passthrough else true_peak_check['limiterCeilingDb'], duration=duration, frames=frames, audioPath=os.path.relpath(audio, root), subtitlePath=os.path.relpath(subtitle, root), audioHash=hash_file(audio), subtitleHash=hash_file(subtitle), baseExport=os.path.relpath(base, root), expectedCues=mapped, subtitleWarnings=result['subtitleWarnings'], measurementLines=[line.strip() for line in measurements.splitlines() if 'mean_volume:' in line or 'max_volume:' in line], listeningReviewed=False)
     means = [re.search(r'mean_volume: ([-\d.]+) dB', value) for value in (before, measurements)]
     manifest['loudnessBefore'] = loudness_before
     manifest['loudnessAfter'] = loudness_after
@@ -88,7 +89,8 @@ def main():
     manifest['preprocessingSpeed'] = server.CONFIG.get('preprocessing', {}).get('speedApplied')
     manifest['actualLoudnessChangeLu'] = round(loudness_after['integratedLufs'] - loudness_before['integratedLufs'], 2) if all(v['integratedLufs'] is not None for v in (loudness_before, loudness_after)) else None
     manifest['actualMeanGainDb'] = round(float(means[1][1]) - float(means[0][1]), 2) if all(means) else None
-    (base / 'delivery.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
+    base_manifest = dict(manifest, baseExport='.', audioPath=os.path.relpath(audio, base), subtitlePath=os.path.relpath(subtitle, base))
+    (base / 'delivery.json').write_text(json.dumps(base_manifest, ensure_ascii=False, indent=2))
     temp = root / 'final-delivery.tmp'
     temp.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
     temp.replace(root / 'final-delivery.json')

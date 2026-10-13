@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "inputBgmAlreadyPresent": false,
+  "loopSourceRangeSeconds": [
+    120,
+    240
+  ],
+  "joinCrossfadeSeconds": 0.08,
+  "muteFadeSeconds": 0.12,
+  "muteRanges": [],
+  "note": "Fill intervals from actual source-audio viewing tasks. Interior repeat range must fit your own music. For a short video no repeat is needed."
+}

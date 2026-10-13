@@ -9,10 +9,21 @@ const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const icons = () => lucide.createIcons();
 function toast(s){$('toast').textContent=s;$('toast').style.display='block';clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').style.display='none',4200)}
 function intervals(){const out=[];cuts.filter(c=>c.enabled).sort((a,b)=>a.start-b.start).forEach(c=>{let last=out.at(-1);if(last&&c.start<=last[1])last[1]=Math.max(last[1],c.end);else out.push([c.start,c.end])});return out}
+function cueRange(c){return [c.originalStart??c.start,c.originalEnd??c.end]}
+function cueRestoreRange(c){
+ let [start,end]=cueRange(c);const ids=c.sourceCueIds||[c.id];
+ const boundIds=new Set((project.subtitleBoundaries||[]).filter(b=>ids.includes(b.cue)&&b.cutId).map(b=>b.cutId));
+ const previousEnd=Math.max(0,...project.cues.filter(other=>other.id!==c.id&&cueRange(other)[0]<start).map(other=>cueRange(other)[1]));
+ const nextStart=Math.min(project.duration,...project.cues.filter(other=>other.id!==c.id&&cueRange(other)[0]>start).map(other=>cueRange(other)[0]));
+ for(const cut of cuts){if(!cut.enabled||!(boundIds.has(cut.id)||boundIds.has(cut.originCutId)))continue;start=Math.min(start,Math.max(previousEnd,cut.start));end=Math.max(end,Math.min(nextStart,cut.end))}
+ return [start,end];
+}
+function coversRange(start,end){let cursor=start;for(const [a,b] of intervals()){if(b<=cursor)continue;if(a>cursor+1/48000)return false;cursor=Math.max(cursor,b);if(cursor>=end-1/48000)return true}return false}
+function cutId(prefix){let id=prefix+'-'+Date.now(),suffix=1;while(cuts.some(c=>c.id===id))id=prefix+'-'+Date.now()+'-'+suffix++;return id}
 function spans(){let p=0,out=[];for(const [a,b] of intervals()){if(a>p)out.push([p,a]);p=b}if(p<project.duration)out.push([p,project.duration]);return out}
 function editedTime(t){return t-intervals().reduce((n,[a,b])=>n+Math.max(0,Math.min(t,b)-a),0)}
 function checkpoint(){history.push(clone(cuts));if(history.length>80)history.shift();future=[]}
-function persist(){const body=JSON.stringify({cuts});$('saveStatus').textContent='保存中';saveQueue=saveQueue.catch(()=>{}).then(async()=>{const r=await fetch('/api/save',{method:'POST',headers:{'Content-Type':'application/json'},body});if(!r.ok){const e=await r.json();throw Error(e.error||'保存失败')}const latest=await(await fetch('/api/project')).json();project.cues=latest.cues;renderTranscript();icons();$('saveStatus').textContent='已保存到本地'}).catch(e=>{toast(e.message);$('saveStatus').textContent='保存失败'});localStorage.setItem('fred-roughcut-backup',body)}
+function persist(){const body=JSON.stringify({cuts});$('saveStatus').textContent='保存中';saveQueue=saveQueue.catch(()=>{}).then(async()=>{const r=await fetch('/api/save',{method:'POST',headers:{'Content-Type':'application/json'},body});if(!r.ok){const e=await r.json();throw Error(e.error||'保存失败')}const latest=await(await fetch('/api/project')).json();project.cues=latest.cues;renderTranscript();icons();$('saveStatus').textContent='已保存到本地'}).catch(e=>{toast(e.message);$('saveStatus').textContent='保存失败'});try{localStorage.setItem(`audio-review:${project.episodeKey}:${project.sourceHash}`,body)}catch(e){toast('浏览器备份失败：'+e.message)}}
 function changed(){stop();render();persist()}
 function update(id,patch){checkpoint();Object.assign(cuts.find(c=>c.id===id),patch);changed()}
 function render(){
@@ -25,10 +36,10 @@ function render(){
 }
 function renderTranscript(){
  const q=$('search').value.toLowerCase(),only=$('onlyCuts').checked;
- $('transcript').innerHTML=project.cues.filter(c=>c.text.toLowerCase().includes(q)&&(!only||cuts.some(x=>x.start<c.end&&x.end>c.start))).map(c=>{
-  const chars=Array.from(c.text),matches=cuts.filter(x=>x.start<c.end&&x.end>c.start);
+ $('transcript').innerHTML=project.cues.filter(c=>{const [a,b]=cueRange(c);return c.text.toLowerCase().includes(q)&&(!only||cuts.some(x=>x.start<b&&x.end>a))}).map(c=>{
+  const [a,b]=cueRange(c),[restoreStart,restoreEnd]=cueRestoreRange(c),chars=Array.from(c.text),matches=cuts.filter(x=>x.start<b&&x.end>a),restorable=cuts.some(x=>x.enabled&&x.start<restoreEnd&&x.end>restoreStart),deleted=coversRange(a,b);
   const words=chars.map((ch,i)=>{const time=c.start+(i+.5)/chars.length*(c.end-c.start);const active=matches.some(x=>x.enabled&&time>=x.start&&time<x.end),pending=matches.some(x=>!x.enabled&&!x.reviewed&&time>=x.start&&time<x.end);return `<span class="${active?'removed':pending?'pending':''}">${esc(ch)}</span>`}).join('');
-  return `<div class="cue" data-cue="${c.id}" tabindex="0"><span class="time">${fmt(c.start)}</span><span class="words">${words}</span><span class="cue-tools"><button class="editcue" title="编辑字幕" aria-label="编辑第 ${c.id} 句字幕" data-edit="${c.id}"><i data-lucide="pencil"></i></button><button class="deletecue" title="剪掉此句" aria-label="剪掉第 ${c.id} 句" data-delete="${c.id}"><i data-lucide="scissors"></i></button></span></div>`;
+  return `<div class="cue" data-cue="${c.id}" tabindex="0"><span class="time">${fmt(c.start)}</span><span class="words">${words}</span><span class="cue-tools"><button class="editcue" title="编辑字幕" aria-label="编辑第 ${c.id} 句字幕" data-edit="${c.id}"><i data-lucide="pencil"></i></button><button class="deletecue" title="剪掉此句" aria-label="剪掉第 ${c.id} 句" data-delete="${c.id}"${deleted?' disabled':''}><i data-lucide="scissors"></i></button><button class="restorecue" title="恢复此句的全部音频剪切" aria-label="恢复第 ${c.id} 句音频剪切" data-restore="${c.id}"${restorable?'':' disabled'}><i data-lucide="rotate-ccw"></i>恢复</button></span></div>`;
  }).join('');
  $('script').textContent=project.script;
 }
@@ -58,11 +69,28 @@ function draw(){if(!project)return;const canvas=$('wave'),width=Math.max(300,$('
  for(const c of cuts){ctx.fillStyle=c.enabled?'rgba(113,116,123,.72)':'rgba(224,184,123,.14)';ctx.fillRect(x(c.start),22,x(c.end-c.start),96);if(c.id===selected){ctx.strokeStyle='#e0b87b';ctx.strokeRect(x(c.start),23,x(c.end-c.start),94);for(const t of [c.start,c.end]){ctx.fillStyle='#e0b87b';ctx.fillRect(x(t)-3,22,6,96)}}}
  const a=Number($('rangeStart').value),b=Number($('rangeEnd').value);ctx.fillStyle='rgba(128,220,203,.15)';ctx.fillRect(x(a),22,x(b-a),96);ctx.fillStyle='#fff';ctx.fillRect(x(cursor),19,1.5,100);
 }
-function addCut(start,end,title='手动剪切'){if(start<0||end<=start||end>project.duration){toast('请先设置有效的选区');return}checkpoint();const c={id:'manual-'+Date.now(),start,end,title,reason:'手动选区；请试听接缝后确认。',confidence:'手动',enabled:true,reviewed:false};cuts.push(c);selected=c.id;changed()}
+function addCut(start,end,title='手动剪切'){if(start<0||end<=start||end>project.duration){toast('请先设置有效的选区');return}if(coversRange(start,end)){toast('这个范围已经剪掉，无需重复删除');return}checkpoint();const c={id:cutId('manual'),start,end,title,reason:'手动选区；请试听接缝后确认。',confidence:'手动',enabled:true,reviewed:false};cuts.push(c);selected=c.id;changed()}
+function restoreCue(id){
+ const cue=project.cues.find(c=>c.id===id);if(!cue)return;const [start,end]=cueRestoreRange(cue);
+ if(!cuts.some(c=>c.enabled&&c.start<end&&c.end>start)){toast('这句没有启用的剪切');return}
+ checkpoint();const fragments=[];
+ for(const cut of cuts){
+  if(!cut.enabled||cut.start>=end||cut.end<=start)continue;
+  cut.enabled=false;
+  const originCutId=cut.originCutId||cut.id;
+  for(const [a,b,side] of [[cut.start,Math.min(start,cut.end),'left'],[Math.max(end,cut.start),cut.end,'right']]){
+   if(b-a<1/48000)continue;
+   const fragment={...cut,id:cutId('restore-'+side),originCutId,start:a,end:b,enabled:true,reviewed:false};
+   // Register each fragment immediately so every generated ID stays unique.
+   cuts.push(fragment);fragments.push(fragment);
+  }
+ }
+ selected=fragments[0]?.id||cuts.find(c=>c.enabled)?.id||cuts[0]?.id;changed();toast('这句的全部剪切已恢复，其他句的删除保持');
+}
 function openSubtitle(id){if(subtitleSaving)return;stop();editingCue=project.cues.find(c=>c.id===id);$('subtitleTitle').textContent=`编辑字幕 · ${fmt(editingCue.start)}`;$('subtitleText').value=editingCue.text;$('subtitleOriginal').textContent=editingCue.originalText;$('subtitleError').textContent='';$('subtitleDialog').showModal();$('subtitleText').focus();icons()}
 async function saveSubtitle(reset=false){if(subtitleSaving)return;const text=$('subtitleText').value.trim();if(!reset&&!text){$('subtitleError').textContent='字幕不能为空';return}subtitleSaving=true;for(const id of ['saveSubtitle','resetSubtitle','closeSubtitle','cancelSubtitle'])$(id).disabled=true;$('subtitleError').textContent='';try{const r=await fetch('/api/subtitles',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({cue:editingCue.id,sourceCueIds:editingCue.sourceCueIds,text,reset})});const data=await r.json();if(!r.ok)throw Error(data.error||'保存失败');Object.assign(editingCue,data.cue);renderTranscript();icons();$('saveStatus').textContent='字幕已保存到本地';$('subtitleDialog').close();toast(reset?'已恢复校正版字幕':'字幕已保存，导出会使用新文字')}catch(e){$('subtitleError').textContent='保存失败：'+e.message}finally{subtitleSaving=false;for(const id of ['saveSubtitle','resetSubtitle','closeSubtitle','cancelSubtitle'])$(id).disabled=false}}
 $('subtitleForm').onsubmit=e=>{e.preventDefault();saveSubtitle()};$('resetSubtitle').onclick=()=>saveSubtitle(true);$('closeSubtitle').onclick=$('cancelSubtitle').onclick=()=>$('subtitleDialog').close();$('subtitleDialog').oncancel=e=>{if(subtitleSaving)e.preventDefault()};
-$('transcript').onclick=e=>{const edit=e.target.closest('[data-edit]');if(edit){openSubtitle(Number(edit.dataset.edit));return}const del=e.target.closest('[data-delete]');if(del){const c=project.cues.find(c=>c.id===Number(del.dataset.delete));addCut(c.start,c.end,'手动删除整句');return}const el=e.target.closest('[data-cue]');if(el){const c=project.cues.find(c=>c.id===Number(el.dataset.cue));seek(c.start)}};
+$('transcript').onclick=e=>{const edit=e.target.closest('[data-edit]');if(edit){openSubtitle(Number(edit.dataset.edit));return}const restore=e.target.closest('[data-restore]');if(restore){restoreCue(Number(restore.dataset.restore));return}const del=e.target.closest('[data-delete]');if(del){const c=project.cues.find(c=>c.id===Number(del.dataset.delete));addCut(...cueRange(c),'手动删除整句');return}const el=e.target.closest('[data-cue]');if(el){const c=project.cues.find(c=>c.id===Number(el.dataset.cue));seek(c.start)}};
 $('transcript').ondblclick=e=>{if(e.target.closest('button'))return;const el=e.target.closest('[data-cue]');if(el)openSubtitle(Number(el.dataset.cue))};
 $('transcript').onkeydown=e=>{if(e.key==='Enter')e.target.click()};
 $('cutList').onclick=e=>{const el=e.target.closest('[data-cut]');if(!el)return;selected=el.dataset.cut;const c=cuts.find(c=>c.id===selected);seek(c.start);$('rangeStart').value=c.start.toFixed(3);$('rangeEnd').value=c.end.toFixed(3);renderInspector();renderList();icons();const x=c.start/project.duration*$('wave').clientWidth;$('waveScroll').scrollLeft=Math.max(0,x-80)};
@@ -88,7 +116,8 @@ $('finalTranscript').onclick=e=>{const row=e.target.closest('[data-final-cue]');
 function syncFinal(){if(!finalProject)return;const time=$('finalAudio').currentTime;const cue=finalProject.cues.find(c=>time>=c.start&&time<c.end);$('finalClock').textContent=fmt(time);$('finalCaption').textContent=cue?.text||' ';if(cue?.id!==finalActiveId){finalActiveId=cue?.id;document.querySelectorAll('.final-cue').forEach(row=>row.classList.toggle('active',Number(row.dataset.finalCue)===finalActiveId));if(cue&&$('followFinal').checked)document.querySelector(`[data-final-cue="${cue.id}"]`)?.scrollIntoView({block:'nearest',behavior:'smooth'})}}
 $('finalAudio').ontimeupdate=syncFinal;$('finalAudio').onseeked=syncFinal;$('finalSpeed').onchange=e=>$('finalAudio').playbackRate=Number(e.target.value);
 const openFinalPreview=$('finalTab').onclick;
-$('finalTab').onclick=async()=>{finalProject=null;await openFinalPreview();if(finalProject){const version=finalProject.version.toLowerCase();document.querySelector('.final-downloads a[href="/final/audio.wav"]').download=`${finalProject.filenameStem}-final-audio-${version}.wav`;document.querySelector('.final-downloads a[href="/final/subtitles.srt"]').download=`${finalProject.filenameStem}-final-subtitles-${version}.srt`;if(finalProject.preprocessingSpeed)$('finalInfo').textContent+=` · 预处理 ${finalProject.preprocessingSpeed} 倍语速`;if(finalProject.speed&&finalProject.speed!==1)$('finalInfo').textContent+=` · 导出 ${finalProject.speed} 倍语速`;if(finalProject.gainDb)$('finalInfo').textContent+=` · 音量 +${finalProject.gainDb} dB`}};
+function finalProcessingInfo(data){let text='';if(data.preprocessingSpeed)text+=` · 预处理 ${data.preprocessingSpeed} 倍语速`;if(data.speed&&data.speed!==1)text+=` · 导出 ${data.speed} 倍语速`;const gainDb=data.gainDb||data.inheritedProcessing?.gainDb;if(gainDb)text+=` · 音量 +${gainDb} dB`;if(data.processingMode==='bounded-pcm-revision')text+=' · 本次局部返修，沿用已有音频处理';else if(data.passthrough)text+=' · 保持源语速与音量';return text+(data.listeningReviewed?' · 接缝已听审':' · 接缝待试听')}
+$('finalTab').onclick=async()=>{finalProject=null;await openFinalPreview();if(finalProject){const version=finalProject.version.toLowerCase();document.querySelector('.final-downloads a[href="/final/audio.wav"]').download=`${finalProject.filenameStem}-final-audio-${version}.wav`;document.querySelector('.final-downloads a[href="/final/subtitles.srt"]').download=`${finalProject.filenameStem}-final-subtitles-${version}.srt`;$('finalInfo').textContent+=finalProcessingInfo(finalProject)}};
 document.addEventListener('keydown',e=>{if(!document.body.classList.contains('final-mode')||/INPUT|TEXTAREA|SELECT|BUTTON|AUDIO/.test(e.target.tagName)||e.code!=='Space')return;e.preventDefault();const audio=$('finalAudio');audio.paused?audio.play().catch(err=>toast(err.message)):audio.pause()});
 window.onresize=draw;
-fetch('/api/project').then(r=>r.json()).then(p=>{project=p;cuts=p.cuts;selected=cuts[0]?.id;$('saveStatus').textContent='已载入本地';render();animate();document.querySelector('.identity strong').textContent=p.title;if(p.hasFinal)$('finalTab').click()}).catch(e=>toast('项目载入失败：'+e.message));
+fetch('/api/project').then(r=>r.json()).then(p=>{project=p;document.title=p.title+' · 音频与字幕';if(p.mediaReviewUrl){$('media-review-link').href=p.mediaReviewUrl;$('media-review-link').hidden=false;}cuts=p.cuts;selected=cuts[0]?.id;$('saveStatus').textContent='已载入本地';render();animate();document.querySelector('.identity strong').textContent=p.title;if(p.hasFinal)$('finalTab').click()}).catch(e=>toast('项目载入失败：'+e.message));

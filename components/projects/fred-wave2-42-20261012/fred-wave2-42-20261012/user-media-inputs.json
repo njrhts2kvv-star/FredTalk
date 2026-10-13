@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "originalMediaIncluded": false,
+  "inputs": [
+    {
+      "path": "public/media/w4-work-4.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-work-image1.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w3-cloud-agent.webp",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-gpt6-pricing.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-models-pricing.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-form-dot-name.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-5.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-7.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-result-water-town.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-logo-chatgpt.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w5-result-palace.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-fred-still5.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-fred-avatar.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-petal-image25.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-112-B05.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-fred-still4.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-work-image3.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w3-decisions.webp",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-6.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-2.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-112-B01.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-deepswe.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-fred-still1.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-3.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-fred-surprise.webm",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-1.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-fred-still3.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-chatgpt-logo.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-112-B02.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-112-B03.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-fred-still2.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-site-article-cli.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-inventory-image25.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-auth-dot-setup.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-screen-left-dot-desktop.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w3-flova-canvas.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-compare-case4-right.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-street-portrait.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-candidate-table.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-article-long.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w7-case-water-town.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-work-image4.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-fred-still3.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-broll-drawing.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-result-1.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-dots-launch.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-compare-case2-right.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-scroll-site-article.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-work-image1.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-work-image2.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/c-work-image3.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-logo-codex.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-broll-card.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/a-codex-full.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-case-1-right.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-broll-api-flow.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-codex-logo.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/a-input-reference.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-doubao-long.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-chatgpt-logo.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w5-result-phoenix.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-doubao-logo.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-compare-case2-left.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-list-apps-scroll.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-auth-dot-setup.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-team-meeting.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-mic-clip.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-broll-house.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-queue-codex-sidebar.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-codex-mark.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-codex-logo.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-doubao-site.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-conversation.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-chatgpt-mark.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w3-team.webp",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-apikey-modal.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w5-result-watertown.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-walk-portrait.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-doubao-mark.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-update-dots-launch.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-logo-doubao.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w9-fred-cheer.webm",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-doubao-logo.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w2-codex-full.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w2-article-title.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-family.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-form-dot-name.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w5-result-sculpture.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/b-fred-peek.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-codex-full.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w8-petal-image2.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-result-shots-report.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-fred-meeting-portrait.mp4",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-fred-think.webm",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-doubao-site.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-site-article-interface.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w4-work-8.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/m-compare-case4-left.jpg",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/w3-codex-full.png",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    },
+    {
+      "path": "public/media/d-fred-distress.webm",
+      "included": false,
+      "requiredForOriginalDefaults": true,
+      "policy": "User-supplied media. Original Fred images, recordings and episode files are excluded from distribution."
+    }
+  ],
+  "instructions": "Supply your own files at these paths, or replace image/video props and related layout regions. Run typecheck, then render your selected composition and inspect overflow, timing, media and sound."
+}

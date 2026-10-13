@@ -106,6 +106,8 @@ class SceneTests(unittest.TestCase):
         self.assertNotIn('device-frame', {m['id'] for m in p['modifiers']})
         self.assertIn('skills/fred-remotion-output/references/media-and-overlays.md',
                       p['implementationRefs'])
+        self.assertIn('skills/fred-remotion-output/references/fullscreen-video-window.md',
+                      p['implementationRefs'])
 
     def test_numeric_scroll_sound_does_not_leak_into_document_scroll(self):
         data = json.loads((self.root / 'skills/fred-remotion-output/references/sound-effects.json').read_text())

@@ -12,7 +12,10 @@
     "mode": "scene-local",
     "sourceRule": "localFrame = frame - scene.startFrame; sequences start at the scene start frame"
   },
-  "representativeScenes": ["demo-01", "demo-02"],
+  "representativeScenes": [
+    "demo-01",
+    "demo-02"
+  ],
   "deliveryProfile": "standalone-video",
   "parts": [
     {
@@ -174,5 +177,11 @@
       }
     }
   ],
-  "referenceCatalogRevision": "2026-09-14-skill-review-r157"
+  "referenceCatalogRevision": "2026-09-14-skill-review-r157",
+  "componentDistributionReview": {
+    "status": "pending",
+    "reviewedBy": "",
+    "contextSha256": "",
+    "decisions": []
+  }
 }

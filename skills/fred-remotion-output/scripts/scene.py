@@ -71,7 +71,7 @@ def _neighbor(page):
         return None
     result = _fields(page, ['stableId', 'startFrame', 'globalStartFrame', 'globalVoiceStartFrame',
         'durationInFrames', 'implementationMode', 'productionRoute', 'mediaFile',
-        'firstFrame', 'tailFrame', 'boundaryContract'])
+        'firstFrame', 'tailFrame', 'boundaryContract', 'sourceMapping'])
     if 'mediaContract' in page:
         media = page['mediaContract']
         identity_fields = ['id', 'path', 'sha256', 'role', 'startFrame', 'endFrameExclusive', 'range',
@@ -200,7 +200,7 @@ def manifest_packet(root, manifest, scene_id):
         'startFrame', 'globalStartFrame', 'globalVoiceStartFrame', 'durationInFrames',
         'narrationDurationInFrames', 'cues', 'visualClock', 'visualPlan', 'motionEvents',
         'implementationMode', 'productionRoute', 'storyboardReview', 'keyframeReview',
-        'referenceChoices', 'referenceDisposition', 'componentPlan', 'typography', 'styleContract', 'mediaContract', 'dynamicContract',
+        'referenceChoices', 'referenceDisposition', 'componentPlan', 'typography', 'readingPlan', 'preserveObjects', 'styleContract', 'mediaContract', 'dynamicContract',
         'mediaFile', 'sourceMapping', 'sounds', 'sceneGuide', 'review', 'revision',
         'brandCorner',
         'currentFeedback', 'feedback', 'preservation', 'preserveScope', 'approval',
@@ -235,10 +235,15 @@ def manifest_packet(root, manifest, scene_id):
         result['contextWarnings'] = warnings
     from component_selection import scene_shortlist
     result['libraryCandidates'] = scene_shortlist(root, page)
+    from component_adaptation import adaptation_context
+    result['componentAdaptation'] = adaptation_context(manifest, page)
+    if result['componentAdaptation']['warnings']:
+        result.setdefault('contextWarnings', []).extend(result['componentAdaptation']['warnings'])
     result['typographyGuide'] = 'references/typography.md; query typography.py for exact local fonts and source examples'
     result['timingStatus'] = manifest.get('timingStatus')
     result['contextScope'] = 'Current scene contracts are copied as declared. Neighbor review versions include only the current first entry. Missing fields are not approval; full script, other feedback and external files are not loaded.'
-    return result
+    # Component candidates lead the packet: selection happens before layout and rules.
+    return {'libraryCandidates': result.pop('libraryCandidates'), **result}
 
 
 def validate_scene_guides(root, pages, required=False):
@@ -283,6 +288,8 @@ def main():
     parser.add_argument('--stage', choices=['planning', 'joining', 'render', 'revision'])
     parser.add_argument('--manifest', type=Path)
     parser.add_argument('--scene-id')
+    parser.add_argument('--candidates-only', action='store_true',
+                        help='With --manifest: print only the scene task and library candidates')
     args = parser.parse_args()
     try:
         root = project_root(args.project_root)
@@ -305,6 +312,13 @@ def main():
             manifest = json.loads(args.manifest.read_text())
             result = manifest_packet(root, manifest, args.scene_id)
             result['manifestPath'] = str(args.manifest.absolute())
+            if args.candidates_only:
+                scene = result['currentScene']
+                result = {'libraryCandidates': result['libraryCandidates'],
+                          'scene': {k: scene[k] for k in ['stableId', 'oneQuestion', 'sourceSpans', 'implementationMode',
+                                                          'componentPlan', 'referenceChoices'] if k in scene},
+                          'manifestPath': result['manifestPath'],
+                          'next': 'Inspect each candidate video/core frames, then read the full packet without --candidates-only.'}
         else:
             if args.scene_id:
                 raise ValueError('--scene-id requires --manifest')

@@ -4,6 +4,11 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common import load_references
+from component_selection import shortlist_coverage_errors, validate_component_plan
+from component_distribution import validate_distribution
 
 ROOT = Path(__file__).resolve().parents[3]
 STAGES = ('suggestion', 'keyframes')
@@ -40,11 +45,19 @@ def load_catalog():
 def text(value):
     return isinstance(value,str) and bool(value.strip())
 
-def validate_library_gate(manifest, stage, base, catalog=None):
+def validate_library_gate(manifest, stage, base, catalog=None, root=None):
     if stage not in STAGES: return ['Unknown gate stage']
     catalog = load_catalog() if catalog is None else catalog
     base = Path(base)
+    root = Path(root) if root else ROOT
+    if catalog.get('portableNormalized'):
+        normalized = catalog['portableNormalized']
+    elif catalog.get('revision') == load_catalog()['revision']:
+        _, normalized = load_references(root)
+    else:
+        normalized = {'catalogRevision': catalog.get('revision'), 'components': [dict(id=rid,title=rid,status='keep',sourceCode=[],recordType='component') for rid in catalog.get('items',{})], 'clips': []}
     errors = []
+    library_pages = []
     pages = manifest.get('pages',[])
     if not pages: return ['Nonempty scene scope required']
     calls = []
@@ -76,7 +89,10 @@ def validate_library_gate(manifest, stage, base, catalog=None):
             and all(text(auth.get(k)) for k in ['source','quote','requestedAt']))
         if mode not in ['reference','adapted'] and not original:
             errors.append(sid+': approved reuse required; original needs current scene authorization'); continue
+        if stage == 'suggestion':
+            errors.extend(shortlist_coverage_errors(root, normalized, page))
         if not original:
+            library_pages.append(page)
             if manifest.get('referenceCatalogRevision')!=catalog['revision']: errors.append(sid+': catalog revision changed or missing')
             if not refs: errors.append(sid+': selected component required')
             for ref in refs:
@@ -124,6 +140,9 @@ def validate_library_gate(manifest, stage, base, catalog=None):
                 if row['parseErrors'] or (role=='implementation' and not row['definitions']) or (role=='callSite' and not any(u['owner']==owner for u in row['uses'])):
                     errors.append(sid+': source declaration/call parsing failed')
         except (OSError,ValueError,subprocess.SubprocessError): errors.append('Source parser unavailable; install apps/library dependencies')
+    errors.extend(validate_component_plan(library_pages, normalized))
+    if stage == 'suggestion' or 'componentDistributionReview' in manifest:
+        errors.extend(validate_distribution(manifest, base, normalized))
     return errors
 
 def main():

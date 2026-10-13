@@ -48,6 +48,8 @@ def select_patterns(library, catalog, query='', item_id=None, scene_type=None, c
             source = sources.get(example['referenceId'])
             if not source or source.get('canonicalId'):
                 continue
+            if source.get('defaultReuse') is False or source.get('libraryDisposition') == 'archived':
+                continue
             if source['status'] != 'keep' and item['id'] not in library.get('_confirmedPatternIds', []):
                 continue
             if collection and source.get('collectionId') != collection:

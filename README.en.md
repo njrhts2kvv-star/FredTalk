@@ -1,6 +1,6 @@
 <div align="center">
 
-# FredTalk 1.5
+# FredTalk 2.0
 
 ### Turn a narration script into a motion video with Codex.
 
@@ -14,16 +14,25 @@ FredTalk is a workflow developed through everyday video production. Give an agen
 
 Browse the examples online, or download the repository and ask Codex or another coding agent to read the Skill and help create your own video.
 
+## Version 2.0 · 2026-10-13
+
+- Fixed the component lookup path and expanded everyday Chinese terms for data, prices, key points, code and terminal scenes.
+- Rotate source batches within equally relevant results so newer components reach the shortlist.
+- Require a concrete selected/rejected reason for the current top three candidates in every scene. The delivery gate recomputes the list.
+- Add episode assembly rules for screen focus, shared objects, reading holds, repetition, motion review, sound cues and music muting during source-audio appreciation.
+- Provide resumable uploads, bounded chunk retries, separate narration and sound rendering, mix peak protection and encoded AAC verification.
+
+This release adds **106 GitHub components**; the online library adds **105**, since its news keyword match-cut was already published. New cards appear first with **NEW**. **114 archived cards** remain in a collapsed section at the bottom.
+
+[Release notes](docs/releases/2.0.md) · [Download 2.0 assets](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0)
+
 ## Visual previews
 
 Choose visuals for emphasis, explanations, screen focus and work showcases. The [online visual library](https://www.fred-fu.com/visual-library) provides playable previews, scenario filters and source code.
 
 <table>
-<tr><td width="25%"><img src="docs/assets/C009.jpg" alt="多个词组成信息结构" width="240"><br><sub>C009 · 信息结构</sub></td><td width="25%"><img src="docs/assets/N027.jpg" alt="流程线绕回下一行，连续建立三排步骤" width="240"><br><sub>N027 · 步骤流程</sub></td><td width="25%"><img src="docs/assets/N043.jpg" alt="长文面板横向展开为背景，手机重新到前景" width="240"><br><sub>N043 · 文档与手机</sub></td><td width="25%"><img src="docs/assets/X006.jpg" alt="三种生成方式清单" width="240"><br><sub>X006 · 能力清单</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/X019.jpg" alt="免费规则窗口" width="240"><br><sub>X019 · 规则说明</sub></td><td width="25%"><img src="docs/assets/X022.jpg" alt="角色虚化前的三项概念" width="240"><br><sub>X022 · 概念强调</sub></td><td width="25%"><img src="docs/assets/X025.jpg" alt="文档推近逐行阅读" width="240"><br><sub>X025 · 文档阅读</sub></td><td width="25%"><img src="docs/assets/E08.jpg" alt="记忆分类分支与重新使用" width="240"><br><sub>E08 · 分类分支</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/107-03.jpg" alt="同尺度版本窗，箭头建立比较" width="240"><br><sub>107-03 · 版本对比</sub></td><td width="25%"><img src="docs/assets/107-04.jpg" alt="三项能力按口播建立，汇聚长胶囊" width="240"><br><sub>107-04 · 能力汇聚</sub></td><td width="25%"><img src="docs/assets/SP014.jpg" alt="四格视频素材展示" width="240"><br><sub>SP014 · 视频作品墙</sub></td><td width="25%"><img src="docs/assets/SP021.jpg" alt="深色窗口中的三行能力词" width="240"><br><sub>SP021 · 能力文字</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/X010.jpg" alt="约束示例黑卡" width="240"><br><sub>X010 · 约束说明</sub></td><td width="25%"><img src="docs/assets/C008.jpg" alt="前一步引出后一步" width="240"><br><sub>C008 · 前后接力</sub></td><td width="25%"><img src="docs/assets/SP024.jpg" alt="深色窗口两行目标文字" width="240"><br><sub>SP024 · 目标文字</sub></td><td width="25%"><img src="docs/assets/X008.jpg" alt="提示词与能力黑胶囊" width="240"><br><sub>X008 · 提示词展示</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/X040.jpg" alt="图片视频成片三步串联" width="240"><br><sub>X040 · 三步流程</sub></td><td width="25%"><img src="docs/assets/X037.jpg" alt="插画叠放转四格" width="240"><br><sub>X037 · 插画作品墙</sub></td><td width="25%"><img src="docs/assets/N014.jpg" alt="三结果归位溯源，再抽离成三窗对照" width="240"><br><sub>N014 · 结果对照</sub></td><td width="25%"><img src="docs/assets/SP018.jpg" alt="剧本文字与人物参考图并列" width="240"><br><sub>SP018 · 图文并排</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/T05h.jpg" alt="一次性拷贝 vs 持续同步" width="240"><br><sub>T05h · 一次性拷贝 vs 持续同步</sub></td><td width="25%"><img src="docs/assets/T15e.jpg" alt="折线走势" width="240"><br><sub>T15e · 折线走势</sub></td><td width="25%"><img src="docs/assets/T17b.jpg" alt="终端运行：命令执行、输出滚动、结果行点亮" width="240"><br><sub>T17b · 终端运行：命令执行、输出滚动、结果行点亮</sub></td><td width="25%"><img src="docs/assets/T03e.jpg" alt="步骤折行串起" width="240"><br><sub>T03e · 步骤折行串起</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/T08i.jpg" alt="毛玻璃要点卡" width="240"><br><sub>T08i · 毛玻璃要点卡</sub></td><td width="25%"><img src="docs/assets/T10a.jpg" alt="长回复拎要点" width="240"><br><sub>T10a · 长回复拎要点</sub></td><td width="25%"><img src="docs/assets/T09l.jpg" alt="复制地址交给 AI" width="240"><br><sub>T09l · 复制地址交给 AI</sub></td><td width="25%"><img src="docs/assets/T14c.jpg" alt="价格落定：数字逐位滚动，旧价划掉，差额亮出" width="240"><br><sub>T14c · 价格落定：数字逐位滚动，旧价划掉，差额亮出</sub></td></tr>
 </table>
 
 ## What you can do
@@ -99,7 +108,3 @@ Results include previews, source locations and usage notes. See the [source usag
 ## License
 
 The project currently has no blanket open-source license. Check [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the applicable terms before using or redistributing code, fonts and media.
-
-## Version 1.5
-
-29 new components: five content-led 3D screen camera examples, four interaction component types, 14 selected animations, and six EP109 scenes. See [release notes](docs/releases/1.5.md). Camera routes, source scrolling and grouped emphasis must be adapted to actual content and narration.

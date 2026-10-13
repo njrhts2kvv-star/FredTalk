@@ -1,6 +1,7 @@
 import array
 import hashlib
 import json
+import os
 import re
 import wave
 import zipfile
@@ -12,9 +13,12 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
 CONFIG = json.loads((ROOT / 'project.json').read_text())
-EPISODE = Path(CONFIG['episode'])
-SOURCE = Path(CONFIG['sourceAudio'])
-SUBS = Path(CONFIG['sourceSubtitles'])
+def resolve_path(value):
+    return (ROOT / value).resolve()
+
+EPISODE = resolve_path(CONFIG['episode'])
+SOURCE = resolve_path(CONFIG['sourceAudio'])
+SUBS = resolve_path(CONFIG['sourceSubtitles'])
 STATE = ROOT / 'cuts.json'
 CORRECTIONS = ROOT / 'subtitle-corrections.json'
 SUBTITLE_EDITS = ROOT / 'subtitle-edits.json'
@@ -46,7 +50,8 @@ def load_project():
     return dict(duration=duration, cues=cues, peaks=peaks, source=SOURCE.name,
                 sourceHash=hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
                 title=CONFIG['title'], filenameStem=CONFIG['filenameStem'],
-                hasFinal=bool(final_metadata()), script=Path(CONFIG['script']).read_text(),
+                hasFinal=bool(final_metadata()), episodeKey=CONFIG.get('episodeKey', EPISODE.name),
+                mediaReviewUrl=CONFIG.get('mediaReviewUrl'), script=resolve_path(CONFIG['script']).read_text(),
                 timingNote='字幕仅有句级时间；句内标灰按时长估算，并非逐字对齐。')
 
 
@@ -67,9 +72,14 @@ def corrected_project(reflow=False, cuts=None):
     boundaries = json.loads(SUBTITLE_BOUNDARIES.read_text()) if SUBTITLE_BOUNDARIES.exists() else []
     for change in boundaries:
         cut_id = change.get('cutId')
-        if cut_id and cut_id not in enabled:
-            continue
         cue = by_id[change['cue']]
+        # Original IDs retain legal adjacent-cue word ownership. A split fragment
+        # inherits a binding only for the cue whose audio it still removes.
+        matching_cuts = [cut for cut in enabled.values()
+                         if cut['id'] == cut_id or (cut.get('originCutId') == cut_id
+                         and cut['start'] < cue['originalEnd'] and cut['end'] > cue['originalStart'])]
+        if cut_id and not matching_cuts:
+            continue
         for field in ('start', 'end'):
             if field in change:
                 cue[field] = change[field]
@@ -88,9 +98,11 @@ def corrected_project(reflow=False, cuts=None):
         if infix:
             if not cut_id or not isinstance(infix, dict):
                 raise ValueError('Infix edit requires cutId and explicit text/occurrence')
-            cut = enabled[cut_id]
             expected = change.get('cutRange', [])
-            if len(expected) != 2 or any(abs(float(cut[k])-float(v)) > 1/48000 for k,v in zip(('start','end'),expected)):
+            cut = next((cut for cut in matching_cuts if len(expected) == 2
+                        and all(abs(float(cut[k])-float(v)) <= 1/48000
+                                for k, v in zip(('start', 'end'), expected))), None)
+            if cut is None:
                 raise ValueError('Infix cut range changed; review text and word boundaries again')
             if not cue['start'] < cut['start'] < cut['end'] < cue['end']:
                 raise ValueError('Infix cut range must be inside its cue')
@@ -102,7 +114,7 @@ def corrected_project(reflow=False, cuts=None):
                 raise ValueError('Infix text does not match cue')
             match = hits[occurrence-1]
             cue['text'] = cue['text'][:match.start()] + cue['text'][match.end():]
-            cue.setdefault('infixCutIds', []).append(cut_id)
+            cue.setdefault('infixCutIds', []).append(cut['id'])
         cue['boundaryNote'] = change['note']
     with SUBTITLE_LOCK:
         edits = json.loads(SUBTITLE_EDITS.read_text()) if SUBTITLE_EDITS.exists() else {}
@@ -286,7 +298,7 @@ def export(cuts):
     for cue in combined:
         lines.append(f"{len(lines)+1}\n{timestamp(cue['start'])} --> {timestamp(cue['end'])}\n{cue['text']}\n")
     (folder / 'review-cut.srt').write_text('\n'.join(lines), encoding='utf-8')
-    (folder / 'edit-decision.json').write_text(json.dumps(dict(source=str(SOURCE), sourceHash=PROJECT['sourceHash'],
+    (folder / 'edit-decision.json').write_text(json.dumps(dict(source=os.path.relpath(SOURCE, folder), sourceHash=PROJECT['sourceHash'],
         cuts=cuts, retainedSpans=spans, subtitleReview=warnings, duration=offset,
         subtitleCorrections=project['subtitleCorrections'], subtitleEdits=project['subtitleEdits'],
         subtitleBoundaries=project['subtitleBoundaries'], sentenceEdits=project['sentenceEdits']), ensure_ascii=False, indent=2))
@@ -302,6 +314,12 @@ class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
+    def end_headers(self):
+        path = urlparse(self.path).path
+        if path == '/' or path.endswith(('.html', '.js', '.css')):
+            self.send_header('Cache-Control', 'no-cache')
+        super().end_headers()
+
     def reply(self, data, status=200):
         body = json.dumps(data, ensure_ascii=False).encode()
         self.send_response(status)
@@ -313,8 +331,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         path = urlparse(self.path).path
         final = final_metadata()
-        FINAL_AUDIO = Path(final.get('audioPath', ROOT / 'missing-final.wav'))
-        FINAL_SUBS = Path(final.get('subtitlePath', ROOT / 'missing-final.srt'))
+        FINAL_AUDIO = resolve_path(final.get('audioPath', 'missing-final.wav'))
+        FINAL_SUBS = resolve_path(final.get('subtitlePath', 'missing-final.srt'))
         if path == '/api/final':
             if not FINAL_AUDIO.exists() or not FINAL_SUBS.exists():
                 return self.reply({'error': 'Final export not available'}, 404)

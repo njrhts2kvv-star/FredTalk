@@ -29,6 +29,11 @@ class TransitionTests(unittest.TestCase):
         self.catalog['components'][0].update(status='keep', canonicalId='other')
         self.assertEqual(select_patterns(self.library, self.catalog), [])
 
+    def test_archived_source_cannot_return_through_a_local_effect(self):
+        self.library['_confirmedPatternIds'] = ['T01']
+        self.catalog['components'][0]['defaultReuse'] = False
+        self.assertEqual(select_patterns(self.library, self.catalog), [])
+
     def test_new_media_identity_requires_reinspection(self):
         self.catalog['components'][0]['referenceSha256'] = 'hash2'
         with self.assertRaises(ValueError): select_patterns(self.library, self.catalog)

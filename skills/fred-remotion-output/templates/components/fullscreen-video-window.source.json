@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "fred-fullscreen-video-window-ep108-v9",
+  "recordedAt": "2026-10-04T08:53:47.390279+00:00",
+  "authorization": {
+    "source": "current-user-message",
+    "quote": "把这个也更新到 SKill 把，后续如果视频全屏播放，就是用这个组件和大小哈",
+    "scope": "Default 16:9 main-video playback shell; not EP108 icons, narration or motion cues"
+  },
+  "origin": {
+    "episode": 108,
+    "version": "v9",
+    "sceneId": "S39",
+    "sourcePath": "00_每期项目/108_Codex视频制作日常/03_制作过程/remotion/patch-v9-feedback/src/adapters/SelectedS39.tsx",
+    "sourceSha256": "8bca50987d1cf347d32049cd100699fe4fd1a3df2dfdeaa2e8c61139cd3f4346",
+    "compositionSha256": "d5a03bf4aa183802c2d6e38732d9c0f9e1ef7749e1592441e3d002c9f743e352",
+    "videoPath": "00_每期项目/108_Codex视频制作日常/02_最终输出/108-final-v9-4k60.mp4",
+    "videoSha256": "cf4bd987b1b2a429f764a161d9e399de9111dc35dcbb45082b8a73acc5badeee",
+    "sampleTimeSeconds": 346.73333333333335,
+    "stableWindowLocalFrames": [
+      0,
+      528
+    ]
+  },
+  "preservedReference": {
+    "sourceSnapshot": "assets/fullscreen-video-window/SelectedS39.source.tsx",
+    "screenshot": "assets/fullscreen-video-window/ep108-v9-main-video.jpg",
+    "screenshotSha256": "b4e81368407ea873c7ab64f46e6a755d8168e16104474599093c183675866410"
+  },
+  "component": "templates/components/FullscreenVideoWindow.tsx",
+  "geometry": "templates/components/fullscreen-video-window-geometry.ts",
+  "designCanvas": [
+    1920,
+    1080
+  ],
+  "window": {
+    "width": 1800,
+    "height": 1013.555787278415,
+    "left": 60,
+    "top": 33.22210636079251,
+    "radius": 24,
+    "border": "none",
+    "background": "#FFFFFF",
+    "objectFit": "cover",
+    "shadow": {
+      "offsetX": 0,
+      "offsetY": 16,
+      "blur": 25,
+      "spread": 0,
+      "color": "#000000",
+      "alpha": 0.13333333333333333
+    }
+  },
+  "coordinateContract": "Parameters use the local layout stage before parent scaling. Direct 4K multiplies lengths by 2 once.",
+  "dependencies": [
+    "react",
+    "remotion"
+  ],
+  "validationScope": "Original shell inspected; reusable component geometry/typecheck/render checks recorded separately. No retroactive approval of new media or episode-specific animation."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "云端渲染"
+  short_description: "以 8 个独立浏览器 × 每个 2 并发完成 Remotion 云端渲染、校验和交付"
+  default_prompt: "使用云端渲染 Skill，以 8×2 方式渲染当前项目最新内容，保留全部素材、字体和口播，校验后下载成片并报告实际耗时。"

@@ -49,7 +49,14 @@ python3 skills/fred-remotion-output/scripts/references.py --kind text-effects --
 
 ## 对应分镜与后续沉淀
 
-使用时在当前 `motionEvents` 记录 `textEffectRef`、`referenceId`、参考片段区间、实际文案及cue；`sceneGuide`加 `text-presentation`，把字号/换行、读完时刻、退出方式落实到applications。载体过渡按需要另加 `object-transition`，两者可以组合但不必全用。
+完整模板阅读用同一 `readingPlan` 保存全文、强调范围与口播cue。全文建立后原位强调当前重点，已讲内容是否保留颜色按本期语义选择；窗口、正文、刷子共享布局/相机，不把完整模板替换成脱离上下文的单句。
+
+`templates/components/component-adaptation.ts` 提供 `layoutFullText/phraseRange/brushRects/cameraPoint`：使用含换行的Unicode码点半开范围，重复短语须指定出现次序，跨行刷子来自同一测量字形。加载字体后测量并带入实际字距；逐字布局适合现有中文模板，不宣称处理所有连字/双向文字。它不生成动画轨迹，最长行、裁切与读完时间仍看实际画面。
+
+`readingPlan.checkpoints` 按内容记录全文建立、最长行、跨行重点、特写、结果和接替的实际cue/帧或取证目标，不固定数量。给Fred的关键帧可精简，助手内部动态检查仍覆盖完整语义窗口。
+
+
+使用时在当前 `motionEvents` 记录 `textEffectRef`、`referenceId`、原片区间、实际文案及cue；`sceneGuide`加 `text-presentation`，把字号/换行、读完时刻、退出方式落实到applications。载体过渡按需要另加 `object-transition`，两者可以组合但不必全用。
 
 检查首个可见帧、半句/换行中段、完整句、退出中段和最终帧；核对文字完整、标点/emoji、裁切、基线、阅读停留与字幕区域。新出现的形式沿同一文字索引补证据、机制和限制；只有动作方向或配色不同则记变体，避免重复组件。
 

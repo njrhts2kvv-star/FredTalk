@@ -68,7 +68,7 @@ class QualityTest(unittest.TestCase):
         m=json.loads((self.root/'final-delivery.json').read_text())
         # Independent measurement, not the manifest's self-reported pass.
         from audio_qc import measure
-        measured=measure(Path(m['audioPath']))
+        measured=measure(self.root / m['audioPath'])
         self.assertLessEqual(measured['truePeakDbtp'],-1+.05)
         self.assertEqual(m['frames'],96000)
         self.assertIn('loudnessBefore',m)

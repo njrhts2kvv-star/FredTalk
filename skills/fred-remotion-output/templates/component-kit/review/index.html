@@ -1,0 +1,54 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>__TITLE__</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#19191c;--muted:#6c6c72;--line:#e3e1dc;--keep:#1f7a3d;--revise:#8554E8;--drop:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--card:#1c1c20;--ink:#ececef;--muted:#9a9aa3;--line:#2c2c32;--keep:#5fc27e;--revise:#D6BEFF;--drop:#ff8a80}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,"PingFang SC",sans-serif}
+main{max-width:1320px;margin:0 auto;padding:24px 16px 80px}h1{font-size:24px;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 16px}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0 12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--line);margin-bottom:16px}
+.bar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer;font:inherit}
+.bar button.on{background:var(--ink);color:var(--bg)}.count{color:var(--muted);margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:16px}
+article{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+article.keep{outline:2px solid var(--keep)}article.revise{outline:2px solid var(--revise)}article.drop{outline:2px solid var(--drop);opacity:.7}
+.vids{display:grid;gap:2px;background:#000}.vids.two{grid-template-columns:1fr 1fr}.vids figure{margin:0;position:relative}
+.vids figcaption{position:absolute;left:6px;top:6px;background:#000a;color:#fff;font-size:12px;padding:1px 8px;border-radius:999px}
+video{width:100%;display:block;aspect-ratio:16/9;background:#000}
+.body{padding:10px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}.meta{display:flex;justify-content:space-between;gap:8px}.meta span{color:var(--muted);font-size:13px}
+.change{color:var(--muted);font-size:13px}.btns{display:flex;gap:6px;margin-top:auto}.btns button{flex:1;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:10px;padding:6px 0;cursor:pointer;font:inherit}
+.btns button.keep.on{background:var(--keep);color:#fff;border-color:var(--keep)}.btns button.revise.on{background:var(--revise);color:#fff;border-color:var(--revise)}.btns button.drop.on{background:var(--drop);color:#fff;border-color:var(--drop)}
+textarea{width:100%;box-sizing:border-box;min-height:52px;border:1px solid var(--line);border-radius:10px;background:transparent;color:var(--ink);padding:6px 8px;font:inherit;resize:vertical}
+.saved{font-size:12px;color:var(--muted);min-height:16px}
+@media (max-width:640px){.grid{grid-template-columns:1fr}.vids.two{grid-template-columns:1fr}}
+</style></head><body><main>
+<h1 id="title">__TITLE__</h1><p class="sub">点“保留 / 要改 / 不要”，要改的写一句备注；选择自动保存。升级版和原版并排放，左边是新版。</p>
+<div class="bar" id="bar"></div><div class="grid" id="grid"></div></main>
+<script>
+const $=s=>document.querySelector(s);let items=[],dec={},filter='all';
+const LABEL={keep:'保留',revise:'要改',drop:'不要'};
+async function load(){items=(await (await fetch('/api/items')).json()).items;dec=(await (await fetch('/api/decisions')).json()).decisions||{};render();}
+function scenes(){return [...new Set(items.map(i=>i.scene))];}
+function render(){
+  const bar=$('#bar');bar.innerHTML='';
+  const done=Object.keys(dec).filter(k=>items.some(i=>i.id===k)).length;
+  [['all','全部'],['todo','未选'],...scenes().map(s=>[s,s])].forEach(([k,t])=>{const b=document.createElement('button');b.textContent=t;b.className=filter===k?'on':'';b.onclick=()=>{filter=k;render();};bar.appendChild(b);});
+  const c=document.createElement('span');c.className='count';c.textContent=`已选 ${done} / ${items.length}`;bar.appendChild(c);
+  const g=$('#grid');g.innerHTML='';
+  items.filter(i=>filter==='all'||(filter==='todo'?!dec[i.id]:i.scene===filter)).forEach(i=>{
+    const d=dec[i.id]||{};const a=document.createElement('article');a.className=d.decision||'';
+    const two=!!i.oldVideo;
+    a.innerHTML=`<div class="vids ${two?'two':''}"><figure><video src="${i.video}" controls preload="metadata" playsinline></video>${two?'<figcaption>新版</figcaption>':''}</figure>${two?`<figure><video src="${i.oldVideo}" controls preload="metadata" playsinline></video><figcaption>原版 ${i.replaces}</figcaption></figure>`:''}</div>
+    <div class="body"><div class="meta"><b>${i.id}</b><span>${i.scene} · ${i.seconds} 秒</span></div><div>${i.title}</div>
+    ${i.change?`<div class="change">变化：${i.change}</div>`:''}${i.replaces?`<div class="change">替换 ${i.replaces}${i.note?'：'+i.note:''}</div>`:''}
+    <div class="btns">${['keep','revise','drop'].map(k=>`<button class="${k} ${d.decision===k?'on':''}" data-k="${k}">${LABEL[k]}</button>`).join('')}</div>
+    <textarea placeholder="备注（要改的话写改什么）">${d.notes||''}</textarea><div class="saved"></div></div>`;
+    const ta=a.querySelector('textarea'),sv=a.querySelector('.saved');
+    a.querySelectorAll('.btns button').forEach(b=>b.onclick=()=>save(i.id,(dec[i.id]||{}).decision===b.dataset.k?'reset':b.dataset.k,ta.value,sv));
+    let timer;ta.oninput=()=>{clearTimeout(timer);timer=setTimeout(()=>{const cur=(dec[i.id]||{}).decision;if(cur)save(i.id,cur,ta.value,sv,true);else sv.textContent='先选一个按钮，备注才会保存';},600);};
+    g.appendChild(a);});
+}
+async function save(id,decision,notes,sv,quiet){
+  const r=await fetch('/api/decision',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({id,decision,notes})});
+  if(!r.ok){sv.textContent='保存失败';return;}dec=(await r.json()).decisions;if(quiet){sv.textContent='已保存';}else render();
+}
+load();
+</script></body></html>

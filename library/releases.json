@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "repository": "njrhts2kvv-star/FredTalk",
-  "tag": "v1.5.0",
-  "manifestSha256": "111d65b0fa312a2869a50a3a2f7fbdacf3b05d62e6d1915aac4bb408c7f67bea",
+  "tag": "v2.0.0",
+  "manifestSha256": "b5e6fe8491839a5296a2b04a2f909db4e2fb3fab2c6dca916ea1d27778f102d8",
   "packs": [
     {
       "name": "fredtalk-materials-001.tar.gz",
@@ -776,6 +776,55 @@
       "sha256": "cc4dfc6e0eb6094e77b1fc2b01e559967167634e3dab18476624296aa66a5e7b",
       "objects": 16,
       "tag": "v1.5.0"
+    },
+    {
+      "name": "fredtalk-2.0-001.tar.gz",
+      "size": 71078100,
+      "sha256": "8570e483d6794a9b63cd1243ef5e1ac1ab249deeb600d15859c5d29d2c432e32",
+      "objects": 98,
+      "tag": "v2.0.0"
+    },
+    {
+      "name": "fredtalk-2.0-002.tar.gz",
+      "size": 62838596,
+      "sha256": "c59c4b87413aec2fcdb9b218514f770186f20ab799a6c036b8e161b62c747e4e",
+      "objects": 75,
+      "tag": "v2.0.0"
+    },
+    {
+      "name": "fredtalk-2.0-003.tar.gz",
+      "size": 48203549,
+      "sha256": "168d51ca7cddad9ec6113e2f42e163e6b96f67eb2d95bb59154753c41dfbc845",
+      "objects": 53,
+      "tag": "v2.0.0"
+    },
+    {
+      "name": "fredtalk-2.0-004.tar.gz",
+      "size": 53932453,
+      "sha256": "7b992efa0205f6fc4406454968b2bf2670aeb1b090e29e2be593aae40810007b",
+      "objects": 77,
+      "tag": "v2.0.0"
+    },
+    {
+      "name": "fredtalk-2.0-005.tar.gz",
+      "size": 72743971,
+      "sha256": "4d9cb23d7d3071975ac87b8d46ae4538e0e67080fd71ec46d2b1838db487575d",
+      "objects": 19,
+      "tag": "v2.0.0"
+    },
+    {
+      "name": "fredtalk-2.0-006.tar.gz",
+      "size": 40871980,
+      "sha256": "05f11914ff20e2d29d75d8dace01bb0fd39980897baf7998f1e05776971117ab",
+      "objects": 133,
+      "tag": "v2.0.0"
+    },
+    {
+      "name": "fredtalk-2.0-007.tar.gz",
+      "size": 39887848,
+      "sha256": "a31ca85ba1eb2c3077289b910478f5a04055eb66bc7b18a5124efa9df4f98109",
+      "objects": 12,
+      "tag": "v2.0.0"
     }
   ]
 }

@@ -1,5 +1,7 @@
 # 字体与字阶按文字职责选择
 
+Fred 于 2026-10-02 确认日常保留五个字体家族。事实源是 [typography-registry.json](typography-registry.json)，前端「字体与字阶」按家族展示，MiSans 的字重在同一张卡里切换。旧字体和冻结原版保留在历史依赖中，当前字体统一修订不覆盖原源码或原成片。
+
 | 文字职责 | 默认字体 | 使用范围 |
 | --- | --- | --- |
 | 正文、解释、列表 | MiSans Medium | Semibold 同家族按需，Regular 仅长文与次要说明；保持主辅层次 |
@@ -9,7 +11,7 @@
 | 手写、黑板、批注 | 霞鹜文楷 | 原沐瑶、龙藏统一到文楷，粉笔纹理仍是独立图层 |
 | 代码、等宽技术文字 | Source Code Pro | 中文配 MiSans；一般英文/数值按 MiSans 的实际职责 |
 
-当前用户指定优先。真实录屏、截图、视频内部已烧录的 UI 字体保留。准确原版仍可作为历史对照，但新制作默认调用当前五家族修订；只有明确要求忠实场景实现原字体时才使用冻结源的原字体。字体统一不改文字、几何、动作、时序、素材或原音轨。Noto 可变字重按正文和重点分别映射 MiSans，不能把次要文字全部变成 Heavy。
+当前用户指定优先。真实录屏、截图、视频内部已烧录的 UI 字体保留。准确原版仍可作为历史对照，但新制作默认调用当前五家族修订；只有明确要求忠实复刻原字体时才使用冻结源的原字体。字体统一不改文字、几何、动作、时序、素材或原音轨。Noto 可变字重按正文和重点分别映射 MiSans，不能把次要文字全部变成 Heavy。
 
 ## 字阶来自画面，而不是全片统一px
 
@@ -22,6 +24,14 @@ python3 skills/fred-remotion-output/scripts/typography.py --role display
 python3 skills/fred-remotion-output/scripts/typography.py --id misans-medium --id misans-heavy
 ```
 
-在现有Manifest的`fonts`绑定本期实际复制文件及hash；场景可用`typography: [{role, fontId, reason, logicalCanvas, fontSize, lineHeight}]`记录本段决定。fontId从注册表选择；精确场景实现自有字体时仍使用该准确源的文件身份。`scene.py`会保留本期根fonts与场景typography，不替调用方猜字号、改变选片或修订旧片。
+在现有Manifest的`fonts`绑定本期实际复制文件及hash；场景可用`typography: [{role, fontId, reason, logicalCanvas, fontSize, lineHeight}]`记录本段决定。fontId从注册表选择；精确复刻自有字体时仍使用该准确源的文件身份。`scene.py`会保留本期根fonts与场景typography，不替调用方猜字号、改变选片或修订旧片。
 
-前端展示是当前字体文件的样张；源码登记、字体加载与用户认可画面分别记录。便携仓库在 `library/fonts/` 直接提供当前五家族的八个字体文件，注册表绑定准确路径与 hash。字体各自的许可与来源说明见 `library/fonts/README.md`，不据样张页面推定额外授权。
+前端展示是当前字体文件的样张；源码登记、字体加载与用户认可画面分别记录。字体文件仍仅供本地制作，不据本页推定对外分发许可。
+
+### 同组件、同职责使用共享实现
+
+重复调用同一组件、文字职责和观看尺度相同时，用同一Manifest的 `sharedTypography` 声明准确字体身份/文件hash、字重、字号、行距和 `logicalCanvas`；场景 `typography` 以 `styleGroup` 引用，实际代码从同一配置调用，减少复制后各自调整。UI回复与讲解大字属于不同职责。
+
+`scene.py` 的 `componentAdaptation.resolvedTypography` 带出实际声明，`typographyComparisons` 只比较同组其他场景，不加载其正文。当前显式值优先，例外填写 `overrideReason`；未说明的差异只提示复核，不自动改字或使旧片失效。MATCH仅指声明一致，仍需核对加载字形、观看大小、父层缩放和最长行。
+
+运行时可调用 `templates/components/component-adaptation.ts` 的 `sharedTextStyle`。工具不加载字体、不猜字号、不二次放大；用法见[共享适配工具](component-reuse-map.md#共享适配工具)。

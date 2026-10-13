@@ -20,7 +20,7 @@ class DeliveryGateTests(unittest.TestCase):
         self.page = {'stableId':'s1','implementationMode':'adapted',
             'referenceChoices':[{'id':'C008','reason':'Explain the next step','preserve':'Object handoff',
                 'change':'Use current words','useScope':'Full scene'}],
-            'componentPlan':{'inspectedReferences':[dict(self.media,id='C008',observations='The first object introduces the second')]}}
+            'componentPlan':{'query':'C008','candidates':[{'id':'C008','decision':'selected','reason':'The inspected object handoff answers this scene'}],'inspectedReferences':[dict(self.media,id='C008',observations='The first object introduces the second')]}}
         self.manifest = {'referenceCatalogRevision':'test','pages':[self.page]}
 
     def tearDown(self):

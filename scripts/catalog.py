@@ -1,45 +1,50 @@
-"""Portable semantic catalog lookup. No asset download or API key required."""
+"""Portable semantic catalog lookup using the same ranked candidates as scene.py."""
 import argparse
 import json
 from pathlib import Path
+import sys
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'skills/fred-remotion-output/scripts'))
+from common import load_references
+from library_matching import rank_references, match_metadata
+
 def main():
  p=argparse.ArgumentParser(description=__doc__)
- p.add_argument('--episode');p.add_argument('--with',dest='modifiers');p.add_argument('--id');p.add_argument('--query',default='');p.add_argument('--scene-type');p.add_argument('--use');p.add_argument('--source');p.add_argument('--collection');p.add_argument('--kind');p.add_argument('--limit',type=int,default=3);p.add_argument('--full',action='store_true');p.add_argument('--list',action='store_true');p.add_argument('--project-root');p.add_argument('--status',default='keep');args=p.parse_args()
- if args.kind == 'rules':
-  rules=json.loads((ROOT/'skills/fred-remotion-output/references/feedback-rules.json').read_text())['rules']
+ for name in ['episode','id','query','scene-type','use','source','collection','kind','project-root']:
+  p.add_argument('--'+name,default='' if name=='query' else None)
+ p.add_argument('--with',dest='modifiers',action='append',default=[])
+ p.add_argument('--limit',type=int,default=3);p.add_argument('--full',action='store_true');p.add_argument('--list',action='store_true');p.add_argument('--status',choices=['keep','archived','optional','drop','all'],default='keep')
+ args=p.parse_args();root=Path(args.project_root).resolve() if args.project_root else ROOT
+ if args.limit<1:p.error('--limit must be positive')
+ data=json.loads((root/'library/catalog.json').read_text());routes=json.loads((root/'library/routes.json').read_text())
+ if args.list:print(json.dumps(data['scenarios'],ensure_ascii=False,indent=2));return
+ if args.kind=='rules':
+  rules=json.loads((root/'skills/fred-remotion-output/references/feedback-rules.json').read_text())['rules']
   if args.id:rules=[x for x in rules if x['id']==args.id]
-  if args.query:rules=[x for x in rules if all(t in json.dumps(x,ensure_ascii=False).lower() for t in args.query.lower().split())]
-  print(json.dumps({'count':len(rules),'entries':rules[:args.limit]},ensure_ascii=False,indent=2));return
- data=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=data['items']
- if args.list:
-  print(json.dumps(data['scenarios'],ensure_ascii=False,indent=2));return
- if args.id:
-  history=json.loads((ROOT/'library/history.json').read_text())
-  alias=next((i.get('canonicalLabel') for i in history if args.id in {i.get('id'),i.get('label')} and i.get('canonicalLabel')),None)
-  wanted=alias or args.id
-  items=[i for i in items if wanted in {i['id'],i['label'],i.get('referenceId')}]
- if args.status=='keep':items=[i for i in items if not i.get('archivedFromSkill')]
- elif args.status=='archived':items=[i for i in items if i.get('archivedFromSkill')]
-
- if args.scene_type:items=[i for i in items if args.scene_type in i.get('sceneTypes',[])]
- if args.use:items=[i for i in items if args.use in i.get('matching',{}).get('useIds',[])]
- if args.source:items=[i for i in items if args.source==i.get('matching',{}).get('sourceId')]
- if args.collection:items=[i for i in items if args.collection in json.dumps(i,ensure_ascii=False)]
- if args.kind == 'transitions':items=[i for i in items if i.get('kind')=='transitions' or i['label'].startswith('L81-T')]
- elif args.kind == 'text-effects':items=[i for i in items if i.get('kind')=='text-effects' or i['label'].startswith('L81-W')]
- elif args.kind:items=[i for i in items if args.kind==i.get('kind')]
- if args.query:
-  terms=args.query.lower().split()
-  def score(i):
-   text=json.dumps({k:i.get(k) for k in ('title','description','tags','matching')},ensure_ascii=False).lower()
-   return sum(t in text for t in terms)
-  items=sorted((i for i in items if score(i)),key=score,reverse=True)
- output=[]
- for i in items[:max(0,args.limit)]:
-  result=i.copy() if args.full else {k:i.get(k) for k in ('id','label','title','matching','reusability','previews','sources')}
-  result['sourceFiles']=[routes.get(s.get('url')) for s in i.get('sources',[]) if routes.get(s.get('url'))]
-  output.append(result)
- print(json.dumps({'count':len(items),'returned':len(output),'entries':output},ensure_ascii=False,indent=2))
- if args.id and not output:p.exit(1,'Reference is not in the active collection. Historical identities are in library/history.json.\n')
+  if args.query:rules=[x for x in rules if all(t in json.dumps(x,ensure_ascii=False).casefold() for t in args.query.casefold().split())]
+  print(json.dumps({'count':len(rules),'returned':min(len(rules),args.limit),'entries':rules[:args.limit]},ensure_ascii=False,indent=2));return
+ _,normalized=load_references(root);rows=normalized['components']+normalized['clips']
+ if args.id:rows=[e for e in rows if args.id in {e['id'],*e.get('aliases',[])}]
+ if args.status=='keep':rows=[e for e in rows if not e.get('libraryDisposition') and e.get('status','keep')=='keep']
+ elif args.status=='archived':rows=[e for e in rows if e.get('libraryDisposition')=='archived']
+ elif args.status!='all':rows=[e for e in rows if e.get('status')==args.status]
+ if args.scene_type:rows=[e for e in rows if args.scene_type in e.get('sceneTypes',[])]
+ if args.kind=='components':rows=[e for e in rows if e['recordType']=='component']
+ elif args.kind=='clips':rows=[e for e in rows if e['recordType']=='clip']
+ elif args.kind=='transitions':rows=[e for e in rows if e.get('kind')=='transitions' or e['displayLabel'].startswith('L81-T')]
+ elif args.kind=='text-effects':rows=[e for e in rows if e.get('kind')=='text-effects' or e['displayLabel'].startswith('L81-W')]
+ if args.collection:rows=[e for e in rows if args.collection in {e.get('collectionId'),e.get('matching',{}).get('sourceId')}]
+ if args.episode:rows=[e for e in rows if args.episode in str(e.get('episodeId','')) or args.episode in str(e.get('collectionId',''))]
+ if args.query:rows=rank_references(root,rows,args.query,args.scene_type)
+ else:rows=[dict(e,matching=match_metadata(root,e)) for e in rows]
+ if args.use:rows=[e for e in rows if args.use in e.get('matching',{}).get('useIds',[])]
+ if args.source:rows=[e for e in rows if args.source==e.get('matching',{}).get('sourceId')]
+ by_id={e.get('referenceId') or e['id']:e for e in data['items']};output=[]
+ for row in rows[:args.limit]:
+  item=by_id[row['id']]
+  result=item.copy() if args.full else {k:item.get(k) for k in ['id','label','title','reusability','previews','sources']}
+  result['matching']=row['matching'];result['sourceFiles']=[routes[s['url']] for s in item.get('sources',[]) if s.get('url') in routes]
+  result['candidateId']=row['id'];output.append(result)
+ print(json.dumps({'catalogRevision':normalized['catalogRevision'],'count':len(rows),'returned':len(output),'entries':output},ensure_ascii=False,indent=2))
+ if args.id and not output:p.exit(1,'Reference is not in the requested active collection. Inspect library/history.json for historical identities.\n')
 if __name__=='__main__':main()

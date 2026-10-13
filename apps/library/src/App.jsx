@@ -59,7 +59,7 @@ export default function App() {
     return () => window.removeEventListener("hashchange", handler);
   }, []);
   useEffect(() => {
-    document.title = pages[page][1] + " · FredTalk 设计规范";
+    document.title = pages[page][1] + " · FredTalk 2.0";
     window.scrollTo({ top: 0 });
   }, [page]);
   const navigate = (target, id = null) => {
@@ -97,7 +97,7 @@ export default function App() {
           }}
         >
           <span>
-            <strong>FredTalk</strong>
+            <strong>FredTalk 2.0</strong>
             <small>视觉参考库</small>
           </span>
         </a>

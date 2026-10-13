@@ -9,6 +9,13 @@
 用`scene.py --list`只看简短类型目录。规划按[制作默认值](production-defaults.md)落实本句责任和素材/载体/声音/出口，再用`--stage planning`复核当前决定；此时不展开全部规则、源码或云渲染文档。FredTalk横版解释动画适用场景带`brand-corner`；源视频播放窗口关闭新增角标，媒体编排按需带`media-layout`，实际使用线条才带`relation-lines`；场景类型不自动要求这些外观。
 ## 开始这个场景时
 
+1. 从当前Manifest的stableId获取小抄：`scene.py --manifest <path> --scene-id <stableId>`。首次路由可用`--type prompt-reading --with frosted-focus`看适用项。
+2. 小抄包含本类动作关系、需要的材料、相关规则及出口检查；同时保留当前场景的实现模式、制作路线、分镜/关键帧审看、风格/媒体/动态合同、实际cue、反馈与保留范围。前后场景只带准确ID、必要媒体/审核身份及首尾计划，不带相邻全文与整套规则。长文规则不自动带人物，图片对比不自动带音效；附加项用到才读。
+3. 选择源码时用`references.py --query <关键词> --scene-type <type> --with <modifier> --limit 3`。候选不合适可换关键词或新做；确认后按准确ID取源码依赖。不要把每个候选的所有旁支规则再一并展开。没有准确候选不是失败，改走 `implementationMode: original`，但必须记录动作/风格锚点、styleContract、创新元素和风险。
+4. 选型、真实源码绑定和双重审看按[从内容到组件](content-to-component.md)执行；代码实现后补useMode、keyAction、source/implementation/callSite，未借用代码时说明实际设计来源。每个场景必须在 Manifest 中写明实现模式，并声明 dynamic/mixed/stable-reading。
+5. 把适用规则落实到当前原文、对象、cue、ROI、载体或保护范围；在本场景的applications写决定与实际检查。规则原话/历史取舍仅在不理解其范围时查准确F编号。
+6. 默认完成场景后按applications检查；若用户明确调整审看范围，按render-and-delivery记录实际检查约定。结果与实际帧/短样保存在现有本期QC记录。没有看过不能写视觉通过。随后检查本镜出口，再进入下一镜。整期开始实现前过 `planning` 门，实现后过 `implementation` 门；代表镜头未过不得进入整片渲染。
+
 只借用局部缩放、让位或对象交接时，加 `object-transition`，用 `references.py --kind transitions --query <动作> --limit 3` 查短区间。它与完整组件检索分开；具体取用记入当前 `motionEvents` 的 transitionRef、referenceId、原区间与本期cue，不因一个过渡搬用整套布局。
 
 同一type/modifier组合且签名未变，可以复用已读小抄；本期具体决定与检查仍每镜填写。若修改本镜的呈现类型、增加人物/蒙版或改变素材职责，重新获取对应小抄。无需重新加载无关模块。

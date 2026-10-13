@@ -1,0 +1,170 @@
+{
+  "keyword": "API",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "zoom": 1.18,
+  "scaledSize": [
+    2266,
+    1274
+  ],
+  "anchor": [
+    960,
+    464
+  ],
+  "mask": {
+    "maxOpacity": 0.18,
+    "center": [
+      960,
+      464
+    ],
+    "centralSharpRadius": 0.35,
+    "fadeRange": 0.9,
+    "addedBlur": 0
+  },
+  "durationsFrames": [
+    3,
+    3,
+    2,
+    3,
+    3,
+    2,
+    3,
+    3,
+    2,
+    3,
+    3,
+    18
+  ],
+  "audioFile": "public/audio/shutter-approved.m4a",
+  "pages": [
+    {
+      "file": "public/raw-pages/page-01.png",
+      "glyphBox": [
+        372,
+        185,
+        447,
+        219
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-02.png",
+      "glyphBox": [
+        394,
+        183,
+        459,
+        213
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-03.png",
+      "glyphBox": [
+        361,
+        190,
+        431,
+        222
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-04.png",
+      "glyphBox": [
+        390,
+        193,
+        454,
+        223
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-05.png",
+      "glyphBox": [
+        400,
+        179,
+        468,
+        209
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-06.png",
+      "glyphBox": [
+        394,
+        179,
+        460,
+        209
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-07.png",
+      "glyphBox": [
+        399,
+        186,
+        466,
+        216
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-08.png",
+      "glyphBox": [
+        391,
+        171,
+        446,
+        198
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-09.png",
+      "glyphBox": [
+        406,
+        208,
+        462,
+        238
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-10.png",
+      "glyphBox": [
+        394,
+        194,
+        450,
+        223
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-11.png",
+      "glyphBox": [
+        409,
+        179,
+        461,
+        208
+      ]
+    },
+    {
+      "file": "public/raw-pages/page-12.png",
+      "glyphBox": [
+        386,
+        196,
+        441,
+        225
+      ]
+    }
+  ],
+  "audioTiming": {
+    "fps": 30,
+    "durationsFrames": [
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      18
+    ]
+  },
+  "soundFiles": {
+    "shutter": "public/sfx/shutter.wav"
+  }
+}

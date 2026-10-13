@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 from workflow import scene_review_signature, scene_window
 
 VIEWS = ('suggestion', 'keyframes', 'video')
-ROUTES = {'recording': '录屏', 'remotion': 'Remotion 动画', 'generated-video': '生成动画', 'mixed': '混合制作'}
+ROUTES = {'recording': '录屏', 'remotion': 'Remotion 动画', 'generated-video': '生成动画', 'mixed': '录屏 + Remotion 动画（混合）'}
 TIMING_LABELS = {'aligned': '录音对齐时间', 'audio-aligned': '录音对齐时间',
                  'approved-manual': '人工确认时间'}
 
@@ -20,16 +20,19 @@ def fingerprint(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
-def build(manifest_path, output, view='suggestion'):
+def build(manifest_path, output, view='suggestion', *, data_output=None):
     if view not in VIEWS:
         raise ValueError('Unknown review view')
     manifest_path, output = Path(manifest_path).resolve(), Path(output).resolve()
     data = json.loads(manifest_path.read_text())
     from library_gate import validate_library_gate
-    stage = 'keyframes' if any(p.get('keyframeReview', {}).get('frames') for p in data.get('pages', [])) or view == 'keyframes' else 'suggestion'
-    errors = validate_library_gate(data, stage, manifest_path.parent)
-    if errors:
-        raise ValueError('Library delivery gate FAIL:\n' + '\n'.join(errors))
+    # All three views are embedded, regardless of the initially selected tab.
+    stage = 'keyframes' if view == 'keyframes' or any(p.get('keyframeReview', {}).get('frames') and
+                              p.get('implementationMode') != 'preserved-media' and
+                              not p.get('recordingPlaceholder') for p in data.get('pages', [])) else 'suggestion'
+    gate_errors = validate_library_gate(data, stage, manifest_path.parent)
+    if gate_errors:
+        raise ValueError('Library delivery gate FAIL:\n' + '\n'.join(gate_errors))
     episode, fps = data['episodeKey'], data['timelineFps']
     if not isinstance(episode, str) or not episode.strip():
         raise ValueError('episodeKey must be a stable nonempty string')
@@ -209,6 +212,8 @@ def build(manifest_path, output, view='suggestion'):
     result = re.sub('|'.join(map(re.escape, replacements)), lambda match: replacements[match[0]], template.read_text())
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(result)
+    if data_output is not None:
+        Path(data_output).write_text(json.dumps(metadata, ensure_ascii=False, indent=2))
     return {'output': str(output), 'segments': len(seen), 'reviewItems': len(rows), 'episodeKey': episode, 'view': view}
 
 

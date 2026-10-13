@@ -16,35 +16,35 @@ def module(name):
 class PortableTests(unittest.TestCase):
  def test_active_catalog_keeps_removals_and_valid_sources(self):
   d=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=d['items']
-  self.assertEqual(len(items),210)
-  self.assertEqual(d['counts']['available'],205)
+  self.assertEqual(len(items),316)
+  self.assertEqual(d['counts']['available'],311)
   self.assertEqual(d['counts']['unavailable'],5)
-  expected={"ep109-selected-20261006":6,"expansion-selected-20261007":14,"interaction-components-20261007":4,"screen-camera-selected-20261007":5}
+  expected={"fred-native-16-20261012":16,"fred-wave2-42-20261012":42,"fred-wave2-fix5-20261012":5,"fred-wave3-40-20261012":40,"fred-wave3-extra2-20261012":2,"news-keyword-match-cut-20261010":1}
   for collection,count in expected.items():
    selected=[i for i in items if i.get('collectionId')==collection]
    self.assertEqual(len(selected),count,collection)
    self.assertTrue(all(i.get('isNew') and i.get('addedAt') for i in selected))
-  self.assertEqual(sum(bool(i.get('archivedFromSkill')) for i in items),44)
-  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),166)
+  self.assertEqual(sum(bool(i.get('archivedFromSkill')) for i in items),114)
+  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),202)
   self.assertTrue({'V085','V098','E04','E16','SP004','L81-B060','L81-W08'}.isdisjoint(i['label'] for i in items))
   for i in items:
    for source in i['sources']:
     self.assertIn(source['url'],routes)
     self.assertTrue((ROOT/routes[source['url']]).is_file(),i['label'])
    for p in i['previews']:
-    self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['no-audio-track','source-audio','sfx-only','preserved-source-audio','operation-sfx-only','interface-sfx'])
+    self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['accepted-component-action-sfx-no-narration', 'accepted-match-cut-sfx-no-narration', 'interface-sfx', 'no-audio-track'])
  def test_new_collection_lookup_and_archive_filter(self):
   data=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--collection','screen-camera-selected-20261007','--limit','10']))
   self.assertEqual(data['count'],5)
   archived=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--status','archived','--limit','1']))
-  self.assertEqual(archived['count'],44)
+  self.assertEqual(archived['count'],114)
   alias=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--id','SP021','--full']))
   self.assertEqual(alias['entries'][0]['label'],'109-05')
  def test_declared_routes_stay_inside_repository(self):
   for name in json.loads((ROOT/'library/routes.json').read_text()).values():
    self.assertFalse(Path(name).is_absolute());self.assertTrue((ROOT/name).resolve().is_relative_to(ROOT))
  def test_catalog_query_and_skill_entry_match(self):
-  args=['--id','SP024','--full'];a=subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),*args]);b=subprocess.check_output([sys.executable,str(ROOT/'skills/fred-remotion-output/scripts/references.py'),*args]);self.assertEqual(json.loads(a),json.loads(b));self.assertEqual(json.loads(a)['count'],1)
+  args=['--id','SP024','--status','all','--full'];a=subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),*args]);b=subprocess.check_output([sys.executable,str(ROOT/'skills/fred-remotion-output/scripts/references.py'),*args]);self.assertEqual(json.loads(a),json.loads(b));self.assertEqual(json.loads(a)['count'],1)
  def test_quarantined_media_is_never_served(self):
   m=module('library_server');self.assertIsNone(m.media_file({'status':'quarantined','sha256':'0'*64,'size':1}))
  def test_download_uses_pack_tag_and_preserves_legacy_release_tag(self):

@@ -1,8 +1,8 @@
 # 稿子到连续分镜
 
-当前交付遵循[组件库交付门禁](library-delivery-gate.md)：默认认可组件复用/二创，原创须当次场景授权；历史探索说明不覆盖此约束。
-
 新一期先按[图文建议与关键帧](route-and-storyboard-review.md)主动交付逐段建议；Fred选定方向后落实真实组件关键帧，确认后再完成动态与整片输出。录音可后到，估时与真实cue分开。
+
+新一期Fred完整视频先预留一次[固定过渡配音](fixed-skill-library-insert.md)，录音正文不包含其四句；只复用音频，画面使用每期新动画。按真实配音长度与当期画面确定段长、字幕和下游映射，不套旧动画或旧362帧。选型完成后按[整期组件分配](component-distribution.md)对照不同段落的表达职责，识别同一模块机械换词；不禁止同对象的连续复用。
 
 本文件仅在拿稿拆分/改时序时读。先按[制作默认值与选型表](production-defaults.md)确定内容证据、载体和动作关系，再按全文责任拆组，并按 [场景执行方式](scene-workflow.md) 给每组填主类型与实际附加项；此时只需 `scene.py --list` 的简短目录。开始制作该组时再取它的小抄，不能提前把全部类型、历史规则和源码塞入上下文。
 
@@ -16,7 +16,7 @@
 
 ## 按内容复用与保持质感
 
-完整大模块、黑白胶囊及成熟动画适合本句内容就直接复用，可只改文案、素材和cue。各段需有具体信息职责与清楚的主次、阅读和交接；相同外壳、动作或布局本身不是失败，不设置近期禁用表、冷却期或创新配额。新设计按同等字体、几何、层次和动作质感评估，不能以新颖抵消粗糙。效果库不是每镜必套：没有准确案例时走 `original`，但必须写风格/动作锚点、styleContract、创新元素和风险；纯口播或真实媒体可走 `talk-only`/`preserved-media`。
+完整大模块、黑白胶囊及成熟动画适合本句内容就直接复用，可只改文案、素材和cue。各段需有具体信息职责与清楚的主次、阅读和交接；相同外壳、动作或布局本身不是失败，不设置近期禁用表、冷却期或创新配额。新设计按同等字体、几何、层次和动作质感评估，不能以新颖抵消粗糙。效果库不是每镜必套：没有准确案例时报告缺口，只有 Fred 当次明确授权原创才走 `original`，并记录授权、风格/动作锚点、styleContract、创新元素和风险；纯口播或真实媒体可按实际职责走 `talk-only`/`preserved-media`，不能用这些标签绕过组件库门禁。
 
 [制作默认值](production-defaults.md)负责内容与媒体选型；[从内容到组件](content-to-component.md)负责准确源码绑定和表达/质感的实际评估。现有visualPlan/referenceChoices记录本期决定，change只记实际适配；不为填写差异强改认可外观。历史对照只在用户要求或具体问题需要时读取。
 ## 每个镜头组的判断
@@ -52,7 +52,7 @@ pages[].mediaContract: [{id, path, role, required, sha256?, startFrame?, endFram
 pages[].dynamicContract: {mode: dynamic | mixed | stable-reading, requiredChangeEvents?, staticAllowanceSeconds?, reason?}
 pages[].motionEvents[].cueFrame           # 本 Skill 采用全局帧，调用组件时再减组起点
 pages[].motionEvents[].spokenCue          # 原稿中实际出现的短语
-pages[].referenceFps / mediaInFrame        # 涉及参考片段时按需记录
+pages[].referenceFps / mediaInFrame        # 涉及原片时按需记录
 pages[].sceneGuide                        # type/modifiers/signature/applications；字段见scene-workflow
 ```
 
@@ -76,6 +76,8 @@ pages[].sceneGuide                        # type/modifiers/signature/application
 相比“一个标题加三个空泛词”，这里的质量来自真实正文、口播绑定、可读落点和连续关系；不能只复用窗口圆角。
 
 ## 分镜图探索
+
+已选多状态或九宫格按[Pro 分镜取舍与连续复刻](chatgpt-pro-storyboard-replication.md#把九宫格变成按口播推进的动画)先选格、合格、删格，再绑定实际口播、持续对象、动作与完整阅读窗口。格数不是动作配额；前后变化必须有内容关系，不将九格直接等时翻页。
 
 给 ChatGPT Pro 的单镜头 Prompt 至少包含：
 

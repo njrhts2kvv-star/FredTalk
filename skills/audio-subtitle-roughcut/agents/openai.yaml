@@ -1,0 +1,4 @@
+interface:
+  display_name: "音频和字幕粗剪"
+  short_description: "原音千问转写、自然人声处理与保留口播语气的可视化粗剪"
+  default_prompt: "使用 $audio-subtitle-roughcut，按原音→自然人声处理→1.1倍速→千问Audio 3.1字幕识别→粗剪→+8dB执行；字幕时间与cuts使用已加速源坐标，粗剪导出不再加速。结合逐字稿校正分段，交付审片台与同步音频字幕。"

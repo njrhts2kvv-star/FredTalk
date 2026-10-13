@@ -315,11 +315,11 @@ export function Library({
   return (
     <>
       <Heading page="library" />
-      <section className="release-notice" aria-label="FredTalk 1.5 更新">
-        <strong>FredTalk 1.5 · 新增 29 个组件</strong>
-        <p>5 个 3D 录屏运镜组件，结合成组刷色、蒙版、外框和输入反馈；另新增 24 个交互与精选动画组件。</p>
-        <p>按真实内容和口播编排镜头：重点停稳再突出，经过位置连续移动。</p>
-        <a href="https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v1.5.0">下载 1.5 源码与素材 ↗</a>
+      <section className="release-notice" aria-label="FredTalk 2.0 更新">
+        <strong>FredTalk 2.0 · 新增 106 个组件</strong>
+        <p>组件能找到、每段认真选、整期有规则。新增组件置前标 NEW，已归档组件在下方保留。</p>
+        <p>同等匹配度下批次轮转；前三候选说明取舍，整期自检与渲染、声音处理接成完整流程。</p>
+        <a href="https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0">下载 2.0 源码与素材 ↗</a>
       </section>
       <section className="scenario-picker" aria-label="按使用场景筛选">
         <div className="scenario-groups" role="group" aria-label="内容类型">

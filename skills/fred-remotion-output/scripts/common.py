@@ -37,6 +37,9 @@ def project_root(explicit=None):
 
 
 def load_references(root):
+    if (Path(root) / 'library/catalog.json').is_file():
+        from portable_catalog import load_portable
+        return load_portable(root)
     skill = root / 'skills/fred-remotion-output'
     registry = json.loads((skill / 'assets/dependency-registry.json').read_text())
     path = root / registry['selectionCatalog']

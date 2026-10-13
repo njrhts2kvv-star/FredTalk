@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "fred-native-16-20261012",
+  "components": [
+    {
+      "referenceId": "fred-native-t09a",
+      "label": "T09a",
+      "compositionId": "T09a-ClickPath",
+      "title": "点击路径聚焦：镜头跟光标找到入口并点下",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t09d",
+      "label": "T09d",
+      "compositionId": "T09d-TaskRunStatus",
+      "title": "发任务看运行：输入发出后步骤依次完成",
+      "defaultReuse": false,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t05b",
+      "label": "T05b",
+      "compositionId": "T05b-BeforeNow",
+      "title": "以前 vs 现在：旧步骤收成一叠，新做法接管",
+      "defaultReuse": false,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t05c",
+      "label": "T05c",
+      "compositionId": "T05c-RewriteLine",
+      "title": "原句改写：旧写法划掉、新写法替换",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t05d",
+      "label": "T05d",
+      "compositionId": "T05d-ToolFaceOff",
+      "title": "工具并排：逐项比较，胜出格翻黑",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t20a",
+      "label": "T20a",
+      "compositionId": "T20a-ResultFirstHook",
+      "title": "成果先行开场：作品墙推向主图，钩子落定",
+      "defaultReuse": false,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t12a",
+      "label": "T12a",
+      "compositionId": "T12a-PartTitle",
+      "title": "第 X 部分：点长成黑胶囊，章节名落定（快过渡）",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 2.0
+    },
+    {
+      "referenceId": "fred-native-t02a",
+      "label": "T02a",
+      "compositionId": "T02a-AgendaThree",
+      "title": "本期 N 件事：卡片依次立起，当前项抬起",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t14c",
+      "label": "T14c",
+      "compositionId": "T14c-PriceLand",
+      "title": "价格落定：数字逐位滚动，旧价划掉，差额亮出",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t14a",
+      "label": "T14a",
+      "compositionId": "T14a-ABTimeRace",
+      "title": "A/B 耗时：两条轨道计时赛跑，倍数落定",
+      "defaultReuse": false,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t01d",
+      "label": "T01d",
+      "compositionId": "T01d-VerdictCard",
+      "title": "测评结论：实测作品退后，评分卡与结论落定",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t04a",
+      "label": "T04a",
+      "compositionId": "T04a-MetaphorMap",
+      "title": "比喻映射：概念与生活比喻逐行配对再合一",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t17b",
+      "label": "T17b",
+      "compositionId": "T17b-TerminalRun",
+      "title": "终端运行：命令执行、输出滚动、结果行点亮",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t17a",
+      "label": "T17a",
+      "compositionId": "T17a-ConfigFocus",
+      "title": "配置文件聚焦：关键行提起，密钥全程打码",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t18a",
+      "label": "T18a",
+      "compositionId": "T18a-ToolCard",
+      "title": "工具名片：Logo 展开成名片，能力依次落下",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-native-t19a",
+      "label": "T19a",
+      "compositionId": "T19a-PainPoint",
+      "title": "痛点小人：Fred 发愁，烦恼气泡收成一个问题",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    }
+  ]
+}

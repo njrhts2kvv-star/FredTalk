@@ -3,43 +3,84 @@ from common import load_references
 from library_matching import rank_references, match_metadata
 
 
-def shortlist(root, catalog, page, limit=3):
+def _candidate_rows(root, ranked, scene_type, limit, exclude=()):
+    """Same-type matches first; fill remaining slots across types so a thin type never hides the library."""
+    pool=[e for e in ranked if e['id'] not in exclude]
+    typed=[e for e in pool if scene_type in e.get('sceneTypes',[])]
+    rest=[e for e in pool if e not in typed]
+    rows=[]
+    for entry in (typed+rest)[:limit]:
+        metadata=entry.get('matching') or match_metadata(root,entry)
+        rows.append({k:entry[k] for k in ['id','displayLabel','title','useWhen','sceneTypes','collectionId',
+            'editableParameters','knownLimitations','nativeTiming','motionDescription'] if k in entry} | {
+            'label':metadata['label'],'score':metadata.get('score'),'reasons':metadata.get('reasons',[]),
+            'sameSceneType':scene_type in entry.get('sceneTypes',[]),
+            'productionUse':{k:metadata[k] for k in ['useIds','sourceId','inputObjects','action','segmentRole','nativeDurationSeconds','adaptation'] if k in metadata},
+            'resolveCommand':'references.py --id '+entry['id']+' --full'})
+    return rows
+
+
+def shortlist(root, catalog, page, limit=5):
     plan=page.get('componentPlan', {})
     query=plan.get('query') or page.get('oneQuestion') or ''
-    result={'query':query,'sceneType':page.get('sceneGuide',{}).get('type'),
+    narration=' '.join(str(s.get('text','')) for s in page.get('sourceSpans',[]) if s.get('text'))
+    scene_type=page.get('sceneGuide',{}).get('type')
+    result={'query':query,'sceneType':scene_type,
             'candidates':[],'crossTypeFallback':False,
-            'scope':'Candidates only; inspect exact video and interface before selecting. No approval inferred.'}
-    if not query:
-        result['needsDecision']='Define componentPlan.query as visible objects and actions, not raw narration.'
-        return result
+            'scope':'Candidates only; inspect exact video and interface before selecting. No approval inferred.',
+            'selectionRule':'Inspect every listed candidate; record each as selected or rejected with a concrete reason before any original route.'}
     entries=[{'recordType':kind,**e} for kind,key in [('component','components'),('clip','clips')]
              for e in catalog.get(key,[]) if e.get('status','keep')=='keep'
              and not e.get('canonicalId') and not e.get('libraryDisposition')]
-    ranked=rank_references(root,entries,query)
-    if plan.get('use'):
-        ranked=[e for e in ranked if plan['use'] in e['matching'].get('useIds',[])]
-    if plan.get('source'):
-        ranked=[e for e in ranked if e['matching'].get('sourceId')==plan['source']]
-    typed=[e for e in ranked if result['sceneType'] in e.get('sceneTypes',[])]
-    if typed:
-        selected=typed[:limit]
+
+    def ranked_for(text):
+        ranked=rank_references(root,entries,text,scene_type)
+        if plan.get('use'):
+            ranked=[e for e in ranked if plan['use'] in e['matching'].get('useIds',[])]
+        if plan.get('source'):
+            ranked=[e for e in ranked if e['matching'].get('sourceId')==plan['source']]
+        return ranked
+
+    if query:
+        result['candidates']=_candidate_rows(root,ranked_for(query),scene_type,limit)
+        result['crossTypeFallback']=any(not row['sameSceneType'] for row in result['candidates'])
     else:
-        selected=ranked[:limit];result['crossTypeFallback']=bool(selected)
-    for entry in selected:
-        metadata=entry.get('matching') or match_metadata(root,entry)
-        result['candidates'].append({k:entry[k] for k in ['id','displayLabel','title','useWhen','sceneTypes','collectionId',
-            'editableParameters','knownLimitations','nativeTiming','motionDescription'] if k in entry} | {
-            'label':metadata['label'],'reasons':metadata.get('reasons',[]),
-            'productionUse':{k:metadata[k] for k in ['useIds','sourceId','inputObjects','action','segmentRole','nativeDurationSeconds','adaptation'] if k in metadata},
-            'resolveCommand':'references.py --id '+entry['id']+' --full'})
-    if not selected:
+        result['needsDecision']='Define componentPlan.query as visible objects and actions, not raw narration.'
+    if narration:
+        # Narration is a second, clearly separate lens; it never replaces the visual task query.
+        taken={row['id'] for row in result['candidates']}
+        result['narrationCandidates']=_candidate_rows(root,ranked_for(narration),scene_type,limit,taken)
+        result['narrationScope']='Matches from the spoken line only. Use them to widen the visual query, not as a selection.'
+    if query and not result['candidates']:
         result['needsDecision']='No match: split objects/actions or inspect another scene type before original design.'
     return result
 
 
-def scene_shortlist(root,page,limit=3):
+def scene_shortlist(root,page,limit=5):
     _,catalog=load_references(root)
     return shortlist(root,catalog,page,limit)
+
+
+def shortlist_coverage_errors(root, catalog, page, limit=3):
+    """The top shortlist for the declared visual query must each carry an explicit decision.
+
+    This keeps a familiar pick (or an original route) from silently skipping a closer
+    library match. It checks recorded comparison, not taste; the review stays the agent's.
+    """
+    pid=page.get('stableId','<missing>');plan=page.get('componentPlan') or {}
+    if plan.get('search')=='not-needed':
+        if page.get('implementationMode') in ['preserved-media','talk-only'] and not page.get('referenceChoices'):
+            return []
+        return [pid+': not-needed search is limited to pure media or recording responsibilities; original and animated scenes must compare current top candidates']
+    if not isinstance(plan.get('query'),str) or not plan['query'].strip():
+        return [pid+': componentPlan.query (visible objects and actions) is required before suggestions']
+    top=[row['id'] for row in shortlist(root,catalog,{**page,'sourceSpans':[]},limit)['candidates']]
+    decided={row.get('id') for row in plan.get('candidates',[]) if isinstance(row,dict)
+             and row.get('decision') in ['selected','rejected'] and row.get('reason')}
+    missing=[cid for cid in top if cid not in decided]
+    if missing:
+        return [pid+': inspect and decide the current top library candidates before this route: '+', '.join(missing)]
+    return []
 
 
 def validate_component_plan(pages,catalog):
@@ -85,7 +126,7 @@ def main():
     from common import project_root
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--project-root');parser.add_argument('--manifest',type=Path,required=True)
-    parser.add_argument('--scene-id',action='append');parser.add_argument('--limit',type=int,default=3)
+    parser.add_argument('--scene-id',action='append');parser.add_argument('--limit',type=int,default=5)
     parser.add_argument('--output',type=Path)
     args=parser.parse_args()
     try:

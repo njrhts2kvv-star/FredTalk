@@ -6,6 +6,7 @@ import re
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from build_segment_review import build
 
@@ -23,7 +24,9 @@ def fixture(folder):
         raw = raw.replace('__' + name + '_SHA__', hashlib.sha256(PNG).hexdigest())
     manifest = folder / 'manifest.json'
     manifest.write_text(raw)
-    build(manifest, folder / 'index.html')
+    # UI fixtures isolate display behavior; production gate has separate integration tests.
+    with patch('library_gate.validate_library_gate', return_value=[]):
+        build(manifest, folder / 'index.html')
     return manifest
 
 
@@ -34,6 +37,9 @@ def review_data(path):
 
 class SegmentReviewTests(unittest.TestCase):
     def setUp(self):
+        gate = patch('library_gate.validate_library_gate', return_value=[])
+        gate.start()
+        self.addCleanup(gate.stop)
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.folder = Path(self.tmp.name)

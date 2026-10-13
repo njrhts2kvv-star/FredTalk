@@ -1,6 +1,8 @@
 import argparse
 import hashlib
 import json
+import os
+import re
 import shutil
 import subprocess
 import wave
@@ -13,6 +15,8 @@ def main():
     p = argparse.ArgumentParser()
     for name in ('episode', 'audio', 'subtitles', 'script', 'title'):
         p.add_argument('--' + name, required=True)
+    p.add_argument('--copy-inputs', action='store_true', help='Copy supplied inputs into the review folder for portability')
+    p.add_argument('--media-review-url')
     args = p.parse_args()
     episode = Path(args.episode).resolve()
     root = episode / '03_制作过程/audio-review'
@@ -23,6 +27,13 @@ def main():
         if not path.is_file():
             p.error(f'Missing input: {path}')
     shutil.copytree(Path(__file__).resolve().parent.parent / 'assets/review-app', root)
+    if args.copy_inputs:
+        originals = inputs.copy()
+        folder = root / 'inputs'
+        folder.mkdir()
+        for key, file in originals.items():
+            inputs[key] = folder / (key + file.suffix)
+            shutil.copyfile(file, inputs[key])
     source = inputs['audio']
     try:
         with wave.open(str(source)) as w:
@@ -32,7 +43,9 @@ def main():
     if not normalized:
         source = root / 'source-normalized.wav'
         subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-i', str(inputs['audio']), '-ar', '48000', '-ac', '2', '-c:a', 'pcm_s16le', str(source)], check=True)
-    config = dict(episode=str(episode), title=args.title, filenameStem=episode.name.split()[0], sourceAudio=str(source), sourceSubtitles=str(inputs['subtitles']), script=str(inputs['script']), originalInputs={str(path): digest(path) for path in inputs.values()})
+    rel = lambda path: os.path.relpath(path, root)
+    stem = re.sub(r'[^\w-]+', '-', episode.name).strip('-') or 'episode'
+    config = dict(episode=rel(episode), episodeKey=episode.name, title=args.title, filenameStem=stem, sourceAudio=rel(source), sourceSubtitles=rel(inputs['subtitles']), script=rel(inputs['script']), originalInputs={rel(path): digest(path) for path in inputs.values()}, mediaReviewUrl=args.media_review_url)
     (root / 'project.json').write_text(json.dumps(config, ensure_ascii=False, indent=2))
     for name in ('cuts', 'subtitle-corrections', 'subtitle-boundaries', 'subtitle-sentences'):
         (root / (name + '.json')).write_text('[]')

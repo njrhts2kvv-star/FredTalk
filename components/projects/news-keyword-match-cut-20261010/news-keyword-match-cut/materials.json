@@ -1,0 +1,29 @@
+{
+  "images": {
+    "source": "OpenAI imagegen",
+    "generatedArtwork": true,
+    "fictionalNews": true,
+    "originalSheetPixels": [
+      1672,
+      941
+    ],
+    "cropPixels": [
+      836,
+      470
+    ]
+  },
+  "audio": {
+    "source": "https://github.com/TextMatchCut/TextMatchCut",
+    "commit": "c210d9f590a7d36de1b2255f404fc92240fd5fa0",
+    "file": "public/sfx/shutter.wav",
+    "licenseFile": "licenses/TextMatchCut-GPL-3.0.txt",
+    "license": "GPL-3.0 as provided by repository LICENSE; README says MIT; discrepancy retained"
+  },
+  "acceptedSample": {
+    "version": "V9",
+    "frames": 48,
+    "fps": 30,
+    "duration": 1.6
+  },
+  "promptEvidence": "Reusable template reconstructed from approved method; not verbatim historical generation request"
+}

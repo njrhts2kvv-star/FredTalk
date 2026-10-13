@@ -1,5 +1,6 @@
 import json
 import math
+import shutil
 import struct
 import subprocess
 import sys
@@ -33,12 +34,19 @@ class WorkflowTest(unittest.TestCase):
             command = [sys.executable, str(scripts / 'deliver.py'), '--review', str(root), '--version', 'v1', '--passthrough']
             subprocess.run(command, check=True, capture_output=True)
             data = json.loads((root / 'final-delivery.json').read_text())
-            with wave.open(data['audioPath']) as w:
+            with wave.open(str(root / data['audioPath'])) as w:
                 self.assertEqual(w.readframes(w.getnframes()), samples[:12000 * 4] + samples[24000 * 4:])
             self.assertEqual((data['speed'], data['gainDb'], data['trimStart']), (1, 0, 0))
             self.assertIsNone(data['peakLimitDb'])
             self.assertTrue(data['passthrough'])
             self.assertTrue(verify(root)['technicalPass'])
+            moved = Path(folder) / 'Moved_Passthrough'
+            shutil.move(str(episode), moved)
+            root = moved / '03_制作过程/audio-review'
+            self.assertTrue(verify(root)['technicalPass'])
+            relocated = load_server(root)
+            self.assertEqual(relocated.EPISODE, moved.resolve())
+            command[command.index('--review')+1] = str(root)
             bad = subprocess.run(command + ['--gain-db', '8'], capture_output=True, text=True)
             self.assertNotEqual(bad.returncode, 0)
             self.assertIn('passthrough', bad.stderr)
@@ -74,7 +82,7 @@ class WorkflowTest(unittest.TestCase):
             self.assertEqual(final['speed'], 1.1)
             self.assertEqual(final['gainDb'], 8)
             self.assertGreater(final['trimStart'], .35)
-            self.assertIn('啊嗯', Path(final['subtitlePath']).read_text())
+            self.assertIn('啊嗯', (root / final['subtitlePath']).read_text())
             self.assertEqual(final['subtitleWarnings'], 0)
             http = ThreadingHTTPServer(('127.0.0.1', 0), server.Handler)
             thread = Thread(target=http.serve_forever, daemon=True)

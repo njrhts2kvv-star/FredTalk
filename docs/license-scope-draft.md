@@ -1,6 +1,6 @@
 # Proposed license scope / 许可范围草案
 
-This document is a review draft, not a license grant. The repository remains private.
+This document is a review draft, not a license grant. The repository is publicly distributed; this draft does not change the permissions attached to third-party assets or grant a unified license.
 
 1. Choose a license only after confirming ownership of the standalone tooling and documentation. MIT is a candidate for first-party glue/tools; it cannot grant rights in reference-derived snapshots or external media.
 2. Keep source snapshots, fonts, screenshots, music, logos and preview media outside a blanket grant unless their specific rights are established. Build a per-project/per-asset record using rights-inventory.json.

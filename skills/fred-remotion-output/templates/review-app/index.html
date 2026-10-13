@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>制作审看台</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><a id="audio-link" hidden>音频与字幕 →</a><a id="final-link" href="/final">最终成片 →</a><nav id="views"><button data-view="suggestion">方向与分镜</button><button data-view="keyframes">关键帧</button><button data-view="video">逐段视频</button></nav><h1>制作审看台</h1><strong id="stage">正在载入</strong><span id="counts"></span><button id="reload">刷新</button><button id="export">导出意见</button><button id="import">导入意见</button><input id="import-file" type="file" accept="application/json" hidden><span id="save-state" role="status">正在载入</span></header>
+<div class="transport"><audio id="audio" controls preload="metadata"></audio><select id="scene-select" aria-label="选择场景"></select><label><input id="follow" type="checkbox" checked> 跟随音频</label><select id="speed" aria-label="播放速度"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select><output id="time">00:00.000</output></div>
+<main><div class="column-head"><span>口播</span><span id="visual-heading">实际关键帧</span><span>判断与修改意见</span></div><div id="scenes"></div><p id="empty" hidden>暂无可审看段落</p></main>
+<dialog id="zoom"><div class="dialog-bar"><button id="zoom-prev" title="上一帧" aria-label="上一帧">←</button><output id="zoom-label"></output><button id="zoom-next" title="下一帧" aria-label="下一帧">→</button><button id="close" title="关闭" aria-label="关闭">×</button></div><img id="zoom-image" alt="放大关键帧"></dialog>
+<script src="/app.js"></script>
+</body></html>

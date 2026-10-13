@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "inputBgmAlreadyPresent": false,
+  "loopSourceRangeSeconds": [120, 240],
+  "joinCrossfadeSeconds": 0.08,
+  "muteFadeSeconds": 0.12,
+  "muteRanges": [
+    {"startSeconds": 43.5, "endSeconds": 49.5333, "reason": "固定过渡插入段自带原声，BGM 让位（按本期 timing.json 的 INSERT 起止改）"}
+  ],
+  "note": "Fred 音乐 268s；片长超过时内部 120–240s 选段补足，接缝需人耳试听。"
+}

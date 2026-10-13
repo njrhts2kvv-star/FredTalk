@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "purpose": "固定基础库指纹。新工程里的 src/kit 必须与当前版一致；compatible 里的旧版只用于已入库组件。改 kit 需 Fred 明确同意，并同步更新本文件和 DESIGN.md。",
+  "runtime": "skills/_runtime/remotion/library-remakes-20260916",
+  "files": {
+    "theme.ts": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+    "ui.tsx": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2"
+  },
+  "version": 3,
+  "compatible": [
+    {
+      "version": 2,
+      "files": {
+        "theme.ts": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+        "ui.tsx": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9"
+      },
+      "note": "第二、三轮组件（wave2/wave3）使用；v3 只加了音效限量和 Spotlight，没有改视觉值"
+    },
+    {
+      "version": 1,
+      "files": {
+        "theme.ts": "c77ff0a6c94d35e5b41068730ebcbdc50736749c7c64b0327d4709ed88c0d15e",
+        "ui.tsx": "e7351657058edc090877cc702ee43259fd7d0d616315e208818bc519c67a0390"
+      },
+      "note": "fred-native-16-20261012 使用的初版，已入库组件保留它"
+    }
+  ]
+}

@@ -210,7 +210,7 @@ def validate_workflow(manifest, stage, base):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--manifest', type=Path, required=True)
-    parser.add_argument('--stage', choices=['planning', 'representative', 'signature'], required=True)
+    parser.add_argument('--stage', choices=['planning', 'representative', 'signature', 'suggestion', 'keyframes'], required=True)
     parser.add_argument('--scene-id', action='append')
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text())
@@ -225,7 +225,11 @@ def main():
         print(json.dumps(result, ensure_ascii=False, indent=2))
     else:
         scoped = dict(manifest, pages=pages)
-        errors = validate_workflow(scoped, args.stage, args.manifest.parent)
+        if args.stage in {'suggestion', 'keyframes'}:
+            from library_gate import validate_library_gate
+            errors = validate_library_gate(scoped, args.stage, args.manifest.parent)
+        else:
+            errors = validate_workflow(scoped, args.stage, args.manifest.parent)
         print(json.dumps({'status': 'FAIL' if errors else 'PASS', 'errors': errors}, ensure_ascii=False, indent=2))
         raise SystemExit(bool(errors))
 

@@ -91,5 +91,5 @@
   "master": "provenance/review-audio-v6.wav",
   "nativePublicCount": 81,
   "libraryGate": "historical BLOCKED; user directly authorized selected adopted renders",
-  "server": "117.50.190.145"
+  "server": "[RENDER_HOST]"
 }

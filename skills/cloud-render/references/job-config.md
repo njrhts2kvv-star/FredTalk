@@ -38,9 +38,9 @@
 # 本地制作允许列表快照
 python3 snapshot.py --source /absolute/project --destination /absolute/work/run01 --paths src public manifest.json package.json package-lock.json
 # 上传时使用交互式SCP或已配置SSH密钥，不在命令里放密码
-scp -r /absolute/work/run01 ubuntu@server:<project-path>
+scp -r /absolute/work/run01 ubuntu@server:/home/ubuntu/fred-render/projects/
 # 云端进入任务目录、加载Node环境、校验快照并安装锁定依赖
-source <project-path>
+source /home/ubuntu/fred-render/env.sh
 python3 snapshot.py --verify .
 npm ci --no-audit --no-fund
 # Only when the selected EGL launcher needs it, set the verified managed binary.

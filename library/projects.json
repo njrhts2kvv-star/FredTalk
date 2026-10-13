@@ -308,5 +308,29 @@
   {
     "path": "components/projects/screen-camera-selected-20261007",
     "sourceFormat": "Independent Remotion public project"
+  },
+  {
+    "path": "components/projects/fred-wave3-extra2-20261012",
+    "sourceFormat": "Independent Remotion public project; user media inputs documented separately"
+  },
+  {
+    "path": "components/projects/fred-wave3-40-20261012",
+    "sourceFormat": "Independent Remotion public project; user media inputs documented separately"
+  },
+  {
+    "path": "components/projects/fred-wave2-fix5-20261012",
+    "sourceFormat": "Independent Remotion public project; user media inputs documented separately"
+  },
+  {
+    "path": "components/projects/fred-wave2-42-20261012",
+    "sourceFormat": "Independent Remotion public project; user media inputs documented separately"
+  },
+  {
+    "path": "components/projects/fred-native-16-20261012",
+    "sourceFormat": "Independent Remotion public project; user media inputs documented separately"
+  },
+  {
+    "path": "components/projects/news-keyword-match-cut-20261010",
+    "sourceFormat": "Independent Remotion public project; user media inputs documented separately"
   }
 ]

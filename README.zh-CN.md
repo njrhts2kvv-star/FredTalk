@@ -1,6 +1,6 @@
 <div align="center">
 
-# FredTalk 1.5
+# FredTalk 2.0
 
 ### 用 Codex，把口播稿变成动态视频。
 
@@ -14,24 +14,27 @@ FredTalk 是我在日常视频制作中打磨的一套工作流程。把稿件�
 
 你可以先在网页里看效果，也可以把仓库下载到本地，让 Codex 或其他编程 Agent 读取 Skill，开始制作自己的视频。
 
-## 1.5 更新 · 2026-10-08
+## 2.0 更新 · 2026-10-13
 
-新增 **29 个组件**：5 个 3D 录屏运镜组件、4 类输入与突出交互组件、14 个精选动画，以及第109期的6个精选场景。源码、参数说明和预览都可下载。
+这次升级围绕一件事：让 Codex 找到组件、认真选型，再把画面接成一条完整视频。
 
-3D 运镜按真实内容与口播编排：镜头到达重点后停稳，再成组刷色、蒙版或框选；中间经过的位置连续移动。五条案例提供可复用的运动与强调方式，新的内容需要重新设置落点、滚动、角度和阅读时间。
+- **组件能找到了**：修复检索链路，“数据、价格、要点、代码终端”等常见说法参与匹配，制作和视觉库共用登记数据。
+- **新组件有机会被用上**：同等匹配度下按来源批次轮流排，让新批次进入候选列表。
+- **每段都认真挑**：当前前三候选用或不用，都写具体理由；门禁重新计算并拦截漏比较，不能直接退成大字页。
+- **整期有规则**：录屏聚焦、对象交接、阅读停留、组件去重和动态自检一起执行；音效按整期限量，BGM 在原声欣赏区让位。
+- **渲染与声音更稳**：上传断线续传、分块超时重试、口播与音效分轨、混音峰值保护和最终 AAC 复测。
 
-[查看 1.5 更新说明](docs/releases/1.5.md) · [下载 1.5 组件与素材](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v1.5.0)
+本次 GitHub 新增 **106 条组件**，网站新增 **105 条**；最新组件置前标 **NEW**，**114 条**已归档组件在页面底部保留。
+
+[查看 2.0 完整更新说明](docs/releases/2.0.md) · [下载 2.0 组件与素材](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0)
 
 ## 画面预览
 
 从文字强调、步骤讲解，到录屏聚焦和作品展示，按你要表达的内容选择画面。点击[在线视觉库](https://www.fred-fu.com/visual-library)可播放预览、筛选场景并查看源码。
 
 <table>
-<tr><td width="25%"><img src="docs/assets/C009.jpg" alt="多个词组成信息结构" width="240"><br><sub>C009 · 信息结构</sub></td><td width="25%"><img src="docs/assets/N027.jpg" alt="流程线绕回下一行，连续建立三排步骤" width="240"><br><sub>N027 · 步骤流程</sub></td><td width="25%"><img src="docs/assets/N043.jpg" alt="长文面板横向展开为背景，手机重新到前景" width="240"><br><sub>N043 · 文档与手机</sub></td><td width="25%"><img src="docs/assets/X006.jpg" alt="三种生成方式清单" width="240"><br><sub>X006 · 能力清单</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/X019.jpg" alt="免费规则窗口" width="240"><br><sub>X019 · 规则说明</sub></td><td width="25%"><img src="docs/assets/X022.jpg" alt="角色虚化前的三项概念" width="240"><br><sub>X022 · 概念强调</sub></td><td width="25%"><img src="docs/assets/X025.jpg" alt="文档推近逐行阅读" width="240"><br><sub>X025 · 文档阅读</sub></td><td width="25%"><img src="docs/assets/E08.jpg" alt="记忆分类分支与重新使用" width="240"><br><sub>E08 · 分类分支</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/107-03.jpg" alt="同尺度版本窗，箭头建立比较" width="240"><br><sub>107-03 · 版本对比</sub></td><td width="25%"><img src="docs/assets/107-04.jpg" alt="三项能力按口播建立，汇聚长胶囊" width="240"><br><sub>107-04 · 能力汇聚</sub></td><td width="25%"><img src="docs/assets/SP014.jpg" alt="四格视频素材展示" width="240"><br><sub>SP014 · 视频作品墙</sub></td><td width="25%"><img src="docs/assets/SP021.jpg" alt="深色窗口中的三行能力词" width="240"><br><sub>SP021 · 能力文字</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/X010.jpg" alt="约束示例黑卡" width="240"><br><sub>X010 · 约束说明</sub></td><td width="25%"><img src="docs/assets/C008.jpg" alt="前一步引出后一步" width="240"><br><sub>C008 · 前后接力</sub></td><td width="25%"><img src="docs/assets/SP024.jpg" alt="深色窗口两行目标文字" width="240"><br><sub>SP024 · 目标文字</sub></td><td width="25%"><img src="docs/assets/X008.jpg" alt="提示词与能力黑胶囊" width="240"><br><sub>X008 · 提示词展示</sub></td></tr>
-<tr><td width="25%"><img src="docs/assets/X040.jpg" alt="图片视频成片三步串联" width="240"><br><sub>X040 · 三步流程</sub></td><td width="25%"><img src="docs/assets/X037.jpg" alt="插画叠放转四格" width="240"><br><sub>X037 · 插画作品墙</sub></td><td width="25%"><img src="docs/assets/N014.jpg" alt="三结果归位溯源，再抽离成三窗对照" width="240"><br><sub>N014 · 结果对照</sub></td><td width="25%"><img src="docs/assets/SP018.jpg" alt="剧本文字与人物参考图并列" width="240"><br><sub>SP018 · 图文并排</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/T05h.jpg" alt="一次性拷贝 vs 持续同步" width="240"><br><sub>T05h · 一次性拷贝 vs 持续同步</sub></td><td width="25%"><img src="docs/assets/T15e.jpg" alt="折线走势" width="240"><br><sub>T15e · 折线走势</sub></td><td width="25%"><img src="docs/assets/T17b.jpg" alt="终端运行：命令执行、输出滚动、结果行点亮" width="240"><br><sub>T17b · 终端运行：命令执行、输出滚动、结果行点亮</sub></td><td width="25%"><img src="docs/assets/T03e.jpg" alt="步骤折行串起" width="240"><br><sub>T03e · 步骤折行串起</sub></td></tr>
+<tr><td width="25%"><img src="docs/assets/T08i.jpg" alt="毛玻璃要点卡" width="240"><br><sub>T08i · 毛玻璃要点卡</sub></td><td width="25%"><img src="docs/assets/T10a.jpg" alt="长回复拎要点" width="240"><br><sub>T10a · 长回复拎要点</sub></td><td width="25%"><img src="docs/assets/T09l.jpg" alt="复制地址交给 AI" width="240"><br><sub>T09l · 复制地址交给 AI</sub></td><td width="25%"><img src="docs/assets/T14c.jpg" alt="价格落定：数字逐位滚动，旧价划掉，差额亮出" width="240"><br><sub>T14c · 价格落定：数字逐位滚动，旧价划掉，差额亮出</sub></td></tr>
 </table>
 
 ## 能做什么
@@ -94,7 +97,8 @@ python3 scripts/assets.py materialize
 ### 按用途查找组件
 
 ```bash
-python3 scripts/catalog.py --use explain --query "流程" --limit 3
+python3 scripts/catalog.py --use explain --query "三个要点列表" --limit 3
+python3 scripts/catalog.py --query "两个工具价格对比" --limit 5
 python3 scripts/catalog.py --id SP024 --full
 ```
 
@@ -107,3 +111,5 @@ python3 scripts/catalog.py --id SP024 --full
 ## 许可
 
 本项目当前未授予统一开源许可。使用或再分发代码、字体与素材前，请查看 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 中的具体许可说明。
+
+新增组件的个人录屏、人物独立素材不随源码包提供；需要自备的输入路径见各包 `user-media-inputs.json`。预览保留认可画面，使用自己的素材后仍需检查实际输出。

@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "fred-wave3-40-20261012",
+  "components": [
+    {
+      "referenceId": "fred-wave3-40-t08e",
+      "label": "T08e",
+      "compositionId": "T08e-CommentPull",
+      "title": "评论里拎出问题",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t21b",
+      "label": "T21b",
+      "compositionId": "T21b-QAResolve",
+      "title": "问题逐个被回答",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t02g",
+      "label": "T02g",
+      "compositionId": "T02g-RoleRoadmap",
+      "title": "两个身份路线图",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t12h",
+      "label": "T12h",
+      "compositionId": "T12h-RoleSwitch",
+      "title": "身份切换（快过渡）",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 2.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t12i",
+      "label": "T12i",
+      "compositionId": "T12i-QuestionBeat",
+      "title": "一句问题砸下（快过渡）",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 2.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09i",
+      "label": "T09i",
+      "compositionId": "T09i-PickRow",
+      "title": "按条件选中一行",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t18d",
+      "label": "T18d",
+      "compositionId": "T18d-RepoCard",
+      "title": "项目名片",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t04e",
+      "label": "T04e",
+      "compositionId": "T04e-PackOpen",
+      "title": "拆开看里面装了什么",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t05h",
+      "label": "T05h",
+      "compositionId": "T05h-SyncVsCopy",
+      "title": "一次性拷贝 vs 持续同步",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t05i",
+      "label": "T05i",
+      "compositionId": "T05i-UnboxResult",
+      "title": "打开下载包看到什么",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09j",
+      "label": "T09j",
+      "compositionId": "T09j-DeviceCode",
+      "title": "验证码从一个窗口交给另一个",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t04f",
+      "label": "T04f",
+      "compositionId": "T04f-KeyUnlock",
+      "title": "一把钥匙解锁几件事",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09k",
+      "label": "T09k",
+      "compositionId": "T09k-FileFilter",
+      "title": "上传前过滤文件",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t02h",
+      "label": "T02h",
+      "compositionId": "T02h-FileTrio",
+      "title": "几个必备文件",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t17c",
+      "label": "T17c",
+      "compositionId": "T17c-FileTree",
+      "title": "文件夹结构",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09l",
+      "label": "T09l",
+      "compositionId": "T09l-LinkCarry",
+      "title": "复制地址交给 AI",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09n",
+      "label": "T09n",
+      "compositionId": "T09n-WaitSkip",
+      "title": "等待快进",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09m",
+      "label": "T09m",
+      "compositionId": "T09m-Keycap",
+      "title": "快捷键",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t15e",
+      "label": "T15e",
+      "compositionId": "T15e-TrendLine",
+      "title": "折线走势",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t15f",
+      "label": "T15f",
+      "compositionId": "T15f-DonutShare",
+      "title": "占比环",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t14e",
+      "label": "T14e",
+      "compositionId": "T14e-StatTriplet",
+      "title": "三个关键数字",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t14f",
+      "label": "T14f",
+      "compositionId": "T14f-Gauge",
+      "title": "仪表读数",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t15g",
+      "label": "T15g",
+      "compositionId": "T15g-RankReveal",
+      "title": "排行揭晓",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t15h",
+      "label": "T15h",
+      "compositionId": "T15h-BenchmarkTable",
+      "title": "多方测评表",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 7.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t15i",
+      "label": "T15i",
+      "compositionId": "T15i-PlanTable",
+      "title": "套餐对比",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t16a",
+      "label": "T16a",
+      "compositionId": "T16a-Timeline",
+      "title": "时间线",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t16b",
+      "label": "T16b",
+      "compositionId": "T16b-VersionStack",
+      "title": "版本迭代",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t18f",
+      "label": "T18f",
+      "compositionId": "T18f-LogoGrid",
+      "title": "Logo 矩阵",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t22a",
+      "label": "T22a",
+      "compositionId": "T22a-PostCard",
+      "title": "帖子/推文卡",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t22b",
+      "label": "T22b",
+      "compositionId": "T22b-NewsStack",
+      "title": "新闻叠放",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t18e",
+      "label": "T18e",
+      "compositionId": "T18e-LogoVersus",
+      "title": "两方对决（快过渡）",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t13a",
+      "label": "T13a",
+      "compositionId": "T13a-StackLayers",
+      "title": "分层结构",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t13b",
+      "label": "T13b",
+      "compositionId": "T13b-MetaphorMorph",
+      "title": "比喻变形",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t13c",
+      "label": "T13c",
+      "compositionId": "T13c-CapacityFit",
+      "title": "装不装得下",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t13d",
+      "label": "T13d",
+      "compositionId": "T13d-RequestTrip",
+      "title": "请求往返",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t04g",
+      "label": "T04g",
+      "compositionId": "T04g-DecisionTree",
+      "title": "该选哪条路",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t09o",
+      "label": "T09o",
+      "compositionId": "T09o-ZoomLens",
+      "title": "放大镜看细节",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t20f",
+      "label": "T20f",
+      "compositionId": "T20f-ResultFirst",
+      "title": "先看结果再倒回来",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t01h",
+      "label": "T01h",
+      "compositionId": "T01h-CautionTag",
+      "title": "注意澄清",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-wave3-40-t21d",
+      "label": "T21d",
+      "compositionId": "T21d-SaveChecklist",
+      "title": "可截图清单",
+      "defaultReuse": true,
+      "fps": 60,
+      "durationSeconds": 6.0
+    }
+  ]
+}

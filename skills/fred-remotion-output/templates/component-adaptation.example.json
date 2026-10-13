@@ -1,0 +1,39 @@
+{
+  "episodeKey": "ADAPTATION-EXAMPLE",
+  "timingStatus": "example-only",
+  "timelineFps": 60,
+  "outputSpec": {"width": 3840, "height": 2160, "fps": 60},
+  "sharedTypography": {
+    "prompt-body": {"fontId": "misans-medium", "fontFamily": "EpisodeBody", "fontWeight": 400,
+      "fontSize": 40, "lineHeight": 1.5, "logicalCanvas": [1920, 1080]}
+  },
+  "pages": [
+    {
+      "stableId": "EX-A", "startFrame": 0, "durationInFrames": 180,
+      "sceneGuide": {"type": "prompt-reading"},
+      "typography": [{"role": "body", "styleGroup": "prompt-body"}],
+      "componentPlan": {"contentRoles": [
+        {"objectId": "context-panel", "role": "background", "decision": "Keep the selected carrier"},
+        {"objectId": "prompt", "role": "operation", "decision": "Keep full text and measured inline emphasis"}]},
+      "readingPlan": {
+        "fullText": "我的背景是什么？\n这次要解决什么问题？\n请结合我的背景分析。",
+        "highlights": [{"phrase": "背景", "occurrence": 1, "cueFrame": 90}],
+        "checkpoints": [{"frame": 30, "purpose": "Full text and longest line readable"},
+          {"frame": 90, "purpose": "Correct second occurrence under the same camera"},
+          {"frame": 179, "purpose": "Outgoing actual source and camera state"}]
+      },
+      "sourceMapping": {"fromFrame": 0, "sourceInSeconds": 10, "timelineFps": 60, "playbackRate": 1},
+      "boundaryContract": {"exit": {"sourceSeconds": 13, "camera": {"scale": 1, "translateX": 0, "translateY": 0}}},
+      "preserveObjects": [{"objectId": "context-panel", "decision": "Keep layout; only change emphasis"}]
+    },
+    {
+      "stableId": "EX-B", "startFrame": 180, "durationInFrames": 120,
+      "sceneGuide": {"type": "prompt-reading"},
+      "typography": [{"role": "body", "styleGroup": "prompt-body"}],
+      "readingPlan": {"fullText": "换一个问题，继续使用相同文字职责。"},
+      "sourceMapping": {"fromFrame": 180, "sourceInSeconds": 13, "timelineFps": 60, "playbackRate": 0},
+      "boundaryContract": {"enter": {"sourceSeconds": 13, "camera": {"scale": 1, "translateX": 0, "translateY": 0},
+        "decision": "Explicit reading hold"}}
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+ "episode": "EP114",
+ "fps": 60,
+ "srt": "../../../02_最终输出/114_Github-final-subtitles-v4.srt",
+ "voiceStatic": "audio/voice-v4.wav",
+ "audioEndSeconds": 306.8875,
+ "tailSeconds": 0.6,
+ "segments": [
+  [
+   "S01",
+   1,
+   5
+  ],
+  [
+   "S02",
+   6,
+   11
+  ],
+  [
+   "S03",
+   12,
+   20
+  ],
+  [
+   "S04",
+   21,
+   26
+  ],
+  [
+   "S05",
+   27,
+   33
+  ],
+  [
+   "S06",
+   34,
+   36
+  ],
+  [
+   "S07",
+   37,
+   42
+  ],
+  [
+   "S08",
+   43,
+   47
+  ],
+  [
+   "S09",
+   48,
+   50
+  ],
+  [
+   "S10",
+   51,
+   56
+  ],
+  [
+   "S11",
+   57,
+   58
+  ],
+  [
+   "S12",
+   59,
+   65
+  ],
+  [
+   "S13",
+   66,
+   73
+  ],
+  [
+   "S14",
+   74,
+   77
+  ],
+  [
+   "S15",
+   78,
+   92
+  ],
+  [
+   "S16",
+   93,
+   109
+  ],
+  [
+   "S17",
+   110,
+   118
+  ],
+  [
+   "S18",
+   119,
+   124
+  ],
+  [
+   "S19",
+   125,
+   132
+  ],
+  [
+   "S20",
+   133,
+   149
+  ],
+  [
+   "S21",
+   150,
+   152
+  ]
+ ],
+ "insert": {
+  "id": "INSERT",
+  "afterSegment": "S03",
+  "cutSeconds": 43.5,
+  "frames": 362,
+  "note": "按语义放（112、114 在“建议大家先收藏点赞”之后），cutSeconds 取那句后的静音点",
+  "cues": [
+   {
+    "start": 0.1,
+    "end": 1.5,
+    "text": "本期视频全部用我的 Skill"
+   },
+   {
+    "start": 1.5,
+    "end": 3.1,
+    "text": "和组件库自动剪辑输出"
+   },
+   {
+    "start": 3.34,
+    "end": 4.46,
+    "text": "全部资料都整理到"
+   },
+   {
+    "start": 4.46,
+    "end": 5.5,
+    "text": "Fred 专属知识库了"
+   }
+  ]
+ },
+ "fullComposition": "EP114-FULL",
+ "finalVideo": "../../../02_最终输出/114_Github-v3-4K60.mp4",
+ "cloud": {
+  "dir": "~/fred-render/projects/ep114-v2",
+  "hosts": {
+   "A": "<用户>@<A 机地址>",
+   "B": "<用户>@<B 机地址>"
+  },
+  "nodeModules": {
+   "A": "~/fred-render/projects/new-components-20261012/node_modules",
+   "B": "~/fred-render/runtimes/rm515/node_modules"
+  },
+  "lanes": {
+   "A": 4,
+   "B": 8
+  },
+  "speed": {
+   "A": 1.0,
+   "B": 1.25
+  },
+  "note": "真实地址和用户名见 cloud-render 的私人连接资料，不写进模板；本期 episode.json 里填真实值"
+ },
+ "heavySegments": {
+  "S08": 1.5,
+  "S16": 1.5,
+  "S18": 1.5
+ },
+ "mergeIntoPrevious": {
+  "INSERT": "S03"
+ }
+}

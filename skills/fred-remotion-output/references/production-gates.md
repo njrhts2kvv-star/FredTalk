@@ -1,6 +1,6 @@
 # 分阶段生产门禁
 
-当前交付遵循[组件库交付门禁](library-delivery-gate.md)：默认认可组件复用/二创，原创须当次场景授权；历史探索说明不覆盖此约束。
+在原四阶段之前增加两个交付拦截点：[组件库交付门禁](library-delivery-gate.md)的`suggestion`与`keyframes`。必须完成实际组件选型/对照审看并运行`library_gate.py`得到当前PASS，才可给建议或交付关键帧。关键帧门同时调用既有源码归因与TypeScript实际调用检查；直接输出授权不绕过此门。它不取代planning/implementation/representative/formal，也不等于Fred已批准。
 
 本文件把“先做完再发现问题”改成可停止的阶段流程。它不是视觉批准替代品，而是让错误尽可能在整片云端渲染前暴露。
 
@@ -143,6 +143,10 @@ review receipt 至少记录每个代表镜头的：
 只有所有检查为 `true`，实际预览视频存在、hash 一致、可探测且完整解码通过，才可生成 `representative` receipt。`reviewRange` 使用该视频内的秒数，必须在实际时长内并至少覆盖完整场景时长；观察时间必须位于该范围。四类观察都要写具体看到的内容，不能只填 `PASS`、`OK` 或“已检查”。脚本检查证据结构和文件，不替人判断观察是否真实、画面是否好看。
 
 静帧选型与构图确认另记 `keyframeReview`，不能填进 `normalSpeed` 动画审看。已授权直出或有限返修不因此新增一轮用户审批；内部实际视频审看仍须完成。后续 formal 还会核对 review receipt 和被审视频的 hash，防止审过的是旧文件。
+
+### 渲染正式整片前：动态自检
+
+分段渲染预览后、推 4K 正式渲染前，运行 `python3 skills/fred-remotion-output/scripts/motion_audit.py --dir <分段目录> --json <本期>/qc/motion-audit.json`。未豁免的“定格/干等、缓慢漂移、单次运动过长、纯滚动过长”不为 0 时不推正式渲染；有意的连续动作用 `--allow 段号:起-止` 豁免并在简报写理由。细则见[整期编排](episode-assembly.md#8-动态自检motion_auditpy)。它是候选清单，不替代上面的实际观看记录。
 
 ### 4. `formal`
 

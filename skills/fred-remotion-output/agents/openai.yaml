@@ -1,6 +1,6 @@
 interface:
-  display_name: "Fred 的 Remotion 视频输出"
-  short_description: "从已确定稿件拆连续分镜，选用认可方案与源码，完成云渲染、审看返修和视频交付"
-  default_prompt: "请用 $fred-remotion-output 按我的稿子拆分连续分镜，选择合适的认可方案和代码依赖，检查修好后输出完整 Remotion 视频。"
+  display_name: "FredTalk 2.0"
+  short_description: "Fred 每期视频主入口：逐段先看组件库候选再给图文建议，确认关键帧后出完整 Remotion 视频并局部返修"
+  default_prompt: "请用 $fred-remotion-output 制作这一期：每段先写画面对象与动作，用 scene.py --candidates-only 看组件库候选并记录选用/不选理由，再给逐段图文建议；我确认关键帧后输出完整视频。"
 policy:
   allow_implicit_invocation: true

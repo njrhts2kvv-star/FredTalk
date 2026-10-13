@@ -312,7 +312,7 @@
       "role": "handwriting",
       "usage": "手写关系与解释",
       "when": "手写、黑板与批注；原沐瑶、龙藏表达统一到文楷。",
-      "avoid": "准确场景实现中是手写骨架候选，粉笔纹理另做；不用于密集UI正文。",
+      "avoid": "准确复刻中是手写骨架候选，粉笔纹理另做；不用于密集UI正文。",
       "sample": "把复杂，讲清楚。",
       "path": "library/fonts/LXGWWenKai-Regular.ttf",
       "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",

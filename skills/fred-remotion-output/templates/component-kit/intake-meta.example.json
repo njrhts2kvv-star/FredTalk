@@ -1,0 +1,13 @@
+{
+  "T05c-RewriteLine": {
+    "sceneTypes": ["prompt-reading", "image-comparison"],
+    "primaryUse": "explain",
+    "useIds": ["explain", "recording-focus"],
+    "conceptIds": ["text", "comparison", "document"],
+    "scenarioId": "compare",
+    "inputObjects": ["文档行", "旧写法", "新写法"],
+    "category": "对比",
+    "tags": ["原句改写", "提示词改写", "划掉替换"],
+    "limitations": []
+  }
+}

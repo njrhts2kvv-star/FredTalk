@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "src": "pages/page-01.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-02.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-03.png",
+      "durationInFrames": 2
+    },
+    {
+      "src": "pages/page-04.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-05.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-06.png",
+      "durationInFrames": 2
+    },
+    {
+      "src": "pages/page-07.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-08.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-09.png",
+      "durationInFrames": 2
+    },
+    {
+      "src": "pages/page-10.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-11.png",
+      "durationInFrames": 3
+    },
+    {
+      "src": "pages/page-12.png",
+      "durationInFrames": 18
+    }
+  ],
+  "audioSrc": "audio/shutter-approved.m4a",
+  "audioVolume": 1
+}

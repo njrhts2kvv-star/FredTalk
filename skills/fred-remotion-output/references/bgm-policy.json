@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "localOnlyAssets": [],
+  "policy": "No private music identity or machine binding ships. Explicit --bgm is required. Users may configure their own deny list outside the repository."
+}

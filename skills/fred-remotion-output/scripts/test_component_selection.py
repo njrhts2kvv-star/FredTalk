@@ -1,7 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
-from component_selection import shortlist, validate_component_plan
+from component_selection import shortlist, validate_component_plan, shortlist_coverage_errors
 
 class ComponentSelectionTests(unittest.TestCase):
     def setUp(self):
@@ -26,6 +26,26 @@ class ComponentSelectionTests(unittest.TestCase):
         r=shortlist(self.root,self.catalog,{'sourceSpans':[{'text':'录音与逐字稿'}]},3)
         self.assertEqual(r['candidates'],[])
         self.assertIn('query',r['needsDecision'])
+    def test_thin_scene_type_is_filled_across_types_and_marked(self):
+        r=shortlist(self.root,self.catalog,{'sceneGuide':{'type':'device-demo'},'oneQuestion':'手机横竖窗口接力'},3)
+        self.assertEqual([x['id'] for x in r['candidates']],['media','wrong-type'])
+        self.assertEqual([x['sameSceneType'] for x in r['candidates']],[True,False])
+        self.assertTrue(r['crossTypeFallback'])
+    def test_narration_lens_is_separate_and_not_a_selection(self):
+        r=shortlist(self.root,self.catalog,{'sourceSpans':[{'text':'手机窗口接力'}]},3)
+        self.assertEqual(r['candidates'],[])
+        self.assertIn('media',[x['id'] for x in r['narrationCandidates']])
+        self.assertIn('query',r['needsDecision'])
+    def test_original_route_must_decide_top_library_candidates(self):
+        page={'stableId':'s','implementationMode':'original','sceneGuide':{'type':'device-demo'},
+              'componentPlan':{'query':'手机横竖窗口接力','candidates':[]}}
+        errors=shortlist_coverage_errors(self.root,self.catalog,page)
+        self.assertTrue(errors and 'media' in errors[0])
+        page['componentPlan']['candidates']=[{'id':'media','decision':'rejected','reason':'本句要四路筛选'},
+                                             {'id':'wrong-type','decision':'rejected','reason':'类型不符'}]
+        self.assertEqual(shortlist_coverage_errors(self.root,self.catalog,page),[])
+    def test_coverage_requires_visual_query(self):
+        self.assertTrue(shortlist_coverage_errors(self.root,self.catalog,{'stableId':'s','componentPlan':{}}))
     def test_new_plan_cannot_claim_reference_not_selected(self):
         p={'stableId':'s','implementationMode':'adapted','referenceChoices':[{'id':'media'}],
            'componentPlan':{'query':'窗口接力','candidates':[{'id':'wrong-type','decision':'selected','reason':'接力动作'}]}}

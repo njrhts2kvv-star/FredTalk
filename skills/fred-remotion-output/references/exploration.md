@@ -1,7 +1,5 @@
 # 不确定画面与动作的探索
 
-当前交付遵循[组件库交付门禁](library-delivery-gate.md)：默认认可组件复用/二创，原创须当次场景授权；历史探索说明不覆盖此约束。
-
 在用户采用分镜选型流程，或构图/动作仍不明确时读本文件；先读该场景小抄，将本场景实际原话、偏好和禁止项带入Prompt。
 
 | 缺口 | 方法与产物 |
@@ -12,6 +10,8 @@
 | 安装、搜索、文件、操作或结果证据缺失 | 获取真实截图/录屏；生成图不能代替实操证据 |
 
 分镜图 Prompt 包含当前原话/上屏词、镜头职责、开始/重点/交接状态、画幅、字幕区、少量有明确职责的参考及允许变化项。按需选择单图或“建立—变化—重点—交接”四状态，不统一给整期套同一排版；宫格只供看方案，不能整张当正式背景。
+
+用户指定 ChatGPT Pro 时使用 Ego Lite 与已有登录态，发送前按现有方向门禁冻结最终 Prompt；实际点击创建图片并验证生成模式。生成结果按内容身份和 hash 核对，不按返回顺序猜页码。分镜图的合同与参考包按[分镜图探索与认可依赖](storyboard-image-workflow.md)执行；涉及 ChatGPT Pro 的触发、提示词、证据、会话记录和 Remotion 复刻，另按[ChatGPT Pro 分镜探索与 Remotion 复刻](chatgpt-pro-storyboard-replication.md)执行。`fred-deck-image-generation` 已于 2026-10-02 退役，不再调用该入口；独立视频不继承 Deck 点击/翻页外观。
 
 人物 B-roll、视频 Prompt 与生成执行统一从 `skills/fred-broll-generation/SKILL.md` 进入；默认 LibTV 路线，H3 仅在用户点名时使用该入口的可选平台参考。需要转成 Remotion 时，保留实际视频、中间动作、对象身份、首尾与声音映射，按 `fred-remake/references/h3-handoff.md` 交接。字体、换行、载体缺失和蒙版残点优先在代码中修。
 

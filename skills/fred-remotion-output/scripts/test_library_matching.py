@@ -7,6 +7,32 @@ from library_matching import match_metadata, rank_references
 
 
 class MatchingTests(unittest.TestCase):
+    def test_skill_archive_is_excluded_without_changing_prior_selection(self):
+        import json
+        from library_matching import library_disposition
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            path = root / 'skills/fred-remotion-output/references/visual-usage-registry.json'
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps({'archivedReferences': {'C008': {'order': 0}}}))
+            entry = {'displayLabel': 'C008', 'status': 'keep'}
+            self.assertEqual(library_disposition(root, entry), 'archived')
+            self.assertEqual(entry['status'], 'keep')
+            self.assertIsNone(library_disposition(root, {'displayLabel': 'C009'}))
+
+    def test_raw_catalog_query_requires_explicit_archive_lookup(self):
+        import importlib.util
+        path = Path(__file__).resolve().parents[2] / 'fred-remake/scripts/query-preferred-motion.py'
+        spec = importlib.util.spec_from_file_location('archive_query', path)
+        query = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(query)
+        data = {'components': [{'id': 'old', 'displayLabel': 'C008', 'status': 'keep', 'defaultReuse': False},
+                               {'id': 'active', 'displayLabel': 'C009', 'status': 'keep'}], 'clips': []}
+        self.assertEqual([x['id'] for x in query.select_entries(data)], ['active'])
+        self.assertEqual(query.select_entries(data, item_id='C008'), [])
+        self.assertEqual(query.select_entries(data, query='C008'), [])
+        self.assertEqual([x['id'] for x in query.select_entries(data, status='all', item_id='C008')], ['old'])
+
     def test_confirmed_merge_is_shared_without_legacy_web_rules(self):
         import json
         from library_matching import library_disposition, library_merge_labels
@@ -83,6 +109,40 @@ class ProductionUseTests(unittest.TestCase):
             self.assertEqual(metadata['sourceId'], 'ep107')
             self.assertNotIn('media', metadata['conceptIds'])
             self.assertEqual(metadata['nativeDurationSeconds'], 4)
+
+    def test_registry_entry_without_concepts_does_not_crash_concept_query(self):
+        import json
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            self.registry(root)
+            path = root / 'skills/fred-remotion-output/references/visual-usage-registry.json'
+            data = json.loads(path.read_text())
+            data['entries']['NMC01'] = {'primaryUse': 'explain', 'useIds': ['explain']}
+            path.write_text(json.dumps(data))
+            entry = {'id': 'nmc', 'displayLabel': 'NMC01', 'title': '新闻关键词快闪',
+                     'tags': ['新闻快闪', '关键词']}
+            result = rank_references(root, [entry], '对比两个工具 新闻快闪')
+            self.assertEqual(result[0]['id'], 'nmc')
+            self.assertIn('原词命中：新闻快闪', result[0]['matching']['reasons'])
+
+    def test_spoken_sentence_and_synonyms_reach_entries_without_english_noise(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            self.registry(root)
+            entries = [{'id': 'chart', 'title': '柱状图数值增长', 'tags': ['数据'], 'collectionId': 'a'},
+                       {'id': 'rows', 'title': 'two rows and task', 'collectionId': 'b'}]
+            rows = rank_references(root, entries, '我们看一下这两个月的数据增长')
+            self.assertEqual([row['id'] for row in rows], ['chart'])
+            self.assertEqual(rank_references(root, entries, 'two task rows'), [])
+
+    def test_equal_scores_alternate_source_collections(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            self.registry(root)
+            entries = [{'id': f'old{i}', 'title': '荧光笔', 'collectionId': 'old'} for i in range(3)]
+            entries.append({'id': 'new', 'title': '荧光笔', 'collectionId': 'new'})
+            ids = [row['id'] for row in rank_references(root, entries, '荧光笔')]
+            self.assertEqual(ids[:2], ['old0', 'new'])
 
     def test_narration_duration_query_reads_production_use(self):
         with tempfile.TemporaryDirectory() as folder:

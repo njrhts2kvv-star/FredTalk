@@ -336,7 +336,8 @@
         "F20"
       ],
       "implementationRefs": [
-        "skills/fred-remotion-output/references/media-and-overlays.md"
+        "skills/fred-remotion-output/references/media-and-overlays.md",
+        "skills/fred-remotion-output/references/fullscreen-video-window.md"
       ]
     }
   ],

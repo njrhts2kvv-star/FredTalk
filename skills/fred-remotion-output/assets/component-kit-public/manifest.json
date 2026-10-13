@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "purpose": "新做组件的固定基础素材：五家族字体文件、FredTalk 角标、剪映音效短名副本。component_kit.py new 会把它们复制进新工程的 public/。",
+  "source": "Current portable library/media-manifest.json and reusable public kit assets",
+  "files": [
+    {
+      "path": "brand/dark.png",
+      "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+      "bytes": 529353
+    },
+    {
+      "path": "brand/light.png",
+      "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+      "bytes": 207243
+    },
+    {
+      "path": "fonts/LXGWWenKai-Regular.ttf",
+      "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+      "bytes": 25575676
+    },
+    {
+      "path": "fonts/MiSans-Heavy.otf",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "bytes": 6677020
+    },
+    {
+      "path": "fonts/MiSans-Medium.otf",
+      "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+      "bytes": 6550784
+    },
+    {
+      "path": "fonts/MiSans-Semibold.otf",
+      "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+      "bytes": 6530232
+    },
+    {
+      "path": "fonts/RuiZi.ttf",
+      "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+      "bytes": 1433148
+    },
+    {
+      "path": "fonts/SourceCodePro-Semibold.otf",
+      "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+      "bytes": 131608
+    },
+    {
+      "path": "sfx/click.wav",
+      "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+      "bytes": 96880
+    },
+    {
+      "path": "sfx/ding.wav",
+      "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+      "bytes": 978126
+    },
+    {
+      "path": "sfx/gather.wav",
+      "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+      "bytes": 521742
+    },
+    {
+      "path": "sfx/message.wav",
+      "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+      "bytes": 255938
+    },
+    {
+      "path": "sfx/notify.wav",
+      "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+      "bytes": 376286
+    },
+    {
+      "path": "sfx/pop.wav",
+      "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+      "bytes": 112950
+    },
+    {
+      "path": "sfx/scroll.wav",
+      "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+      "bytes": 432102
+    },
+    {
+      "path": "sfx/slide.wav",
+      "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+      "bytes": 254622
+    },
+    {
+      "path": "sfx/typing.wav",
+      "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+      "bytes": 587094
+    },
+    {
+      "path": "sfx/whoosh-short.wav",
+      "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+      "bytes": 135522
+    },
+    {
+      "path": "sfx/woosh.wav",
+      "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+      "bytes": 124518
+    }
+  ]
+}

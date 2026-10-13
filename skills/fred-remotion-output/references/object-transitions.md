@@ -82,7 +82,7 @@ y(t) = anchorY(t) - localAnchorY * scale(t)
 
 ## 在现有分镜里落实
 
-在相关 `motionEvents` 记录 `transitionRef`、`referenceId`、参考片段区间，以及本期谁退让、谁进入、cue和保留关系；`sceneGuide.applications`记录决定与检查。只为实际使用的过渡填写，不要求每镜强加动作。
+在相关 `motionEvents` 记录 `transitionRef`、`referenceId`、原片区间，以及本期谁退让、谁进入、cue和保留关系；`sceneGuide.applications`记录决定与检查。只为实际使用的过渡填写，不要求每镜强加动作。
 
 检查开始、主要中间态、最大缩放/相交点、结束和下一帧：对象身份、旧文字退出、重复节点、意外空场及字幕遮挡。阅读时停稳；跨段另用 `scene.py --stage joining` 核对。按内容选择方向和动作，不把十类参考排成固定套餐。
 
