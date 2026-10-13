@@ -268,6 +268,59 @@ def packages():
     return json.loads(path.read_text())['collections'] if path.exists() else []
 
 
+def import_zip_files(inputs):
+    """Identify complete official local ZIPs and reuse the verified isolated installer."""
+    archives = []
+    for value in inputs:
+        path = Path(value)
+        if path.is_symlink():
+            raise ValueError('Choose an original regular ZIP file or directory, not a symlink.')
+        if path.is_dir():
+            archives.extend(sorted(child for child in path.iterdir() if child.is_file() and child.suffix.lower() == '.zip'))
+        elif path.is_file():
+            archives.append(path)
+        else:
+            raise ValueError('ZIP input does not exist or is not a regular file or directory.')
+    if not archives:
+        raise ValueError('No ZIP files found; choose the downloaded official source ZIP.')
+    known = packages()
+    selected = {}
+    # Validate every input before installing any package; filenames are not identities.
+    for archive in archives:
+        if archive.is_symlink():
+            raise ValueError('Choose the original regular source ZIP, not a symlink.')
+        size = archive.stat().st_size
+        matches = [package for package in known if package['size'] == size]
+        fingerprint = digest(archive) if matches else None
+        matches = [package for package in matches if package['sha256'] == fingerprint]
+        if len(matches) != 1:
+            raise ValueError('ZIP does not match one complete official source package by size and SHA-256; download the original ZIP from the website.')
+        package = matches[0]
+        previous = selected.get(package['collectionId'])
+        if previous and previous[1]['sha256'] != package['sha256']:
+            raise ValueError('Choose one official source ZIP version per collection.')
+        selected.setdefault(package['collectionId'], (archive, package))
+    # Preserve every existing installation before starting a multi-package handoff.
+    for archive, package in selected.values():
+        collection = package['collectionId']
+        if (not re.fullmatch(r'[a-z0-9][a-z0-9-]*', collection) or
+                package['installRoot'] != '.artifacts/member-components/' + collection):
+            raise ValueError('Official package requires its isolated ignored installation directory.')
+        target = ROOT / package['installRoot']
+        if (target.exists() or target.is_symlink()) and not verify_package_install(package):
+            raise ValueError('Refusing to overwrite changed installed member source; adapt in a separate working copy.')
+    rows = []
+    for archive, package in selected.values():
+        already_installed = verify_package_install(package)
+        target = install_member_package(archive, package)
+        if not verify_package_install(package):
+            raise ValueError('Imported source installation did not pass the declared file checks.')
+        rows.append({'collectionId': package['collectionId'], 'zipSha256': package['sha256'],
+                     'zipSize': package['size'], 'installRoot': str(target.relative_to(ROOT)),
+                     'verifiedFiles': len(package['files']), 'alreadyInstalled': already_installed})
+    return rows
+
+
 def download_public(files):
     release = json.loads((ROOT / 'library/releases.json').read_text())
     validate_release_manifest(release, (ROOT / 'library/media-manifest.json').read_bytes())
@@ -292,12 +345,24 @@ def download_public(files):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['status', 'download', 'verify', 'materialize'])
+    parser.add_argument('action', choices=['status', 'download', 'verify', 'materialize', 'import'])
+    parser.add_argument('--zip', type=Path, action='append', default=[], help='Import one complete official local ZIP or a directory of ZIPs; repeat for multiple inputs')
     parser.add_argument('--project', help='Materialize one public repository-relative project directory')
     parser.add_argument('--members', action='store_true', help='Use only website member assets; default is public GitHub assets')
     parser.add_argument('--collection', help='Limit member actions to one collection')
     parser.add_argument('--token-file', type=Path, help='Read a mode-0600 token file outside the repository; never a token argument')
     args = parser.parse_args()
+    if args.action == 'import':
+        if not args.zip:
+            parser.error('import requires --zip FILE or --zip DIRECTORY.')
+        if args.members or args.project or args.collection or args.token_file:
+            parser.error('Local ZIP import needs only --zip; membership and download options are not used.')
+        rows = import_zip_files(args.zip)
+        print(json.dumps({'action': 'import', 'offline': True, 'tokenRequired': False,
+                          'packages': rows, 'next': 'Query the imported component with scripts/catalog.py --id <ID> --full.'}, indent=2))
+        return
+    if args.zip:
+        parser.error('--zip is only used with the import action.')
     files = select_records(records(), args.members, args.collection)
     unique = {record['sha256']: record for record in files.values()}
     selected_packages = [package for package in packages() if not args.collection or package['collectionId'] == args.collection]

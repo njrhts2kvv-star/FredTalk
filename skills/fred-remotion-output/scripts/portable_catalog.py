@@ -70,8 +70,9 @@ def load_portable(root):
             row['sourceAvailability'] = {'available': source_ready, 'status': status,
                 'authRequired': auth_required, 'installationRequired': is_member and not package_ready[item['collectionId']],
                 'reason': ('Verified source is installed.' if source_ready else
-                           'Member source is not installed; authorize website download and materialize the package.' if is_member else
+                           'Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.' if is_member else
                            'Public source is missing or changed; restore the repository source.'),
+                'importCommand': 'python3 scripts/assets.py import --zip <official-source-ZIP-path>' if is_member else None,
                 'downloadCommand': ('python3 scripts/assets.py download --members --collection ' + item['collectionId']) if is_member else None,
                 'installCommand': ('python3 scripts/assets.py materialize --members --collection ' + item['collectionId']) if is_member else None}
         if is_member:

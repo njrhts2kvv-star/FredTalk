@@ -86,15 +86,17 @@ The downloader requires the [GitHub CLI](https://cli.github.com/). See [asset in
 
 Five new batches containing 105 components offer a 30-day head start for the website's **exclusive group** membership. Ordinary membership does not include this window. Exact start and public-access times appear in the [online library](https://www.fred-fu.com/visual-library). Existing public components and NMC01 continue to download from GitHub.
 
-The catalog retains IDs, usage metadata, preview identities and original hashes. Source ZIPs, source files and original-quality media for early-access components require website read authorization. After configuring a local Agent token as described in [asset installation](docs/assets.md):
+The catalog retains IDs, usage metadata, preview identities and original hashes. Download an official source ZIP while signed into the website, attach it to Codex, then paste the component dialog's “Copy for Codex” instructions. The agent installs the local ZIP; you do not need to configure a website token or type terminal commands.
+
+The agent uses:
 
 ```bash
-python3 scripts/assets.py download --members --collection fred-native-16-20261012
-python3 scripts/assets.py materialize --members --collection fred-native-16-20261012
-python3 scripts/catalog.py --id T09a --full
+python3 scripts/assets.py import --zip /path/to/downloaded-source.zip
 ```
 
-Member source installs in an isolated Git-ignored directory. Missing authorization or missing/changed source is reported explicitly; `--access public` searches the public path. Moving current downloads does not revoke MIT permissions already granted for previously distributed copies.
+The importer identifies the official collection by size and SHA-256 and reuses the verified isolated installer. It reads no membership credentials, makes no network request and does not download your ZIP again. Source availability becomes ready only after actual file verification. Optional read authorization for automated batch downloads remains available at the [website access page](https://www.fred-fu.com/visual-library/access); see [asset installation](docs/assets.md).
+
+Member source installs in a Git-ignored directory. Moving current downloads does not revoke MIT permissions already granted for previously distributed copies.
 
 ## Use the Skill
 

@@ -9,7 +9,7 @@ metadata:
 
 ## Component source and download access
 
-Read [component download access](references/distribution-access.md) when downloading or publishing components. Public previews and source availability are separate; verify installed source before selecting an executable component.
+Read [component download access](references/distribution-access.md) when downloading or publishing components. For a downloaded official source ZIP, default to `python3 scripts/assets.py import --zip <local-path>`; no token configuration is needed. Automatic token downloads are optional. If this workspace lacks the public import tool, use a separate latest public checkout; do not force pull or overwrite owner production sources. Public previews and source availability are separate; verify installed source before selecting an executable component.
 
 公开版使用本仓库的组件数据、独立源码及按清单下载的通用素材。组件检索、逐段Top3比较和整期重复比较共享同一当前catalog；不读取作者私人目录、录音、背景音乐或机器绑定。浏览和检索无需API Key。
 

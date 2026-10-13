@@ -88,15 +88,17 @@ python3 scripts/assets.py materialize
 
 首批 16 条、第二轮 42 条与补充 5 条、第三轮 40 条与补充 2 条，共 105 条新组件，提供 30 天专属会员抢先下载。普通会员不含抢先权限；窗口结束后公开获取。准确开始与公开时间在[在线视觉库](https://www.fred-fu.com/visual-library)显示。
 
-公开组件继续从 GitHub 下载，新闻关键词快闪 NMC01 仍公开。抢先组件的目录和预览信息保持可见，源码 ZIP、源码和原画质素材使用网站的读取权限。取得本机 Agent token 后可以按批安装：
+公开组件继续从 GitHub 下载，新闻关键词快闪 NMC01 仍公开。抢先组件的源码 ZIP、源码和原画质素材通过网站的会员权限获取。
+
+**最简单的用法**：登录网站下载源码 ZIP，把文件拖入 Codex，再粘贴组件详情里“复制给 Codex”的说明。Agent 会校验并安装已有的本地包，你无需配置网站令牌或手动输入终端命令。
+
+Agent 使用的本地导入入口：
 
 ```bash
-python3 scripts/assets.py download --members --collection fred-native-16-20261012
-python3 scripts/assets.py materialize --members --collection fred-native-16-20261012
-python3 scripts/catalog.py --id T09a --full
+python3 scripts/assets.py import --zip /path/to/downloaded-source.zip
 ```
 
-凭证配置和安全解包方式见[素材安装](docs/assets.md)。未安装时会明确返回缺授权或缺源码；公开候选可用 `--access public` 查找。源码安装在 Git 忽略的隔离目录，核对实际文件后才进入可执行候选。
+导入会按大小和 SHA-256 自动识别官方批次，安装到 Git 忽略的隔离目录；实际文件验证通过后，组件才进入可执行候选。它不读取会员凭证、不请求网络，也不重复下载 ZIP。需要批量自动下载时，仍可选择[网站读取授权](https://www.fred-fu.com/visual-library/access)；详细方法见[素材安装](docs/assets.md)。
 
 本次下载渠道调整不撤回此前已经授予的 MIT 许可，已有副本仍可依原许可使用、修改与再分发。
 

@@ -17,22 +17,46 @@ python3 scripts/assets.py materialize --project components/projects/PROJECT_ID
 
 `download` 默认只处理公开记录，不读取会员凭证。它保留旧标签和多段包的下载方式，核对包与每个对象的大小和 SHA-256，再安装文件。`library/releases.json` 是准确包名、标签和体积的事实源。需要改成自己的内容时，把工程复制到独立工作目录。
 
-## Exclusive member assets / 专属会员素材
+## First use: download a ZIP and hand it to Codex / 首次使用
 
-在网站的账号页创建仅用于视觉库读取的 Agent token。CLI 只读取 `FREDTALK_MEMBER_TOKEN` 环境变量，或仓库外的本机文件 `~/.config/fredtalk/visual-library-token`。该文件须由当前用户所有、权限为 `0600`，只存 token 文本。也可通过 `--token-file /absolute/private/path` 指定另一份仓库外文件。
+1. 在[在线视觉库](https://www.fred-fu.com/visual-library)登录，打开想用的组件，点击「下载源码工程 ZIP」。抢先期内由网站检查专属会员资格。
+2. 把下载好的原 ZIP 附给 Codex，或提供它的本地路径，并说明你要做的内容。让 Codex 读取本仓库的 `skills/fred-remotion-output/SKILL.md`，导入这个包后继续制作；没有具体制作任务时，只导入并列出可用组件。
+3. Codex 执行离线导入。工具按完整文件的大小和 SHA-256 自动识别官方批次，逐文件检查后装入隔离目录。ZIP 改名不影响识别；原 ZIP 保留，不重新打包。
 
-不要把 token 放在仓库、文档、下载 URL、命令参数或提交中。使用 `--token-file` 可以避免把 token 字符串写进 shell 历史；工具不会打印凭证。网站会在每次下载时检查 token 是否可撤销、是否仅有 `visual-library:read` 权限，以及账号当前是否具有专属会员资格。
+这个流程无需配置 token，也不会读取 token、请求网络或执行 ZIP 内代码。网站负责下载时的资格检查；本地工具负责准确识别与安全安装。已经导入且核验通过的源码可以直接使用，不再要求配置账号凭证。
+
+如果现有工作区没有公开仓库的导入工具，另建目录获取最新 public FredTalk checkout，再在那里导入 ZIP。不要 force pull，也不要覆盖本机 owner 的制作来源或正在使用的工作区。
 
 ```bash
-# After creating a private mode-0600 token file outside the repository:
-python3 scripts/assets.py status --members --collection fred-native-16-20261012
-python3 scripts/assets.py download --members --collection fred-native-16-20261012
-python3 scripts/assets.py materialize --members --collection fred-native-16-20261012
-python3 scripts/assets.py verify --members --collection fred-native-16-20261012
+python3 scripts/assets.py import --zip "/absolute/path/下载的源码.zip"
 python3 scripts/catalog.py --id T09a --full
 ```
 
-`--members` 只选择会员网站资产。省略 `--collection` 时处理五个抢先批次；指定它时，只下载和安装该批次。`download` 下载源码 ZIP 和该批预览素材；`materialize` 解包到隔离目录，保持 Git 工作区源码不变。凭证存在不等于下载成功：状态仍须由实际文件与 hash 核验决定。
+可以重复 `--zip` 导入多个官方包，或指定专门存放这些包的目录。目录只扫描本层 `.zip` 文件，不递归扫描其他项目；其中有不匹配的 ZIP 时，会先报错而不开始新安装。
+
+```bash
+python3 scripts/assets.py import --zip "/path/first.zip" --zip "/path/second.zip"
+python3 scripts/assets.py import --zip "/path/official-source-zips"
+```
+
+导入复用既有安全解包检查，安装后由 `references.py`、scene 和源码门禁读取真实文件与 hash；未安装的目录元数据不算源码可用。工具拒绝覆盖已经手改的安装目录。需要适配时，把核验过的工程复制到另一个工作目录。
+
+## Advanced option: Agent token / 高级可选方式
+
+需要 Agent 自动从网站下载、重复获取素材或编排下载任务时，才使用只读 Agent token。首次手动下载 ZIP 的用户可以跳过这一节。
+
+在网站的账号页创建仅用于视觉库读取的 Agent token。CLI 读取 `FREDTALK_MEMBER_TOKEN` 环境变量，或仓库外的本机文件 `~/.config/fredtalk/visual-library-token`。该文件须由当前用户所有、权限为 `0600`，只存 token 文本。也可通过 `--token-file /absolute/private/path` 指定另一份仓库外文件。
+
+不要把 token 放在仓库、文档、下载 URL、命令参数或提交中。工具不会打印凭证，网站在每次下载时检查 token 的撤销状态、读取权限，以及账号当前的专属会员资格。
+
+```bash
+# Optional automatic downloads after configuring a private token:
+python3 scripts/assets.py download --members --collection fred-native-16-20261012
+python3 scripts/assets.py materialize --members --collection fred-native-16-20261012
+python3 scripts/assets.py verify --members --collection fred-native-16-20261012
+```
+
+`--members` 只选择会员网站资产，`--collection` 可限定一个批次。自动下载会核对源码 ZIP 与原视频；本地 `import` 只导入用户已经下载的源码 ZIP，源码使用不要求先下载原视频或配置自动下载。
 
 查找免费路径时可以明确选择公开组件：
 
