@@ -110,6 +110,8 @@ python3 scripts/catalog.py --id SP024 --full
 
 ## 许可
 
-本项目当前未授予统一开源许可。使用或再分发代码、字体与素材前，请查看 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 中的具体许可说明。
+FredTalk 原创代码、Skill、模板与文档采用 [MIT License](LICENSE)，允许商用、修改和再分发，并按 MIT 要求保留版权与许可声明。
+
+第三方代码、参考复刻工程、字体、音效、图片、录屏、视频及品牌素材继续按各自原许可或授权使用。具体范围见 [许可范围](docs/license-scope.md) 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 新增组件的个人录屏、人物独立素材不随源码包提供；需要自备的输入路径见各包 `user-media-inputs.json`。预览保留认可画面，使用自己的素材后仍需检查实际输出。

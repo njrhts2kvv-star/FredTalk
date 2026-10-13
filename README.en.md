@@ -107,4 +107,6 @@ Results include previews, source locations and usage notes. See the [source usag
 
 ## License
 
-The project currently has no blanket open-source license. Check [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the applicable terms before using or redistributing code, fonts and media.
+FredTalk first-party code, Skills, templates and documentation are licensed under the [MIT License](LICENSE). Commercial use, modification and redistribution are permitted, subject to retaining the copyright and license notice.
+
+Third-party code, reference-derived project snapshots, fonts, sound effects, images, recordings, videos and branding retain their own licenses or permissions. See [License scope](docs/license-scope.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
