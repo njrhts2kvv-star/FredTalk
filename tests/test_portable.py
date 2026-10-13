@@ -30,7 +30,9 @@ class PortableTests(unittest.TestCase):
   for i in items:
    for source in i['sources']:
     self.assertIn(source['url'],routes)
-    self.assertTrue((ROOT/routes[source['url']]).is_file(),i['label'])
+    if i.get('earlyAccess',{}).get('enabled'):
+     self.assertTrue(source['url'].startswith('/api/visual-library/assets/'));self.assertTrue(source['installPath'].startswith('.artifacts/member-components/'));self.assertFalse(source['available'])
+    else:self.assertTrue((ROOT/routes[source['url']]).is_file(),i['label'])
    for p in i['previews']:
     self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['accepted-component-action-sfx-no-narration', 'accepted-match-cut-sfx-no-narration', 'interface-sfx', 'no-audio-track'])
  def test_new_collection_lookup_and_archive_filter(self):

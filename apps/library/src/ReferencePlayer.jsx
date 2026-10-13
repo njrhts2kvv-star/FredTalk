@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const EPSILON = 0.00001;
 const assetUrl = (value) =>
-  typeof value === "string" && value.startsWith("/api/design-assets/");
+  typeof value === "string" && (value.startsWith("/api/design-assets/") || /^https:\/\/www\.fred-fu\.com\/visual-library-app\/objects\/[a-f0-9]{64}\.(mp4|webm)$/.test(value));
 const clamp = (value, minimum, maximum) =>
   Math.max(minimum, Math.min(maximum, value));
 const formatTime = (value) => {
@@ -11,7 +11,7 @@ const formatTime = (value) => {
   return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}.${String(milliseconds % 1000).padStart(3, "0")}`;
 };
 
-function normalizePreview(preview, index) {
+export function normalizePreview(preview, index) {
   const start = Number(preview?.start);
   const end = Number(preview?.end);
   const fps = Number(preview?.fps);

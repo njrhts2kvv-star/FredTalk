@@ -32,11 +32,13 @@ def load_catalog():
         for preview in item['previews']:
             for url in [preview.get('videoUrl'),preview.get('posterUrl'),*[f.get('url') for f in preview.get('keyframes',[])]]:
                 record = media.get(routes.get(url),{})
-                if record.get('status')=='reviewed': hashes.append(record['sha256'])
+                if record.get('status') in ['reviewed','remote-preview']: hashes.append(record['sha256'])
         source_hashes = []
         for source in item['sources']:
-            relative = routes.get(source.get('url'))
-            if relative and (ROOT/relative).is_file(): source_hashes.append(digest(ROOT/relative))
+            relative = source.get('installPath') or routes.get(source.get('url'))
+            if relative and (ROOT/relative).is_file() and not (ROOT/relative).is_symlink():
+                actual=digest(ROOT/relative)
+                if not source.get('sha256') or actual==source['sha256']:source_hashes.append(actual)
         record = {'mediaHashes':hashes,'sourceHashes':source_hashes}
         for name in [item['id'],item['label'],item.get('referenceId')]:
             if name: items[name] = record

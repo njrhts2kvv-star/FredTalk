@@ -24,11 +24,11 @@ Browse the examples online, or download the repository and ask Codex or another 
 
 This release adds **106 GitHub components**; the online library adds **105**, since its news keyword match-cut was already published. New cards appear first with **NEW**. **114 archived cards** remain in a collapsed section at the bottom.
 
-[Release notes](docs/releases/2.0.md) · [Download 2.0 assets](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0)
+[Release notes](docs/releases/2.0.md) · [Download public assets](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0)
 
 ## Visual previews
 
-Choose visuals for emphasis, explanations, screen focus and work showcases. The [online visual library](https://www.fred-fu.com/visual-library) provides playable previews, scenario filters and source code.
+Choose visuals for emphasis, explanations, screen focus and work showcases. The [online visual library](https://www.fred-fu.com/visual-library) provides playable previews, scenario filters and source access according to the public or early-access window.
 
 <table>
 <tr><td width="25%"><img src="docs/assets/T05h.jpg" alt="一次性拷贝 vs 持续同步" width="240"><br><sub>T05h · 一次性拷贝 vs 持续同步</sub></td><td width="25%"><img src="docs/assets/T15e.jpg" alt="折线走势" width="240"><br><sub>T15e · 折线走势</sub></td><td width="25%"><img src="docs/assets/T17b.jpg" alt="终端运行：命令执行、输出滚动、结果行点亮" width="240"><br><sub>T17b · 终端运行：命令执行、输出滚动、结果行点亮</sub></td><td width="25%"><img src="docs/assets/T03e.jpg" alt="步骤折行串起" width="240"><br><sub>T03e · 步骤折行串起</sub></td></tr>
@@ -71,7 +71,7 @@ Open [http://127.0.0.1:3061/design/](http://127.0.0.1:3061/design/). If the port
 
 ### Download previews and media
 
-The [five daily font families](library/fonts/README.md) and a few examples are bundled directly with the repository. Fonts work after cloning, without downloading release packs. Full previews and other production media are available through Releases. Check the package sizes before installing:
+The [five daily font families](library/fonts/README.md) and a few examples are bundled directly with the repository. Fonts work after cloning, without downloading release packs. Public previews and production media remain available through GitHub Releases. Early-access assets use authorized website downloads. Check the package sizes before installing:
 
 ```bash
 python3 scripts/assets.py status
@@ -81,6 +81,20 @@ python3 scripts/assets.py materialize
 ```
 
 The downloader requires the [GitHub CLI](https://cli.github.com/). See [asset installation](docs/assets.md) for more options.
+
+### 30-day exclusive membership early access
+
+Five new batches containing 105 components offer a 30-day head start for the website's **exclusive group** membership. Ordinary membership does not include this window. Exact start and public-access times appear in the [online library](https://www.fred-fu.com/visual-library). Existing public components and NMC01 continue to download from GitHub.
+
+The catalog retains IDs, usage metadata, preview identities and original hashes. Source ZIPs, source files and original-quality media for early-access components require website read authorization. After configuring a local Agent token as described in [asset installation](docs/assets.md):
+
+```bash
+python3 scripts/assets.py download --members --collection fred-native-16-20261012
+python3 scripts/assets.py materialize --members --collection fred-native-16-20261012
+python3 scripts/catalog.py --id T09a --full
+```
+
+Member source installs in an isolated Git-ignored directory. Missing authorization or missing/changed source is reported explicitly; `--access public` searches the public path. Moving current downloads does not revoke MIT permissions already granted for previously distributed copies.
 
 ## Use the Skill
 
@@ -110,3 +124,7 @@ Results include previews, source locations and usage notes. See the [source usag
 FredTalk first-party code, Skills, templates and documentation are licensed under the [MIT License](LICENSE). Commercial use, modification and redistribution are permitted, subject to retaining the copyright and license notice.
 
 Third-party code, reference-derived project snapshots, fonts, sound effects, images, recordings, videos and branding retain their own licenses or permissions. See [License scope](docs/license-scope.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+The five-batch exclusive access window runs from **2026-10-13 11:15 to 2026-11-12 11:15 Asia/Shanghai**, exactly 30 days (`2026-10-13T03:15:00.000Z` through `2026-11-12T03:15:00.000Z`).
+
+Previously public source remains retrievable from its historical commits and tags. The early-access service does not revoke MIT grants or rewrite those histories. For future batches, source, ZIPs and original media start in private storage; only metadata, posters and labeled derivative previews enter the public repository before release.

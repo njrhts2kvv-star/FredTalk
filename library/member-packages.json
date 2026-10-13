@@ -1,0 +1,1213 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://www.fred-fu.com",
+  "collections": [
+    {
+      "collectionId": "fred-native-16-20261012",
+      "sha256": "7a06fa4a2a156f5061d8a1337bbad28a147796874c65e1a268a744fb1c394915",
+      "size": 34052809,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/7a06fa4a2a156f5061d8a1337bbad28a147796874c65e1a268a744fb1c394915.zip",
+      "access": "members",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ],
+        "durationDays": 30,
+        "startsAt": "2026-10-13T03:15:00.000Z",
+        "publicAt": "2026-11-12T03:15:00.000Z"
+      },
+      "installRoot": ".artifacts/member-components/fred-native-16-20261012",
+      "files": {
+        "fred-native-16-20261012/README.md": {
+          "sha256": "355194fd480232d181930c743873b2528fff5f8157c6a96b76fd7f67236cc419",
+          "size": 1114
+        },
+        "fred-native-16-20261012/components.json": {
+          "sha256": "61fb9b06d188aa203082b6a2f4c322ed250cf41b2d38ddae9320ca51e561cddc",
+          "size": 4399
+        },
+        "fred-native-16-20261012/package-lock.json": {
+          "sha256": "ffe32ac80a6faacb40c7946963d1a7742a25f541a345c1df69949f2836cda02d",
+          "size": 139247
+        },
+        "fred-native-16-20261012/package.json": {
+          "sha256": "beb1dd1c656de6dc2b16a9a18a4b8efb897199537c7d994529352ad18d7e4f79",
+          "size": 477
+        },
+        "fred-native-16-20261012/public/brand/dark.png": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-native-16-20261012/public/brand/light.png": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-native-16-20261012/public/fonts/LXGWWenKai-OFL.txt": {
+          "sha256": "4248ee53f0c37edaf4cfabe67ef620f8eef50cb2700d090c59337919d6539f1b",
+          "size": 5170
+        },
+        "fred-native-16-20261012/public/fonts/LXGWWenKai-Regular.ttf": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-native-16-20261012/public/fonts/MiSans-Heavy.otf": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-native-16-20261012/public/fonts/MiSans-License.txt": {
+          "sha256": "15089e340c0433e6f08274d6aa10f1fdd53992fd95e6069d8625508161bca4ff",
+          "size": 9708
+        },
+        "fred-native-16-20261012/public/fonts/MiSans-Medium.otf": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-native-16-20261012/public/fonts/MiSans-Semibold.otf": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-native-16-20261012/public/fonts/RuiZi-official-free-use.txt": {
+          "sha256": "4a1dae11ef394a49f6f25111a15b686b8440e2b6ecafe3c4cff6bf46f1bf1810",
+          "size": 6063
+        },
+        "fred-native-16-20261012/public/fonts/RuiZi.ttf": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-native-16-20261012/public/fonts/SourceCodePro-LICENSE.md": {
+          "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+          "size": 4473
+        },
+        "fred-native-16-20261012/public/fonts/SourceCodePro-Semibold.otf": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-native-16-20261012/public/sfx/click.wav": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-native-16-20261012/public/sfx/ding.wav": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        },
+        "fred-native-16-20261012/public/sfx/gather.wav": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-native-16-20261012/public/sfx/message.wav": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-native-16-20261012/public/sfx/notify.wav": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-native-16-20261012/public/sfx/pop.wav": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-native-16-20261012/public/sfx/scroll.wav": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-native-16-20261012/public/sfx/slide.wav": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-native-16-20261012/public/sfx/typing.wav": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-native-16-20261012/public/sfx/whoosh-short.wav": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-native-16-20261012/public/sfx/woosh.wav": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-native-16-20261012/src/components/T01d-VerdictCard.tsx": {
+          "sha256": "a9a7107274534cf1b8ea1359727ecc93297026a1a87cd950e97a4c57c6d46600",
+          "size": 6378
+        },
+        "fred-native-16-20261012/src/components/T02a-AgendaThree.tsx": {
+          "sha256": "30b2caf98990638321ffa82116da09ddbda0a8fa52bcba64f9c51c6208d70c05",
+          "size": 5988
+        },
+        "fred-native-16-20261012/src/components/T04a-MetaphorMap.tsx": {
+          "sha256": "ff664c2c092c59949827bfe8536a725635ed7f59603b0df824f42797133287a9",
+          "size": 8105
+        },
+        "fred-native-16-20261012/src/components/T05b-BeforeNow.tsx": {
+          "sha256": "d0d66675eebece9dcd2164a9f24c919f4d0456cd50c1c21fc1be546a50f5f68f",
+          "size": 7546
+        },
+        "fred-native-16-20261012/src/components/T05c-RewriteLine.tsx": {
+          "sha256": "0d12974a21799778fd3ea6d4e303ce08cbf4c40485e94da8af67ad6b232f4bc9",
+          "size": 4064
+        },
+        "fred-native-16-20261012/src/components/T05d-ToolFaceOff.tsx": {
+          "sha256": "81ae8e0fbb475363f58cef14611e2bd46387eedbecb9ac9a6464e4f499b496d1",
+          "size": 7666
+        },
+        "fred-native-16-20261012/src/components/T09a-ClickPath.tsx": {
+          "sha256": "268f37d6d5d906495f9029717e4ef3a8da1783c804b1dfd0e18c280b00defaa7",
+          "size": 7110
+        },
+        "fred-native-16-20261012/src/components/T09d-TaskRunStatus.tsx": {
+          "sha256": "c21a5ef6ca0c0e4ac2a28b90c27befa4000c29cd3ceffde0be507762f58f227d",
+          "size": 8604
+        },
+        "fred-native-16-20261012/src/components/T12a-PartTitle.tsx": {
+          "sha256": "f8307353fe5a3943a853c7feab0cb0ef92bcc6c0502053aa3aeec48946768ab7",
+          "size": 3957
+        },
+        "fred-native-16-20261012/src/components/T14a-ABTimeRace.tsx": {
+          "sha256": "c055ccafb9bba440ca62b15a9ab9fb5b0c41d0739f8ec0fa29a373c45a1f8920",
+          "size": 4991
+        },
+        "fred-native-16-20261012/src/components/T14c-PriceLand.tsx": {
+          "sha256": "8a3a7af26e57fc47650419005c0ebbd3b64cdcdf1d1a20e6fc7fcbc4b86f2398",
+          "size": 8815
+        },
+        "fred-native-16-20261012/src/components/T17a-ConfigFocus.tsx": {
+          "sha256": "01dcf14288c76d75082ad40255927f5a468601e306412d2c3b6762fca586a889",
+          "size": 8070
+        },
+        "fred-native-16-20261012/src/components/T17b-TerminalRun.tsx": {
+          "sha256": "3d1fadca8cdbc3ee744a786729c77dde8835080d1211d5bf5f52ba8d4979454e",
+          "size": 6780
+        },
+        "fred-native-16-20261012/src/components/T18a-ToolCard.tsx": {
+          "sha256": "487f98150a19c1451bc6f37e5dd3f2a259e671746e56b8ea172b014c94894bdf",
+          "size": 5320
+        },
+        "fred-native-16-20261012/src/components/T19a-PainPoint.tsx": {
+          "sha256": "02137a0d40b1af64fcd16d48a7a09a988fbadb19466fc933b1a186d9b2205e25",
+          "size": 6015
+        },
+        "fred-native-16-20261012/src/components/T20a-ResultFirstHook.tsx": {
+          "sha256": "bfa139e086e6f0eda3e1418d1b4334b10ac8af27b26f657733905b575d50c325",
+          "size": 6389
+        },
+        "fred-native-16-20261012/src/index.tsx": {
+          "sha256": "d99e088a159a12ab792c4452c2f8f31a4e1cadd53327ceae28efc8aaaa0833b2",
+          "size": 388
+        },
+        "fred-native-16-20261012/src/kit/theme.ts": {
+          "sha256": "c77ff0a6c94d35e5b41068730ebcbdc50736749c7c64b0327d4709ed88c0d15e",
+          "size": 3161
+        },
+        "fred-native-16-20261012/src/kit/ui.tsx": {
+          "sha256": "e7351657058edc090877cc702ee43259fd7d0d616315e208818bc519c67a0390",
+          "size": 7356
+        },
+        "fred-native-16-20261012/src/registry.ts": {
+          "sha256": "ec145ef6139ba87d929cc024ab63461c9daf0a287fa23478785f574962935c19",
+          "size": 4918
+        },
+        "fred-native-16-20261012/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-native-16-20261012/user-media-inputs.json": {
+          "sha256": "045c7711f66b8e3b507bd8e2944062ef31dd9137675b7ba3c979fe4f210464ea",
+          "size": 8562
+        }
+      },
+      "entryPoint": ".artifacts/member-components/fred-native-16-20261012/fred-native-16-20261012/src/index.tsx",
+      "publicDir": ".artifacts/member-components/fred-native-16-20261012/fred-native-16-20261012/public"
+    },
+    {
+      "collectionId": "fred-wave2-42-20261012",
+      "sha256": "fa5ab7e784c6ed4245092ac0993d729b225e6078d96a287f042bd97d63ef13a6",
+      "size": 34144141,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/fa5ab7e784c6ed4245092ac0993d729b225e6078d96a287f042bd97d63ef13a6.zip",
+      "access": "members",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ],
+        "durationDays": 30,
+        "startsAt": "2026-10-13T03:15:00.000Z",
+        "publicAt": "2026-11-12T03:15:00.000Z"
+      },
+      "installRoot": ".artifacts/member-components/fred-wave2-42-20261012",
+      "files": {
+        "fred-wave2-42-20261012/README.md": {
+          "sha256": "3622e5c2adabe11dd19f246f1a92ff534ffaf098b8bab0c3c6a9f1af5aad20fe",
+          "size": 1113
+        },
+        "fred-wave2-42-20261012/components.json": {
+          "sha256": "ff2196894aa3fb5c09cf642836bbda6f903daca5582ccffe44f63102a7743562",
+          "size": 10587
+        },
+        "fred-wave2-42-20261012/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-wave2-42-20261012/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-wave2-42-20261012/public/brand/dark.png": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-wave2-42-20261012/public/brand/light.png": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-wave2-42-20261012/public/fonts/LXGWWenKai-OFL.txt": {
+          "sha256": "4248ee53f0c37edaf4cfabe67ef620f8eef50cb2700d090c59337919d6539f1b",
+          "size": 5170
+        },
+        "fred-wave2-42-20261012/public/fonts/LXGWWenKai-Regular.ttf": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-wave2-42-20261012/public/fonts/MiSans-Heavy.otf": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-wave2-42-20261012/public/fonts/MiSans-License.txt": {
+          "sha256": "15089e340c0433e6f08274d6aa10f1fdd53992fd95e6069d8625508161bca4ff",
+          "size": 9708
+        },
+        "fred-wave2-42-20261012/public/fonts/MiSans-Medium.otf": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-wave2-42-20261012/public/fonts/MiSans-Semibold.otf": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-wave2-42-20261012/public/fonts/RuiZi-official-free-use.txt": {
+          "sha256": "4a1dae11ef394a49f6f25111a15b686b8440e2b6ecafe3c4cff6bf46f1bf1810",
+          "size": 6063
+        },
+        "fred-wave2-42-20261012/public/fonts/RuiZi.ttf": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-wave2-42-20261012/public/fonts/SourceCodePro-LICENSE.md": {
+          "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+          "size": 4473
+        },
+        "fred-wave2-42-20261012/public/fonts/SourceCodePro-Semibold.otf": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-wave2-42-20261012/public/sfx/click.wav": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-wave2-42-20261012/public/sfx/ding.wav": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        },
+        "fred-wave2-42-20261012/public/sfx/gather.wav": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-wave2-42-20261012/public/sfx/message.wav": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-wave2-42-20261012/public/sfx/notify.wav": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-wave2-42-20261012/public/sfx/pop.wav": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-wave2-42-20261012/public/sfx/scroll.wav": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-wave2-42-20261012/public/sfx/slide.wav": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-wave2-42-20261012/public/sfx/typing.wav": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-wave2-42-20261012/public/sfx/whoosh-short.wav": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-wave2-42-20261012/public/sfx/woosh.wav": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-wave2-42-20261012/src/components/T01b-TermDefine.tsx": {
+          "sha256": "298bd692b7945e77c86d4fc1f60c45751c2e68cecd585e7ba767f5144a80b4fc",
+          "size": 7095
+        },
+        "fred-wave2-42-20261012/src/components/T01c-PrincipleLines.tsx": {
+          "sha256": "ea5e7225db8529fc794d6f524177f59d11db0cd249a56fce0429ea76d818160d",
+          "size": 3773
+        },
+        "fred-wave2-42-20261012/src/components/T01e-ConditionCapsule.tsx": {
+          "sha256": "1ff24d48ef7fefd99c928f54c2595db78d2c7db8daec18f502450a0081bd004d",
+          "size": 5494
+        },
+        "fred-wave2-42-20261012/src/components/T01f-DotToLine.tsx": {
+          "sha256": "eb08b94328ba1e440265678b157a0470c0d562cb964a49ca24570ac1f261eff5",
+          "size": 5694
+        },
+        "fred-wave2-42-20261012/src/components/T01g-DarkWindowType.tsx": {
+          "sha256": "ca2543faa33ebb3525ae4d83b57a816ecd13e916f503d9fd8055cefe00d43efd",
+          "size": 7818
+        },
+        "fred-wave2-42-20261012/src/components/T02e-ThreeMerge.tsx": {
+          "sha256": "97dc718f95d991f023b2d20be7d89ae9f4ce372d23dcb38afea142e531a4c606",
+          "size": 8086
+        },
+        "fred-wave2-42-20261012/src/components/T02f-BlurList.tsx": {
+          "sha256": "bdcdae124e183b110efcd9b8ba218b7178dbfe8674d9be5e8f7e1ace3c22035d",
+          "size": 4277
+        },
+        "fred-wave2-42-20261012/src/components/T03c-Cycle.tsx": {
+          "sha256": "241f226d7c2fd33e8ade008008e0bd3760d873a139d604a7c8d48c6234b6dcf9",
+          "size": 7478
+        },
+        "fred-wave2-42-20261012/src/components/T03d-CauseChain.tsx": {
+          "sha256": "b9a8f6d05941a6a47400bfb8a980820324f1dfad90afd5157cbbb4db3c6a17c6",
+          "size": 4768
+        },
+        "fred-wave2-42-20261012/src/components/T03e-StepChain.tsx": {
+          "sha256": "cbe67fa526d5cfbf4c4b927d1e166086281d8da5e7b956c9c5bf13711fcb3546",
+          "size": 7634
+        },
+        "fred-wave2-42-20261012/src/components/T04b-RoleSplit.tsx": {
+          "sha256": "d4d168ccaf731926424ce7915b62bb2eccdad69cbcb153071067b9ccd21cf6fb",
+          "size": 7169
+        },
+        "fred-wave2-42-20261012/src/components/T04d-CategoryFocus.tsx": {
+          "sha256": "095ace784830526bca24b8c75d8224e39c6a11bf20ab01922529839013112895",
+          "size": 6999
+        },
+        "fred-wave2-42-20261012/src/components/T05a-SliderCompare.tsx": {
+          "sha256": "75892bfbda4e2da78eca70bb9993fd7c82c1ec43c7085fb9f5b56a68f2d0f697",
+          "size": 4673
+        },
+        "fred-wave2-42-20261012/src/components/T05e-FitOrNot.tsx": {
+          "sha256": "95a6a0135dea70c267d739f076412eb03056a98b16ecb84108313449db2e4fec",
+          "size": 5751
+        },
+        "fred-wave2-42-20261012/src/components/T05f-PhoneTriptych.tsx": {
+          "sha256": "51c26731b8b1a49101499a3e0c78fcefe453c134dae0ccd7f577e5cd15b3e7cc",
+          "size": 5874
+        },
+        "fred-wave2-42-20261012/src/components/T05g-NotEqual.tsx": {
+          "sha256": "d5bd236106f4a56259eb4c2bd4e8dee2e71c2d1aa95f76705ef658daf8f23091",
+          "size": 6776
+        },
+        "fred-wave2-42-20261012/src/components/T06b-MythFlip.tsx": {
+          "sha256": "b2f1c4af4900d137ca823700df4c402c0df66877838e172c6b00a6de7c69bb04",
+          "size": 5785
+        },
+        "fred-wave2-42-20261012/src/components/T08b-ReadmeScroll.tsx": {
+          "sha256": "92144ce073240ca710d866c0a9ce22aa7f21d0d4eb370b74daf9885b807c259b",
+          "size": 5754
+        },
+        "fred-wave2-42-20261012/src/components/T08d-RegionMarks.tsx": {
+          "sha256": "a14f76b17fe498e98455406972b732636200db9faf49684a41e50aa910a4ff92",
+          "size": 7626
+        },
+        "fred-wave2-42-20261012/src/components/T09b-EnableAuth.tsx": {
+          "sha256": "ec0e08361b534b8fd41c2ae49c775e3b58ab312fb7a5faf9a474849ac51a57f7",
+          "size": 8654
+        },
+        "fred-wave2-42-20261012/src/components/T09c-FormFill.tsx": {
+          "sha256": "9a47c3ebf8c9c91f95776cf83d6284a4889d18a7f8ea8d51b8157196d1cc631a",
+          "size": 10508
+        },
+        "fred-wave2-42-20261012/src/components/T09d2-TaskRunStatus.tsx": {
+          "sha256": "f6a38b93aaa58e7153e8dd7acf344855500185c385484cfe1bc56075464233c6",
+          "size": 10348
+        },
+        "fred-wave2-42-20261012/src/components/T09f-BatchQueue.tsx": {
+          "sha256": "61d28d3abc72abdc595d28d1510c6bd7fad2d50707530f09ab04f3b7dbe7fa6d",
+          "size": 10595
+        },
+        "fred-wave2-42-20261012/src/components/T09g-ScreenSideNotes.tsx": {
+          "sha256": "1f31c174b6a69e75ad970632e16a7893af2ca609680c24fbb9148aade1806633",
+          "size": 9352
+        },
+        "fred-wave2-42-20261012/src/components/T11c-FourClips.tsx": {
+          "sha256": "4f598851468d812220b7afa5da47cca0d389258eac4ea74f45c0cfd63bc549d9",
+          "size": 4074
+        },
+        "fred-wave2-42-20261012/src/components/T11d-AlternateFocus.tsx": {
+          "sha256": "a1b8b20831366ec5318f12f3c3ad6c62217598ef627ac5c0fd6badba9c387e12",
+          "size": 5683
+        },
+        "fred-wave2-42-20261012/src/components/T12b-StepNumber.tsx": {
+          "sha256": "9dca0a69655c1e354b70928e8715e5914c354834b7946e4c5237886968a39694",
+          "size": 6474
+        },
+        "fred-wave2-42-20261012/src/components/T12c-CaseTurn.tsx": {
+          "sha256": "e1ec12bafd84986b6cc027da66046c38cd08c39d1040ed7a13ca332e7ee6ae4f",
+          "size": 5469
+        },
+        "fred-wave2-42-20261012/src/components/T12d-PhaseCapsules.tsx": {
+          "sha256": "1f3f727b97791739676892cf9ca385589f9d1e8952333ffebadea803decf7b8e",
+          "size": 6518
+        },
+        "fred-wave2-42-20261012/src/components/T12e-ChapterBar.tsx": {
+          "sha256": "404610f985d7bf3d98d0cd4e7337a6b83c306e83ba11f0f993666138a9f839f2",
+          "size": 4540
+        },
+        "fred-wave2-42-20261012/src/components/T12g-ChapterRecap.tsx": {
+          "sha256": "e69295db617790a869c9fe26bc20daaedd0553db5f503be45ca6b5a07e572e10",
+          "size": 5114
+        },
+        "fred-wave2-42-20261012/src/components/T14a2-ABTimeRace.tsx": {
+          "sha256": "908e976283db4d8965e2777b9621257dae0c8a5a84219b3a9456b3f3c3c00b96",
+          "size": 6058
+        },
+        "fred-wave2-42-20261012/src/components/T14d-ValueShift.tsx": {
+          "sha256": "6f4988c8392fe160c6996e635129e7ff7028c8fcdf3bf671a4fd67d62203f8e4",
+          "size": 9411
+        },
+        "fred-wave2-42-20261012/src/components/T15a-ScoreBars.tsx": {
+          "sha256": "91fb61d53fe11ba7e0a1a51fc15e0f9c4cc59ec7e7cb471ea457499f8b3e4178",
+          "size": 6392
+        },
+        "fred-wave2-42-20261012/src/components/T15d-CostLedger.tsx": {
+          "sha256": "323d3f722757cb490e999377af8c5d7447aafa2912e65abd216af63747023368",
+          "size": 8904
+        },
+        "fred-wave2-42-20261012/src/components/T18c-ProductPage.tsx": {
+          "sha256": "c10ab511f1f1f167f8451f386ffc0d46a75fdd2f7b3b14b4143dc96c283b974d",
+          "size": 7847
+        },
+        "fred-wave2-42-20261012/src/components/T19c-ReactionCard.tsx": {
+          "sha256": "f671f6edd6a0c0b19851d4393db026f2399b88e6e3a4a9836424c68222378e54",
+          "size": 5762
+        },
+        "fred-wave2-42-20261012/src/components/T20a2-ResultFirstHook.tsx": {
+          "sha256": "39173b8360b7d55e5179634373023b492a46f9d80e96b6c5b89f879b3267649f",
+          "size": 7289
+        },
+        "fred-wave2-42-20261012/src/components/T20b-PainContrast.tsx": {
+          "sha256": "69b788aa2abceb35c103e4626a304a0b061faa5be48091e1f2e1097f31619852",
+          "size": 5561
+        },
+        "fred-wave2-42-20261012/src/components/T20c-UpdateFlash.tsx": {
+          "sha256": "f9b01175d01e2e016d274a71187f7670eb1965a7a67503073c2397059f65aabd",
+          "size": 5338
+        },
+        "fred-wave2-42-20261012/src/components/T20d-PosterReveal.tsx": {
+          "sha256": "e9c691103dc3fbcf148290ad1aa96d7707163b2a8e39f120f9749aab33f82775",
+          "size": 7454
+        },
+        "fred-wave2-42-20261012/src/components/T21a-MethodRecap.tsx": {
+          "sha256": "f87c85624e5f0d99c6dbed7665ba64ffb3c8cb14544b6c67374748f91a521a00",
+          "size": 7933
+        },
+        "fred-wave2-42-20261012/src/index.tsx": {
+          "sha256": "d99e088a159a12ab792c4452c2f8f31a4e1cadd53327ceae28efc8aaaa0833b2",
+          "size": 388
+        },
+        "fred-wave2-42-20261012/src/kit/theme.ts": {
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "size": 3786
+        },
+        "fred-wave2-42-20261012/src/kit/ui.tsx": {
+          "sha256": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9",
+          "size": 9509
+        },
+        "fred-wave2-42-20261012/src/registry.ts": {
+          "sha256": "658d1150913c15380146f67b79e9279f4d3bc589aa4fcaab697518b698f8caad",
+          "size": 13662
+        },
+        "fred-wave2-42-20261012/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-wave2-42-20261012/user-media-inputs.json": {
+          "sha256": "8635371a197ee267e03f81bad5802cda87b719910667d49cf1aa8111162e17e4",
+          "size": 25570
+        }
+      },
+      "entryPoint": ".artifacts/member-components/fred-wave2-42-20261012/fred-wave2-42-20261012/src/index.tsx",
+      "publicDir": ".artifacts/member-components/fred-wave2-42-20261012/fred-wave2-42-20261012/public"
+    },
+    {
+      "collectionId": "fred-wave2-fix5-20261012",
+      "sha256": "a24c2964b6c6f8115e240effbfcd94ae11b4e6c8223dbb3c59a927b82313d64e",
+      "size": 34023830,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/a24c2964b6c6f8115e240effbfcd94ae11b4e6c8223dbb3c59a927b82313d64e.zip",
+      "access": "members",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ],
+        "durationDays": 30,
+        "startsAt": "2026-10-13T03:15:00.000Z",
+        "publicAt": "2026-11-12T03:15:00.000Z"
+      },
+      "installRoot": ".artifacts/member-components/fred-wave2-fix5-20261012",
+      "files": {
+        "fred-wave2-fix5-20261012/README.md": {
+          "sha256": "bb6303e455a8d6ae54dda2889d10e637f79a2bedd77a7e7290118c8beda051d1",
+          "size": 1115
+        },
+        "fred-wave2-fix5-20261012/components.json": {
+          "sha256": "a1b9d81a8f6990af97541ad7b7b9a1238746cb5103583b6bdfd989073e7581e1",
+          "size": 1346
+        },
+        "fred-wave2-fix5-20261012/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-wave2-fix5-20261012/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-wave2-fix5-20261012/public/brand/dark.png": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-wave2-fix5-20261012/public/brand/light.png": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-wave2-fix5-20261012/public/fonts/LXGWWenKai-OFL.txt": {
+          "sha256": "4248ee53f0c37edaf4cfabe67ef620f8eef50cb2700d090c59337919d6539f1b",
+          "size": 5170
+        },
+        "fred-wave2-fix5-20261012/public/fonts/LXGWWenKai-Regular.ttf": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-wave2-fix5-20261012/public/fonts/MiSans-Heavy.otf": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-wave2-fix5-20261012/public/fonts/MiSans-License.txt": {
+          "sha256": "15089e340c0433e6f08274d6aa10f1fdd53992fd95e6069d8625508161bca4ff",
+          "size": 9708
+        },
+        "fred-wave2-fix5-20261012/public/fonts/MiSans-Medium.otf": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-wave2-fix5-20261012/public/fonts/MiSans-Semibold.otf": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-wave2-fix5-20261012/public/fonts/RuiZi-official-free-use.txt": {
+          "sha256": "4a1dae11ef394a49f6f25111a15b686b8440e2b6ecafe3c4cff6bf46f1bf1810",
+          "size": 6063
+        },
+        "fred-wave2-fix5-20261012/public/fonts/RuiZi.ttf": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-wave2-fix5-20261012/public/fonts/SourceCodePro-LICENSE.md": {
+          "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+          "size": 4473
+        },
+        "fred-wave2-fix5-20261012/public/fonts/SourceCodePro-Semibold.otf": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-wave2-fix5-20261012/public/sfx/click.wav": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-wave2-fix5-20261012/public/sfx/ding.wav": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        },
+        "fred-wave2-fix5-20261012/public/sfx/gather.wav": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-wave2-fix5-20261012/public/sfx/message.wav": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-wave2-fix5-20261012/public/sfx/notify.wav": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-wave2-fix5-20261012/public/sfx/pop.wav": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-wave2-fix5-20261012/public/sfx/scroll.wav": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-wave2-fix5-20261012/public/sfx/slide.wav": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-wave2-fix5-20261012/public/sfx/typing.wav": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-wave2-fix5-20261012/public/sfx/whoosh-short.wav": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-wave2-fix5-20261012/public/sfx/woosh.wav": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-wave2-fix5-20261012/src/components/T05b2-BeforeNow.tsx": {
+          "sha256": "185f36018d74110341d4e159efebd5f8d23a4b46f209e10fad9d5b3ca3babc73",
+          "size": 10015
+        },
+        "fred-wave2-fix5-20261012/src/components/T09e-ResultBrowse.tsx": {
+          "sha256": "597b408942350a25881353968dbcb0233c1af57f32d4cb02f5e50aaf8e238187",
+          "size": 8872
+        },
+        "fred-wave2-fix5-20261012/src/components/T14b-SpecLand.tsx": {
+          "sha256": "3a62471969b32b9ccef6ecc90431865c716fcde26aa45f846f549af914ce145c",
+          "size": 8910
+        },
+        "fred-wave2-fix5-20261012/src/components/T15b-TableRowFocus.tsx": {
+          "sha256": "9e77d80b5c0a08c8ffee937fd55f5196bf74682e617c02f7e8eda85b3f25db05",
+          "size": 12386
+        },
+        "fred-wave2-fix5-20261012/src/components/T18b-ToolChain.tsx": {
+          "sha256": "c7c004155f2821aaa6977f6b09ffc8daf493212eb4d9e505977373c21d35eb9d",
+          "size": 6645
+        },
+        "fred-wave2-fix5-20261012/src/index.tsx": {
+          "sha256": "d99e088a159a12ab792c4452c2f8f31a4e1cadd53327ceae28efc8aaaa0833b2",
+          "size": 388
+        },
+        "fred-wave2-fix5-20261012/src/kit/theme.ts": {
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "size": 3786
+        },
+        "fred-wave2-fix5-20261012/src/kit/ui.tsx": {
+          "sha256": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9",
+          "size": 9509
+        },
+        "fred-wave2-fix5-20261012/src/registry.ts": {
+          "sha256": "dec32d06f28c379337d1ba4358c451bf4683625b248b29dbd8d8de456c168b65",
+          "size": 1984
+        },
+        "fred-wave2-fix5-20261012/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-wave2-fix5-20261012/user-media-inputs.json": {
+          "sha256": "ac5609df7d8e9bada66e0dfc5a58761f10ebd7e07bcf69088f2ea7204827d5e4",
+          "size": 25824
+        }
+      },
+      "entryPoint": ".artifacts/member-components/fred-wave2-fix5-20261012/fred-wave2-fix5-20261012/src/index.tsx",
+      "publicDir": ".artifacts/member-components/fred-wave2-fix5-20261012/fred-wave2-fix5-20261012/public"
+    },
+    {
+      "collectionId": "fred-wave3-40-20261012",
+      "sha256": "3b66f705b43458eb37c79c59d261489dfc5b0d64aadc9557f85b4af5c4d53546",
+      "size": 34169121,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/3b66f705b43458eb37c79c59d261489dfc5b0d64aadc9557f85b4af5c4d53546.zip",
+      "access": "members",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ],
+        "durationDays": 30,
+        "startsAt": "2026-10-13T03:15:00.000Z",
+        "publicAt": "2026-11-12T03:15:00.000Z"
+      },
+      "installRoot": ".artifacts/member-components/fred-wave3-40-20261012",
+      "files": {
+        "fred-wave3-40-20261012/README.md": {
+          "sha256": "49668fca450f4b874f150c8babde12e3c3649f6d4342a9e1c132690a627567c2",
+          "size": 1113
+        },
+        "fred-wave3-40-20261012/components.json": {
+          "sha256": "70fdc0dbb5b2880c8eca68df4b6ef4722616da143d514003d6334dc64e58f668",
+          "size": 9354
+        },
+        "fred-wave3-40-20261012/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-wave3-40-20261012/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-wave3-40-20261012/public/brand/dark.png": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-wave3-40-20261012/public/brand/light.png": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-wave3-40-20261012/public/fonts/LXGWWenKai-OFL.txt": {
+          "sha256": "4248ee53f0c37edaf4cfabe67ef620f8eef50cb2700d090c59337919d6539f1b",
+          "size": 5170
+        },
+        "fred-wave3-40-20261012/public/fonts/LXGWWenKai-Regular.ttf": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-wave3-40-20261012/public/fonts/MiSans-Heavy.otf": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-wave3-40-20261012/public/fonts/MiSans-License.txt": {
+          "sha256": "15089e340c0433e6f08274d6aa10f1fdd53992fd95e6069d8625508161bca4ff",
+          "size": 9708
+        },
+        "fred-wave3-40-20261012/public/fonts/MiSans-Medium.otf": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-wave3-40-20261012/public/fonts/MiSans-Semibold.otf": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-wave3-40-20261012/public/fonts/RuiZi-official-free-use.txt": {
+          "sha256": "4a1dae11ef394a49f6f25111a15b686b8440e2b6ecafe3c4cff6bf46f1bf1810",
+          "size": 6063
+        },
+        "fred-wave3-40-20261012/public/fonts/RuiZi.ttf": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-wave3-40-20261012/public/fonts/SourceCodePro-LICENSE.md": {
+          "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+          "size": 4473
+        },
+        "fred-wave3-40-20261012/public/fonts/SourceCodePro-Semibold.otf": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-wave3-40-20261012/public/sfx/click.wav": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-wave3-40-20261012/public/sfx/ding.wav": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        },
+        "fred-wave3-40-20261012/public/sfx/gather.wav": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-wave3-40-20261012/public/sfx/message.wav": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-wave3-40-20261012/public/sfx/notify.wav": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-wave3-40-20261012/public/sfx/pop.wav": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-wave3-40-20261012/public/sfx/scroll.wav": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-wave3-40-20261012/public/sfx/slide.wav": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-wave3-40-20261012/public/sfx/typing.wav": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-wave3-40-20261012/public/sfx/whoosh-short.wav": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-wave3-40-20261012/public/sfx/woosh.wav": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-wave3-40-20261012/src/components/T01h-CautionTag.tsx": {
+          "sha256": "95462bb342aff87cb5ab7e9d4830594aee8f905e5028c9794708c1f5c6893cd3",
+          "size": 8530
+        },
+        "fred-wave3-40-20261012/src/components/T02g-RoleRoadmap.tsx": {
+          "sha256": "4f93cc9418c91ea65f98423375da8d22205893b92984aac373f0eebbbd6a6c66",
+          "size": 10416
+        },
+        "fred-wave3-40-20261012/src/components/T02h-FileTrio.tsx": {
+          "sha256": "bd990c0957d87377e87b68f56a679dc01e0c69295ae9438bf39e05dbe811a7b1",
+          "size": 9598
+        },
+        "fred-wave3-40-20261012/src/components/T04e-PackOpen.tsx": {
+          "sha256": "7e00355950ac28f47526aff12723cddb2e88f20b8c1605a5384b09f80d32d172",
+          "size": 10445
+        },
+        "fred-wave3-40-20261012/src/components/T04f-KeyUnlock.tsx": {
+          "sha256": "1ab4c93cc3bb1c49b6bc08a45f044ba71c91f4fb0992051fce5d9e96de918439",
+          "size": 8196
+        },
+        "fred-wave3-40-20261012/src/components/T04g-DecisionTree.tsx": {
+          "sha256": "56cf99105c4a28c7f86b35801e35e2999a7a6042c7ac0db3bac033c818bc43dd",
+          "size": 8459
+        },
+        "fred-wave3-40-20261012/src/components/T05h-SyncVsCopy.tsx": {
+          "sha256": "2e1db173f80f70a7d9b002a10b0bfaeaf2b5508ca99e2d64dff1cf3276145b73",
+          "size": 9898
+        },
+        "fred-wave3-40-20261012/src/components/T05i-UnboxResult.tsx": {
+          "sha256": "da229afb852fd006d6fdc081dc6dedfe4da1a417e8529b1c64ad045138f078e3",
+          "size": 9376
+        },
+        "fred-wave3-40-20261012/src/components/T08e-CommentPull.tsx": {
+          "sha256": "36a72a620a499d59867c6cdbec38d06ff85409930b99aa9e0c980b0e4edac742",
+          "size": 15991
+        },
+        "fred-wave3-40-20261012/src/components/T09i-PickRow.tsx": {
+          "sha256": "240ccf3e70085c4cafabe15b1fe20c58d7536f8c236786c2a0f5280055d90392",
+          "size": 8807
+        },
+        "fred-wave3-40-20261012/src/components/T09j-DeviceCode.tsx": {
+          "sha256": "723e49e86cb49c2e7f680dd18e0054ee31fae83b14b6b44da0fe7b356592d763",
+          "size": 11459
+        },
+        "fred-wave3-40-20261012/src/components/T09k-FileFilter.tsx": {
+          "sha256": "efdf6f43184f7d6576088cf09f96bf20b5695347cd12f831188977a134134245",
+          "size": 15736
+        },
+        "fred-wave3-40-20261012/src/components/T09l-LinkCarry.tsx": {
+          "sha256": "c1f8543a415d2ec506592f134520896d06bdb2dbb2ed6ee71c0b7f375c8932d5",
+          "size": 13464
+        },
+        "fred-wave3-40-20261012/src/components/T09m-Keycap.tsx": {
+          "sha256": "e997c04949ef85f92a310f3ba2f6ca6669569b7227369a98b512efb864de1a5c",
+          "size": 8390
+        },
+        "fred-wave3-40-20261012/src/components/T09n-WaitSkip.tsx": {
+          "sha256": "4fd7108953d9cbd2f1e07af31481ad5b281551a1ce3c68f24aec101523c53afc",
+          "size": 8970
+        },
+        "fred-wave3-40-20261012/src/components/T09o-ZoomLens.tsx": {
+          "sha256": "66581e8e5604ec2073d19ec65ede4919f9a422be3e51bfe0db62faac41d61822",
+          "size": 8183
+        },
+        "fred-wave3-40-20261012/src/components/T12h-RoleSwitch.tsx": {
+          "sha256": "82504d05c80545da6ffd829eeacf82885baadc17a2bb34b97c05dcc6a4e3776b",
+          "size": 4278
+        },
+        "fred-wave3-40-20261012/src/components/T12i-QuestionBeat.tsx": {
+          "sha256": "51b0310d69a6867e5bebfeb9b150b91bf15fac7dfa56d0031b703f19cfaad33e",
+          "size": 6795
+        },
+        "fred-wave3-40-20261012/src/components/T13a-StackLayers.tsx": {
+          "sha256": "fce4b5cb8a9dfa0ff890e246fffa607e9e5e6d220c57ac55e2407d22cddfdb55",
+          "size": 8949
+        },
+        "fred-wave3-40-20261012/src/components/T13b-MetaphorMorph.tsx": {
+          "sha256": "b987c39d1d8fb640b50a22564fa30cfee8e1fbd2ae071b9ba370d8e1ea88ce75",
+          "size": 9712
+        },
+        "fred-wave3-40-20261012/src/components/T13c-CapacityFit.tsx": {
+          "sha256": "e7a3da85997edfc13a334efbfc7b0e4ad1e835af8580cc76bbb6c201f9cfb73f",
+          "size": 10024
+        },
+        "fred-wave3-40-20261012/src/components/T13d-RequestTrip.tsx": {
+          "sha256": "4cd6cda38eb3879db74f1214053baac465aa6d477a19275d451e9f7514087e48",
+          "size": 10335
+        },
+        "fred-wave3-40-20261012/src/components/T14e-StatTriplet.tsx": {
+          "sha256": "a1a8f30bfd9effd7d6ceb7ea57a9031072b3a799ee27129b602bc8319464d071",
+          "size": 6252
+        },
+        "fred-wave3-40-20261012/src/components/T14f-Gauge.tsx": {
+          "sha256": "9069474df0933a671e9cb2375ea03922b8cd3b6e54a328f1598870d910fb6ef1",
+          "size": 7715
+        },
+        "fred-wave3-40-20261012/src/components/T15e-TrendLine.tsx": {
+          "sha256": "61b6b9907c1894041335ef551a4a4b072f8e399399c81dd31235dd1bbb4d7beb",
+          "size": 11694
+        },
+        "fred-wave3-40-20261012/src/components/T15f-DonutShare.tsx": {
+          "sha256": "19370051e5c1360af7a3f89040818ee8159e3bc689ff07fea6ab12515c7f5404",
+          "size": 9979
+        },
+        "fred-wave3-40-20261012/src/components/T15g-RankReveal.tsx": {
+          "sha256": "aa834cfef8e03e9039bc5a858369c2efabe7412a6264960233fb0cd475cb88b8",
+          "size": 7200
+        },
+        "fred-wave3-40-20261012/src/components/T15h-BenchmarkTable.tsx": {
+          "sha256": "cd425cea474f8ae8ae7d88a79c086a4228c1716c6bd6385cf52645be554c255a",
+          "size": 10728
+        },
+        "fred-wave3-40-20261012/src/components/T15i-PlanTable.tsx": {
+          "sha256": "f4f26265fbbc952e71161728138fb504e4b5b588879d4874f2d713b37c4e4888",
+          "size": 8091
+        },
+        "fred-wave3-40-20261012/src/components/T16a-Timeline.tsx": {
+          "sha256": "ed182c1b747beff7c52d44c3ddbf65b3e97e1a61f86e348be276bb8b6e993240",
+          "size": 10865
+        },
+        "fred-wave3-40-20261012/src/components/T16b-VersionStack.tsx": {
+          "sha256": "67a84d47231a0eacf17f052295beb67cbae6c9c0017c7a654b30f110a8cc8c68",
+          "size": 7821
+        },
+        "fred-wave3-40-20261012/src/components/T17c-FileTree.tsx": {
+          "sha256": "7203e4b06fde78b80f43f600b022d835c6723b9c1348687509f80472cc4feccf",
+          "size": 8752
+        },
+        "fred-wave3-40-20261012/src/components/T18d-RepoCard.tsx": {
+          "sha256": "4d2ed65e5100e858a2f486a65740103e2fa59a025106abf1e8321f2409c3497b",
+          "size": 5551
+        },
+        "fred-wave3-40-20261012/src/components/T18e-LogoVersus.tsx": {
+          "sha256": "b626766304813a48292439d845511d5cbb566cee5a97bfe5390f1fbef3b03da1",
+          "size": 5634
+        },
+        "fred-wave3-40-20261012/src/components/T18f-LogoGrid.tsx": {
+          "sha256": "fa54a83512e0957f1b5c16c0fd087518ec607b890c87bad6f80a7bbc76ed7da7",
+          "size": 8469
+        },
+        "fred-wave3-40-20261012/src/components/T20f-ResultFirst.tsx": {
+          "sha256": "33cbfb5d6a9aa5960f778c181e3d1759a6fee8bbddced7623c3311ad2841b159",
+          "size": 7908
+        },
+        "fred-wave3-40-20261012/src/components/T21b-QAResolve.tsx": {
+          "sha256": "b5b0faa9f5b254e0588f647e7919fb02262d7000103e84d222ef0602cfdcbebf",
+          "size": 9881
+        },
+        "fred-wave3-40-20261012/src/components/T21d-SaveChecklist.tsx": {
+          "sha256": "379df72e54c7c13ab7b889c768ec082989a3561bd07260682d0bd5f10607a6a1",
+          "size": 6785
+        },
+        "fred-wave3-40-20261012/src/components/T22a-PostCard.tsx": {
+          "sha256": "510809cce3aee0988c4cf7b591ee506d709eb7c562b2f734cd767b765de6f4f0",
+          "size": 7351
+        },
+        "fred-wave3-40-20261012/src/components/T22b-NewsStack.tsx": {
+          "sha256": "7e5301161aa20c73eb26b593025f1d13950d30d8c4c4abcacde666fef72f15b8",
+          "size": 6442
+        },
+        "fred-wave3-40-20261012/src/index.tsx": {
+          "sha256": "d99e088a159a12ab792c4452c2f8f31a4e1cadd53327ceae28efc8aaaa0833b2",
+          "size": 388
+        },
+        "fred-wave3-40-20261012/src/kit/theme.ts": {
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "size": 3786
+        },
+        "fred-wave3-40-20261012/src/kit/ui.tsx": {
+          "sha256": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9",
+          "size": 9509
+        },
+        "fred-wave3-40-20261012/src/registry.ts": {
+          "sha256": "987f2b3944771eab702d37b07bff7bf3466220cecc3763bc7ec8671403d6b199",
+          "size": 12732
+        },
+        "fred-wave3-40-20261012/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-wave3-40-20261012/user-media-inputs.json": {
+          "sha256": "424064dc600440c39b4fcc295bc691efedc9aa7c531ccc36db3c6593b0a031f4",
+          "size": 10613
+        }
+      },
+      "entryPoint": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/index.tsx",
+      "publicDir": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/public"
+    },
+    {
+      "collectionId": "fred-wave3-extra2-20261012",
+      "sha256": "a0123e504058aee7b4e1a12578b0e9abf0b6425b920ea270cde07bc388c22141",
+      "size": 34010126,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/a0123e504058aee7b4e1a12578b0e9abf0b6425b920ea270cde07bc388c22141.zip",
+      "access": "members",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ],
+        "durationDays": 30,
+        "startsAt": "2026-10-13T03:15:00.000Z",
+        "publicAt": "2026-11-12T03:15:00.000Z"
+      },
+      "installRoot": ".artifacts/member-components/fred-wave3-extra2-20261012",
+      "files": {
+        "fred-wave3-extra2-20261012/README.md": {
+          "sha256": "125f20b1bd5641f1d59c82da2c86bd46902fe991c8e307ff031a4d167c75691f",
+          "size": 1117
+        },
+        "fred-wave3-extra2-20261012/components.json": {
+          "sha256": "3c3de38cdeddfe80d133ea806e0061589b7fc831aae180f66cd8fcd034d6e99d",
+          "size": 569
+        },
+        "fred-wave3-extra2-20261012/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-wave3-extra2-20261012/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-wave3-extra2-20261012/public/brand/dark.png": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-wave3-extra2-20261012/public/brand/light.png": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-wave3-extra2-20261012/public/fonts/LXGWWenKai-OFL.txt": {
+          "sha256": "4248ee53f0c37edaf4cfabe67ef620f8eef50cb2700d090c59337919d6539f1b",
+          "size": 5170
+        },
+        "fred-wave3-extra2-20261012/public/fonts/LXGWWenKai-Regular.ttf": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-wave3-extra2-20261012/public/fonts/MiSans-Heavy.otf": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-wave3-extra2-20261012/public/fonts/MiSans-License.txt": {
+          "sha256": "15089e340c0433e6f08274d6aa10f1fdd53992fd95e6069d8625508161bca4ff",
+          "size": 9708
+        },
+        "fred-wave3-extra2-20261012/public/fonts/MiSans-Medium.otf": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-wave3-extra2-20261012/public/fonts/MiSans-Semibold.otf": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-wave3-extra2-20261012/public/fonts/RuiZi-official-free-use.txt": {
+          "sha256": "4a1dae11ef394a49f6f25111a15b686b8440e2b6ecafe3c4cff6bf46f1bf1810",
+          "size": 6063
+        },
+        "fred-wave3-extra2-20261012/public/fonts/RuiZi.ttf": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-wave3-extra2-20261012/public/fonts/SourceCodePro-LICENSE.md": {
+          "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+          "size": 4473
+        },
+        "fred-wave3-extra2-20261012/public/fonts/SourceCodePro-Semibold.otf": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-wave3-extra2-20261012/public/sfx/click.wav": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-wave3-extra2-20261012/public/sfx/ding.wav": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        },
+        "fred-wave3-extra2-20261012/public/sfx/gather.wav": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-wave3-extra2-20261012/public/sfx/message.wav": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-wave3-extra2-20261012/public/sfx/notify.wav": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-wave3-extra2-20261012/public/sfx/pop.wav": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-wave3-extra2-20261012/public/sfx/scroll.wav": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-wave3-extra2-20261012/public/sfx/slide.wav": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-wave3-extra2-20261012/public/sfx/typing.wav": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-wave3-extra2-20261012/public/sfx/whoosh-short.wav": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-wave3-extra2-20261012/public/sfx/woosh.wav": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-wave3-extra2-20261012/src/components/T08i-FrostedFact.tsx": {
+          "sha256": "08ec4fae61678441b691284723ba0af593f4d8b8de0daa56733d27598036537d",
+          "size": 5974
+        },
+        "fred-wave3-extra2-20261012/src/components/T10a-ChatExtract.tsx": {
+          "sha256": "f322ed585de71b41aed0e22b784e49acfe73ca0dd27048e3ebfe6757ed51c5ca",
+          "size": 12260
+        },
+        "fred-wave3-extra2-20261012/src/index.tsx": {
+          "sha256": "d99e088a159a12ab792c4452c2f8f31a4e1cadd53327ceae28efc8aaaa0833b2",
+          "size": 388
+        },
+        "fred-wave3-extra2-20261012/src/kit/theme.ts": {
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "size": 3786
+        },
+        "fred-wave3-extra2-20261012/src/kit/ui.tsx": {
+          "sha256": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9",
+          "size": 9509
+        },
+        "fred-wave3-extra2-20261012/src/registry.ts": {
+          "sha256": "e4fbc4f0ea9e1bf75cf187220c09c9a327d8c6465bb90b7b023f4503d9cb1204",
+          "size": 1099
+        },
+        "fred-wave3-extra2-20261012/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-wave3-extra2-20261012/user-media-inputs.json": {
+          "sha256": "424064dc600440c39b4fcc295bc691efedc9aa7c531ccc36db3c6593b0a031f4",
+          "size": 10613
+        }
+      },
+      "entryPoint": ".artifacts/member-components/fred-wave3-extra2-20261012/fred-wave3-extra2-20261012/src/index.tsx",
+      "publicDir": ".artifacts/member-components/fred-wave3-extra2-20261012/fred-wave3-extra2-20261012/public"
+    }
+  ],
+  "zipPolicy": {
+    "pathTraversal": false,
+    "symlinks": false,
+    "encryptedEntries": false,
+    "undeclaredFiles": false,
+    "maxFiles": 10000,
+    "maxUncompressedBytes": 536870912,
+    "maxFileBytes": 134217728,
+    "maxCompressionRatio": 1000,
+    "perFileSha256Required": true,
+    "gitIgnoredInstallRoot": ".artifacts/member-components/"
+  }
+}

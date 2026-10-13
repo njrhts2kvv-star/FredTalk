@@ -12,7 +12,7 @@ def _candidate_rows(root, ranked, scene_type, limit, exclude=()):
     for entry in (typed+rest)[:limit]:
         metadata=entry.get('matching') or match_metadata(root,entry)
         rows.append({k:entry[k] for k in ['id','displayLabel','title','useWhen','sceneTypes','collectionId',
-            'editableParameters','knownLimitations','nativeTiming','motionDescription'] if k in entry} | {
+            'editableParameters','knownLimitations','nativeTiming','motionDescription','sourceAvailability','earlyAccess'] if k in entry} | {
             'label':metadata['label'],'score':metadata.get('score'),'reasons':metadata.get('reasons',[]),
             'sameSceneType':scene_type in entry.get('sceneTypes',[]),
             'productionUse':{k:metadata[k] for k in ['useIds','sourceId','inputObjects','action','segmentRole','nativeDurationSeconds','adaptation'] if k in metadata},
@@ -34,7 +34,12 @@ def shortlist(root, catalog, page, limit=5):
              and not e.get('canonicalId') and not e.get('libraryDisposition')]
 
     def ranked_for(text):
-        ranked=rank_references(root,entries,text,scene_type)
+        pool=entries
+        if plan.get('access')=='public':
+            pool=[e for e in pool if not e.get('sourceAvailability',{}).get('authRequired')]
+        elif plan.get('access')=='installed':
+            pool=[e for e in pool if e.get('sourceAvailability',{}).get('available',True)]
+        ranked=rank_references(root,pool,text,scene_type)
         if plan.get('use'):
             ranked=[e for e in ranked if plan['use'] in e['matching'].get('useIds',[])]
         if plan.get('source'):
@@ -44,6 +49,11 @@ def shortlist(root, catalog, page, limit=5):
     if query:
         result['candidates']=_candidate_rows(root,ranked_for(query),scene_type,limit)
         result['crossTypeFallback']=any(not row['sameSceneType'] for row in result['candidates'])
+        if any(row.get('sourceAvailability',{}).get('available') is False for row in result['candidates']):
+            free=[entry for entry in ranked_for(query) if not entry.get('sourceAvailability',{}).get('authRequired')
+                  and entry.get('sourceAvailability',{}).get('available',True)]
+            result['publicFallbackCandidates']=_candidate_rows(root,free,scene_type,min(limit,3))
+            result['availabilityRule']='Unavailable member candidates remain discoverable and require a reason; select only verified installed source or use the public fallback. componentPlan.access=public limits the comparison to public source.'
     else:
         result['needsDecision']='Define componentPlan.query as visible objects and actions, not raw narration.'
     if narration:
@@ -110,7 +120,10 @@ def validate_component_plan(pages,catalog):
                 errors.append(pid+': candidate is unknown, excluded or merged: '+str(cid))
             if row.get('decision') not in ['selected','rejected'] or not row.get('reason'):
                 errors.append(pid+': each candidate needs selected/rejected and a concrete reason')
-            if row.get('decision')=='selected':selected.add(cid)
+            if row.get('decision')=='selected':
+                selected.add(cid)
+                if entry and entry.get('sourceAvailability',{}).get('available') is False:
+                    errors.append(pid+': selected source unavailable: '+str(cid)+' ('+entry['sourceAvailability'].get('status','missing')+'); install verified source or choose an available public component')
         if selected!=refs:
             errors.append(pid+': selected componentPlan candidates must match actual referenceChoices')
         if mode in ['reference','adapted'] and not refs:

@@ -26,11 +26,11 @@ FredTalk 是我在日常视频制作中打磨的一套工作流程。把稿件�
 
 本次 GitHub 新增 **106 条组件**，网站新增 **105 条**；最新组件置前标 **NEW**，**114 条**已归档组件在页面底部保留。
 
-[查看 2.0 完整更新说明](docs/releases/2.0.md) · [下载 2.0 组件与素材](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0)
+[查看 2.0 完整更新说明](docs/releases/2.0.md) · [下载公开组件与素材](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0)
 
 ## 画面预览
 
-从文字强调、步骤讲解，到录屏聚焦和作品展示，按你要表达的内容选择画面。点击[在线视觉库](https://www.fred-fu.com/visual-library)可播放预览、筛选场景并查看源码。
+从文字强调、步骤讲解，到录屏聚焦和作品展示，按你要表达的内容选择画面。点击[在线视觉库](https://www.fred-fu.com/visual-library)可播放预览、筛选场景，并按公开或抢先权限查看源码。
 
 <table>
 <tr><td width="25%"><img src="docs/assets/T05h.jpg" alt="一次性拷贝 vs 持续同步" width="240"><br><sub>T05h · 一次性拷贝 vs 持续同步</sub></td><td width="25%"><img src="docs/assets/T15e.jpg" alt="折线走势" width="240"><br><sub>T15e · 折线走势</sub></td><td width="25%"><img src="docs/assets/T17b.jpg" alt="终端运行：命令执行、输出滚动、结果行点亮" width="240"><br><sub>T17b · 终端运行：命令执行、输出滚动、结果行点亮</sub></td><td width="25%"><img src="docs/assets/T03e.jpg" alt="步骤折行串起" width="240"><br><sub>T03e · 步骤折行串起</sub></td></tr>
@@ -73,7 +73,7 @@ python3 scripts/library_server.py
 
 ### 下载预览与素材
 
-仓库直接附带[日常使用的五个字体家族](library/fonts/README.md)和少量示例，克隆后即可使用字体；完整预览与其他制作素材通过 Release 下载。先查看体积，再按需安装：
+仓库直接附带[日常使用的五个字体家族](library/fonts/README.md)和少量示例，克隆后即可使用字体；公开组件预览与其他制作素材通过 GitHub Release 下载；抢先组件通过网站授权下载。先查看体积，再按需安装：
 
 ```bash
 python3 scripts/assets.py status
@@ -83,6 +83,22 @@ python3 scripts/assets.py materialize
 ```
 
 下载工具需要 [GitHub CLI](https://cli.github.com/)。更多安装选项见[素材安装说明](docs/assets.md)。
+
+### 30 天专属会员抢先
+
+首批 16 条、第二轮 42 条与补充 5 条、第三轮 40 条与补充 2 条，共 105 条新组件，提供 30 天专属会员抢先下载。普通会员不含抢先权限；窗口结束后公开获取。准确开始与公开时间在[在线视觉库](https://www.fred-fu.com/visual-library)显示。
+
+公开组件继续从 GitHub 下载，新闻关键词快闪 NMC01 仍公开。抢先组件的目录和预览信息保持可见，源码 ZIP、源码和原画质素材使用网站的读取权限。取得本机 Agent token 后可以按批安装：
+
+```bash
+python3 scripts/assets.py download --members --collection fred-native-16-20261012
+python3 scripts/assets.py materialize --members --collection fred-native-16-20261012
+python3 scripts/catalog.py --id T09a --full
+```
+
+凭证配置和安全解包方式见[素材安装](docs/assets.md)。未安装时会明确返回缺授权或缺源码；公开候选可用 `--access public` 查找。源码安装在 Git 忽略的隔离目录，核对实际文件后才进入可执行候选。
+
+本次下载渠道调整不撤回此前已经授予的 MIT 许可，已有副本仍可依原许可使用、修改与再分发。
 
 ## 使用 Skill
 
@@ -115,3 +131,7 @@ FredTalk 原创代码、Skill、模板与文档采用 [MIT License](LICENSE)，�
 第三方代码、参考复刻工程、字体、音效、图片、录屏、视频及品牌素材继续按各自原许可或授权使用。具体范围见 [许可范围](docs/license-scope.md) 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 新增组件的个人录屏、人物独立素材不随源码包提供；需要自备的输入路径见各包 `user-media-inputs.json`。预览保留认可画面，使用自己的素材后仍需检查实际输出。
+
+抢先时间：北京时间 **2026-10-13 11:15 至 2026-11-12 11:15**（UTC `2026-10-13T03:15:00.000Z` 至 `2026-11-12T03:15:00.000Z`），共 30 天，适用于上述五个批次的专属会员下载。
+
+此前公开的源码仍能从历史 commit/tag 获取，已有 MIT 授权保持。后续新批次从第一天采用私有源码、ZIP 与原片，只公开目录、海报及标明身份的派生预览；具体流程见[素材安装](docs/assets.md)。

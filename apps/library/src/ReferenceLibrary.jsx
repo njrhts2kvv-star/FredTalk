@@ -79,6 +79,7 @@ export function ReferenceCard({ item, onSelect, variants = [], playing, onPlayba
           <span>{item.origin}</span>
         </p>
         <ReferenceAddedMetadata item={item} />
+        {item.earlyAccess?.enabled && <span className="reference-use">专属会员抢先 · 30天 · 预览公开</span>}
         <h3>{item.title}</h3>
         <span className="reference-use">{item.matching?.scenarioTitle || item.category}{item.matching?.nativeDurationSeconds ? ` · 参考片段 ${item.matching.nativeDurationSeconds}s` : ""}</span>
         <span className="reference-type">
@@ -181,7 +182,10 @@ export function ReferenceDialog({
             ]}
           />
           {tab === "preview" ? (
-            <ReferencePlayer previews={item.previews} />
+            <>
+              <ReferencePlayer previews={item.previews} />
+              {item.previews?.some(p => p.previewIdentity?.kind === "public-720p-preview") && <p>720p 公开预览 · 由认可原片派生，原片与源码通过网站抢先下载。</p>}
+            </>
           ) : (
             <div className="source-panel">
               {item.sources?.length ? (
@@ -319,7 +323,7 @@ export function Library({
         <strong>FredTalk 2.0 · 新增 106 个组件</strong>
         <p>组件能找到、每段认真选、整期有规则。新增组件置前标 NEW，已归档组件在下方保留。</p>
         <p>同等匹配度下批次轮转；前三候选说明取舍，整期自检与渲染、声音处理接成完整流程。</p>
-        <a href="https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0">下载 2.0 源码与素材 ↗</a>
+        <a href="https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.0.0">下载公开源码与素材 ↗</a>
       </section>
       <section className="scenario-picker" aria-label="按使用场景筛选">
         <div className="scenario-groups" role="group" aria-label="内容类型">

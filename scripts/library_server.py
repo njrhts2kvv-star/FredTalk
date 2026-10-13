@@ -19,24 +19,44 @@ def read(name):
 def media_file(record):
     if record.get('status') != 'reviewed':
         return None
-    for p in (ROOT / '.artifacts/objects' / record['sha256'], ROOT / 'library/demo' / record['sha256']):
-        if p.is_file() and p.stat().st_size == record['size']:
+    installed = [ROOT / relative for relative in record.get('installPaths', [])]
+    for p in [*installed, ROOT / '.artifacts/objects' / record['sha256'], ROOT / 'library/demo' / record['sha256']]:
+        if (p.resolve().is_relative_to(ROOT.resolve()) and not p.is_symlink() and p.is_file() and
+                p.stat().st_size == record['size'] and
+                (p not in installed or hashlib.sha256(p.read_bytes()).hexdigest() == record['sha256'])):
             return p
     return None
+
+def public_preview_url(url):
+    return isinstance(url, str) and bool(re.fullmatch(r'https://www\.fred-fu\.com/visual-library-app/objects/[a-f0-9]{64}\.(mp4|webm|jpg|jpeg|png|webp)', url))
+
 
 def projection():
     data = read('catalog.json')
     routes = read('routes.json')
     media = read('media-manifest.json')['files']
     for item in data['items']:
+        for source in item.get('sources', []):
+            relative = source.get('installPath') or routes.get(source.get('url'))
+            path = ROOT / relative if relative else None
+            available = (path is not None and path.resolve().is_relative_to(ROOT.resolve()) and
+                         path.is_file() and not path.is_symlink() and
+                         (not source.get('sha256') or hashlib.sha256(path.read_bytes()).hexdigest() == source['sha256']))
+            source['available'] = available
+            source['status'] = 'ready' if available else ('member-download' if item.get('access') == 'members' else 'missing')
+        download = item.get('projectDownload')
+        if download:
+            record = media.get(routes.get(download.get('url')), {})
+            download['available'] = bool(record and media_file(record))
+            download['status'] = 'ready' if download['available'] else ('member-download' if item.get('access') == 'members' else 'optional-download')
         for preview in item['previews']:
             target = routes.get(preview.get('videoUrl'))
-            available = target in media and media_file(media[target]) is not None
+            available = public_preview_url(preview.get('videoUrl')) or (target in media and media_file(media[target]) is not None)
             preview['available'] = available
             excluded = target in media and media[target]['status'] == 'quarantined'
-            preview['status'] = 'ready' if available else ('privacy-excluded' if excluded else 'optional-download')
+            preview['status'] = 'ready' if available else ('privacy-excluded' if excluded else ('member-download' if item.get('access') == 'members' else 'optional-download'))
             if not available:
-                preview['unavailableReason'] = ('这段预览因隐私检查被隔离，未随素材包分发。' if excluded else '运行 python3 scripts/assets.py download 下载可选素材包。')
+                preview['unavailableReason'] = ('这段预览因隐私检查被隔离，未随素材包分发。' if excluded else ('先在网站获取 Agent token，再运行 python3 scripts/assets.py download --members --collection ' + item['collectionId'] if item.get('access') == 'members' else '运行 python3 scripts/assets.py download 下载公开素材包。'))
     return data
 
 class Handler(SimpleHTTPRequestHandler):

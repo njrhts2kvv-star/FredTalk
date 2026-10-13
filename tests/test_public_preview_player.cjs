@@ -1,0 +1,16 @@
+const assert = require('node:assert/strict');
+const esbuild = require('../apps/library/node_modules/esbuild');
+const vm = require('node:vm');
+const path = require('node:path');
+const result = esbuild.buildSync({entryPoints:[path.resolve(__dirname,'../apps/library/src/ReferencePlayer.jsx')],bundle:true,write:false,format:'cjs',platform:'node',define:{'process.env.NODE_ENV':'"production"'}});
+const moduleState = {exports:{}};
+vm.runInNewContext(result.outputFiles[0].text,{module:moduleState,exports:moduleState.exports,require,process});
+const normalize = moduleState.exports.normalizePreview;
+const preview = {available:true,start:0,end:5,fps:60,videoUrl:'https://www.fred-fu.com/visual-library-app/objects/'+'a'.repeat(64)+'.mp4'};
+assert.equal(normalize(preview,0).unavailable,'');
+assert.equal(normalize({...preview,videoUrl:'/api/design-assets/existing'},0).unavailable,'');
+assert.notEqual(normalize({...preview,videoUrl:'https://evil.example/preview.mp4'},0).unavailable,'');
+assert.notEqual(normalize({...preview,videoUrl:'https://www.fred-fu.com/api/visual-library/assets/'+'a'.repeat(64)+'.mp4'},0).unavailable,'');
+assert.notEqual(normalize({...preview,videoUrl:preview.videoUrl+'?token=secret'},0).unavailable,'');
+assert.notEqual(normalize({...preview,available:false},0).unavailable,'');
+console.log('PASS: 6 real player public/legacy URL and unavailability checks');

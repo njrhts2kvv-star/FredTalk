@@ -32,7 +32,11 @@ class SourceMetadataTests(unittest.TestCase):
                 if preview.get('available'):
                     self.assertIn(preview['videoUrl'], routes)
             for source in item['sources']:
-                self.assertTrue((ROOT / routes[source['url']]).is_file())
+                if item.get('earlyAccess', {}).get('enabled'):
+                    self.assertTrue(source['installPath'].startswith('.artifacts/member-components/'))
+                    self.assertEqual(source['status'], 'needs-auth')
+                else:
+                    self.assertTrue((ROOT / routes[source['url']]).is_file())
 
 if __name__ == '__main__':
     unittest.main()

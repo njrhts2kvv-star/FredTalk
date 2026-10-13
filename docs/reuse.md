@@ -3,7 +3,7 @@
 1. Search by the sentence's purpose, objects and action. Inspect the actual preview.
 2. Read the reference's `reusability` and `implementation` fields. A snapshot can be useful without being a general parameter API.
 3. Identify the reported project and its registered composition. `compositionId: null` means this export has not asserted a registration mapping; inspect its entry point.
-4. Download reviewed media and materialize only that project. Inspect `assetAvailability`; quarantined dependencies require your own safe replacements.
+4. Check `sourceAvailability`. Download public GitHub assets, or explicitly authorize the member website channel and materialize its verified ZIP into `.artifacts/member-components/`. A `needs-auth`, `missing` or `invalid` source is not executable. For early-access source use the reported verified entry point and project root; for public source materialize only that project. Inspect `assetAvailability`; quarantined dependencies require your own safe replacements.
 5. Copy the project to a new working directory. Install its declared dependencies using its lockfile. Do not reuse the frontend's node_modules as a universal runtime.
 6. Adapt actual text, media, timing and layout. Use a current Manifest and the Skill's scene guidance.
 7. Review real-content keyframes, then motion, audio and seams. Render only after the relevant checks pass.

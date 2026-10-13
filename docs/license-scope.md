@@ -22,3 +22,9 @@ MIT 覆盖 FredTalk 自己编写的工具、视觉库应用代码、Skill 说明
 第三方代码、参考复刻工程和字体、音效、音乐、图片、截图、录屏、视频、Logo 与品牌素材继续按原许可或实际授权使用；根目录 MIT 不替代这些条款，也不授予额外媒体或商标权。未确认许可的来源内容不会因本次更新自动获得 MIT 授权。
 
 See [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md) and individual notices. The historical [rights inventory](rights-inventory.json) remains a record of third-party review; this MIT grant does not mark that entire inventory as cleared.
+
+## Early access and existing copies / 抢先下载与已有副本
+
+The 30-day exclusive-membership window controls the website's current download service for five new collections. It does not revoke MIT permissions already granted for previously distributed first-party source copies, and it does not remove the right to use, modify or redistribute those copies under MIT. Changing the current main-branch download channel or withdrawing a release attachment is not a license revocation. Existing tags and Git history remain intact.
+
+30 天专属会员抢先限定网站当前提供的下载服务。此前已经发布并授予 MIT 许可的原创源码副本继续保有原许可，仍可按 MIT 使用、修改与再分发。改变当前 main 的下载渠道或撤下混合素材包，不等于撤销已有许可。旧标签与 Git 历史保持；公开老组件和 NMC01 继续由 GitHub 提供下载。

@@ -7,6 +7,10 @@ metadata:
 
 # FredTalk 2.0
 
+## Component source and download access
+
+Read [component download access](references/distribution-access.md) when downloading or publishing components. Public previews and source availability are separate; verify installed source before selecting an executable component.
+
 公开版使用本仓库的组件数据、独立源码及按清单下载的通用素材。组件检索、逐段Top3比较和整期重复比较共享同一当前catalog；不读取作者私人目录、录音、背景音乐或机器绑定。浏览和检索无需API Key。
 
 ## 先验收组件，再交付建议或关键帧
