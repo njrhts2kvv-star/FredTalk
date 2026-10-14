@@ -16,16 +16,16 @@ def module(name):
 class PortableTests(unittest.TestCase):
  def test_active_catalog_keeps_removals_and_valid_sources(self):
   d=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=d['items']
-  self.assertEqual(len(items),316)
-  self.assertEqual(d['counts']['available'],311)
+  self.assertEqual(len(items),336)
+  self.assertEqual(d['counts']['available'],331)
   self.assertEqual(d['counts']['unavailable'],5)
-  expected={"fred-native-16-20261012":16,"fred-wave2-42-20261012":42,"fred-wave2-fix5-20261012":5,"fred-wave3-40-20261012":40,"fred-wave3-extra2-20261012":2,"news-keyword-match-cut-20261010":1}
+  expected={"fred-native-16-20261012":16,"fred-wave2-42-20261012":42,"fred-wave2-fix5-20261012":5,"fred-wave3-40-20261012":40,"fred-wave3-extra2-20261012":2,"news-keyword-match-cut-20261010":1,"fred-chapter-transitions-20-20261014":20}
   for collection,count in expected.items():
    selected=[i for i in items if i.get('collectionId')==collection]
    self.assertEqual(len(selected),count,collection)
    self.assertTrue(all(i.get('isNew') and i.get('addedAt') for i in selected))
   self.assertEqual(sum(bool(i.get('archivedFromSkill')) for i in items),114)
-  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),202)
+  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),222)
   self.assertTrue({'V085','V098','E04','E16','SP004','L81-B060','L81-W08'}.isdisjoint(i['label'] for i in items))
   for i in items:
    for source in i['sources']:
@@ -35,6 +35,19 @@ class PortableTests(unittest.TestCase):
     else:self.assertTrue((ROOT/routes[source['url']]).is_file(),i['label'])
    for p in i['previews']:
     self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['accepted-component-action-sfx-no-narration', 'accepted-match-cut-sfx-no-narration', 'interface-sfx', 'no-audio-track'])
+ def test_21_component_roles_and_private_distribution(self):
+  catalog=json.loads((ROOT/'library/catalog.json').read_text());media=json.loads((ROOT/'library/media-manifest.json').read_text())['files'];packages=json.loads((ROOT/'library/member-packages.json').read_text())['collections']
+  selected=[x for x in catalog['items'] if x.get('collectionId')=='fred-chapter-transitions-20-20261014']
+  self.assertEqual(set(x['label'] for x in selected),{'T12'+x for x in 'klmnopqrst'}|{'T20'+x for x in 'hijklmnopq'})
+  package=next(x for x in packages if x['collectionId']=='fred-chapter-transitions-20-20261014')
+  for item in selected:
+   self.assertEqual(item['earlyAccess'],package['earlyAccess']);self.assertEqual(item['earlyAccess']['durationDays'],14)
+   self.assertEqual(item['access'],'members');self.assertFalse(item['projectDownload']['available'])
+   for source in item['sources']:
+    self.assertFalse(source['available']);self.assertIn(source['installPath'].removeprefix(package['installRoot']+'/'),package['files'])
+    self.assertFalse((ROOT/'components/projects'/package['collectionId']).exists())
+  public=[x for x in media.values() if x.get('collectionId')==package['collectionId'] and x.get('access')=='public']
+  self.assertEqual(len(public),78);self.assertTrue(all(x['kind'] in ['mp4','jpg','jpeg','png'] for x in public))
  def test_new_collection_lookup_and_archive_filter(self):
   data=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--collection','screen-camera-selected-20261007','--limit','10']))
   self.assertEqual(data['count'],5)

@@ -66,3 +66,7 @@ FredTalk 1.5已于2026-10-08发布：补齐29类近期组件，新增五条3D录
 
 
 公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。
+
+## 章节动画与内容过渡 20 条
+
+集合 `fred-chapter-transitions-20-20261014`，T12k–T12t 为章节动画，T20i/j 可用于开场，其余 T20h/k–q 主要为内容过渡。参见[准确用途与源码导入](fred-chapter-transitions.md)。会员抢先使用 14 天，公开预览与下载权限分开。

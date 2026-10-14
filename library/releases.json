@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "repository": "njrhts2kvv-star/FredTalk",
-  "tag": "v2.0.0",
-  "manifestSha256": "bde52357dd9155a877f963f62358e09abd38d0c0b9dbc239f290ba659efb78a6",
+  "tag": "v2.1.0",
+  "manifestSha256": "f9dffb74c4c7401ffc9457755ece9ebc06428d2cd328cf4abdbde130384fe15d",
   "packs": [
     {
       "name": "fredtalk-materials-001.tar.gz",
@@ -785,6 +785,16 @@
       "tag": "v2.0.0",
       "collectionIds": [
         "news-keyword-match-cut-20261010"
+      ]
+    },
+    {
+      "name": "fredtalk-2.1-public-previews.tar.gz",
+      "size": 5515672,
+      "sha256": "a061011f3eb8e49769726eb9e94d4945013dd638d9e89b49a2ebbdbfdcdc38d0",
+      "objects": 78,
+      "tag": "v2.1.0",
+      "collectionIds": [
+        "fred-chapter-transitions-20-20261014"
       ]
     }
   ]

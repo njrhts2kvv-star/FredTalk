@@ -1196,6 +1196,247 @@
       },
       "entryPoint": ".artifacts/member-components/fred-wave3-extra2-20261012/fred-wave3-extra2-20261012/src/index.tsx",
       "publicDir": ".artifacts/member-components/fred-wave3-extra2-20261012/fred-wave3-extra2-20261012/public"
+    },
+    {
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+      "size": 34053880,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+      "access": "members",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "installRoot": ".artifacts/member-components/fred-chapter-transitions-20-20261014",
+      "files": {
+        "fred-chapter-transitions-20-20261014/LICENSE": {
+          "sha256": "953b50c9ac5a962991ef4d9d663f951ac4ea56931f248088acecd5a0a1ebcb79",
+          "size": 1065
+        },
+        "fred-chapter-transitions-20-20261014/README.md": {
+          "sha256": "d78149cb15e0b06116c38097b2225c9fd745253c79f22380ba57a43fc792564a",
+          "size": 807
+        },
+        "fred-chapter-transitions-20-20261014/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-chapter-transitions-20-20261014/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-chapter-transitions-20-20261014/user-media-inputs.json": {
+          "sha256": "e55aa851c29e9fdb9e2e9278feb18b423558cb824ccb811dd98d0c410ee2c1be",
+          "size": 2986
+        },
+        "fred-chapter-transitions-20-20261014/components.json": {
+          "sha256": "b0eb27b6ad70f51cefd2b2482c2ae0d3f4aea209b01df5f7b5ebcae0ae63bcd8",
+          "size": 10255
+        },
+        "fred-chapter-transitions-20-20261014/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-chapter-transitions-20-20261014/public/brand/dark.png": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-chapter-transitions-20-20261014/public/brand/light.png": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/whoosh-short.wav": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/typing.wav": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/gather.wav": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/message.wav": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/scroll.wav": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/slide.wav": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/click.wav": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/woosh.wav": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/pop.wav": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/ding.wav": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        },
+        "fred-chapter-transitions-20-20261014/public/sfx/notify.wav": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/MiSans-Heavy.otf": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/MiSans-License.txt": {
+          "sha256": "15089e340c0433e6f08274d6aa10f1fdd53992fd95e6069d8625508161bca4ff",
+          "size": 9708
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/RuiZi.ttf": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/SourceCodePro-Semibold.otf": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/MiSans-Medium.otf": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/SourceCodePro-LICENSE.md": {
+          "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+          "size": 4473
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/RuiZi-official-free-use.txt": {
+          "sha256": "4a1dae11ef394a49f6f25111a15b686b8440e2b6ecafe3c4cff6bf46f1bf1810",
+          "size": 6063
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/MiSans-Semibold.otf": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/LXGWWenKai-Regular.ttf": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-chapter-transitions-20-20261014/public/fonts/LXGWWenKai-OFL.txt": {
+          "sha256": "4248ee53f0c37edaf4cfabe67ef620f8eef50cb2700d090c59337919d6539f1b",
+          "size": 5170
+        },
+        "fred-chapter-transitions-20-20261014/src/index.tsx": {
+          "sha256": "d99e088a159a12ab792c4452c2f8f31a4e1cadd53327ceae28efc8aaaa0833b2",
+          "size": 388
+        },
+        "fred-chapter-transitions-20-20261014/src/registry.ts": {
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "size": 7064
+        },
+        "fred-chapter-transitions-20-20261014/src/kit/theme.ts": {
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "size": 3786
+        },
+        "fred-chapter-transitions-20-20261014/src/kit/ui.tsx": {
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "size": 11689
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20h-WindowStack.tsx": {
+          "sha256": "f3805c081d6271fd1bc30475557240270507669a3cdfd6a91c178f05494f6243",
+          "size": 4833
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12r-PillCarousel.tsx": {
+          "sha256": "3b84e74979642451807253f1dca0faffa7718084aca242842428e03c6aea6f5b",
+          "size": 3403
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12l-IrisBadge.tsx": {
+          "sha256": "479e363e89c58a59cc92b5067ca1837f7bd1fb736a28b2a0e06765a56a122a85",
+          "size": 4071
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12s-MergeHalves.tsx": {
+          "sha256": "dc6712528a4522e928cbddddd029178dead6e7f912a9b3eb3cc60894d8bfeaf8",
+          "size": 3562
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20q-TextMask.tsx": {
+          "sha256": "5816e49b1c9303a24d294027c0e71780f016b85d0269d3980465ff6f1ec5bbf3",
+          "size": 4602
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20o-StatSlam.tsx": {
+          "sha256": "1e395e125552592d046f9728530c671d1d8224e378dae0925ab238e3fc546df5",
+          "size": 4104
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12m-CubeTurn.tsx": {
+          "sha256": "707abafb80d41034a22d5849b2aa9e82b9f0e1793b6cbf8e607b3f988681507b",
+          "size": 4189
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20j-KineticWords.tsx": {
+          "sha256": "2b504c97ff053cdb8e08fa007f1d529a051eeebefa037a0494439e95daedefde",
+          "size": 3616
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12p-Blinds.tsx": {
+          "sha256": "df0e19b45adbd5162b4e22c6fc8ffdde0e6b1bbcb7f967faa6e77a941e1b7de5",
+          "size": 3548
+        },
+        "fred-chapter-transitions-20-20261014/src/components/_shared.ts": {
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "size": 2426
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20m-PillToWindow.tsx": {
+          "sha256": "849a13b9b1ff7740ec00214727628503d6e6dddf50cd81bc7e246f6c3eee041c",
+          "size": 4145
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12n-DeckPull.tsx": {
+          "sha256": "4099f06843b1523fe21ed8f6eda0738773015309ea7b053f936bc7d703858a34",
+          "size": 4187
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20k-ScreenRise.tsx": {
+          "sha256": "c8f03bd520382009d287c1ca38bd60362474693345d6133d2ad3502c538f5d38",
+          "size": 3609
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12t-SplitScreen.tsx": {
+          "sha256": "2dee1ee3e26864a11ce6d98a181d28933ffe30e33ed10e827992cdbd77dd536c",
+          "size": 3951
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12q-Decode.tsx": {
+          "sha256": "4428c004920299c19951ed6635951c014e84abe70e1cbc7adde54936292395f3",
+          "size": 4166
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20l-Coverflow.tsx": {
+          "sha256": "5f1ec24c591a42df8c34f9245465bdf9897a974338279c3c606713eab4d0dec4",
+          "size": 4664
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20p-TileFlip.tsx": {
+          "sha256": "a0d747ee2de47212840fa848d5b13980b2e558899096419976339913011f4252",
+          "size": 4412
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20n-AvatarAsk.tsx": {
+          "sha256": "94d9f45dc7cba5bbfd60e5a8f44f2148537032c2b8b97678e54cf403eaf79952",
+          "size": 4502
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T20i-PullBack.tsx": {
+          "sha256": "a230b79c916d0cbc7dd4227bfee4259e47f39d37fcfc7af01fafe9b36dc8b962",
+          "size": 4075
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12k-FlipClock.tsx": {
+          "sha256": "de9f3d99edb95318fcf4f0665ebf2109cd9706edaced605c4820cb85b7be89a8",
+          "size": 5016
+        },
+        "fred-chapter-transitions-20-20261014/src/components/T12o-ZoomThrough.tsx": {
+          "sha256": "79bffe51dc08bc43cb2956919cd3fcf2d578db2f6d1b8589e749144950e3dde9",
+          "size": 4117
+        }
+      }
     }
   ],
   "zipPolicy": {

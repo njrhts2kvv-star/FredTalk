@@ -503,6 +503,4861 @@
   },
   "items": [
     {
+      "id": "component:fred-chapter-transitions-20-t12k",
+      "referenceId": "fred-chapter-transitions-20-t12k",
+      "label": "T12k",
+      "title": "翻页序号：黑卡数字翻到下一章",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "上一章序号 → 翻页翻到本章序号，章节名接出",
+      "tags": [
+        "新做组件",
+        "T12k",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -100,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "from",
+          "label",
+          "title",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/d88baba944639f16ca6dd448",
+          "posterUrl": "/api/design-assets/a91917be41dc3cd460947ed4",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/a91917be41dc3cd460947ed4",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/e8609cc9cecb609bd82c0a87",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/e8609cc9cecb609bd82c0a87",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "d88baba944639f16ca6dd448c99a23c0b8ddd9df9bd92c7c1c1aae8ec557e20d",
+          "label": "翻页序号：黑卡数字翻到下一章",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "00d30eb790ed18b1289eda484737e21677241cac42ec44a44654daf526c6c1a3",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12k-FlipClock.tsx",
+          "path": "src/components/T12k-FlipClock.tsx",
+          "symbol": "FlipClock",
+          "url": "/api/visual-library/assets/de9f3d99edb95318fcf4f0665ebf2109cd9706edaced605c4820cb85b7be89a8.txt",
+          "sha256": "de9f3d99edb95318fcf4f0665ebf2109cd9706edaced605c4820cb85b7be89a8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12k-FlipClock.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/00d30eb790ed18b1289eda484737e21677241cac42ec44a44654daf526c6c1a3.mp4",
+        "available": true,
+        "filename": "T12k-original.mp4",
+        "sha256": "00d30eb790ed18b1289eda484737e21677241cac42ec44a44654daf526c6c1a3",
+        "size": 275253,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12k-FlipClock",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12k",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "上一章序号 → 翻页翻到本章序号，章节名接出",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12k",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12k",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12l",
+      "referenceId": "fred-chapter-transitions-20-t12l",
+      "label": "T12l",
+      "title": "黑圆扩散：黑圆接管画面，序号落定后领出章节名",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "画面被黑圆接管 → 序号落定 → 序号让位领出章节名",
+      "tags": [
+        "新做组件",
+        "T12l",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -99,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "label",
+          "title",
+          "origin"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/09f277ffb2be18511a1c43ae",
+          "posterUrl": "/api/design-assets/1fd37839df6096618d1b5cc7",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/1fd37839df6096618d1b5cc7",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/780cbc9e7ce1a83415dc8ab1",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/08fb0015cdc50e8011cb0217",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "09f277ffb2be18511a1c43ae470c8aba71e8f663585aabd8d0d998a7d3a0b1c8",
+          "label": "黑圆扩散：黑圆接管画面，序号落定后领出章节名",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "660a14cf2f2a4254864be00df9b42d69417b0b893e5d288700e87c7b21838aad",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12l-IrisBadge.tsx",
+          "path": "src/components/T12l-IrisBadge.tsx",
+          "symbol": "IrisBadge",
+          "url": "/api/visual-library/assets/479e363e89c58a59cc92b5067ca1837f7bd1fb736a28b2a0e06765a56a122a85.txt",
+          "sha256": "479e363e89c58a59cc92b5067ca1837f7bd1fb736a28b2a0e06765a56a122a85",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12l-IrisBadge.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/660a14cf2f2a4254864be00df9b42d69417b0b893e5d288700e87c7b21838aad.mp4",
+        "available": true,
+        "filename": "T12l-original.mp4",
+        "sha256": "660a14cf2f2a4254864be00df9b42d69417b0b893e5d288700e87c7b21838aad",
+        "size": 305508,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12l-IrisBadge",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12l",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "画面被黑圆接管 → 序号落定 → 序号让位领出章节名",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12l",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12l",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12m",
+      "referenceId": "fred-chapter-transitions-20-t12m",
+      "label": "T12m",
+      "title": "方块翻转：上一章翻面成本章",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "上一章名 → 长条方块向上翻一面 → 本章名",
+      "tags": [
+        "新做组件",
+        "T12m",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -98,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "prevTitle",
+          "title",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/e97dbbc11d0c914df198c726",
+          "posterUrl": "/api/design-assets/6ff566eb75e8e341f3cf3fc4",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/6ff566eb75e8e341f3cf3fc4",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/d506bc7996c63cef4820c779",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/fd10539f2f7d8a416f54ca9e",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "e97dbbc11d0c914df198c72670dc676e7f3ab0bdfde19dbcf1eaf9745747b39b",
+          "label": "方块翻转：上一章翻面成本章",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "c19c54a1864d427138e883017b85386d09bd1405a4942c861aed27733c09c782",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12m-CubeTurn.tsx",
+          "path": "src/components/T12m-CubeTurn.tsx",
+          "symbol": "CubeTurn",
+          "url": "/api/visual-library/assets/707abafb80d41034a22d5849b2aa9e82b9f0e1793b6cbf8e607b3f988681507b.txt",
+          "sha256": "707abafb80d41034a22d5849b2aa9e82b9f0e1793b6cbf8e607b3f988681507b",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12m-CubeTurn.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/c19c54a1864d427138e883017b85386d09bd1405a4942c861aed27733c09c782.mp4",
+        "available": true,
+        "filename": "T12m-original.mp4",
+        "sha256": "c19c54a1864d427138e883017b85386d09bd1405a4942c861aed27733c09c782",
+        "size": 497730,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12m-CubeTurn",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12m",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "上一章名 → 长条方块向上翻一面 → 本章名",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12m",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12m",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12n",
+      "referenceId": "fred-chapter-transitions-20-t12n",
+      "label": "T12n",
+      "title": "卡叠抽走：顶卡飞走露出本章",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一叠章节卡 → 顶上一张抽走 → 下一张就是本章",
+      "tags": [
+        "新做组件",
+        "T12n",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -97,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "prevTitle",
+          "title",
+          "label",
+          "depth",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/9f5ebc750e622e18dbe0e733",
+          "posterUrl": "/api/design-assets/54f92c120558e1be0bc07fd5",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/54f92c120558e1be0bc07fd5",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/d11504e8398149f9bc46425c",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/8b4ca6fe1c68be5d32fc0029",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "9f5ebc750e622e18dbe0e733877bcfa709250e401da597abeae0bca64b9fcd8b",
+          "label": "卡叠抽走：顶卡飞走露出本章",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "f26c144ffb955c5571e09305a9094dde3275f8fffae161f1ecbea0f6f3d8ecac",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12n-DeckPull.tsx",
+          "path": "src/components/T12n-DeckPull.tsx",
+          "symbol": "DeckPull",
+          "url": "/api/visual-library/assets/4099f06843b1523fe21ed8f6eda0738773015309ea7b053f936bc7d703858a34.txt",
+          "sha256": "4099f06843b1523fe21ed8f6eda0738773015309ea7b053f936bc7d703858a34",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12n-DeckPull.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/f26c144ffb955c5571e09305a9094dde3275f8fffae161f1ecbea0f6f3d8ecac.mp4",
+        "available": true,
+        "filename": "T12n-original.mp4",
+        "sha256": "f26c144ffb955c5571e09305a9094dde3275f8fffae161f1ecbea0f6f3d8ecac",
+        "size": 488604,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12n-DeckPull",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12n",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "一叠章节卡 → 顶上一张抽走 → 下一张就是本章",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12n",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12n",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12o",
+      "referenceId": "fred-chapter-transitions-20-t12o",
+      "label": "T12o",
+      "title": "穿过序号：镜头钻进数字进入本章",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "巨大序号 → 镜头穿过数字的空心 → 本章标题",
+      "tags": [
+        "新做组件",
+        "T12o",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -96,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "label",
+          "title",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/8d9f7abbc5b093d49238d779",
+          "posterUrl": "/api/design-assets/fb7a8e8648996113c7f57657",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/fb7a8e8648996113c7f57657",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/ea24c0efb6ad3e1b75bfbd4a",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/d8962ade240430e679ed7d2b",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "8d9f7abbc5b093d49238d7792041cbf583646ff2e3b9d8be67ef6f0364e78201",
+          "label": "穿过序号：镜头钻进数字进入本章",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "c54500589572e5a7320b41167c7305831590252416835049e31a2f872b60c294",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12o-ZoomThrough.tsx",
+          "path": "src/components/T12o-ZoomThrough.tsx",
+          "symbol": "ZoomThrough",
+          "url": "/api/visual-library/assets/79bffe51dc08bc43cb2956919cd3fcf2d578db2f6d1b8589e749144950e3dde9.txt",
+          "sha256": "79bffe51dc08bc43cb2956919cd3fcf2d578db2f6d1b8589e749144950e3dde9",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12o-ZoomThrough.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/c54500589572e5a7320b41167c7305831590252416835049e31a2f872b60c294.mp4",
+        "available": true,
+        "filename": "T12o-original.mp4",
+        "sha256": "c54500589572e5a7320b41167c7305831590252416835049e31a2f872b60c294",
+        "size": 484153,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12o-ZoomThrough",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12o",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "巨大序号 → 镜头穿过数字的空心 → 本章标题",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12o",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12o",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12p",
+      "referenceId": "fred-chapter-transitions-20-t12p",
+      "label": "T12p",
+      "title": "百叶黑条：横条依次拼满再拉开",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "黑条依次拼满画面 → 序号和标题在黑底落定 → 黑条依次让开",
+      "tags": [
+        "新做组件",
+        "T12p",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -95,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "label",
+          "title",
+          "bars",
+          "outAt",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/0a056d7c344ed43634b33444",
+          "posterUrl": "/api/design-assets/48b0dc56a7c8ce993e483876",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/48b0dc56a7c8ce993e483876",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/84fd2ccb98316a350d9b6baa",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/079eac807c3ddf9ce8566b2b",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "0a056d7c344ed43634b33444ab8c02b8d3b603f47abe27063718f429a6284ed8",
+          "label": "百叶黑条：横条依次拼满再拉开",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "c7b6fc98e583f7302ea1c76c56cb45c8e3dc5289c90f736b7da29b30313bce43",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12p-Blinds.tsx",
+          "path": "src/components/T12p-Blinds.tsx",
+          "symbol": "Blinds",
+          "url": "/api/visual-library/assets/df0e19b45adbd5162b4e22c6fc8ffdde0e6b1bbcb7f967faa6e77a941e1b7de5.txt",
+          "sha256": "df0e19b45adbd5162b4e22c6fc8ffdde0e6b1bbcb7f967faa6e77a941e1b7de5",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12p-Blinds.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/c7b6fc98e583f7302ea1c76c56cb45c8e3dc5289c90f736b7da29b30313bce43.mp4",
+        "available": true,
+        "filename": "T12p-original.mp4",
+        "sha256": "c7b6fc98e583f7302ea1c76c56cb45c8e3dc5289c90f736b7da29b30313bce43",
+        "size": 273876,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12p-Blinds",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12p",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "黑条依次拼满画面 → 序号和标题在黑底落定 → 黑条依次让开",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12p",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12p",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12q",
+      "referenceId": "fred-chapter-transitions-20-t12q",
+      "label": "T12q",
+      "title": "解码定格：乱跳的字逐个锁定成章节名",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一串乱跳的字 → 从左到右逐字锁定 → 本章名",
+      "tags": [
+        "新做组件",
+        "T12q",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -94,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "label",
+          "title",
+          "pool",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/b25ce2c5143c7712d65b633c",
+          "posterUrl": "/api/design-assets/a3e7e437153dc15f75e55768",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/a3e7e437153dc15f75e55768",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/d4f1442fd4079e2b005503ca",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/d4f1442fd4079e2b005503ca",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "b25ce2c5143c7712d65b633c8c42870aec7795591e430171ce58e11143fa00c5",
+          "label": "解码定格：乱跳的字逐个锁定成章节名",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "b0e58d9e3cf60cf3a5f6a29a7fe6b5eb20dac9653f4962eaee0ba80c53023a0f",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12q-Decode.tsx",
+          "path": "src/components/T12q-Decode.tsx",
+          "symbol": "Decode",
+          "url": "/api/visual-library/assets/4428c004920299c19951ed6635951c014e84abe70e1cbc7adde54936292395f3.txt",
+          "sha256": "4428c004920299c19951ed6635951c014e84abe70e1cbc7adde54936292395f3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12q-Decode.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/b0e58d9e3cf60cf3a5f6a29a7fe6b5eb20dac9653f4962eaee0ba80c53023a0f.mp4",
+        "available": true,
+        "filename": "T12q-original.mp4",
+        "sha256": "b0e58d9e3cf60cf3a5f6a29a7fe6b5eb20dac9653f4962eaee0ba80c53023a0f",
+        "size": 297595,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12q-Decode",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12q",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "一串乱跳的字 → 从左到右逐字锁定 → 本章名",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12q",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12q",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12r",
+      "referenceId": "fred-chapter-transitions-20-t12r",
+      "label": "T12r",
+      "title": "胶囊轮播：章节横向滑到正中放大",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一排章节胶囊 → 横向滑动，本章停在正中放大",
+      "tags": [
+        "新做组件",
+        "T12r",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -93,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "titles",
+          "index",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/ba9bfedb9066074e733b0c29",
+          "posterUrl": "/api/design-assets/6d3eef9c6b37860fd94014af",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/6d3eef9c6b37860fd94014af",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/86f1a4a76579c294fc6359bb",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/f84895bcb5e5d3bdcb0fe0be",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "ba9bfedb9066074e733b0c296753d80b05bb4eb5b884c7c88c5412fb3c5444cb",
+          "label": "胶囊轮播：章节横向滑到正中放大",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "fed97c9460caa3466295738a6f4d82d9fbe9589535a1e304c8e2a48f79827923",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12r-PillCarousel.tsx",
+          "path": "src/components/T12r-PillCarousel.tsx",
+          "symbol": "PillCarousel",
+          "url": "/api/visual-library/assets/3b84e74979642451807253f1dca0faffa7718084aca242842428e03c6aea6f5b.txt",
+          "sha256": "3b84e74979642451807253f1dca0faffa7718084aca242842428e03c6aea6f5b",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12r-PillCarousel.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/fed97c9460caa3466295738a6f4d82d9fbe9589535a1e304c8e2a48f79827923.mp4",
+        "available": true,
+        "filename": "T12r-original.mp4",
+        "sha256": "fed97c9460caa3466295738a6f4d82d9fbe9589535a1e304c8e2a48f79827923",
+        "size": 514914,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12r-PillCarousel",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12r",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "一排章节胶囊 → 横向滑动，本章停在正中放大",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12r",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12r",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12s",
+      "referenceId": "fred-chapter-transitions-20-t12s",
+      "label": "T12s",
+      "title": "左右合拢：序号和标题从两侧撞成一枚胶囊",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "序号从左、标题从右 → 在中间合成一枚胶囊",
+      "tags": [
+        "新做组件",
+        "T12s",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -92,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "label",
+          "title",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/8e7d8fd8c0b26276c845d826",
+          "posterUrl": "/api/design-assets/21c4b27711466674f4203b42",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/21c4b27711466674f4203b42",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/7673245383f8044ff9c0c439",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/c3ff135dab4c3e1211667d16",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "8e7d8fd8c0b26276c845d826d85a704415750a6728c1c040a0c0886fc2413953",
+          "label": "左右合拢：序号和标题从两侧撞成一枚胶囊",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "247495e41202e0661f38ee87e12ccb2e02656ce1095faf89b6b8edee2b01dbf5",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12s-MergeHalves.tsx",
+          "path": "src/components/T12s-MergeHalves.tsx",
+          "symbol": "MergeHalves",
+          "url": "/api/visual-library/assets/dc6712528a4522e928cbddddd029178dead6e7f912a9b3eb3cc60894d8bfeaf8.txt",
+          "sha256": "dc6712528a4522e928cbddddd029178dead6e7f912a9b3eb3cc60894d8bfeaf8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12s-MergeHalves.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/247495e41202e0661f38ee87e12ccb2e02656ce1095faf89b6b8edee2b01dbf5.mp4",
+        "available": true,
+        "filename": "T12s-original.mp4",
+        "sha256": "247495e41202e0661f38ee87e12ccb2e02656ce1095faf89b6b8edee2b01dbf5",
+        "size": 253272,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12s-MergeHalves",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12s",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "序号从左、标题从右 → 在中间合成一枚胶囊",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12s",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12s",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t12t",
+      "referenceId": "fred-chapter-transitions-20-t12t",
+      "label": "T12t",
+      "title": "黑白分屏：左黑序号右白标题",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "画面劈成黑白两半 → 左边序号滚入，右边标题擦出",
+      "tags": [
+        "新做组件",
+        "T12t",
+        "章节过渡",
+        "章节动画",
+        "清晰序号",
+        "内容交接",
+        "进入章节与案例"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -91,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "chapter-transition"
+      ],
+      "approvalScope": "Fred认可章节动画入库。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "index",
+          "label",
+          "title",
+          "ratio",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/313b3ce8adc3be94412b969e",
+          "posterUrl": "/api/design-assets/6c241ac9bfa14b8b09b254cb",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/6c241ac9bfa14b8b09b254cb",
+              "frame": 54,
+              "timeSeconds": 0.9
+            },
+            {
+              "url": "/api/design-assets/83625a87bbbfcbdff6c1c993",
+              "frame": 108,
+              "timeSeconds": 1.8
+            },
+            {
+              "url": "/api/design-assets/6c982ee43c544987fa95cf7f",
+              "frame": 174,
+              "timeSeconds": 2.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "313b3ce8adc3be94412b969eaa4132698a706daf7ea6be958fc6bdece4e7239a",
+          "label": "黑白分屏：左黑序号右白标题",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "229dc1df890ecaa389cfe2c4764fb01ac8e983a020f10931abca72d309dc19d9",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T12t-SplitScreen.tsx",
+          "path": "src/components/T12t-SplitScreen.tsx",
+          "symbol": "SplitScreen",
+          "url": "/api/visual-library/assets/2dee1ee3e26864a11ce6d98a181d28933ffe30e33ed10e827992cdbd77dd536c.txt",
+          "sha256": "2dee1ee3e26864a11ce6d98a181d28933ffe30e33ed10e827992cdbd77dd536c",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12t-SplitScreen.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/229dc1df890ecaa389cfe2c4764fb01ac8e983a020f10931abca72d309dc19d9.mp4",
+        "available": true,
+        "filename": "T12t-original.mp4",
+        "sha256": "229dc1df890ecaa389cfe2c4764fb01ac8e983a020f10931abca72d309dc19d9",
+        "size": 249596,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T12t-SplitScreen",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 180,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t12t",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "handoff",
+          "text",
+          "orientation"
+        ],
+        "inputObjects": [
+          "章节序号",
+          "章节名"
+        ],
+        "action": "画面劈成黑白两半 → 左边序号滚入，右边标题擦出",
+        "segmentRole": "章节过渡",
+        "nativeDurationSeconds": 3.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认可章节动画入库。",
+        "tags": [
+          "新做组件",
+          "T12t",
+          "章节过渡",
+          "章节动画",
+          "清晰序号",
+          "内容交接",
+          "进入章节与案例"
+        ],
+        "scenarioId": "chapter",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "进入章节与案例",
+        "allowedRoles": [
+          "chapter-transition"
+        ],
+        "label": "T12t",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20h",
+      "referenceId": "fred-chapter-transitions-20-t20h",
+      "label": "T20h",
+      "title": "窗口连弹：一串真实窗口叠起，主角留下",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一串真实界面连续弹出 → 其它被扫开，只留主角和标题",
+      "tags": [
+        "新做组件",
+        "T20h",
+        "窗口连弹",
+        "媒体交接",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -90,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "media",
+          "ratio",
+          "heroIndex",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/674f047c65ea9508cc9348fe",
+          "posterUrl": "/api/design-assets/462caa0bf364e9f07304d3bd",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/462caa0bf364e9f07304d3bd",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/c536ea81d00abc56ad7376be",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/53ed96c3c538d242e41c4cf5",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "674f047c65ea9508cc9348fec43f146a27cbf77b5178c5f205d8a1e53f2cfb66",
+          "label": "窗口连弹：一串真实窗口叠起，主角留下",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "3a9ce0041c5f6cc5a3dd7b85d2f3d3d634bb91c730a36c65350e4437ac05b8a5",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20h-WindowStack.tsx",
+          "path": "src/components/T20h-WindowStack.tsx",
+          "symbol": "WindowStack",
+          "url": "/api/visual-library/assets/f3805c081d6271fd1bc30475557240270507669a3cdfd6a91c178f05494f6243.txt",
+          "sha256": "f3805c081d6271fd1bc30475557240270507669a3cdfd6a91c178f05494f6243",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20h-WindowStack.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/3a9ce0041c5f6cc5a3dd7b85d2f3d3d634bb91c730a36c65350e4437ac05b8a5.mp4",
+        "available": true,
+        "filename": "T20h-original.mp4",
+        "sha256": "3a9ce0041c5f6cc5a3dd7b85d2f3d3d634bb91c730a36c65350e4437ac05b8a5",
+        "size": 3661285,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20h-WindowStack",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20h",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "media",
+          "handoff",
+          "cards"
+        ],
+        "inputObjects": [
+          "真实界面",
+          "主窗口"
+        ],
+        "action": "一串真实界面连续弹出 → 其它被扫开，只留主角和标题",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20h",
+          "窗口连弹",
+          "媒体交接",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "窗口与媒体交接",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20h",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20i",
+      "referenceId": "fred-chapter-transitions-20-t20i",
+      "label": "T20i",
+      "title": "细节拉远：从一个吸睛局部拉到全貌",
+      "kind": "components",
+      "category": "录屏与视频入场",
+      "categoryId": "video-entry",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一个看不懂的局部 → 拉远成完整界面 → 标题落定",
+      "tags": [
+        "新做组件",
+        "T20i",
+        "细节拉远",
+        "开场",
+        "进场",
+        "录屏与视频入场",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -89,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "opening",
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为本条开场还可以，收录开场及内容交接用途。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "src",
+          "srcW",
+          "focus"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/cc496f1d49d45174d0dc6857",
+          "posterUrl": "/api/design-assets/16c047026465fb700c40ce9c",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/16c047026465fb700c40ce9c",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/de67948a3ab0a371caa7b039",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/44b0337943ce21d07e04ee43",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "cc496f1d49d45174d0dc6857a0171d3af707bebf1e38bdcfc66ba55c01090b38",
+          "label": "细节拉远：从一个吸睛局部拉到全貌",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "957d071934080cff4dbb6e1d23b4e495125f1babc4d768314536c08ab15ad6b3",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20i-PullBack.tsx",
+          "path": "src/components/T20i-PullBack.tsx",
+          "symbol": "PullBack",
+          "url": "/api/visual-library/assets/a230b79c916d0cbc7dd4227bfee4259e47f39d37fcfc7af01fafe9b36dc8b962.txt",
+          "sha256": "a230b79c916d0cbc7dd4227bfee4259e47f39d37fcfc7af01fafe9b36dc8b962",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20i-PullBack.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/957d071934080cff4dbb6e1d23b4e495125f1babc4d768314536c08ab15ad6b3.mp4",
+        "available": true,
+        "filename": "T20i-original.mp4",
+        "sha256": "957d071934080cff4dbb6e1d23b4e495125f1babc4d768314536c08ab15ad6b3",
+        "size": 2347433,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20i-PullBack",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20i",
+        "primaryUse": "video-entry",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "media",
+          "focus",
+          "orientation"
+        ],
+        "inputObjects": [
+          "局部细节",
+          "完整界面"
+        ],
+        "action": "一个看不懂的局部 → 拉远成完整界面 → 标题落定",
+        "segmentRole": "开场 / 内容交接",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为本条开场还可以，收录开场及内容交接用途。",
+        "tags": [
+          "新做组件",
+          "T20i",
+          "细节拉远",
+          "开场",
+          "进场",
+          "录屏与视频入场",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "窗口与媒体交接",
+        "allowedRoles": [
+          "opening",
+          "content-transition"
+        ],
+        "label": "T20i",
+        "categoryId": "video-entry",
+        "category": "录屏与视频入场",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20j",
+      "referenceId": "fred-chapter-transitions-20-t20j",
+      "label": "T20j",
+      "title": "黑底快切：三个词连续砸出，合成一句",
+      "kind": "components",
+      "category": "讲解段落",
+      "categoryId": "explain",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "三个关键词逐个砸出 → 收成一句主题胶囊",
+      "tags": [
+        "新做组件",
+        "T20j",
+        "关键词快切",
+        "开场",
+        "进场",
+        "讲解段落",
+        "强调一句话"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -88,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "opening",
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为本条开场还可以，收录开场及内容交接用途。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "words",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability."
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/c6276b9b84d23c47d0a30c69",
+          "posterUrl": "/api/design-assets/1b4e50fe31102c789f84e5d9",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/1b4e50fe31102c789f84e5d9",
+              "frame": 65,
+              "timeSeconds": 1.0833333333333333
+            },
+            {
+              "url": "/api/design-assets/55ad375883816788dd1a37be",
+              "frame": 130,
+              "timeSeconds": 2.1666666666666665
+            },
+            {
+              "url": "/api/design-assets/6e6b6ccc90d2894ea8d61d94",
+              "frame": 210,
+              "timeSeconds": 3.5
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.6,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "c6276b9b84d23c47d0a30c69faf3f607e16052146581d8b1dd92f137f8ed4816",
+          "label": "黑底快切：三个词连续砸出，合成一句",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "11b2dff969bcd5af56b25df1245ee5b200d02727680f6cf77960fcf941ef919f",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20j-KineticWords.tsx",
+          "path": "src/components/T20j-KineticWords.tsx",
+          "symbol": "KineticWords",
+          "url": "/api/visual-library/assets/2b504c97ff053cdb8e08fa007f1d529a051eeebefa037a0494439e95daedefde.txt",
+          "sha256": "2b504c97ff053cdb8e08fa007f1d529a051eeebefa037a0494439e95daedefde",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20j-KineticWords.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/11b2dff969bcd5af56b25df1245ee5b200d02727680f6cf77960fcf941ef919f.mp4",
+        "available": true,
+        "filename": "T20j-original.mp4",
+        "sha256": "11b2dff969bcd5af56b25df1245ee5b200d02727680f6cf77960fcf941ef919f",
+        "size": 370143,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20j-KineticWords",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 216,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20j",
+        "primaryUse": "explain",
+        "useIds": [
+          "explain",
+          "handoff"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "text",
+          "handoff",
+          "summary"
+        ],
+        "inputObjects": [
+          "关键词",
+          "主题句"
+        ],
+        "action": "三个关键词逐个砸出 → 收成一句主题胶囊",
+        "segmentRole": "开场 / 内容交接",
+        "nativeDurationSeconds": 3.6,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为本条开场还可以，收录开场及内容交接用途。",
+        "tags": [
+          "新做组件",
+          "T20j",
+          "关键词快切",
+          "开场",
+          "进场",
+          "讲解段落",
+          "强调一句话"
+        ],
+        "scenarioId": "headline",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "强调一句话",
+        "allowedRoles": [
+          "opening",
+          "content-transition"
+        ],
+        "label": "T20j",
+        "categoryId": "explain",
+        "category": "讲解段落",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20k",
+      "referenceId": "fred-chapter-transitions-20-t20k",
+      "label": "T20k",
+      "title": "屏幕立起：平躺的画面翻起立正",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "平躺看不清的画面 → 翻起立正、看清正在发生什么 → 标题",
+      "tags": [
+        "新做组件",
+        "T20k",
+        "屏幕立起",
+        "媒体进场",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -87,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "src",
+          "ratio",
+          "start",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/904e6571e62c118eac041c6f",
+          "posterUrl": "/api/design-assets/c958eb1bd41035c0eee4a8d4",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/c958eb1bd41035c0eee4a8d4",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/a0f679919c3b5cdc9b2d07e3",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/a7315f2b196bb781a45bc4cc",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "904e6571e62c118eac041c6fb9fa4b25fbdae2b77f22120a51d29bf84fbba746",
+          "label": "屏幕立起：平躺的画面翻起立正",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "40e45cf186ffe5240d5b3ffc8aba0ff03db3217c701e058125b78165673eb623",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20k-ScreenRise.tsx",
+          "path": "src/components/T20k-ScreenRise.tsx",
+          "symbol": "ScreenRise",
+          "url": "/api/visual-library/assets/c8f03bd520382009d287c1ca38bd60362474693345d6133d2ad3502c538f5d38.txt",
+          "sha256": "c8f03bd520382009d287c1ca38bd60362474693345d6133d2ad3502c538f5d38",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20k-ScreenRise.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/40e45cf186ffe5240d5b3ffc8aba0ff03db3217c701e058125b78165673eb623.mp4",
+        "available": true,
+        "filename": "T20k-original.mp4",
+        "sha256": "40e45cf186ffe5240d5b3ffc8aba0ff03db3217c701e058125b78165673eb623",
+        "size": 1722242,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20k-ScreenRise",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20k",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "media",
+          "orientation",
+          "handoff"
+        ],
+        "inputObjects": [
+          "真实屏幕"
+        ],
+        "action": "平躺看不清的画面 → 翻起立正、看清正在发生什么 → 标题",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20k",
+          "屏幕立起",
+          "媒体进场",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "窗口与媒体交接",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20k",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20l",
+      "referenceId": "fred-chapter-transitions-20-t20l",
+      "label": "T20l",
+      "title": "卡片快扫：作品卡横扫后停在主卡",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一排作品快速扫过 → 停在主卡、放大成主角",
+      "tags": [
+        "新做组件",
+        "T20l",
+        "卡片快扫",
+        "作品接入",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "卡片展开与作品切换"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -86,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "media",
+          "ratio",
+          "heroIndex",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/77f74e2d9ee888251104c58f",
+          "posterUrl": "/api/design-assets/5094f071b85d278e856d6e3c",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5094f071b85d278e856d6e3c",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/8a8045684d47a8ae5ccd3386",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/8429629feb707ba6fa3886bd",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "77f74e2d9ee888251104c58fb169cd187682bbf9ffad76eb026302028946d185",
+          "label": "卡片快扫：作品卡横扫后停在主卡",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "db25729ccc9ad94c16cb9065803ec48a2905493712984e3ae4c667e7ee6d3d4e",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20l-Coverflow.tsx",
+          "path": "src/components/T20l-Coverflow.tsx",
+          "symbol": "Coverflow",
+          "url": "/api/visual-library/assets/5f1ec24c591a42df8c34f9245465bdf9897a974338279c3c606713eab4d0dec4.txt",
+          "sha256": "5f1ec24c591a42df8c34f9245465bdf9897a974338279c3c606713eab4d0dec4",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20l-Coverflow.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/db25729ccc9ad94c16cb9065803ec48a2905493712984e3ae4c667e7ee6d3d4e.mp4",
+        "available": true,
+        "filename": "T20l-original.mp4",
+        "sha256": "db25729ccc9ad94c16cb9065803ec48a2905493712984e3ae4c667e7ee6d3d4e",
+        "size": 6667542,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20l-Coverflow",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20l",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "images"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "media",
+          "cards",
+          "handoff"
+        ],
+        "inputObjects": [
+          "作品卡片",
+          "主卡"
+        ],
+        "action": "一排作品快速扫过 → 停在主卡、放大成主角",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20l",
+          "卡片快扫",
+          "作品接入",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "卡片展开与作品切换"
+        ],
+        "scenarioId": "gallery",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "卡片展开与作品切换",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20l",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20m",
+      "referenceId": "fred-chapter-transitions-20-t20m",
+      "label": "T20m",
+      "title": "胶囊变窗：钩子胶囊撑开成播放窗口",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一枚标题胶囊 → 胶囊撑开成大窗口，里面就是画面",
+      "tags": [
+        "新做组件",
+        "T20m",
+        "胶囊变窗",
+        "标题到媒体",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -85,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "hook",
+          "highlight",
+          "src",
+          "ratio",
+          "start",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/b8e2351111b2dc48be1a1088",
+          "posterUrl": "/api/design-assets/5baade62e93aefb6c9b52206",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5baade62e93aefb6c9b52206",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/e8bc0c017687cc38fdb5e2ff",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/f11eb69068fffcfb8340f133",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "b8e2351111b2dc48be1a10885359dfe8c4ef1de944fb4015c5eea4430c3a0a87",
+          "label": "胶囊变窗：钩子胶囊撑开成播放窗口",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "17b696044832b07c38c2cee7c3ca1c79ac1851d3fe644555e5823cad28d4416f",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20m-PillToWindow.tsx",
+          "path": "src/components/T20m-PillToWindow.tsx",
+          "symbol": "PillToWindow",
+          "url": "/api/visual-library/assets/849a13b9b1ff7740ec00214727628503d6e6dddf50cd81bc7e246f6c3eee041c.txt",
+          "sha256": "849a13b9b1ff7740ec00214727628503d6e6dddf50cd81bc7e246f6c3eee041c",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20m-PillToWindow.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/17b696044832b07c38c2cee7c3ca1c79ac1851d3fe644555e5823cad28d4416f.mp4",
+        "available": true,
+        "filename": "T20m-original.mp4",
+        "sha256": "17b696044832b07c38c2cee7c3ca1c79ac1851d3fe644555e5823cad28d4416f",
+        "size": 1515966,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20m-PillToWindow",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20m",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "media",
+          "text",
+          "handoff"
+        ],
+        "inputObjects": [
+          "标题胶囊",
+          "播放窗口"
+        ],
+        "action": "一枚标题胶囊 → 胶囊撑开成大窗口，里面就是画面",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20m",
+          "胶囊变窗",
+          "标题到媒体",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "窗口与媒体交接",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20m",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20n",
+      "referenceId": "fred-chapter-transitions-20-t20n",
+      "label": "T20n",
+      "title": "头像发问：Fred 冒出来抛出问题",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "Fred 头像冒出 → 气泡问出问题 → 答案胶囊给出本期主题",
+      "tags": [
+        "新做组件",
+        "T20n",
+        "头像发问",
+        "问答交接",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "提出问题与给出答案"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -84,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "avatar",
+          "face"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/3396319ff5668bb145c1e784",
+          "posterUrl": "/api/design-assets/07845518f4d38a9160be35e3",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/07845518f4d38a9160be35e3",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/dd16d615c916d08d2563dcd2",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/282a0e7dea67d123239349b7",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "3396319ff5668bb145c1e7842961e023a327a38b9e12d8b27422ef6db48badc3",
+          "label": "头像发问：Fred 冒出来抛出问题",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "89b76730e425426b57e45a9f97f046681e58fecfcd0c1c94ffc489bce7e5b9c7",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20n-AvatarAsk.tsx",
+          "path": "src/components/T20n-AvatarAsk.tsx",
+          "symbol": "AvatarAsk",
+          "url": "/api/visual-library/assets/94d9f45dc7cba5bbfd60e5a8f44f2148537032c2b8b97678e54cf403eaf79952.txt",
+          "sha256": "94d9f45dc7cba5bbfd60e5a8f44f2148537032c2b8b97678e54cf403eaf79952",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20n-AvatarAsk.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/89b76730e425426b57e45a9f97f046681e58fecfcd0c1c94ffc489bce7e5b9c7.mp4",
+        "available": true,
+        "filename": "T20n-original.mp4",
+        "sha256": "89b76730e425426b57e45a9f97f046681e58fecfcd0c1c94ffc489bce7e5b9c7",
+        "size": 497913,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20n-AvatarAsk",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20n",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "explain"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "people",
+          "text",
+          "handoff"
+        ],
+        "inputObjects": [
+          "人物头像",
+          "问题",
+          "答案"
+        ],
+        "action": "Fred 头像冒出 → 气泡问出问题 → 答案胶囊给出本期主题",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20n",
+          "头像发问",
+          "问答交接",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "提出问题与给出答案"
+        ],
+        "scenarioId": "question",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "提出问题与给出答案",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20n",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20o",
+      "referenceId": "fred-chapter-transitions-20-t20o",
+      "label": "T20o",
+      "title": "数字狂跳：一个大数字跳到目标再让位",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "数字从 0 狂跳到目标 → 缩到一边，主题落定",
+      "tags": [
+        "新做组件",
+        "T20o",
+        "数字落定",
+        "数字到主题",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "数值变化与落定"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -83,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "metric-change"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "value",
+          "decimals",
+          "unit",
+          "caption",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/3ebc3f803c946e2476f89f96",
+          "posterUrl": "/api/design-assets/563d1f2166763fd4aaa5be3a",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/563d1f2166763fd4aaa5be3a",
+              "frame": 65,
+              "timeSeconds": 1.0833333333333333
+            },
+            {
+              "url": "/api/design-assets/ae8f0da5b2f6ab24854ba68d",
+              "frame": 130,
+              "timeSeconds": 2.1666666666666665
+            },
+            {
+              "url": "/api/design-assets/4112f133c9517377bd0432fc",
+              "frame": 210,
+              "timeSeconds": 3.5
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 3.6,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "3ebc3f803c946e2476f89f9620249f93305795cbc8bcef9b160de620a24d4a7e",
+          "label": "数字狂跳：一个大数字跳到目标再让位",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "0fec6655fa0e54a6d3766afb38f48b10b0a5dbd1bcadc5f3d9e392b0e940e4ff",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20o-StatSlam.tsx",
+          "path": "src/components/T20o-StatSlam.tsx",
+          "symbol": "StatSlam",
+          "url": "/api/visual-library/assets/1e395e125552592d046f9728530c671d1d8224e378dae0925ab238e3fc546df5.txt",
+          "sha256": "1e395e125552592d046f9728530c671d1d8224e378dae0925ab238e3fc546df5",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20o-StatSlam.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/0fec6655fa0e54a6d3766afb38f48b10b0a5dbd1bcadc5f3d9e392b0e940e4ff.mp4",
+        "available": true,
+        "filename": "T20o-original.mp4",
+        "sha256": "0fec6655fa0e54a6d3766afb38f48b10b0a5dbd1bcadc5f3d9e392b0e940e4ff",
+        "size": 700742,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20o-StatSlam",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 216,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20o",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "data"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "data",
+          "handoff",
+          "text"
+        ],
+        "inputObjects": [
+          "目标数字",
+          "主题句"
+        ],
+        "action": "数字从 0 狂跳到目标 → 缩到一边，主题落定",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 3.6,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20o",
+          "数字落定",
+          "数字到主题",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "数值变化与落定"
+        ],
+        "scenarioId": "number",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "数值变化与落定",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20o",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "metric-change"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20p",
+      "referenceId": "fred-chapter-transitions-20-t20p",
+      "label": "T20p",
+      "title": "方块翻出：黑色方阵逐块翻成一张画面",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "一片黑方块 → 逐块翻面拼出一张真实画面 → 标题",
+      "tags": [
+        "新做组件",
+        "T20p",
+        "方块翻出",
+        "画面揭示",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "卡片展开与作品切换"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -82,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "src",
+          "ratio",
+          "cols",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/188c237101eba2260d2374a8",
+          "posterUrl": "/api/design-assets/4dc621da743f64d785b12e6b",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/4dc621da743f64d785b12e6b",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/1f8ada50dc4650709a53583a",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/1bc33a2104f43edfaeb9853b",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "188c237101eba2260d2374a8e75f1bb99d1d5842c2abdae747f04d99ce298d80",
+          "label": "方块翻出：黑色方阵逐块翻成一张画面",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "210ab3e12b2109b86d1b913671e78685dc2dd2e170c4d1e51e8021ef28a75891",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20p-TileFlip.tsx",
+          "path": "src/components/T20p-TileFlip.tsx",
+          "symbol": "TileFlip",
+          "url": "/api/visual-library/assets/a0d747ee2de47212840fa848d5b13980b2e558899096419976339913011f4252.txt",
+          "sha256": "a0d747ee2de47212840fa848d5b13980b2e558899096419976339913011f4252",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20p-TileFlip.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/210ab3e12b2109b86d1b913671e78685dc2dd2e170c4d1e51e8021ef28a75891.mp4",
+        "available": true,
+        "filename": "T20p-original.mp4",
+        "sha256": "210ab3e12b2109b86d1b913671e78685dc2dd2e170c4d1e51e8021ef28a75891",
+        "size": 2337943,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20p-TileFlip",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20p",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "images"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "方块阵列",
+          "真实画面"
+        ],
+        "action": "一片黑方块 → 逐块翻面拼出一张真实画面 → 标题",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20p",
+          "方块翻出",
+          "画面揭示",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "卡片展开与作品切换"
+        ],
+        "scenarioId": "gallery",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "卡片展开与作品切换",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20p",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
+      "id": "component:fred-chapter-transitions-20-t20q",
+      "referenceId": "fred-chapter-transitions-20-t20q",
+      "label": "T20q",
+      "title": "大字透画：标题字里透出画面再展开",
+      "kind": "components",
+      "category": "内容交接",
+      "categoryId": "handoff",
+      "origin": "章节动画与内容过渡 20 条",
+      "description": "巨大标题字里透着画面 → 字撑开成满屏画面",
+      "tags": [
+        "新做组件",
+        "T20q",
+        "大字透画",
+        "标题到媒体",
+        "内容过渡",
+        "段间交接",
+        "内容交接",
+        "窗口与媒体交接"
+      ],
+      "selectionStatus": "keep",
+      "status": "keep",
+      "reviewKind": "registered",
+      "reviewStatus": "keep",
+      "visibleByDefault": true,
+      "defaultReuse": true,
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "addedAt": "2026-10-14T08:37:53+08:00",
+      "isNew": true,
+      "displayPriority": -81,
+      "libraryOrder": 0,
+      "sceneTypes": [
+        "summary"
+      ],
+      "mergedInto": [],
+      "hiddenReason": null,
+      "allowedRoles": [
+        "content-transition"
+      ],
+      "approvalScope": "Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。 仅绑定本次准确样片；替换内容后仍检查容量、阅读与交接。",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "word",
+          "src",
+          "ratio",
+          "title",
+          "highlight",
+          "cues"
+        ],
+        "limitations": [
+          "个人媒体由使用者自备。",
+          "New text/media/counts require a still check for overflow and readability.",
+          "Fred评价：开场效果比较一般；本次按内容过渡收录，不作为默认开场推荐。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/767a7a4d56694ff7d1116b78",
+          "posterUrl": "/api/design-assets/0eb52df495220bdc0e305b84",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/0eb52df495220bdc0e305b84",
+              "frame": 72,
+              "timeSeconds": 1.2
+            },
+            {
+              "url": "/api/design-assets/037dc00afe47c11e928638eb",
+              "frame": 144,
+              "timeSeconds": 2.4
+            },
+            {
+              "url": "/api/design-assets/a05d3de13c86408ecb3f902c",
+              "frame": 234,
+              "timeSeconds": 3.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 4.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "767a7a4d56694ff7d1116b787449f124e86d7dd581f9857070e33584b65bd1a0",
+          "label": "大字透画：标题字里透出画面再展开",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "283788780e48c4e41576a09e716bc18ac144ba13ddab53265199e2f97f14286a",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "T20q-TextMask.tsx",
+          "path": "src/components/T20q-TextMask.tsx",
+          "symbol": "TextMask",
+          "url": "/api/visual-library/assets/5816e49b1c9303a24d294027c0e71780f016b85d0269d3980465ff6f1ec5bbf3.txt",
+          "sha256": "5816e49b1c9303a24d294027c0e71780f016b85d0269d3980465ff6f1ec5bbf3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20q-TextMask.tsx"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt",
+          "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt",
+          "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts"
+        },
+        {
+          "label": "_shared.ts",
+          "path": "src/components/_shared.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt",
+          "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+          "available": false,
+          "status": "needs-auth",
+          "access": "members",
+          "installPath": ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts"
+        }
+      ],
+      "projectDownload": {
+        "url": "/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip",
+        "filename": "fred-chapter-transitions-20-20261014-source.zip",
+        "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+        "size": 34053880,
+        "available": false,
+        "kind": "independent-source-user-supplied-media",
+        "status": "needs-auth",
+        "access": "members"
+      },
+      "originalDownload": {
+        "url": "/api/visual-library/assets/283788780e48c4e41576a09e716bc18ac144ba13ddab53265199e2f97f14286a.mp4",
+        "available": true,
+        "filename": "T20q-original.mp4",
+        "sha256": "283788780e48c4e41576a09e716bc18ac144ba13ddab53265199e2f97f14286a",
+        "size": 5274732,
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "identity": "accepted-original"
+      },
+      "implementation": {
+        "compositionId": "T20q-TextMask",
+        "fps": 60,
+        "width": 1920,
+        "height": 1080,
+        "durationInFrames": 240,
+        "runtimeVersions": {
+          "remotion": "4.0.515",
+          "react": "19.2.4"
+        },
+        "projects": [
+          ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014"
+        ],
+        "reuseBoundary": "Member website source package; import the official source ZIP into the isolated ignored installation before adaptation."
+      },
+      "matching": {
+        "referenceId": "fred-chapter-transitions-20-t20q",
+        "primaryUse": "handoff",
+        "useIds": [
+          "handoff",
+          "video-entry"
+        ],
+        "sourceId": "fred-chapter-transitions-20",
+        "conceptIds": [
+          "text",
+          "media",
+          "handoff"
+        ],
+        "inputObjects": [
+          "标题文字",
+          "真实画面"
+        ],
+        "action": "巨大标题字里透着画面 → 字撑开成满屏画面",
+        "segmentRole": "内容过渡（不作默认开场推荐）",
+        "nativeDurationSeconds": 4.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。 Fred认为开场一般，本次仅按内容过渡用途收录，不作为默认开场推荐。",
+        "tags": [
+          "新做组件",
+          "T20q",
+          "大字透画",
+          "标题到媒体",
+          "内容过渡",
+          "段间交接",
+          "内容交接",
+          "窗口与媒体交接"
+        ],
+        "scenarioId": "window",
+        "addedAt": "2026-10-14T08:37:53+08:00",
+        "scenarioTitle": "窗口与媒体交接",
+        "allowedRoles": [
+          "content-transition"
+        ],
+        "label": "T20q",
+        "categoryId": "handoff",
+        "category": "内容交接",
+        "sceneTypes": [
+          "summary"
+        ]
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "access": "members"
+    },
+    {
       "id": "component:fred-wave3-extra2-t08i",
       "referenceId": "fred-wave3-extra2-t08i",
       "label": "T08i",
@@ -59841,6 +64696,10 @@
     {
       "id": "fred-wave3-extra2",
       "title": "第三轮补充精选组件"
+    },
+    {
+      "id": "fred-chapter-transitions-20",
+      "title": "章节动画与内容过渡 20 条"
     }
   ],
   "scenarioGroups": [
@@ -60047,12 +64906,12 @@
     }
   ],
   "counts": {
-    "total": 316,
-    "visible": 316,
-    "available": 311,
+    "total": 336,
+    "visible": 336,
+    "available": 331,
     "unavailable": 5,
     "archivedVersions": 4,
-    "skillActive": 202,
+    "skillActive": 222,
     "skillArchived": 114
   },
   "archivedItems": [
@@ -60098,11 +64957,11 @@
     }
   ],
   "publication": {
-    "version": "2.0.0",
-    "tag": "v2.0.0",
-    "scope": "latest-approved-components-and-existing-archive",
-    "newGithubComponents": 106,
-    "newWebsiteComponents": 105,
+    "version": "2.1.0",
+    "tag": "v2.1.0",
+    "scope": "20-member-early-access-components-with-public-derived-previews",
+    "newGithubComponents": 20,
+    "newWebsiteComponents": 20,
     "archivedComponents": 114
   },
   "skillArchive": {

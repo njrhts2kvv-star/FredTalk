@@ -2,10 +2,10 @@
 name: fred-remotion-output
 description: "Fred 的视频制作唯一日常入口。用于最终音频、逐字稿、字幕和素材到组件匹配、逐段前端建议、真实关键帧、完整 Remotion 视频及局部返修；包含正文文字动效与按需技术参考；Fred 授权时也负责按固定设计规则新做可复用组件并入库。Fred选方向、修改确认关键帧后，由助手内部检查动态、声音和接缝并交付。参考视频忠实复刻与云端执行使用各自独立入口。"
 metadata:
-  display_name: FredTalk 2.0
+  display_name: FredTalk 2.1
 ---
 
-# FredTalk 2.0
+# FredTalk 2.1
 
 ## Component source and download access
 

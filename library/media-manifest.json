@@ -265752,6 +265752,1653 @@
       "url": "https://www.fred-fu.com/visual-library-app/objects/054875c376873d5d455fda056078e8323ce20536a80578e6b6b54928141c8a82.jpg",
       "sourceKind": "public-approved-core-frame",
       "collectionId": "fred-native-16-20261012"
+    },
+    "media/fred-chapter-transitions-20-20261014/d88baba944639f16ca6dd448c99a23c0b8ddd9df9bd92c7c1c1aae8ec557e20d.mp4": {
+      "sha256": "d88baba944639f16ca6dd448c99a23c0b8ddd9df9bd92c7c1c1aae8ec557e20d",
+      "size": 171014,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/a91917be41dc3cd460947ed4468506192e38d0ea50d71b90b4faf9ffe4d90d98.jpg": {
+      "sha256": "a91917be41dc3cd460947ed4468506192e38d0ea50d71b90b4faf9ffe4d90d98",
+      "size": 15252,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/e8609cc9cecb609bd82c0a8742c1df03937db0e44e7fbc7efcc2af276a5a7ef1.jpg": {
+      "sha256": "e8609cc9cecb609bd82c0a8742c1df03937db0e44e7fbc7efcc2af276a5a7ef1",
+      "size": 25641,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12k-FlipClock.tsx": {
+      "sha256": "de9f3d99edb95318fcf4f0665ebf2109cd9706edaced605c4820cb85b7be89a8",
+      "size": 5016,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/de9f3d99edb95318fcf4f0665ebf2109cd9706edaced605c4820cb85b7be89a8.txt"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/theme.ts": {
+      "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+      "size": 3786,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/kit/ui.tsx": {
+      "sha256": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2",
+      "size": 11689,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2.txt"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/registry.ts": {
+      "sha256": "4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d",
+      "size": 7064,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/4b2e51f1a8d4891fb92ea30a2c7aabe69e76fce0d6020be2c3ef7408d43e591d.txt"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/_shared.ts": {
+      "sha256": "f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8",
+      "size": 2426,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/f5ebf5850bf3dd67d094ce7e9778bd52c44ff138b27abf70ce72b3378f79aaa8.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip": {
+      "sha256": "c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c",
+      "size": 34053880,
+      "kind": "zip",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/c8fb6f0b059e45c2616471dc7c3777e6e1dff7095f56ec5f526ea7a39fb2970c.zip"
+    },
+    "media/fred-chapter-transitions-20-20261014/00d30eb790ed18b1289eda484737e21677241cac42ec44a44654daf526c6c1a3.mp4": {
+      "sha256": "00d30eb790ed18b1289eda484737e21677241cac42ec44a44654daf526c6c1a3",
+      "size": 275253,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/00d30eb790ed18b1289eda484737e21677241cac42ec44a44654daf526c6c1a3.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/09f277ffb2be18511a1c43ae470c8aba71e8f663585aabd8d0d998a7d3a0b1c8.mp4": {
+      "sha256": "09f277ffb2be18511a1c43ae470c8aba71e8f663585aabd8d0d998a7d3a0b1c8",
+      "size": 175182,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/1fd37839df6096618d1b5cc78068a52bdd0eb405b301ad975b79c55879e4fdc7.jpg": {
+      "sha256": "1fd37839df6096618d1b5cc78068a52bdd0eb405b301ad975b79c55879e4fdc7",
+      "size": 12928,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/780cbc9e7ce1a83415dc8ab122578fc50e0555377d9601ec1569e457a5e28379.jpg": {
+      "sha256": "780cbc9e7ce1a83415dc8ab122578fc50e0555377d9601ec1569e457a5e28379",
+      "size": 23137,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/08fb0015cdc50e8011cb021763f0f9dd23ac77ad6fefa895c497096101436ab9.jpg": {
+      "sha256": "08fb0015cdc50e8011cb021763f0f9dd23ac77ad6fefa895c497096101436ab9",
+      "size": 23136,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12l-IrisBadge.tsx": {
+      "sha256": "479e363e89c58a59cc92b5067ca1837f7bd1fb736a28b2a0e06765a56a122a85",
+      "size": 4071,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/479e363e89c58a59cc92b5067ca1837f7bd1fb736a28b2a0e06765a56a122a85.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/660a14cf2f2a4254864be00df9b42d69417b0b893e5d288700e87c7b21838aad.mp4": {
+      "sha256": "660a14cf2f2a4254864be00df9b42d69417b0b893e5d288700e87c7b21838aad",
+      "size": 305508,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/660a14cf2f2a4254864be00df9b42d69417b0b893e5d288700e87c7b21838aad.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/e97dbbc11d0c914df198c72670dc676e7f3ab0bdfde19dbcf1eaf9745747b39b.mp4": {
+      "sha256": "e97dbbc11d0c914df198c72670dc676e7f3ab0bdfde19dbcf1eaf9745747b39b",
+      "size": 209454,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/6ff566eb75e8e341f3cf3fc4fdbbebc2b250f567efca6f42ae0e04a7fc5bb013.jpg": {
+      "sha256": "6ff566eb75e8e341f3cf3fc4fdbbebc2b250f567efca6f42ae0e04a7fc5bb013",
+      "size": 26169,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/d506bc7996c63cef4820c77972cf302ab199634b711159c1790a8ede081b9a1b.jpg": {
+      "sha256": "d506bc7996c63cef4820c77972cf302ab199634b711159c1790a8ede081b9a1b",
+      "size": 22344,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/fd10539f2f7d8a416f54ca9eec31debf79c6f5117547daa299bba60201e5fcf7.jpg": {
+      "sha256": "fd10539f2f7d8a416f54ca9eec31debf79c6f5117547daa299bba60201e5fcf7",
+      "size": 22344,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12m-CubeTurn.tsx": {
+      "sha256": "707abafb80d41034a22d5849b2aa9e82b9f0e1793b6cbf8e607b3f988681507b",
+      "size": 4189,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/707abafb80d41034a22d5849b2aa9e82b9f0e1793b6cbf8e607b3f988681507b.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/c19c54a1864d427138e883017b85386d09bd1405a4942c861aed27733c09c782.mp4": {
+      "sha256": "c19c54a1864d427138e883017b85386d09bd1405a4942c861aed27733c09c782",
+      "size": 497730,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/c19c54a1864d427138e883017b85386d09bd1405a4942c861aed27733c09c782.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/9f5ebc750e622e18dbe0e733877bcfa709250e401da597abeae0bca64b9fcd8b.mp4": {
+      "sha256": "9f5ebc750e622e18dbe0e733877bcfa709250e401da597abeae0bca64b9fcd8b",
+      "size": 196743,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/54f92c120558e1be0bc07fd5b5b1bc99889c9b1f424326f42d3120c8f497dd7c.jpg": {
+      "sha256": "54f92c120558e1be0bc07fd5b5b1bc99889c9b1f424326f42d3120c8f497dd7c",
+      "size": 31967,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/d11504e8398149f9bc46425c10fac427310ae4428f2dc0f8aeb69d23350b5eff.jpg": {
+      "sha256": "d11504e8398149f9bc46425c10fac427310ae4428f2dc0f8aeb69d23350b5eff",
+      "size": 25511,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/8b4ca6fe1c68be5d32fc0029be879535bb4bc0a1dff9f9f22633b0105df149f0.jpg": {
+      "sha256": "8b4ca6fe1c68be5d32fc0029be879535bb4bc0a1dff9f9f22633b0105df149f0",
+      "size": 25522,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12n-DeckPull.tsx": {
+      "sha256": "4099f06843b1523fe21ed8f6eda0738773015309ea7b053f936bc7d703858a34",
+      "size": 4187,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/4099f06843b1523fe21ed8f6eda0738773015309ea7b053f936bc7d703858a34.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/f26c144ffb955c5571e09305a9094dde3275f8fffae161f1ecbea0f6f3d8ecac.mp4": {
+      "sha256": "f26c144ffb955c5571e09305a9094dde3275f8fffae161f1ecbea0f6f3d8ecac",
+      "size": 488604,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/f26c144ffb955c5571e09305a9094dde3275f8fffae161f1ecbea0f6f3d8ecac.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/8d9f7abbc5b093d49238d7792041cbf583646ff2e3b9d8be67ef6f0364e78201.mp4": {
+      "sha256": "8d9f7abbc5b093d49238d7792041cbf583646ff2e3b9d8be67ef6f0364e78201",
+      "size": 210615,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/fb7a8e8648996113c7f57657da5794c1903d3ae17cf02b230f701304f7cf6411.jpg": {
+      "sha256": "fb7a8e8648996113c7f57657da5794c1903d3ae17cf02b230f701304f7cf6411",
+      "size": 16712,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/ea24c0efb6ad3e1b75bfbd4ab6effeba289801371d185af870ae79b28506f3e1.jpg": {
+      "sha256": "ea24c0efb6ad3e1b75bfbd4ab6effeba289801371d185af870ae79b28506f3e1",
+      "size": 20862,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/d8962ade240430e679ed7d2be04ef9fbd16cf16bb6667aa10710df085b1594f4.jpg": {
+      "sha256": "d8962ade240430e679ed7d2be04ef9fbd16cf16bb6667aa10710df085b1594f4",
+      "size": 20843,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12o-ZoomThrough.tsx": {
+      "sha256": "79bffe51dc08bc43cb2956919cd3fcf2d578db2f6d1b8589e749144950e3dde9",
+      "size": 4117,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/79bffe51dc08bc43cb2956919cd3fcf2d578db2f6d1b8589e749144950e3dde9.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/c54500589572e5a7320b41167c7305831590252416835049e31a2f872b60c294.mp4": {
+      "sha256": "c54500589572e5a7320b41167c7305831590252416835049e31a2f872b60c294",
+      "size": 484153,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/c54500589572e5a7320b41167c7305831590252416835049e31a2f872b60c294.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/0a056d7c344ed43634b33444ab8c02b8d3b603f47abe27063718f429a6284ed8.mp4": {
+      "sha256": "0a056d7c344ed43634b33444ab8c02b8d3b603f47abe27063718f429a6284ed8",
+      "size": 166495,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/48b0dc56a7c8ce993e48387614847d3c9ff74d4d82cc01b5d72c411761fbb027.jpg": {
+      "sha256": "48b0dc56a7c8ce993e48387614847d3c9ff74d4d82cc01b5d72c411761fbb027",
+      "size": 24216,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/84fd2ccb98316a350d9b6baa84c36665a6dad4d0a9270a6aec8d9dc2fb1ee3a9.jpg": {
+      "sha256": "84fd2ccb98316a350d9b6baa84c36665a6dad4d0a9270a6aec8d9dc2fb1ee3a9",
+      "size": 24222,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/079eac807c3ddf9ce8566b2b876813d8ce2175557558b85515ff16d4aabc5731.jpg": {
+      "sha256": "079eac807c3ddf9ce8566b2b876813d8ce2175557558b85515ff16d4aabc5731",
+      "size": 24216,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12p-Blinds.tsx": {
+      "sha256": "df0e19b45adbd5162b4e22c6fc8ffdde0e6b1bbcb7f967faa6e77a941e1b7de5",
+      "size": 3548,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/df0e19b45adbd5162b4e22c6fc8ffdde0e6b1bbcb7f967faa6e77a941e1b7de5.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/c7b6fc98e583f7302ea1c76c56cb45c8e3dc5289c90f736b7da29b30313bce43.mp4": {
+      "sha256": "c7b6fc98e583f7302ea1c76c56cb45c8e3dc5289c90f736b7da29b30313bce43",
+      "size": 273876,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/c7b6fc98e583f7302ea1c76c56cb45c8e3dc5289c90f736b7da29b30313bce43.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/b25ce2c5143c7712d65b633c8c42870aec7795591e430171ce58e11143fa00c5.mp4": {
+      "sha256": "b25ce2c5143c7712d65b633c8c42870aec7795591e430171ce58e11143fa00c5",
+      "size": 175578,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/a3e7e437153dc15f75e55768ed6e69f7b6c840ceed59145f676c07cb9c42cbd3.jpg": {
+      "sha256": "a3e7e437153dc15f75e55768ed6e69f7b6c840ceed59145f676c07cb9c42cbd3",
+      "size": 17716,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/d4f1442fd4079e2b005503ca8c0dc2c91305a1b1f2a52f67b8bd35c1b4ef5a3a.jpg": {
+      "sha256": "d4f1442fd4079e2b005503ca8c0dc2c91305a1b1f2a52f67b8bd35c1b4ef5a3a",
+      "size": 23079,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12q-Decode.tsx": {
+      "sha256": "4428c004920299c19951ed6635951c014e84abe70e1cbc7adde54936292395f3",
+      "size": 4166,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/4428c004920299c19951ed6635951c014e84abe70e1cbc7adde54936292395f3.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/b0e58d9e3cf60cf3a5f6a29a7fe6b5eb20dac9653f4962eaee0ba80c53023a0f.mp4": {
+      "sha256": "b0e58d9e3cf60cf3a5f6a29a7fe6b5eb20dac9653f4962eaee0ba80c53023a0f",
+      "size": 297595,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/b0e58d9e3cf60cf3a5f6a29a7fe6b5eb20dac9653f4962eaee0ba80c53023a0f.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/ba9bfedb9066074e733b0c296753d80b05bb4eb5b884c7c88c5412fb3c5444cb.mp4": {
+      "sha256": "ba9bfedb9066074e733b0c296753d80b05bb4eb5b884c7c88c5412fb3c5444cb",
+      "size": 206799,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/6d3eef9c6b37860fd94014af03713e7a15cdce62b36d5ef131b611151d7761ce.jpg": {
+      "sha256": "6d3eef9c6b37860fd94014af03713e7a15cdce62b36d5ef131b611151d7761ce",
+      "size": 22446,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/86f1a4a76579c294fc6359bb9be41143aa5cc57cd740e362b31d28aaae91f724.jpg": {
+      "sha256": "86f1a4a76579c294fc6359bb9be41143aa5cc57cd740e362b31d28aaae91f724",
+      "size": 23593,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/f84895bcb5e5d3bdcb0fe0befca0ac2b6bd3343ded2592f6bf1ce9535651cf9c.jpg": {
+      "sha256": "f84895bcb5e5d3bdcb0fe0befca0ac2b6bd3343ded2592f6bf1ce9535651cf9c",
+      "size": 23600,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12r-PillCarousel.tsx": {
+      "sha256": "3b84e74979642451807253f1dca0faffa7718084aca242842428e03c6aea6f5b",
+      "size": 3403,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/3b84e74979642451807253f1dca0faffa7718084aca242842428e03c6aea6f5b.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/fed97c9460caa3466295738a6f4d82d9fbe9589535a1e304c8e2a48f79827923.mp4": {
+      "sha256": "fed97c9460caa3466295738a6f4d82d9fbe9589535a1e304c8e2a48f79827923",
+      "size": 514914,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/fed97c9460caa3466295738a6f4d82d9fbe9589535a1e304c8e2a48f79827923.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/8e7d8fd8c0b26276c845d826d85a704415750a6728c1c040a0c0886fc2413953.mp4": {
+      "sha256": "8e7d8fd8c0b26276c845d826d85a704415750a6728c1c040a0c0886fc2413953",
+      "size": 156685,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/21c4b27711466674f4203b42f9ecccd158a89f2f969eca9605dd46385f2fbf32.jpg": {
+      "sha256": "21c4b27711466674f4203b42f9ecccd158a89f2f969eca9605dd46385f2fbf32",
+      "size": 23926,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/7673245383f8044ff9c0c43951f985c31a2e55569b8496a507ada808bcf926b3.jpg": {
+      "sha256": "7673245383f8044ff9c0c43951f985c31a2e55569b8496a507ada808bcf926b3",
+      "size": 23934,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/c3ff135dab4c3e1211667d16f17f6eb9a07548cb444005b1de252ef323ef1e17.jpg": {
+      "sha256": "c3ff135dab4c3e1211667d16f17f6eb9a07548cb444005b1de252ef323ef1e17",
+      "size": 23925,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12s-MergeHalves.tsx": {
+      "sha256": "dc6712528a4522e928cbddddd029178dead6e7f912a9b3eb3cc60894d8bfeaf8",
+      "size": 3562,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/dc6712528a4522e928cbddddd029178dead6e7f912a9b3eb3cc60894d8bfeaf8.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/247495e41202e0661f38ee87e12ccb2e02656ce1095faf89b6b8edee2b01dbf5.mp4": {
+      "sha256": "247495e41202e0661f38ee87e12ccb2e02656ce1095faf89b6b8edee2b01dbf5",
+      "size": 253272,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/247495e41202e0661f38ee87e12ccb2e02656ce1095faf89b6b8edee2b01dbf5.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/313b3ce8adc3be94412b969eaa4132698a706daf7ea6be958fc6bdece4e7239a.mp4": {
+      "sha256": "313b3ce8adc3be94412b969eaa4132698a706daf7ea6be958fc6bdece4e7239a",
+      "size": 158717,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/6c241ac9bfa14b8b09b254cbcdde77d7b97bceeb3dc8501cb6c77f2de1123d70.jpg": {
+      "sha256": "6c241ac9bfa14b8b09b254cbcdde77d7b97bceeb3dc8501cb6c77f2de1123d70",
+      "size": 16508,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/83625a87bbbfcbdff6c1c993de13037560983ae3a5fa1e8caa44c313ba09f295.jpg": {
+      "sha256": "83625a87bbbfcbdff6c1c993de13037560983ae3a5fa1e8caa44c313ba09f295",
+      "size": 24762,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/6c982ee43c544987fa95cf7f1aa8c4caac22afbe91119bd91f88d0f10326b62f.jpg": {
+      "sha256": "6c982ee43c544987fa95cf7f1aa8c4caac22afbe91119bd91f88d0f10326b62f",
+      "size": 24771,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T12t-SplitScreen.tsx": {
+      "sha256": "2dee1ee3e26864a11ce6d98a181d28933ffe30e33ed10e827992cdbd77dd536c",
+      "size": 3951,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/2dee1ee3e26864a11ce6d98a181d28933ffe30e33ed10e827992cdbd77dd536c.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/229dc1df890ecaa389cfe2c4764fb01ac8e983a020f10931abca72d309dc19d9.mp4": {
+      "sha256": "229dc1df890ecaa389cfe2c4764fb01ac8e983a020f10931abca72d309dc19d9",
+      "size": 249596,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/229dc1df890ecaa389cfe2c4764fb01ac8e983a020f10931abca72d309dc19d9.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/674f047c65ea9508cc9348fec43f146a27cbf77b5178c5f205d8a1e53f2cfb66.mp4": {
+      "sha256": "674f047c65ea9508cc9348fec43f146a27cbf77b5178c5f205d8a1e53f2cfb66",
+      "size": 505385,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/462caa0bf364e9f07304d3bd02469e70833f49945632feaddf3dc5037e3eda88.jpg": {
+      "sha256": "462caa0bf364e9f07304d3bd02469e70833f49945632feaddf3dc5037e3eda88",
+      "size": 77071,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/c536ea81d00abc56ad7376be99a65ac44885c07ae4fa82a543f6066ee9b1a53c.jpg": {
+      "sha256": "c536ea81d00abc56ad7376be99a65ac44885c07ae4fa82a543f6066ee9b1a53c",
+      "size": 58633,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/53ed96c3c538d242e41c4cf5a4fa473b4398283b59a40e6895c0b131f9170c38.jpg": {
+      "sha256": "53ed96c3c538d242e41c4cf5a4fa473b4398283b59a40e6895c0b131f9170c38",
+      "size": 58616,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20h-WindowStack.tsx": {
+      "sha256": "f3805c081d6271fd1bc30475557240270507669a3cdfd6a91c178f05494f6243",
+      "size": 4833,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/f3805c081d6271fd1bc30475557240270507669a3cdfd6a91c178f05494f6243.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/3a9ce0041c5f6cc5a3dd7b85d2f3d3d634bb91c730a36c65350e4437ac05b8a5.mp4": {
+      "sha256": "3a9ce0041c5f6cc5a3dd7b85d2f3d3d634bb91c730a36c65350e4437ac05b8a5",
+      "size": 3661285,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/3a9ce0041c5f6cc5a3dd7b85d2f3d3d634bb91c730a36c65350e4437ac05b8a5.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/cc496f1d49d45174d0dc6857a0171d3af707bebf1e38bdcfc66ba55c01090b38.mp4": {
+      "sha256": "cc496f1d49d45174d0dc6857a0171d3af707bebf1e38bdcfc66ba55c01090b38",
+      "size": 465732,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/16c047026465fb700c40ce9c0a4f49f0bed60ac9d3b827b7d2cffb338be07bf7.jpg": {
+      "sha256": "16c047026465fb700c40ce9c0a4f49f0bed60ac9d3b827b7d2cffb338be07bf7",
+      "size": 68405,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/de67948a3ab0a371caa7b0394f6ed3e8a74a61654f494dd435c028389dc70c05.jpg": {
+      "sha256": "de67948a3ab0a371caa7b0394f6ed3e8a74a61654f494dd435c028389dc70c05",
+      "size": 60162,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/44b0337943ce21d07e04ee43c3c91876a9efe563f208474040067b91d7d8dc8d.jpg": {
+      "sha256": "44b0337943ce21d07e04ee43c3c91876a9efe563f208474040067b91d7d8dc8d",
+      "size": 60177,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20i-PullBack.tsx": {
+      "sha256": "a230b79c916d0cbc7dd4227bfee4259e47f39d37fcfc7af01fafe9b36dc8b962",
+      "size": 4075,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/a230b79c916d0cbc7dd4227bfee4259e47f39d37fcfc7af01fafe9b36dc8b962.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/957d071934080cff4dbb6e1d23b4e495125f1babc4d768314536c08ab15ad6b3.mp4": {
+      "sha256": "957d071934080cff4dbb6e1d23b4e495125f1babc4d768314536c08ab15ad6b3",
+      "size": 2347433,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/957d071934080cff4dbb6e1d23b4e495125f1babc4d768314536c08ab15ad6b3.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/c6276b9b84d23c47d0a30c69faf3f607e16052146581d8b1dd92f137f8ed4816.mp4": {
+      "sha256": "c6276b9b84d23c47d0a30c69faf3f607e16052146581d8b1dd92f137f8ed4816",
+      "size": 217054,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/1b4e50fe31102c789f84e5d9212efe9f9a492551c290db37a13e20443b9afd73.jpg": {
+      "sha256": "1b4e50fe31102c789f84e5d9212efe9f9a492551c290db37a13e20443b9afd73",
+      "size": 23614,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/55ad375883816788dd1a37bea655304cbf781d540d01ad8356325d4c276cf478.jpg": {
+      "sha256": "55ad375883816788dd1a37bea655304cbf781d540d01ad8356325d4c276cf478",
+      "size": 21658,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/6e6b6ccc90d2894ea8d61d9428f1880e19ebc7d793c58c5224a7cd472ed73736.jpg": {
+      "sha256": "6e6b6ccc90d2894ea8d61d9428f1880e19ebc7d793c58c5224a7cd472ed73736",
+      "size": 21951,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20j-KineticWords.tsx": {
+      "sha256": "2b504c97ff053cdb8e08fa007f1d529a051eeebefa037a0494439e95daedefde",
+      "size": 3616,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/2b504c97ff053cdb8e08fa007f1d529a051eeebefa037a0494439e95daedefde.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/11b2dff969bcd5af56b25df1245ee5b200d02727680f6cf77960fcf941ef919f.mp4": {
+      "sha256": "11b2dff969bcd5af56b25df1245ee5b200d02727680f6cf77960fcf941ef919f",
+      "size": 370143,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/11b2dff969bcd5af56b25df1245ee5b200d02727680f6cf77960fcf941ef919f.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/904e6571e62c118eac041c6fb9fa4b25fbdae2b77f22120a51d29bf84fbba746.mp4": {
+      "sha256": "904e6571e62c118eac041c6fb9fa4b25fbdae2b77f22120a51d29bf84fbba746",
+      "size": 357668,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/c958eb1bd41035c0eee4a8d4cf77b1b1c2217026d3fa96efafa1839e833ca434.jpg": {
+      "sha256": "c958eb1bd41035c0eee4a8d4cf77b1b1c2217026d3fa96efafa1839e833ca434",
+      "size": 48005,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/a0f679919c3b5cdc9b2d07e35aa7a2399700fc3cb58ba613e717bdaefafac14c.jpg": {
+      "sha256": "a0f679919c3b5cdc9b2d07e35aa7a2399700fc3cb58ba613e717bdaefafac14c",
+      "size": 56081,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/a7315f2b196bb781a45bc4ccf45133fe5c0947d8df20c12d79e0d3a9fffead2a.jpg": {
+      "sha256": "a7315f2b196bb781a45bc4ccf45133fe5c0947d8df20c12d79e0d3a9fffead2a",
+      "size": 48517,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20k-ScreenRise.tsx": {
+      "sha256": "c8f03bd520382009d287c1ca38bd60362474693345d6133d2ad3502c538f5d38",
+      "size": 3609,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/c8f03bd520382009d287c1ca38bd60362474693345d6133d2ad3502c538f5d38.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/40e45cf186ffe5240d5b3ffc8aba0ff03db3217c701e058125b78165673eb623.mp4": {
+      "sha256": "40e45cf186ffe5240d5b3ffc8aba0ff03db3217c701e058125b78165673eb623",
+      "size": 1722242,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/40e45cf186ffe5240d5b3ffc8aba0ff03db3217c701e058125b78165673eb623.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/77f74e2d9ee888251104c58fb169cd187682bbf9ffad76eb026302028946d185.mp4": {
+      "sha256": "77f74e2d9ee888251104c58fb169cd187682bbf9ffad76eb026302028946d185",
+      "size": 574247,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/5094f071b85d278e856d6e3ceebade7f74b09ddd3379d6da8ff9a74e87b5e210.jpg": {
+      "sha256": "5094f071b85d278e856d6e3ceebade7f74b09ddd3379d6da8ff9a74e87b5e210",
+      "size": 62595,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/8a8045684d47a8ae5ccd33867c8fd2d4605e51ef42ebdb96fbc00685e9eaeaf4.jpg": {
+      "sha256": "8a8045684d47a8ae5ccd33867c8fd2d4605e51ef42ebdb96fbc00685e9eaeaf4",
+      "size": 65805,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/8429629feb707ba6fa3886bdd92af2bcb45391544da48069661664b4bd5a6264.jpg": {
+      "sha256": "8429629feb707ba6fa3886bdd92af2bcb45391544da48069661664b4bd5a6264",
+      "size": 65885,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20l-Coverflow.tsx": {
+      "sha256": "5f1ec24c591a42df8c34f9245465bdf9897a974338279c3c606713eab4d0dec4",
+      "size": 4664,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/5f1ec24c591a42df8c34f9245465bdf9897a974338279c3c606713eab4d0dec4.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/db25729ccc9ad94c16cb9065803ec48a2905493712984e3ae4c667e7ee6d3d4e.mp4": {
+      "sha256": "db25729ccc9ad94c16cb9065803ec48a2905493712984e3ae4c667e7ee6d3d4e",
+      "size": 6667542,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/db25729ccc9ad94c16cb9065803ec48a2905493712984e3ae4c667e7ee6d3d4e.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/b8e2351111b2dc48be1a10885359dfe8c4ef1de944fb4015c5eea4430c3a0a87.mp4": {
+      "sha256": "b8e2351111b2dc48be1a10885359dfe8c4ef1de944fb4015c5eea4430c3a0a87",
+      "size": 354357,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/5baade62e93aefb6c9b52206a2bd99c60adb98b866c77343c7654ec6f056100e.jpg": {
+      "sha256": "5baade62e93aefb6c9b52206a2bd99c60adb98b866c77343c7654ec6f056100e",
+      "size": 23173,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/e8bc0c017687cc38fdb5e2ff932609e16330d27df1228598722ed9207508cae7.jpg": {
+      "sha256": "e8bc0c017687cc38fdb5e2ff932609e16330d27df1228598722ed9207508cae7",
+      "size": 57553,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/f11eb69068fffcfb8340f133b55ae6d031505e88d83fe50dae8ca1c440af8c25.jpg": {
+      "sha256": "f11eb69068fffcfb8340f133b55ae6d031505e88d83fe50dae8ca1c440af8c25",
+      "size": 49460,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20m-PillToWindow.tsx": {
+      "sha256": "849a13b9b1ff7740ec00214727628503d6e6dddf50cd81bc7e246f6c3eee041c",
+      "size": 4145,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/849a13b9b1ff7740ec00214727628503d6e6dddf50cd81bc7e246f6c3eee041c.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/17b696044832b07c38c2cee7c3ca1c79ac1851d3fe644555e5823cad28d4416f.mp4": {
+      "sha256": "17b696044832b07c38c2cee7c3ca1c79ac1851d3fe644555e5823cad28d4416f",
+      "size": 1515966,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/17b696044832b07c38c2cee7c3ca1c79ac1851d3fe644555e5823cad28d4416f.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/3396319ff5668bb145c1e7842961e023a327a38b9e12d8b27422ef6db48badc3.mp4": {
+      "sha256": "3396319ff5668bb145c1e7842961e023a327a38b9e12d8b27422ef6db48badc3",
+      "size": 226981,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/07845518f4d38a9160be35e311ab7aa294a342039bdfcef738d7028af585d3c2.jpg": {
+      "sha256": "07845518f4d38a9160be35e311ab7aa294a342039bdfcef738d7028af585d3c2",
+      "size": 23605,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/dd16d615c916d08d2563dcd2443471abc7d699ce84ccd125a38837ff848e93c9.jpg": {
+      "sha256": "dd16d615c916d08d2563dcd2443471abc7d699ce84ccd125a38837ff848e93c9",
+      "size": 42112,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/282a0e7dea67d123239349b708a45816719246ae033830dd3f2364571d2ae721.jpg": {
+      "sha256": "282a0e7dea67d123239349b708a45816719246ae033830dd3f2364571d2ae721",
+      "size": 42061,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20n-AvatarAsk.tsx": {
+      "sha256": "94d9f45dc7cba5bbfd60e5a8f44f2148537032c2b8b97678e54cf403eaf79952",
+      "size": 4502,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/94d9f45dc7cba5bbfd60e5a8f44f2148537032c2b8b97678e54cf403eaf79952.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/89b76730e425426b57e45a9f97f046681e58fecfcd0c1c94ffc489bce7e5b9c7.mp4": {
+      "sha256": "89b76730e425426b57e45a9f97f046681e58fecfcd0c1c94ffc489bce7e5b9c7",
+      "size": 497913,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/89b76730e425426b57e45a9f97f046681e58fecfcd0c1c94ffc489bce7e5b9c7.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/3ebc3f803c946e2476f89f9620249f93305795cbc8bcef9b160de620a24d4a7e.mp4": {
+      "sha256": "3ebc3f803c946e2476f89f9620249f93305795cbc8bcef9b160de620a24d4a7e",
+      "size": 294359,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/563d1f2166763fd4aaa5be3a17d99d68ffde94d96ce5ed14a5a4a4f646819720.jpg": {
+      "sha256": "563d1f2166763fd4aaa5be3a17d99d68ffde94d96ce5ed14a5a4a4f646819720",
+      "size": 18816,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/ae8f0da5b2f6ab24854ba68d5e266e367a3564cd76bd27f21918b61e77598540.jpg": {
+      "sha256": "ae8f0da5b2f6ab24854ba68d5e266e367a3564cd76bd27f21918b61e77598540",
+      "size": 36547,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/4112f133c9517377bd0432fc0ffe076813ffbd78cae3b41d88b41f323183b53e.jpg": {
+      "sha256": "4112f133c9517377bd0432fc0ffe076813ffbd78cae3b41d88b41f323183b53e",
+      "size": 36401,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20o-StatSlam.tsx": {
+      "sha256": "1e395e125552592d046f9728530c671d1d8224e378dae0925ab238e3fc546df5",
+      "size": 4104,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/1e395e125552592d046f9728530c671d1d8224e378dae0925ab238e3fc546df5.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/0fec6655fa0e54a6d3766afb38f48b10b0a5dbd1bcadc5f3d9e392b0e940e4ff.mp4": {
+      "sha256": "0fec6655fa0e54a6d3766afb38f48b10b0a5dbd1bcadc5f3d9e392b0e940e4ff",
+      "size": 700742,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/0fec6655fa0e54a6d3766afb38f48b10b0a5dbd1bcadc5f3d9e392b0e940e4ff.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/188c237101eba2260d2374a8e75f1bb99d1d5842c2abdae747f04d99ce298d80.mp4": {
+      "sha256": "188c237101eba2260d2374a8e75f1bb99d1d5842c2abdae747f04d99ce298d80",
+      "size": 388671,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/4dc621da743f64d785b12e6b250de444717a995314049ce028640c71a8dedea8.jpg": {
+      "sha256": "4dc621da743f64d785b12e6b250de444717a995314049ce028640c71a8dedea8",
+      "size": 75306,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/1f8ada50dc4650709a53583a644036a1f3ab6b9416b91153c5647515a3727914.jpg": {
+      "sha256": "1f8ada50dc4650709a53583a644036a1f3ab6b9416b91153c5647515a3727914",
+      "size": 88807,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/1bc33a2104f43edfaeb9853b4b590a3e7aad51f77a6f9291d0ab041649bbf0d7.jpg": {
+      "sha256": "1bc33a2104f43edfaeb9853b4b590a3e7aad51f77a6f9291d0ab041649bbf0d7",
+      "size": 88813,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20p-TileFlip.tsx": {
+      "sha256": "a0d747ee2de47212840fa848d5b13980b2e558899096419976339913011f4252",
+      "size": 4412,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/a0d747ee2de47212840fa848d5b13980b2e558899096419976339913011f4252.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/210ab3e12b2109b86d1b913671e78685dc2dd2e170c4d1e51e8021ef28a75891.mp4": {
+      "sha256": "210ab3e12b2109b86d1b913671e78685dc2dd2e170c4d1e51e8021ef28a75891",
+      "size": 2337943,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/210ab3e12b2109b86d1b913671e78685dc2dd2e170c4d1e51e8021ef28a75891.mp4"
+    },
+    "media/fred-chapter-transitions-20-20261014/767a7a4d56694ff7d1116b787449f124e86d7dd581f9857070e33584b65bd1a0.mp4": {
+      "sha256": "767a7a4d56694ff7d1116b787449f124e86d7dd581f9857070e33584b65bd1a0",
+      "size": 528933,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/0eb52df495220bdc0e305b8488b586f2b1707a6220d74282a5552ff4be15ff48.jpg": {
+      "sha256": "0eb52df495220bdc0e305b8488b586f2b1707a6220d74282a5552ff4be15ff48",
+      "size": 63876,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/037dc00afe47c11e928638eb83fc2171ac306f41c55fd0de10e32165c2360074.jpg": {
+      "sha256": "037dc00afe47c11e928638eb83fc2171ac306f41c55fd0de10e32165c2360074",
+      "size": 100943,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    "media/fred-chapter-transitions-20-20261014/a05d3de13c86408ecb3f902c1529b0b2a716d11d6c1cd1f3fb3ce8457baf50fd.jpg": {
+      "sha256": "a05d3de13c86408ecb3f902c1529b0b2a716d11d6c1cd1f3fb3ce8457baf50fd",
+      "size": 96622,
+      "kind": "jpg",
+      "status": "reviewed",
+      "sourceKind": "public-derived-preview",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "access": "public"
+    },
+    ".artifacts/member-components/fred-chapter-transitions-20-20261014/fred-chapter-transitions-20-20261014/src/components/T20q-TextMask.tsx": {
+      "sha256": "5816e49b1c9303a24d294027c0e71780f016b85d0269d3980465ff6f1ec5bbf3",
+      "size": 4602,
+      "kind": "txt",
+      "status": "reviewed",
+      "sourceKind": "member-source-text",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/5816e49b1c9303a24d294027c0e71780f016b85d0269d3980465ff6f1ec5bbf3.txt"
+    },
+    "media/fred-chapter-transitions-20-20261014/283788780e48c4e41576a09e716bc18ac144ba13ddab53265199e2f97f14286a.mp4": {
+      "sha256": "283788780e48c4e41576a09e716bc18ac144ba13ddab53265199e2f97f14286a",
+      "size": 5274732,
+      "kind": "mp4",
+      "status": "reviewed",
+      "sourceKind": "member-original-or-package",
+      "access": "members",
+      "collectionId": "fred-chapter-transitions-20-20261014",
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-14T00:59:11Z",
+        "publicAt": "2026-10-28T00:59:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      },
+      "delivery": "website",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/283788780e48c4e41576a09e716bc18ac144ba13ddab53265199e2f97f14286a.mp4"
     }
   }
 }

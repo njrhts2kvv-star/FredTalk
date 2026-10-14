@@ -1,6 +1,6 @@
 <div align="center">
 
-# FredTalk 2.0
+# FredTalk 2.1
 
 ### Turn a narration script into a motion video with Codex.
 
@@ -13,6 +13,14 @@ Video production Skill · Searchable visual library · Keyframe and audio review
 FredTalk is a workflow developed through everyday video production. Give an agent your script, recording and media, then let it choose visuals, adapt components, produce keyframes and assemble the video.
 
 Browse the examples online, or download the repository and ask Codex or another coding agent to read the Skill and help create your own video.
+
+## Version 2.1 · 2026-10-14
+
+Adds **20 components** with purpose-specific tags: 10 chapter transitions (T12k–T12t) and 10 content entrances or handoffs. T20i and T20j may serve as openings; the other eight are primarily content transitions, tagged by their actual media, gallery, Q&A or numeric action.
+
+These new components have **14 days of member early access**. Previews are public; source, original videos and source ZIPs are downloaded through the website. Hand an official ZIP to Codex for verified offline import. This batch runs from October 14, 2026 at 08:59:11 to October 28, 2026 at 08:59:11 (Asia/Shanghai); website downloads then open to other users.
+
+[2.1 release notes](docs/releases/2.1.md) · [2.1 Release](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v2.1.0)
 
 ## Version 2.0 · 2026-10-13
 

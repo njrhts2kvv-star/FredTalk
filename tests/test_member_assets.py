@@ -161,13 +161,13 @@ class MemberAssetsTests(unittest.TestCase):
         server = importlib.util.module_from_spec(spec); spec.loader.exec_module(server)
         with patch.dict('os.environ', {}, clear=True): projected = server.projection()
         members = [item for item in projected['items'] if item.get('earlyAccess', {}).get('enabled')]
-        self.assertEqual(len(members), 105)
+        self.assertEqual(len(members), 125)
         for item in members:
             preview = item['previews'][0]
             self.assertTrue(preview['available'])
-            self.assertTrue(server.public_preview_url(preview['videoUrl']))
-            self.assertTrue(server.public_preview_url(preview['posterUrl']))
-            self.assertTrue(all(server.public_preview_url(frame['url']) for frame in preview['keyframes']))
+            self.assertTrue(server.public_preview_url(preview['videoUrl']) or preview['videoUrl'].startswith('/api/design-assets/'))
+            self.assertTrue(server.public_preview_url(preview['posterUrl']) or preview['posterUrl'].startswith('/api/design-assets/'))
+            self.assertTrue(all(server.public_preview_url(frame['url']) or frame['url'].startswith('/api/design-assets/') for frame in preview['keyframes']))
         self.assertFalse(server.public_preview_url('https://elsewhere.example/preview.mp4'))
         self.assertFalse(server.public_preview_url('https://www.fred-fu.com/api/visual-library/assets/' + 'a' * 64 + '.mp4'))
 
@@ -183,7 +183,8 @@ class MemberAssetsTests(unittest.TestCase):
             self.assertNotEqual(preview['sha256'], original['sha256'])
             self.assertEqual((preview['width'], preview['height']), (1280, 720))
             self.assertEqual(files[routes[original['url']]]['access'], 'members')
-            self.assertEqual(files[routes[preview['videoUrl']]]['status'], 'remote-preview')
+            self.assertIn(files[routes[preview['videoUrl']]]['status'], ['remote-preview','reviewed'])
+            self.assertNotEqual(files[routes[preview['videoUrl']]].get('access'), 'members')
             self.assertTrue(all(source['url'].startswith('/api/visual-library/assets/') for source in item['sources']))
 
     def test_cached_member_object_symlink_is_rejected_before_reuse(self):
