@@ -159,7 +159,7 @@ class MemberAssetsTests(unittest.TestCase):
     def test_public_previews_remain_visible_without_member_token(self):
         spec = importlib.util.spec_from_file_location('member_preview_server', ROOT / 'scripts/library_server.py')
         server = importlib.util.module_from_spec(spec); spec.loader.exec_module(server)
-        with patch.dict('os.environ', {}, clear=True): projected = server.projection()
+        with patch.dict('os.environ', {}, clear=True), patch.object(server, 'media_file', return_value=None): projected = server.projection()
         members = [item for item in projected['items'] if item.get('earlyAccess', {}).get('enabled')]
         self.assertEqual(len(members), 125)
         for item in members:
