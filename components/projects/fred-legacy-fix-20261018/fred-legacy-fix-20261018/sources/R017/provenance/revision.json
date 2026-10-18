@@ -1,0 +1,32 @@
+{
+  "scope": [
+    15,
+    16,
+    17,
+    26,
+    33,
+    45,
+    53
+  ],
+  "accent": "#8960ca",
+  "evidence": "/absolute/fredtalk/skills/fred-remotion-output/assets/reference-code/library-fred-20260913/reuse.example.json",
+  "changes": {
+    "BatchA.tsx": [
+      "#d5ef6b"
+    ],
+    "Clip026.tsx": [
+      "#d0e96f"
+    ],
+    "BatchB.tsx": [
+      "#d2e874",
+      "#d3e978"
+    ],
+    "Clip053.tsx": [
+      "#c7df60"
+    ]
+  },
+  "preserved": "All motion/layout/opacity/timing/media/audio and other colors; other14 delivered videos unchanged",
+  "base": "motion-20260916-v3",
+  "render": "single browser, concurrency1, PNG capture, h264 CRF15, source fps, 1080p",
+  "whyWholeSelectedClips": "Previous delivered files include exact-frame repairs and two complete isolated rerenders; a complete validated per-chunk cache is unavailable. Rerender only affected7 compositions, reuse verified media/runtime."
+}

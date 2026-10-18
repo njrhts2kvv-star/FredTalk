@@ -46,7 +46,7 @@ Fred新一期完整视频先核对[固定过渡配音](fixed-skill-library-inser
 | 焦点让位、内容接管、进入下一段 | `object-transition`，查T索引 | 同一对象连续、上一段真实尾态、新旧内容交接 |
 | 逐字输入、刷出、滚动、数值改变 | `text-presentation`，查W索引；需要才加`sound-effects` | 文字机制与载体运动分开，实际输入区间/数字滚动决定声音 |
 
-新增 R 编号在[library 复刻选型](library-remakes-reuse.md)补充横竖让位、固定双槽对照、报告双页与表格局部提取等候选，按当前场景需要补查；不会自动覆盖已认可的 B/T/W 方案。
+新增 R 编号在[Library 复刻选型](library-remakes-reuse.md)补充横竖让位、固定双槽对照、报告双页与表格局部提取等候选，按当前场景需要补查；不会自动覆盖已认可的 B/T/W 方案。
 
 这里的例子是检索入口；以当前catalog、准确源码和用户最新选择为准，不固定组件顺序、使用次数或每期配比。资产浏览地址及两类台账的区别见[selected-reference-library.md](selected-reference-library.md)。
 

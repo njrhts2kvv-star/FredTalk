@@ -1,0 +1,63 @@
+{
+  "project": "groups/ctw/core",
+  "entry": "src/audit-entry.tsx",
+  "rootRelative": "../../..",
+  "items": [
+    {
+      "label": "C001",
+      "compositionId": "C02",
+      "durationInFrames": 210,
+      "inputProps": {
+        "clipId": "C02"
+      }
+    },
+    {
+      "label": "C002",
+      "compositionId": "C04",
+      "durationInFrames": 444,
+      "inputProps": {
+        "clipId": "C04"
+      }
+    },
+    {
+      "label": "C003",
+      "compositionId": "C05",
+      "durationInFrames": 270,
+      "inputProps": {
+        "clipId": "C05"
+      }
+    },
+    {
+      "label": "C004",
+      "compositionId": "C06",
+      "durationInFrames": 588,
+      "inputProps": {
+        "clipId": "C06"
+      }
+    },
+    {
+      "label": "C005",
+      "compositionId": "C07",
+      "durationInFrames": 810,
+      "inputProps": {
+        "clipId": "C07"
+      }
+    },
+    {
+      "label": "C006",
+      "compositionId": "C08",
+      "durationInFrames": 432,
+      "inputProps": {
+        "clipId": "C08"
+      }
+    },
+    {
+      "label": "C007",
+      "compositionId": "C09",
+      "durationInFrames": 654,
+      "inputProps": {
+        "clipId": "C09"
+      }
+    }
+  ]
+}

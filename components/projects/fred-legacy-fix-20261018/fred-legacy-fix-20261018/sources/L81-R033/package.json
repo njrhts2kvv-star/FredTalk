@@ -1,0 +1,21 @@
+{
+  "name": "fred-library-remake-21-confirmed",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "compositions": "remotion compositions src/index.tsx",
+    "typecheck": "tsc --noEmit",
+    "render:038": "remotion render src/index.tsx Motion038 outputs/038.mp4 --codec=h264 --crf=15"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.515",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.515"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}

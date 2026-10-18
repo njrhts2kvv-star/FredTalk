@@ -1,0 +1,52 @@
+{
+  "project": "groups/r/legacy",
+  "entry": "src/index.tsx",
+  "rootRelative": "../../..",
+  "items": [
+    {
+      "label": "R001",
+      "compositionId": "Library120-Calendar",
+      "durationInFrames": 177
+    },
+    {
+      "label": "R002",
+      "compositionId": "Library120-LongSelection",
+      "durationInFrames": 810
+    },
+    {
+      "label": "R003",
+      "compositionId": "Library120-FeatureText",
+      "durationInFrames": 426
+    },
+    {
+      "label": "R004",
+      "compositionId": "Library120-VersionUpgrade",
+      "durationInFrames": 343
+    },
+    {
+      "label": "R005",
+      "compositionId": "Library120-ReferenceCount",
+      "durationInFrames": 568
+    },
+    {
+      "label": "R006",
+      "compositionId": "Library120-UnifiedEncoder",
+      "durationInFrames": 822
+    },
+    {
+      "label": "R007",
+      "compositionId": "Library120-MediaMontage",
+      "durationInFrames": 360
+    },
+    {
+      "label": "R008",
+      "compositionId": "Library119-CameraShowcase",
+      "durationInFrames": 1514
+    },
+    {
+      "label": "R009",
+      "compositionId": "Library119-TraeWork",
+      "durationInFrames": 222
+    }
+  ]
+}

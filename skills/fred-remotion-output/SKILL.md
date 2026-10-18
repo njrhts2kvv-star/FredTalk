@@ -2,16 +2,16 @@
 name: fred-remotion-output
 description: "Fred 的视频制作唯一日常入口。用于最终音频、逐字稿、字幕和素材到组件匹配、逐段前端建议、真实关键帧、完整 Remotion 视频及局部返修；包含正文文字动效与按需技术参考；Fred 授权时也负责按固定设计规则新做可复用组件并入库。Fred选方向、修改确认关键帧后，由助手内部检查动态、声音和接缝并交付。参考视频忠实复刻与云端执行使用各自独立入口。"
 metadata:
-  display_name: FredTalk 2.1
+  display_name: FredTalk 2.5
 ---
 
-# FredTalk 2.1
+# FredTalk 2.5
+
+公开版以本仓库 `library/catalog.json` 为当前组件事实源，不读取作者私人目录和音乐。32 条历史返修版公开；64 条新组件／场景按本批 14 天专属会员窗口下载。
 
 ## Component source and download access
 
-Read [component download access](references/distribution-access.md) when downloading or publishing components. For a downloaded official source ZIP, default to `python3 scripts/assets.py import --zip <local-path>`; no token configuration is needed. Automatic token downloads are optional. If this workspace lacks the public import tool, use a separate latest public checkout; do not force pull or overwrite owner production sources. Public previews and source availability are separate; verify installed source before selecting an executable component.
-
-公开版使用本仓库的组件数据、独立源码及按清单下载的通用素材。组件检索、逐段Top3比较和整期重复比较共享同一当前catalog；不读取作者私人目录、录音、背景音乐或机器绑定。浏览和检索无需API Key。
+Read [component download access](references/distribution-access.md) when downloading or publishing components. For a downloaded official source ZIP, use the latest public FredTalk checkout and default to `python3 scripts/assets.py import --zip <local-path>`; no token configuration is needed. Automatic token downloads are optional. Public previews and source availability are separate; verify installed source before selecting an executable component.
 
 ## 先验收组件，再交付建议或关键帧
 
@@ -65,6 +65,19 @@ Codex/助手常见问题是只用熟悉的两三个组件、或直接写大字�
 - 已有明确方向/关键帧确认不重复问；局部返修只处理受影响内容。当前直出授权可覆盖用户审看步骤，记录真实来源与未审看范围；内部技术检查和必要动态检查仍执行，不把输出授权写成样片认可。出关键帧还是直接出片，按 Fred 当次要求执行，不额外提醒或劝阻（2026-10-12 Fred 明确）；没有说明时按上面的默认顺序先出关键帧。
 - **把组件串成整期**（分段工程、录屏包装、段间交接表、全片去重、强调方式、渲染前动态自检）按[整期编排](references/episode-assembly.md)执行。给写分段代码的子任务的简报必须带上它的第2–7节和本期交接表。工程结构直接用[整期骨架](templates/episode-skeleton/README.md)（时间轴、段外壳、交接几何、分块渲染、音频和 BGM、推前端）；交付前按整期编排第 12 节检查。
 
+## 做一整期视频：最短路径
+
+Fred 说“直接做视频”“直接出片”时，按下面这条路做。它是把 116–121 期的做法整理出来的（成对样例、`readability_audit` 和骨架里的 episode-kit 是 2026-10-15 才补上的）。开头“先验收组件”一节的门禁照常执行，一步都不省；但门禁只证明来源合规，**不证明画面好**，质量要靠第 1、3、5、6 步：
+
+1. **先看[好坏成对样例](references/paired-examples.md)**：同一句口播做对和做错各长什么样。
+2. **工程从[整期骨架](templates/episode-skeleton/README.md)拷**，共享件直接用骨架的 `src/components/episode-kit/`（真实比例 Codex 框、黑胶囊、毛玻璃、章节头与章节过渡、大播放窗片段），只换本期常量。
+3. **写整期简报**：按[简报模板](templates/episode-assembly-brief.md)逐句填动作表（对象 → 变化 → 证据在哪 → 观众看哪 → 交给谁）和交接表，过完五条自查再写代码。整期简报（分段方案、交接表、全片规则）的范例：[120 期](templates/examples/brief-ep120.md)、[121 期](templates/examples/brief-ep121.md)。
+4. **逐段选组件并过门禁**：按上面“每段先看候选，再定画面”写 `componentPlan`，跑 `scene.py --candidates-only`，`library_gate.py` 在建议阶段和关键帧阶段都必须 PASS。
+5. **场景为本期重写**：拆已认可组件的动作，每个场景第一行注释写动作来源；范例场景在 `templates/examples/scene-*.tsx`（只供阅读）。
+6. **先做一段对照，再铺全片**；每段出关键帧和中间态，**自己逐张看图**，问题写到段号和秒数。
+7. **1080p 预览后跑 `motion_audit.py` 和 `readability_audit.py`**，接缝每 4 帧拼一张图看；视觉验收和技术验收分开写。
+8. 按[整期编排](references/episode-assembly.md)第 12 节做交付前检查，再出 4K60。
+
 ## 把用户要求带到每个实际镜头
 
 组件适配的共享字体、全文原位强调及媒体接替见[复用图谱](references/component-reuse-map.md#共享适配工具)。`scene.py` 会带出本段 `componentAdaptation`，实施前核对同组字阶、内容职责、全文检查状态和对象级保护；准确参数来自当前内容，不固定单期字号、行数或组件组合。
@@ -90,7 +103,7 @@ Fred后续自己的每期完整视频默认在自然断点复用一次[Skill／�
 
 ## 始终保留
 
-全部已认可组件集合（library 复刻、各期精选、新增精选、交互组件、3D 运镜、新闻快闪等）的编号、说明与入库/发布记录统一见[组件集合索引](references/component-collections.md)。默认检索已覆盖全部集合，不需要逐个记住集合名。
+全部已认可组件集合（Library 复刻、各期精选、新增精选、交互组件、3D 运镜、新闻快闪等）的编号、说明与入库/发布记录统一见[组件集合索引](references/component-collections.md)。默认检索已覆盖全部集合，不需要逐个记住集合名。
 
 1. 最新用户要求优先。锁定原文和实际素材；无录音可估时构思，最终录音/SRT到位后更新受影响动作、字幕和音效，不能只换音轨。没有最终录音时只做到关键帧，不出整片；时长不够时加组件或剪短，不用慢推、定格凑时长。
 2. 只有一份当前 Manifest，`pages/stableId`记录语义段。场景资料带入已选方向、实现模式、当前素材、反馈、保留范围和相邻交接。制作/审看/交付各自绑定准确版本。
@@ -111,7 +124,7 @@ Fred后续自己的每期完整视频默认在自然断点复用一次[Skill／�
 | 产出真实关键帧供Fred看 | [路线与确认](references/route-and-storyboard-review.md#真实关键帧)及[审看片](references/segment-review.md)；带实际最长文字、字幕、品牌、运动中间态和接缝前后 |
 | 设计对象让位/文字呈现 | [对象过渡](references/object-transitions.md)或[文字呈现](references/text-presentation.md)；按需查 T/W 局部动作 |
 | 处理具体Remotion技术或维护既有Deck | [内部模块](references/internal-modules.md)；固定本期runtime，按问题读取技术rules；Deck点击/比例等合同只在明确维护或复现既有Deck时适用 |
-| 参考 library 原片编排镜头 | [library 镜头语言](references/library-shot-language.md)；先定观看任务和对象来源/去向，再查对应原片区间与组件 |
+| 参考 Library 原片编排镜头 | [Library 镜头语言](references/library-shot-language.md)；先定观看任务和对象来源/去向，再查对应原片区间与组件 |
 | 编排录屏或其他任务给的生成视频 | 先按[整期编排](references/episode-assembly.md#2-录屏段怎么包装)的录屏包装规则（可读、镜头跟随、交互演出、纯滚动≤2秒）；主视频全屏播放先用[默认大播放组件](references/fullscreen-video-window.md)；[媒体与蒙版](references/media-and-overlays.md)及路线文档的[外部视频交接](references/route-and-storyboard-review.md#外部视频交接)；保留媒体身份、时钟、声音和首尾 |
 | 内部检查动作/声音/连续性 | [内容与质感审看](references/content-to-component.md#两个问题都通过才算内部审看通过)、[音效](references/sound-effects.md)、`scene.py --stage joining`；渲染分段后跑 `scripts/motion_audit.py` 查慢推、纯滚动和定格，见[整期编排](references/episode-assembly.md#8-动态自检motion_auditpy) |
 | 渲染、下载、完整交付 | [渲染与交付](references/render-and-delivery.md)和[阶段门禁](references/production-gates.md)；此时读云执行和最终文件检查 |

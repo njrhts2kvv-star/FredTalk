@@ -2,6 +2,7 @@
 # 本机 4K60 补渲指定块（同 cloud.sh 参数；返修少量块时比开云端快），用法：bash render/local.sh S07_0-383 ...
 set -uo pipefail
 V="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"; cd "$V"
+PRIV=$(mktemp -d); export TMPDIR="$PRIV/"; trap 'rm -rf "$PRIV"' EXIT   # 120 期：本次渲染独占临时目录，结束整个删掉（打包不攒在系统临时目录，也不误删别的进程的）
 one() { local name=$1 seg=${1%_*} r=${1##*_}; local a=${r%-*} b=${r#*-} n=$(( ${r#*-} - ${r%-*} + 1 ))
   npx remotion render src/index.tsx $seg out/chunks/$name.tmp.mp4 --frames=$a-$b --muted --public-dir=public-4k --scale=2 --codec=h264 --crf=16 \
     --pixel-format=yuv420p --color-space=bt709 --concurrency=4 --timeout=120000 --log=error || { echo "$name 失败"; return 1; }

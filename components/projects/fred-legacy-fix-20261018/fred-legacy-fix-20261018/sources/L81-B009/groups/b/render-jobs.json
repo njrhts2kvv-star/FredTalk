@@ -1,0 +1,162 @@
+{
+  "project": "groups/b",
+  "entry": "src/index.tsx",
+  "rootRelative": "../..",
+  "items": [
+    {
+      "label": "B002",
+      "compositionId": "FredMotion-002",
+      "durationInFrames": 330
+    },
+    {
+      "label": "B006",
+      "compositionId": "FredMotion-006",
+      "durationInFrames": 660
+    },
+    {
+      "label": "B007",
+      "compositionId": "FredMotion-007",
+      "durationInFrames": 1140
+    },
+    {
+      "label": "B008",
+      "compositionId": "FredMotion-008",
+      "durationInFrames": 660
+    },
+    {
+      "label": "B009",
+      "compositionId": "FredMotion-009",
+      "durationInFrames": 651
+    },
+    {
+      "label": "B011",
+      "compositionId": "FredMotion-011",
+      "durationInFrames": 840
+    },
+    {
+      "label": "B014",
+      "compositionId": "FredMotion-014",
+      "durationInFrames": 1140
+    },
+    {
+      "label": "B016",
+      "compositionId": "FredMotion-016",
+      "durationInFrames": 270
+    },
+    {
+      "label": "B018",
+      "compositionId": "FredMotion-018",
+      "durationInFrames": 600
+    },
+    {
+      "label": "B019",
+      "compositionId": "FredMotion-019",
+      "durationInFrames": 780
+    },
+    {
+      "label": "B020",
+      "compositionId": "FredMotion-020",
+      "durationInFrames": 1020
+    },
+    {
+      "label": "B024",
+      "compositionId": "FredMotion-024",
+      "durationInFrames": 360
+    },
+    {
+      "label": "B026",
+      "compositionId": "FredMotion-026",
+      "durationInFrames": 480
+    },
+    {
+      "label": "B027",
+      "compositionId": "FredMotion-027",
+      "durationInFrames": 540
+    },
+    {
+      "label": "B035",
+      "compositionId": "FredMotion-035",
+      "durationInFrames": 300
+    },
+    {
+      "label": "B038",
+      "compositionId": "FredMotion-038",
+      "durationInFrames": 660
+    },
+    {
+      "label": "B041",
+      "compositionId": "FredMotion-041",
+      "durationInFrames": 1380
+    },
+    {
+      "label": "B042",
+      "compositionId": "FredMotion-042",
+      "durationInFrames": 300
+    },
+    {
+      "label": "B044",
+      "compositionId": "FredMotion-044",
+      "durationInFrames": 480
+    },
+    {
+      "label": "B046",
+      "compositionId": "FredMotion-046",
+      "durationInFrames": 420
+    },
+    {
+      "label": "B059",
+      "compositionId": "FredMotion-059",
+      "durationInFrames": 720
+    },
+    {
+      "label": "B060",
+      "compositionId": "FredMotion-060",
+      "durationInFrames": 480
+    },
+    {
+      "label": "B062",
+      "compositionId": "FredMotion-062",
+      "durationInFrames": 540
+    },
+    {
+      "label": "B063",
+      "compositionId": "FredMotion-063",
+      "durationInFrames": 420
+    },
+    {
+      "label": "B064",
+      "compositionId": "FredMotion-064",
+      "durationInFrames": 540
+    },
+    {
+      "label": "B065",
+      "compositionId": "FredMotion-065",
+      "durationInFrames": 360
+    },
+    {
+      "label": "B066",
+      "compositionId": "FredMotion-066",
+      "durationInFrames": 1020
+    },
+    {
+      "label": "B069",
+      "compositionId": "FredMotion-069",
+      "durationInFrames": 510
+    },
+    {
+      "label": "B070",
+      "compositionId": "FredMotion-070",
+      "durationInFrames": 360
+    },
+    {
+      "label": "B074",
+      "compositionId": "FredMotion-074",
+      "durationInFrames": 480
+    },
+    {
+      "label": "B075",
+      "compositionId": "FredMotion-075",
+      "durationInFrames": 960
+    }
+  ]
+}

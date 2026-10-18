@@ -1,0 +1,698 @@
+[
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/_fixtures/Motion.tsx",
+    "file": "dependencies/Shotcraft/demos/_fixtures/Motion.tsx",
+    "sourceHash": "sha256:961a9ce2401e38b5fe22fce7f44d84fc656d76aad0b178082e447feb01494421",
+    "draftHash": "sha256:961a9ce2401e38b5fe22fce7f44d84fc656d76aad0b178082e447feb01494421",
+    "id": "shot-avatar-bracket-carousel",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/ui-entrance/avatar-bracket-carousel/AvatarBracketCarousel.tsx",
+    "file": "components/shot-avatar-bracket-carousel.tsx",
+    "sourceHash": "sha256:b9f125b0f4f1f9ff6a41a05147a7111e85e89015e73e0223b843a87523715efc",
+    "draftHash": "sha256:381293e3e7805ee8a31be69c586fb141fee2794c30338580157a4bc9fb53d9b0",
+    "id": "shot-avatar-bracket-carousel",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/rhythm/beat-step-list-theme-cycle/BeatStepListThemeCycle.tsx",
+    "file": "components/shot-beat-step-list-theme-cycle.tsx",
+    "sourceHash": "sha256:6dfe335735c21865303c3f817489b3c81578a855a2aef4f5f9e678b56e6ac434",
+    "draftHash": "sha256:fb05292d22a8ae8172633f56123cb3649ad5ab68c4821015502f056a133fda47",
+    "id": "shot-beat-step-list-theme-cycle",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/_fixtures/Fixtures.tsx",
+    "file": "dependencies/Shotcraft/demos/_fixtures/Fixtures.tsx",
+    "sourceHash": "sha256:e06a6edce67ba854c46b897c11575d487ab265a2b3edf2b480be85dbe29bb5a0",
+    "draftHash": "sha256:4755e531151ad87616e5e5b53de3853e07a7498eefaeeb985540ff6afa7f94b6",
+    "id": "shot-brand-frame-snap",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/effects/brand-frame-snap/BrandFrameSnap.tsx",
+    "file": "components/shot-brand-frame-snap.tsx",
+    "sourceHash": "sha256:4a90782092ade6c63ec05dc7e509096c03793242c60ceb836d6b491c34fbf94b",
+    "draftHash": "sha256:162a85d1ee8336a5cdd53102dbc087df8db512e05c3c47adaf5ff2b30e118986",
+    "id": "shot-brand-frame-snap",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/transition/circle-match-iris/CircleMatchIris.tsx",
+    "file": "components/shot-circle-match-iris.tsx",
+    "sourceHash": "sha256:0c2afbb49d65aa15241396fb2343ba3cb046d0958cd80a9eac1925e4f93efd20",
+    "draftHash": "sha256:ed4ba593f59e4a5123d5d635855d631b74ddada477a428d76e87c598281ae949",
+    "id": "shot-circle-match-iris",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/transition/color-block-step-wipe/ColorBlockStepWipe.tsx",
+    "file": "components/shot-color-block-step-wipe.tsx",
+    "sourceHash": "sha256:b20b9a7065356705e27f836e2ea89c9f474e23165a4a9d383b79d5a0fd838677",
+    "draftHash": "sha256:0e9f262c5188b35d81e3515c58d6ef9d9668435ba6f5aa932ed412d6f9460c8b",
+    "id": "shot-color-block-step-wipe",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/typography/countdown-arc-scatter/CountdownArcScatter.tsx",
+    "file": "components/shot-countdown-arc-scatter.tsx",
+    "sourceHash": "sha256:ab1c55fff0b9122fa06d7ec87f3e21b3c1cbc716e50d8bab0f910ffb3cb7c571",
+    "draftHash": "sha256:a8345d1fffcbced30d165ef9935e34e6cd1f4e16377d28da439b9cd63e9eca6c",
+    "id": "shot-countdown-arc-scatter",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/camera/cursor-flyover/CursorFlyover.tsx",
+    "file": "components/shot-cursor-flyover.tsx",
+    "sourceHash": "sha256:911e6f6a541c6aed41eb311fbc25af1f0d096591283f2bcf70e1f907ae87e78f",
+    "draftHash": "sha256:f84b79ab511c6a2c1607e93fcd3ed19f118810456b57bffe9d43a89a3c9462fd",
+    "id": "shot-cursor-flyover",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/ui-entrance/doc-park-left-pill-deal/DocParkLeftPillDeal.tsx",
+    "file": "components/shot-doc-park-left-pill-deal.tsx",
+    "sourceHash": "sha256:852b32b59cc3a894d789ba5e18029bc1e67b70757775488c6fb0b83ce4cb100a",
+    "draftHash": "sha256:d0fa51dd3fd7af1248f764401c61ce15ecf256412309f7f1577abf508654c417",
+    "id": "shot-doc-park-left-pill-deal",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/camera/graze-face-tour/GrazeFaceTour.tsx",
+    "file": "components/shot-graze-face-tour.tsx",
+    "sourceHash": "sha256:67a92ec45709381b23e79b669a154c9fab2d4ce4997d95226c97c297fd038165",
+    "draftHash": "sha256:87f6ae7dba51dd452b07624cc43ba0d2c4919833079498f52d9e20b6f0cfa3ae",
+    "id": "shot-graze-face-tour",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/typography/lead-word-zoom-assemble/LeadWordZoomAssemble.tsx",
+    "file": "components/shot-lead-word-zoom-assemble.tsx",
+    "sourceHash": "sha256:6b6faf14bf6d00fbd81bf0a6085ea7ea979c9ff473d81c3bb6c0bf479ab3b3a5",
+    "draftHash": "sha256:6b6faf14bf6d00fbd81bf0a6085ea7ea979c9ff473d81c3bb6c0bf479ab3b3a5",
+    "id": "shot-lead-word-zoom-assemble",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/ui-entrance/page-waterfall-wall/VerticalTicker.tsx",
+    "file": "dependencies/Shotcraft/demos/ui-entrance/page-waterfall-wall/VerticalTicker.tsx",
+    "sourceHash": "sha256:e4f90b838559beae465c6bb08736c00097bb0107d6dd4a378f64308e2acf1bae",
+    "draftHash": "sha256:e4f90b838559beae465c6bb08736c00097bb0107d6dd4a378f64308e2acf1bae",
+    "id": "shot-page-waterfall-wall",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/ui-entrance/page-waterfall-wall/PageWaterfallWall.tsx",
+    "file": "components/shot-page-waterfall-wall.tsx",
+    "sourceHash": "sha256:b3e2de8674a22c0d1f523db4bf40443447e143b35b7d3ecd81ff3ea8db4f9f79",
+    "draftHash": "sha256:3c6f3658c41bddfb28b7e0c1c619d5f0590c2acb7f93c9ad179df07e225f59bc",
+    "id": "shot-page-waterfall-wall",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/data/particle-sand-fill/ParticleSandFill.tsx",
+    "file": "components/shot-particle-sand-fill.tsx",
+    "sourceHash": "sha256:f0094421646b5c68af5a57592d4e7f554daeb94d8892aa4bbf40bf381ca97617",
+    "draftHash": "sha256:b735e016fcb592a04d4f89cb1122aa34014a9ebac481b46684222d76024ec1a3",
+    "id": "shot-particle-sand-fill",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/interaction/picker-carousel-feature-cycle/PickerCarouselFeatureCycle.tsx",
+    "file": "components/shot-picker-carousel-feature-cycle.tsx",
+    "sourceHash": "sha256:123381f36cd03fa6480704b3abd406e09772196a035fcee12d540f3078af69c3",
+    "draftHash": "sha256:ef54ae1ee1b063d861d8516d45d54bf27d8abbc634b6046785315106fc859258",
+    "id": "shot-picker-carousel-feature-cycle",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/_fixtures/PageCam2D.tsx",
+    "file": "dependencies/Shotcraft/demos/_fixtures/PageCam2D.tsx",
+    "sourceHash": "sha256:36b3b90680df7e99f0ced02f135181d7037f74c33a4f425cc01f7a110d20f69a",
+    "draftHash": "sha256:36b3b90680df7e99f0ced02f135181d7037f74c33a4f425cc01f7a110d20f69a",
+    "id": "shot-spotlight-hero-card",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/opening/spotlight-hero-card/SpotlightHeroCard.tsx",
+    "file": "components/shot-spotlight-hero-card.tsx",
+    "sourceHash": "sha256:9dcc839d8953ff930ade91c82a7da178a31afdaa1e81b1b7ff59820e4b6cb04c",
+    "draftHash": "sha256:165bafefba18176f9f806c7daca92da0d53a56bef70797ce4184385b3491fa9a",
+    "id": "shot-spotlight-hero-card",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/camera/steep-tilt-glide/SteepTiltGlide.tsx",
+    "file": "components/shot-steep-tilt-glide.tsx",
+    "sourceHash": "sha256:184740415dfcaf34311e42fe63b82a69ff987fbb4633f5a8bfb4318ec20e179c",
+    "draftHash": "sha256:72b86cca37b423e69dac5617f2ec268e9f1314ebf90c832e5b615880700e0863",
+    "id": "shot-steep-tilt-glide",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/outro/ui-to-brand-morph/InputMorphsIntoLogo.tsx",
+    "file": "components/shot-input-morph-assemble.tsx",
+    "sourceHash": "sha256:8822a5505d06a24bcde526ac47904278b4ebdb2d730504b83dfff46f62cff930",
+    "draftHash": "sha256:28cdcd9dbe8fcb229152587ff480a7d3a569b3eb9a64788832c54b3a160d1e2c",
+    "id": "shot-input-morph-assemble",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/typography/vertical-word-roll-blur-cycle/VerticalWordRollBlurCycle.tsx",
+    "file": "components/shot-vertical-word-roll-blur-cycle.tsx",
+    "sourceHash": "sha256:b5f5adb87fdd07730759926e765bc4ce81ee97e47cc4379bd98b4c7a5e14b634",
+    "draftHash": "sha256:ae38458b791e2391b596e3325c668f80ff1b8f1154db1a94c66ed6e4bae57cf7",
+    "id": "shot-vertical-word-roll-blur-cycle",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/transition/white-flash-logo-simplify-cut/WhiteFlashLogoSimplifyCut.tsx",
+    "file": "components/shot-white-flash-logo-simplify-cut.tsx",
+    "sourceHash": "sha256:3799ba945628b14b28232b7be2a193ef0669faf47f3f62686a8cd4af58eb29d3",
+    "draftHash": "sha256:0456c9f5aede4c02ce64512edd00235ba4cb9944c733932c2e01aedf234da3e1",
+    "id": "shot-white-flash-logo-simplify-cut",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/typography/word-relay-filmstrip/WordRelayFilmstrip.tsx",
+    "file": "components/shot-word-relay-filmstrip.tsx",
+    "sourceHash": "sha256:683f51fb630b93d1dddc4918e8a9e3d694e509f420df1645936590ce8e551f5a",
+    "draftHash": "sha256:589f6186ab6767b43763f13158eec58dc62597cf44eb8c0fc699b124acba3486",
+    "id": "shot-word-relay-filmstrip",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Shotcraft/demos/typography/word-relay-geometry/WordRelayGeometry.tsx",
+    "file": "components/shot-word-relay-geometry.tsx",
+    "sourceHash": "sha256:02d2a038ab576b6743bf417572694e09833fed49319174c3005712e6fd0ffc7b",
+    "draftHash": "sha256:d9b7f05536bd2d74d67f9248bb771c777e2f5e4a00a331957414fbf420154d77",
+    "id": "shot-word-relay-geometry",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/focus-dim-spotlight.tsx",
+    "file": "components/talk-focus-dim-spotlight.tsx",
+    "sourceHash": "sha256:d1d5e488a783639ccbd9078119b4ccba8a809603cdb1f8c63a331da527fd0d09",
+    "draftHash": "sha256:4675f485c01aa71c00536a7b07b9b672859adc23acbf48fb9f040a7b5576e2f6",
+    "id": "talk-focus-dim-spotlight",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/highlighter-sweep.tsx",
+    "file": "components/talk-highlighter-sweep.tsx",
+    "sourceHash": "sha256:f04a519c5c0167b1da4b54b5a7082893e89f10ccf526ea080732cadc769893b6",
+    "draftHash": "sha256:6101684754d6b01c2e089f29249601bff6cf47cbea40dba135dbf98ba8a17580",
+    "id": "talk-highlighter-sweep",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/scribble-annotation.tsx",
+    "file": "components/talk-scribble-annotation.tsx",
+    "sourceHash": "sha256:373f659948a7c7997590afa935a26a635fdbf195195633ed628992f536305786",
+    "draftHash": "sha256:cd83c07c73560c4e58e200997e6452b1a7dcb93006c060262d98bb464587e2a6",
+    "id": "talk-scribble-annotation",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/callout-line-label.tsx",
+    "file": "components/talk-callout-line-label.tsx",
+    "sourceHash": "sha256:58d29fcd73a8f41ae13e9cad9a281b50d817c57b2fe0b82d788e8f0e6175a314",
+    "draftHash": "sha256:5cb7cb38b27f993a2ff95e24ffecf5466ecae2b5fd7bab0b5c8613ee517e9909",
+    "id": "talk-callout-line-label",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/converging-arrows.tsx",
+    "file": "components/talk-converging-arrows.tsx",
+    "sourceHash": "sha256:429f963d636c31e9ce9a9aa2ae9cfe2ea11f8cc4999c358a2ef8bd57097aa4ce",
+    "draftHash": "sha256:f97e327f3cf72aac5cb699f5dc8fc706aed1ae8623be755eb1889417e7081261",
+    "id": "talk-converging-arrows",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/corner-bracket-frame.tsx",
+    "file": "components/talk-corner-bracket-frame.tsx",
+    "sourceHash": "sha256:4c39c67354ce057edb7050891367d0300ab9b4e407e2c107ef67701bb3c6deb0",
+    "draftHash": "sha256:0c28002379fbe3bcaeaab738cf24b2c227e4c656c342a56424fec4bf2a11caf2",
+    "id": "talk-corner-bracket-frame",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/crash-zoom-punch.tsx",
+    "file": "components/talk-crash-zoom-punch.tsx",
+    "sourceHash": "sha256:3e4bc7d7ad3eb4fcfe52de07a9e2976d90b69dc01de460eab82dae389ff05a69",
+    "draftHash": "sha256:cbbabc7f85f02f77490a5b398cef4bfdf6a9891ddbec8ef44c5533e4ce981a3e",
+    "id": "talk-crash-zoom-punch",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/scanline-annotate.tsx",
+    "file": "components/talk-scanline-annotate.tsx",
+    "sourceHash": "sha256:d51fb08a3cb1ef8648e57cbcbac31a4e94a3518fa72736088c840915cbe6de94",
+    "draftHash": "sha256:ab18211f09204d2c3d7c1363344346477c87fb2759ed89fdcbdf5cb006ee2600",
+    "id": "talk-scanline-annotate",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/ui-prop-theater.tsx",
+    "file": "components/talk-ui-prop-theater.tsx",
+    "sourceHash": "sha256:f85f9c49ecbc1cf170ce977bed5536eacdf7aacddfc9f3051c4f7d7c627bd08b",
+    "draftHash": "sha256:c0bd53a21cce093aaeb5d36ed232fa173f1540c1e0bc995b207ac4949af8f5c8",
+    "id": "talk-ui-prop-theater",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/bed-echo-blur.tsx",
+    "file": "components/talk-bed-echo-blur.tsx",
+    "sourceHash": "sha256:bdae9cbb330d3870ce39cb34db429eac7db85d7e3abdb0731df99260a137aa5a",
+    "draftHash": "sha256:4cac52e900debc410fc4da78074b01ea0fd824a847db5cdcbba299d86d87234a",
+    "id": "talk-bed-echo-blur",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/chat-message-flow.tsx",
+    "file": "components/talk-chat-message-flow.tsx",
+    "sourceHash": "sha256:c841669eefc46253286cc37a3545db7e5eed45dbfb22f9e82c411fda18c6a0df",
+    "draftHash": "sha256:624ad0ac32cf74aaacc522feeb1c0e5a837883a1418a0e64bcf5f95224a476e5",
+    "id": "talk-chat-message-flow",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/cursor-actor-demo.tsx",
+    "file": "components/talk-cursor-actor-demo.tsx",
+    "sourceHash": "sha256:411baf57cd319fe5b72a089fe876501f4b5bef3592ce273a23aaa18587340f2d",
+    "draftHash": "sha256:19f8e0325c4071a4b07846364b8abdac2bcceb132d4c37ce1caaabd8e3475878",
+    "id": "talk-cursor-actor-demo",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/evidence-scroll-tour.tsx",
+    "file": "components/talk-evidence-scroll-tour.tsx",
+    "sourceHash": "sha256:b29eac867833599bad85f43798f52cc98f9d1682f167ca8b7c2636d52fda34b2",
+    "draftHash": "sha256:b019bc97b04664746af79376d2235cc5ed877c9111e448d4560099e306ae6535",
+    "id": "talk-evidence-scroll-tour",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/still-layout-relay.tsx",
+    "file": "components/talk-still-layout-relay.tsx",
+    "sourceHash": "sha256:acf431e96eefbe478be5b82ae8cfeb11cccc734580367667a8f3fd3210c602dc",
+    "draftHash": "sha256:e5e354ffa50c29cb1bd07a2d23f35e71a528929009dfb04cbe71cfe9994beeec",
+    "id": "talk-still-layout-relay",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/ui-flow-theater.tsx",
+    "file": "components/talk-ui-flow-theater.tsx",
+    "sourceHash": "sha256:05d1aa1e495221f067ab5b8c9bb186275fe4450c59b2fb84f12276ab30c135de",
+    "draftHash": "sha256:763febb4cafa425a37ce578d409a00b7fc507ddcc10529e642e6a5e2f8f146aa",
+    "id": "talk-ui-flow-theater",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/doc-park-left-pill-deal.tsx",
+    "file": "components/talk-doc-park-left-pill-deal.tsx",
+    "sourceHash": "sha256:874d90c93efd1a9334970629d0a29f67fdb2f8900135174b2c6a882ec0d7a74b",
+    "draftHash": "sha256:006af29d842028b021ed64951e097a30ed81f7031d3b3984f367d701e92ad464",
+    "id": "talk-doc-park-left-pill-deal",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/filmstrip-conveyor.tsx",
+    "file": "components/talk-filmstrip-conveyor.tsx",
+    "sourceHash": "sha256:ffc4ff9ae7fe18120f081b32b69268528e245b0b2386a2aa2aa38f9cac2e479d",
+    "draftHash": "sha256:9a551cd9396643e14dc5c39953efcb741808dda157b4dbfe27823c849c84e699",
+    "id": "talk-filmstrip-conveyor",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/gallery-wall-dolly.tsx",
+    "file": "components/talk-gallery-wall-dolly.tsx",
+    "sourceHash": "sha256:2b4d214d058d26c10655763e826336e376edd200e03a70b2e427d94f99a7410f",
+    "draftHash": "sha256:f31fe7bb2e4c21516182698197e6abf9582be567074ca09f8b073d4c22f6dfdf",
+    "id": "talk-gallery-wall-dolly",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/glass-code-walk.tsx",
+    "file": "components/talk-glass-code-walk.tsx",
+    "sourceHash": "sha256:af01ece4a25974caf914475ac5e6b513ea805a9a53f8a91cb929ae827ec5c232",
+    "draftHash": "sha256:9a40c1c0eb838333a9be789a32ff2b2de31d2c630d73d382347d6b7929577751",
+    "id": "talk-glass-code-walk",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/grid-to-hero.tsx",
+    "file": "components/talk-grid-to-hero.tsx",
+    "sourceHash": "sha256:e9e550223301f791e46e0afc60c5d1ab171fc777c81ca130b56ef2951cf389f4",
+    "draftHash": "sha256:f99945cf53bb9116abdce8054f9c8662528e84a204f0dc0ff99fd00cd4c164ae",
+    "id": "talk-grid-to-hero",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/logo-enter.tsx",
+    "file": "components/talk-logo-enter.tsx",
+    "sourceHash": "sha256:4489e6dda20b6e1eb444e6f3efe53a275e594c1a64039ece515d5697db8628da",
+    "draftHash": "sha256:84b9c28908486568e1c88d94de735c7e5200e3a1ccc5b083ba2f1dcb8465eaba",
+    "id": "talk-logo-enter",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/rack-focus-pair.tsx",
+    "file": "components/talk-rack-focus-pair.tsx",
+    "sourceHash": "sha256:79e8f4009f111c7cb698f0e59543e02a73e8afb1ffa747b81a31c8093351f123",
+    "draftHash": "sha256:ec1abd22525f165a3d4c55b34872fae1efd408f32cbe26e4ee236cffa0640c4d",
+    "id": "talk-rack-focus-pair",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/stack-fan-out.tsx",
+    "file": "components/talk-stack-fan-out.tsx",
+    "sourceHash": "sha256:f4eafd9935f0ad3c14713d3036967927a389c3820a8a4467063b0048d1370146",
+    "draftHash": "sha256:f28246b30505e7fc69dcb42f58f5ce9e5c21f16ae0059bbded4816336e15b6b1",
+    "id": "talk-stack-fan-out",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/terminal-typing-log.tsx",
+    "file": "components/talk-terminal-typing-log.tsx",
+    "sourceHash": "sha256:337090493417804c462f5905ddea89d30dbf90d9badc243b4e808113953ecfaa",
+    "draftHash": "sha256:61e0d19a44d94091311a318e2073f928d730dfe124935aa241ef6ad7194797cc",
+    "id": "talk-terminal-typing-log",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/word-relay-filmstrip.tsx",
+    "file": "components/talk-word-relay-filmstrip.tsx",
+    "sourceHash": "sha256:07ce275988732be32ddddc9e9d6f38221201b2a369b469553bf112874f462635",
+    "draftHash": "sha256:bd01c53066e135619db69cead323c68140196e4eddf047755c32a933a111a380",
+    "id": "talk-word-relay-filmstrip",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/cursor-locked-zoom.tsx",
+    "file": "components/talk-cursor-locked-zoom.tsx",
+    "sourceHash": "sha256:0e4a042428cd14457c3de5475b82da27208e24a46cbf4eef4fe73fd74cf7a57d",
+    "draftHash": "sha256:5ddef6b6c2c21035660018d4131885ff1a3b45d979894fcfc69f10053f298c22",
+    "id": "talk-cursor-locked-zoom",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/stage-keyframe-tour.tsx",
+    "file": "components/talk-stage-keyframe-tour.tsx",
+    "sourceHash": "sha256:155ac1ffc5a442d85307a128495f878fe4a33f5cb6a1ed3a753e1b28967be9d7",
+    "draftHash": "sha256:9769b44bc92ca9233b2b2673611faf681ae247e3ab4ac0f28ec97e4bf553f040",
+    "id": "talk-stage-keyframe-tour",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/sway-parallax.tsx",
+    "file": "components/talk-sway-parallax.tsx",
+    "sourceHash": "sha256:4fa9cca75dd02ab13b7163b8a33bd7e0a7e5cb1ab2f703f501de2631d0c07231",
+    "draftHash": "sha256:06e63432f07eda302baec369dcd40e5517355caa3fc861152bb94ae6bf00c82d",
+    "id": "talk-sway-parallax",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/tilt-3d-page.tsx",
+    "file": "components/talk-tilt-3d-page.tsx",
+    "sourceHash": "sha256:6abd2141e995365190923694201154d01adf0610482c20b1b868ef57f8343a6c",
+    "draftHash": "sha256:5df9fe73070ef2862a8974e8eb6c9fb002614c7f680387a651c0159203c72e96",
+    "id": "talk-tilt-3d-page",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/particle-weld-transition.tsx",
+    "file": "components/talk-particle-weld-transition.tsx",
+    "sourceHash": "sha256:99190675adbd6bf30f120c69d2b1e494a897f2de597d298a9d77a0ba24043739",
+    "draftHash": "sha256:5ec77f16497f435ac1a8faf54a9f3d24ddd86a19c30661ac0baaf6ff6012a648",
+    "id": "talk-particle-weld-transition",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/pullback-cool-transition.tsx",
+    "file": "components/talk-pullback-cool-transition.tsx",
+    "sourceHash": "sha256:766065471f36cd8a6087bf5c07f1df642f29a22f71b49bcc291eb9b9ca76d232",
+    "draftHash": "sha256:62fe676c34413eeda5ddf8a529ce750541606d7ff948acce20e9de465fac44cc",
+    "id": "talk-pullback-cool-transition",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/whip-pan-transition.tsx",
+    "file": "components/talk-whip-pan-transition.tsx",
+    "sourceHash": "sha256:735e00f3e7173b0a63a0bde557ffdf9bbdd10f542eff8e908d1783dbc2a46551",
+    "draftHash": "sha256:f62d3e57d01aecc17814f9e11d06c6dbf7f3c1c2334a51a2c91cc01c69ed7a3f",
+    "id": "talk-whip-pan-transition",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/caret-wipe-transition.tsx",
+    "file": "components/talk-caret-wipe-transition.tsx",
+    "sourceHash": "sha256:40be04725ff8381fed5b952345a45873ae617ff274c0adfdc589fc5ea69dad3f",
+    "draftHash": "sha256:566f628a6d09b91f44ff4713dce3c12867554f871577a9ef6449eb2de49ac916",
+    "id": "talk-caret-wipe-transition",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/line-carry-transition.tsx",
+    "file": "components/talk-line-carry-transition.tsx",
+    "sourceHash": "sha256:9e380f85c1f72d220c1b02bf8a88d9c6795921e3c4115c2b6c52fbb806523b22",
+    "draftHash": "sha256:469fea364786d886df6e09a2dbf19f1a0a6e8a6c31c857ccda7fce2f51ce7dc3",
+    "id": "talk-line-carry-transition",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/long-take-world.tsx",
+    "file": "components/talk-long-take-world.tsx",
+    "sourceHash": "sha256:70e059a6ec67097d2d097d0ea52acb61ed6066f7e8f44f97ca7e23afc8ea1a32",
+    "draftHash": "sha256:4efddfa495cb22e40a4fcb3ad20b4c8abfdfc1fd447549dfff96b4fe2eaa1f77",
+    "id": "talk-long-take-world",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/title-demote-to-label.tsx",
+    "file": "components/talk-title-demote-to-label.tsx",
+    "sourceHash": "sha256:9bdb8c8f826a274cb76bf6959302ee9eddf1bb7a9b466cefc7dbbb1a3f865d91",
+    "draftHash": "sha256:6889401a6f8064c28f094fdcbaf2666f1ee3fdd9b9ad555d52d06be77bd54395",
+    "id": "talk-title-demote-to-label",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/word-slot-cycle.tsx",
+    "file": "components/talk-word-slot-cycle.tsx",
+    "sourceHash": "sha256:71be5941fff1635cdbe14ab62bdd318b46fa8203dc21e60daa0f0b923ad389a7",
+    "draftHash": "sha256:6c5fb6a6fdabcec14f82cb44d29112d9fcbbf116319340350621e048d594e2cf",
+    "id": "talk-word-slot-cycle",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/error-retype.tsx",
+    "file": "components/talk-error-retype.tsx",
+    "sourceHash": "sha256:a1d8f1898808bb37c1978c834b186d0be231370318be99b22ac1b7c6d074bcfc",
+    "draftHash": "sha256:b00625240a6b2b3b08eb4e637ee521cb91d161fe394e39a84a4f84248f51b732",
+    "id": "talk-error-retype",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/lead-word-zoom-assemble.tsx",
+    "file": "components/talk-lead-word-zoom-assemble.tsx",
+    "sourceHash": "sha256:fc3c59b8a4834f436da9143b7677d1223e5ee85cd1d3dfa752594170b120f84e",
+    "draftHash": "sha256:0bd87e97381f8bac6788baabfec2a056ee9928b8ca0213ae5312b1b5d91408ad",
+    "id": "talk-lead-word-zoom-assemble",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/line-by-line-slide.tsx",
+    "file": "components/talk-line-by-line-slide.tsx",
+    "sourceHash": "sha256:41cf138ce7ba628dc5d83f00b891898dfb2726041e127b6f679d0ffec65c2aa3",
+    "draftHash": "sha256:19301c87b26ac0054dd4e60052cefcdc7763cee3f01f39b25c8ad465e95ebe20",
+    "id": "talk-line-by-line-slide",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Talkcraft/template/cards/countdown-arc-scatter.tsx",
+    "file": "components/talk-countdown-arc-scatter.tsx",
+    "sourceHash": "sha256:33650e5dcf308e0badf6832a2c02a5c3a738e86908ef240e9baf20c74eb85fac",
+    "draftHash": "sha256:4ac50eabecfb0b604a7dc64775541cb0ba90715549f8f48f74ec494d1eee1af5",
+    "id": "talk-countdown-arc-scatter",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/color.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/color.ts",
+    "sourceHash": "sha256:8c468d01b0fa03691d2fa4782aaa493221bacf5dfd89744599c712fff2d0b89d",
+    "draftHash": "sha256:8c468d01b0fa03691d2fa4782aaa493221bacf5dfd89744599c712fff2d0b89d",
+    "id": "snap-answer-highlight",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/fonts.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/fonts.ts",
+    "sourceHash": "sha256:c9f2e5f629d56dd8f2b62d0b4c4ce4766e683607814c0229648be92b93cc501b",
+    "draftHash": "sha256:69f3eb12b07e250242771abcee816eab8eda2ea03e25bacf54854e4332efdcd8",
+    "id": "snap-answer-highlight",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/motion.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/motion.ts",
+    "sourceHash": "sha256:1c9758812db916ff045448ca3d5252568d6a83a13a82da1c2dbdb531f16c0d85",
+    "draftHash": "sha256:1c9758812db916ff045448ca3d5252568d6a83a13a82da1c2dbdb531f16c0d85",
+    "id": "snap-answer-highlight",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/theme.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/theme.ts",
+    "sourceHash": "sha256:2a75a5c6f20fb170451d851e746f29a7c3150d115d114443096264bdec1bb9f4",
+    "draftHash": "sha256:2a75a5c6f20fb170451d851e746f29a7c3150d115d114443096264bdec1bb9f4",
+    "id": "snap-answer-highlight",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/types.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/types.ts",
+    "sourceHash": "sha256:a1812abb87aceab7935d2eb4ff6e62ab2c6d949fefb0c6ba702824b87495bfb2",
+    "draftHash": "sha256:a1812abb87aceab7935d2eb4ff6e62ab2c6d949fefb0c6ba702824b87495bfb2",
+    "id": "snap-answer-highlight",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/timeline.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/timeline.ts",
+    "sourceHash": "sha256:344658ef648c92d18612723701cc6d8377542986bcaafd27590a1df1eca6223a",
+    "draftHash": "sha256:4bc39928ea19a97272fdc5a1f1298935acf738d47253bd20eb2c7ef8dcd09646",
+    "id": "snap-answer-highlight",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/core/index.ts",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/core/index.ts",
+    "sourceHash": "sha256:01fff61f6afe49cbc427c2b40cc038cff339c8f1884e36caa8c02f5f6b7530b7",
+    "draftHash": "sha256:92a9206bb78eaf7154b636495347453136138dee8c2fb712d54d631a90526b96",
+    "id": "snap-answer-highlight",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/answer-highlight/index.tsx",
+    "file": "components/snap-answer-highlight.tsx",
+    "sourceHash": "sha256:699cf7994e7c41c3b4c6a2c9b0448fb0e5c47e23447272b911f70146ebf47afd",
+    "draftHash": "sha256:3bd71a7d759fd68e7140f18e4dfd40147ce99b3405a100aa1dd675064e1b6ac9",
+    "id": "snap-answer-highlight",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/agent-steps/index.tsx",
+    "file": "components/snap-agent-steps.tsx",
+    "sourceHash": "sha256:5d1952ddddb44cb048eb381e47c80ff7529432ad2f0e251c18a16dfe6ab8b7d5",
+    "draftHash": "sha256:24a1c9bff4f11868944d087e0a54df3e6de6c33684e079bc25496af338cbde21",
+    "id": "snap-agent-steps",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/announce-title/index.tsx",
+    "file": "components/snap-announce-title.tsx",
+    "sourceHash": "sha256:f2abd9631f61faf1870d2616eb8be4199ca6ef2b64ec32f89592effd5ae485dd",
+    "draftHash": "sha256:2633a0c83d934d59f533db2eb5874bcc7867a16355f0d29f356e1886b92e5f88",
+    "id": "snap-announce-title",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/caret/index.tsx",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/caret/index.tsx",
+    "sourceHash": "sha256:c52f1aa250a37622bd0fa613df3302d941eaa5153ff8999f39afc9b514f853f5",
+    "draftHash": "sha256:c52f1aa250a37622bd0fa613df3302d941eaa5153ff8999f39afc9b514f853f5",
+    "id": "snap-answer-stream",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/lib/utils.ts",
+    "file": "dependencies/Snapcn/lib/utils.ts",
+    "sourceHash": "sha256:4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+    "draftHash": "sha256:4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+    "id": "snap-answer-stream",
+    "modified": false
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn-ui/input/index.tsx",
+    "file": "dependencies/Snapcn/registry/snap-cn-ui/input/index.tsx",
+    "sourceHash": "sha256:8e6dfd77df9a845f583b68cb472db2fa70244815b066571671552bc831467b06",
+    "draftHash": "sha256:1cb4c4f0ab94ddab99ff24ecb9422594004a7e9585ca8dc12c664f08cbe308fb",
+    "id": "snap-answer-stream",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/answer-stream/index.tsx",
+    "file": "components/snap-answer-stream.tsx",
+    "sourceHash": "sha256:2e4ce4974a7e68a8a12d12e8a384efdaa075c73b5295adf665edb8fb12cb09ad",
+    "draftHash": "sha256:8d871220b05b33914b6e6149861b0e53cf594d1288762ce81d19889c255aa158",
+    "id": "snap-answer-stream",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/text-reveal/index.tsx",
+    "file": "components/snap-text-reveal.tsx",
+    "sourceHash": "sha256:50cf31ee1eb26d0cae89484198d1a4fa6809b1c1972bdb7d8552c52daee12a4b",
+    "draftHash": "sha256:18987be71e5978b3dccf3974e8fdf8df8fd25d7d9c361a7d272481b24446a716",
+    "id": "snap-text-reveal",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/text-rewrite/index.tsx",
+    "file": "components/snap-text-rewrite.tsx",
+    "sourceHash": "sha256:1da9248ef95ff25e60d0d14c1b1a432cb1d131bcd5537e6aac8258ac452a9d10",
+    "draftHash": "sha256:5ccec4a989362de60a18e707baf5964de2a5303757e9fd75889ec62807784a18",
+    "id": "snap-text-rewrite",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/text-select/index.tsx",
+    "file": "components/snap-text-select.tsx",
+    "sourceHash": "sha256:2c448e032119b5c21c282c475321726defb5a453f7bdc0a373abc298582bbe1f",
+    "draftHash": "sha256:2787f29dea2da22d94ee1ec2d1d7fbd4f4d23383b57a01868db3067bac2a0d72",
+    "id": "snap-text-select",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/block-wordmark/index.tsx",
+    "file": "components/snap-block-wordmark.tsx",
+    "sourceHash": "sha256:cc44dedf6b563a118667f0625d570c8242171eb32934ad0b7a036b60ac7830d0",
+    "draftHash": "sha256:99727d295a51ddc46536e815a6c39657a0ac767fad3adfde3261775f78c8d85b",
+    "id": "snap-block-wordmark",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/terminal-simulator/index.tsx",
+    "file": "components/snap-terminal-simulator.tsx",
+    "sourceHash": "sha256:251dbc217d8024e7441bb02eef05897e30b6582c8cceceaece39a961c7939a60",
+    "draftHash": "sha256:9f2e7d3cf4d1e4d9cf7ea4dc07a5da75d6039e0bf49fce4647a37687f5de8b14",
+    "id": "snap-terminal-simulator",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/follower-rush/index.tsx",
+    "file": "components/snap-follower-rush.tsx",
+    "sourceHash": "sha256:56b72f2113a11cd3e951badf1413cb5a943c92d9a2b9c7fbeaad9e09e79d1c01",
+    "draftHash": "sha256:16d53e37f9266439f03f9e133ad8448e06f98fed0d467ee7acb9697633ca549a",
+    "id": "snap-follower-rush",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/prompt-send/index.tsx",
+    "file": "components/snap-prompt-send.tsx",
+    "sourceHash": "sha256:4f980f095369ed063f538e661a64b2f081f86f56a2d3ee2ef3f3d3a6bc83f94b",
+    "draftHash": "sha256:4ab55a277802a796382a788c4391fa34196b94e09f3054b88eaccf53acd841e5",
+    "id": "snap-prompt-send",
+    "modified": true
+  },
+  {
+    "source": "/absolute/project 参考视频/原始源码/Snapcn/registry/snap-cn/hero-launch/index.tsx",
+    "file": "components/snap-hero-launch.tsx",
+    "sourceHash": "sha256:bd1cf9de3921a2a900ea2fe9e24fe5e3bcc2230ef40c096c3719ed667f4fedc1",
+    "draftHash": "sha256:c241ce4b2083778f04eb961583dcc2a602f53fb54c7fcf1d1355334ee6b10317",
+    "id": "snap-hero-launch",
+    "modified": true
+  }
+]

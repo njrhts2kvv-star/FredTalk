@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # 整期 4K60 云端分块渲染（114 v2 定型）：画面静音分块，音频本机整片渲染，最后拼接。主机、目录、线数读 episode.json 的 cloud。
 #
-#   bash render/cloud.sh sync                 # 把 render/stage（冻结的 src）+ public-4k 同步到两台服务器
+#   bash render/cloud.sh sync [host]          # 把 render/stage（冻结的 src）+ public-4k 同步到所有服务器（或只同步一台）
 #   bash render/cloud.sh plan S07             # 生成分块计划（参数 = 暂不渲染的段）
-#   bash render/cloud.sh go                   # 推荐：每台同步成功后立刻开自己的线（两台互不等待）
-#   bash render/cloud.sh run [A|B]            # 按计划开渲染线（线数读 episode.json，每条 --concurrency=2），渲完自动拉回
+#   bash render/cloud.sh go                   # 推荐：每台同步成功后立刻开自己的线（各台互不等待；台数读 episode.json 的 cloud.hosts）
+#   bash render/cloud.sh run [host]           # 按计划开渲染线（线数读 episode.json，每条 --concurrency=2），渲完自动拉回
 #   bash render/cloud.sh chunk A S07 0 383    # 单块（手动挪拖尾块用）
 #   bash render/cloud.sh add S07              # 返修段补渲：重新同步 stage，切块后追加到最空的线上（单独跑）
 #   bash render/cloud.sh status               # 看已拉回多少块
@@ -63,15 +63,14 @@ lane() {  # $1=服务器 $2=线号；块列表从 plan.json 读
 }
 
 case "${1:-}" in
-  sync) sync_one B && sync_one A ;;
+  sync) if [ -n "${2:-}" ]; then sync_one "$2"; else for s in $(cfg "' '.join(c['hosts'])"); do sync_one $s; done; fi ;;
   plan) shift; python3 "$V/render/plan.py" "$@" ;;
   run)   # 可选参数 A 或 B：只开这台的线
-    for s in A B; do [ -n "${2:-}" ] && [ "$2" != "$s" ] && continue
+    for s in $(cfg "' '.join(c['hosts'])"); do [ -n "${2:-}" ] && [ "$2" != "$s" ] && continue
       n=$(cfg "c['lanes']['$s']"); for ((i=0;i<n;i++)); do lane $s $i > "$LOG/lane-$s$i.log" 2>&1 & done; done
     wait; echo "渲染线结束 ${2:-AB}"; bash "$0" status ;;
   go)    # 先同步 B 并立即开 B 的 8 条线，同时同步 A，好了再开 A 的 4 条线
-    { sync_one B && bash "$0" run B; } > "$LOG/go-B.log" 2>&1 &
-    { sync_one A && bash "$0" run A; } > "$LOG/go-A.log" 2>&1 &
+    for s in $(cfg "' '.join(c['hosts'])"); do { sync_one $s && bash "$0" run $s; } > "$LOG/go-$s.log" 2>&1 & done   # 116：台数不再写死 A/B
     wait; bash "$0" status ;;
   add)
     shift; rsync -a --delete "$V/src" "$V/package.json" "$V/tsconfig.json" "$V/render/stage/"

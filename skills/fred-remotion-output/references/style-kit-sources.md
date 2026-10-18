@@ -346,6 +346,3 @@ export function RC04({src=media.recording,start=3,roi={x:1308,y:380,w:536,h:186}
 - 自制胶囊/卡默认无描边（DESIGN.md:22）；N 系 Pane 的 `2px solid #e9e9ec` 是历史细节，新片不继承。
 - R053/T03/W01/X003/X006 是逐帧实测轨迹（不可直接改文案长度）；新内容应用 S2/S4 这类参数化写法复现同一曲线形态。
 - catalog 中 R053 spec 标注 `qualityStatus: candidate-needs-calibration`、`userAcceptance: not-inherited`——认可的是成片效果，不等于数值普适。
-
-
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。

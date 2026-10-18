@@ -50,7 +50,7 @@ const overshoot = (t: number, a: number, rise: number, settle: number, amount: n
 const open = overshoot(t, at, 0.55, 0.3, 0.055);    // 胶囊宽度过冲 5.5%
 ```
 
-**边界**：只用在建立和落定的那一下。回弹用 `springAt()`，一次就停，不能让东西一直弹。
+**边界**：只用在建立和落定的那一下。回弹用 `springAt()`，一次就停，不能让东西一直弹。**入场默认不过冲**（Fred 10-14，119 期嫌“进来之后抖动了一下”）：成片里的入场和胶囊落定用无过冲的 `settle()`（kit v4 的 `theme.ts`），过冲只在 Fred 明确要“砸下来”的效果时用。
 
 ## 3. 同一个进度驱动多个属性：动作是“一个动作”
 

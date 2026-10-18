@@ -5,9 +5,7 @@ episode.json 的 mergeIntoPrevious（如 {"INSERT": "S03"}）把插入段并进�
 用法：python3 tools/push_videos.py --video <成片.mp4> --app <review-app 目录> --label "v3 成片切段"
 """
 import argparse, hashlib, json, os, pathlib, shutil, subprocess, sys, time
-tools_root = os.environ.get('FREDTALK_ROOT')
-if not tools_root: raise SystemExit('Set FREDTALK_ROOT to your FredTalk repository before publishing review clips')
-sys.path.insert(0, str(pathlib.Path(tools_root) / 'skills/fred-remotion-output/scripts'))
+sys.path.insert(0, os.environ.get('FRED_TOOLS_ROOT', '/absolute/fredtalk') + '/skills/fred-remotion-output/scripts')
 from build_segment_review import fingerprint  # noqa: E402
 ap = argparse.ArgumentParser(); ap.add_argument('--video', required=True); ap.add_argument('--app', required=True)
 ap.add_argument('--label', default='成片切段'); ap.add_argument('--version-label', default=None)

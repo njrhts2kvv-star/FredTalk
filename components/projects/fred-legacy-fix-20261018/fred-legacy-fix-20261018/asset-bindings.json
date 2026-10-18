@@ -1,0 +1,1652 @@
+[
+  {
+    "path": "sources/V037/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/V037/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/V037/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/103-03/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/103-03/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/103-03/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/103-03/public/fonts/SmileySans-Oblique.ttf",
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "size": 2629764
+  },
+  {
+    "path": "sources/N006/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/N006/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/N006/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/N006/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "5e69f64f53546e259a3f966ffce28ee45e001ea3b2b798fd6b74e474b5c0c04e",
+    "size": 30209
+  },
+  {
+    "path": "sources/N006/public/fonts/PangMen-source.html",
+    "sha256": "971dabb132d2b7fa2ba9e4fabd2b89a1e2e58ac5e2ccffa5765484800e6d0013",
+    "size": 28010
+  },
+  {
+    "path": "sources/N006/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/N006/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/N006/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/N006/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/N006/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/N006/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/N006/public/fonts/RuiZi-source.html",
+    "sha256": "fbf342ac0b34ed48cfd378fa03ecfb9599da07260307658fd31381e08aa6c5e5",
+    "size": 26998
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/FONT-NOTICE.txt",
+    "sha256": "24144c00e28f8f81d38fa3679a95bd5bd0f52c5b332fb7be2f1427c4016ea61b",
+    "size": 195
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/NotoSansSC-OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "size": 4388
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/LXGWWenKai-Regular.ttf",
+    "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+    "size": 25575676
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/SourceSans3-OFL.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/N008/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/N008/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/N008/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/N008/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "5e69f64f53546e259a3f966ffce28ee45e001ea3b2b798fd6b74e474b5c0c04e",
+    "size": 30209
+  },
+  {
+    "path": "sources/N008/public/fonts/PangMen-source.html",
+    "sha256": "971dabb132d2b7fa2ba9e4fabd2b89a1e2e58ac5e2ccffa5765484800e6d0013",
+    "size": 28010
+  },
+  {
+    "path": "sources/N008/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/N008/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/N008/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/N008/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/N008/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/N008/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/N008/public/fonts/RuiZi-source.html",
+    "sha256": "fbf342ac0b34ed48cfd378fa03ecfb9599da07260307658fd31381e08aa6c5e5",
+    "size": 26998
+  },
+  {
+    "path": "sources/X014/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/X014/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/X014/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/X014/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "5e69f64f53546e259a3f966ffce28ee45e001ea3b2b798fd6b74e474b5c0c04e",
+    "size": 30209
+  },
+  {
+    "path": "sources/X014/public/fonts/PangMen-source.html",
+    "sha256": "971dabb132d2b7fa2ba9e4fabd2b89a1e2e58ac5e2ccffa5765484800e6d0013",
+    "size": 28010
+  },
+  {
+    "path": "sources/X014/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/X014/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/X014/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/X014/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/X014/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/X014/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/X014/public/fonts/RuiZi-source.html",
+    "sha256": "fbf342ac0b34ed48cfd378fa03ecfb9599da07260307658fd31381e08aa6c5e5",
+    "size": 26998
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B066/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/X015/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/X015/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/X015/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/X015/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "0acb9f7765e983b55fe3fec64da14725a93b5960d26af83e5d501809c5308720",
+    "size": 29992
+  },
+  {
+    "path": "sources/X015/public/fonts/PangMen-source.html",
+    "sha256": "533e4074f2183c6020c977573aab9e01e96a807c8b84a53edca2687726d83196",
+    "size": 27793
+  },
+  {
+    "path": "sources/X015/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/X015/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/X015/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/X015/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/X015/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/X015/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/X015/public/fonts/RuiZi-source.html",
+    "sha256": "7fdd4629da43ed5697ab0d35a2c1756b8c90b8595f0b4f1215d37c585a59a119",
+    "size": 26780
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/FONT-NOTICE.txt",
+    "sha256": "24144c00e28f8f81d38fa3679a95bd5bd0f52c5b332fb7be2f1427c4016ea61b",
+    "size": 195
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/NotoSansSC-OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "size": 4388
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/LXGWWenKai-Regular.ttf",
+    "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+    "size": 25575676
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/SourceSans3-OFL.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B035/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/X037/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/X037/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/X037/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/X037/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "0acb9f7765e983b55fe3fec64da14725a93b5960d26af83e5d501809c5308720",
+    "size": 29992
+  },
+  {
+    "path": "sources/X037/public/fonts/PangMen-source.html",
+    "sha256": "533e4074f2183c6020c977573aab9e01e96a807c8b84a53edca2687726d83196",
+    "size": 27793
+  },
+  {
+    "path": "sources/X037/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/X037/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/X037/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/X037/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/X037/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/X037/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/X037/public/fonts/RuiZi-source.html",
+    "sha256": "7fdd4629da43ed5697ab0d35a2c1756b8c90b8595f0b4f1215d37c585a59a119",
+    "size": 26780
+  },
+  {
+    "path": "sources/109-05/public/brand/fredtalk-ai-corner.png",
+    "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+    "size": 207243
+  },
+  {
+    "path": "sources/109-05/public/brand/fredtalk-ai-dark-transparent.png",
+    "sha256": "5ab798076963bf6c7f0949f25e3b5b45e882acfd427b52135fdfcbfb3537538b",
+    "size": 762689
+  },
+  {
+    "path": "sources/109-05/public/brand/fredtalk-ai-dark-cropped.png",
+    "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+    "size": 529353
+  },
+  {
+    "path": "sources/109-05/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/109-05/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/109-05/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/109-05/public/fonts/SmileySans-LICENSE",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/109-05/public/fonts/SmileySans-Oblique.ttf",
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "size": 2629764
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B020/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B018/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B042/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B074/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/N047/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/N047/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/N047/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/N047/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "0acb9f7765e983b55fe3fec64da14725a93b5960d26af83e5d501809c5308720",
+    "size": 29992
+  },
+  {
+    "path": "sources/N047/public/fonts/PangMen-source.html",
+    "sha256": "533e4074f2183c6020c977573aab9e01e96a807c8b84a53edca2687726d83196",
+    "size": 27793
+  },
+  {
+    "path": "sources/N047/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/N047/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/N047/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/N047/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/N047/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/N047/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/N047/public/fonts/RuiZi-source.html",
+    "sha256": "7fdd4629da43ed5697ab0d35a2c1756b8c90b8595f0b4f1215d37c585a59a119",
+    "size": 26780
+  },
+  {
+    "path": "sources/103-01/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/103-01/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/103-01/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/103-01/public/fonts/SmileySans-Oblique.ttf",
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "size": 2629764
+  },
+  {
+    "path": "sources/107-01/public/brand/dark.png",
+    "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+    "size": 529353
+  },
+  {
+    "path": "sources/107-01/public/brand/light.png",
+    "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+    "size": 207243
+  },
+  {
+    "path": "sources/107-01/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/107-01/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/107-01/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/107-01/public/fonts/SmileySans-Oblique.ttf",
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "size": 2629764
+  },
+  {
+    "path": "sources/SP011/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/SP011/public/fonts/FusionPixel-OFL.txt",
+    "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63",
+    "size": 4418
+  },
+  {
+    "path": "sources/SP011/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/SP011/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/SP011/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/SP011/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/SP011/public/fonts/SmileySans-Oblique.ttf",
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+    "size": 2629764
+  },
+  {
+    "path": "sources/L81-R033/groups/r/faithful/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B009/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/Inter-OFL.txt",
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "size": 4377
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/RuiZi-official-license.png",
+    "sha256": "904bf276f9fd6ab221c38ab11190ec0b856c4bc9207661cf4e543872bcdfc15c",
+    "size": 242078
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/SmileySans-LICENSE.txt",
+    "sha256": "9401f4050f1b66c26b6ccdc8b0e14a3c1cc37aac122eda84386f25854a9bec72",
+    "size": 4422
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/ZCOOLKuaiLe-OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d",
+    "size": 4398
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/Roboto-OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "size": 4394
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/Arimo-OFL.txt",
+    "sha256": "11cce536cd2f3864d767003af5dcd739e2e15818cf2279b6175edeadd3960992",
+    "size": 4384
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/LongCang-OFL.txt",
+    "sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+    "size": 4390
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/MaShanZheng-OFL.txt",
+    "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+    "size": 4397
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/RuiZi-official-free-use.txt",
+    "sha256": "9c093040df858d404ba15c3b73f8ffc0b33f156e7d48a2dd271f9421a496a543",
+    "size": 6056
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/LXGWWenKai-OFL.txt",
+    "sha256": "1a25e35da1031c6c3436fde545bb9cb5aca954e9873afe510c834b8b79bd21a0",
+    "size": 5171
+  },
+  {
+    "path": "sources/L81-B014/groups/b/public/fonts/DingTalk-License.pdf",
+    "sha256": "0de7ce1f14fa3c5f45e4c9a3eb0afbe0637e48b23ebe5e093c13901edeb31c1e",
+    "size": 68263
+  },
+  {
+    "path": "sources/E14/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/E14/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/MiSans-License.txt",
+    "sha256": "839a028f278183dd130df5470e27eb5f94d0583fecfc068843c4c86061d98dce",
+    "size": 9708
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/AlimamaShuHei-License.txt",
+    "sha256": "7eac3a7336a06ba7aa45604865ddc95558426bac74c0feb5bd671c4c71a35c8f",
+    "size": 2030
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/MiSans-License.pdf",
+    "sha256": "4a93a27cd2bd81b3b5ecfd0a853144a876fa26938a93a68443c67d74172fcb86",
+    "size": 79535
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/AlimamaShuHei-Instruction.txt",
+    "sha256": "3a1ce1aff5d9d8888b51ddec7101eae286b055d09d58b1645b1a66ec9530a504",
+    "size": 992
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/SourceHanSans-LICENSE.txt",
+    "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "size": 4463
+  },
+  {
+    "path": "sources/X032/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/X032/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/X032/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/X032/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "0acb9f7765e983b55fe3fec64da14725a93b5960d26af83e5d501809c5308720",
+    "size": 29992
+  },
+  {
+    "path": "sources/X032/public/fonts/PangMen-source.html",
+    "sha256": "533e4074f2183c6020c977573aab9e01e96a807c8b84a53edca2687726d83196",
+    "size": 27793
+  },
+  {
+    "path": "sources/X032/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/X032/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/X032/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/X032/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/X032/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/X032/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/X032/public/fonts/RuiZi-source.html",
+    "sha256": "7fdd4629da43ed5697ab0d35a2c1756b8c90b8595f0b4f1215d37c585a59a119",
+    "size": 26780
+  },
+  {
+    "path": "sources/N045/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/N045/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/N045/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/N045/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "0acb9f7765e983b55fe3fec64da14725a93b5960d26af83e5d501809c5308720",
+    "size": 29992
+  },
+  {
+    "path": "sources/N045/public/fonts/PangMen-source.html",
+    "sha256": "533e4074f2183c6020c977573aab9e01e96a807c8b84a53edca2687726d83196",
+    "size": 27793
+  },
+  {
+    "path": "sources/N045/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/N045/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/N045/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/N045/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/N045/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/N045/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/N045/public/fonts/RuiZi-source.html",
+    "sha256": "7fdd4629da43ed5697ab0d35a2c1756b8c90b8595f0b4f1215d37c585a59a119",
+    "size": 26780
+  },
+  {
+    "path": "sources/N044/public/fonts/MiSans-Heavy.otf",
+    "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+    "size": 6677020
+  },
+  {
+    "path": "sources/N044/public/fonts/SourceSans3-LICENSE.md",
+    "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328",
+    "size": 4486
+  },
+  {
+    "path": "sources/N044/public/fonts/RuiZi.ttf",
+    "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+    "size": 1433148
+  },
+  {
+    "path": "sources/N044/public/fonts/AlimamaShuHei-source.html",
+    "sha256": "0acb9f7765e983b55fe3fec64da14725a93b5960d26af83e5d501809c5308720",
+    "size": 29992
+  },
+  {
+    "path": "sources/N044/public/fonts/PangMen-source.html",
+    "sha256": "533e4074f2183c6020c977573aab9e01e96a807c8b84a53edca2687726d83196",
+    "size": 27793
+  },
+  {
+    "path": "sources/N044/public/fonts/SourceCodePro-Semibold.otf",
+    "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+    "size": 131608
+  },
+  {
+    "path": "sources/N044/public/fonts/MiSans-Regular.otf",
+    "sha256": "8e9caa6f34f27c6baad1ecf0058cc13e1801efff698bc23e6e0b095d9a9ed9cb",
+    "size": 6569336
+  },
+  {
+    "path": "sources/N044/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/N044/public/fonts/SourceCodePro-LICENSE.md",
+    "sha256": "0b2c3168605cb4f3ba54cf3cf2003f67ff894c66484c75702007f23eda92c353",
+    "size": 4473
+  },
+  {
+    "path": "sources/N044/public/fonts/NanoTikBazHei-readme.md",
+    "sha256": "44243b301d2ba2cba7cb9ba5a713f6b60c35329ec06b49c5cb12004cb159a568",
+    "size": 841
+  },
+  {
+    "path": "sources/N044/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  },
+  {
+    "path": "sources/N044/public/fonts/RuiZi-source.html",
+    "sha256": "7fdd4629da43ed5697ab0d35a2c1756b8c90b8595f0b4f1215d37c585a59a119",
+    "size": 26780
+  },
+  {
+    "path": "sources/R011/public/fonts/MiSans-Medium.otf",
+    "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+    "size": 6550784
+  },
+  {
+    "path": "sources/R011/public/fonts/MiSans-Semibold.otf",
+    "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+    "size": 6530232
+  }
+]

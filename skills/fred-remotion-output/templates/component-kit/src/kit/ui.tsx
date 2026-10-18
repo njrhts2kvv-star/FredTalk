@@ -127,7 +127,7 @@ const SFX_SWAP: Record<string, string> = { gather: 'woosh', scroll: 'whoosh-shor
 export function Sfx({ name: asked, at, volume = 0.5, duration = 60, keep = false }: { name: string; at: number; volume?: number; duration?: number; keep?: boolean }) {
   const { fps } = useVideoConfig();
   const name = keep ? asked : SFX_SWAP[asked] ?? asked;
-  return <Sequence from={Math.round(at * fps)} durationInFrames={duration} layout="none">
+  return <Sequence from={Math.round(at * fps)} durationInFrames={Math.max(1, Math.round(duration * fps / 60))} layout="none">
     <Audio src={staticFile(`sfx/${name}.wav`)} volume={volume} />
   </Sequence>;
 }

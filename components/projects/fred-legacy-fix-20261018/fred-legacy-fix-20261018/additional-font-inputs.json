@@ -1,0 +1,792 @@
+[
+  {
+    "path": "sources/V037/public/fonts/Ultra-latin.woff2",
+    "sha256": "bb83a02686be778d70d1d481cb9de2b7c33dd14b74cb8d9bcee94a88188dea02",
+    "included": false
+  },
+  {
+    "path": "sources/103-03/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+    "included": false
+  },
+  {
+    "path": "sources/103-03/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/N006/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/MuYaoHandwriting.ttf",
+    "sha256": "62ab940ead12688125ea63824d9b7c16a4f3ee13fe85a0375843dcbe07ef374a",
+    "included": false
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/L81-C002/groups/ctw/core/public/fonts/ctw/NotoSansSC.ttf",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/N008/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/X014/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/X015/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R001/groups/r/legacy/public/fonts/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "included": false
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/MuYaoHandwriting.ttf",
+    "sha256": "62ab940ead12688125ea63824d9b7c16a4f3ee13fe85a0375843dcbe07ef374a",
+    "included": false
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/L81-B035/groups/ctw/core/public/fonts/ctw/NotoSansSC.ttf",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R006/groups/r/legacy/public/fonts/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/X037/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/N047/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/103-01/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+    "included": false
+  },
+  {
+    "path": "sources/103-01/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/107-01/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+    "included": false
+  },
+  {
+    "path": "sources/107-01/public/fonts/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "included": false
+  },
+  {
+    "path": "sources/107-01/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/SP011/public/fonts/fusion-pixel-12px-proportional-zh_hans.ttf",
+    "sha256": "b2ee68647dc257fa697e4d0c78f9b59461bc504a023b9a3b5ad66f358bbb1613",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R033/groups/r/faithful/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R033/groups/r/faithful/public/fonts/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R005/groups/r/legacy/public/fonts/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "included": false
+  },
+  {
+    "path": "sources/E14/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "6401fd0d82f84efe6040599ae3fb5d7c78fd19e315b2c1884d57ac295f5f1bd8",
+    "included": false
+  },
+  {
+    "path": "sources/L81-R028/public/fonts/SourceHanSansSC-Heavy.otf",
+    "sha256": "6374b11bc4c2cd4bd7be1a1d64cf5047906c8a6a025c64e023c6792e50ba985e",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/X032/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/N045/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/ZcoolKuHei.ttf",
+    "sha256": "e7f52420861444677dc8e1c4ad8ae96182277ffe351b9e08d198f967df0bb158",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/NanoTikBazHei-Bold.ttf",
+    "sha256": "26701c2dc92eebc6d75a2775c53c2cd7c218161ce7d153791a3476508075aa1d",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/DouyinSans.ttf",
+    "sha256": "fbecfacdfac33982774e301073a8d357a09c698cd3134bb6ddec0f5bfc268fa1",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/YunFengGame.ttf",
+    "sha256": "c36a4a7572e9e0943dd5792a2530f1fa1879fb17e83197bb6dd0487e215e4142",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/YouShe.ttf",
+    "sha256": "dab883d69fb713233ea5d9aff8d1f27ccc2b71e249143edf6ea08367784c5dba",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/SourceSans3-Black.otf",
+    "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/ZcoolHuangYou.ttf",
+    "sha256": "0b23e5f227144c60cb604321ad036c98f4c6414ba9cc346766f09e5d3e02179d",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/HuXiaoBo.ttf",
+    "sha256": "09334d0c083199433ea751454db5ea090a13a4ab2dbbab73f606e99107555757",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/LuShuai.ttf",
+    "sha256": "8fcb9c5bd12ca685447ac0f0d10540466c43bf50230ea97ba6e7801a2ee119af",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/AlimamaShuHei.ttf",
+    "sha256": "3ef4ec3f5bac4b71cdee9190aabd5b20995016a59ffee60de87c9a204ac2a684",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/ZcoolGaoDuan.ttf",
+    "sha256": "6bec7a834824673a3bc7103928815ba51a3b1f1553817fe08a32829f36b915cf",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/SheTuModern.ttf",
+    "sha256": "eb90123b43f4f26f5c4aca30412d8e89e8b6e63e8ae0a5e358f11dd7c997f078",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/ZiBangCool.ttf",
+    "sha256": "101ba6a13a01d561fe5bb98e67ace154419b8a4e6fd3c196cd26fe23e5a478e7",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/PangMen.ttf",
+    "sha256": "6ea2614bf6c4f422202f6e1b620117141837a28c79facdfcaaddec27ceac1293",
+    "included": false
+  },
+  {
+    "path": "sources/N044/public/fonts/MiSans-Bold.otf",
+    "sha256": "575d0481f579785fab27754a337ad77118a17ba3353210ed84c8af4e96e86247",
+    "included": false
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "browserExecutable": "../../../../../../Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "runtime": {
+    "react": "19.2.4",
+    "remotion": "4.0.473",
+    "@remotion/bundler": "4.0.473",
+    "@remotion/renderer": "4.0.473"
+  },
+  "compositions": [
+    {
+      "id": "EP109-Selected-01",
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 120
+    },
+    {
+      "id": "EP109-Selected-02",
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 420
+    },
+    {
+      "id": "EP109-Selected-03",
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 660
+    },
+    {
+      "id": "EP109-Selected-04",
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 240
+    },
+    {
+      "id": "EP109-Selected-05",
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 180
+    },
+    {
+      "id": "EP109-Selected-06",
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "durationInFrames": 300
+    }
+  ]
+}

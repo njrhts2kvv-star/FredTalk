@@ -24,7 +24,7 @@ python3 skills/fred-remotion-output/scripts/references.py --source library24
 
 `componentPlan.query` 描述具体对象与动作，可附 `use` 与 `source` 缩小范围。`scene.py` 单场景包会带出同源用途、输入与适配说明；准确调用仍用返回的 `references.py --id ... --full`，检查 `currentVersion` 的入口、public、runtime、源码和完整ZIP。
 
-来源单独保留：原版、V2、library→Fred、新10期、旧81条、library用户精选24条、第103期、第107期、整期选段、局部动作。选片状态、准确ID和原来源身份仍由canonical catalog管理。
+来源单独保留：原版、V2、Library→Fred、新10期、旧81条、Library用户精选24条、第103期、第107期、整期选段、局部动作。选片状态、准确ID和原来源身份仍由canonical catalog管理。
 
 图表的 B062 / L81-B062、B069 / L81-B069、W08 / L81-W08 为同动作不同修订。默认显示当前主代表，其他版本在卡片内展开；搜索准确ID或筛来源时可直接查看。全部版本保留，不改变keep、drop或review身份。
 

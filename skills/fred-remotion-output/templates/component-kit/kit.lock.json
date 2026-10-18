@@ -3,11 +3,19 @@
   "purpose": "固定基础库指纹。新工程里的 src/kit 必须与当前版一致；compatible 里的旧版只用于已入库组件。改 kit 需 Fred 明确同意，并同步更新本文件和 DESIGN.md。",
   "runtime": "skills/_runtime/remotion/library-remakes-20260916",
   "files": {
-    "theme.ts": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
-    "ui.tsx": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2"
+    "theme.ts": "82a5e4e051697070e38f490ade75e7dcb9e6a158b6bc90218d889b738ec48eec",
+    "ui.tsx": "2043e3ed982d3ed5e43573f467c32e2689f123c1e37e612388be4d531732c96d"
   },
-  "version": 3,
+  "version": 4,
   "compatible": [
+    {
+      "version": 3,
+      "files": {
+        "theme.ts": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+        "ui.tsx": "ab02aeb7aa92b995e1affac3b1b327571270ac96df387250f9aec3b3eb0dacc2"
+      },
+      "note": "114–118 期及 2026-10-13/14 新入库组件使用；v4 只加了 settle() 和修了 Sfx 时长随帧率换算，没有改视觉值"
+    },
     {
       "version": 2,
       "files": {

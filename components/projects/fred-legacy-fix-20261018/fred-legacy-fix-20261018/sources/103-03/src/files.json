@@ -1,0 +1,224 @@
+[
+  {
+    "name": "内容运营岗位说明.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "87440b4699219f3c5889411d436f1d29e823c4ebc4911bc4362857b3ab2b8d0a"
+  },
+  {
+    "name": "团队业务介绍.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "6e7a8bd29d7ce70e6a31b99c666bc988b21d7c4a6d5af71a1d156d58b9466b63"
+  },
+  {
+    "name": "新人首周安排.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "24a8038818fa98b38d98d6a01e5f976c16f862d48c4dd424cf23bd499f22957a"
+  },
+  {
+    "name": "入职业务答疑_会议纪要.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "333dd28227858eccc5e26e2e55bde200f2836b40614506db6ae915f28ba58713"
+  },
+  {
+    "name": "入职业务答疑_模拟录音_合成语音.mp3",
+    "ext": "MP3",
+    "path": "[LOCAL_PATH]",
+    "sha256": "6bbf8fb9bceea40111c6bb703751c8e3526d12d02bc42d3686a6f99a3f522a2e"
+  },
+  {
+    "name": "内容运营交接说明_v1.3.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "39ed8816a8abfa3c1dd85c15f8089972b6fb8fca19f6160e0afe3bc8138f909d"
+  },
+  {
+    "name": "在办事项与阻塞清单.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "e23300995366bddc88c4e511f36fb3ff6f526f1e980bd8b2ad98f8bdfb650ebe"
+  },
+  {
+    "name": "文件版本与归档约定.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "17b43d10fdfb06a73d8a01f556244113b45864aa4d85fdd1d49f3e5b4b847c69"
+  },
+  {
+    "name": "业务入门培训_模块与产出.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "0b620fec51ae528bceb4fa4f85a36aec441a9e62e52dfab7c4ecd8e5d46d0113"
+  },
+  {
+    "name": "产品场景培训_秋季版.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "0ec25f1f9e0180881852148d6b0a548731f0eaeb5dc972610e16bc42e700b3f7"
+  },
+  {
+    "name": "发布培训_旧版202607.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "ad53678badeba494b4a4841f0e0039a866bca05371a395a50a1b63da118177ea"
+  },
+  {
+    "name": "内容生产流程_v2.1.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "7f27a7f1b48c42dafba8ec0d2cc74c2416bedb88a3a2e54f16cda2779f67a7fa"
+  },
+  {
+    "name": "发布前检查清单.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "80bc789a04872da629b5025bd6cbd8b39c0179b456cec452c5ed3b6b27e94d33"
+  },
+  {
+    "name": "周复盘怎么开.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "2390b0198afbeed7eef649cb4694bee0bcfd87afa06ff1aed372e8035d63ce23"
+  },
+  {
+    "name": "秋季办公效率专题_需求v0.9.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "7641b0bf3a9cf989658a0b995a2b1c0169e55687acb52e7e02d83d2c463d9e1d"
+  },
+  {
+    "name": "首批内容排期草案.xlsx",
+    "ext": "XLSX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "d8109a7d3ab507c69eeed59bb332cc0b1fc33b820cd0a1b6b7c8eaede05ff2eb"
+  },
+  {
+    "name": "会议整理案例方案.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "2733a69f713368ad13602506171474a68ba570d03942a997807ef00c32bdaa88"
+  },
+  {
+    "name": "夏季八条内容方案_v1.0.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "6350d6733146b59d1496d8408386c29707cdf779a106dd7f98cde0946f52cbfb"
+  },
+  {
+    "name": "新人训练营专题方案.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "c642895e370fdbd7b747f02562f05fd77dfda64d14ecb9434a523165e7566b75"
+  },
+  {
+    "name": "夏季专题复盘.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "c09fb4c45df63483157341b7392ee2099eaed5ea899ce078af7105fa0d585a0c"
+  },
+  {
+    "name": "新人专题评论复盘.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "9c4e904db6f1a1fc5c89ef1d3ed9725dbe513491eac91249d1cb1a39a028f7c2"
+  },
+  {
+    "name": "链接失效事件记录.pdf",
+    "ext": "PDF",
+    "path": "[LOCAL_PATH]",
+    "sha256": "f251cd7be73968cde8601e29a5b5b005d5da1d48a70b0f619d53b1fed3d0521b"
+  },
+  {
+    "name": "指标字典.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "40806566aff6db5edad2f46c91de559927c3f32ab1e417536fd711a187e293b9"
+  },
+  {
+    "name": "数据核验操作说明.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "850364f65cf28113980c45063646d468731d6ac7b669fd2f4891eb62138e4efc"
+  },
+  {
+    "name": "有效咨询口径_v2.0.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "8bcfc078a9baff0db1af70f7f7858618278f0554e051b1e5c34e650e7e455b2e"
+  },
+  {
+    "name": "九月咨询分层快照.xlsx",
+    "ext": "XLSX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "bbfa546f0aa7e651b96d6f19c49128167936f2a3ff2a2c459f1e538a03c30d38"
+  },
+  {
+    "name": "内容观察窗口练习.xlsx",
+    "ext": "XLSX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "a86e545a39d1feeaa767db17ddb3902fd8d5e6244b14931d35393d7435d2a8b6"
+  },
+  {
+    "name": "咨询记录样例_非完整明细.xlsx",
+    "ext": "XLSX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "90381dc1006dcb9ec66d4d9956210444b6fac01518bffd8d49c44bb752a3638f"
+  },
+  {
+    "name": "会议问题记录模板.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "9c491c6cce45fc4a6cb9b7924e6b0c995b98192a59975160b5ae7264c0f1733c"
+  },
+  {
+    "name": "单条内容复盘模板.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "1d1421d0ebb95343a4daa1a0815383a3bf19c42fd39dd46e5e7766a73b162110"
+  },
+  {
+    "name": "选题需求卡模板.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "acb58bff4621e7442a82a4b7f0378a234e5f767d1c0a6fb85330f52c75bcee27"
+  },
+  {
+    "name": "产品录屏核对说明.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "fbf5e221b6dd202dcdf3c9470cad06ddecde0cc114aa123ece3e70ba234b5c6f"
+  },
+  {
+    "name": "案例素材引用登记.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "2b0d71c67134466c1496ad90cc7aa46b5f6ee949e47dc039aebf46cddf466de0"
+  },
+  {
+    "name": "演示素材使用规范.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "51393d6e426b796b3f4987b94f7c93257ed71f1b09911c0773eb5e824f840a41"
+  },
+  {
+    "name": "产品素材进展补充_0925.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "3350ab5a6551372706e6831dce5f4347c6e6c5f8359a2466d4dfb2c854c6dde2"
+  },
+  {
+    "name": "待核验咨询补充_0925.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "f6f6e4e03df78aec141609df0f2d7664bd953114f9ae690b29b42e9be9aadee2"
+  },
+  {
+    "name": "新人理解练习卡.docx",
+    "ext": "DOCX",
+    "path": "[LOCAL_PATH]",
+    "sha256": "b9af776735cd51b87fac0340850b87e9fe7cd7a6efd6a9e6e04b148774eabd0b"
+  }
+]

@@ -174,19 +174,19 @@
     },
     {
       "id": "library-fred",
-      "title": "Library → Fred"
+      "title": "library → Fred"
     },
     {
       "id": "new10",
-      "title": "Library 新 10 期"
+      "title": "library 新 10 期"
     },
     {
       "id": "legacy81",
-      "title": "Library 旧库最新复刻"
+      "title": "library 旧库最新复刻"
     },
     {
       "id": "library24",
-      "title": "Library 用户精选 24 条"
+      "title": "library 用户精选 24 条"
     },
     {
       "id": "ep103",
@@ -251,6 +251,30 @@
     {
       "id": "fred-wave3-extra2",
       "title": "第三轮补充精选组件"
+    },
+    {
+      "id": "ep116-scenes",
+      "title": "116 期场景组件（原样入库）"
+    },
+    {
+      "id": "fred-chapter-transitions-20",
+      "title": "章节动画与内容过渡 20 条"
+    },
+    {
+      "id": "fred-chapter-transitions-wave2",
+      "title": "章节过渡第二批"
+    },
+    {
+      "id": "fred-recording-8",
+      "title": "录屏与界面操作新组件 8 条"
+    },
+    {
+      "id": "legacy-fix",
+      "title": "历史组件返修版 2026-10-18"
+    },
+    {
+      "id": "episode-scenes-112-125",
+      "title": "112–125 期场景（原样入库）"
     }
   ],
   "schemaVersion": 1,
@@ -14091,806 +14115,3818 @@
       "title": "以前 vs 现在：旧步骤收成一叠，新做法接管",
       "collectionId": "fred-native-16-20261012",
       "kind": "components"
+    },
+    "T01j": {
+      "referenceId": "episode-scenes-1018-t01j",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "people",
+        "cards",
+        "data"
+      ],
+      "inputObjects": [
+        "实习生工牌卡",
+        "任务胶囊",
+        "主页卡",
+        "功能块",
+        "两条能力条"
+      ],
+      "action": "实习生工牌卡 + “帮我做个主页” → 各种块一块块砸进主页卡、堆满溢出 → 下方两条能力条：功能满格、审美很低",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 10.433,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第120期",
+        "T01j",
+        "太想讨好你",
+        "堆满",
+        "功能有了审美没跟上",
+        "比喻"
+      ],
+      "scenarioId": "headline",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "强调一句话"
+    },
+    "T02k": {
+      "referenceId": "episode-scenes-1018-t02k",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "handoff"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "people",
+        "cards",
+        "orientation"
+      ],
+      "inputObjects": [
+        "开场黑胶囊",
+        "黑圆点",
+        "GitHub 标志",
+        "两张身份卡"
+      ],
+      "action": "“今天给我 5 分钟”黑胶囊收成黑圆点 → 圆点变成 GitHub 标志 → 两张身份卡从标志后向左右展开，每张卡按口播点亮要讲的几件事",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 17.933,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第114期",
+        "T02k",
+        "本期两部分",
+        "两个身份",
+        "今天给我 N 分钟",
+        "Logo 展开"
+      ],
+      "scenarioId": "list",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "列举要点与能力"
+    },
+    "T02l": {
+      "referenceId": "episode-scenes-1018-t02l",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "cards",
+        "summary",
+        "document"
+      ],
+      "inputObjects": [
+        "GitHub 仓库页截图",
+        "安装命令",
+        "工具卡（Logo+名字）",
+        "黑胶囊章"
+      ],
+      "action": "真实仓库页刷出“runs in your terminal”、推近安装命令 → 三张新工具卡依次落下，每张盖一枚“命令行”章（落下压一下、轻转角、无回弹）",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 14.433,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第117期",
+        "T02l",
+        "逐张盖章",
+        "同一个属性",
+        "命令行工具",
+        "很多工具只有命令行"
+      ],
+      "scenarioId": "list",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "列举要点与能力"
+    },
+    "T02m": {
+      "referenceId": "episode-scenes-1018-t02m",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "cards",
+        "process",
+        "summary"
+      ],
+      "inputObjects": [
+        "卡片",
+        "箭头",
+        "结论卡"
+      ],
+      "action": "卡片按口播逐张加入一排，每加一张整组平滑重新居中（不预留空位），最后一张抬起变结论",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 9.667,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第118期",
+        "T02m",
+        "逐个加入",
+        "整组居中",
+        "流程卡",
+        "最后一张是结论"
+      ],
+      "scenarioId": "list",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "列举要点与能力"
+    },
+    "T03g": {
+      "referenceId": "episode-scenes-1018-t03g",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "cards",
+        "summary"
+      ],
+      "inputObjects": [
+        "模型文件卡",
+        "机架服务器",
+        "指示灯",
+        "结论黑胶囊"
+      ],
+      "action": "黑色“模型文件”卡下载落下 → 放进机架服务器 → 指示灯依次亮起“跑起来”，收成“这就叫部署”黑胶囊",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 5.933,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第113期",
+        "T03g",
+        "部署",
+        "下载模型",
+        "跑起来",
+        "三步流程"
+      ],
+      "scenarioId": "process",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "解释步骤与流程"
+    },
+    "T03h": {
+      "referenceId": "episode-scenes-1018-t03h",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "video-entry"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "media",
+        "orientation"
+      ],
+      "inputObjects": [
+        "步骤胶囊",
+        "顶部进度轨",
+        "录屏窗"
+      ],
+      "action": "四步胶囊在中央一次排开 → 整排缩到顶部常驻成进度轨，下方录屏窗长出；进入每一步时轨上点亮对应胶囊",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.567,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第113期",
+        "T03h",
+        "一共 N 步",
+        "进度轨",
+        "录屏教程",
+        "当前第几步"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T03i": {
+      "referenceId": "episode-scenes-1018-t03i",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "data",
+        "media"
+      ],
+      "inputObjects": [
+        "实拍窗",
+        "能力条",
+        "旧录音卡",
+        "工具胶囊",
+        "重建声音卡",
+        "声波"
+      ],
+      "action": "远景窗让到左侧，右侧“说话能力”条从满降到很低；旧录音卡 → ElevenLabs → 重建声音卡逐张加入，声波从灰色静止变成紫色跳动",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 13.5,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T03i",
+        "失去能力",
+        "AI 重建",
+        "声音克隆",
+        "声波"
+      ],
+      "scenarioId": "process",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "解释步骤与流程"
+    },
+    "T03j": {
+      "referenceId": "episode-scenes-1018-t03j",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "text",
+        "summary"
+      ],
+      "inputObjects": [
+        "大字",
+        "箭头",
+        "勾/叉",
+        "播放窗"
+      ],
+      "action": "画布上一排 MiSans Heavy 大字流程 A → B → C 逐个加入、每步整排居中，可带勾/叉；配播放窗示意",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 12.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第125期",
+        "T03j",
+        "原因链",
+        "大字流程",
+        "不用小胶囊",
+        "整排居中"
+      ],
+      "scenarioId": "process",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "解释步骤与流程"
+    },
+    "T04j": {
+      "referenceId": "episode-scenes-1018-t04j",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "comparison",
+        "cards",
+        "summary"
+      ],
+      "inputObjects": [
+        "条件胶囊",
+        "箭头",
+        "选择卡（图标+标题+说明）",
+        "推荐行"
+      ],
+      "action": "两行“条件 → 选择”：条件胶囊在左，按口播画出箭头、右侧弹出选择卡（图标+标题+一句说明），第二行同构接上，最后推荐行放大",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 13.6,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第113期",
+        "T04j",
+        "怎么选",
+        "如果就",
+        "两种人两条路",
+        "推荐"
+      ],
+      "scenarioId": "compare",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "并排比较结果"
+    },
+    "T04k": {
+      "referenceId": "episode-scenes-1018-t04k",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "cards",
+        "handoff"
+      ],
+      "inputObjects": [
+        "“我的应用”卡",
+        "功能格（地图/天气/支付）",
+        "API 卡（品牌 Logo）"
+      ],
+      "action": "“我的应用”卡里有地图/天气/支付几个功能，右侧 API 卡（高德地图、天气、微信支付、支付宝…）按口播逐张接上，对应功能点亮",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 17.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第112期",
+        "T04k",
+        "API 是什么",
+        "接上现成能力",
+        "不用从头开发",
+        "插件"
+      ],
+      "scenarioId": "relation",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "分类、分支与归组"
+    },
+    "T05q": {
+      "referenceId": "episode-scenes-1018-t05q",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "comparison",
+        "data",
+        "cards"
+      ],
+      "inputObjects": [
+        "桌面版窗口",
+        "界面/动画/窗口三层",
+        "终端窗口",
+        "内存条",
+        "4 个并发小窗"
+      ],
+      "action": "桌面版拆成“界面/动画/各种窗口”三层，内存条一层涨一截；终端版是一层文字窗口；终端复制成 4 个并发小窗，内存条冲顶抖一下",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 17.667,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第117期",
+        "T05q",
+        "轻 vs 重",
+        "资源占用",
+        "内存",
+        "并发"
+      ],
+      "scenarioId": "compare",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "并排比较结果"
+    },
+    "T05r": {
+      "referenceId": "episode-scenes-1018-t05r",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "images"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "comparison",
+        "handoff"
+      ],
+      "inputObjects": [
+        "播放窗",
+        "实拍片段",
+        "左右两窗",
+        "标签"
+      ],
+      "action": "播放窗绕 Y 轴翻面换成下一段素材；随后一个窗口一分为二，左右两段同时播放对照",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 13.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T05r",
+        "翻面",
+        "一窗分两窗",
+        "对照播放",
+        "换话题"
+      ],
+      "scenarioId": "window",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "窗口与媒体交接"
+    },
+    "T08k": {
+      "referenceId": "episode-scenes-1018-t08k",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "focus",
+        "document",
+        "comparison"
+      ],
+      "inputObjects": [
+        "仓库页截图 A",
+        "仓库页截图 B",
+        "Spotlight 局部压暗",
+        "白胶囊释义"
+      ],
+      "action": "Fred 的仓库页让到左边，另一仓库页从右进来并排；“记住这几个位置”时两页同一批位置一起被标出，再按口播逐个讲",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 18.567,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第114期",
+        "T08k",
+        "页面结构都一样",
+        "记住这几个位置",
+        "截图标注",
+        "GitHub 仓库页"
+      ],
+      "scenarioId": "focus",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "局部放大与标注"
+    },
+    "T08n": {
+      "referenceId": "episode-scenes-1018-t08n",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "recording-focus"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "document",
+        "focus",
+        "process"
+      ],
+      "inputObjects": [
+        "规则文件",
+        "规则条目",
+        "小演示（音效/续传/重试/限幅）"
+      ],
+      "action": "一份真实规则文件在大画布上展开全景 → 相机依次推到每条规则、一次只读清一条，每条旁边演一个小动作（音效次数、续传、重试、不爆音）",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 18.233,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第116期",
+        "T08n",
+        "规则文件",
+        "逐条看懂",
+        "推近",
+        "配置说明"
+      ],
+      "scenarioId": "focus",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "局部放大与标注"
+    },
+    "T08o": {
+      "referenceId": "episode-scenes-1018-t08o",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "focus",
+        "data",
+        "document"
+      ],
+      "inputObjects": [
+        "GitHub 仓库首屏截图",
+        "Star 数区域",
+        "本周涨星黑胶囊"
+      ],
+      "action": "GitHub 仓库首屏截图升起 → 相机按源像素推近 About 区的 Star 数 → 局部蒙版压暗其余 → “本周涨星”黑胶囊数字滚动落定",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 6.867,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第118期",
+        "T08o",
+        "GitHub 项目",
+        "Star",
+        "有多火",
+        "涨星"
+      ],
+      "scenarioId": "focus",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "局部放大与标注"
+    },
+    "T08p": {
+      "referenceId": "episode-scenes-1018-t08p",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "focus",
+        "document",
+        "process"
+      ],
+      "inputObjects": [
+        "磨砂卡",
+        "真实架构图",
+        "节点 Spotlight",
+        "节点名"
+      ],
+      "action": "白色磨砂卡里放真实架构图，Spotlight 按顺序逐个亮起图中节点，节点名在旁边写清；再切到官网“手机一层层拆开”的图",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 19.333,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第118期",
+        "T08p",
+        "架构图",
+        "按顺序看懂",
+        "局部压暗",
+        "节点"
+      ],
+      "scenarioId": "focus",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "局部放大与标注"
+    },
+    "T10i": {
+      "referenceId": "episode-scenes-1018-t10i",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "recording-focus"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "input",
+        "text",
+        "process"
+      ],
+      "inputObjects": [
+        "搜索框",
+        "固定词",
+        "槽位词",
+        "结果页截图"
+      ],
+      "action": "搜索框打出固定词“awesome”，后面的“领域”槽位快速换词（python / design / audio），按口播落在 video，回车出清单",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 7.367,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第114期",
+        "T10i",
+        "搜索公式",
+        "关键词换词",
+        "awesome 清单",
+        "回车出结果"
+      ],
+      "scenarioId": "input",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "输入、聊天与反馈"
+    },
+    "T10j": {
+      "referenceId": "episode-scenes-1018-t10j",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "input",
+        "text",
+        "focus"
+      ],
+      "inputObjects": [
+        "真实输入框截图",
+        "提示词句子",
+        "毛刷高亮",
+        "发送按钮"
+      ],
+      "action": "真实输入框里贴入链接后，指令按口播逐句：其余句压暗、当前句毛刷刷亮；“四种图”时四个名词逐个刷亮，最后点发送",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 19.267,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第115期",
+        "T10j",
+        "提示词跟读",
+        "逐句高亮",
+        "毛刷",
+        "发送"
+      ],
+      "scenarioId": "input",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "输入、聊天与反馈"
+    },
+    "T10k": {
+      "referenceId": "episode-scenes-1018-t10k",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "video-entry"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "input",
+        "focus",
+        "media"
+      ],
+      "inputObjects": [
+        "手机外壳",
+        "录屏拼接长图",
+        "毛刷高亮",
+        "局部压暗"
+      ],
+      "action": "手机外壳里是真实手机录屏拼成的整段对话长图，按真实滚动位置取景；整台手机推近到能读，毛刷刷亮要读的那句，局部压暗其余",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 18.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第123期",
+        "T10k",
+        "手机对话",
+        "AI 回复跟读",
+        "长图",
+        "商单"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T11n": {
+      "referenceId": "episode-scenes-1018-t11n",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "cards",
+        "media",
+        "summary"
+      ],
+      "inputObjects": [
+        "旧缩略图",
+        "新缩略图",
+        "类别列",
+        "类别标签"
+      ],
+      "action": "章节胶囊倒出一墙旧缩略图 → 不满意的变灰掉下 → 剩下按类别收成几列，空列明显 → 一批新缩略图成批飞进补满 → 每列收成类别标签",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 15.9,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第116期",
+        "T11n",
+        "筛掉差的",
+        "按类分好",
+        "补齐缺口",
+        "组件库盘点"
+      ],
+      "scenarioId": "wall",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "多图与作品墙"
+    },
+    "T11o": {
+      "referenceId": "episode-scenes-1018-t11o",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "video-entry"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "focus",
+        "summary"
+      ],
+      "inputObjects": [
+        "四宫格视频",
+        "格子标签",
+        "总结黑胶囊"
+      ],
+      "action": "四宫格同时播放四段演示，按口播逐格点亮：当前格放大抬起、其余压暗 0.6，最后黑胶囊压上总结",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T11o",
+        "四个例子",
+        "逐格点亮",
+        "同一套能力",
+        "宫格"
+      ],
+      "scenarioId": "gallery",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "卡片展开与作品切换"
+    },
+    "T11p": {
+      "referenceId": "episode-scenes-1018-t11p",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "images"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "cards",
+        "handoff"
+      ],
+      "inputObjects": [
+        "三张视频卡",
+        "卡下大字",
+        "大窗口"
+      ],
+      "action": "三张同尺寸视频卡并排 + 下方大字 → 中间卡长成大窗口、两侧卡滑入收进同一个窗口 → 窗内跳切下一段素材",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 10.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第125期",
+        "T11p",
+        "三个片段",
+        "收成一个窗",
+        "跳切",
+        "能跳能翻能飞"
+      ],
+      "scenarioId": "window",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "窗口与媒体交接"
+    },
+    "T13g": {
+      "referenceId": "episode-scenes-1018-t13g",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "comparison",
+        "cards"
+      ],
+      "inputObjects": [
+        "后厨窗",
+        "菜单卡",
+        "上锁的菜谱",
+        "模型文件卡",
+        "你的机器"
+      ],
+      "action": "后厨窗+菜单卡讲“闭源=餐厅”，推近到上锁的菜谱；“开源=菜谱公开”时锁弹开掉下、菜谱翻开，模型文件落到自己的机器",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 17.867,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第113期",
+        "T13g",
+        "闭源 vs 开源",
+        "比喻",
+        "解锁",
+        "拿走自己用",
+        "推近"
+      ],
+      "scenarioId": "relation",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "分类、分支与归组"
+    },
+    "T13h": {
+      "referenceId": "episode-scenes-1018-t13h",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "media",
+        "comparison"
+      ],
+      "inputObjects": [
+        "浏览器卡",
+        "骨架块",
+        "真实网页画面"
+      ],
+      "action": "浏览器卡里先只有文字和结构（骨架块），“需要截图的时候”画面区域自上而下擦出真实画面",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 13.133,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第118期",
+        "T13h",
+        "只要结构",
+        "需要时才截图",
+        "骨架屏",
+        "擦出"
+      ],
+      "scenarioId": "process",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "解释步骤与流程"
+    },
+    "T14k": {
+      "referenceId": "episode-scenes-1018-t14k",
+      "primaryUse": "data",
+      "useIds": [
+        "data",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "process",
+        "focus"
+      ],
+      "inputObjects": [
+        "终端窗口",
+        "进度行",
+        "Token 计量卡"
+      ],
+      "action": "终端里真实流程逐行完成（进度条→✓）；“一分 Token 都不花”时终端让到左边，右侧 Token 计量卡数字始终是 0，每完成一步轻跳一下",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.433,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第117期",
+        "T14k",
+        "不花 Token",
+        "成本为零",
+        "终端",
+        "过程旁挂计量"
+      ],
+      "scenarioId": "number",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "数值变化与落定"
+    },
+    "T14l": {
+      "referenceId": "episode-scenes-1018-t14l",
+      "primaryUse": "data",
+      "useIds": [
+        "data",
+        "images"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "media",
+        "summary"
+      ],
+      "inputObjects": [
+        "作品小窗",
+        "大播放窗",
+        "进度线",
+        "当前标记",
+        "终点标记"
+      ],
+      "action": "四个作品小窗同时在播并打勾 → 大窗播音乐制作器 → 一条进度：标记“能玩”停在左边，后面一长段虚线才到“真正好用的软件”",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 8.367,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第120期",
+        "T14l",
+        "还差得远",
+        "能玩 vs 好用",
+        "进度",
+        "测评结论"
+      ],
+      "scenarioId": "number",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "数值变化与落定"
+    },
+    "T14m": {
+      "referenceId": "episode-scenes-1018-t14m",
+      "primaryUse": "data",
+      "useIds": [
+        "data",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "process",
+        "media"
+      ],
+      "inputObjects": [
+        "剪辑软件窗口",
+        "时间条",
+        "时长标签",
+        "片段块",
+        "光标"
+      ],
+      "action": "达芬奇窗口底部一条时间条“1 小时 30 分”压缩成“10 分钟”，再放大成 5 个片段块，光标拖动、替换其中一块",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 10.5,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第120期",
+        "T14m",
+        "1 小时半 → 10 分钟",
+        "粗剪",
+        "人再微调",
+        "压缩"
+      ],
+      "scenarioId": "number",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "数值变化与落定"
+    },
+    "T14n": {
+      "referenceId": "episode-scenes-1018-t14n",
+      "primaryUse": "data",
+      "useIds": [
+        "data",
+        "video-entry"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "media"
+      ],
+      "inputObjects": [
+        "视频窗",
+        "计数点",
+        "步骤胶囊"
+      ],
+      "action": "视频窗旁一排计数点按真实节奏逐个点亮（黑），最后一个点亮成紫色，配“连续七个”",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T14n",
+        "连中 N 个",
+        "计数",
+        "逐个点亮",
+        "次数"
+      ],
+      "scenarioId": "number",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "数值变化与落定"
+    },
+    "T15p": {
+      "referenceId": "episode-scenes-1018-t15p",
+      "primaryUse": "data",
+      "useIds": [
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "comparison"
+      ],
+      "inputObjects": [
+        "名次圆",
+        "模型 Logo",
+        "模型名",
+        "分数条"
+      ],
+      "action": "榜单两行（名次圆+Logo+模型名+分数）→ 横向对比条从 0 长出、数字滚动落定（成片为 1729 / 1515），两条长度差直观呈现“前面一截”",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 7.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第120期",
+        "T15p",
+        "跑分",
+        "榜单",
+        "差多少",
+        "对比条"
+      ],
+      "scenarioId": "data",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "表格与图表对比"
+    },
+    "T16f": {
+      "referenceId": "episode-scenes-1018-t16f",
+      "primaryUse": "data",
+      "useIds": [
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "text"
+      ],
+      "inputObjects": [
+        "产品官网卡",
+        "大号版本号",
+        "版本小胶囊"
+      ],
+      "action": "大号版本号整数位固定，小数位按口播逐格上翻（6.0→6.4，每格 0.12 秒），落定最后一格",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 7.3,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T16f",
+        "版本更新",
+        "6.0 → 6.4",
+        "逐格上翻",
+        "一口气更新"
+      ],
+      "scenarioId": "number",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "数值变化与落定"
+    },
+    "T16g": {
+      "referenceId": "episode-scenes-1018-t16g",
+      "primaryUse": "data",
+      "useIds": [
+        "data",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "process",
+        "summary"
+      ],
+      "inputObjects": [
+        "视频窗节点卡",
+        "时间轴",
+        "年份节点",
+        "划掉的承诺",
+        "大字数字"
+      ],
+      "action": "视频窗缩成 2026 节点卡 → 时间轴从右往左擦出到 2017，再落 2020（“量产”被划掉）→ “一拖 9 年 / 交付 0 辆”大字数字落定",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 9.067,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第125期",
+        "T16g",
+        "一拖再拖",
+        "承诺",
+        "时间线",
+        "延期"
+      ],
+      "scenarioId": "data",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "表格与图表对比"
+    },
+    "T17h": {
+      "referenceId": "episode-scenes-1018-t17h",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "handoff"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "input",
+        "send",
+        "handoff",
+        "document"
+      ],
+      "inputObjects": [
+        "README 截图",
+        "命令块",
+        "深色终端",
+        "Codex 输入框",
+        "仓库地址"
+      ],
+      "action": "README 里的命令块被拎出成深色终端，逐行划掉“不用自己敲” → 终端变形成 Codex 对话框，附上仓库地址、按口播打出提示词并发送",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 17.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第114期",
+        "T17h",
+        "README 命令",
+        "交给 AI",
+        "不用自己敲",
+        "同对象变形",
+        "Codex"
+      ],
+      "scenarioId": "input",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "输入、聊天与反馈"
+    },
+    "T17i": {
+      "referenceId": "episode-scenes-1018-t17i",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "input",
+        "process",
+        "orientation"
+      ],
+      "inputObjects": [
+        "Mac 桌面",
+        "Dock 图标",
+        "“系统自带”胶囊",
+        "⌘/空格键帽",
+        "聚焦搜索条",
+        "终端窗口"
+      ],
+      "action": "Mac 桌面全屏 → 程序坞里应用图标抬起 + “系统自带”胶囊 → ⌘、空格两颗键帽依次按下 → 聚焦搜索条弹出、打出“终端”、结果行选中回车，窗口弹出",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 7.233,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第117期",
+        "T17i",
+        "怎么打开",
+        "快捷键",
+        "聚焦搜索",
+        "系统自带"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T17j": {
+      "referenceId": "episode-scenes-1018-t17j",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "handoff"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "process",
+        "handoff",
+        "send"
+      ],
+      "inputObjects": [
+        "Codex 回复",
+        "终端窗口",
+        "Dock",
+        "剪辑时间轴",
+        "Finder 文件卡"
+      ],
+      "action": "Codex 回复给命令 → 复制 → 终端粘贴回车输出哗哗上滚 → 终端窗口按 Mac 最小化吸进 Dock，旁边剪辑时间轴快进 → 成片文件卡落进 Finder（全片唯一“叮”）",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.367,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第117期",
+        "T17j",
+        "后台跑",
+        "最小化",
+        "去干别的",
+        "结果在文件夹"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T17k": {
+      "referenceId": "episode-scenes-1018-t17k",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "recording-focus"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "document",
+        "focus",
+        "orientation"
+      ],
+      "inputObjects": [
+        "项目目录窗",
+        "问句胶囊",
+        ".env 文件",
+        "代码编辑器"
+      ],
+      "action": "项目目录（README.md…）→ “Key 放在哪里？”胶囊 → 目录里出现 .env，打开成深色编辑器，API_KEY=your_key_here 一行亮出",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 10.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第112期",
+        "T17k",
+        "Key 放哪",
+        ".env",
+        "配置文件",
+        "密钥"
+      ],
+      "scenarioId": "focus",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "局部放大与标注"
+    },
+    "T18j": {
+      "referenceId": "episode-scenes-1018-t18j",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "focus",
+        "data"
+      ],
+      "inputObjects": [
+        "透明底产品图",
+        "尺寸标注线",
+        "尺寸胶囊",
+        "实拍片段",
+        "Spotlight"
+      ],
+      "action": "透明底产品图落定 → 尺寸标注线先画出、“7 英寸”胶囊后落；再用 Spotlight 逐个亮起画面里认出的人",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 10.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T18j",
+        "新硬件",
+        "多大",
+        "7 英寸",
+        "能做什么"
+      ],
+      "scenarioId": "object",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "对象让位与聚合"
+    },
+    "T18k": {
+      "referenceId": "episode-scenes-1018-t18k",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "focus",
+        "process"
+      ],
+      "inputObjects": [
+        "大播放窗",
+        "实拍片段",
+        "示意箭头",
+        "标注文字",
+        "大字说明",
+        "“示意”角标"
+      ],
+      "action": "大播放窗里放真实实拍，示意箭头和标注画在源像素坐标上、随相机一起推拉；窗下一行大字说明，必要时整句划掉；右下角“示意”小字",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第125期",
+        "T18k",
+        "原理示意",
+        "受力",
+        "箭头叠层",
+        "科普"
+      ],
+      "scenarioId": "window",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "窗口与媒体交接"
+    },
+    "T20s": {
+      "referenceId": "episode-scenes-1018-t20s",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "cards",
+        "summary"
+      ],
+      "inputObjects": [
+        "实拍照片",
+        "画布卡片",
+        "物料叠（主图/详情图/视频）",
+        "国家站点标签"
+      ],
+      "action": "满屏真实照片硬切、每镜微推 → 最后一镜缩成画布上的一张卡、其余照片从四边飞入；物料按口播一叠叠累计、“卖几个国家”时整叠复制",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.933,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第115期",
+        "T20s",
+        "痛点开场",
+        "快切",
+        "越叠越多",
+        "跨境电商"
+      ],
+      "scenarioId": "wall",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "多图与作品墙"
+    },
+    "T20t": {
+      "referenceId": "episode-scenes-1018-t20t",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "data",
+        "summary",
+        "media"
+      ],
+      "inputObjects": [
+        "商品链接胶囊",
+        "成品套图/视频",
+        "计时圆盘"
+      ],
+      "action": "旧物料被一刀切走只剩一条链接 → 成品套图/视频依次浮起 → “给我三分钟”时计时圆盘画出 3 分钟扇区并落定",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 10.733,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第115期",
+        "T20t",
+        "给我 N 分钟",
+        "计时",
+        "开场承诺",
+        "一条链接"
+      ],
+      "scenarioId": "number",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "数值变化与落定"
+    },
+    "T20u": {
+      "referenceId": "episode-scenes-1018-t20u",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "images"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "comparison",
+        "cards",
+        "media"
+      ],
+      "inputObjects": [
+        "仓库卡",
+        "付费会员价签",
+        "划掉线",
+        "“免费·开源”章",
+        "效果图",
+        "Codex 输入框"
+      ],
+      "action": "五张真实仓库卡第 0 帧落位 → 每张下面挂出付费会员价签并被划掉 → 盖“免费·开源”章 → 五张效果图按口播压上来 → 收成工具卡、Codex 输入框发送后逐张打勾",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 13.4,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第119期",
+        "T20u",
+        "免费替代",
+        "划掉价格",
+        "开源",
+        "工具推荐开场"
+      ],
+      "scenarioId": "compare",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "并排比较结果"
+    },
+    "T20v": {
+      "referenceId": "episode-scenes-1018-t20v",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "images"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "summary",
+        "text"
+      ],
+      "inputObjects": [
+        "实拍片段",
+        "节目台标",
+        "大字黑胶囊",
+        "黑毛玻璃一句话",
+        "结果卡"
+      ],
+      "action": "0 帧就是全屏实拍，0.5–0.9 秒一切本周高光素材；左上节目台标；中央大字黑胶囊砸下并换字；中段黑毛玻璃一句话；结尾三张结果卡一排",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 17.5,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T20v",
+        "本周 AI 热点",
+        "快切开场",
+        "周报",
+        "高光素材"
+      ],
+      "scenarioId": "headline",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "强调一句话"
+    },
+    "T20w": {
+      "referenceId": "episode-scenes-1018-t20w",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "handoff"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "handoff"
+      ],
+      "inputObjects": [
+        "品牌 Logo",
+        "大播放窗",
+        "真实录屏"
+      ],
+      "action": "品牌 Logo 在口播头 1 秒内弹入亮相（水波），随即交给 108 大播放窗里的真实录屏",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 4.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第122期",
+        "T20w",
+        "品牌开场",
+        "短开场",
+        "直接进演示",
+        "商单"
+      ],
+      "scenarioId": "window",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "窗口与媒体交接"
+    },
+    "T20x": {
+      "referenceId": "episode-scenes-1018-t20x",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "images"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "focus",
+        "text"
+      ],
+      "inputObjects": [
+        "实拍片段",
+        "大字胶囊",
+        "细线托架",
+        "对象大字"
+      ],
+      "action": "第 0 帧就是真实画面，大胶囊砸下；跳切+相机关键帧（先盯车 → 拉开露出车队 → 推近翻身）；细线托架从中点向两边刷开，下方大字标出画面里的对象",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 9.6,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第125期",
+        "T20x",
+        "实拍开场",
+        "看哪里",
+        "托架标注",
+        "惊人画面"
+      ],
+      "scenarioId": "headline",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "强调一句话"
+    },
+    "T21f": {
+      "referenceId": "episode-scenes-1018-t21f",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "handoff"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "people",
+        "summary"
+      ],
+      "inputObjects": [
+        "两行清单",
+        "路线",
+        "灰色小人",
+        "Fred 头像",
+        "旗子"
+      ],
+      "action": "两行清单压成一条路（线）→ 一排灰色小人点在路上，Fred 头像往前跳一大步（回弹落定），结尾停稳",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 11.667,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第117期",
+        "T21f",
+        "领先一步",
+        "收尾",
+        "已经往前走了",
+        "比大多数人"
+      ],
+      "scenarioId": "headline",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "强调一句话"
+    },
+    "T21g": {
+      "referenceId": "episode-scenes-1018-t21g",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "data"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "summary",
+        "data",
+        "cards"
+      ],
+      "inputObjects": [
+        "Logo",
+        "问句黑胶囊",
+        "成绩单条目",
+        "勾/半/叉",
+        "总评胶囊"
+      ],
+      "action": "Logo 回到中央 + 问句黑胶囊 → 整页先铺开灰色成绩单条目（各章名），按口播逐条打勾/打叉/半勾，行从灰变墨",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 14.267,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第120期",
+        "T21g",
+        "测评总结",
+        "成绩单",
+        "有好有坏",
+        "逐条打分"
+      ],
+      "scenarioId": "list",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "列举要点与能力"
+    },
+    "T22f": {
+      "referenceId": "episode-scenes-1018-t22f",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "handoff"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "cards",
+        "orientation"
+      ],
+      "inputObjects": [
+        "标题黑胶囊（n/4）",
+        "大播放窗",
+        "要点胶囊"
+      ],
+      "action": "居中大播放窗 + 上方黑胶囊标题（左侧小圆序号 n/4）+ 窗下要点胶囊逐个弹出、整组居中；条与条之间当前卡左滑缩小、下一张从右滑入",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 20.2,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第121期",
+        "T22f",
+        "快讯",
+        "快速过几条",
+        "轮播",
+        "新闻"
+      ],
+      "scenarioId": "gallery",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "卡片展开与作品切换"
+    },
+    "T22g": {
+      "referenceId": "episode-scenes-1018-t22g",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "explain"
+      ],
+      "sourceId": "episode-scenes-112-125",
+      "conceptIds": [
+        "media",
+        "comparison",
+        "focus"
+      ],
+      "inputObjects": [
+        "竖屏信息流卡",
+        "大字胶囊",
+        "查证小卡",
+        "官方视频框"
+      ],
+      "action": "竖屏信息流卡（9:16）一条条刷过 → 定在一条，旁边查证小卡里的官方视频框弹出，“这不是 AI”",
+      "segmentRole": "本期场景原样入库（场景级定制）",
+      "nativeDurationSeconds": 9.0,
+      "adaptation": "内容和时间点绑定本期口播：复制场景和它 import 的小件到本期工程，按本期口播改文字、素材和 cue，再出帧检查。",
+      "tags": [
+        "本期场景",
+        "第125期",
+        "T22g",
+        "刷到的视频",
+        "是不是 AI",
+        "查证",
+        "居然是真的"
+      ],
+      "scenarioId": "compare",
+      "addedAt": "2026-10-18T12:33:49+08:00",
+      "scenarioTitle": "并排比较结果"
+    },
+    "T09q": {
+      "referenceId": "fred-recording-8-t09q",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "video-entry"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "media",
+        "process",
+        "focus"
+      ],
+      "inputObjects": [
+        "长录屏",
+        "关键时刻标记",
+        "播放头"
+      ],
+      "action": "一段很长的真实录屏 → 下沿时间条上落出 3–4 个关键时刻标记，播放头按口播逐个跳过去，每处窗内推近读清再跳下一处",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 7.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09q",
+        "长录屏跳读",
+        "时间条标记",
+        "跳切"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T09r": {
+      "referenceId": "fred-recording-8-t09r",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "video-entry"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "media",
+        "process"
+      ],
+      "inputObjects": [
+        "真实录屏",
+        "速度读数",
+        "结果画面"
+      ],
+      "action": "真实录屏原速播放 → 角落速度读数从 1× 拉到 8×（画面真的快进、进度条飞走）→ 到结果前回 1×，结果处推近",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09r",
+        "录屏变速",
+        "快进",
+        "过程可见"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T09s": {
+      "referenceId": "fred-recording-8-t09s",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "input",
+        "process",
+        "focus"
+      ],
+      "inputObjects": [
+        "真实界面",
+        "点击位置",
+        "操作路径"
+      ],
+      "action": "在真实界面上的几次点击 → 每次点下的位置留下黑色序号点，全部做完后镜头拉回全貌，序号点按顺序连成一条路径，“就点了这几下”",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09s",
+        "点击足迹",
+        "操作路径",
+        "步骤数"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T09t": {
+      "referenceId": "fred-recording-8-t09t",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "images"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "input",
+        "media",
+        "send"
+      ],
+      "inputObjects": [
+        "Finder 文件",
+        "对话框",
+        "附件条"
+      ],
+      "action": "Finder 窗口里的文件 → 光标按住拖出（文件缩略图跟手、带半透明重影），对话框出现落点高亮，松手后变成框内附件条，计数 +1",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 5.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09t",
+        "拖拽上传",
+        "附件",
+        "对话框"
+      ],
+      "scenarioId": "input",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "输入、聊天与反馈"
+    },
+    "T09v": {
+      "referenceId": "fred-recording-8-t09v",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "input",
+        "focus"
+      ],
+      "inputObjects": [
+        "选择器",
+        "选项列表",
+        "模型名"
+      ],
+      "action": "输入框/面板上的选择器（模型、模式）→ 展开成选项列表，光标落到目标项，列表收起，原位标签逐字改写成新选项",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 4.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09v",
+        "下拉切换",
+        "模型选择",
+        "标签改写"
+      ],
+      "scenarioId": "input",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "输入、聊天与反馈"
+    },
+    "T09w": {
+      "referenceId": "fred-recording-8-t09w",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "process",
+        "media"
+      ],
+      "inputObjects": [
+        "任务窗口",
+        "并发小窗",
+        "完成状态"
+      ],
+      "action": "一个正在跑任务的窗口 → 分裂成 3–4 个同尺寸小窗，各自进度独立推进、先后完成打勾 → 全部完成后收回一个窗口",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09w",
+        "并发执行",
+        "一个变多个",
+        "多窗口"
+      ],
+      "scenarioId": "operation",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "设备与真实操作"
+    },
+    "T09z": {
+      "referenceId": "fred-recording-8-t09z",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "input",
+        "text",
+        "document"
+      ],
+      "inputObjects": [
+        "输入框",
+        "联想列表",
+        "技能或文件标签"
+      ],
+      "action": "输入框里打出 @ → 联想列表弹出（技能/文件），选中一项后它缩成框内的一枚标签，后面继续打字",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 4.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T09z",
+        "@ 引用",
+        "联想列表",
+        "框内标签"
+      ],
+      "scenarioId": "input",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "输入、聊天与反馈"
+    },
+    "T08l": {
+      "referenceId": "fred-recording-8-t08l",
+      "primaryUse": "recording-focus",
+      "useIds": [
+        "recording-focus",
+        "explain"
+      ],
+      "sourceId": "fred-recording-8",
+      "conceptIds": [
+        "document",
+        "focus",
+        "orientation"
+      ],
+      "inputObjects": [
+        "长页面截图",
+        "缩略条",
+        "视窗框"
+      ],
+      "action": "一张很长的页面 → 右侧出现整页缩略条和当前视窗框，口播讲到哪一处，视窗框在缩略条上跳过去、主画面同步跳到并停读",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T08l",
+        "长页跳读",
+        "小地图",
+        "位置参照"
+      ],
+      "scenarioId": "focus",
+      "addedAt": "2026-10-18T11:24:07+08:00",
+      "scenarioTitle": "局部放大与标注"
+    },
+    "T12u": {
+      "referenceId": "fred-chapter-transitions-wave2-t12u",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节序号",
+        "章节名"
+      ],
+      "action": "空心的本章序号 → 从下往上灌满变实心 → 章节名接出",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T12u",
+        "章节过渡",
+        "章节动画",
+        "灌满序号"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T12v": {
+      "referenceId": "fred-chapter-transitions-wave2-t12v",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节序号",
+        "章节名"
+      ],
+      "action": "一颗写着序号的键帽 → 被按下 → 章节名从键下推出",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T12v",
+        "章节过渡",
+        "章节动画",
+        "按数字键"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T12w": {
+      "referenceId": "fred-chapter-transitions-wave2-t12w",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节序号",
+        "章节名"
+      ],
+      "action": "进度环停在上一章 → 走到本章这一格 → 环收成徽章领出章节名",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T12w",
+        "章节过渡",
+        "章节动画",
+        "进度环"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T12x": {
+      "referenceId": "fred-chapter-transitions-wave2-t12x",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "上一段画面",
+        "章节序号",
+        "章节名"
+      ],
+      "action": "上一章那一页 → 像书页一样翻过去 → 背后就是本章",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T12x",
+        "章节过渡",
+        "章节动画",
+        "翻书页",
+        "画面交接"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T12z": {
+      "referenceId": "fred-chapter-transitions-wave2-t12z",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节序号",
+        "章节名"
+      ],
+      "action": "电梯门关着、楼层从上一章跳到本章 → 门向两边打开 → 章节名",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T12z",
+        "章节过渡",
+        "章节动画",
+        "电梯到站"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T23a": {
+      "referenceId": "fred-chapter-transitions-wave2-t23a",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节目录",
+        "章节名"
+      ],
+      "action": "一份章节目录 → 上一章打勾、高亮移到本章 → 推近到本章名",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T23a",
+        "章节过渡",
+        "章节动画",
+        "目录打勾"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T23b": {
+      "referenceId": "fred-chapter-transitions-wave2-t23b",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节标签",
+        "章节名"
+      ],
+      "action": "标签栏 → 新开一个本章标签 → 标签页撑开成本章标题",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T23b",
+        "章节过渡",
+        "章节动画",
+        "新开标签页"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T23c": {
+      "referenceId": "fred-chapter-transitions-wave2-t23c",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节标签",
+        "章节名"
+      ],
+      "action": "一条通知从顶部落下 → 展开成整屏本章标题",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T23c",
+        "章节过渡",
+        "章节动画",
+        "通知弹出"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "T23d": {
+      "referenceId": "fred-chapter-transitions-wave2-t23d",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff"
+      ],
+      "sourceId": "fred-chapter-transitions-wave2",
+      "conceptIds": [
+        "handoff",
+        "text",
+        "orientation"
+      ],
+      "inputObjects": [
+        "章节序号",
+        "章节名"
+      ],
+      "action": "一条横线划过画面 → 序号从线上升起、章节名从线下落出",
+      "segmentRole": "新做参数化组件（Fred 认可入库）",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+      "tags": [
+        "新做组件",
+        "T23d",
+        "章节过渡",
+        "章节动画",
+        "地平线"
+      ],
+      "scenarioId": "chapter",
+      "addedAt": "2026-10-14T16:50:04+08:00",
+      "scenarioTitle": "进入章节与案例"
+    },
+    "103-01-v2": {
+      "referenceId": "fred-legacy-fix-103-01-v2",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff",
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "handoff",
+        "text"
+      ],
+      "inputObjects": [
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构"
+      ],
+      "action": "资料卡散开，中央聚焦问题",
+      "segmentRole": "短交接",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
+      "tags": [
+        "内容交接",
+        "讲解段落",
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构",
+        "短交接",
+        "返修版"
+      ],
+      "scenarioId": "question",
+      "scenarioTitle": "提出问题与给出答案",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "103-03-v2": {
+      "referenceId": "fred-legacy-fix-103-03-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "handoff"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体"
+      ],
+      "action": "持续带教：资料补入，状态保留",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 12.0,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "内容交接",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "input",
+      "scenarioTitle": "输入、聊天与反馈",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "107-01-v2": {
+      "referenceId": "fred-legacy-fix-107-01-v2",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff",
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "handoff",
+        "text"
+      ],
+      "inputObjects": [
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构"
+      ],
+      "action": "资料卡连续让位，问题窗建立",
+      "segmentRole": "短交接",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
+      "tags": [
+        "内容交接",
+        "讲解段落",
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构",
+        "短交接",
+        "返修版"
+      ],
+      "scenarioId": "question",
+      "scenarioTitle": "提出问题与给出答案",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "109-05-v2": {
+      "referenceId": "fred-legacy-fix-109-05-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "focus",
+        "process",
+        "summary"
+      ],
+      "inputObjects": [
+        "三行文字",
+        "左向箭头"
+      ],
+      "action": "三行重点与左向箭头逐行聚焦",
+      "segmentRole": "完整选段场景",
+      "nativeDurationSeconds": 3.0,
+      "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。",
+      "tags": [
+        "第109期",
+        "用户精选",
+        "三行文字",
+        "左向箭头",
+        "返修版"
+      ],
+      "scenarioId": "list",
+      "scenarioTitle": "列举要点与能力",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "E14-v2": {
+      "referenceId": "fred-legacy-fix-e14-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "recording-focus",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "focus",
+        "handoff",
+        "input",
+        "comparison",
+        "document"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "真实界面",
+        "前景重点",
+        "前后内容",
+        "载体",
+        "文档内容"
+      ],
+      "action": "多组图片对比、局部特写与完整提示词",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 20.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "录屏聚焦",
+        "内容交接",
+        "图片",
+        "作品",
+        "真实界面",
+        "前景重点",
+        "前后内容",
+        "载体",
+        "文档内容",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "compare",
+      "scenarioTitle": "并排比较结果",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B009-v2": {
+      "referenceId": "fred-legacy-fix-l81-b009-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "recording-focus"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "focus",
+        "input",
+        "document"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "真实界面",
+        "前景重点",
+        "文档内容"
+      ],
+      "action": "提示词全貌与参数关键词聚焦",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 10.867,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "录屏聚焦",
+        "文字",
+        "信息结构",
+        "真实界面",
+        "前景重点",
+        "文档内容",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "focus",
+      "scenarioTitle": "局部放大与标注",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B014-v2": {
+      "referenceId": "fred-legacy-fix-l81-b014-v2",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff",
+        "video-entry"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "handoff",
+        "media",
+        "input"
+      ],
+      "inputObjects": [
+        "前后内容",
+        "载体",
+        "录屏",
+        "视频",
+        "窗口"
+      ],
+      "action": "对话气泡接力转入新章节",
+      "segmentRole": "短交接",
+      "nativeDurationSeconds": 19.0,
+      "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
+      "tags": [
+        "内容交接",
+        "录屏与视频入场",
+        "前后内容",
+        "载体",
+        "录屏",
+        "视频",
+        "窗口",
+        "短交接",
+        "返修版"
+      ],
+      "scenarioId": "chapter",
+      "scenarioTitle": "进入章节与案例",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B018-v2": {
+      "referenceId": "fred-legacy-fix-l81-b018-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "cards"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "纵向胶囊清单逐项填入",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 10.0,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "list",
+      "scenarioTitle": "列举要点与能力",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B020-v2": {
+      "referenceId": "fred-legacy-fix-l81-b020-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "handoff"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "前后内容",
+        "载体"
+      ],
+      "action": "单张作品扩展为多格图片墙",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 17.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "内容交接",
+        "图片",
+        "作品",
+        "前后内容",
+        "载体",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "wall",
+      "scenarioTitle": "多图与作品墙",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B035-v2": {
+      "referenceId": "fred-legacy-fix-l81-b035-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品"
+      ],
+      "action": "四部手机并列展示设计结果",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 5.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "图片",
+        "作品",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "operation",
+      "scenarioTitle": "设备与真实操作",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B042-v2": {
+      "referenceId": "fred-legacy-fix-l81-b042-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "三项业务词错位阶梯排列",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 5.0,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "list",
+      "scenarioTitle": "列举要点与能力",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B066-v2": {
+      "referenceId": "fred-legacy-fix-l81-b066-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "handoff",
+        "cards"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "前后内容",
+        "载体"
+      ],
+      "action": "多张竖卡逐个亮起展示重点",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 17.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "内容交接",
+        "图片",
+        "作品",
+        "前后内容",
+        "载体",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "wall",
+      "scenarioTitle": "多图与作品墙",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-B074-v2": {
+      "referenceId": "fred-legacy-fix-l81-b074-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "comparison"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品"
+      ],
+      "action": "失败现象用三种图片状态对比",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 8.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "图片",
+        "作品",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "compare",
+      "scenarioTitle": "并排比较结果",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-C002-v2": {
+      "referenceId": "fred-legacy-fix-l81-c002-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "从一个起点建立信息矩阵",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 7.4,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "relation",
+      "scenarioTitle": "分类、分支与归组",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-R001-v2": {
+      "referenceId": "fred-legacy-fix-l81-r001-v2",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff",
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "handoff",
+        "text"
+      ],
+      "inputObjects": [
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构"
+      ],
+      "action": "主题文字放大交接日历窗口",
+      "segmentRole": "短交接",
+      "nativeDurationSeconds": 2.967,
+      "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
+      "tags": [
+        "内容交接",
+        "讲解段落",
+        "前后内容",
+        "载体",
+        "文字",
+        "信息结构",
+        "短交接",
+        "返修版"
+      ],
+      "scenarioId": "chapter",
+      "scenarioTitle": "进入章节与案例",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-R005-v2": {
+      "referenceId": "fred-legacy-fix-l81-r005-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "data"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "data",
+        "process"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "数值",
+        "图表"
+      ],
+      "action": "数字展开为分类分支",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 9.467,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "数值与图表",
+        "文字",
+        "信息结构",
+        "数值",
+        "图表",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "relation",
+      "scenarioTitle": "分类、分支与归组",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-R006-v2": {
+      "referenceId": "fred-legacy-fix-l81-r006-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "input"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "多种输入汇聚为统一入口",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 13.7,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "relation",
+      "scenarioTitle": "分类、分支与归组",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-R028-v2": {
+      "referenceId": "fred-legacy-fix-l81-r028-v2",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "explain",
+        "images"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "text"
+      ],
+      "inputObjects": [
+        "录屏",
+        "视频",
+        "窗口",
+        "文字",
+        "信息结构",
+        "图片",
+        "作品"
+      ],
+      "action": "多张参考图依次卷入，汇为结果并交接下一轮",
+      "segmentRole": "真实媒体进入讲解",
+      "nativeDurationSeconds": 17.967,
+      "adaptation": "替换真实媒体，保留连续媒体时钟；按片段进出点检查全屏、窗口与设备之间的交接。",
+      "tags": [
+        "录屏与视频入场",
+        "讲解段落",
+        "图片与作品",
+        "录屏",
+        "视频",
+        "窗口",
+        "文字",
+        "信息结构",
+        "图片",
+        "作品",
+        "真实媒体进入讲解",
+        "返修版"
+      ],
+      "scenarioId": "gallery",
+      "scenarioTitle": "卡片展开与作品切换",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "L81-R033-v2": {
+      "referenceId": "fred-legacy-fix-l81-r033-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "handoff"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "前后内容",
+        "载体"
+      ],
+      "action": "六格作品墙交接竖图并列",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 11.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "内容交接",
+        "图片",
+        "作品",
+        "前后内容",
+        "载体",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "wall",
+      "scenarioTitle": "多图与作品墙",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "N006-v2": {
+      "referenceId": "fred-legacy-fix-n006-v2",
+      "primaryUse": "handoff",
+      "useIds": [
+        "handoff",
+        "video-entry"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "handoff",
+        "media"
+      ],
+      "inputObjects": [
+        "前后内容",
+        "载体",
+        "录屏",
+        "视频",
+        "窗口"
+      ],
+      "action": "六格规则入口放大成章节并反转底色",
+      "segmentRole": "短交接",
+      "nativeDurationSeconds": 8.256,
+      "adaptation": "衔接前后段的实际对象和终态；用于短交接，不能把整段讲解单纯放慢。",
+      "tags": [
+        "内容交接",
+        "录屏与视频入场",
+        "前后内容",
+        "载体",
+        "录屏",
+        "视频",
+        "窗口",
+        "短交接",
+        "返修版"
+      ],
+      "scenarioId": "chapter",
+      "scenarioTitle": "进入章节与案例",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "N008-v2": {
+      "referenceId": "fred-legacy-fix-n008-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "explain",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "text",
+        "handoff",
+        "people"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体",
+        "人物素材"
+      ],
+      "action": "商品旁的三个问题转为执行角色和作品",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 8.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "讲解段落",
+        "内容交接",
+        "图片",
+        "作品",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体",
+        "人物素材",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "question",
+      "scenarioTitle": "提出问题与给出答案",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "N044-v2": {
+      "referenceId": "fred-legacy-fix-n044-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "images",
+        "video-entry",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "media",
+        "handoff",
+        "input"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "图片",
+        "作品",
+        "录屏",
+        "视频",
+        "窗口",
+        "前后内容",
+        "载体"
+      ],
+      "action": "商品大图压成附件，输入框被提到前景",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 3.4,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "图片与作品",
+        "录屏与视频入场",
+        "内容交接",
+        "文字",
+        "信息结构",
+        "图片",
+        "作品",
+        "录屏",
+        "视频",
+        "窗口",
+        "前后内容",
+        "载体",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "input",
+      "scenarioTitle": "输入、聊天与反馈",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "N045-v2": {
+      "referenceId": "fred-legacy-fix-n045-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "handoff",
+        "comparison"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "前后内容",
+        "载体"
+      ],
+      "action": "三张作品错峰上退，重置成两张对照图",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 3.167,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "内容交接",
+        "图片",
+        "作品",
+        "前后内容",
+        "载体",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "gallery",
+      "scenarioTitle": "卡片展开与作品切换",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "N047-v2": {
+      "referenceId": "fred-legacy-fix-n047-v2",
+      "primaryUse": "video-entry",
+      "useIds": [
+        "video-entry",
+        "explain",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "text",
+        "handoff",
+        "input"
+      ],
+      "inputObjects": [
+        "录屏",
+        "视频",
+        "窗口",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体"
+      ],
+      "action": "手机从局部近景退到全貌，再解锁进入聊天",
+      "segmentRole": "真实媒体进入讲解",
+      "nativeDurationSeconds": 3.7,
+      "adaptation": "替换真实媒体，保留连续媒体时钟；按片段进出点检查全屏、窗口与设备之间的交接。",
+      "tags": [
+        "录屏与视频入场",
+        "讲解段落",
+        "内容交接",
+        "录屏",
+        "视频",
+        "窗口",
+        "文字",
+        "信息结构",
+        "前后内容",
+        "载体",
+        "真实媒体进入讲解",
+        "返修版"
+      ],
+      "scenarioId": "operation",
+      "scenarioTitle": "设备与真实操作",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "R011-v2": {
+      "referenceId": "fred-legacy-fix-r011-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "功能文字交接媒体展示",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 13.5,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "R017-v2": {
+      "referenceId": "fred-legacy-fix-r017-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "summary"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "代码窗口退后交接结论",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 3.933,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "SP011-v2": {
+      "referenceId": "fred-legacy-fix-sp011-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "data"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "data",
+        "process"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "数值",
+        "图表"
+      ],
+      "action": "30+ 能力四格分类展示",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 4.967,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "数值与图表",
+        "文字",
+        "信息结构",
+        "数值",
+        "图表",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "list",
+      "scenarioTitle": "列举要点与能力",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "V037-v2": {
+      "referenceId": "fred-legacy-fix-v037-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "people"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "人物素材"
+      ],
+      "action": "对焦框头像轮换",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 5.2,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "人物素材",
+        "一段解释",
+        "返修版"
+      ],
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "X014-v2": {
+      "referenceId": "fred-legacy-fix-x014-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain",
+        "recording-focus"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "focus",
+        "document"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构",
+        "真实界面",
+        "前景重点",
+        "文档内容"
+      ],
+      "action": "报告卡局部放大",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "录屏聚焦",
+        "文字",
+        "信息结构",
+        "真实界面",
+        "前景重点",
+        "文档内容",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "focus",
+      "scenarioTitle": "局部放大与标注",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "X015-v2": {
+      "referenceId": "fred-legacy-fix-x015-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "cards"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品"
+      ],
+      "action": "三张商品卡片轮换",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 6.9,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "图片",
+        "作品",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "gallery",
+      "scenarioTitle": "卡片展开与作品切换",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "X032-v2": {
+      "referenceId": "fred-legacy-fix-x032-v2",
+      "primaryUse": "explain",
+      "useIds": [
+        "explain"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "text",
+        "input"
+      ],
+      "inputObjects": [
+        "文字",
+        "信息结构"
+      ],
+      "action": "手机侧移让出两行输入类型",
+      "segmentRole": "一段解释",
+      "nativeDurationSeconds": 4.5,
+      "adaptation": "按口播分成几步建立与阅读；15–20秒需重排具体cue和阅读窗口，原短片不是现成20秒模板。",
+      "tags": [
+        "讲解段落",
+        "文字",
+        "信息结构",
+        "一段解释",
+        "返修版"
+      ],
+      "scenarioId": "list",
+      "scenarioTitle": "列举要点与能力",
+      "addedAt": "2026-10-18T11:45:55+08:00"
+    },
+    "X037-v2": {
+      "referenceId": "fred-legacy-fix-x037-v2",
+      "primaryUse": "images",
+      "useIds": [
+        "images",
+        "handoff"
+      ],
+      "sourceId": "legacy-fix",
+      "conceptIds": [
+        "media",
+        "handoff"
+      ],
+      "inputObjects": [
+        "图片",
+        "作品",
+        "前后内容",
+        "载体"
+      ],
+      "action": "插画叠放转四格",
+      "segmentRole": "素材展示舞台",
+      "nativeDurationSeconds": 6.0,
+      "adaptation": "替换本期真实图片，核对比例、裁切、重点和各张阅读时间。",
+      "tags": [
+        "图片与作品",
+        "内容交接",
+        "图片",
+        "作品",
+        "前后内容",
+        "载体",
+        "素材展示舞台",
+        "返修版"
+      ],
+      "scenarioId": "wall",
+      "scenarioTitle": "多图与作品墙",
+      "addedAt": "2026-10-18T11:45:55+08:00"
     }
   },
   "archivedReferences": {
     "C008": {
-      "referenceId": "fred-motion-source-f9dc5562d54cda56",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "C017": {
-      "referenceId": "fred-motion-source-e30e7f777b8ac9ae",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "V064": {
-      "referenceId": "preview-v2-snap-prompt-send",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "V097": {
-      "referenceId": "preview-v2-talk-scribble-annotation",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N014": {
-      "referenceId": "library-new10-n014",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N016": {
-      "referenceId": "library-new10-n016",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N018": {
-      "referenceId": "library-new10-n018",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N025": {
-      "referenceId": "library-new10-n025",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N031": {
-      "referenceId": "library-new10-n031",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N046": {
-      "referenceId": "library-new10-n046",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "N049": {
-      "referenceId": "library-new10-n049",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "X008": {
-      "referenceId": "library-new10-x008",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "X009": {
-      "referenceId": "library-new10-x009",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "X017": {
-      "referenceId": "library-new10-x017",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "X029": {
-      "referenceId": "library-new10-x029",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "E02": {
-      "referenceId": "3e869438-3e2d-46eb-85ce-fd617f98e519",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "E13": {
-      "referenceId": "8ca27f6a-3969-4789-a6b3-34f3778ac700",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "E15": {
-      "referenceId": "b59de57b-6a3f-4004-b0c1-87e1b5e67ec9",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "99-09": {
-      "referenceId": "ep99-selected-s09",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "99-13": {
-      "referenceId": "ep99-selected-s13",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "99-21": {
-      "referenceId": "ep99-selected-s21",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "103-02": {
-      "referenceId": "ep103-selected-02",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:12:10+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "SP003": {
-      "referenceId": "library-selfpick24-sp003",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "SP006": {
-      "referenceId": "library-selfpick24-sp006",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "SP007": {
-      "referenceId": "library-selfpick24-sp007",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "SP009": {
-      "referenceId": "library-selfpick24-sp009",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "SP019": {
-      "referenceId": "library-selfpick24-sp019",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B006": {
-      "referenceId": "library-legacy81-b006",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B007": {
-      "referenceId": "library-legacy81-b007",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B008": {
-      "referenceId": "library-legacy81-b008",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B016": {
-      "referenceId": "library-legacy81-b016",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B027": {
-      "referenceId": "library-legacy81-b027",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B038": {
-      "referenceId": "library-legacy81-b038",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-B069": {
-      "referenceId": "library-legacy81-b069",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-R002": {
-      "referenceId": "library-legacy81-r002",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-R003": {
-      "referenceId": "library-legacy81-r003",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-R017": {
-      "referenceId": "library-legacy81-r017",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-R026": {
-      "referenceId": "library-legacy81-r026",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-R042": {
-      "referenceId": "library-legacy81-r042",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-T02": {
-      "referenceId": "library-legacy81-t02",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-T09": {
-      "referenceId": "library-legacy81-t09",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-W04": {
-      "referenceId": "library-legacy81-w04",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-T10": {
-      "referenceId": "library-legacy81-t10",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "L81-W05": {
-      "referenceId": "library-legacy81-w05",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-06T23:17:03+08:00",
-      "order": null
+      "reason": "user-archive"
     },
     "SP017": {
-      "referenceId": "library-selfpick24-sp017",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "99-20": {
-      "referenceId": "ep99-selected-s20",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "C013": {
-      "referenceId": "fred-motion-source-e3fdd979631e6fed",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-B011": {
-      "referenceId": "library-legacy81-b011",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-B026": {
-      "referenceId": "library-legacy81-b026",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R051": {
-      "referenceId": "library-legacy81-r051",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "N032": {
-      "referenceId": "library-new10-n032",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "SP001": {
-      "referenceId": "library-selfpick24-sp001",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "SP012": {
-      "referenceId": "library-selfpick24-sp012",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "SP018": {
-      "referenceId": "library-selfpick24-sp018",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "X022": {
-      "referenceId": "library-new10-x022",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "X027": {
-      "referenceId": "library-new10-x027",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "X039": {
-      "referenceId": "library-new10-x039",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "X050": {
-      "referenceId": "library-new10-x050",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R007": {
-      "referenceId": "library-legacy81-r007",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R015": {
-      "referenceId": "library-legacy81-r015",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "SP023": {
-      "referenceId": "library-selfpick24-sp023",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "L81-B036": {
-      "referenceId": "library-legacy81-b036",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-B063": {
-      "referenceId": "library-legacy81-b063",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "X024": {
-      "referenceId": "library-new10-x024",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "L81-R024": {
-      "referenceId": "library-legacy81-r024",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R025": {
-      "referenceId": "library-legacy81-r025",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "RC03": {
-      "referenceId": "new30-rc03",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "SP008": {
-      "referenceId": "library-selfpick24-sp008",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "C009": {
-      "referenceId": "fred-motion-source-51d675feaef3608e",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "EX08": {
-      "referenceId": "new30-ex08",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-B041": {
-      "referenceId": "library-legacy81-b041",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-B046": {
-      "referenceId": "library-legacy81-b046",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-C004": {
-      "referenceId": "library-legacy81-c004",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-C007": {
-      "referenceId": "library-legacy81-c007",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R009": {
-      "referenceId": "library-legacy81-r009",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R014": {
-      "referenceId": "library-legacy81-r014",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "OP02": {
-      "referenceId": "new30-op02",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "OP05": {
-      "referenceId": "new30-op05",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "RC05": {
-      "referenceId": "new30-rc05",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "SP010": {
-      "referenceId": "library-selfpick24-sp010",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "SP024": {
-      "referenceId": "library-selfpick24-sp024",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "L81-R008": {
-      "referenceId": "library-legacy81-r008",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-R027": {
-      "referenceId": "library-legacy81-r027",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "SP016": {
-      "referenceId": "library-selfpick24-sp016",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "EX05": {
-      "referenceId": "new30-ex05",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "L81-B059": {
-      "referenceId": "library-legacy81-b059",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "L81-T06": {
-      "referenceId": "library-legacy81-t06",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "N005": {
-      "referenceId": "library-new10-n005",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "N011": {
-      "referenceId": "library-new10-n011",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "N040": {
-      "referenceId": "library-new10-n040",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "SP020": {
-      "referenceId": "library-selfpick24-sp020",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "V072": {
-      "referenceId": "preview-v2-talk-chat-message-flow",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "V086": {
-      "referenceId": "preview-v2-talk-grid-to-hero",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "V087": {
-      "referenceId": "preview-v2-talk-highlighter-sweep",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "duplicate"
     },
     "X025": {
-      "referenceId": "library-new10-x025",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T12:00:02+08:00",
-      "order": null
+      "reason": "quality"
     },
     "T14a": {
-      "referenceId": "fred-native-t14a",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "T09d": {
-      "referenceId": "fred-native-t09d",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "T20a": {
-      "referenceId": "fred-native-t20a",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-B065": {
-      "referenceId": "library-legacy81-b065",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-R053": {
-      "referenceId": "library-legacy81-r053",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "C034": {
-      "referenceId": "fred-motion-source-2d6091077a210695",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-T03": {
-      "referenceId": "library-legacy81-t03",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "X003": {
-      "referenceId": "library-new10-x003",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "X019": {
-      "referenceId": "library-new10-x019",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "107-04": {
-      "referenceId": "ep107-selected-04",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "X006": {
-      "referenceId": "library-new10-x006",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "N027": {
-      "referenceId": "library-new10-n027",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-C003": {
-      "referenceId": "library-legacy81-c003",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-B064": {
-      "referenceId": "library-legacy81-b064",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "X020": {
-      "referenceId": "library-new10-x020",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-R016": {
-      "referenceId": "library-legacy81-r016",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "L81-B024": {
-      "referenceId": "library-legacy81-b024",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "N038": {
-      "referenceId": "library-new10-n038",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:09:37+08:00",
-      "order": null
+      "reason": "superseded"
     },
     "T05b": {
-      "referenceId": "fred-native-t05b",
-      "defaultReuse": false,
-      "libraryVisibility": "visible-at-tail",
-      "archivedAt": "2026-10-12T16:26:39+08:00",
-      "order": null
+      "reason": "superseded"
+    },
+    "109-05": {
+      "reason": "已由 109-05-v2 替换"
+    },
+    "N006": {
+      "reason": "已由 N006-v2 替换"
+    },
+    "N008": {
+      "reason": "已由 N008-v2 替换"
+    },
+    "N044": {
+      "reason": "已由 N044-v2 替换"
+    },
+    "N045": {
+      "reason": "已由 N045-v2 替换"
+    },
+    "N047": {
+      "reason": "已由 N047-v2 替换"
+    },
+    "X014": {
+      "reason": "已由 X014-v2 替换"
+    },
+    "X015": {
+      "reason": "已由 X015-v2 替换"
+    },
+    "X032": {
+      "reason": "已由 X032-v2 替换"
+    },
+    "X037": {
+      "reason": "已由 X037-v2 替换"
+    },
+    "E14": {
+      "reason": "已由 E14-v2 替换"
+    },
+    "103-01": {
+      "reason": "已由 103-01-v2 替换"
+    },
+    "103-03": {
+      "reason": "已由 103-03-v2 替换"
+    },
+    "107-01": {
+      "reason": "已由 107-01-v2 替换"
+    },
+    "SP011": {
+      "reason": "已由 SP011-v2 替换"
+    },
+    "L81-B009": {
+      "reason": "已由 L81-B009-v2 替换"
+    },
+    "L81-B014": {
+      "reason": "已由 L81-B014-v2 替换"
+    },
+    "L81-B018": {
+      "reason": "已由 L81-B018-v2 替换"
+    },
+    "L81-B020": {
+      "reason": "已由 L81-B020-v2 替换"
+    },
+    "L81-B035": {
+      "reason": "已由 L81-B035-v2 替换"
+    },
+    "L81-B042": {
+      "reason": "已由 L81-B042-v2 替换"
+    },
+    "L81-B062": {
+      "reason": "Fred 本轮选择归档"
+    },
+    "L81-B066": {
+      "reason": "已由 L81-B066-v2 替换"
+    },
+    "L81-B074": {
+      "reason": "已由 L81-B074-v2 替换"
+    },
+    "L81-B075": {
+      "reason": "Fred 本轮选择归档"
+    },
+    "L81-C002": {
+      "reason": "已由 L81-C002-v2 替换"
+    },
+    "L81-R001": {
+      "reason": "已由 L81-R001-v2 替换"
+    },
+    "L81-R004": {
+      "reason": "Fred 本轮选择归档"
+    },
+    "L81-R005": {
+      "reason": "已由 L81-R005-v2 替换"
+    },
+    "L81-R006": {
+      "reason": "已由 L81-R006-v2 替换"
+    },
+    "L81-R028": {
+      "reason": "已由 L81-R028-v2 替换"
+    },
+    "L81-R033": {
+      "reason": "已由 L81-R033-v2 替换"
     }
   },
   "confirmedMerges": {

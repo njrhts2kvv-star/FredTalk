@@ -21,7 +21,7 @@ from common import project_root  # noqa: E402
 SKILL_REL = 'skills/fred-remotion-output'
 KIT_REL = SKILL_REL + '/templates/component-kit'
 PUBLIC_REL = SKILL_REL + '/assets/component-kit-public'
-RUNTIME_REL = ''  # Each portable kit installs its own locked npm dependencies
+RUNTIME_REL = 'skills/_runtime/remotion/library-remakes-20260916'
 CATALOG_REL = 'skills/fred-remake/assets/preferred-motion/catalog.json'
 ID_RE = re.compile(r'^([A-Z][0-9]{2}[a-z]?[0-9]?)-([A-Z][A-Za-z0-9]*)$')  # 返修版可加数字：T05b2
 SCENES = ['真实操作录屏', '流程与关系', '对比', '章节与节奏', '开场与收尾', '数字与图表', '一句话观点',
@@ -72,28 +72,13 @@ def new_project(root, project, runtime_rel=RUNTIME_REL):
     for name in ['index.tsx', 'registry.ts']:
         shutil.copy2(kit / 'src' / name, project / 'src' / name)
     public = root / PUBLIC_REL
-    if (root / 'library/catalog.json').is_file():
-        manifest = json.loads((public / 'manifest.json').read_text())
-        for item in manifest['files']:
-            relative = Path(item['path'])
-            if relative.is_absolute() or '..' in relative.parts:
-                raise ValueError('Unsafe public kit asset path')
-            asset = public / relative
-            if not asset.is_file():
-                asset = root / '.artifacts/objects' / item['sha256']
-            if not asset.is_file() or sha(asset) != item['sha256']:
-                raise ValueError('Missing or changed public kit asset: ' + str(relative) + '; run python3 scripts/assets.py download')
-            target = project / 'public' / relative
-            target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(asset, target)
-    else:
-        for sub in ['fonts', 'brand', 'sfx']:
-            shutil.copytree(public / sub, project / 'public' / sub)
+    for sub in ['fonts', 'brand', 'sfx']:
+        shutil.copytree(public / sub, project / 'public' / sub)
     (project / 'public/media').mkdir(parents=True, exist_ok=True)
     (project / 'qc').mkdir(exist_ok=True)
     shutil.copy2(kit / 'BRIEF.md', project / 'qc/BRIEF.md')
     modules = root / runtime_rel / 'node_modules'
-    if runtime_rel and modules.is_dir():
+    if modules.is_dir():
         os.symlink(os.path.relpath(modules, project), project / 'node_modules')
     return project
 
@@ -349,10 +334,12 @@ def validate_intake(root, project, collection, accept, meta, renders):
 
 
 def _probe(mp4):
+    """返回 (宽, 高, 帧数, 帧率)。认可成片可以是 1080p60，也可以是 Fred 认可的 1080p30（2026-10-18）。"""
     out = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries',
-                          'stream=width,height,nb_frames', '-of', 'json', str(mp4)], capture_output=True, text=True, check=True)
+                          'stream=width,height,nb_frames,r_frame_rate', '-of', 'json', str(mp4)], capture_output=True, text=True, check=True)
     s = json.loads(out.stdout)['streams'][0]
-    return int(s['width']), int(s['height']), int(s['nb_frames'])
+    num, den = (s.get('r_frame_rate') or '60/1').split('/')
+    return int(s['width']), int(s['height']), int(s['nb_frames']), round(int(num) / int(den or 1), 3)
 
 
 def intake(root, project, collection, accept, reject, quote, meta, renders, title, task_quote='', supersede=None):
@@ -415,7 +402,9 @@ def intake(root, project, collection, accept, reject, quote, meta, renders, titl
         m = meta[cid]
         mp4 = dest / 'previews' / (cid + '.mp4')
         shutil.copy2(renders / (cid + '.mp4'), mp4)
-        w, h, n = _probe(mp4)
+        w, h, n, fps = _probe(mp4)
+        seconds = round(n / fps, 3)
+        native_frames = round(seconds * 60)  # kit 工程本身是 60fps，组合时长按秒换算
         frames = []
         for fr in [round(n * 0.3), round(n * 0.6), n - 6]:
             jpg = dest / 'thumbnails' / f'{cid}-{fr}.jpg'
@@ -438,18 +427,19 @@ def intake(root, project, collection, accept, reject, quote, meta, renders, titl
             'approvalScope': selection['approvalBoundary'], 'reviewStatus': 'user-accepted-exact-preview',
             'sourceReadiness': 'props-driven; kit lint passed; exact render verified', 'addedAt': stamp,
             'sourceFiles': sources, 'sourceCode': sources,
-            'media': {'path': str(mp4), 'sha256': sha(mp4), 'duration': round(n / 60, 3), 'fps': 60, 'width': w, 'height': h},
+            'media': {'path': str(mp4), 'sha256': sha(mp4), 'duration': seconds, 'fps': fps, 'width': w, 'height': h},
             'coreFrames': frames, 'entryPoint': entry_point, 'compositionId': cid,
             'execution': {'entryPoint': entry_point, 'publicDir': str(src / 'public'), 'runtime': str(root / RUNTIME_REL),
-                          'sourceBundle': collection, 'compositionId': cid, 'nativeTiming': {'fps': 60, 'durationInFrames': n}},
+                          'sourceBundle': collection, 'compositionId': cid, 'nativeTiming': {'fps': 60, 'durationInFrames': native_frames}},
             'variants': [],
         }
         items.append(item)
-        compositions.append({'id': cid, 'fps': 60, 'durationInFrames': n, 'width': w, 'height': h})
+        compositions.append({'id': cid, 'fps': 60, 'durationInFrames': native_frames, 'width': 1920, 'height': 1080,
+                             'previewFps': fps, 'previewFrames': n, 'previewWidth': w, 'previewHeight': h})
         usage_entries[code] = {
             'referenceId': item['id'], 'primaryUse': m['primaryUse'], 'useIds': m['useIds'], 'sourceId': usage_source,
             'conceptIds': m['conceptIds'], 'inputObjects': m['inputObjects'], 'action': rows[cid]['change'] or title_text,
-            'segmentRole': '新做参数化组件（Fred 认可入库）', 'nativeDurationSeconds': round(n / 60, 3),
+            'segmentRole': '新做参数化组件（Fred 认可入库）', 'nativeDurationSeconds': seconds,
             'adaptation': '只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。',
             'tags': ['新做组件', code] + m['tags'], 'evidence': {'selectionSourceId': sel_id},
             'scenarioId': m['scenarioId'], 'addedAt': stamp,
@@ -532,6 +522,7 @@ set -u
 cd "$(dirname "$0")/.."
 [ -f ~/fred-render/env.sh ] && source ~/fred-render/env.sh
 mkdir -p out
+PRIV=$(mktemp -d); export TMPDIR="$PRIV/"; trap 'rm -rf "$PRIV"' EXIT   # 120 期：本次渲染独占临时目录，结束整个删掉
 npx remotion browser ensure </dev/null >/dev/null 2>&1
 IDS="{ids}"
 START=$(date +%s)
@@ -671,8 +662,6 @@ def main(argv=None):
                                     '--renders', str(args.renders), '--catalog', str(root / CATALOG_REL),
                                     '--port', str(args.port), '--title', args.title])
         elif args.cmd == 'intake':
-            if (root / 'library/catalog.json').is_file():
-                raise ValueError('Portable intake requires a separate release review; build and inspect the kit, then contribute its exact source/media package. The published catalog is not mutated automatically.')
             accept = [x for x in args.accept.split(',') if x]
             reject = [x for x in args.reject.split(',') if x]
             meta = json.loads(Path(args.meta).read_text())

@@ -16,16 +16,16 @@ def module(name):
 class PortableTests(unittest.TestCase):
  def test_active_catalog_keeps_removals_and_valid_sources(self):
   d=json.loads((ROOT/'library/catalog.json').read_text());routes=json.loads((ROOT/'library/routes.json').read_text());items=d['items']
-  self.assertEqual(len(items),336)
-  self.assertEqual(d['counts']['available'],331)
+  self.assertEqual(len(items),432)
+  self.assertEqual(d['counts']['available'],427)
   self.assertEqual(d['counts']['unavailable'],5)
   expected={"fred-native-16-20261012":16,"fred-wave2-42-20261012":42,"fred-wave2-fix5-20261012":5,"fred-wave3-40-20261012":40,"fred-wave3-extra2-20261012":2,"news-keyword-match-cut-20261010":1,"fred-chapter-transitions-20-20261014":20}
   for collection,count in expected.items():
    selected=[i for i in items if i.get('collectionId')==collection]
    self.assertEqual(len(selected),count,collection)
-   self.assertTrue(all(i.get('isNew') and i.get('addedAt') for i in selected))
-  self.assertEqual(sum(bool(i.get('archivedFromSkill')) for i in items),114)
-  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),222)
+   self.assertTrue(all(i.get('addedAt') for i in selected))
+  self.assertEqual(sum(bool(i.get('archivedFromSkill')) for i in items),146)
+  self.assertEqual(len([i for i in items if not i.get('archivedFromSkill')]),286)
   self.assertTrue({'V085','V098','E04','E16','SP004','L81-B060','L81-W08'}.isdisjoint(i['label'] for i in items))
   for i in items:
    for source in i['sources']:
@@ -34,7 +34,7 @@ class PortableTests(unittest.TestCase):
      self.assertTrue(source['url'].startswith('/api/visual-library/assets/'));self.assertTrue(source['installPath'].startswith('.artifacts/member-components/'));self.assertFalse(source['available'])
     else:self.assertTrue((ROOT/routes[source['url']]).is_file(),i['label'])
    for p in i['previews']:
-    self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['accepted-component-action-sfx-no-narration', 'accepted-match-cut-sfx-no-narration', 'interface-sfx', 'no-audio-track'])
+    self.assertLess(p['start'],p['end']);self.assertIn(p['audioPolicy'],['accepted-component-action-sfx-no-narration', 'accepted-match-cut-sfx-no-narration', 'interface-sfx', 'no-audio-track', 'accepted-scene-preview-audio-if-present'])
  def test_21_component_roles_and_private_distribution(self):
   catalog=json.loads((ROOT/'library/catalog.json').read_text());media=json.loads((ROOT/'library/media-manifest.json').read_text())['files'];packages=json.loads((ROOT/'library/member-packages.json').read_text())['collections']
   selected=[x for x in catalog['items'] if x.get('collectionId')=='fred-chapter-transitions-20-20261014']
@@ -52,9 +52,9 @@ class PortableTests(unittest.TestCase):
   data=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--collection','screen-camera-selected-20261007','--limit','10']))
   self.assertEqual(data['count'],5)
   archived=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--status','archived','--limit','1']))
-  self.assertEqual(archived['count'],114)
+  self.assertEqual(archived['count'],146)
   alias=json.loads(subprocess.check_output([sys.executable,str(ROOT/'scripts/catalog.py'),'--id','SP021','--full']))
-  self.assertEqual(alias['entries'][0]['label'],'109-05')
+  self.assertEqual(alias['entries'][0]['label'],'109-05-v2')
  def test_declared_routes_stay_inside_repository(self):
   for name in json.loads((ROOT/'library/routes.json').read_text()).values():
    self.assertFalse(Path(name).is_absolute());self.assertTrue((ROOT/name).resolve().is_relative_to(ROOT))

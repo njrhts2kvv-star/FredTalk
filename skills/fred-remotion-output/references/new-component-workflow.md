@@ -129,6 +129,8 @@ python3 $K intake <工程> --collection <英文短名>-<YYYYMMDD> --accept T22a-
   --title "<集合中文名>" --dry-run       # 先预检，PASS 后去掉 --dry-run 正式登记
 ```
 
+`--renders` 里的认可成片可以是 1080p60，也可以是 Fred 认可的 1080p30（2026-10-18：“1080p30fps 也没问题的，不用重渲”）；`intake` 按成片实际帧率登记预览，组合时长按秒换算成工程的 60fps。
+
 升级版或返修版通过后，加 `--supersede 新ID=原编号,...`：原版归档（不删，视觉库排在末尾，随时能恢复），默认检索只推荐新版。
 
 `intake` 会一次完成：

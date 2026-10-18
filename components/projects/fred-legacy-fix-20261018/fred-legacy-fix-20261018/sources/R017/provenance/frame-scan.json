@@ -1,0 +1,120 @@
+[
+  {
+    "number": 15,
+    "decodedFrames": 1437,
+    "expectedFrames": 1437,
+    "coverage": "all decoded frames",
+    "blankCandidates": [],
+    "referenceBlankFrames": [],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  },
+  {
+    "number": 16,
+    "decodedFrames": 378,
+    "expectedFrames": 378,
+    "coverage": "all decoded frames",
+    "blankCandidates": [],
+    "referenceBlankFrames": [],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  },
+  {
+    "number": 17,
+    "decodedFrames": 235,
+    "expectedFrames": 235,
+    "coverage": "all decoded frames",
+    "blankCandidates": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "referenceBlankFrames": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  },
+  {
+    "number": 26,
+    "decodedFrames": 310,
+    "expectedFrames": 310,
+    "coverage": "all decoded frames",
+    "blankCandidates": [],
+    "referenceBlankFrames": [],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  },
+  {
+    "number": 33,
+    "decodedFrames": 450,
+    "expectedFrames": 450,
+    "coverage": "all decoded frames",
+    "blankCandidates": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ],
+    "referenceBlankFrames": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+    ],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  },
+  {
+    "number": 45,
+    "decodedFrames": 210,
+    "expectedFrames": 210,
+    "coverage": "all decoded frames",
+    "blankCandidates": [],
+    "referenceBlankFrames": [],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  },
+  {
+    "number": 53,
+    "decodedFrames": 480,
+    "expectedFrames": 480,
+    "coverage": "all decoded frames",
+    "blankCandidates": [],
+    "referenceBlankFrames": [],
+    "largeChangeCandidates": [],
+    "automaticDisposition": "Blank candidates match unchanged designed transitions; no unexpected full blank frames"
+  }
+]

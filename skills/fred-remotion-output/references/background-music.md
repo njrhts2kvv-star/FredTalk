@@ -12,7 +12,7 @@
 
 ## 本机使用与分发
 
-Fred私人音乐实体为本Skill的 `--bgm /absolute/own-music.wav`；hash与规格登记在 `bgm-policy.json` 和项目dependency-registry。原公共素材文件保留，仅此Skill实体作为正式默认依赖，不回退旧默认音乐。
+Fred私人音乐实体为本Skill的 `assets/bgm-local-only/fred-bgm-v1.wav`；hash与规格登记在 `bgm-policy.json` 和项目dependency-registry。原公共素材文件保留，仅此Skill实体作为正式默认依赖，不回退旧默认音乐。
 
 Fred当前电脑已有一次明确授权及Skill外0600机器绑定。脚本用机器指纹和文件hash核对，本机之后无需重复询问。绑定不放入Skill、不进入全局同步、ZIP、GitHub、网站、云快照或其他人电脑；不输出硬件标识。全局仅同步代码、文档与轻量策略，真实音乐只在项目Skill实体。
 

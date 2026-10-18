@@ -1437,6 +1437,2585 @@
           "size": 4117
         }
       }
+    },
+    {
+      "collectionId": "episode-scenes-112-125-20261018",
+      "sha256": "027722b55ec5567703435d12a09df8e2614b9f6d866dc47fffc6b0cf6de26b70",
+      "size": 35390810,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/027722b55ec5567703435d12a09df8e2614b9f6d866dc47fffc6b0cf6de26b70.zip",
+      "access": "members",
+      "installRoot": ".artifacts/member-components/episode-scenes-112-125-20261018",
+      "files": {
+        "episode-scenes-112-125-20261018/prepare_assets.py": {
+          "sha256": "a60b7f1c664ee806e7da3a1696144b4d638e3d2e10ff18a9bb75ed87e0e25045",
+          "size": 1029
+        },
+        "episode-scenes-112-125-20261018/LICENSE": {
+          "sha256": "953b50c9ac5a962991ef4d9d663f951ac4ea56931f248088acecd5a0a1ebcb79",
+          "size": 1065
+        },
+        "episode-scenes-112-125-20261018/README.md": {
+          "sha256": "0bbc68374cccaaf4682409e4dca0cc55118543f845af066b281222bfa9e78b51",
+          "size": 979
+        },
+        "episode-scenes-112-125-20261018/additional-font-inputs.json": {
+          "sha256": "b241d47a8dea19a4863fa96bf00460b85a3b234f7115aa09fca95d4a0e540e28",
+          "size": 521
+        },
+        "episode-scenes-112-125-20261018/user-media-inputs.json": {
+          "sha256": "2d3d5831dfe5d4163c81837214a6136ac2893de4240c2dbfae3bbd48bd2eb44d",
+          "size": 131880
+        },
+        "episode-scenes-112-125-20261018/components.json": {
+          "sha256": "d1b9f72ca2e2b5b43fb63221cefb6e84e75519530b55996e795454bad1d5f1ca",
+          "size": 37017
+        },
+        "episode-scenes-112-125-20261018/asset-bindings.json": {
+          "sha256": "fa3607ff9a9c3430e2d879aba60d82da1dbd4891792b75ed9a586d9531a46ba3",
+          "size": 19127
+        },
+        "episode-scenes-112-125-20261018/episodes/116/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/116/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/116/public-4k/media/gh-repo-files-box.json": {
+          "sha256": "4b78cc0c425dd534a94ce0058df4ed3bc7545706bcf0a2ecad39594086f88390",
+          "size": 7296
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/index.tsx": {
+          "sha256": "05e5981a1f29cea487ad7694e46680807d2089c9655b72dc9cc1968e10ab1089",
+          "size": 1051
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/timing.json": {
+          "sha256": "d2a92d84b31c47b7822759dea55895317622e32a01652ae723f20b1d6bdaf5b5",
+          "size": 15163
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S14.tsx": {
+          "sha256": "07216ea315067066d29bef8addeae948ff64df8d2951a7d73534a7f3356a2543",
+          "size": 4230
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S15.tsx": {
+          "sha256": "7e3175b4c3472dbc291c5081a515a779373def7e80d719b1b734820f468f076f",
+          "size": 7940
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S01.tsx": {
+          "sha256": "8ed3eb1b34597589af78e43591f6c595a02055794f35fb55f6a90c142af2d58f",
+          "size": 7923
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S17.tsx": {
+          "sha256": "7f11742fd02ed3d4183fa65c43223bb924815af967d06ac7735978146e3668aa",
+          "size": 11482
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S03.tsx": {
+          "sha256": "a7b56164ce08b672c6ea4f8ca69a9bc77281b9a511aa87273664fcee49588225",
+          "size": 28669
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S02.tsx": {
+          "sha256": "0efbf27ffb8b36a0d69e806aed2d426592f9d4a93cfb0e128c62218565ab6346",
+          "size": 3877
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S16.tsx": {
+          "sha256": "fbd29a269d6168c18feb08ab7eb6c14e327b063cefcb2733481522bc365f919a",
+          "size": 9839
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S12.tsx": {
+          "sha256": "8512c8f6e2cbe7a030f17ead6a7a86bced0257cf376206b921ff948f0bd2aea4",
+          "size": 24627
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S06.tsx": {
+          "sha256": "58ecbd4b201d398a53d982c09e11f6bb23f96d10b791154378997b9ca472b954",
+          "size": 1335
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S07.tsx": {
+          "sha256": "da9ff4172aac00e624568bddcb0c47e831950095640cc2e1005ecc9f5ae390a3",
+          "size": 6007
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S13.tsx": {
+          "sha256": "a195c227db77f42a57eab8163c8d0f76ced12f602631dd634628d42259f6d7c7",
+          "size": 12034
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S05.tsx": {
+          "sha256": "1060c67093c403475dffbd03bd08e8b84a57fc99ebfc2e866aee676a625a7f9b",
+          "size": 5844
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S11.tsx": {
+          "sha256": "3e5bbb2eab27fc338a9292c32571e60dea2ac63403449da394c61a9b3bf49eb6",
+          "size": 11180
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S10.tsx": {
+          "sha256": "3846e0f9c325118ad0069ff691de7ae837b5c855841ffa293313af9afd5966ca",
+          "size": 6139
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S04.tsx": {
+          "sha256": "31c39b120fe1c5b0c6bbf224b092c16274e5101cd438eafa8cb0d0ab2a6affee",
+          "size": 1158
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S09.tsx": {
+          "sha256": "9b5831d71d7e2fa9cd4dc6b7523da6d1d630592359ddd213837342ad00037fb1",
+          "size": 13268
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S08.tsx": {
+          "sha256": "b38304c6dd635fe55d06db90a79376246e388d5de739148cdcc383cd6930f81b",
+          "size": 12593
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/S18.tsx": {
+          "sha256": "bd8f60215e28bbfda7e2a72cfe31e02236e0135c979a97e5a15d410ee6876d80",
+          "size": 7101
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/scenes/index.ts": {
+          "sha256": "8b2dfc0d3436f6a7f2e081484f9ffbd24336c5ef4a823ffb1f438733b17c5acf",
+          "size": 816
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/kit/theme.ts": {
+          "sha256": "0162806f2a46f870a32a450ce58d7dbe178aa856ffebf5c4732a82f5cfecbbd7",
+          "size": 3848
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/kit/ui.tsx": {
+          "sha256": "79c14956b8b257acd4deba54619f1ed500c57daf3d6185257ddbc1b41cb081e0",
+          "size": 11751
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T17c-FileTree.tsx": {
+          "sha256": "ed999c308bce11e5f3baeb94d121d93a708c326757d1841e307a8d5db57c850e",
+          "size": 8814
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T22a-PostCard.tsx": {
+          "sha256": "4949bfb6c7b625a411100e877109d19d1f21951f0127a12d629b0d0279404b0f",
+          "size": 7413
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09l-LinkCarry.tsx": {
+          "sha256": "5ec56c0ad030aa58608e0131eb4d7e8a435472be978f4a74a1171784781e0eca",
+          "size": 13526
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T15e-TrendLine.tsx": {
+          "sha256": "d5da332716ecd2119f5f6aeb2b9f6511ca1085981d214f2fe8e3ddfadf8621c4",
+          "size": 11756
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T13a-StackLayers.tsx": {
+          "sha256": "e615413129f7c483e478e08376ad6b866cbf33a5d15cef680050b9699f014b6e",
+          "size": 9011
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T05i-UnboxResult.tsx": {
+          "sha256": "f387d257c8c261bd207ebc6ce9c9dd005ab601c14bc1e0fecf4b981a2d5fa1a5",
+          "size": 9438
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T14e-StatTriplet.tsx": {
+          "sha256": "bb4a2154f6f19e1d54e01c8ef93a493d104486ecd8615e65499843cc532e5420",
+          "size": 6314
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T04f-KeyUnlock.tsx": {
+          "sha256": "9c154da64403b92bb0ba8e04644751145c83fcbee822205af74cef1bfd0b3cf7",
+          "size": 8258
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T13c-CapacityFit.tsx": {
+          "sha256": "6f568a82e1c82c8e5fedaa34af2baaa4867f814e6f27296f0a2fb0a3664e74d4",
+          "size": 10086
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09j-DeviceCode.tsx": {
+          "sha256": "a3ee5d9340c5bcae4c03ad6eb8c2574c4d21cb64caf8bfd2214043df7a8cf789",
+          "size": 11521
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T05h-SyncVsCopy.tsx": {
+          "sha256": "94d7653b768421a023d881e19e7fc12a27f1a672cd402b53056c315834e46af9",
+          "size": 9960
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T02h-FileTrio.tsx": {
+          "sha256": "15c00f68ceefcf0c0a7420255ad476b3ecd7d9e252b2259de24cc71995b61571",
+          "size": 9660
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T12h-RoleSwitch.tsx": {
+          "sha256": "ebdd02e88769568c4ff40bc465533bcf04ba313e1d7225f3cd8a4ef3e932c62e",
+          "size": 4340
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09n-WaitSkip.tsx": {
+          "sha256": "82250f70db418b809dcb81b82de0071c7ef48db93c9ff60fb141e697f44afc96",
+          "size": 9032
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T13b-MetaphorMorph.tsx": {
+          "sha256": "bfb664acb45717821aec8a1ff0cb45feb1339c15f7bad53184544a910603421e",
+          "size": 9774
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T12i-QuestionBeat.tsx": {
+          "sha256": "226c7a96182a30ba9fa0b0a062225b817f73876ccaaca72f4a4b9b101cbc1763",
+          "size": 6857
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09o-ZoomLens.tsx": {
+          "sha256": "091a7e17dc406c6f86b04a64ff39ad972b99df713dbe9a975e2064a0e5bad562",
+          "size": 8245
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T14f-Gauge.tsx": {
+          "sha256": "9285e850bbc4550408375b515313321c1152af8f225f39793ca24fa36e33feb7",
+          "size": 7777
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T20f-ResultFirst.tsx": {
+          "sha256": "35ed293f5aceb79e0c833acd4c54d03bf9503ec4fa8aeb21f716bdd2cb44ff3a",
+          "size": 7970
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09i-PickRow.tsx": {
+          "sha256": "affaf557f5401ac89a98af3b73537bf33e08589c7a2cd2a60681389318d7da6e",
+          "size": 8869
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T15g-RankReveal.tsx": {
+          "sha256": "8984ed34f379cd8eec024bca50dc47766ae834c37f998f5b500852bd7f56e058",
+          "size": 7262
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T15i-PlanTable.tsx": {
+          "sha256": "6d18b02fd57e03f58ed0a273fcab2db98e59100ce205144cd9887b37f65ca3d7",
+          "size": 8153
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T22b-NewsStack.tsx": {
+          "sha256": "5ae0c574dfb4c8669d9b034f4ea978e61495ddaedc6704ceaa2b6f6ae8690a8a",
+          "size": 6504
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T21d-SaveChecklist.tsx": {
+          "sha256": "a9779cdd7f12450be9270c7891ee3d4e3e0e141c0dbb3b67629cdca9d8a22754",
+          "size": 6847
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T13d-RequestTrip.tsx": {
+          "sha256": "1965f980953eb76522e377c2023f41c58be38c7cac964d7bd09da4fcf314e2de",
+          "size": 10397
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09m-Keycap.tsx": {
+          "sha256": "abb0fa884080cd0d3b47c6fb77f8880c5b045d7033438683a9bfde958fb16bde",
+          "size": 8452
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T04g-DecisionTree.tsx": {
+          "sha256": "3ccbc4f4421a46336ba732b2025e870aa7f6c1fb5e61b1c5ab9cb69c4c6f25c2",
+          "size": 8521
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T18f-LogoGrid.tsx": {
+          "sha256": "3b0c21e7702a4da7d140fd4208ac3bdd74b2c0b4a8d0a0fa07833af26a2788e9",
+          "size": 8531
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T16a-Timeline.tsx": {
+          "sha256": "e2f8d6c56f51cb8e6cbecbce0f777d5e5bb13ed3ec6cd3dc5b47416eb9c61401",
+          "size": 10927
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T18d-RepoCard.tsx": {
+          "sha256": "3dcce4c6b49433dd700c53b0228fc52e93f6951cc142fb577a3255619ff431da",
+          "size": 5613
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T18e-LogoVersus.tsx": {
+          "sha256": "75cbeed4135a0143ee7b80dfd925eb06cd6002911f673daa4ece5b4be0ff046f",
+          "size": 5696
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T16b-VersionStack.tsx": {
+          "sha256": "a2d3cd4ac3318976d560bf888788c3b6cbb0801d8c7f943dcf33337fc559bef1",
+          "size": 7883
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T21b-QAResolve.tsx": {
+          "sha256": "46ec1182938f90668493912904e7d8b74be11070c01df010e37e26c1eb2de75b",
+          "size": 9943
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T08e-CommentPull.tsx": {
+          "sha256": "e077e33fc5050d617510c2a92db8af6b647289feb76b3c217586f918591d70b2",
+          "size": 16053
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T09k-FileFilter.tsx": {
+          "sha256": "2135684c103901dfd0ce72f4502212410195f997695bd0f12bfbbb3871ffceb3",
+          "size": 15798
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T04e-PackOpen.tsx": {
+          "sha256": "28c3b1996ff71c42f555b717ddb2135236e52eae0e347fdba3708c9a68156c24",
+          "size": 10507
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T15h-BenchmarkTable.tsx": {
+          "sha256": "29bc9b29476cfce89eb6485e37935d65a9b655c94c7fa39bb550a270cfe71ac5",
+          "size": 10790
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T01h-CautionTag.tsx": {
+          "sha256": "02f7e03039fb620a7f3004701de514d27ea11050beac5c0eb0cb1c31318323d7",
+          "size": 8592
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T15f-DonutShare.tsx": {
+          "sha256": "ce93e33c39fb2931ddfa5113ca45e4f7e0c5ef6211dbc305fe5d27a5eacd5055",
+          "size": 10041
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/w3/T02g-RoleRoadmap.tsx": {
+          "sha256": "90978aa0c52c1769cd5506f207a87fd6725288a88ff018a2e09ab8122b564255",
+          "size": 10478
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T04e-PackOpen.tsx": {
+          "sha256": "a22843d5a7039bc740e760075096db9d1e7a122abfd7ecf256a59319759f5c90",
+          "size": 11108
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T09k-FileFilter.tsx": {
+          "sha256": "79b5839799f40e3440012d652d3b1b9b16d3e0e8e51ce1ca54c0c54681a4ffe6",
+          "size": 16211
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-Chapter.tsx": {
+          "sha256": "82dd69f3d06cec5ca94ab8b11a4d2ee16d5de324f7519bd2f36746c24c5b78fb",
+          "size": 1534
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T18e-LogoVersus.tsx": {
+          "sha256": "163ca274d81c68de0ade98e041801fab07f5bd91a65eb74ba310a3149084647d",
+          "size": 6109
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-Shelf.tsx": {
+          "sha256": "ccb967113fc9e6b02103677e6d176e5e5ec8b0c7ff0d4722286dd2bfb230e976",
+          "size": 7986
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T15f-DonutShare.tsx": {
+          "sha256": "efc44addd3cdc02ab5c9fda7dc0940e8474cbf63613e2fa88122b43ca2587513",
+          "size": 10454
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T01h-CautionTag.tsx": {
+          "sha256": "1878289d755f1d4c40fc3a9a4a62f9f794a8c553983095582bc9da1e602dd8ca",
+          "size": 9005
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T15e-TrendLine.tsx": {
+          "sha256": "468ce2501d38087fd2df8b3c2ef9ff9aef38db7f6bbf8481ef7b4fee801b6509",
+          "size": 12168
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s09-Hits.tsx": {
+          "sha256": "0f2177c94fa1732b3430fc01f7a09df3d0c0d5d0a5b2d47e9e7b7d43f8a3ce18",
+          "size": 4038
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s08-FileRow.tsx": {
+          "sha256": "81445def64517f8685f8d14fa590fce5d372c78f30fb866e981dcec55f9fca2d",
+          "size": 1546
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T20f-ResultFirst.tsx": {
+          "sha256": "d44958ad40b1ad20724c99c20e853b8a52de09636fda72d93d4759bae52eb1cb",
+          "size": 8180
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s02-RepoCard.tsx": {
+          "sha256": "aebe69f03ce3ec33f77b60f8010632a541be72cae6368bfaeef8eae96c8bc4f6",
+          "size": 6354
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s11-LazyPage.tsx": {
+          "sha256": "7cbff2b6b5af0b146e9f1af38c73fdd8285ff2f048703ecd0d9e03598aae6253",
+          "size": 3378
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s10-Rank.tsx": {
+          "sha256": "3355e251957048a0d7ff31fdf48c141c6d51b9b8f1e50624fa71ecb754491f9e",
+          "size": 9581
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T05i-UnboxResult.tsx": {
+          "sha256": "ee34442567488e2bcfa31f4a842580fefc9cc9b0c66ae7264a5ec4e1ca91b61b",
+          "size": 9852
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s07-Agenda.tsx": {
+          "sha256": "82db563d35c6660d43cb3ebf10465642b196f19035a38d465f744a01f849580e",
+          "size": 2126
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/v2b-kit.tsx": {
+          "sha256": "4f4f32090302c4b4102f02e78076d4c593181de943cc0d28739bddda895944c2",
+          "size": 7320
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s02-Home.tsx": {
+          "sha256": "dfa6be3b346095b54dbcde3d9d4361b894fc622cf49dadabed07b24ca0c21864",
+          "size": 5076
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/v2c-kit.tsx": {
+          "sha256": "40cbfea9464b2e1653eeda5f39883306553c2fc6a8895c05c590190bd6c60fd2",
+          "size": 10667
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s01-ClaudeMark.tsx": {
+          "sha256": "63ad56d0a551c8f8453ba260f2491902138aa050384c27d3e31d4262b597d2ce",
+          "size": 818
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T15h-BenchmarkTable.tsx": {
+          "sha256": "a6d3fdea18ecb255265e458d258e30f9f5d68564e1cfb7c9c61a2bda0c6827f9",
+          "size": 11207
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T12h-RoleSwitch.tsx": {
+          "sha256": "b8f649910a3692d216861e38fe08698b65ffab462260baefcc7ae6ea8191f249",
+          "size": 4753
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-Charts.tsx": {
+          "sha256": "9ebe7d567acc179adce8bd6c378772b8fab02f0c0b4d0d9bafec3fd96d97e1d2",
+          "size": 1060
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s17-Stack.tsx": {
+          "sha256": "6366d3c5c8f1c15de45c4ed5c59444b144b3032744a0ab2c6d786c23918d3c2c",
+          "size": 5873
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T09j-DeviceCode.tsx": {
+          "sha256": "2cc49e00b057eaac0c5bb6bc26aed77c9661618ff85e474396fadc7148bc4e87",
+          "size": 11934
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T05h-SyncVsCopy.tsx": {
+          "sha256": "a48b0dd6c1f55f69952aefad80751b49bc5567fd0a9c477e1d758db14d0f5e10",
+          "size": 10373
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s14-T15g-RankReveal.tsx": {
+          "sha256": "5b6b62e1b84920cea4b60293f13e6d85ae14a264fb02c70a0756e086ab82ae39",
+          "size": 7675
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T09o-ZoomLens.tsx": {
+          "sha256": "92e98976185a4c87c94d53673e5555800c5c31417e360c24580aa6db2dd0d992",
+          "size": 8642
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/handoff.ts": {
+          "sha256": "484c4ff27c99e6a1f7634581feec820d6c7a1ed28be88a6262a43b7a12d12208",
+          "size": 8003
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T22a-PostCard.tsx": {
+          "sha256": "af600c7fb3fd805df94356103d44d26ff132aaa981049244348169c4c6caad24",
+          "size": 7824
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T17c-FileTree.tsx": {
+          "sha256": "29c3e0941687ea4442d6fa63cbff7584f1f222791058c421d2ad4a681742c178",
+          "size": 9225
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s04-Placeholder.tsx": {
+          "sha256": "77921c0b5e61b87e03ce5f049902e6d5cfd13ac6c7ca1d44e02e2f4969c39f6f",
+          "size": 4452
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s15-T09l-LinkCarry.tsx": {
+          "sha256": "e9f3f01c573a786373f98efda2ae8c84bb9f1563e7d4ae5ec211c82619643705",
+          "size": 14025
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/components/s17-Gauge.tsx": {
+          "sha256": "07510ef786416e92de676c025285609f4a043d7025db1f9e34225a76e91f7175",
+          "size": 5065
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/lib/shell.tsx": {
+          "sha256": "4601dc3c225e6ebe983e41d46ced149a5fc886a59409d3434ae1664c03f8c7f3",
+          "size": 3788
+        },
+        "episode-scenes-112-125-20261018/episodes/116/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/118/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/118/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/index.tsx": {
+          "sha256": "0ebf7ff93b6fbbf2303792e20a848ae2111995bfe4588f05d0ac94fbd32a186e",
+          "size": 1461
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/timing.json": {
+          "sha256": "edb7f6afa4af31580a9bf04fee8502b78e7dcb8de5c0aba987bec99bab244c28",
+          "size": 13736
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/scenes/Projects.tsx": {
+          "sha256": "609dc6514f61b663c791acfd18e76cf3d2de97567fa3511b89fb5e133180b2fd",
+          "size": 59275
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/scenes/ReaCases.tsx": {
+          "sha256": "0a7c9afe626685c41713951407f643387fe52f2f66d24da5c728e447b00479aa",
+          "size": 43468
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/scenes/index.ts": {
+          "sha256": "7629f6a2b9a6658aca29f3b326978b7370de2f8f0b1689bd5833638a9ceef2a3",
+          "size": 405
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/scenes/Open.tsx": {
+          "sha256": "5f24d144832d3fddc5e3e624ab9ec0d956f1606a69fbf40f19202c02b6781e93",
+          "size": 24065
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/kit/theme.ts": {
+          "sha256": "0162806f2a46f870a32a450ce58d7dbe178aa856ffebf5c4732a82f5cfecbbd7",
+          "size": 3848
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/ckit.tsx": {
+          "sha256": "452cfe6f070adcadf4f99075332b9d1c29bcef450be0b37c560c0717dd6cc460",
+          "size": 16195
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/ep118.tsx": {
+          "sha256": "3360c2b895328a9ffadad0dd3191b7da94ee1cc770cd2693dea47e0b1976d552",
+          "size": 7945
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/handoff.ts": {
+          "sha256": "eb7a1fb53b1e7b5a020d7ef97eadd4a4823682314a300dd98e803cc58f08e443",
+          "size": 1440
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/ep.tsx": {
+          "sha256": "31d3fc922def3bba1a882ea64ad74d0fb39166681cf3cbfd24a2723324bad57b",
+          "size": 14667
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/components/glass.tsx": {
+          "sha256": "20fff6c600de3f547c21d73d214d5a86865bdb01265edee1b8b8622edd5b56fa",
+          "size": 2071
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/lib/shell.tsx": {
+          "sha256": "742c26ce8fa9d153a42a27224e9504a9783fd56c8249f9cd3f38d7e08eb5725c",
+          "size": 3949
+        },
+        "episode-scenes-112-125-20261018/episodes/118/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/120/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/120/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/120/public-4k/media/clips/clips.json": {
+          "sha256": "045d6509a560fcc9c65c40c8ae2c9967bc6a3de6964c0817f6c52e3331adbb4c",
+          "size": 21183
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/index.tsx": {
+          "sha256": "b7549b31f418f39c141138b5c72c6f41d27e28a963ddb8618a55f8f6b41200d9",
+          "size": 1445
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/timing.json": {
+          "sha256": "1070fd01ef55c03c3b9aae4317b5b660b0c6ebefc5e7f0dda71c803bcaf75041",
+          "size": 16429
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/B-parts.tsx": {
+          "sha256": "a23c395bd843037968b639242560ebc043e69af068253f9d4873fc6d2bb31bf0",
+          "size": 10634
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/C-S10.tsx": {
+          "sha256": "4ac6b5b3db73b2fa4c12dd94ae38cf4ca1658bfe179c437fee22c074f7a4f9b9",
+          "size": 13496
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/C-S09.tsx": {
+          "sha256": "6b1475454114439eb94811f1be70ac6c1004396bf0e35293d0fe2bd702ef96b8",
+          "size": 18152
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/C-S08.tsx": {
+          "sha256": "5c2f9a0ba85e19518d5748eb376b018c40f8eb23c63dcd13735031055c4439ac",
+          "size": 25684
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/GroupA.tsx": {
+          "sha256": "6146039a3f4cda3db21642358b9c617ef2aa5af73ca311702ed28a2286c5b7b1",
+          "size": 62252
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/index.ts": {
+          "sha256": "29b8da21ba94471b7283716e6f566e0b140fd740cea84474cf37b9640ca8f8ad",
+          "size": 383
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/GroupB.tsx": {
+          "sha256": "f74c35479d2d7d34c84f4c9d596539ee449ff4d7113e5ed897b1379c960a7561",
+          "size": 19567
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/B-s0607.tsx": {
+          "sha256": "235b7f84d48041602ad394ab7b72ce97b9353a726153cc0b7a9cd9f6a64fed59",
+          "size": 22549
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/C-common.tsx": {
+          "sha256": "0861564f6c4a8ba8d9780d606e856af1de0e0cc4a1afb4f0392c0c400b0661e8",
+          "size": 3952
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/scenes/GroupC.tsx": {
+          "sha256": "5510b2869816ac2aa33748cd90b12d778e0507883aad91b8704d8c3d2ba85968",
+          "size": 292
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/components/ckit.tsx": {
+          "sha256": "6b84a7476a28cc57f61c1684a5cc3087a9cf24c8f030e72e661a5213f875240e",
+          "size": 16492
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/components/g4.tsx": {
+          "sha256": "c4ba9a9d63563dec3eeaf2ea321b47faccd102e396a08e7885287747c9324998",
+          "size": 8581
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/components/ep.tsx": {
+          "sha256": "2edd52a0dabdb31d6c66417868ad8ab815b0e63df659c7b785d00b2f5eeb8705",
+          "size": 16501
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/lib/shell.tsx": {
+          "sha256": "742c26ce8fa9d153a42a27224e9504a9783fd56c8249f9cd3f38d7e08eb5725c",
+          "size": 3949
+        },
+        "episode-scenes-112-125-20261018/episodes/120/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/121/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/121/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/121/public-4k/media/stills/stills.json": {
+          "sha256": "16ea40aae1e4443b2342430d39392a5b0a22ffb8daf08d78dc2e603f38ca51b8",
+          "size": 7813
+        },
+        "episode-scenes-112-125-20261018/episodes/121/public-4k/media/clips/clips.json": {
+          "sha256": "b75b1a9cd0d1e176d032a6692b707a3265dd1332937fef75b7349904c818a7bf",
+          "size": 7931
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/index.tsx": {
+          "sha256": "57ec408f23215e8709857867e486166364a7694c674cbd4a8392b0e2063d8abc",
+          "size": 1445
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/timing.json": {
+          "sha256": "1abcb587473e49595344557aad9e90d28617adaaf59415916260fef3488cade0",
+          "size": 16422
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/A-S01.tsx": {
+          "sha256": "2e785c0adde2c0eadfb6574f79d2912e078dd98aa3ab6e3c724f326029772a29",
+          "size": 11992
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/A-S03.tsx": {
+          "sha256": "82a591e0a99343757f3891c5daa4f39d1aa7a90e43c10fdbadcc1b536824ff11",
+          "size": 14458
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/A-S02.tsx": {
+          "sha256": "8e4616f6c03c0ec50e8106c1f8fdca1f09e9ce3fc25d0a55360b4eb73046f797",
+          "size": 14112
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/B-parts.tsx": {
+          "sha256": "faff541ab4258febaf193779bce51bce44555a43c6755ba9a84fd9049e8c9168",
+          "size": 15533
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/C-S10.tsx": {
+          "sha256": "47fa43c8797f08c1749d7fee446bdbb3a2a720c0e4ef5d40a6ec47be4332771e",
+          "size": 15945
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/C-S09.tsx": {
+          "sha256": "58311b8ed8fcd02de8f512d18f3a085b1aa7d6bb4ce5a8dfcf180093db1ad340",
+          "size": 16611
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/C-S08.tsx": {
+          "sha256": "8d9c450b97a18453652086a5b9a49ca58197fd04700aa37f623a2cb954bec708",
+          "size": 17547
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/A-common.tsx": {
+          "sha256": "d207bced5eb00b68beaafb9fe4f70d8e5be37473530f0badebbe875c0cbaa211",
+          "size": 5941
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/GroupA.tsx": {
+          "sha256": "4d0c9d959c9243e99b4507aba742f8da7d76792b453269985938984edb84f2f3",
+          "size": 614
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/index.ts": {
+          "sha256": "29b8da21ba94471b7283716e6f566e0b140fd740cea84474cf37b9640ca8f8ad",
+          "size": 383
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/GroupB.tsx": {
+          "sha256": "ee5a106250abd6b54d68ad1983e866c117e2c968b575f49f46782e06fdba14b1",
+          "size": 236
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/B-s0405.tsx": {
+          "sha256": "9a7e7d8f41357495fce0422ebfbe264055e527151b2bbebbb393c519b881270d",
+          "size": 17859
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/B-s0607.tsx": {
+          "sha256": "7765fb444e1923e7378b0dd5441bbaea0454af0636c6a2d5722f8a7ee708c5f3",
+          "size": 20244
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/C-common.tsx": {
+          "sha256": "1bad4925e199ba65523a52f029d0616053ecd5cdd43c6c851c16b204bbf4f93f",
+          "size": 7270
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/scenes/GroupC.tsx": {
+          "sha256": "49eecb7e0272ce9a2bf2b3ef05ae9dadcef8e2dd9ff1b9b3fea187c4a400c42f",
+          "size": 243
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/components/ckit.tsx": {
+          "sha256": "6b84a7476a28cc57f61c1684a5cc3087a9cf24c8f030e72e661a5213f875240e",
+          "size": 16492
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/components/g4.tsx": {
+          "sha256": "c4ba9a9d63563dec3eeaf2ea321b47faccd102e396a08e7885287747c9324998",
+          "size": 8581
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/components/ep.tsx": {
+          "sha256": "2edd52a0dabdb31d6c66417868ad8ab815b0e63df659c7b785d00b2f5eeb8705",
+          "size": 16501
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/components/chap.tsx": {
+          "sha256": "dbffdaa49fd23d82b611332a0101fd37a076fb322b60c58cba839ea773e0b99f",
+          "size": 24182
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/lib/shell.tsx": {
+          "sha256": "742c26ce8fa9d153a42a27224e9504a9783fd56c8249f9cd3f38d7e08eb5725c",
+          "size": 3949
+        },
+        "episode-scenes-112-125-20261018/episodes/121/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/119/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/119/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/index.tsx": {
+          "sha256": "761f657815f1ef1f3a788e378616d35d70ab5676ebd7833306086efad5476bc1",
+          "size": 1461
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/timing.json": {
+          "sha256": "c817390676916616cbbfac04c6618806bce934d59e6234c236a20998eb0acf8e",
+          "size": 12470
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/timing.v5.json": {
+          "sha256": "541b786eacdd49f58c2457cae3376524e52dc76907081fedd402799f42192e9a",
+          "size": 13434
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/scenes/Upscayl.tsx": {
+          "sha256": "a505d7ce02f7233c2fd0e4fef3ccbce41cb98f852fde573dcf701f849df345f4",
+          "size": 17049
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/scenes/Open6.tsx": {
+          "sha256": "62da0542677bc418b2c1a6d7b2d3bb86f4b3734516cbc51458fff9c84b2f95ac",
+          "size": 10486
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/scenes/Tools2.tsx": {
+          "sha256": "cf00793e5b5958d94eb94b0a87dcf80ad7e18f060ea98dd9d4e626bdfc967dff",
+          "size": 48745
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/scenes/Tools3.tsx": {
+          "sha256": "d6936c1792018f1d2b8b9dfc74372b9fa9f61f807da3dd656f141b19a39edae2",
+          "size": 25991
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/scenes/index.ts": {
+          "sha256": "eb37f131ce99ba662a0f3f0e2ece9d81db0e91a170f505e8b501a803e6842ca5",
+          "size": 402
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/scenes/Open.tsx": {
+          "sha256": "aeb19b3b9a6795c79eaa1886d24d3956bac29912298e90690c1857adfc26ea07",
+          "size": 15527
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/components/ckit.tsx": {
+          "sha256": "eaeb84dab0852cf29e12bf535eec21186517c1c69f70a7e46d6e49f4e619b495",
+          "size": 16492
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/components/ep.tsx": {
+          "sha256": "2edd52a0dabdb31d6c66417868ad8ab815b0e63df659c7b785d00b2f5eeb8705",
+          "size": 16501
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/lib/shell.tsx": {
+          "sha256": "476ba8bd532d220a9b48aaef63cabed460c2816afc34435fecb2a8f77a4632ee",
+          "size": 4021
+        },
+        "episode-scenes-112-125-20261018/episodes/119/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/117/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/117/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/117/public-4k/media/gh-repo-files-box.json": {
+          "sha256": "4b78cc0c425dd534a94ce0058df4ed3bc7545706bcf0a2ecad39594086f88390",
+          "size": 7296
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/index.tsx": {
+          "sha256": "527964bdbda201cce94a71eb968e32c5e9fe3a4ca5f6bebda3fd1a845a06cf04",
+          "size": 1461
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/timing.json": {
+          "sha256": "a0edf645ed7ad2e533deb6a1d0d60744ae6dfd8e31b4d7275fad050b1337dc21",
+          "size": 34849
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S14.tsx": {
+          "sha256": "733b008e60bbb0e940abf5ec9f91465b8f555f26658aead908bd6e7089b8087d",
+          "size": 13163
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S15.tsx": {
+          "sha256": "3d4dc071294675ba3d21f745dbf21a643332d79ca09dc32436b03fb0aee50238",
+          "size": 1928
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S01.tsx": {
+          "sha256": "3f10ecb1df241678c5fe563476b42e54a831b9912adc0be146891951a3972f9f",
+          "size": 5238
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S17.tsx": {
+          "sha256": "7bc22c926cf0e612ddc911551c1dcda8f8c83aac7940a2734cc0e702ee1489ae",
+          "size": 12914
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S03.tsx": {
+          "sha256": "ef287fc89bf4dd73fb3e161396cdd6220fec64a1799c410c18e992643058417f",
+          "size": 11162
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S02.tsx": {
+          "sha256": "3fa055379dc30f11e7ace382c0535565f2aa113c29e89f027709600140a28760",
+          "size": 6786
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S16.tsx": {
+          "sha256": "1f911a854eea6153370d0a5cf592077780973b49d8125b4c48dacbb0145c455b",
+          "size": 6292
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S12.tsx": {
+          "sha256": "c00d893fc1f74a34d1926b13b5b4e48fb669081be2ebc15dfada681d11d52c3f",
+          "size": 4332
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S06.tsx": {
+          "sha256": "64bbfcb61bc2bb13cf5ae8679060b0654502414f3ef22c2e6c8f714750e46dc5",
+          "size": 6612
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S07.tsx": {
+          "sha256": "ae84499529f140179040ee56eb9f470a954cffba6f5c4edb42465535a3dedd9a",
+          "size": 9614
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S13.tsx": {
+          "sha256": "bd254de384a726f98db3f11a7dfd45e8d807d2f29a33d9b0f8ef5bc3661d1962",
+          "size": 10556
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S05.tsx": {
+          "sha256": "bc17dc1b57bd4f4fbfaa1e3da694a25e9ab35e4c78e0c5f6e5bced236d5c2173",
+          "size": 2036
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S11.tsx": {
+          "sha256": "65a9561426825bf7368d3275124408b34b64231706b2274179849371d76b113c",
+          "size": 8204
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S10.tsx": {
+          "sha256": "9975365a29f02e16ab3fb7df001321df3fca59e0e68d1d15a13cd944c1409694",
+          "size": 9349
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S04.tsx": {
+          "sha256": "cb4d5ce84d4b0f87775bd90e608859b056464c6033403fb0265de6b073e70867",
+          "size": 4858
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S09.tsx": {
+          "sha256": "b2bdd102c5aaa1c0f86271e7d81885462517582d49391ea25ffd2191643a7ef5",
+          "size": 14786
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S08.tsx": {
+          "sha256": "5e91574446515b6f5d95472b6f14e4bfb0f3137b6841310eb3c39143d8245037",
+          "size": 11314
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S18.tsx": {
+          "sha256": "39848c145b438a70c3794a46341a80673b035e396c7dc0e274d550e57cfbb992",
+          "size": 12297
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/S19.tsx": {
+          "sha256": "ff7bd07d0053f42cdc57b13844f0cd556cb9ee86577aae662e1960beb03ffad4",
+          "size": 10237
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/scenes/index.ts": {
+          "sha256": "cbc231c2375cf85357b26047a595b064de0fd667d0ef461aaa8a173d0c076b6b",
+          "size": 848
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/kit/theme.ts": {
+          "sha256": "0162806f2a46f870a32a450ce58d7dbe178aa856ffebf5c4732a82f5cfecbbd7",
+          "size": 3848
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T17c-FileTree.tsx": {
+          "sha256": "ed999c308bce11e5f3baeb94d121d93a708c326757d1841e307a8d5db57c850e",
+          "size": 8814
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T22a-PostCard.tsx": {
+          "sha256": "4949bfb6c7b625a411100e877109d19d1f21951f0127a12d629b0d0279404b0f",
+          "size": 7413
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09l-LinkCarry.tsx": {
+          "sha256": "5ec56c0ad030aa58608e0131eb4d7e8a435472be978f4a74a1171784781e0eca",
+          "size": 13526
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T15e-TrendLine.tsx": {
+          "sha256": "d5da332716ecd2119f5f6aeb2b9f6511ca1085981d214f2fe8e3ddfadf8621c4",
+          "size": 11756
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T13a-StackLayers.tsx": {
+          "sha256": "e615413129f7c483e478e08376ad6b866cbf33a5d15cef680050b9699f014b6e",
+          "size": 9011
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T05i-UnboxResult.tsx": {
+          "sha256": "f387d257c8c261bd207ebc6ce9c9dd005ab601c14bc1e0fecf4b981a2d5fa1a5",
+          "size": 9438
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T14e-StatTriplet.tsx": {
+          "sha256": "bb4a2154f6f19e1d54e01c8ef93a493d104486ecd8615e65499843cc532e5420",
+          "size": 6314
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T04f-KeyUnlock.tsx": {
+          "sha256": "9c154da64403b92bb0ba8e04644751145c83fcbee822205af74cef1bfd0b3cf7",
+          "size": 8258
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T13c-CapacityFit.tsx": {
+          "sha256": "6f568a82e1c82c8e5fedaa34af2baaa4867f814e6f27296f0a2fb0a3664e74d4",
+          "size": 10086
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09j-DeviceCode.tsx": {
+          "sha256": "a3ee5d9340c5bcae4c03ad6eb8c2574c4d21cb64caf8bfd2214043df7a8cf789",
+          "size": 11521
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T05h-SyncVsCopy.tsx": {
+          "sha256": "94d7653b768421a023d881e19e7fc12a27f1a672cd402b53056c315834e46af9",
+          "size": 9960
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T02h-FileTrio.tsx": {
+          "sha256": "15c00f68ceefcf0c0a7420255ad476b3ecd7d9e252b2259de24cc71995b61571",
+          "size": 9660
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T12h-RoleSwitch.tsx": {
+          "sha256": "ebdd02e88769568c4ff40bc465533bcf04ba313e1d7225f3cd8a4ef3e932c62e",
+          "size": 4340
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09n-WaitSkip.tsx": {
+          "sha256": "82250f70db418b809dcb81b82de0071c7ef48db93c9ff60fb141e697f44afc96",
+          "size": 9032
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T13b-MetaphorMorph.tsx": {
+          "sha256": "bfb664acb45717821aec8a1ff0cb45feb1339c15f7bad53184544a910603421e",
+          "size": 9774
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T12i-QuestionBeat.tsx": {
+          "sha256": "226c7a96182a30ba9fa0b0a062225b817f73876ccaaca72f4a4b9b101cbc1763",
+          "size": 6857
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09o-ZoomLens.tsx": {
+          "sha256": "091a7e17dc406c6f86b04a64ff39ad972b99df713dbe9a975e2064a0e5bad562",
+          "size": 8245
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T14f-Gauge.tsx": {
+          "sha256": "9285e850bbc4550408375b515313321c1152af8f225f39793ca24fa36e33feb7",
+          "size": 7777
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T20f-ResultFirst.tsx": {
+          "sha256": "35ed293f5aceb79e0c833acd4c54d03bf9503ec4fa8aeb21f716bdd2cb44ff3a",
+          "size": 7970
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09i-PickRow.tsx": {
+          "sha256": "affaf557f5401ac89a98af3b73537bf33e08589c7a2cd2a60681389318d7da6e",
+          "size": 8869
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T15g-RankReveal.tsx": {
+          "sha256": "8984ed34f379cd8eec024bca50dc47766ae834c37f998f5b500852bd7f56e058",
+          "size": 7262
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T15i-PlanTable.tsx": {
+          "sha256": "6d18b02fd57e03f58ed0a273fcab2db98e59100ce205144cd9887b37f65ca3d7",
+          "size": 8153
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T22b-NewsStack.tsx": {
+          "sha256": "5ae0c574dfb4c8669d9b034f4ea978e61495ddaedc6704ceaa2b6f6ae8690a8a",
+          "size": 6504
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T21d-SaveChecklist.tsx": {
+          "sha256": "a9779cdd7f12450be9270c7891ee3d4e3e0e141c0dbb3b67629cdca9d8a22754",
+          "size": 6847
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T13d-RequestTrip.tsx": {
+          "sha256": "1965f980953eb76522e377c2023f41c58be38c7cac964d7bd09da4fcf314e2de",
+          "size": 10397
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09m-Keycap.tsx": {
+          "sha256": "abb0fa884080cd0d3b47c6fb77f8880c5b045d7033438683a9bfde958fb16bde",
+          "size": 8452
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T04g-DecisionTree.tsx": {
+          "sha256": "3ccbc4f4421a46336ba732b2025e870aa7f6c1fb5e61b1c5ab9cb69c4c6f25c2",
+          "size": 8521
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T18f-LogoGrid.tsx": {
+          "sha256": "3b0c21e7702a4da7d140fd4208ac3bdd74b2c0b4a8d0a0fa07833af26a2788e9",
+          "size": 8531
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T16a-Timeline.tsx": {
+          "sha256": "e2f8d6c56f51cb8e6cbecbce0f777d5e5bb13ed3ec6cd3dc5b47416eb9c61401",
+          "size": 10927
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T18d-RepoCard.tsx": {
+          "sha256": "3dcce4c6b49433dd700c53b0228fc52e93f6951cc142fb577a3255619ff431da",
+          "size": 5613
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T18e-LogoVersus.tsx": {
+          "sha256": "75cbeed4135a0143ee7b80dfd925eb06cd6002911f673daa4ece5b4be0ff046f",
+          "size": 5696
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T16b-VersionStack.tsx": {
+          "sha256": "a2d3cd4ac3318976d560bf888788c3b6cbb0801d8c7f943dcf33337fc559bef1",
+          "size": 7883
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T21b-QAResolve.tsx": {
+          "sha256": "46ec1182938f90668493912904e7d8b74be11070c01df010e37e26c1eb2de75b",
+          "size": 9943
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T08e-CommentPull.tsx": {
+          "sha256": "e077e33fc5050d617510c2a92db8af6b647289feb76b3c217586f918591d70b2",
+          "size": 16053
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T09k-FileFilter.tsx": {
+          "sha256": "2135684c103901dfd0ce72f4502212410195f997695bd0f12bfbbb3871ffceb3",
+          "size": 15798
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T04e-PackOpen.tsx": {
+          "sha256": "28c3b1996ff71c42f555b717ddb2135236e52eae0e347fdba3708c9a68156c24",
+          "size": 10507
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T15h-BenchmarkTable.tsx": {
+          "sha256": "29bc9b29476cfce89eb6485e37935d65a9b655c94c7fa39bb550a270cfe71ac5",
+          "size": 10790
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T01h-CautionTag.tsx": {
+          "sha256": "02f7e03039fb620a7f3004701de514d27ea11050beac5c0eb0cb1c31318323d7",
+          "size": 8592
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T15f-DonutShare.tsx": {
+          "sha256": "ce93e33c39fb2931ddfa5113ca45e4f7e0c5ef6211dbc305fe5d27a5eacd5055",
+          "size": 10041
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/w3/T02g-RoleRoadmap.tsx": {
+          "sha256": "90978aa0c52c1769cd5506f207a87fd6725288a88ff018a2e09ab8122b564255",
+          "size": 10478
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s12-Stage.tsx": {
+          "sha256": "f00523d1b038f2c486ae7150cea8bd4ee4eff9be3709d00e2290f2ae9ec8345b",
+          "size": 13172
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s14-CKit.tsx": {
+          "sha256": "5e488c2fd2bdfd93fa4e1b988336c0272852b7872054f3fe5b25edae10dcdfa7",
+          "size": 14879
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s10-Lanes.tsx": {
+          "sha256": "b8b3d1335d0ece6499a540270a7c7cddcca4ad707c79bda8908eee807902e1da",
+          "size": 7799
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/shared.tsx": {
+          "sha256": "2c258d0bc82f35da3afac8af09d837c7e1dcd9ba50856c5ac6692ff4fed3f35e",
+          "size": 9312
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s16-Steps.tsx": {
+          "sha256": "a73db5d0af9e397156111fd99285dd2aed6cb9a44135934ee0f0a0090d694ae9",
+          "size": 8679
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/v2b-kit.tsx": {
+          "sha256": "4f4f32090302c4b4102f02e78076d4c593181de943cc0d28739bddda895944c2",
+          "size": 7320
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s08-RunProject.tsx": {
+          "sha256": "e510a9349c830d16aa10ee56867c8b48990686d357f319ee0de4836aa27e6762",
+          "size": 1801
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s10-Finder.tsx": {
+          "sha256": "b4bd2555ef6811eadf5901180c1a5b5a168b3fc57f79ae13404ffe2e5355285d",
+          "size": 4480
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s06-Mac.tsx": {
+          "sha256": "77e9f97652fa9c0998de8c26b8614fbad71a6543551cf12811aa7f7e74f041fb",
+          "size": 7323
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/v2c-kit.tsx": {
+          "sha256": "40cbfea9464b2e1653eeda5f39883306553c2fc6a8895c05c590190bd6c60fd2",
+          "size": 10667
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s09-Rack.tsx": {
+          "sha256": "0d4ec41f7180fa8f2e725295cd49aa3367d07d1dab15fb2d265918a8986ba3e2",
+          "size": 5427
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s12-Header.tsx": {
+          "sha256": "18f98649d519e1bdfcbcd786984d1653d602eed620a3bd3bdc894f14215c5f85",
+          "size": 2189
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s08-bkit.tsx": {
+          "sha256": "e392a41a611ab413cb24e7843f187e0ae4d3ae293063f4c1ad79e7206729a71b",
+          "size": 8925
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s02-Install.tsx": {
+          "sha256": "7091501bdda619d28e2a85d8a083b1c2f392ad31a591d4e6a21544a38fe830de",
+          "size": 8287
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/handoff.ts": {
+          "sha256": "815060c6a240f1e199ae929b049d38ca31ff61cf594f51462077ca95342c25f8",
+          "size": 2629
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s01-Desktop.tsx": {
+          "sha256": "1dd8256518e7fa97730b046ef4dc02c9a2a45b14c02dfb0a73ab89e401b24d56",
+          "size": 3071
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s11-Cli.tsx": {
+          "sha256": "a16109074687b1774d14466d6b3ad1ea0107e331b2ce40a4aafe07d1f9fab4c7",
+          "size": 4359
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s01-Term.tsx": {
+          "sha256": "04c9564f8f092872d2bf0fbf9878db818335f9e4a4bb73cc0c2d01c15ebb7b89",
+          "size": 5738
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/components/s16-Panels.tsx": {
+          "sha256": "3074aca3089c0046221573cb1b730a4b0b4698a577f00c9bcb840587d8b76c3a",
+          "size": 9495
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/lib/shell.tsx": {
+          "sha256": "742c26ce8fa9d153a42a27224e9504a9783fd56c8249f9cd3f38d7e08eb5725c",
+          "size": 3949
+        },
+        "episode-scenes-112-125-20261018/episodes/117/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/package-lock.json": {
+          "sha256": "63ab1c89408ad547b42454503634dc6aa88f52ed0f6914a98d1df2783a5353f2",
+          "size": 116407
+        },
+        "episode-scenes-112-125-20261018/episodes/112/package.json": {
+          "sha256": "805597992a9c6a897a3f7fdcab3191ffbeebd4610b0468a994b3db7b266ccbda",
+          "size": 368
+        },
+        "episode-scenes-112-125-20261018/episodes/112/scene-data.json": {
+          "sha256": "62b1f7e6a33c500d4c29e76e66f17e4ff438f2f895eff848d52f999e21b55a8e",
+          "size": 304772
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/index.tsx": {
+          "sha256": "a461cb7be06c7d4a0d72ef4fecba28cc37649375a75237e1d352fe074b91b1f0",
+          "size": 3849
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/S13StepSummary107.tsx": {
+          "sha256": "39e41ae0369db60bb41df8c12617486cf959558ba88eca08cdcbbd3eef7a2cce",
+          "size": 2165
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/insert109-cues.json": {
+          "sha256": "448a290fa0d1ebb90737742b2bcfed88f011ef2e20ffeae42bbe04e67cc70ef2",
+          "size": 403
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/Insert109.tsx": {
+          "sha256": "793c4b277a8eebda2e3faffb8a1a90721fad96d654b96db155d09e6c8e7b5ac0",
+          "size": 698
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/NarrationScenes.tsx": {
+          "sha256": "0bb91bb8901e4213a034580f3f5c2400838befc7132f2299c4554808c8e1a27f",
+          "size": 23567
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/index.tsx": {
+          "sha256": "2db2d13c78d960857bf1c18629a686bad33ccb6ed2c7e4151022847ea948c6f6",
+          "size": 1879
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/RecordingScene.tsx": {
+          "sha256": "327acb31db78e937669166aa46640f02ae503113c197a14b241e07c205c23380",
+          "size": 2274
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/FullscreenVideoWindow.tsx": {
+          "sha256": "b555a7debba787f6b4a306ad814034b45c8b67591eed632870b5f2e0590f1f13",
+          "size": 1559
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/ServiceScene.tsx": {
+          "sha256": "fa835ea25871151606b30827892a8ce149aa7ea806e6dbc81fddc11269267323",
+          "size": 2787
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/data.json": {
+          "sha256": "65260615c620bfb29ee088d4eb05c0adc3d937cef934cc0ac5486d6020488659",
+          "size": 493436
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/GridScenes.tsx": {
+          "sha256": "2686c3d95a4463e2d55515d7b393d5fe9137a23c3031ba84bde2348679bf0687",
+          "size": 20443
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/CapabilitiesScene.tsx": {
+          "sha256": "3ab97b1ec1537a47f82ff1c150dc33735275d1ef618470fde040a9d8ff8b8a88",
+          "size": 10228
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/middle/x003-cues.json": {
+          "sha256": "ca5f477fa150f1c7ae8f2d0d0d7d5dfbccffd9d20a89129dc090f499c9b9a600",
+          "size": 34608
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/index.tsx": {
+          "sha256": "17f2d93717efabad13b574f85ed9a96d1b287862104095b3420efac2dc8d981c",
+          "size": 3581
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/x006-cues.json": {
+          "sha256": "bfb401e9e1b20ad7d3154ab23ff2899befa1ce4fbc87924b9cb2110b2a5e0894",
+          "size": 130507
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/FullscreenVideoWindow.tsx": {
+          "sha256": "1e52c18652b1ac499841f935e24baecbe6ce09ef2d8adcd494faf93575b2d2ac",
+          "size": 1347
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/WebsiteScene.tsx": {
+          "sha256": "217109032d4858c4fd233f23278326e614cab43982feab8d8223cd5607348406",
+          "size": 2854
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/flash-data.json": {
+          "sha256": "e47dc7bd73f914b0b69f088c04cbe8f5f6f4bb428fa195c3f372f4639ddfb136",
+          "size": 1305
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/media-data.json": {
+          "sha256": "4a398916c95b0bfe97f4350cbd1da6c4db6df39db5f07d04253130a8de367653",
+          "size": 1024
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/OpeningV4.tsx": {
+          "sha256": "8bb73bd204eac61eb660acf6bfa80008d03dc94ced52e3ee451b935e73d1181d",
+          "size": 8642
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/data.json": {
+          "sha256": "14ecb4ca44ab39ea06df09c8dd84bcd6fb60389f04649d9c683038edc93fc95b",
+          "size": 488445
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/RequestedScenes.tsx": {
+          "sha256": "abffd52bac2dfadb5fc0c432319798da1d83934646f5fc1cbed96c5b345da208",
+          "size": 22697
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/AdaptedScenes.tsx": {
+          "sha256": "c9c7b0b28e18382b9eeaa6ce679800b03bc544a08ac32117db972895e7522d11",
+          "size": 19526
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/RevisedScenes.tsx": {
+          "sha256": "e47c675256200eaa0533a9b744bfdf4f17a49ce77e01539f7a265705273f39f6",
+          "size": 21126
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/early/x003-cues.json": {
+          "sha256": "ca5f477fa150f1c7ae8f2d0d0d7d5dfbccffd9d20a89129dc090f499c9b9a600",
+          "size": 34608
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/cases/index.tsx": {
+          "sha256": "faf698f6735ad99ec3f544f55493777794991fe928532fd598be40f7349b8ec9",
+          "size": 1236
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/cases/x006-cues.json": {
+          "sha256": "bfb401e9e1b20ad7d3154ab23ff2899befa1ce4fbc87924b9cb2110b2a5e0894",
+          "size": 130507
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/cases/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/cases/data.json": {
+          "sha256": "c956d11a445fe874815e49446ca7448a4299093fe2909cede19a5ca01b44952a",
+          "size": 44905
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/cases/RequestedScenes.tsx": {
+          "sha256": "ad28699f556cb6eb88ff6f713b545bb12f2e2ebf02f9616947ff0e5385422a04",
+          "size": 22765
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/cases/CaseModules.tsx": {
+          "sha256": "0d6329783a158e6a587e73c0df94e20c5488e5a27e66b7ce3bdea054b9e2bd7e",
+          "size": 4114
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/index.tsx": {
+          "sha256": "c987d8b493d148f270e50e19c4c805150c64a3a54aaa6922ef42970adb91bf99",
+          "size": 2290
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/FullscreenVideoWindow.tsx": {
+          "sha256": "b555a7debba787f6b4a306ad814034b45c8b67591eed632870b5f2e0590f1f13",
+          "size": 1559
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/SummaryScenes.tsx": {
+          "sha256": "cc5092c378faa149b27264a5417a368fc3b6ae0af2c10d57e78c21df89225627",
+          "size": 11728
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/data.json": {
+          "sha256": "eed390dd440af29707029dd5cfa46446127936f33920cc4fbb7fe2321c84e8c3",
+          "size": 368225
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/latest/GridScenes.tsx": {
+          "sha256": "6569604b1d83754c1a60ed47c2f8e59629e3b4ff81505547b8d9c56db48cbe1e",
+          "size": 20360
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/env/index.tsx": {
+          "sha256": "4d37e19b7b25b1e009fcac340ca4aa0887d13fba899b283e6023432af4cfc504",
+          "size": 7183
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/env/FullscreenVideoWindow.tsx": {
+          "sha256": "b555a7debba787f6b4a306ad814034b45c8b67591eed632870b5f2e0590f1f13",
+          "size": 1559
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/env/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/env/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/env/data.json": {
+          "sha256": "053f7ed4093c88deb778aa0d16b7a1cd899ddbca337eeafb749576471c22f7f6",
+          "size": 494898
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/index.tsx": {
+          "sha256": "4b0e3d2d66bc5a6adc7383430ad44ccdc0a37b0c3fee7cd4faa9103bc08b6342",
+          "size": 2873
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/FullscreenVideoWindow.tsx": {
+          "sha256": "1e52c18652b1ac499841f935e24baecbe6ce09ef2d8adcd494faf93575b2d2ac",
+          "size": 1347
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/flash-data.json": {
+          "sha256": "e47dc7bd73f914b0b69f088c04cbe8f5f6f4bb428fa195c3f372f4639ddfb136",
+          "size": 1305
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/media-data.json": {
+          "sha256": "f294d066fa22b772f39ae6544838d80ea9c025416968b9b45370915b47813a50",
+          "size": 1024
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/OpeningV4.tsx": {
+          "sha256": "658c3b26017c9ac3be7a7cfaf9b292c4d27ba6fcb13321c83ed94ea5d0ca6cd3",
+          "size": 8255
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/data.json": {
+          "sha256": "914f4197b688a44623b7c663a20ce98da697a6b9578519f1c9cc2ef1545cbd53",
+          "size": 485615
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/AdaptedScenes.tsx": {
+          "sha256": "9aeac085f84246df86bb901cfec2441829b4e0a18ccaba80e1a9fc47db4604cf",
+          "size": 19526
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/RevisedScenes.tsx": {
+          "sha256": "ec5983ded1f02833098da47301a9a14e023fc3618ca662021aa335f622426810",
+          "size": 21126
+        },
+        "episode-scenes-112-125-20261018/episodes/112/src/media/x003-cues.json": {
+          "sha256": "ca5f477fa150f1c7ae8f2d0d0d7d5dfbccffd9d20a89129dc090f499c9b9a600",
+          "size": 34608
+        },
+        "episode-scenes-112-125-20261018/episodes/115/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/115/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/index.tsx": {
+          "sha256": "04819d09109e1a450ada62a8382ae1542d5f6818869902f3d9b1471bc5c9abc9",
+          "size": 1082
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/timing.json": {
+          "sha256": "ee450c7bb2b47c8acd4f048d43ee27e93f4f8b3c449f50e848ccb8ee789cd577",
+          "size": 10431
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/timing-v2.json": {
+          "sha256": "fe2aef82ca18483202fd1b054dd9369f7d982510278186f6cc4dd935111229c1",
+          "size": 10819
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S01.tsx": {
+          "sha256": "87e042804a9b5a0854ddd6ab04745654d1fdc46e31d9951597d44bbf1c3c4dd8",
+          "size": 20445
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S03.tsx": {
+          "sha256": "6af0c48c4f4243c233b41e0f6a3d622c37f2ba80f2e31ea36f8678e57f943fef",
+          "size": 10662
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S02.tsx": {
+          "sha256": "085fd72b5f23412d8106317384440edf5c367cc9accdf64a4e888fe57919a552",
+          "size": 9334
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S06.tsx": {
+          "sha256": "5a9ab4efd46e82607698d03845f1806afffe33434789296053264835d3040867",
+          "size": 18901
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S07.tsx": {
+          "sha256": "5405701fa6665fddebf754de635f9327d29b6d804f893dd470ad8998a6766d12",
+          "size": 8549
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S05.tsx": {
+          "sha256": "816801bd8a62dd9f08aa7e57cf2197e9e0f92089c4f400e241e297ee83c8f9a4",
+          "size": 18771
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S11.tsx": {
+          "sha256": "05c60a5af18e7aef35ce680d75370194b157ebfc6866885a8ca7176b76616f73",
+          "size": 10419
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S10.tsx": {
+          "sha256": "ee9cd00bdae6464610c43ea7793d87a2a79a71992dde3961af8ef5694cc27174",
+          "size": 10393
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S04.tsx": {
+          "sha256": "d330042ecd464a108d76e28ece924eb09d3c4a736ffcbaae1357e1cc7cd0143e",
+          "size": 12694
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S09.tsx": {
+          "sha256": "990a0f8a503b3a2ae39c30fa5a952b148640acba0098a12762d6f4a70e454224",
+          "size": 15324
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/S08.tsx": {
+          "sha256": "835f82604504accddaf43a3e38c67dd74563083a318a7ff6762f8edccffdeb16",
+          "size": 7445
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/index.ts": {
+          "sha256": "3f805d4b0850b8587865e2ae695ae5ceb042c58d2f545dcbdf1c95ec1018584c",
+          "size": 549
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/scenes/VID.tsx": {
+          "sha256": "2fbc652b07fb4397c9a51af586a8c818c2b076077e9df9edb084e64494798b87",
+          "size": 890
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/kit/ui.tsx": {
+          "sha256": "b478e36de19d038c212ab3c7566923299de4ff3c421717fd52383ddf2a9b9d5b",
+          "size": 12041
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/components/mt.tsx": {
+          "sha256": "0376827f1bb7d37a10299ca5f1ec5360df3567ee17a206542ca0495fb19185d8",
+          "size": 15117
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/components/handoff.ts": {
+          "sha256": "c29cac5f89f677455d167c55ef3c2a9c23bc8a389a0eb5057462512625c84e1a",
+          "size": 3001
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/components/episode-kit/ckit.tsx": {
+          "sha256": "2a618b849948ae301bc491f08d8852d7b875e44e053b1614b3721be603a87f24",
+          "size": 18128
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/components/episode-kit/g4.tsx": {
+          "sha256": "7fb76c8ebc5bacce09b4edb65bb2ef166b9b8c3577a4255cdf2ea1ef28f85745",
+          "size": 10291
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/components/episode-kit/ep.tsx": {
+          "sha256": "7131a71cdcdb93b7d18abb6586eb4e1792019fd08ec94abc1946802c5c034f66",
+          "size": 18098
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/components/episode-kit/chap.tsx": {
+          "sha256": "e0c2c48b93ae172038391fda6ce30bf33f61915c6ea4bba94248a2ee9301a4fd",
+          "size": 26154
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/lib/shell.tsx": {
+          "sha256": "4c8af970c5e7a68030e54fdcd772ff7ab4ec43bb4c522085efc4a4a91d531f8b",
+          "size": 4403
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/lib/warp.ts": {
+          "sha256": "30529536ffe5f83a18a8064816207938039fa547e74d2f463c3657ce8034f75c",
+          "size": 2471
+        },
+        "episode-scenes-112-125-20261018/episodes/115/src/lib/OldTime.tsx": {
+          "sha256": "80b898fba9b25517ec9de67e95375f96655e16810a76453d1d11d4700ae0e181",
+          "size": 864
+        },
+        "episode-scenes-112-125-20261018/episodes/123/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/123/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/index.tsx": {
+          "sha256": "d3f80ee59664626d944094990f66fa077fae9d75b37aa2d32a601e52b5db610f",
+          "size": 489
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/data.ts": {
+          "sha256": "becdb75aff21cccf50e23b95cdad0d91a9b2b5b73cd25574398bb61864b7019a",
+          "size": 8375
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/Phone.tsx": {
+          "sha256": "9e5a3c84b42a208c456fc514c4854432949f549391c0cd5fa224d11c9c8b7c39",
+          "size": 11244
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/Ep123.tsx": {
+          "sha256": "9d20ac04cfecbd8620d887fa2ad42338a38cff661ff7228dfd1d55aeef5ca511",
+          "size": 44761
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/track.ts": {
+          "sha256": "da158308155d127e1402398905ff46238b3a6294d7eec5e2c85b4a91782c6230",
+          "size": 1018
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/kit/ui.tsx": {
+          "sha256": "fd6cc358b7f197388a7573c1e4da163bb41821fd16eff768eb023f6e958c9097",
+          "size": 11838
+        },
+        "episode-scenes-112-125-20261018/episodes/123/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/125/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/125/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/125/public-4k/media/clips/clips.json": {
+          "sha256": "7dd14274ec405ce71ac047ac246a49d7b4b06b5b3b437431c4c8f0145954e9d5",
+          "size": 2058
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/index.tsx": {
+          "sha256": "f016f73113efbb14c4adcac4af3847cbf21a3b47de140b3146a53a8922e1ba57",
+          "size": 1445
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/timing.json": {
+          "sha256": "9654ce0648978539bd5abcba1f869a247a914af815f7c0ea2cefe67028a45713",
+          "size": 16955
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/C-gbars.tsx": {
+          "sha256": "3d53ad641faab4e8c3f8396236acffb27681bd46f3e057c24b88dec043f5f8fd",
+          "size": 5334
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/B-S03.tsx": {
+          "sha256": "d35cafbaaecfdd0097db3769599d1668b6e4d4a05d1724658b41e9696d904c7c",
+          "size": 15253
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/B-S02.tsx": {
+          "sha256": "7f9571382142be4d17d983913612ac506f5124d615a56acb3ccd22d9d7e755cc",
+          "size": 6374
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/F-S08.tsx": {
+          "sha256": "95796e54d2a9be1f9bc837dd540cdfad42afc706890dccca91ea4cc1b254de15",
+          "size": 20763
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/B-common.tsx": {
+          "sha256": "9ce587185b0e82c831c04000d9e7722bed1f382b88ef46d1c4f99c49f7e67a9a",
+          "size": 7773
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/F-S09.tsx": {
+          "sha256": "5fbb5129d6f60136822698914bc7c081b5009f504d699cafeaaf7f9dfae0434c",
+          "size": 12517
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/GroupA.tsx": {
+          "sha256": "0ac80c0356c590f1ab6f8a30c7d94ac9e200b46745a2c454094f2056f32df003",
+          "size": 21955
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/index.ts": {
+          "sha256": "fec192d2bb70d5b093543844dcceb36d4ff0cd8f301bd3cc8dba319b898735dd",
+          "size": 454
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/GroupB.tsx": {
+          "sha256": "88fe84905dcac7cf88f57769eef2410943324bb1012dfba76d52709f446c45da",
+          "size": 238
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/GroupC.tsx": {
+          "sha256": "50ae13a9cbe76a24839b735870765f0c3587f433af69dc2ba31904c1a6e4c815",
+          "size": 25248
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/F-common.tsx": {
+          "sha256": "37bcbfcb2937d61b60100dfb58ce32ff61009f11881d58be5464b4d681483309",
+          "size": 8938
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/GroupF.tsx": {
+          "sha256": "aba9495b8d514225d54b3c6e1f6f8b025bf869f48f12a1b56f3b3c727ee8bda6",
+          "size": 252
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/GroupD.tsx": {
+          "sha256": "30a1820dc1d797417bb02a22162fb7f0f9ba2886cd35e36c66cadb83f315972a",
+          "size": 166
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/GroupE.tsx": {
+          "sha256": "00b17c6de2a9347ff623aa45987e6229fdad9c6f344001094a3778813eb33b9f",
+          "size": 32950
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/scenes/D-s06.tsx": {
+          "sha256": "9c33a46cb383c8a681a64be2088dd0a12abd7b532892dfa9ad23a9f06e65c3d9",
+          "size": 32408
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/components/handoff.ts": {
+          "sha256": "d4e90271259cafc5c6ba2cd893b81eaacc388cf668a3060684e3a4ecb496c61d",
+          "size": 2132
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/components/episode-kit/ckit.tsx": {
+          "sha256": "e871791f06d8f1db8159b617fd82cc0ffa332e94136233762ece020d0e549b68",
+          "size": 18128
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/components/episode-kit/g4.tsx": {
+          "sha256": "1364b7f3e0c32559245f3bfb7698be344932349305475b71f55be6536d61f7dd",
+          "size": 10291
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/components/episode-kit/ep.tsx": {
+          "sha256": "7131a71cdcdb93b7d18abb6586eb4e1792019fd08ec94abc1946802c5c034f66",
+          "size": 18098
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/components/episode-kit/chap.tsx": {
+          "sha256": "22bf964c572ba51660f16fcb4b471184de52e1806b3752f40757c510c6eaf27f",
+          "size": 26182
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/lib/shell.tsx": {
+          "sha256": "187e95a0a3c461db94a2e9da0be5d4ec7620bfd3b0ca02bfe21b3ef5666c2932",
+          "size": 4061
+        },
+        "episode-scenes-112-125-20261018/episodes/125/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/122/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/122/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/index.tsx": {
+          "sha256": "3a488cfd6d4fa92e584bbbc92675c5233b9deb9247e80a68c056b1dcd8248d6c",
+          "size": 954
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/Ep122.tsx": {
+          "sha256": "edd318e6c7dae6d220740526ce9b15a55cd9125a07778e62a3fafe37cbc54802",
+          "size": 12247
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/kit/theme.ts": {
+          "sha256": "0162806f2a46f870a32a450ce58d7dbe178aa856ffebf5c4732a82f5cfecbbd7",
+          "size": 3848
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/kit/ui.tsx": {
+          "sha256": "79c14956b8b257acd4deba54619f1ed500c57daf3d6185257ddbc1b41cb081e0",
+          "size": 11751
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/components/LogoIntros.tsx": {
+          "sha256": "8f2c3bf19524deafb4152d6c6f30f4dcba860be58cfe24cf83dcf8738d6757bd",
+          "size": 10382
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "1e52c18652b1ac499841f935e24baecbe6ce09ef2d8adcd494faf93575b2d2ac",
+          "size": 1347
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/components/_shared.ts": {
+          "sha256": "d8da09c538dacb47afce61277725e3dadfdd0a5732418e1a65479ad76c2d8d92",
+          "size": 2488
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/components/T20i-PullBack.tsx": {
+          "sha256": "d482252effb1187273e288505c967fb104f37e14bf330ff59337f11491bb2257",
+          "size": 4137
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/components/TitlePill.tsx": {
+          "sha256": "68f715e4f48f8f745915c8a90b4430f01d420ffe4c0c70db62bf8ddc9d12241c",
+          "size": 1660
+        },
+        "episode-scenes-112-125-20261018/episodes/122/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/114/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/114/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/114/public-4k/masks/github-cli.json": {
+          "sha256": "6acbab4d9a3885dc39b16d012b84e6a663be4f444f13869c1a3e3b2c2cf43584",
+          "size": 133610
+        },
+        "episode-scenes-112-125-20261018/episodes/114/public-4k/masks/upload.json": {
+          "sha256": "c0333ffe8370fc42b9b2a63e5dcb2028765f9a0ec7b8c56d1f87fb825fff675c",
+          "size": 56631
+        },
+        "episode-scenes-112-125-20261018/episodes/114/public-4k/masks/clone.json": {
+          "sha256": "afafad0d0e95118d11749d7108491699c9b85fe6188f61f23e0d27f8f6cc8b61",
+          "size": 48140
+        },
+        "episode-scenes-112-125-20261018/episodes/114/public-4k/masks/ask-codex.json": {
+          "sha256": "2bbab1ff5f5e4e11df100e79e1a51047bb2bd04654af095441b181e10c8738c5",
+          "size": 55129
+        },
+        "episode-scenes-112-125-20261018/episodes/114/public-4k/media/gh-repo-files-box.json": {
+          "sha256": "4b78cc0c425dd534a94ce0058df4ed3bc7545706bcf0a2ecad39594086f88390",
+          "size": 7296
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/index.tsx": {
+          "sha256": "5de8b5f9fa19b28339cf22f7228609101c21ba44ad7aa92bc2684c15a95f6e64",
+          "size": 1061
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/timing.json": {
+          "sha256": "22ee3bbdf3a0d004c913cd789122235cf75dc29e63c26ae9513f60ba6574d54d",
+          "size": 20735
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S14.tsx": {
+          "sha256": "c634e52e7f56f043c1ef6c47a520c6e549dc7c94cf9ef3fff96046c51aaecf6e",
+          "size": 7264
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S15.tsx": {
+          "sha256": "34f3f1b0fd59541ef6f50a43bd26ff8622f86ca6ea0b5c0ad1088593de48e04f",
+          "size": 27298
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S01.tsx": {
+          "sha256": "b08f6b01b42348d7483aeaab522a6dfbf8f119edc0a73f4d6d32c4db76adc514",
+          "size": 8670
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S17.tsx": {
+          "sha256": "e1d3f0eea0bc87fb0b7a4a3353d0d2daccb044fe2222e0f7d8c5f9c90911fc39",
+          "size": 6259
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S03.tsx": {
+          "sha256": "3367306c5cecc782037760cf791d7f4dfeba237cc666849f1926fdb099c2011f",
+          "size": 9285
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S02.tsx": {
+          "sha256": "d8eabe330fad950156ce4b677db7530ab0dd5a8479822d7eef9332686af60a7a",
+          "size": 3182
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S16.tsx": {
+          "sha256": "408de11a85d6c7127b3f8bbdac650f8f5771be3cf7127aebca52ad07da10e3a6",
+          "size": 21622
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S12.tsx": {
+          "sha256": "42a86e18916572de43988ee933850fcb369f6ea120f4dab8394f15a558ce6a8d",
+          "size": 12900
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S06.tsx": {
+          "sha256": "df8ad3582e642a305c789c2597382c6525e689729b3f26774e2421152ef16102",
+          "size": 5601
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S07.tsx": {
+          "sha256": "4e2bec77dfad6a6220b36ec334a85db0663c81c8d2aca63509871444acc2739c",
+          "size": 9161
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S13.tsx": {
+          "sha256": "abfdb00c1e47f17ee80bff736ab124e562271760aa4166461645e5139dd36336",
+          "size": 6661
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S05.tsx": {
+          "sha256": "813a14c0f727e52c0000b6f5888102b375119648bc5988cacebfebb2e32c6c89",
+          "size": 8732
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S11.tsx": {
+          "sha256": "80af9a425135159100b43268c9a2aa1390e68692f00b8a3f221b424323670286",
+          "size": 2650
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S10.tsx": {
+          "sha256": "485c7d16cfc0b45f7c015754acc58e47cb253f147f315e5270359cb0078f4a9f",
+          "size": 10318
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S04.tsx": {
+          "sha256": "607dfa0485840e192aee051eb8b05294abf636438cf3199f50efd6f5871750d5",
+          "size": 9998
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S21.tsx": {
+          "sha256": "aad8a2a985bc460713deaf297cf8bb5f71ac950f3be98586cfdc80c695e1b1dd",
+          "size": 5007
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S09.tsx": {
+          "sha256": "63c35840a4e16f73666131d1f0442fd409523d27201e6456b5459dbc703677a7",
+          "size": 9045
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S08.tsx": {
+          "sha256": "6ecaf680b4be99ab0fce05df42fc0336017f32330807c3948154330c45009dd4",
+          "size": 8571
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S20.tsx": {
+          "sha256": "e90056af3c2caeff14085e77abd39abc333b20fe92e761968b02d62089febecd",
+          "size": 13037
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S18.tsx": {
+          "sha256": "610f0adfd4b1498498e3d2357163c779b7e2732aab372532986c9a229727f962",
+          "size": 4548
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/S19.tsx": {
+          "sha256": "aad8c79d491e996cb2f391f6c61cf25eaaa08f1d5efc636b06dcf1f2e3170bd5",
+          "size": 11409
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/scenes/index.ts": {
+          "sha256": "e3802e23b7e0b1a6b8b50f88d94dad10a53f80a8829132424067605c678d91d9",
+          "size": 954
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/kit/theme.ts": {
+          "sha256": "0162806f2a46f870a32a450ce58d7dbe178aa856ffebf5c4732a82f5cfecbbd7",
+          "size": 3848
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/kit/ui.tsx": {
+          "sha256": "099a0314ba91f96fdd68985a0f13be5c4a6a0946c86e8576f9f7201d69ceccae",
+          "size": 9976
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T19a-PainPoint.tsx": {
+          "sha256": "7c5a221da901d35bdd3f8311b1b608da7d54cb6d5b9e78d068bb2440ba7217b4",
+          "size": 6077
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2a-kit.tsx": {
+          "sha256": "51a386339d8309653970e4856e9142f5099996804727b15196c87a541392a19d",
+          "size": 8511
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/FullscreenVideoWindow.tsx": {
+          "sha256": "eb989d2cb6b028d174581906462587c0f413c49bcf60c25e9490af72ec99b181",
+          "size": 1542
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T09h-QueryRefine.tsx": {
+          "sha256": "963fa060640d2da4c277d069e28df3d9f88bf4d1bb76bfdbdb1296279531bc4e",
+          "size": 10371
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2a-handoff.ts": {
+          "sha256": "7de86d2956bf17cb3667662349cbc0cc463e7e2ed1ec6c715ef5a3622d353094",
+          "size": 938
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T05i-UnboxResult.tsx": {
+          "sha256": "974ea07f94e74f3b0e344d614fe85dd3c1416bc3816dbdea95eb189a89c024df",
+          "size": 7557
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/fullscreen-video-window-geometry.ts": {
+          "sha256": "dbcde0580bf617c4da8f09553ac2ef730986e123156eb17d1d4f414937ab4692",
+          "size": 1410
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2c-FileFilter.tsx": {
+          "sha256": "9c545125d3a752b7535b1e3c0eb2b70f56045a567ba9a1f8cc196f5cfe6a126b",
+          "size": 17018
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T04f-KeyUnlock.tsx": {
+          "sha256": "9c154da64403b92bb0ba8e04644751145c83fcbee822205af74cef1bfd0b3cf7",
+          "size": 8258
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2b-T05i-UnboxResult.tsx": {
+          "sha256": "ad5e0791ec24bf9c2cebb1ec5c9d7499d111c36d8b86e1ead9c2a7e7824a813d",
+          "size": 13185
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T09j-DeviceCode.tsx": {
+          "sha256": "a3ee5d9340c5bcae4c03ad6eb8c2574c4d21cb64caf8bfd2214043df7a8cf789",
+          "size": 11521
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T05h-SyncVsCopy.tsx": {
+          "sha256": "8b1475bd980e5748ba8d3d9921d6dbae1f9746442d372c49ce2b231bc666de0c",
+          "size": 8653
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T02h-FileTrio.tsx": {
+          "sha256": "15c00f68ceefcf0c0a7420255ad476b3ecd7d9e252b2259de24cc71995b61571",
+          "size": 9660
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2b-T05h-SyncVsCopy.tsx": {
+          "sha256": "96f1765431a324cf993db78d35a6b22641cd67ca7435c0580aed096e70f5fa6b",
+          "size": 10628
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T12h-RoleSwitch.tsx": {
+          "sha256": "ebdd02e88769568c4ff40bc465533bcf04ba313e1d7225f3cd8a4ef3e932c62e",
+          "size": 4340
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2b-kit.tsx": {
+          "sha256": "93242a363ec915a3f213ef09ff8435c5e988e1f3edc29acebdca26ebd8ed0c63",
+          "size": 7325
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T12i-QuestionBeat.tsx": {
+          "sha256": "226c7a96182a30ba9fa0b0a062225b817f73876ccaaca72f4a4b9b101cbc1763",
+          "size": 6857
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2c-kit.tsx": {
+          "sha256": "40cbfea9464b2e1653eeda5f39883306553c2fc6a8895c05c590190bd6c60fd2",
+          "size": 10667
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2c-handoff.ts": {
+          "sha256": "86f125df4ce1ef805beb45ee9d0c1e8ca524eaf5a1dc201edbcd7629a88cc51f",
+          "size": 1017
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T09i-PickRow.tsx": {
+          "sha256": "affaf557f5401ac89a98af3b73537bf33e08589c7a2cd2a60681389318d7da6e",
+          "size": 8869
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T08g-ChecklistVerify.tsx": {
+          "sha256": "3a548a609036ced76c47b7d90a326d506dd941173e99c2e4c7879a656a1dede2",
+          "size": 10107
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2c-DeviceCode.tsx": {
+          "sha256": "038b231b719595cb459c45e8eb7ae424116cf2c7c6fb0c0d02d716a28f7e263c",
+          "size": 14176
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2c-RepoCard.tsx": {
+          "sha256": "be4381f07b591244bdd92b064fe1164c49a38d7a885f124d8eb861a35368eca0",
+          "size": 3477
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2c-TrioCard.tsx": {
+          "sha256": "ead91c5e21028f93aa1916133423a468fcf6bbcbede03839c1d358fbeb7a1d66",
+          "size": 2713
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2-Spotlight.tsx": {
+          "sha256": "7dfabec8f726dca8408d33583ee04cb31a3281107f9c2a8b9ac5c8e8f78e8f84",
+          "size": 2205
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T08f-LabelMap.tsx": {
+          "sha256": "cec0f07c5f4039cae9be7e2a462544e825216d0f02d6537b041f772aaf9d7ade",
+          "size": 11385
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2b-T12i-QuestionBeat.tsx": {
+          "sha256": "0f041a93732ae0fdb77945f4dc270bb0fd515ccba5edbf81c692507577632743",
+          "size": 8913
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2b-T09i-PickRow.tsx": {
+          "sha256": "557da9ff21e48ab9536407d5581f53ca88ec5ea6a09dd4d9a1abc51dd15fe6e1",
+          "size": 9543
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2a-comment-scroll.ts": {
+          "sha256": "46c40bba7790eab17cfb22d5ec0cf8ae5715f7bad95c8a1b458f9693fc607939",
+          "size": 1721
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T18d-RepoCard.tsx": {
+          "sha256": "3dcce4c6b49433dd700c53b0228fc52e93f6951cc142fb577a3255619ff431da",
+          "size": 5613
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T21b-QAResolve.tsx": {
+          "sha256": "46ec1182938f90668493912904e7d8b74be11070c01df010e37e26c1eb2de75b",
+          "size": 9943
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T08e-CommentPull.tsx": {
+          "sha256": "e077e33fc5050d617510c2a92db8af6b647289feb76b3c217586f918591d70b2",
+          "size": 16053
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T09k-FileFilter.tsx": {
+          "sha256": "2135684c103901dfd0ce72f4502212410195f997695bd0f12bfbbb3871ffceb3",
+          "size": 15798
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T04e-PackOpen.tsx": {
+          "sha256": "a6074a8e36344582a47263566583412aa902b50473d4dd557a02eeb87f5005c4",
+          "size": 6365
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/v2b-T09l-LinkCarry.tsx": {
+          "sha256": "88c4a38f0354999e90035ea9d1f701941b96d06597ba148514cce2e7a53f8d1a",
+          "size": 15217
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/components/T02g-RoleRoadmap.tsx": {
+          "sha256": "90978aa0c52c1769cd5506f207a87fd6725288a88ff018a2e09ab8122b564255",
+          "size": 10478
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/lib/shell.tsx": {
+          "sha256": "c70919b7828141fe0b00f394979505120e823af3500db5d969d01e8f7bdf7fcf",
+          "size": 3601
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/lib/RecWindow.tsx": {
+          "sha256": "ec65683168ba582dbb8f5156a96eb6e9becdd451cb77c0b89d54f0dcd3f8ec44",
+          "size": 5181
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/lib/PhoneShot.tsx": {
+          "sha256": "483d4e54141f58578a6dc23f71e4b411f23e248af254c058957a10ddc22f08f7",
+          "size": 2015
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/masks/github-cli.json": {
+          "sha256": "30409900822815bee0c690ce4473a0efbe50341419ee60a7e57bc082180ada1e",
+          "size": 86207
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/masks/upload.json": {
+          "sha256": "40bbd4b01d35bd0b072d98e0ba7f40af3ff49314e554bd189506b48272858149",
+          "size": 36690
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/masks/clone.json": {
+          "sha256": "d6dd762632efe0e0abe43e96802fd4df48c05ceb044d003cf98d1e28affefc22",
+          "size": 32147
+        },
+        "episode-scenes-112-125-20261018/episodes/114/src/masks/ask-codex.json": {
+          "sha256": "e4e39b8dd0c4b739a8dec3106bee4d66a23e1724e1e2e844d7aba8dcb151e567",
+          "size": 33425
+        },
+        "episode-scenes-112-125-20261018/episodes/113/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "episode-scenes-112-125-20261018/episodes/113/tsconfig.json": {
+          "sha256": "d8d5ade09b6c216036f728d1b1ac93a6caa8f9dabe9c119daaf7eea334564f04",
+          "size": 239
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/index.tsx": {
+          "sha256": "6a14b1b9c21c16e59beb72b1a8a558c0b64c8d31dd77c94ed515d880dd5065cc",
+          "size": 1445
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/timing.json": {
+          "sha256": "ae54f1c1e96b565d9dfc6654ccf0980a5080f719bcb289f283001fe0f3dbfeac",
+          "size": 12912
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/B-ch1.tsx": {
+          "sha256": "db5de3aec5f6cc0d591c23d282e4a744d6ed54019cb7aa5aa5b7eb4a00a7c0a3",
+          "size": 23149
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/B-ch2.tsx": {
+          "sha256": "a6cac4523e33bb3f3426a18a22f1a294b3d0250f58c81151f804232084c50dd9",
+          "size": 21194
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/B-ch3.tsx": {
+          "sha256": "76de392b26d7043b73e39cba2aa4c14027d2ba67b87695e175d00ae6b0d95ccc",
+          "size": 12558
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/B-icons.tsx": {
+          "sha256": "9de690a43b048b1f3a1501d65f31e85449e38d7b96c5f23c9563e3a4e68b5768",
+          "size": 8434
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/GroupA.tsx": {
+          "sha256": "49908b807f0df881295b645c36726e264d54c0ede4e929c1c72fdc93a814e559",
+          "size": 33791
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/index.ts": {
+          "sha256": "189dd396318370d9689df31ef1e38b8d9bb81a9b9fad34e21d4d7baa212a4493",
+          "size": 628
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/GroupB.tsx": {
+          "sha256": "320e11d5f8fa29cef2bd2189ef6e018bb635b51e768c041d5f2a6b7c2e29a8f3",
+          "size": 469
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/C-common.tsx": {
+          "sha256": "8705de3f3dd27886b294286a458082e0149347f348abd8fc8b60b71c40249b90",
+          "size": 11498
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/scenes/GroupC.tsx": {
+          "sha256": "2538ae89262510b3961127933d066db4a3536b3eea2425267e29ca6b045c232d",
+          "size": 33388
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/kit/theme.ts": {
+          "sha256": "e66a672c756480975fab8d2d178b12deda35df00c304f3fbeb83493f297baa94",
+          "size": 4110
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/kit/ui.tsx": {
+          "sha256": "f41005e5bcc50650dc7c1d7e5a89833f061eef5c262310b3649c0989ea40f9b3",
+          "size": 11787
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/components/e113.tsx": {
+          "sha256": "7cf6ae94d5f12b0b787af23dda0bfa0868126df6b67da939bc0664a723d96db8",
+          "size": 10204
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/components/episode-kit/ckit.tsx": {
+          "sha256": "ca011eafe35d97091f6562aff583f419b1534e01fcdfae804281782cd83a082e",
+          "size": 18128
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/components/episode-kit/g4.tsx": {
+          "sha256": "1364b7f3e0c32559245f3bfb7698be344932349305475b71f55be6536d61f7dd",
+          "size": 10291
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/components/episode-kit/ep.tsx": {
+          "sha256": "7131a71cdcdb93b7d18abb6586eb4e1792019fd08ec94abc1946802c5c034f66",
+          "size": 18098
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/components/episode-kit/chap.tsx": {
+          "sha256": "4574b43145b2701bf6ce8ca249d55349221d44e3b73f32d45b4fcdd18a883c7d",
+          "size": 26107
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/lib/shell.tsx": {
+          "sha256": "742c26ce8fa9d153a42a27224e9504a9783fd56c8249f9cd3f38d7e08eb5725c",
+          "size": 3949
+        },
+        "episode-scenes-112-125-20261018/episodes/113/src/lib/SmileySubtitle.tsx": {
+          "sha256": "ae893f40b98cefc9b15cde80038c35d580b66a51b9934fb9d3fd494535376aaf",
+          "size": 2533
+        },
+        "episode-scenes-112-125-20261018/shared-assets/ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "episode-scenes-112-125-20261018/shared-assets/6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "episode-scenes-112-125-20261018/shared-assets/ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "episode-scenes-112-125-20261018/shared-assets/1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "episode-scenes-112-125-20261018/shared-assets/8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "episode-scenes-112-125-20261018/shared-assets/953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "episode-scenes-112-125-20261018/shared-assets/39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "episode-scenes-112-125-20261018/shared-assets/b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4": {
+          "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4",
+          "size": 2629764
+        },
+        "episode-scenes-112-125-20261018/shared-assets/f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        }
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-18T04:57:11Z",
+        "publicAt": "2026-11-01T04:57:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      }
+    },
+    {
+      "collectionId": "fred-recording-8-20261018",
+      "sha256": "b06d66380b266d927a91b1ddcc1de01f0ae32e4681f19e792585776549c76329",
+      "size": 34039291,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/b06d66380b266d927a91b1ddcc1de01f0ae32e4681f19e792585776549c76329.zip",
+      "access": "members",
+      "installRoot": ".artifacts/member-components/fred-recording-8-20261018",
+      "files": {
+        "fred-recording-8-20261018/prepare_assets.py": {
+          "sha256": "a60b7f1c664ee806e7da3a1696144b4d638e3d2e10ff18a9bb75ed87e0e25045",
+          "size": 1029
+        },
+        "fred-recording-8-20261018/LICENSE": {
+          "sha256": "953b50c9ac5a962991ef4d9d663f951ac4ea56931f248088acecd5a0a1ebcb79",
+          "size": 1065
+        },
+        "fred-recording-8-20261018/README.md": {
+          "sha256": "ea6c13519e39fe695b08f5b8a69025f97c0458a929c78d101031f924c0da092b",
+          "size": 974
+        },
+        "fred-recording-8-20261018/additional-font-inputs.json": {
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "size": 3
+        },
+        "fred-recording-8-20261018/user-media-inputs.json": {
+          "sha256": "55da038983e6dbeee9f44d5e40f9d29ffb5a7c9cfedbda9c326e845019401313",
+          "size": 1712
+        },
+        "fred-recording-8-20261018/components.json": {
+          "sha256": "05fdca468bc9b4166de94356a45a05d907daecd04627b9a688a4b0109a8254c1",
+          "size": 4756
+        },
+        "fred-recording-8-20261018/asset-bindings.json": {
+          "sha256": "d192987155afad36f759e42b95032b7111bb35e9f7a47760a5e779fd8c147094",
+          "size": 2995
+        },
+        "fred-recording-8-20261018/source/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-recording-8-20261018/source/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-recording-8-20261018/source/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-recording-8-20261018/source/src/index.tsx": {
+          "sha256": "1917690ab47ac14fe86c5f5c4ec6efe4e9330dfe0980dc6e438607845660ed5b",
+          "size": 444
+        },
+        "fred-recording-8-20261018/source/src/registry.ts": {
+          "sha256": "fb434236610fec6439054588dc856a6ac1272490d053792b57faeaf93b9a88cb",
+          "size": 4149
+        },
+        "fred-recording-8-20261018/source/src/kit/theme.ts": {
+          "sha256": "30d534daaab3c4b62468d23f16166939adfc89f94a02b954f6b0e3c05fc9701d",
+          "size": 4104
+        },
+        "fred-recording-8-20261018/source/src/kit/ui.tsx": {
+          "sha256": "05bdc4d6b17c5779e753c9a0b9c86c1dd7ef7e432666d6c49d0541ba367b1775",
+          "size": 11781
+        },
+        "fred-recording-8-20261018/source/src/components/T09r-SpeedRamp.tsx": {
+          "sha256": "cd35127dbb9c44ea8ff42ec4797931521e9f6fb1f7ff86410222ee459b10ce05",
+          "size": 7178
+        },
+        "fred-recording-8-20261018/source/src/components/T09z-MentionChip.tsx": {
+          "sha256": "1b0336846813d916dcb139e8c0d3ffcffe0d36010f1f31c00b36b3583a5f995e",
+          "size": 16967
+        },
+        "fred-recording-8-20261018/source/src/components/T08l-MinimapJump.tsx": {
+          "sha256": "fbdb9f07134b40a8d46acc77f4273329a4a8b8a3c53785595d9ec23d53d38bff",
+          "size": 9844
+        },
+        "fred-recording-8-20261018/source/src/components/T09t-DragIntoChat.tsx": {
+          "sha256": "62847c6fdd229be07bb6f70b4ffce0b978bc94c74ed9badb7e79e45007a8eb6b",
+          "size": 16660
+        },
+        "fred-recording-8-20261018/source/src/components/T09q-JumpCutMarks.tsx": {
+          "sha256": "a27523fdfe873bff403b920afe7021b2616b5b9e51177cf5a7bbf7dc6d8ec173",
+          "size": 8889
+        },
+        "fred-recording-8-20261018/source/src/components/T09v-PickerSwitch.tsx": {
+          "sha256": "0c4868c47afbaa1c527c010d9bcabd15acfa7d890986af52279390691458eab4",
+          "size": 16278
+        },
+        "fred-recording-8-20261018/source/src/components/T09s-ClickTrail.tsx": {
+          "sha256": "7d47a9d76fb9f6ebca88a06984849f1dc2ff00ef72a13a8ff5c60d8c0abf918a",
+          "size": 9934
+        },
+        "fred-recording-8-20261018/source/src/components/T09w-ParallelRuns.tsx": {
+          "sha256": "4eee9fb90aa429226cfadd928891619efaf92c90fbdfbd792bb3e061efc895cd",
+          "size": 12398
+        },
+        "fred-recording-8-20261018/shared-assets/2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-recording-8-20261018/shared-assets/512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-recording-8-20261018/shared-assets/482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-recording-8-20261018/shared-assets/fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-recording-8-20261018/shared-assets/ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-recording-8-20261018/shared-assets/1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-recording-8-20261018/shared-assets/6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-recording-8-20261018/shared-assets/8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-recording-8-20261018/shared-assets/ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-recording-8-20261018/shared-assets/42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-recording-8-20261018/shared-assets/1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-recording-8-20261018/shared-assets/8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-recording-8-20261018/shared-assets/953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-recording-8-20261018/shared-assets/2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-recording-8-20261018/shared-assets/39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-recording-8-20261018/shared-assets/62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-recording-8-20261018/shared-assets/10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-recording-8-20261018/shared-assets/f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-recording-8-20261018/shared-assets/96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        }
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-18T04:57:11Z",
+        "publicAt": "2026-11-01T04:57:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      }
+    },
+    {
+      "collectionId": "fred-chapter-transitions-wave2-20261014",
+      "sha256": "8de4ca47cb46301078903a2a27fe82cabea2d6464da530748561f9cf15c1efca",
+      "size": 34020843,
+      "kind": "zip",
+      "url": "https://www.fred-fu.com/api/visual-library/assets/8de4ca47cb46301078903a2a27fe82cabea2d6464da530748561f9cf15c1efca.zip",
+      "access": "members",
+      "installRoot": ".artifacts/member-components/fred-chapter-transitions-wave2-20261014",
+      "files": {
+        "fred-chapter-transitions-wave2-20261014/prepare_assets.py": {
+          "sha256": "a60b7f1c664ee806e7da3a1696144b4d638e3d2e10ff18a9bb75ed87e0e25045",
+          "size": 1029
+        },
+        "fred-chapter-transitions-wave2-20261014/LICENSE": {
+          "sha256": "953b50c9ac5a962991ef4d9d663f951ac4ea56931f248088acecd5a0a1ebcb79",
+          "size": 1065
+        },
+        "fred-chapter-transitions-wave2-20261014/README.md": {
+          "sha256": "a5716ea7acb88d39206a1c455461647863a4d022442a322ca72b5ea159c503ba",
+          "size": 974
+        },
+        "fred-chapter-transitions-wave2-20261014/additional-font-inputs.json": {
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "size": 3
+        },
+        "fred-chapter-transitions-wave2-20261014/user-media-inputs.json": {
+          "sha256": "8ea5f7a587cd7062c16a534fe745ea083c5309c985b7b304ec53d6ad88d56854",
+          "size": 262
+        },
+        "fred-chapter-transitions-wave2-20261014/components.json": {
+          "sha256": "86e8f1f8af40e77a38e9a5a410facdbcf7a47b02c4823bb83e7d140d4bda0f31",
+          "size": 5286
+        },
+        "fred-chapter-transitions-wave2-20261014/asset-bindings.json": {
+          "sha256": "d192987155afad36f759e42b95032b7111bb35e9f7a47760a5e779fd8c147094",
+          "size": 2995
+        },
+        "fred-chapter-transitions-wave2-20261014/source/package-lock.json": {
+          "sha256": "74933d8257a27a86a718a9966fc7b19ade25765ed086207096d7b16263e2e8b3",
+          "size": 139235
+        },
+        "fred-chapter-transitions-wave2-20261014/source/package.json": {
+          "sha256": "d57714fd7ddb9aa258111dd9e0ea60e001cea3c5450a65e563624cd755aaa0e0",
+          "size": 472
+        },
+        "fred-chapter-transitions-wave2-20261014/source/tsconfig.json": {
+          "sha256": "21cea727f1217785aec84bf6d01ed3fdcd72f24a0b68a4f6d79659a081e7309d",
+          "size": 194
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/index.tsx": {
+          "sha256": "8bf3bd30f4c32da55c4203eab9905fde182bf1254a2f64993b0d897ae88fe57d",
+          "size": 458
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/registry.ts": {
+          "sha256": "a754317f7e6368bcb865458aa0939acee8c20bb8170d1a8322ce29f2c4df7918",
+          "size": 3522
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/kit/theme.ts": {
+          "sha256": "d199a1f614eda70e6a063ddcd6c8ce543c03755714dc8e0f1e02705595dccec7",
+          "size": 4118
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/kit/ui.tsx": {
+          "sha256": "3dd2d86fc9def7b1b6cb938656dc23d763c62d2974b6e5dd389c7c9a2134f3fc",
+          "size": 11795
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T12u-FillUp.tsx": {
+          "sha256": "83294cff5e6d712e7d4a9224c251f8217272853e36ad490008a1a3aea56c2469",
+          "size": 3981
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T12z-Elevator.tsx": {
+          "sha256": "39c7d82fc62fde2c1bd7354da891d7f4fac0b5cbb43755d77435da38d4c02557",
+          "size": 4509
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T23d-HorizonLine.tsx": {
+          "sha256": "25bb0018c11327a057a8010e4d7a36dd27c7e44054a264377d0ac16822ebf9b0",
+          "size": 3735
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T23b-NewTab.tsx": {
+          "sha256": "0df276d8893668d37fec30a1339aab00b74aef6ac795958fefc602f5e00770f2",
+          "size": 5116
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/_shared.ts": {
+          "sha256": "c5d366c9af559d21abe3b78957ce3ed7557fddf1d89246f4d69a6e0b9c90d626",
+          "size": 2496
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T23a-AgendaTick.tsx": {
+          "sha256": "bcd8e2eaf8e9de2e8f310ad16ccb47080d8cb725822852556959135eb9aab28e",
+          "size": 5405
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T12x-PageTurn.tsx": {
+          "sha256": "bdd2d5f5bdc71ad4fa1ed80af382e9564692e2d0e616d342ecace14d13a24813",
+          "size": 4016
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T23c-Notify.tsx": {
+          "sha256": "ff7cfd26e3b8930848fe4d211e8f19e38734817b2ecfc93729d2e4b94d9012d5",
+          "size": 3281
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T12v-KeyPress.tsx": {
+          "sha256": "5f40e22ac93b1273609593fd6812f88c73e1e9ec942d30721815d42ff629b166",
+          "size": 4190
+        },
+        "fred-chapter-transitions-wave2-20261014/source/src/components/T12w-RingProgress.tsx": {
+          "sha256": "7169f8b34acc070cd678cc78923370b54f51c2cb0fc2e90f6ddbc7516fb706b7",
+          "size": 5673
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1": {
+          "sha256": "2a3780aeb41e4bb7ba180fb2eb7d41d5f6c74f3170409c3347d4139669440da1",
+          "size": 521742
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a": {
+          "sha256": "512d8c61f8514fbefd0ca9c334c1e570ef5af0b019a7b8b8a0e900c678fef24a",
+          "size": 112950
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e": {
+          "sha256": "482541ad0deb84300b5b053170c9a0b93df3671328ddf998a447071e5af05f1e",
+          "size": 135522
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0": {
+          "sha256": "fe38e0d2013936a8990fda83b9737d5ae43ed2d96dc13d5427c2af8d40344fd0",
+          "size": 124518
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1": {
+          "sha256": "ed64cc662d1578566b4d36b3af3096262d70119eda0e1ebd256ec8518133bfa1",
+          "size": 207243
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a": {
+          "sha256": "1a92c0dd320cbb45e72731eac64c46c691f6629aaf41193bd1ee2379dd7ef09a",
+          "size": 376286
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c": {
+          "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+          "size": 6677020
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd": {
+          "sha256": "8393b5d2bd4a472530b0b10e9ddfd3c1ed29436efe33277450ea5c90bb8514dd",
+          "size": 254622
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da": {
+          "sha256": "ec8523db8f8373eb49e0fa87da5fd12c4d0d0896f2072a220c578c0e778d10da",
+          "size": 1433148
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299": {
+          "sha256": "42d732a7aefca4b0ccf2df5a532824706ede2e474248c941277515853e306299",
+          "size": 255938
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d": {
+          "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d",
+          "size": 131608
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a": {
+          "sha256": "8a194c3e7f6813f73a2c68988bf77483296268416fb0c1d0870338a0b23b8c9a",
+          "size": 6530232
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8": {
+          "sha256": "953dd02eeee9686d9aa38c7e990a7b967321a187ae94aacbc0aa5678a8cd88d8",
+          "size": 529353
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66": {
+          "sha256": "2164aa5efe3489a3c56595fb213c7658d80fc9955909fe5d607b51552fc8fa66",
+          "size": 432102
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009": {
+          "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+          "size": 25575676
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2": {
+          "sha256": "62a26f4870ddbf27b8026070e4c34110a5e858d6d8ac4748611d2d17dcf987f2",
+          "size": 587094
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884": {
+          "sha256": "10fbca2c1044e6e908f2093c0af25b12392274d3f9815d6858c081a09a9cc884",
+          "size": 96880
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64": {
+          "sha256": "f9239c75fa0a661b788916250c6d4ad0d52d8a643f1ce2a9142f6588d4d2cb64",
+          "size": 6550784
+        },
+        "fred-chapter-transitions-wave2-20261014/shared-assets/96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06": {
+          "sha256": "96b5fb8c5c6681dfce736881effa3085e81c41b9d5dd446b3225a26cf084da06",
+          "size": 978126
+        }
+      },
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "durationDays": 14,
+        "startsAt": "2026-10-18T04:57:11Z",
+        "publicAt": "2026-11-01T04:57:11Z",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ]
+      }
     }
   ],
   "zipPolicy": {

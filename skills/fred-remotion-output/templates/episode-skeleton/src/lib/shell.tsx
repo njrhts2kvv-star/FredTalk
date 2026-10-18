@@ -7,7 +7,7 @@ import { SmileySubtitle, type SubtitleCue } from './SmileySubtitle';
 
 export const FPS = timing.fps;
 export type Cue = { i: number; start: number; end: number; text: string };
-export type PageT = { stableId: string; globalStartFrame: number; frames: number; cues: Cue[] };
+export type PageT = { stableId: string; globalStartFrame: number; frames: number; cues: Cue[]; subs?: Cue[] };
 export const PAGES = timing.pages as PageT[];
 export const page = (id: string) => PAGES.find((p) => p.stableId === id)!;
 /** 段长（秒） */
@@ -35,16 +35,18 @@ export function Stage({ children }: { children: React.ReactNode }) {
 /** 本段口播：从 v4 录音里取对应区间。S03 截到插入点为止，S04 以后整体后移插入时长。 */
 function VoiceSlice({ id }: { id: string }) {
   const p = page(id);
+  const { fps } = useVideoConfig();
   const gStart = p.globalStartFrame / FPS;
   const v4Start = gStart < CUT ? gStart : gStart - INSERT_SEC;
-  return <Audio src={staticFile(timing.audio.voice)} trimBefore={Math.round(v4Start * FPS)}
-    trimAfter={Math.round(v4Start * FPS) + p.frames} />;
+  return <Audio src={staticFile(timing.audio.voice)} trimBefore={Math.round(v4Start * fps)}
+    trimAfter={Math.round(v4Start * fps) + Math.round(p.frames * fps / FPS)} />;
 }
 
 function Subtitles({ id }: { id: string }) {
   const p = page(id);
-  const t = useCurrentFrame() / FPS;
-  const cues: SubtitleCue[] = p.cues.map((c) => ({ startSeconds: c.start, endSeconds: c.end, text: c.text }));
+  const t = useCurrentFrame() / useVideoConfig().fps;
+  const cues: SubtitleCue[] = (p.subs ?? p.cues).map(  // subs = 屏幕字幕（最终 SRT）；cues 只管卡点
+    (c) => ({ startSeconds: c.start, endSeconds: c.end, text: c.text }));
   return <Stage><SmileySubtitle cues={cues} timeSeconds={t} /></Stage>;
 }
 
@@ -63,7 +65,10 @@ export function Insert109() {
     <OffthreadVideo src={staticFile('insert109/source.mp4')} muted style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
     <Audio src={staticFile('insert109/source.wav')} />
     <Stage>
-      <Img src={staticFile('brand/dark.png')} style={{ position: 'absolute', left: 1554.5, top: 41, width: 335, height: 75, objectFit: 'contain' }} />
+      {/* 角标版本跟过渡画面底色走：episode.json 的 insert.brand（默认 dark = 深色画面上的白字版；125 期浅色 B-roll 用 light） */}
+      {(timing.audio as { insertBrand?: string | null }).insertBrand === 'light'
+        ? <Img src={staticFile('brand/light.png')} style={{ position: 'absolute', left: 1549.5, top: 36, width: 345.5, height: 85, objectFit: 'contain' }} />
+        : <Img src={staticFile('brand/dark.png')} style={{ position: 'absolute', left: 1554.5, top: 41, width: 335, height: 75, objectFit: 'contain' }} />}
     </Stage>
   </AbsoluteFill>;
 }

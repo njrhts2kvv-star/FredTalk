@@ -1,0 +1,6 @@
+{
+  "name": "e14-p-r3",
+  "private": true,
+  "note": "原工程 0924c67d9d78 没有 package.json；R3 返修补的最小文件，运行时 _runtime/remotion/preferred-motion-v2（remotion 4.0.473，与同批 material-replacements 工程一致）",
+  "dependencies": {"remotion": "4.0.473", "@remotion/cli": "4.0.473", "react": "19.2.4", "react-dom": "19.2.4"}
+}

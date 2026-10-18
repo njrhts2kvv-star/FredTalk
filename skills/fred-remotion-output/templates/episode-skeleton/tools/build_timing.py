@@ -56,7 +56,8 @@ for p, q in zip(pages, pages[1:]):
     assert p['globalStartFrame'] + p['frames'] == q['globalStartFrame'], (p['stableId'], q['stableId'])
 total = pages[-1]['globalStartFrame'] + pages[-1]['frames']
 out = {'fps': FPS, 'audio': {'voice': C['voiceStatic'], 'cutAtSeconds': CUT if INS else None, 'insertFrames': INS['frames'] if INS else 0,
-                             'insertId': INS.get('id', 'INSERT') if INS else None},
+                             'insertId': INS.get('id', 'INSERT') if INS else None,
+                             'insertBrand': INS.get('brand', 'dark') if INS else 'dark'},   # 125：过渡画面是浅色时写 "light"
        'totalFrames': total, 'pages': pages}
 (ROOT / 'src/timing.json').write_text(json.dumps(out, ensure_ascii=False, indent=1))
 for p in pages: print(p['stableId'], p['globalStartFrame'], p['frames'], round(p['frames'] / FPS, 2))

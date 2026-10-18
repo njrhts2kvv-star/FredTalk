@@ -59,6 +59,3 @@
 6. 云端统一渲染后交给 Fred 挑选。
 
 完整规范见 `source/qc/BRIEF.md`。
-
-
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。

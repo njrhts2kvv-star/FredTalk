@@ -77,3 +77,6 @@ export const cueAt = (cues: readonly number[] | undefined, i: number, fallback: 
 // 按文字所在的承载面取色：深底（含白画布上的黑胶囊）用 #D6BEFF，浅底用 #8554E8
 export const accentOn = (dark: boolean) => (dark ? S.accentDark : S.accent);
 export const inkOn = (dark: boolean) => (dark ? '#fff' : S.ink);
+
+// ---- v3（2026-10-14 Fred 119：“进来之后抖动一下”不自然）：无过冲的落定，替代场景里的 springAt 入场 ----
+export const settle = (t: number, delay: number, duration = 0.8) => p(t, delay, delay + Math.max(0.3, duration * 0.6));

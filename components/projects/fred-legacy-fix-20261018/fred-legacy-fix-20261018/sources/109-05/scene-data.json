@@ -1,0 +1,650 @@
+{
+  "durationInFrames": 12118,
+  "pages": [
+    {
+      "stableId": "S01",
+      "startFrame": 0,
+      "durationInFrames": 194,
+      "kind": "revision",
+      "src": "media/negative-preview-1080p.mp4",
+      "sourceIn": 2,
+      "words": [],
+      "cueOffsets": [
+        0.25,
+        1.2
+      ],
+      "groupOffset": 0,
+      "requiredShot": null,
+      "brand": false,
+      "brandTheme": "light",
+      "brandStartFrame": 0
+    },
+    {
+      "stableId": "S04",
+      "startFrame": 1069,
+      "durationInFrames": 577,
+      "kind": "revision",
+      "src": "media/original-reference-preview-1080p.mp4",
+      "sourceIn": 0,
+      "words": [
+        "风格",
+        "动作逻辑",
+        "场景要素"
+      ],
+      "cueOffsets": [
+        0.25,
+        1.2
+      ],
+      "groupOffset": 0,
+      "requiredShot": null,
+      "brand": true,
+      "brandTheme": "light",
+      "brandStartFrame": 186,
+      "retimeOffsetFrames": 362
+    },
+    {
+      "stableId": "S09",
+      "startFrame": 3166,
+      "durationInFrames": 631,
+      "kind": "revision",
+      "src": "media/recording-frame-analysis.mp4",
+      "sourceIn": 0,
+      "words": [
+        "逐帧拉片",
+        "出手",
+        "接触",
+        "受击",
+        "重心",
+        "跟拍",
+        "表情",
+        "反差",
+        "收尾"
+      ],
+      "cueOffsets": [
+        0.25,
+        1.2
+      ],
+      "groupOffset": 0.0,
+      "requiredShot": null,
+      "brand": false,
+      "retimeOffsetFrames": 362
+    },
+    {
+      "stableId": "S10",
+      "startFrame": 3797,
+      "durationInFrames": 405,
+      "kind": "N027",
+      "src": "media/recording-frame-analysis.mp4",
+      "sourceIn": 10.516666666666667,
+      "words": [
+        "逐帧拉片",
+        "出手",
+        "接触",
+        "受击",
+        "重心",
+        "跟拍",
+        "表情",
+        "反差",
+        "收尾"
+      ],
+      "cueOffsets": [
+        0.25,
+        1.2
+      ],
+      "groupOffset": 10.516666666666667,
+      "requiredShot": null,
+      "brand": true,
+      "brandTheme": "light",
+      "brandStartFrame": 234,
+      "retimeOffsetFrames": 362
+    },
+    {
+      "stableId": "S11",
+      "startFrame": 4202,
+      "durationInFrames": 340,
+      "kind": "revision",
+      "src": "media/recording-frame-analysis.mp4",
+      "sourceIn": 17.266666666666666,
+      "words": [
+        "灰衣先攻 · 跃起出腿",
+        "黑衣应接 · 抬臂格挡",
+        "重拳命中 · 胸前受力",
+        "身体反馈 · 后撤弯腰"
+      ],
+      "cueOffsets": [
+        0.25,
+        1.2
+      ],
+      "groupOffset": 0,
+      "requiredShot": null,
+      "brand": true,
+      "brandTheme": "light",
+      "brandStartFrame": 156,
+      "retimeOffsetFrames": 362
+    },
+    {
+      "stableId": "S17",
+      "startFrame": 6408,
+      "durationInFrames": 269,
+      "kind": "revision",
+      "src": null,
+      "sourceIn": 0,
+      "words": [
+        "动作关系",
+        "发力命中",
+        "受击反馈"
+      ],
+      "cueOffsets": [
+        0.4,
+        1.65
+      ],
+      "groupOffset": 0,
+      "requiredShot": null,
+      "brand": true,
+      "brandTheme": "light",
+      "brandStartFrame": 0,
+      "retimeOffsetFrames": 362
+    },
+    {
+      "stableId": "S20",
+      "startFrame": 7849,
+      "durationInFrames": 796,
+      "kind": "chosen-storyboard",
+      "src": null,
+      "sourceIn": 0,
+      "words": [
+        "连续打斗",
+        "用于规划",
+        "别写死动作"
+      ],
+      "cueOffsets": [
+        3.64,
+        6.44
+      ],
+      "groupOffset": 0,
+      "requiredShot": null,
+      "brand": true,
+      "brandTheme": "dark",
+      "brandStartFrame": 0,
+      "brandEndFrame": 458,
+      "retimeOffsetFrames": 362
+    }
+  ],
+  "cues": [
+    {
+      "startSeconds": 0.11,
+      "endSeconds": 1.87,
+      "text": "为什么你用 AI 做出来的打斗"
+    },
+    {
+      "startSeconds": 1.87,
+      "endSeconds": 3.07,
+      "text": "总感觉软趴趴的？"
+    },
+    {
+      "startSeconds": 3.23,
+      "endSeconds": 5.43,
+      "text": "今天给你分享一套万能打斗提示词"
+    },
+    {
+      "startSeconds": 5.59,
+      "endSeconds": 6.67,
+      "text": "你看看我做的这一段"
+    },
+    {
+      "startSeconds": 6.75,
+      "endSeconds": 8.51,
+      "text": "人物有故事动作有力量"
+    },
+    {
+      "startSeconds": 8.67,
+      "endSeconds": 9.83,
+      "text": "打起来拳拳到肉"
+    },
+    {
+      "startSeconds": 10.11,
+      "endSeconds": 11.59,
+      "text": "今天我就带你手把手做一遍"
+    },
+    {
+      "startSeconds": 11.883333333333333,
+      "endSeconds": 13.283333333333333,
+      "text": "本期视频全部用我的 Skill"
+    },
+    {
+      "startSeconds": 13.283333333333333,
+      "endSeconds": 14.883333333333333,
+      "text": "和组件库自动剪辑输出"
+    },
+    {
+      "startSeconds": 15.123333333333333,
+      "endSeconds": 16.243333333333332,
+      "text": "全部资料都整理到"
+    },
+    {
+      "startSeconds": 16.243333333333332,
+      "endSeconds": 17.28333333333333,
+      "text": "Fred 专属知识库了"
+    },
+    {
+      "startSeconds": 17.82333333333333,
+      "endSeconds": 20.10333333333333,
+      "text": "第一步啊你可以先找一段你喜欢的视频"
+    },
+    {
+      "startSeconds": 20.223333333333333,
+      "endSeconds": 21.10333333333333,
+      "text": "下载并分析"
+    },
+    {
+      "startSeconds": 21.391333333333336,
+      "endSeconds": 23.95133333333333,
+      "text": "这一步最重要的是先找到你想要的那种风格"
+    },
+    {
+      "startSeconds": 24.031333333333336,
+      "endSeconds": 25.91133333333333,
+      "text": "以及分析别人打斗的一些逻辑"
+    },
+    {
+      "startSeconds": 25.99133333333333,
+      "endSeconds": 27.151333333333334,
+      "text": "以及场景要素等等"
+    },
+    {
+      "startSeconds": 27.431333333333335,
+      "endSeconds": 28.871333333333332,
+      "text": "有些人可能都不知道怎么去下载"
+    },
+    {
+      "startSeconds": 28.91133333333333,
+      "endSeconds": 30.111333333333334,
+      "text": "比如说抖音的视频对吧？"
+    },
+    {
+      "startSeconds": 30.351333333333336,
+      "endSeconds": 31.95133333333333,
+      "text": "你可以在这里点击分享"
+    },
+    {
+      "startSeconds": 32.15133333333333,
+      "endSeconds": 33.431333333333335,
+      "text": "然后选择链接"
+    },
+    {
+      "startSeconds": 33.59133333333333,
+      "endSeconds": 35.55133333333333,
+      "text": "然后把这个链接发给任何 Agent"
+    },
+    {
+      "startSeconds": 35.62133333333333,
+      "endSeconds": 37.26133333333333,
+      "text": "比如说 Codex 或者 Workbuddy"
+    },
+    {
+      "startSeconds": 37.42133333333334,
+      "endSeconds": 39.06133333333333,
+      "text": "然后让它帮你去进行下载"
+    },
+    {
+      "startSeconds": 39.291333333333334,
+      "endSeconds": 41.45133333333333,
+      "text": "它可能会让你触发登录登录之后呢"
+    },
+    {
+      "startSeconds": 41.45133333333333,
+      "endSeconds": 42.89133333333333,
+      "text": "它就会自动去把这些视频"
+    },
+    {
+      "startSeconds": 42.89133333333333,
+      "endSeconds": 44.37133333333333,
+      "text": "下载到你的本地文件夹呢"
+    },
+    {
+      "startSeconds": 44.89133333333333,
+      "endSeconds": 46.57133333333333,
+      "text": "然后有了视频之后"
+    },
+    {
+      "startSeconds": 46.77133333333333,
+      "endSeconds": 48.49133333333333,
+      "text": "你可以调用我的这个 拉片 Skill"
+    },
+    {
+      "startSeconds": 48.78333333333333,
+      "endSeconds": 50.06333333333333,
+      "text": "让 Codex 或者 Workbuddy"
+    },
+    {
+      "startSeconds": 50.06333333333333,
+      "endSeconds": 52.303333333333335,
+      "text": "帮你去运行这个视频的逐帧拉片"
+    },
+    {
+      "startSeconds": 52.76933333333333,
+      "endSeconds": 54.04933333333333,
+      "text": "我觉得我这个 Skill 啊"
+    },
+    {
+      "startSeconds": 54.12933333333333,
+      "endSeconds": 56.56933333333333,
+      "text": "比一些其他平台上面的一些拉片 Skill"
+    },
+    {
+      "startSeconds": 56.56933333333333,
+      "endSeconds": 57.40933333333333,
+      "text": "更好用一些"
+    },
+    {
+      "startSeconds": 57.64933333333333,
+      "endSeconds": 59.92933333333333,
+      "text": "因为我这个确实会一帧帧地去拉片"
+    },
+    {
+      "startSeconds": 60.12933333333333,
+      "endSeconds": 61.40933333333333,
+      "text": "然后按照我的思路"
+    },
+    {
+      "startSeconds": 61.56933333333333,
+      "endSeconds": 63.04933333333333,
+      "text": "然后去进行逐帧的分析"
+    },
+    {
+      "startSeconds": 63.27833333333333,
+      "endSeconds": 65.55833333333334,
+      "text": "去识别里面的动作啊场景啊"
+    },
+    {
+      "startSeconds": 65.63833333333334,
+      "endSeconds": 67.19833333333334,
+      "text": "以及脚本逻辑等等"
+    },
+    {
+      "startSeconds": 67.47833333333334,
+      "endSeconds": 68.95833333333333,
+      "text": "这种对于这种打斗场景啊"
+    },
+    {
+      "startSeconds": 68.99833333333333,
+      "endSeconds": 69.79833333333333,
+      "text": "我觉得特别有用"
+    },
+    {
+      "startSeconds": 70.03833333333333,
+      "endSeconds": 71.47833333333332,
+      "text": "你看这里分析的结果"
+    },
+    {
+      "startSeconds": 71.55833333333334,
+      "endSeconds": 73.31833333333333,
+      "text": "谁先出手对方是怎么接的"
+    },
+    {
+      "startSeconds": 73.55833333333334,
+      "endSeconds": 75.39833333333333,
+      "text": "重拳打了之后身体有什么反应"
+    },
+    {
+      "startSeconds": 75.70833333333333,
+      "endSeconds": 76.78833333333333,
+      "text": "镜头什么时候跟人走"
+    },
+    {
+      "startSeconds": 76.86833333333333,
+      "endSeconds": 78.34833333333333,
+      "text": "什么时候靠近看表情"
+    },
+    {
+      "startSeconds": 78.50833333333333,
+      "endSeconds": 79.46833333333333,
+      "text": "把这些拆明白"
+    },
+    {
+      "startSeconds": 79.62833333333333,
+      "endSeconds": 80.74833333333333,
+      "text": "后面做自己的内容"
+    },
+    {
+      "startSeconds": 80.86833333333333,
+      "endSeconds": 82.14833333333333,
+      "text": "你才知道该保留什么"
+    },
+    {
+      "startSeconds": 82.46833333333333,
+      "endSeconds": 84.34833333333333,
+      "text": "第二步啊就是换成自己的故事"
+    },
+    {
+      "startSeconds": 84.46833333333333,
+      "endSeconds": 85.46833333333333,
+      "text": "去准备一些资产"
+    },
+    {
+      "startSeconds": 85.90833333333333,
+      "endSeconds": 87.66833333333334,
+      "text": "你可以把你想做的故事加进去"
+    },
+    {
+      "startSeconds": 87.74833333333333,
+      "endSeconds": 89.86833333333333,
+      "text": "比如说我这里换成一个刀客啊"
+    },
+    {
+      "startSeconds": 90.06833333333333,
+      "endSeconds": 91.42833333333333,
+      "text": "在集市里面去救人"
+    },
+    {
+      "startSeconds": 91.62833333333333,
+      "endSeconds": 92.78833333333333,
+      "text": "跟地痞打起来了"
+    },
+    {
+      "startSeconds": 93.14833333333333,
+      "endSeconds": 95.26833333333333,
+      "text": "先把为什么打谁占上风"
+    },
+    {
+      "startSeconds": 95.34833333333333,
+      "endSeconds": 96.98833333333333,
+      "text": "最后怎么结束讨论清楚"
+    },
+    {
+      "startSeconds": 97.22833333333332,
+      "endSeconds": 99.50833333333333,
+      "text": "然后去生成人物和场景图"
+    },
+    {
+      "startSeconds": 99.83733333333333,
+      "endSeconds": 101.75733333333334,
+      "text": "人物三视图负责长相服装"
+    },
+    {
+      "startSeconds": 102.07733333333333,
+      "endSeconds": 104.79733333333333,
+      "text": "场景图负责这种街道摊位和空间关系"
+    },
+    {
+      "startSeconds": 104.99733333333333,
+      "endSeconds": 106.47733333333333,
+      "text": "后面就有了共同的参考"
+    },
+    {
+      "startSeconds": 106.79733333333333,
+      "endSeconds": 109.63733333333333,
+      "text": "第三步啊就是把打击感写成具体的动作"
+    },
+    {
+      "startSeconds": 109.95733333333334,
+      "endSeconds": 111.15733333333333,
+      "text": "这些准备好了之后呢"
+    },
+    {
+      "startSeconds": 111.27733333333333,
+      "endSeconds": 112.79733333333333,
+      "text": "我就会把我这一整套的"
+    },
+    {
+      "startSeconds": 112.79733333333333,
+      "endSeconds": 114.43733333333333,
+      "text": "拉片的结论结合"
+    },
+    {
+      "startSeconds": 114.43733333333333,
+      "endSeconds": 115.99733333333333,
+      "text": "这一个焚诀对吧"
+    },
+    {
+      "startSeconds": 116.19733333333333,
+      "endSeconds": 117.15733333333333,
+      "text": "这个打斗提示词"
+    },
+    {
+      "startSeconds": 117.31733333333334,
+      "endSeconds": 119.35733333333333,
+      "text": "发给平台的 Agent 或者 Codex 都 OK"
+    },
+    {
+      "startSeconds": 119.55733333333333,
+      "endSeconds": 121.83733333333333,
+      "text": "让它按照自己的剧本去进行调整"
+    },
+    {
+      "startSeconds": 122.10733333333333,
+      "endSeconds": 124.22733333333333,
+      "text": "然后可以先生成一个九宫格的分镜图"
+    },
+    {
+      "startSeconds": 124.38533333333334,
+      "endSeconds": 125.90333333333334,
+      "text": "这里的分镜图的主要作用是"
+    },
+    {
+      "startSeconds": 125.90333333333334,
+      "endSeconds": 127.34333333333333,
+      "text": "先看看这种打斗效果"
+    },
+    {
+      "startSeconds": 127.54333333333334,
+      "endSeconds": 130.14333333333335,
+      "text": "如果不行我们可以再调整提示词重新去生成"
+    },
+    {
+      "startSeconds": 130.82333333333335,
+      "endSeconds": 132.70333333333335,
+      "text": "第四步啊就是视频的生成"
+    },
+    {
+      "startSeconds": 132.86333333333334,
+      "endSeconds": 134.38333333333333,
+      "text": "这里面有个反常识的东西"
+    },
+    {
+      "startSeconds": 134.46333333333334,
+      "endSeconds": 137.26333333333332,
+      "text": "就是打斗场景啊其实我个人体感上"
+    },
+    {
+      "startSeconds": 137.26333333333332,
+      "endSeconds": 139.34333333333333,
+      "text": "不建议用分镜图来限制打斗内容"
+    },
+    {
+      "startSeconds": 139.62333333333333,
+      "endSeconds": 142.54333333333332,
+      "text": "因为本身 Seedance 2.5 的模型能力是比较强的"
+    },
+    {
+      "startSeconds": 142.84233333333333,
+      "endSeconds": 143.88233333333332,
+      "text": "做连续打斗"
+    },
+    {
+      "startSeconds": 144.08233333333334,
+      "endSeconds": 146.20233333333334,
+      "text": "如果你用一条条写死的分镜"
+    },
+    {
+      "startSeconds": 146.20233333333334,
+      "endSeconds": 147.68233333333333,
+      "text": "去限制它每一秒怎么动"
+    },
+    {
+      "startSeconds": 147.92233333333334,
+      "endSeconds": 150.80233333333334,
+      "text": "哎有可能它的输出质量会更差一些"
+    },
+    {
+      "startSeconds": 150.92233333333334,
+      "endSeconds": 153.44233333333332,
+      "text": "所以说我建议分镜图可以用来规划"
+    },
+    {
+      "startSeconds": 153.60233333333332,
+      "endSeconds": 156.16233333333332,
+      "text": "但是生成时如果你卡得太细"
+    },
+    {
+      "startSeconds": 156.24233333333333,
+      "endSeconds": 158.32233333333332,
+      "text": "有时候反而会让动作不那么顺畅"
+    },
+    {
+      "startSeconds": 158.76233333333334,
+      "endSeconds": 162.60233333333332,
+      "text": "啊最后我们把这种人物场景动作关系和镜头节奏"
+    },
+    {
+      "startSeconds": 162.60233333333332,
+      "endSeconds": 163.40233333333333,
+      "text": "理清楚之后"
+    },
+    {
+      "startSeconds": 163.49033333333333,
+      "endSeconds": 165.01033333333334,
+      "text": "我们就可以后续让模型"
+    },
+    {
+      "startSeconds": 165.01033333333334,
+      "endSeconds": 166.77033333333333,
+      "text": "把中间动作顺起来了"
+    },
+    {
+      "startSeconds": 167.05033333333333,
+      "endSeconds": 169.49033333333333,
+      "text": "生成之后我们可以再看这种动作有没有接上"
+    },
+    {
+      "startSeconds": 169.57033333333334,
+      "endSeconds": 170.65033333333332,
+      "text": "打中之后有没有反应"
+    },
+    {
+      "startSeconds": 170.90133333333333,
+      "endSeconds": 173.22133333333332,
+      "text": "哪里不对那就单独去改那一部分的描述"
+    },
+    {
+      "startSeconds": 173.50633333333334,
+      "endSeconds": 175.06633333333332,
+      "text": "我们直接看看最后的效果"
+    },
+    {
+      "startSeconds": 197.01300000033334,
+      "endSeconds": 198.53300000033335,
+      "text": "OK 以上就是本期内容"
+    },
+    {
+      "startSeconds": 198.65300000033332,
+      "endSeconds": 200.09300000033332,
+      "text": "Skill 和提示词都准备好了"
+    },
+    {
+      "startSeconds": 200.21300000033332,
+      "endSeconds": 201.69300000033334,
+      "text": "想要的评论区扣 Fred"
+    }
+  ]
+}

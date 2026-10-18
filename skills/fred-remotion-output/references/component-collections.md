@@ -4,9 +4,9 @@
 
 | 集合 | 编号 | 说明 | 查询 |
 | --- | --- | --- | --- |
-| library 新 10 期复刻 | N/X | [分类索引](library-new10-confirmed.md) | `--collection library-remakes-new10-20260928` |
-| library 旧库 81 条 | L81-* | [旧库 81 条](library-legacy81-confirmed.md) | `--collection library-remakes-legacy81-20260929` |
-| library 自选 24 条 | SP001–SP024 | [library 自选 24 条](library-selfpick24-confirmed.md) | `--collection library-selfpick24-20261001` |
+| Library 新 10 期复刻 | N/X | [分类索引](library-new10-confirmed.md) | `--collection library-remakes-new10-20260928` |
+| Library 旧库 81 条 | L81-* | [旧库 81 条](library-legacy81-confirmed.md) | `--collection library-remakes-legacy81-20260929` |
+| Library 自选 24 条 | SP001–SP024 | [Library 自选 24 条](library-selfpick24-confirmed.md) | `--collection library-selfpick24-20261001` |
 | 第 102 期精选 | 102-01…07 | [第 102 期](episode102-selected.md) | `--collection ep102-selected-20261005` |
 | 第 103 期精选 | 103-01…03 | [第 103 期](episode103-selected.md) | `--collection ep103-selected-20260930` |
 | 第 107 期精选 | 107-01…05 | [第 107 期](episode107-selected.md) | `--collection ep107-selected-20260930` |
@@ -20,9 +20,15 @@
 | 第二轮返修 5 条 | T05b2/T09e/T14b/T15b/T18b | [第二轮组件](fred-wave2-components.md) | `--collection fred-wave2-fix5-20261012` |
 | 第三轮补充精选（参数化） | 2 条 | [补充组件](fred-wave3-extra-components.md) | `--collection fred-wave3-extra2-20261012` |
 | 第三轮精选组件（参数化） | 40 条 | [第三轮组件](fred-wave3-components.md) | `--collection fred-wave3-40-20261012` |
-| 原版精选 / library→Fred | C/B/V/E | [精选参考库](selected-reference-library.md) | `--source original` 等 |
+| 116 期场景组件（原样入库） | T20g/T19e/T12j/T18g/T09p | [116 期场景](ep116-scenes-components.md) | `--collection ep116-scenes-20261013` |
+| 章节动画与内容过渡 | T12k–T12t、T20h–T20q 共 20 条 | [章节与过渡组件](fred-chapter-transitions.md) | `--collection fred-chapter-transitions-20-20261014` |
+| 章节过渡第二批 | T12u–T12x、T12z、T23a–T23d 共 9 条 | [章节过渡第二批](fred-chapter-transitions-wave2-20261014.md) | `--collection fred-chapter-transitions-wave2-20261014` |
+| 录屏与界面操作新组件（参数化） | T08l、T09q–T09t、T09v、T09w、T09z 共 8 条 | [录屏新组件](fred-recording-components-20261018.md) | `--collection fred-recording-8-20261018` |
+| 112–125 期场景组件（原样入库） | T01j–T22g 共 47 条 | [112–125 期场景](episode-scenes-112-125-20261018.md) | `--collection episode-scenes-112-125-20261018` |
+| 历史组件返修版 | `<原编号>-v2` 共 32 条（替换原版） | [历史组件返修版](fred-legacy-fix-20261018.md) | `--collection fred-legacy-fix-20261018` |
+| 原版精选 / Library→Fred | C/B/V/E | [精选参考库](selected-reference-library.md) | `--source original` 等 |
 
-library 原片的对象交接、镜头尺度、录屏拆层或文字接力见 [library 镜头语言](library-shot-language.md)。归档清单见 [精选参考库](selected-reference-library.md)：2026-10-06 两批共 44 条，2026-10-12 按 Fred 逐个取舍又归档 51 条（`user-archive-51-20261012`）。归档项保留原文件，默认不调用。
+Library 原片的对象交接、镜头尺度、录屏拆层或文字接力见 [Library 镜头语言](library-shot-language.md)。归档清单见 [精选参考库](selected-reference-library.md)：2026-10-06 两批共 44 条，2026-10-12 按 Fred 逐个取舍又归档 51 条（`user-archive-51-20261012`）。2026-10-18 返修取舍：32 条返修版替换原版（原版按 superseded 归档），另归档 11 条（`user-archive-11-20261018`）。归档项保留原文件，默认不调用。
 
 新集合入库时：在本表加一行，在 `visual-usage-registry.json` 补齐 `primaryUse/useIds/conceptIds/inputObjects/action/tags/scenarioId`，并跑 `test_library_matching.py`；不要在 SKILL.md 正文追加公告。
 
@@ -30,13 +36,13 @@ library 原片的对象交接、镜头尺度、录屏拆层或文字接力见 [l
 
 ## 入库与发布记录（原 SKILL.md 正文，原文保留）
 
-library自选24条最新revision04已按本轮认可接入视觉库与Skill，准确视频、动作核心帧、源码和独立入口见[library自选24条](library-selfpick24-confirmed.md)，按 `--collection library-selfpick24-20261001` 或 `--id SP004` 查询。这批创作者12条已排除；按当前内容适配library已认可场景，原生时钟和固定媒体边界从每条记录读取。
+Library自选24条最新revision04已按本轮认可接入视觉库与Skill，准确视频、动作核心帧、源码和独立入口见[Library自选24条](library-selfpick24-confirmed.md)，按 `--collection library-selfpick24-20261001` 或 `--id SP004` 查询。这批reference creator12条已排除；按当前内容适配Library已认可场景，原生时钟和固定媒体边界从每条记录读取。
 
 第103期用户已选三个场景组件（6–9秒、52–56秒、57–69秒），准确4K60视频、完整源码及独立运行入口见[第103期已选组件](episode103-selected.md)，按 `--collection ep103-selected-20260930` 检索。
 
 第107期最终R7的五个用户精选场景组件，准确区间、4K60视频、完整源码与独立入口见[第107期已选组件](episode107-selected.md)，按 `--collection ep107-selected-20260930` 检索；第一段按原话的当前解释保存为9–12秒。
 
-已确认 library 新 10 期复刻按[分类索引](library-new10-confirmed.md)检索。52 条当前可用成片、源码与素材在项目实体；N017 已按 2026-09-30 要求移除，N052 暂缓。[library 旧库最新 81 条复刻](library-legacy81-confirmed.md)已按七种画面用途分类，并保留每条当前成片的三个核心帧、视频哈希和源码快照。要参考 library 原片的对象交接、镜头尺度、录屏拆层或文字接力，读[library 镜头语言](library-shot-language.md)，按本期内容选动作。两批新内容适配仍需实际短样检查。
+已确认 Library 新 10 期复刻按[分类索引](library-new10-confirmed.md)检索。52 条当前可用成片、源码与素材在项目实体；N017 已按 2026-09-30 要求移除，N052 暂缓。[Library 旧库最新 81 条复刻](library-legacy81-confirmed.md)已按七种画面用途分类，并保留每条当前成片的三个核心帧、视频哈希和源码快照。要参考 Library 原片的对象交接、镜头尺度、录屏拆层或文字接力，读[Library 镜头语言](library-shot-language.md)，按本期内容选动作。两批新内容适配仍需实际短样检查。
 
 第102期七段用户精选组件已单独保存到本地Skill与视觉库，范围为15–19、44–50、55–62、64–72、108–115、162–175、395–403秒。按 `--collection ep102-selected-20261005` 检索，准确源码、时钟与新增时间见[第102期已选组件](episode102-selected.md)。新增于2026-10-05 11:47:11（北京时间），同日12:58:16已按Fred后续授权发布到GitHub与[Fred-fu视觉库](https://www.fred-fu.com/visual-library)；实际回执保存在集合`publication.json`，原新增时间不变。
 
@@ -64,9 +70,6 @@ FredTalk 1.5已于2026-10-08发布：补齐29类近期组件，新增五条3D录
 
 2026-10-12 第二轮扩充入库 42 条参数化组件（kit v2：口播时间点、进出场交接），其中 18 条替换原版（原版归档不删）。T05b2、T09e、T14b、T15b、T18b 返修后已另行入库（`fred-wave2-fix5-20261012`，T05b2 替换 T05b）。说明见[第二轮组件](fred-wave2-components.md)。仅本地登记，未发布。
 
+2026-10-14 [章节动画与内容过渡20条](fred-chapter-transitions.md)随 FredTalk 2.1 发布到网站与 GitHub目录／公开样片。10章节、T20i/T20j开场可用、其余8条主要过渡；源码／原视频／ZIP在北京时间2026-10-14 08:59:11至2026-10-28 08:59:11由专属会员优先下载，到期网站自动开放。旧五批日期保持，准确回执见集合publication.json。
 
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。
-
-## 章节动画与内容过渡 20 条
-
-集合 `fred-chapter-transitions-20-20261014`，T12k–T12t 为章节动画，T20i/j 可用于开场，其余 T20h/k–q 主要为内容过渡。参见[准确用途与源码导入](fred-chapter-transitions.md)。会员抢先使用 14 天，公开预览与下载权限分开。
+2026-10-18 组件库扩充入库三个集合：录屏与界面操作新组件 8 条（`fred-recording-8-20261018`）、112–125 期场景 47 条原样入库（`episode-scenes-112-125-20261018`，23 条按规则改色）、历史组件返修版 32 条（`fred-legacy-fix-20261018`）；同时归档 11 条。预览都是 Fred 认可的 1080p30。仅本地登记，未发布。

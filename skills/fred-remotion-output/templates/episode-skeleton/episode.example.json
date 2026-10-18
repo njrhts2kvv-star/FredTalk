@@ -114,6 +114,7 @@
  ],
  "insert": {
   "id": "INSERT",
+  "brand": "dark",
   "afterSegment": "S03",
   "cutSeconds": 43.5,
   "frames": 362,
@@ -161,7 +162,7 @@
    "A": 1.0,
    "B": 1.25
   },
-  "note": "真实地址和用户名见 cloud-render 的私人连接资料，不写进模板；本期 episode.json 里填真实值"
+  "note": "hosts 可以写任意多台，键名任意；真实地址和用户名见 cloud-render 私人连接资料，不写进模板；密码只用来装一次密钥，不写进任何文件"
  },
  "heavySegments": {
   "S08": 1.5,
@@ -170,5 +171,14 @@
  },
  "mergeIntoPrevious": {
   "INSERT": "S03"
- }
+ },
+ "outro": {
+  "picture": "/absolute/fredtalk/skills/fred-remotion-output/assets/outro-local-only/fred-outro-4k60.mp4",
+  "audio": "/absolute/fredtalk/skills/fred-remotion-output/assets/outro-local-only/fred-outro-mix-f32.wav",
+  "frames": 318,
+  "note": "Fred 封底（111/112/116 期同一段），不要就删掉这个字段"
+ },
+ "episodeKey": "<期目录名>",
+ "title": "<给审看页的标题>",
+ "keyframesLabel": "v1 关键帧（真实录音）"
 }

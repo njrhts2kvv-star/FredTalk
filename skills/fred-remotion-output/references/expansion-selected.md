@@ -47,6 +47,3 @@ SOURCE参数接口和渲染命令以source/README.md为准；HD默认固定媒�
 ## FredTalk 1.5 发布（2026-10-08）
 
 本集合已同步到 [GitHub FredTalk 1.5](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/v1.5.0)。本轮补齐29类组件：第109期6条、新增精选14条、交互4类、3D运镜5条；前端已增加版本更新提示，五条3D运镜已发布到[视觉库](https://www.fred-fu.com/visual-library)。原新增时间与认可范围保持，公开源码副本独立，私人录音/BGM/凭据不分发。
-
-
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。

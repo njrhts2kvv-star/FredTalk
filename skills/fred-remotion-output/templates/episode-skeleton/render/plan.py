@@ -11,9 +11,12 @@ CHUNK = 420                                   # 4K60 每块 ≤420 帧：单块 
 HEAVY = C.get('heavySegments', {})            # 录屏/长图/视频多的段更重
 CL = C['cloud']
 
+HEAVY_CHUNK = 180                             # 116：带 4K 视频素材的重段一块 365 帧会超过 15 分钟超时，权重 ≥1.5 的段按 180 帧切
+
 def chunks(sid):
     n = next(p['frames'] for p in T['pages'] if p['stableId'] == sid)
-    k = -(-n // CHUNK); size = -(-n // k)
+    cap = HEAVY_CHUNK if HEAVY.get(sid, 1) >= 1.5 else CHUNK
+    k = -(-n // cap); size = -(-n // k)
     return [(sid, a, min(n, a + size) - 1) for a in range(0, n, size)]
 
 def all_chunks():

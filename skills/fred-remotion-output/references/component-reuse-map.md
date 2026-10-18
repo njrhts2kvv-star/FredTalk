@@ -4,7 +4,7 @@
 
 当前库是“可组合基元＋少数完整参数组件＋部分可换媒体场景＋准确场景快照”的混合库。下面描述已存在的接口，不表示全部组件已统一为 FredTalk 设计系统。
 
-当前新增的 library 新 10 期 52 条当前可用成片及源码按表达关系归档在[已确认复刻分类索引](library-new10-confirmed.md)。这里的分类是用途，下面的四类是源码可改造程度，两者可以同时使用。
+当前新增的 Library 新 10 期 52 条当前可用成片及源码按表达关系归档在[已确认复刻分类索引](library-new10-confirmed.md)。这里的分类是用途，下面的四类是源码可改造程度，两者可以同时使用。
 
 ## 四类实际复用能力
 
@@ -90,7 +90,7 @@ python3 skills/fred-remotion-output/scripts/scene.py --stage joining
 - [共享Media](../assets/reference-code/library-remakes-20260916/purple/src/Media.tsx)按后缀识别视频，时长来自素材表，缺省会按5秒循环且静音。真实操作录屏须明确有效范围、循环和音轨，不能沿用演示假设。
 - 改分辨率可保留逻辑画布后等比缩放；改fps或口播时长，需要重新映射轨迹和事件，不能只改Composition配置。
 
-更多具体边界见[新增library复刻选型](library-remakes-reuse.md)，不把本批接口推定成整库统一接口。
+更多具体边界见[新增Library复刻选型](library-remakes-reuse.md)，不把本批接口推定成整库统一接口。
 
 ## 4. 场景快照：保留动作关系，再改本期内容
 

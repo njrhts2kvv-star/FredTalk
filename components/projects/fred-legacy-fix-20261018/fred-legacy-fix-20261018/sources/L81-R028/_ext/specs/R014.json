@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "R014",
+  "title": "桌面窗口交接手机界面",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 462,
+    "audio": "none"
+  },
+  "reference": {
+    "referencePath": "/absolute/fredtalk/output/douyin-reference/2026-09-06/Library同学_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+    "referenceStart": 280.389312,
+    "referenceEnd": 288.1,
+    "referenceSegments": null,
+    "assets": [
+      {
+        "path": "/absolute/fredtalk/output/douyin-reference/2026-09-06/Library同学_ruApz3F4_new20/videos/06_7673448530215832886__第119期_用TraeWork做个小程序.mp4",
+        "sha256": "048fca647789110f9990840f50d2fc2d098a57b4111377fc1a1fdf4df1bfdbdd",
+        "width": 1920,
+        "height": 1080,
+        "fps": "30/1",
+        "nominalFps": "30/1",
+        "timeBase": "1/15360",
+        "duration": 288.1,
+        "start": 280.389312,
+        "end": 288.1
+      }
+    ],
+    "totalSelectedDuration": 7.710688000000005,
+    "outputDurationDelta": -0.010688000000004472
+  },
+  "sourceMapping": {
+    "status": "reviewed",
+    "segments": [
+      {
+        "outputStartFrame": 0,
+        "outputEndFrameExclusive": 462,
+        "sourceAsset": 0,
+        "sourceStartPTS": 280.389312,
+        "sourceEndPTS": 288.089312,
+        "speed": 1
+      }
+    ],
+    "omissions": [],
+    "policy": "preserve-output-duration-and-native-action-speed"
+  },
+  "implementation": {
+    "status": "implemented",
+    "project": "groups/r/faithful",
+    "compositionId": "Motion014",
+    "entry": "src/index.tsx",
+    "visualAcceptance": false,
+    "sourceGate": "structural-candidate-ready"
+  },
+  "content": {
+    "policy": "preserve-authorized-fred-copy-and-media",
+    "accentPolicy": "replace-reference-emphasis-only"
+  },
+  "fonts": [
+    {
+      "family": "MiSans Heavy temporary",
+      "file": "shared/MiSans-Heavy.otf",
+      "license": "fonts/MiSans-License.txt",
+      "sha256": "6be4fe9fd5fcfbf766e90b0936b44b731893a3836376a77d964673f398b7131c",
+      "selectionStatus": "inherited-font-pending-own-comparison"
+    }
+  ],
+  "objects": {
+    "phone": {
+      "stableBounds": [
+        714,
+        24,
+        490,
+        1008
+      ],
+      "leftEnd": 128,
+      "screen": "editable-FredTalk-search"
+    },
+    "states": {
+      "typing": [
+        1.04,
+        1.93
+      ],
+      "results": 2.82,
+      "scroll": [
+        4.7,
+        5.8
+      ],
+      "moveLeft": [
+        4.78,
+        5.5
+      ]
+    },
+    "adaptation": "Fred text and media used in search results"
+  },
+  "tracks": {
+    "sceneEvents": {
+      "domain": "outputFrame",
+      "fields": [
+        "desktopExit",
+        "phonePair",
+        "avatar",
+        "exit"
+      ],
+      "samples": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          42,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          69,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          287,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          330,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          429,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          461,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "evidence": "sparse source snapshots and implementation event anchors; dense native timing pending"
+    }
+  },
+  "evidence": {
+    "referenceAnalysis": "analysis/R014/review.md",
+    "fontComparison": "analysis/R014/font-policy.md",
+    "nativeFrameMeasurements": "analysis/R014/sparse-source-anchors.json"
+  },
+  "knownIssues": [
+    "当前7.00秒背景仍较明亮，7.65秒直接为黑场；参考286.70–288.05秒背景已逐步压暗，需按末尾退出节奏补回。"
+  ],
+  "versions": {
+    "original": {
+      "path": "/absolute/project",
+      "sha256": "c159eb3fcf417f3c8bc7d96e35b0d930739f3dce9fc83d0c239b6b026d5954b9"
+    },
+    "v2": {
+      "sha256": "9bf30d5bf779b07584b07fed165b523fed162bbccd9d820d93aa4aa18cca68e8",
+      "path": "baseline/v2/videos/R014/9bf30d5bf779b07584b07fed165b523fed162bbccd9d820d93aa4aa18cca68e8.mp4",
+      "role": "rejected-v2"
+    },
+    "v3": null
+  },
+  "userAcceptance": {
+    "status": "not-inherited"
+  },
+  "qualityStatus": "candidate-needs-calibration",
+  "remainingChecks": [
+    "Full normal-speed playback and suspicious intervals slow playback after cloud render",
+    "Per-frame type baseline, object boundaries, blur and event velocity calibration"
+  ]
+}

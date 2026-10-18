@@ -161,7 +161,7 @@ class MemberAssetsTests(unittest.TestCase):
         server = importlib.util.module_from_spec(spec); spec.loader.exec_module(server)
         with patch.dict('os.environ', {}, clear=True), patch.object(server, 'media_file', return_value=None): projected = server.projection()
         members = [item for item in projected['items'] if item.get('earlyAccess', {}).get('enabled')]
-        self.assertEqual(len(members), 125)
+        self.assertEqual(len(members), 189)
         for item in members:
             preview = item['previews'][0]
             self.assertTrue(preview['available'])

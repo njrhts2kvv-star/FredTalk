@@ -1,0 +1,8 @@
+{
+  "name": "fred-ep109-selected-components",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {"list": "node render.cjs list", "stills": "node render.cjs stills"},
+  "dependencies": {"react": "19.2.4", "remotion": "4.0.473", "@remotion/bundler": "4.0.473", "@remotion/renderer": "4.0.473"},
+  "fredRuntime": "skills/_runtime/remotion/preferred-motion-v2"
+}

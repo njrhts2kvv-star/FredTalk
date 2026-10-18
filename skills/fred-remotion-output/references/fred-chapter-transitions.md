@@ -1,6 +1,6 @@
 # 章节动画与内容过渡 20 条
 
-2026-10-14 按 Fred 本轮评价入库，集合 `fred-chapter-transitions-20-20261014`。准确新增时间 `2026-10-14T08:37:53+08:00`。20 条保留原编号与认可范围。公开仓库展示派生预览、核心帧及检索元数据；源码、原片和源码 ZIP 在本批会员抢先期内从网站下载。
+2026-10-14 按 Fred 本轮评价入库，集合 `fred-chapter-transitions-20-20261014`。准确新增时间 `2026-10-14T08:37:53+08:00`。20 条均保留原编号、当前源码、原样片、三个核心帧及音效；实体在项目 Skill 的 `assets/reference-code/fred-chapter-transitions-20-20261014/`。
 
 ## 选用边界
 
@@ -8,7 +8,7 @@
 - **T20i、T20j：开场还可以。** 保留开场及内容交接用途，分别是细节拉远、关键词快切。
 - **T20h、T20k–T20q：8 条内容过渡。** Fred 认为开场比较一般，但做过渡不错。主用途登记为 handoff，按实际内容补媒体进场、作品、问答、数字用途；不作为默认开场推荐。编号中的 T20 是历史编号，不代表当前推荐用途。
 
-分类与认可边界已落在 `library/catalog.json` 的 category、matching、tags 及用途说明。
+分类已落在 canonical catalog 的 category/useWhen/knownLimitations/approvalScope，以及 visual-usage-registry 的 primaryUse/useIds/scenarioId/segmentRole/tags；allowedRoles 补充保存本次认可范围。
 
 | 编号 | 动作 | 当前用途 |
 | --- | --- | --- |
@@ -33,12 +33,23 @@
 | T20p | 一片黑方块 → 逐块翻面拼出一张真实画面 → 标题 | 内容过渡 |
 | T20q | 巨大标题字里透着画面 → 字撑开成满屏画面 | 内容过渡 |
 
+## 各期已用（选之前先看，优先用最近两期没用过的）
+
+Fred 2026-10-17：“章节页记得换几个用，不要每次都用那几个，我组件库里有 20 个呢”。两批来源：本集合 T12k–T12t，以及 [第二批](fred-chapter-transitions-wave2-20261014.md) T12u–T12z、T23a–T23d（T12y 不要）。
+
+| 期 | 用了哪些 |
+| --- | --- |
+| 120、121、125 | T12k、T12m、T12q、T12o、T12s（骨架 `chap.tsx` 自带的五种） |
+| 124 | T12l、T12z、T12p、T12r、T12t（T12n 卡叠抽走被 Fred 换掉） |
+
+还没在成片里用过：T12u、T12v、T12w、T12x、T23a、T23b、T23c、T23d。
+
 ## 调用与适配
 
 用 `references.py --collection fred-chapter-transitions-20-20261014 --limit 20` 查整组，用 `--id T20i --full` 查准确源码、参数、样片和时钟。10 条章节片为 3 秒，其他为 3.6–4 秒，实际帧数从记录读取。
 
-先从网站下载官方源码 ZIP，用 `scripts/assets.py import --zip <local-path>` 校验安装，再复制该集合的 `_shared.ts`、kit、字体、音效及所需媒体。实际源入口从 `implementation.projects` 读取，为包内 `src/index.tsx`，内容通过各组件导出的 Props 和 Defaults 替换；cues 与 HandoffProps 依照当前真实口播及前后段交接适配。新文案、序号、媒体、词数仍检查容量、可读性和运动中间态。
+复制组件时同时带入 `source/src/components/_shared.ts`、该集合的 kit、字体、音效和所需媒体。入口为 `source/src/index.tsx`，内容通过各组件导出的 Props 和 Defaults 替换；cues 与 HandoffProps 依照当前真实口播及前后段交接适配。新文案、序号、媒体、词数仍检查容量、可读性和运动中间态。
 
 源码中的原始 scene 和历史 specs 保留创作时的“开场”命名；检索选用以本次用途登记为准。本轮没有重做动画或调整字体，认可绑定入库的准确 MP4，不把截图里的待输入字体请求当成已执行修改。
 
-本批会员优先使用 14 天，公开预览与源码下载权限分开。把下载的官方源码 ZIP 交给 Codex 即可离线校验安装；到期网站向其他用户开放下载。仓库中不包含抢先期源码、原片或源码 ZIP。准确时间从 catalog 的 `earlyAccess` 读取。
+selection.json 保存 Fred 原话及三组认可范围。2026-10-14 已按 Fred 后续授权发布到网站视觉库，并作为 FredTalk 2.1 的新增组件同步 GitHub 目录与公开样片。源码／原视频／源码 ZIP 按本批14天会员抢先策略通过网站提供：北京时间2026-10-14 08:59:11 至2026-10-28 08:59:11。GitHub不包含本批抢先期受限字节，网站到期自动开放下载；旧五批日期保持。准确发布回执见集合 `publication.json`。全局同步轻量登记与代码，媒体实体保留项目本地。

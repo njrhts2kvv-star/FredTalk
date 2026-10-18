@@ -1,0 +1,2 @@
+// FredTalk 2.5 distribution: fred-legacy-fix-20261018
+import React from 'react';import {Composition,registerRoot,useCurrentFrame} from 'remotion';import {RebuiltBPills} from './RebuiltBPills';const C=({number}:{number:number})=><RebuiltBPills number={number} frame={useCurrentFrame()}/>;registerRoot(()=><>{[[38,660],[70,360]].map(([number,duration])=><Composition key={number} id={'B'+String(number).padStart(3,'0')} component={C} width={1920} height={1080} fps={60} durationInFrames={duration} defaultProps={{number}}/>)}</>);

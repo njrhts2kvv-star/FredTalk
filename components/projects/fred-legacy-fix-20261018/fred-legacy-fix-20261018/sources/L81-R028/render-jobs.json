@@ -1,0 +1,62 @@
+{
+  "project": "groups/r/faithful",
+  "entry": "src/index.tsx",
+  "rootRelative": "../../..",
+  "items": [
+    {
+      "label": "R014",
+      "compositionId": "Motion014",
+      "durationInFrames": 462
+    },
+    {
+      "label": "R015",
+      "compositionId": "Motion015",
+      "durationInFrames": 1437
+    },
+    {
+      "label": "R016",
+      "compositionId": "Motion016",
+      "durationInFrames": 378
+    },
+    {
+      "label": "R024",
+      "compositionId": "Motion024",
+      "durationInFrames": 1060
+    },
+    {
+      "label": "R026",
+      "compositionId": "Motion026",
+      "durationInFrames": 310
+    },
+    {
+      "label": "R033",
+      "compositionId": "Motion033",
+      "durationInFrames": 660
+    },
+    {
+      "label": "R036",
+      "compositionId": "Motion036",
+      "durationInFrames": 300
+    },
+    {
+      "label": "R041",
+      "compositionId": "Motion041",
+      "durationInFrames": 360
+    },
+    {
+      "label": "R045",
+      "compositionId": "Motion045",
+      "durationInFrames": 420
+    },
+    {
+      "label": "R051",
+      "compositionId": "Motion051",
+      "durationInFrames": 480
+    },
+    {
+      "label": "R053",
+      "compositionId": "Motion053",
+      "durationInFrames": 411
+    }
+  ]
+}

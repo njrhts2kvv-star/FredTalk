@@ -63,6 +63,3 @@
 ## 后续补充
 
 2026-10-12剩余4条完成云端出片后，Fred在revision51选择保留T08i/T10a、不要T17d/T19d；两条另入[补充集合](fred-wave3-extra-components.md)，累计42条。T08h/T22c仍未选。原40条准确认可与媒体保持。
-
-
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。

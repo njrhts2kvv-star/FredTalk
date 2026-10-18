@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "repository": "njrhts2kvv-star/FredTalk",
-  "tag": "v2.1.0",
-  "manifestSha256": "f9dffb74c4c7401ffc9457755ece9ebc06428d2cd328cf4abdbde130384fe15d",
+  "tag": "v2.5.0",
+  "manifestSha256": "873c90ad4ddb0c916608437642f37446d407d7135c5088663e8ea0c8cace018a",
   "packs": [
     {
       "name": "fredtalk-materials-001.tar.gz",
@@ -795,6 +795,19 @@
       "tag": "v2.1.0",
       "collectionIds": [
         "fred-chapter-transitions-20-20261014"
+      ]
+    },
+    {
+      "name": "fredtalk-2.5-public-assets.tar.gz",
+      "size": 246527394,
+      "sha256": "ecc87823da34825e975a38a60380cc635c5964e2d0baba9cadc968346270479a",
+      "objects": 489,
+      "tag": "v2.5.0",
+      "collectionIds": [
+        "episode-scenes-112-125-20261018",
+        "fred-recording-8-20261018",
+        "fred-chapter-transitions-wave2-20261014",
+        "fred-legacy-fix-20261018"
       ]
     }
   ]

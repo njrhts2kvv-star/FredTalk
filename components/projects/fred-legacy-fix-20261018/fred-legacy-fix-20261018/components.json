@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "fred-legacy-fix-20261018",
+  "components": [
+    {
+      "referenceId": "fred-legacy-fix-103-01-v2",
+      "label": "103-01-v2",
+      "compositionId": "EP103ScatterQuestion",
+      "entryPoint": "sources/103-01/src/library-entry.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "sourceFrameRange": [
+          360,
+          540
+        ],
+        "clockMapping": "timeline.json + SceneTiming.tsx"
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/103-01/src/library-entry.tsx"
+      ],
+      "title": "资料卡散开，中央聚焦问题",
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-103-03-v2",
+      "label": "103-03-v2",
+      "compositionId": "EP103ContinuityFramework",
+      "entryPoint": "sources/103-03/src/library-entry.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "sourceFrameRange": [
+          3420,
+          4140
+        ],
+        "clockMapping": "timeline.json + SceneTiming.tsx"
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/103-03/src/library-entry.tsx"
+      ],
+      "title": "持续带教：资料补入，状态保留",
+      "durationSeconds": 12.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-107-01-v2",
+      "label": "107-01-v2",
+      "compositionId": "EP107CardsToQuestion",
+      "entryPoint": "sources/107-01/src/library-entry.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "sourceFrameRange": [
+          540,
+          720
+        ],
+        "clockMapping": "Negative Sequence offset preserves manifest/page/media clocks"
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/107-01/src/library-entry.tsx"
+      ],
+      "title": "资料卡连续让位，问题窗建立",
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-109-05-v2",
+      "label": "109-05-v2",
+      "compositionId": "T02r4p-LineFocus",
+      "entryPoint": "sources/109-05/patch-entry.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "sourceFrameRange": [
+          6420,
+          6600
+        ],
+        "clockMapping": "Restore exact original scene frame and full native scene duration; continuous S09/S10 clocks and V9 model revision split preserved."
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/109-05/patch-entry.tsx"
+      ],
+      "title": "三行重点与左向箭头逐行聚焦",
+      "durationSeconds": 3.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-e14-v2",
+      "label": "E14-v2",
+      "compositionId": "E14",
+      "entryPoint": "sources/E14/src/library-material-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/E14/src/library-material-entry.tsx"
+      ],
+      "title": "多组图片对比、局部特写与完整提示词",
+      "durationSeconds": 20.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b009-v2",
+      "label": "L81-B009-v2",
+      "compositionId": "B009",
+      "entryPoint": "sources/L81-B009/groups/b/src/b-representative-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B009/groups/b/src/RebuiltBRepresentatives.tsx",
+        "sources/L81-B009/groups/b/src/b-representative-entry.tsx"
+      ],
+      "title": "提示词全貌与参数关键词聚焦",
+      "durationSeconds": 10.867
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b014-v2",
+      "label": "L81-B014-v2",
+      "compositionId": "B014",
+      "entryPoint": "sources/L81-B014/groups/b/src/b-chat-phone-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B014/groups/b/src/RebuiltBChatPhone.tsx",
+        "sources/L81-B014/groups/b/src/b-chat-phone-entry.tsx"
+      ],
+      "title": "对话气泡接力转入新章节",
+      "durationSeconds": 19.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b018-v2",
+      "label": "L81-B018-v2",
+      "compositionId": "B018",
+      "entryPoint": "sources/L81-B018/groups/b/src/b-representative-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B018/groups/b/src/b-representative-entry.tsx"
+      ],
+      "title": "纵向胶囊清单逐项填入",
+      "durationSeconds": 10.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b020-v2",
+      "label": "L81-B020-v2",
+      "compositionId": "B020",
+      "entryPoint": "sources/L81-B020/groups/b/src/b-final-four-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B020/groups/b/src/b-final-four-entry.tsx"
+      ],
+      "title": "单张作品扩展为多格图片墙",
+      "durationSeconds": 17.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b035-v2",
+      "label": "L81-B035-v2",
+      "compositionId": "B035Fred",
+      "entryPoint": "sources/L81-B035/groups/b/src/main-eight-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B035/groups/b/src/RebuiltB035.tsx",
+        "sources/L81-B035/groups/b/src/main-eight-entry.tsx"
+      ],
+      "title": "四部手机并列展示设计结果",
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b042-v2",
+      "label": "L81-B042-v2",
+      "compositionId": "B042Fred",
+      "entryPoint": "sources/L81-B042/groups/b/src/main-eight-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B042/groups/b/src/main-eight-entry.tsx"
+      ],
+      "title": "三项业务词错位阶梯排列",
+      "durationSeconds": 5.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b066-v2",
+      "label": "L81-B066-v2",
+      "compositionId": "B066Fred",
+      "entryPoint": "sources/L81-B066/groups/b/src/main-eight-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B066/groups/b/src/main-eight-entry.tsx"
+      ],
+      "title": "多张竖卡逐个亮起展示重点",
+      "durationSeconds": 17.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-b074-v2",
+      "label": "L81-B074-v2",
+      "compositionId": "B074",
+      "entryPoint": "sources/L81-B074/groups/b/src/b-type-failure-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-B074/groups/b/src/RebuiltBTypeFailure.tsx",
+        "sources/L81-B074/groups/b/src/b-type-failure-entry.tsx"
+      ],
+      "title": "失败现象用三种图片状态对比",
+      "durationSeconds": 8.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-c002-v2",
+      "label": "L81-C002-v2",
+      "compositionId": "C002",
+      "entryPoint": "sources/L81-C002/groups/ctw/core/src/rebuilt-entry.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/approved-motion-library",
+      "sourceCode": [
+        "sources/L81-C002/groups/ctw/core/src/rebuilt-entry.tsx"
+      ],
+      "title": "从一个起点建立信息矩阵",
+      "durationSeconds": 7.4
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-r001-v2",
+      "label": "L81-R001-v2",
+      "compositionId": "Library120-Calendar",
+      "entryPoint": "sources/L81-R001/groups/r/legacy/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-R001/groups/r/legacy/src/CalendarV3.tsx",
+        "sources/L81-R001/groups/r/legacy/src/index.tsx"
+      ],
+      "title": "主题文字放大交接日历窗口",
+      "durationSeconds": 2.967
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-r005-v2",
+      "label": "L81-R005-v2",
+      "compositionId": "Library120-ReferenceCount",
+      "entryPoint": "sources/L81-R005/groups/r/legacy/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-R005/groups/r/legacy/src/CountV3.tsx",
+        "sources/L81-R005/groups/r/legacy/src/index.tsx"
+      ],
+      "title": "数字展开为分类分支",
+      "durationSeconds": 9.467
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-r006-v2",
+      "label": "L81-R006-v2",
+      "compositionId": "Library120-UnifiedEncoder",
+      "entryPoint": "sources/L81-R006/groups/r/legacy/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/L81-R006/groups/r/legacy/src/EncoderV3.tsx",
+        "sources/L81-R006/groups/r/legacy/src/index.tsx"
+      ],
+      "title": "多种输入汇聚为统一入口",
+      "durationSeconds": 13.7
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-r028-v2",
+      "label": "L81-R028-v2",
+      "compositionId": "Motion028",
+      "entryPoint": "sources/L81-R028/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/library-remakes-20260916",
+      "sourceCode": [
+        "sources/L81-R028/src/index.tsx"
+      ],
+      "title": "多张参考图依次卷入，汇为结果并交接下一轮",
+      "durationSeconds": 17.967
+    },
+    {
+      "referenceId": "fred-legacy-fix-l81-r033-v2",
+      "label": "L81-R033-v2",
+      "compositionId": "Motion033",
+      "entryPoint": "sources/L81-R033/groups/r/faithful/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/library-remakes-20260916",
+      "sourceCode": [
+        "sources/L81-R033/groups/r/faithful/src/index.tsx"
+      ],
+      "title": "六格作品墙交接竖图并列",
+      "durationSeconds": 11.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-n006-v2",
+      "label": "N006-v2",
+      "compositionId": "T12r1p-GridToChapter",
+      "entryPoint": "sources/N006/src/index30.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 492,
+        "seconds": 8.2,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/N006/src/index30.tsx"
+      ],
+      "title": "六格规则入口放大成章节并反转底色",
+      "durationSeconds": 8.256
+    },
+    {
+      "referenceId": "fred-legacy-fix-n008-v2",
+      "label": "N008-v2",
+      "compositionId": "N008",
+      "entryPoint": "sources/N008/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 480,
+        "seconds": 8.0,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/N008/src/RebuiltN008.tsx",
+        "sources/N008/src/index.tsx"
+      ],
+      "title": "商品旁的三个问题转为执行角色和作品",
+      "durationSeconds": 8.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-n044-v2",
+      "label": "N044-v2",
+      "compositionId": "N044",
+      "entryPoint": "sources/N044/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 204,
+        "seconds": 3.4,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/N044/src/BatchB.tsx",
+        "sources/N044/src/index.tsx"
+      ],
+      "title": "商品大图压成附件，输入框被提到前景",
+      "durationSeconds": 3.4
+    },
+    {
+      "referenceId": "fred-legacy-fix-n045-v2",
+      "label": "N045-v2",
+      "compositionId": "N045",
+      "entryPoint": "sources/N045/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 189,
+        "seconds": 3.15,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/N045/src/BatchB.tsx",
+        "sources/N045/src/index.tsx"
+      ],
+      "title": "三张作品错峰上退，重置成两张对照图",
+      "durationSeconds": 3.167
+    },
+    {
+      "referenceId": "fred-legacy-fix-n047-v2",
+      "label": "N047-v2",
+      "compositionId": "N047",
+      "entryPoint": "sources/N047/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 222,
+        "seconds": 3.7,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/N047/src/BatchC.tsx",
+        "sources/N047/src/index.tsx"
+      ],
+      "title": "手机从局部近景退到全貌，再解锁进入聊天",
+      "durationSeconds": 3.7
+    },
+    {
+      "referenceId": "fred-legacy-fix-r011-v2",
+      "label": "R011-v2",
+      "compositionId": "Library120-LongSelection",
+      "entryPoint": "sources/R011/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/R011/src/index.tsx"
+      ],
+      "title": "功能文字交接媒体展示",
+      "durationSeconds": 13.5
+    },
+    {
+      "referenceId": "fred-legacy-fix-r017-v2",
+      "label": "R017-v2",
+      "compositionId": "Motion017",
+      "entryPoint": "sources/R017/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 235,
+        "seconds": 3.9166666666666665,
+        "logicalCanvas": [
+          1280,
+          720
+        ],
+        "note": "Seconds-based f/fps for most components; recalculate durationInFrames when changing fps."
+      },
+      "runtime": "skills/_runtime/remotion/library-remakes-20260916",
+      "sourceCode": [
+        "sources/R017/src/BatchA.tsx",
+        "sources/R017/src/Media.tsx",
+        "sources/R017/src/index.tsx"
+      ],
+      "title": "完整提示词窗口收束为一句方法公式",
+      "durationSeconds": 3.933
+    },
+    {
+      "referenceId": "fred-legacy-fix-sp011-v2",
+      "label": "SP011-v2",
+      "compositionId": "SP011",
+      "entryPoint": "sources/SP011/src/library-entry.tsx",
+      "nativeTiming": {
+        "fps": 30,
+        "durationInFrames": 149,
+        "duration": 4.966666666666667,
+        "width": 1920,
+        "height": 1080
+      },
+      "runtime": "skills/_runtime/remotion/library-remakes-20260916",
+      "sourceCode": [
+        "sources/SP011/src/library-entry.tsx"
+      ],
+      "title": "30+ 能力四格分类展示",
+      "durationSeconds": 4.967
+    },
+    {
+      "referenceId": "fred-legacy-fix-v037-v2",
+      "label": "V037-v2",
+      "compositionId": "shot-avatar-bracket-carousel",
+      "entryPoint": "sources/V037/src/index.tsx",
+      "nativeTiming": null,
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/V037/src/components/shot-avatar-bracket-carousel.tsx",
+        "sources/V037/src/dependencies/Shotcraft/demos/_fixtures/Motion.tsx",
+        "sources/V037/src/index.tsx"
+      ],
+      "title": "对焦框头像轮换",
+      "durationSeconds": 5.2
+    },
+    {
+      "referenceId": "fred-legacy-fix-x014-v2",
+      "label": "X014-v2",
+      "compositionId": "X014",
+      "entryPoint": "sources/X014/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 360,
+        "seconds": 6.0,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/X014/src/BatchA.tsx",
+        "sources/X014/src/index.tsx"
+      ],
+      "title": "报告卡局部放大",
+      "durationSeconds": 6.0
+    },
+    {
+      "referenceId": "fred-legacy-fix-x015-v2",
+      "label": "X015-v2",
+      "compositionId": "X015",
+      "entryPoint": "sources/X015/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 414,
+        "seconds": 6.9,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/X015/src/BatchA.tsx",
+        "sources/X015/src/index.tsx"
+      ],
+      "title": "三张商品卡片轮换",
+      "durationSeconds": 6.9
+    },
+    {
+      "referenceId": "fred-legacy-fix-x032-v2",
+      "label": "X032-v2",
+      "compositionId": "X032",
+      "entryPoint": "sources/X032/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 270,
+        "seconds": 4.5,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/X032/src/index.tsx"
+      ],
+      "title": "手机侧移让出两行输入类型",
+      "durationSeconds": 4.5
+    },
+    {
+      "referenceId": "fred-legacy-fix-x037-v2",
+      "label": "X037-v2",
+      "compositionId": "X037",
+      "entryPoint": "sources/X037/src/index.tsx",
+      "nativeTiming": {
+        "fps": 60,
+        "durationInFrames": 360,
+        "seconds": 6.0,
+        "logicalCanvas": [
+          1920,
+          1080
+        ]
+      },
+      "runtime": "skills/_runtime/remotion/preferred-motion-v2",
+      "sourceCode": [
+        "sources/X037/src/BatchC.tsx",
+        "sources/X037/src/index.tsx"
+      ],
+      "title": "插画叠放转四格",
+      "durationSeconds": 6.0
+    }
+  ]
+}

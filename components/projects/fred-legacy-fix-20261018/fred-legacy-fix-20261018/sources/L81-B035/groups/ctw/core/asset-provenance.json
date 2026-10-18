@@ -1,0 +1,31 @@
+[
+  {
+    "file": "product.png",
+    "source": "/absolute/project Pro/01_输入素材/竞品/mic pro 白底图.png",
+    "use": "product card; episode supplied product photo, authorship not established"
+  },
+  {
+    "file": "article-title.png",
+    "source": "/absolute/project Pro/01_输入素材/文字视频.mp4",
+    "sourceTimeSeconds": 0.5,
+    "use": "article card"
+  },
+  {
+    "file": "article-method.png",
+    "source": "/absolute/project Pro/01_输入素材/文字视频.mp4",
+    "sourceTimeSeconds": 2,
+    "use": "article card"
+  },
+  {
+    "file": "article-workflow.png",
+    "source": "/absolute/project Pro/01_输入素材/文字视频.mp4",
+    "sourceTimeSeconds": 8,
+    "use": "article card"
+  },
+  {
+    "file": "article-review.png",
+    "source": "/absolute/project Pro/01_输入素材/文字视频.mp4",
+    "sourceTimeSeconds": 12,
+    "use": "article card"
+  }
+]

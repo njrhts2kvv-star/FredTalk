@@ -1,5 +1,5 @@
 interface:
-  display_name: "FredTalk 2.1"
+  display_name: "FredTalk 2.5"
   short_description: "Fred 每期视频主入口：逐段先看组件库候选再给图文建议，确认关键帧后出完整 Remotion 视频并局部返修"
   default_prompt: "请用 $fred-remotion-output 制作这一期：每段先写画面对象与动作，用 scene.py --candidates-only 看组件库候选并记录选用/不选理由，再给逐段图文建议；我确认关键帧后输出完整视频。"
 policy:

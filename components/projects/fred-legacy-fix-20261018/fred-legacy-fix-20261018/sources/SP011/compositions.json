@@ -1,0 +1,170 @@
+[
+  {
+    "id": "SP001",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 1031
+  },
+  {
+    "id": "SP002",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 300
+  },
+  {
+    "id": "SP003",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 568
+  },
+  {
+    "id": "SP004",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 154
+  },
+  {
+    "id": "SP005",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 117
+  },
+  {
+    "id": "SP006",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 324
+  },
+  {
+    "id": "SP007",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 477
+  },
+  {
+    "id": "SP008",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 184
+  },
+  {
+    "id": "SP009",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 195
+  },
+  {
+    "id": "SP010",
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "durationInFrames": 300
+  },
+  {
+    "id": "SP011",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 149
+  },
+  {
+    "id": "SP012",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 450
+  },
+  {
+    "id": "SP013",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 368
+  },
+  {
+    "id": "SP014",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 274
+  },
+  {
+    "id": "SP015",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 244
+  },
+  {
+    "id": "SP016",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 389
+  },
+  {
+    "id": "SP017",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 138
+  },
+  {
+    "id": "SP018",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 127
+  },
+  {
+    "id": "SP019",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 398
+  },
+  {
+    "id": "SP020",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 305
+  },
+  {
+    "id": "SP021",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 55
+  },
+  {
+    "id": "SP022",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 128
+  },
+  {
+    "id": "SP023",
+    "width": 2560,
+    "height": 1440,
+    "fps": 60,
+    "durationInFrames": 195
+  },
+  {
+    "id": "SP024",
+    "width": 2560,
+    "height": 1440,
+    "fps": 60,
+    "durationInFrames": 260
+  }
+]

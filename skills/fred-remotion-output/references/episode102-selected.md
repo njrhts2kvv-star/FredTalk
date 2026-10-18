@@ -41,6 +41,3 @@ node skills/fred-remotion-output/assets/reference-code/ep102-selected-20261005/s
 [GitHub Release](https://github.com/njrhts2kvv-star/FredTalk/releases/tag/ep102-selected-20261005)已发布23个资产并通过大小、SHA-256及状态校验；提交为`662d3767eabba571ccefb112cf3be367e2340d1b`，[CI](https://github.com/njrhts2kvv-star/FredTalk/actions/runs/37265488078)成功。公开源码ZIP的SHA-256为`68a445ab6bb42cc2300a1e35f653ff9e797e8ef28fbc6979acd18692418b77c6`。
 
 [Fred-fu视觉库](https://www.fred-fu.com/visual-library)当前发布目录为`20261005_ep102_new_components`，服务状态`active`，184条参考与46个文件校验通过。网站catalog的SHA-256为`14ebb1e6e9db7dc74ac6df86cdddb017fab515db386891c04b21e0f6f69b5bcb`。公开源码为保护私人路径所整理的分发副本，本地准确源码与原媒体身份保留。
-
-
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。

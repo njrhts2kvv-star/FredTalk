@@ -33,6 +33,3 @@ python3 skills/fred-remotion-output/scripts/references.py --id 103-02
 node skills/fred-remotion-output/assets/reference-code/ep103-selected-20260930/source/render.cjs list
 node skills/fred-remotion-output/assets/reference-code/ep103-selected-20260930/source/render.cjs render EP103EvidenceClaims /path/to/output.mp4
 ```
-
-
-公开分发以仓库 `library/catalog.json` 的当前标签、用途、归档状态、源码路由和可下载媒体为事实源。本文中的生产工程记录只说明方法与历史范围；实际复用请运行 `python3 scripts/catalog.py --id <准确标签> --full`，使用公开源码快照的当前哈希。

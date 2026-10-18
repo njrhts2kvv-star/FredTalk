@@ -8,7 +8,7 @@
 
 `skills/fred-remake/assets/preferred-motion/catalog.json` 保存最终选择，新的 `assets/dependency-registry.json` 只绑定源码与依赖，不复制另一份可独立修改的批准台账。revision 或 catalogue hash 变化时先核对新选择，不沿用旧索引。
 
-数量与状态从当前 catalogue 的 counts 读取，不在文档硬编码会变化的总数。本轮 library→Fred 的新增与合并见 [已选参考与去重](selected-reference-library.md)。它们都是服务新稿的候选；`keep` 意味着优先查找，不能据此强制每期使用。用户后续指定的画面优先。
+数量与状态从当前 catalogue 的 counts 读取，不在文档硬编码会变化的总数。本轮 Library→Fred 的新增与合并见 [已选参考与去重](selected-reference-library.md)。它们都是服务新稿的候选；`keep` 意味着优先查找，不能据此强制每期使用。用户后续指定的画面优先。
 
 ```bash
 python3 skills/fred-remotion-output/scripts/references.py --query 分支
@@ -30,9 +30,9 @@ python3 skills/fred-remotion-output/scripts/references.py --id preview-v2-talk-h
 | 原版源码与共享依赖 | `skills/fredtalk-deck-motion-pipeline/assets/style-library/` | 原版代码、准确预览、透明人物；已保存不等于当前被选择，资格以catalogue为准 |
 | V2源码与公共素材 | `skills/fred-remake/assets/preferred-motion/sources/previews-v2/` | 原组件正文保持字节一致；当前优先/备选/排除集合由catalogue查询，字体、共享代码、public与预览本地保存 |
 | 已保存的episode源码与工程依赖 | 本 Skill `assets/episode-code/` | 保存82、93、94 V5/V6、96 V14/V15等准确版本的依赖快照，含相对import与public；具体范围按registry查询，不依赖历史iCloud工程读取代码 |
-| library→Fred源码包与文件架 | 本 Skill `assets/reference-code/library-fred-20260913/` | 保存准确源码、依赖、历史编号和合并别名；当前文件架由catalogue派生，历史批次数量不表示当前可选库存 |
-| 新增 library R 编号复刻 | 本 Skill `assets/reference-code/library-remakes-20260916/` | faithful/purple 准确版本、完整 public/字体与预览；隔离 runtime 4.0.515。按[新增复刻选型](library-remakes-reuse.md)查用途、真实接口、轨迹/截图依赖及待复看状态 |
-| library 旧库最新 81 条 | 本 Skill `assets/reference-code/library-remakes-legacy81-20260929/` | 当前视频、逐条哈希、对应源码快照和素材；R005、R033、B072 为最新本地返修。按[本批索引](library-legacy81-confirmed.md)检索，复制所选项目的锁文件后适配 |
+| Library→Fred源码包与文件架 | 本 Skill `assets/reference-code/library-fred-20260913/` | 保存准确源码、依赖、历史编号和合并别名；当前文件架由catalogue派生，历史批次数量不表示当前可选库存 |
+| 新增 Library R 编号复刻 | 本 Skill `assets/reference-code/library-remakes-20260916/` | faithful/purple 准确版本、完整 public/字体与预览；隔离 runtime 4.0.515。按[新增复刻选型](library-remakes-reuse.md)查用途、真实接口、轨迹/截图依赖及待复看状态 |
+| Library 旧库最新 81 条 | 本 Skill `assets/reference-code/library-remakes-legacy81-20260929/` | 当前视频、逐条哈希、对应源码快照和素材；R005、R033、B072 为最新本地返修。按[本批索引](library-legacy81-confirmed.md)检索，复制所选项目的锁文件后适配 |
 | 可适配的基础能力 | `skills/fred-remake/assets/content-motion/` | SoftSurface、TranscriptSelection、BranchFocus、ExpandReturn、SlotReplace、FrostedFocus、ObjectHandoff 等；使用前读实际接口和验证状态 |
 | 云端执行能力 | `skills/cloud-render/` | 复用 snapshot、render、guard、verify 与环境说明；不保存凭据或复制另一套渲染器 |
 

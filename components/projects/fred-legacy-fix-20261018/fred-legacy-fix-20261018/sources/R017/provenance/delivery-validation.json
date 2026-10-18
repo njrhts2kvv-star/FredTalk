@@ -1,0 +1,69 @@
+{
+  "passed": 7,
+  "status": "technical-pass-pending-user-visual-acceptance",
+  "items": [
+    {
+      "number": 15,
+      "sha256": "3667effa6dfe1234f9187e34dfc0a47625e20e22f3593698752f0aed06f87805",
+      "frames": 1437,
+      "fps": 60.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999977492143096
+    },
+    {
+      "number": 16,
+      "sha256": "21320418fccfbd8c6ba2d434874e14dda55a8a561a8f43f81e2b5b23133dc67b",
+      "frames": 378,
+      "fps": 60.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999977884469705
+    },
+    {
+      "number": 17,
+      "sha256": "70af4d31bc503825e9d5a307cd8bd3a09def5f6931ad573553ba1ed1f9c1b2b2",
+      "frames": 235,
+      "fps": 60.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999933867784718
+    },
+    {
+      "number": 26,
+      "sha256": "6a59f1975a5c27286b1e28d7cf1c7e331014a2746319bb76ddc8a8196116ae2a",
+      "frames": 310,
+      "fps": 60.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999984801587055
+    },
+    {
+      "number": 33,
+      "sha256": "933341ec4e995f4d3534139fc9278c35a4f604e675e02891a94cf39b1c1ec80b",
+      "frames": 450,
+      "fps": 30.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999977275921224
+    },
+    {
+      "number": 45,
+      "sha256": "de6429cd02f7daff3819e324b7de77b86146a01303c9945d1fc38aed057f7985",
+      "frames": 210,
+      "fps": 30.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999389025978309
+    },
+    {
+      "number": 53,
+      "sha256": "730a36b94c57a76a0b948af5f664b324702164b91b8ed1414e175eea05cd39cb",
+      "frames": 480,
+      "fps": 60.0,
+      "fullDecode": "passed",
+      "continuousPTS": true,
+      "audioCorrelation": 0.9999981237514225
+    }
+  ]
+}

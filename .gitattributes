@@ -1,0 +1,2 @@
+# Exported historical source snapshots preserve their recorded bytes.
+components/projects/fred-legacy-fix-20261018/** -whitespace

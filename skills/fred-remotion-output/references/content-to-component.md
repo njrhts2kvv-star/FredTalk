@@ -48,7 +48,7 @@ references.py使用与视觉库同源的用途分类、标签和sceneTypes，复
 
 `original` 的 `styleContract` 至少说明 `surface`、`typography`、`geometry`、`motion`、`camera`、`mediaBehavior`；同时列出本期新增元素和场景风险。它继承的是质感和动作语言，不是复制无关布局。单期原创先标为 `episode-original`，不因一次通过就进入公共批准库。
 
-本句涉及横竖媒体接力、成对比较、报告全貌/局部阅读或阶段聚焦时，可按[新增 library 复刻选型](library-remakes-reuse.md)补查 `library-remakes-20260916` 的 `optional` 候选。它们已保存源码，但接口成熟度与复看状态不同，使用前读命中条目的限制；无需为此加载整个库。
+本句涉及横竖媒体接力、成对比较、报告全貌/局部阅读或阶段聚焦时，可按[新增 Library 复刻选型](library-remakes-reuse.md)补查 `library-remakes-20260916` 的 `optional` 候选。它们已保存源码，但接口成熟度与复看状态不同，使用前读命中条目的限制；无需为此加载整个库。
 
 完整组件适合就复制准确源码后适配，保留让它成立的动作与质感。只需要局部时用T/W索引，记录准确区间、载体和文字各自职责；没有合适参考先报告缺口，未经Fred当次授权不新做。不能用不相关的参考ID为自写代码背书。
 
