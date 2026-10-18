@@ -4,7 +4,7 @@
 
 来源：2026-10-14，118 期“GitHub 一周热点”。左边是 Claude Code 做的成片（`EP118-Github一周热点-v3-4K60.mp4`，即 v3b，Fred 评价“做的非常非常好”）；右边是 Codex 读 Skill、不看 118 源码独立做的前 120 秒试作。两边用的是同一条配音、同一批素材，但不是严格对照实验：两边的 Skill 版本和上下文不同。完整对比（27 个时间点、同步对比视频、Codex 的自我复盘）在 `90_工具与公共素材/31_测试输出/ep118-codex-skill-only-30s-20261014/03_work/comparison-cc-20261014/`。
 
-图片在本 Skill 的 `assets/paired-examples/ep118-cc-vs-codex/`（只在项目 Skill 里；全局副本读不到时用绝对路径 `/absolute/fredtalk/skills/fred-remotion-output/assets/paired-examples/ep118-cc-vs-codex/`）。左“好”，右“差”。
+图片随公开仓库保存在 `assets/paired-examples/ep118-cc-vs-codex/`，以下各节可直接看图。左“好”，右“差”。
 
 公平起见：**左边是经过 Fred 两轮意见的 v3b，右边是 Codex 的第一版，没经过意见。** 第 1、4、5、7 组（大概率还有第 6 组）的左图是返修之后的效果：开场第一秒、Codex 框比例、毛玻璃是 v3 才改的，第 4 节的 Obsidian 案例也是 v3 换进来、整段重写的。所以这里看的是“改到位以后长什么样”，不是“第一版就该做到这样”。真正要学的是做法：每句先想看得见的变化，素材要加工，对象要连续。
 
@@ -14,6 +14,8 @@
 
 ## 1. 开场第一秒：真实页面打底、数字落到原位 vs 白底计数器（`pair-4s.jpg`，左为 v3 返修后）
 
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-4s.jpg)
+
 口播：“这个 GitHub 上有一个开源项目，一周就涨了十三万颗星。”
 
 - **好**：第 0 帧就有内容：周榜页铺底、压暗磨砂，正中星标数字从 0 滚到 `+130,471`；磨砂散开后，数字飞落到 REA 那一行旁边，那一行抬起。观众看到：这是哪个页面、哪一个项目、精确涨了多少。
@@ -21,6 +23,8 @@
 - **改法**：大数字开场本身没错（6.1 节推荐的就是这种），差别在于有没有真实页面打底、数字是不是截图原文、最后有没有落回它在原画面里的位置（episode-assembly 6.1、第 9 节第 6 条“数量上屏”）。
 
 ## 2. 五个项目一览：可比较的信息 vs 只有名字（`pair-8s.jpg`）
+
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-8s.jpg)
 
 口播：“挑了五个我觉得最值得看的项目。”
 
@@ -30,6 +34,8 @@
 
 ## 3. 构图居中：主体在中间 vs 整组偏右（`pair-40s.jpg`）
 
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-40s.jpg)
+
 口播：“现在装上 REA……”
 
 - **好**：REA 图标在画面正中，接下来插进 Codex、Claude Code。
@@ -37,6 +43,8 @@
 - **改法**：主体先居中；旁边的对象出现时再让位（episode-assembly 第 6 节“整体构图居中”“主体先居中”）。
 
 ## 4. 没有原版录屏时：重建示意 vs 播一段相关视频（`pair-51s.jpg`，左为 v3 返修后）
+
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-51s.jpg)
 
 口播：“比如有人拿 Obsidian 做了个测试，你按 Command 加 O，输几个字母……”
 
@@ -46,6 +54,8 @@
 
 ## 5. 录屏要看得清：推近到正在发生的地方 vs 整窗播放（`pair-60s.jpg`，左为 v3 返修后）——差距最大的一处
 
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-60s.jpg)
+
 口播：“然后还照着做了一个网页版……然后拿四千九百多次搜索跟原版对比。”
 
 - **好**：播的是同一段真实录屏，但镜头推到复刻页的搜索下拉（源画面 800×330 的区域放大约 2 倍，列表字约 30px），口播说到哪就看哪；“4,915 次搜索 · 和原版对比 / 一条都不差”用黑玻璃压在继续播放的录屏窗上，大字居中。来源小字放在左下。
@@ -53,6 +63,8 @@
 - **改法**：录屏里要读的字 ≥24px（第 2 节第一条）。**先推近**到正在发生的区域（1.6–2.4 倍）；原版素材里没有这个状态，才重建示意（第 4 组）；结论数字用窗内黑玻璃加大字。参考源码：`templates/examples/scene-ep118-ReaCases-footage-rebuild.tsx` 的 `vRev`、`OBS_DROP`。渲染后跑 `scripts/readability_audit.py`，它会报出“连续 3 秒以上满屏小字”。
 
 ## 6. 第三方演示：结论放大 vs 原样放映（`pair-93s.jpg`）
+
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-93s.jpg)
 
 口播：“截图、标注、换背景、加阴影全都有。”
 
@@ -62,6 +74,8 @@
 
 ## 7. Codex 输入框：真实比例 vs 自己乱画（`pair-99s.jpg`，左为 v3 返修后）
 
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-99s.jpg)
+
 口播：“你复制发给 Codex，它就帮你装好、连好。”
 
 - **好**：真实比例的 Codex 输入框（Codex 标识在左上、底栏有模型名和发送钮），安装命令粘贴进去后发送。
@@ -69,6 +83,8 @@
 - **改法**：直接用骨架里的 `src/components/episode-kit/ckit.tsx` 的 `CodexBox`，不要重画（第 2 节“画出来的 Codex 输入框照真实截图的比例”）。
 
 ## 8. 段尾总结：用前面的对象收 vs 把旁白再写一遍（`pair-109s.jpg`）
+
+![同一句口播的两种画面](../assets/paired-examples/ep118-cc-vs-codex/pair-109s.jpg)
 
 口播：“所以 REA 最大的价值不是照抄，而是看到一个好用的功能，让 AI 搞清楚怎么做，再变成你自己的。”
 

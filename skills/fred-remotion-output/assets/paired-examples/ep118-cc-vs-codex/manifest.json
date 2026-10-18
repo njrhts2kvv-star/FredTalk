@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Public paired visual examples; accepted final revision versus unreviewed first trial, not a controlled benchmark.",
+  "files": [
+    {
+      "file": "pair-99s.jpg",
+      "sha256": "bb996623e1a7926a63d579afd1a77217ce85a8d5027d8d880656cdeb6bdbd0a6",
+      "size": 92092
+    },
+    {
+      "file": "pair-60s.jpg",
+      "sha256": "07ad68e4f53d2875f07a51eac29225ea14cf332c86cca685ca85e8646d6285fe",
+      "size": 99911
+    },
+    {
+      "file": "pair-40s.jpg",
+      "sha256": "3dd9ec2d80426527e9fa12b6e38bca2f712fe3fcfa7d52e609db8c6d5dd7d961",
+      "size": 60364
+    },
+    {
+      "file": "pair-93s.jpg",
+      "sha256": "e39908461f5b0a6b770d6e8fa261b81e2b276357fd967f425ad3b7c92b9bb877",
+      "size": 119311
+    },
+    {
+      "file": "pair-51s.jpg",
+      "sha256": "9cdba37c3d3f65bbcc582fd2a22b3b2063e74b1c494824c047dea5b02d075a28",
+      "size": 81960
+    },
+    {
+      "file": "pair-109s.jpg",
+      "sha256": "a38e61702b6de0066fcc64dd3e1d67cbcbbfe2dc3f003b9998c596290e3ea59c",
+      "size": 85627
+    },
+    {
+      "file": "pair-4s.jpg",
+      "sha256": "d228c26f2c5c683b133cd9b2cc34cd7c66fad6f17d44ed0206887030a86fccd8",
+      "size": 111979
+    },
+    {
+      "file": "pair-8s.jpg",
+      "sha256": "a0c5afe0ba9983d0c9ea4a0c14ecc0d14d0c00bccd539f4880401e0f5c2d3c74",
+      "size": 95449
+    }
+  ]
+}
