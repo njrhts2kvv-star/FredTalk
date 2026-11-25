@@ -82,7 +82,6 @@ def main():
                 'selectedV2': 'skills/fred-remake/assets/preferred-motion/sources/previews-v2',
                 'selectedV2Runtime': 'skills/_runtime/remotion/preferred-motion-v2',
                 'primitives': 'skills/fred-remake/assets/content-motion',
-                'cloudSkill': 'skills/cloud-render',
                 'inventory': 'assets/episode-code-inventory.json',
                 'immutable': True, 'uniqueStoredBlobs': len(list(pool.iterdir())),
                 'selectionMeaning': 'All approved choices are optional tools for matching narration; selection does not prescribe one template.'}

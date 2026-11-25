@@ -85,20 +85,18 @@ python3 $K sheet <工程> T22a-PlanTimeline --props long.json --tag long   # 长
 - **改到什么程度**：发现问题就改，再出图再看，直到达到 T05c 的水准。
 - **lint 管不到的**：好不好看、动作是否成立，只能看画面判断。
 
-### 5. 云端渲染
+### 5. 渲染
 
 ```bash
 python3 $K cloud-script <工程>            # 生成 cloud/render-all.sh，组件 ID 写死在脚本里
 ```
 
-- **上传和下载**：按 [cloud-render](../../cloud-render/SKILL.md) 的流程打快照、上传、`npm ci`，再运行 `cloud/render-all.sh`。规格是 1080p60、H.264 CRF15、带音效。
-- **下载后核对**：
-  - 哈希一致；
+- **渲染**：在工程目录 `npm ci` 后运行 `cloud/render-all.sh`，逐条渲染。规格是 1080p60、H.264 CRF15、带音效。
+- **渲完核对**：
   - 完整解码无报错；
   - 帧数和规格正确；
   - 抽帧确认字体正确加载。
 - **2026-10-12 实际踩过的坑**：首次渲染前要先跑 `npx remotion browser ensure`，否则浏览器下载日志会混进输出。生成的脚本已经处理了。
-- **用完就关**：渲染完按 cloud-render 的规则关机，不让服务器空转。
 
 ### 6. 交 Fred 挑选
 

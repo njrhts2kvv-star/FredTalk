@@ -15,11 +15,11 @@ FPS = T['fps']; CH = V / 'out/chunks'; OUT = V / 'out'
 FINAL = (V / C['finalVideo']).resolve()
 import os
 SKILL = pathlib.Path(os.environ.get('FRED_TOOLS_ROOT', '/absolute/fredtalk'))   # 正式工作目录
-# 音效轨用冻结的 render/stage（与云端画面块同一份代码）；没有冻结时才用工作区 src
+# 音效轨用冻结的 render/stage（与画面块同一份代码）；没有冻结时才用工作区 src
 ENTRY = 'render/stage/src/index.tsx' if (V / 'render/stage/src/index.tsx').exists() else 'src/index.tsx'
 run = lambda *a, **k: subprocess.run(a, check=True, **k)
 
-# 块的时间基必须一致（云端块 1/90000）；不一致的先重封装再拼
+# 块的时间基必须一致（分块 1/90000）；不一致的先重封装再拼
 order = []
 sys.path.insert(0, str(V / 'render'))
 from plan import chunks   # 与 plan.py 同一切块规则（含重段小块）

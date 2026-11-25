@@ -34,11 +34,10 @@ python3 skills/fred-remotion-output/scripts/references.py --id preview-v2-talk-h
 | 新增 Library R 编号复刻 | 本 Skill `assets/reference-code/library-remakes-20260916/` | faithful/purple 准确版本、完整 public/字体与预览；隔离 runtime 4.0.515。按[新增复刻选型](library-remakes-reuse.md)查用途、真实接口、轨迹/截图依赖及待复看状态 |
 | Library 旧库最新 81 条 | 本 Skill `assets/reference-code/library-remakes-legacy81-20260929/` | 当前视频、逐条哈希、对应源码快照和素材；R005、R033、B072 为最新本地返修。按[本批索引](library-legacy81-confirmed.md)检索，复制所选项目的锁文件后适配 |
 | 可适配的基础能力 | `skills/fred-remake/assets/content-motion/` | SoftSurface、TranscriptSelection、BranchFocus、ExpandReturn、SlotReplace、FrostedFocus、ObjectHandoff 等；使用前读实际接口和验证状态 |
-| 云端执行能力 | `skills/cloud-render/` | 复用 snapshot、render、guard、verify 与环境说明；不保存凭据或复制另一套渲染器 |
 
 完整 public 保守保存以覆盖动态资源名，部分资源服务未选镜头，不声称最小包；未选分支不会因依赖保存而变成已认可方案。图片、音频和旧文案是准确参考重建所需的示例内容，不是新一期的默认素材。
 
-源码与素材按 hash 去重为项目内实体硬链接。它们是只读基线；适配时 `copy` 到本期，不能写回硬链接 inode。新片只复制实际选用的代码与媒体，不把整个公共依赖库上传云端。
+源码与素材按 hash 去重为项目内实体硬链接。它们是只读基线；适配时 `copy` 到本期，不能写回硬链接 inode。新片只复制实际选用的代码与媒体，不复制整个公共依赖库。
 
 ## 版本与实际调用边界
 

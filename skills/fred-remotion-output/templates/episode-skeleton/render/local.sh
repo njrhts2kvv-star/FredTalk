@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 本机 4K60 补渲指定块（同 cloud.sh 参数；返修少量块时比开云端快），用法：bash render/local.sh S07_0-383 ...
+# 本机 4K60 渲染指定块（块名见 python3 render/plan.py），用法：bash render/local.sh S07_0-383 ...
 set -uo pipefail
 V="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"; cd "$V"
 PRIV=$(mktemp -d); export TMPDIR="$PRIV/"; trap 'rm -rf "$PRIV"' EXIT   # 120 期：本次渲染独占临时目录，结束整个删掉（打包不攒在系统临时目录，也不误删别的进程的）

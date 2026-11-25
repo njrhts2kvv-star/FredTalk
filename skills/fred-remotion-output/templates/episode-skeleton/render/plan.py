@@ -1,4 +1,4 @@
-"""分块计划（114 v2 定型）。每段切成 ≤CHUNK 帧的块；按“最长处理时间优先”分到各台服务器的渲染线。
+"""分块计划（114 v2 定型）。每段切成 ≤CHUNK 帧的块，供 render/local.sh 逐块渲染、final.py 拼接。
   python3 render/plan.py S07          # 生成 plan.json，跳过 S07（还在返修的段）
   python3 render/plan.py --only S07   # 只打印 S07 的块（补渲用）
   python3 render/plan.py --status     # 已拉回块数 / 总块数
@@ -9,7 +9,6 @@ T = json.loads((V / 'src/timing.json').read_text())
 C = json.loads((V / 'episode.json').read_text())
 CHUNK = 420                                   # 4K60 每块 ≤420 帧：单块 5–10 分钟，卡死时损失小
 HEAVY = C.get('heavySegments', {})            # 录屏/长图/视频多的段更重
-CL = C['cloud']
 
 HEAVY_CHUNK = 180                             # 116：带 4K 视频素材的重段一块 365 帧会超过 15 分钟超时，权重 ≥1.5 的段按 180 帧切
 
@@ -31,15 +30,9 @@ if __name__ == '__main__':
     if args and args[0] == '--status':
         have = {f.stem for f in (V / 'out/chunks').glob('*.mp4') if not f.stem.endswith('.tmp')}
         allc = all_chunks(); missing = [f'{s}_{a}-{b}' for s, a, b in allc if f'{s}_{a}-{b}' not in have]
-        print(f'已拉回 {len(allc) - len(missing)}/{len(allc)} 块'); print('缺：', ' '.join(missing) or '无')
+        print(f'已渲好 {len(allc) - len(missing)}/{len(allc)} 块'); print('缺：', ' '.join(missing) or '无')
         sys.exit()
     skip = set(args)
-    jobs = sorted([c for c in all_chunks() if c[0] not in skip], key=lambda c: -(c[2] - c[1] + 1) * HEAVY.get(c[0], 1))
-    lanes = {s: [[] for _ in range(n)] for s, n in CL['lanes'].items()}
-    load = {(s, i): 0.0 for s, n in CL['lanes'].items() for i in range(n)}
-    for c in jobs:                            # 最长处理时间优先（LPT）：每块放到完成最早的线
-        w = (c[2] - c[1] + 1) * HEAVY.get(c[0], 1)
-        s, i = min(load, key=lambda k: load[k] + w / CL['speed'][k[0]])
-        lanes[s][i].append(list(c)); load[(s, i)] += w / CL['speed'][s]
-    (V / 'render/plan.json').write_text(json.dumps({'chunk': CHUNK, 'skipped': sorted(skip), 'lanes': lanes}, indent=1))
-    print(f'{len(jobs)} 块，跳过 {sorted(skip)}；各线负载：', {f'{s}{i}': round(v) for (s, i), v in load.items()})
+    jobs = [list(c) for c in all_chunks() if c[0] not in skip]
+    (V / 'render/plan.json').write_text(json.dumps({'chunk': CHUNK, 'skipped': sorted(skip), 'chunks': jobs}, indent=1))
+    print(f'{len(jobs)} 块，跳过 {sorted(skip)}；用 bash render/local.sh <块名> ... 渲染')

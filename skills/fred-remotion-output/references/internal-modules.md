@@ -10,7 +10,7 @@
 | 实现与渲染的共享阶段门禁 | [阶段入口](../../fredtalk-deck-motion-pipeline/references/preflight-stage-gates.md)及既有scripts | 保留源码、receipt与正式出片校验；不启动另一份整期时间线 |
 | 明确维护或复现既有Deck、逐页播放接入 | [Deck专项编排资料](../../fredtalk-deck-motion-pipeline/SKILL.md) | 仅明确维护或复现既有Deck时读取；日常独立视频不进入其完整流程 |
 
-`正文组件`原来只是`body-text-motion-effects`的中文别名，不维护第二套资产。通用全局Remotion技术手册仍可服务其他工程，Fred项目制作由本主入口按需调用。`fred-remake`和`cloud-render`保留独立注册与职责，其原文件及执行流程不改。
+`正文组件`原来只是`body-text-motion-effects`的中文别名，不维护第二套资产。通用全局Remotion技术手册仍可服务其他工程，Fred项目制作由本主入口按需调用。复刻和云端执行保留独立注册与职责，其原文件及执行流程不改。
 
 ## 组件与视觉库使用
 

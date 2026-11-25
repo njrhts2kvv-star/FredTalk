@@ -13,7 +13,7 @@
 
 用户指定 ChatGPT Pro 时使用 Ego Lite 与已有登录态，发送前按现有方向门禁冻结最终 Prompt；实际点击创建图片并验证生成模式。生成结果按内容身份和 hash 核对，不按返回顺序猜页码。分镜图的合同与参考包按[分镜图探索与认可依赖](storyboard-image-workflow.md)执行；涉及 ChatGPT Pro 的触发、提示词、证据、会话记录和 Remotion 复刻，另按[ChatGPT Pro 分镜探索与 Remotion 复刻](chatgpt-pro-storyboard-replication.md)执行。`fred-deck-image-generation` 已于 2026-10-02 退役，不再调用该入口；独立视频不继承 Deck 点击/翻页外观。
 
-人物 B-roll、视频 Prompt 与生成执行统一从 `skills/fred-broll-generation/SKILL.md` 进入；默认 LibTV 路线，H3 仅在用户点名时使用该入口的可选平台参考。需要转成 Remotion 时，保留实际视频、中间动作、对象身份、首尾与声音映射，按 `fred-remake/references/h3-handoff.md` 交接。字体、换行、载体缺失和蒙版残点优先在代码中修。
+人物 B-roll、视频 Prompt 与生成执行统一从 `skills/fred-broll-generation/SKILL.md` 进入；具体生成平台由该入口和用户决定。需要转成 Remotion 时，保留实际视频、中间动作、对象身份、首尾与声音映射，按 `fred-remake/references/h3-handoff.md` 交接。字体、换行、载体缺失和蒙版残点优先在代码中修。
 
 ## 多方案静态探索
 

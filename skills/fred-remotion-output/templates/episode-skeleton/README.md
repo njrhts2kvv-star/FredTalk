@@ -6,18 +6,14 @@
 
 | 文件 | 作用 |
 |---|---|
-| `episode.example.json` | 本期配置：SRT、口播文件、分段（首末字幕序号）、固定过渡插入点、云端主机和线数、成片路径。复制成工程根目录的 `episode.json` 再改 |
+| `episode.example.json` | 本期配置：SRT、口播文件、分段（首末字幕序号）、固定过渡插入点、成片路径。复制成工程根目录的 `episode.json` 再改 |
 | `tools/build_timing.py` | 按 SRT 切段，生成 `src/timing.json`（全片唯一时间源）。段界取相邻两句的中点；插入段放在 `insert.cutSeconds`（那句话后的静音点） |
 | `src/lib/shell.tsx` | 段外壳：每段自动带口播切片和得意黑字幕。场景只写画面和音效；时间用 `cue(id, n)`（本段第 n 句起点）、`cueI(id, srt序号)`，不手填秒数。`getInputProps().noVoice` 只渲音效轨 |
 | `src/index.tsx` | 每段一个 Composition，外加 `<EP>-FULL` |
 | `src/components/handoff.ts` | 段间交接的共享几何：上一段末态 = 下一段首态，两段 import 同一个常量 |
-| `render/plan.py` | 分块计划：每块 ≤420 帧，`heavySegments` 权重 ≥1.5 的段 ≤180 帧；最长处理时间优先分到各渲染线 |
-| `render/cloud.sh` | 云端分块渲染：sync [host] / plan / run [host] / go / add / chunk / status / final；服务器台数读 `episode.json` 的 `cloud.hosts`（116 期两台各 8×2） |
-| `render/server-bootstrap.sh` | 新服务器装环境：Node 22.16.0、Remotion 4.0.515 运行时、无头 Chrome（已装的跳过） |
-| `render/local.sh` | 本机补渲几个返修块（返修少时比开云端快） |
+| `render/plan.py` | 分块计划：每块 ≤420 帧，`heavySegments` 权重 ≥1.5 的段 ≤180 帧 |
+| `render/local.sh` | 本机逐块渲染（整片或只补几个返修块） |
 | `render/final.py` | 拼画面（时间基统一 1/90000，可接封底）→ 渲音效轨（`REUSE_SFX=1` 可沿用）→ 拼口播轨 → 混音压峰 → 封装 → 加 BGM → 核对帧数和时长 |
-| `render/preview30.sh` + `remote-p30.sh` | 1080p30 预览：同步到一台服务器、打包一次、按段并行渲（默认 3 段 × 每段 3 并发、素材加载等 120 秒、失败重试一次），拉回 `out/p30/`；`ONLY="S02 S08"` 只重渲几段。远端目录读 `episode.json` 的 `cloud.dir` |
-| `render/assemble30.py` | 1080p30 预览成片：拼 `out/p30/` 各段（每段音频截到 frames/60，防止越拼越慢）→ 封底 → BGM → 响度检查，默认输出 `02_最终输出/<EP>-preview-1080p30.mp4` |
 | `render/loudness.py` | 响度检查：`final.py`、`assemble30.py` 出片后自动测一次，低于 -10 LUFS 只提示、不改文件（背景音乐规则不自动补偿增益）。需要补时手动 `python3 render/loudness.py <成片> --fix`：只改音轨，补前原片留 `out/old/`，复核真峰值 ≤ -1 dBTP，补增益记进 `.bgm.json` 的 `postGain`（120 期 4K 整片 -10.4，手动补到 -9.4） |
 | `render/bgm-plan.json` | BGM 计划：插入段静音、音乐不够长时的选段 |
 | `tools/stills.mjs` | 一次打包按 `段:秒,秒` 出关键帧；`SCALE=1` 全分辨率 |
@@ -32,26 +28,24 @@
 2. 写本期简报（`templates/episode-assembly-brief.md`）：每段“观众要看懂的变化”、组件来源、交接表。交接几何写进 `handoff.ts`。
 3. 写 `src/scenes/Sxx.tsx`（每段一个文件，第一行注释写动作来自哪个组件），在 `src/scenes/index.ts` 登记。
 4. 关键帧或预览 → 检查 → 返修（按 Fred 当次要求决定给不给他看关键帧）。
-5. 冻结一份 `render/stage/`（src、package.json、tsconfig），`bash render/cloud.sh go` 云端渲 4K60；返修段用 `add` 或 `local.sh` 补。
+5. 冻结一份 `render/stage/`（src、package.json、tsconfig），`python3 render/plan.py` 切块，`bash render/local.sh <块名> ...` 渲 4K60；返修段只补对应的块。
 6. `python3 render/final.py` 出成片（含 BGM），再按[整期编排](../../references/episode-assembly.md#12-交付前检查)第 12 节检查。
 7. `python3 tools/push_videos.py --video <成片> --app <review-app>` 推前端。
 
 ## 踩过的坑
 
-- 本机上传大文件会被断开：ssh/rsync 一律 `-o IPQoS=none`，rsync 加 `--partial` 循环续传（`cloud.sh` 已写好）。
-- `ssh` 不加 `-n` 会吞掉 `while read` 的块列表，渲染线只跑第一块。
 - 块会卡死：`timeout 900` + 失败自动重试一次 + `--bundle-cache=false`。
-- 渲染中改代码会让服务器打包到半截文件：先冻结 `render/stage/` 再同步。
+- 渲染中改代码会打包到半截文件：先冻结 `render/stage/` 再渲。
 - 4K 素材放 `public-4k/`（同名替换代理文件），替换后先确认版式一致。
 - 新版 ffprobe 行尾多一个逗号，核对帧数前先去掉（脚本已处理）。
 - 整片音频直接叠加会爆音：口播和音效分开渲，混音后过 `alimiter`（`final.py` 已处理）。
-- **时间基不一致会让画面“定住”**（116）：封底和手工拼回的块是 1/60000，云端块是 1/90000，`concat -c copy` 后帧数对、画面却被压成一瞬间。`final.py` 已自动统一并核对时长。
+- **时间基不一致会让画面“定住”**（116）：封底和手工拼回的块是 1/60000，分块渲出的是 1/90000，`concat -c copy` 后帧数对、画面却被压成一瞬间。`final.py` 已自动统一并核对时长。
 - **重段超时**（116）：带 4K 视频素材的段一块 365 帧超过 15 分钟，给它在 `heavySegments` 填 ≥1.5，按小块切。
 - **`public/` 里的软链接**指向归档盘时打包读不到（109 过渡素材），复制素材用 `cp -L`。
-- **服务器清理**保留 `~/fred-render/env.sh`、`work/`、`runtimes/`；磁盘低于约 10G 时 Chrome 会拒绝读视频素材。
-- **Remotion 打包缓存会撑满系统盘**（120 期 10-14）：脚本里直接调用 `bundle()`（`tools/stills.mjs`、`render30.mjs` 这类）会在系统临时目录（Node 的 `os.tmpdir()`，macOS 常见 `/var/folders/.../T/` 或 `/tmp`）留一份几百 MB 的 `remotion-webpack-bundle-*`，Remotion 不会替你删；`npx remotion render <entry.tsx>` 正常结束会自己清，但被 timeout/kill 打断时也会留下。三个分身反复出图一上午攒到 60GB，系统盘写满，连 shell 都跑不了。`tools/stills.mjs`、`render/final.py`、`render/local.sh` 和 `component_kit.py` 生成的云端脚本现在都已处理：`stills.mjs` 在 `finally` 里删掉自己的 `serveUrl`；`final.py`、`local.sh` 和 `component_kit.py` 的云端脚本给本次渲染一个独占的 `TMPDIR`，结束整个删掉——不按时间去扫公共临时目录，所以不会误删别的会话、分身正在用的打包（复审指出按修改时间清理在并行时会误删）。自己另写的渲染脚本（如 119/120 的 `tools/render30.mjs`）也要照做：`bundle()` 之后 `try { … } finally { fs.rmSync(serveUrl, { recursive: true, force: true }) }`。已经攒下的，确认没有渲染在跑后手动清：`find "$(node -e 'console.log(require("os").tmpdir())')/" "$(getconf DARWIN_USER_TEMP_DIR)" -maxdepth 1 \( -name 'remotion-webpack-bundle-*' -o -name 'react-motion-render*' \) -mmin +30 -exec rm -rf {} +`。
+- 磁盘低于约 10G 时 Chrome 会拒绝读视频素材。
+- **Remotion 打包缓存会撑满系统盘**（120 期 10-14）：脚本里直接调用 `bundle()`（`tools/stills.mjs`、`render30.mjs` 这类）会在系统临时目录（Node 的 `os.tmpdir()`，macOS 常见 `/var/folders/.../T/` 或 `/tmp`）留一份几百 MB 的 `remotion-webpack-bundle-*`，Remotion 不会替你删；`npx remotion render <entry.tsx>` 正常结束会自己清，但被 timeout/kill 打断时也会留下。三个分身反复出图一上午攒到 60GB，系统盘写满，连 shell 都跑不了。`tools/stills.mjs`、`render/final.py`、`render/local.sh` 和 `component_kit.py` 生成的批量渲染脚本现在都已处理：`stills.mjs` 在 `finally` 里删掉自己的 `serveUrl`；`final.py`、`local.sh` 和 `component_kit.py` 的批量渲染脚本给本次渲染一个独占的 `TMPDIR`，结束整个删掉——不按时间去扫公共临时目录，所以不会误删别的会话、分身正在用的打包（复审指出按修改时间清理在并行时会误删）。自己另写的渲染脚本（如 119/120 的 `tools/render30.mjs`）也要照做：`bundle()` 之后 `try { … } finally { fs.rmSync(serveUrl, { recursive: true, force: true }) }`。已经攒下的，确认没有渲染在跑后手动清：`find "$(node -e 'console.log(require("os").tmpdir())')/" "$(getconf DARWIN_USER_TEMP_DIR)" -maxdepth 1 \( -name 'remotion-webpack-bundle-*' -o -name 'react-motion-render*' \) -mmin +30 -exec rm -rf {} +`。
 - **多组并行写场景**：每组渲到自己的目录（`qc/self/<组>`），汇总目录只由主会话写；跨组交接对象导出绘制组件，不只导出坐标。
-- **固定插入和封底**：`episode.json` 的 `insert`（109 过渡，素材 `public/insert109/`）和 `outro`（Fred 封底，素材在 Skill 的 `assets/outro-local-only/`）。关键帧、1080p 预览和推前端时这两段都直接放进去（过渡声音 `assets/fixed-inserts/skill-library-v1/insert-voice-tts-doubao-117.wav`，封底声音用原声混音按正文响度补增益、BGM 在封底让位），不另外渲染，见整期编排第 7 节（Fred 10-14）。
+- **固定插入和封底**：`episode.json` 的 `insert`（109 过渡，素材 `public/insert109/`）和 `outro`（Fred 封底，素材在 Skill 的 `assets/outro-local-only/`）。关键帧、1080p 预览和推前端时这两段都直接放进去（过渡声音用固定的过渡人声，封底声音用原声混音按正文响度补增益、BGM 在封底让位），不另外渲染，见整期编排第 7 节（Fred 10-14）。
 
 ## 本期共享件（episode-kit）
 

@@ -144,26 +144,6 @@
  },
  "fullComposition": "EP114-FULL",
  "finalVideo": "../../../02_最终输出/114_Github-v3-4K60.mp4",
- "cloud": {
-  "dir": "~/fred-render/projects/ep114-v2",
-  "hosts": {
-   "A": "<用户>@<A 机地址>",
-   "B": "<用户>@<B 机地址>"
-  },
-  "nodeModules": {
-   "A": "~/fred-render/projects/new-components-20261012/node_modules",
-   "B": "~/fred-render/runtimes/rm515/node_modules"
-  },
-  "lanes": {
-   "A": 4,
-   "B": 8
-  },
-  "speed": {
-   "A": 1.0,
-   "B": 1.25
-  },
-  "note": "hosts 可以写任意多台，键名任意；真实地址和用户名见 cloud-render 私人连接资料，不写进模板；密码只用来装一次密钥，不写进任何文件"
- },
  "heavySegments": {
   "S08": 1.5,
   "S16": 1.5,

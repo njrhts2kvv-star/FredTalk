@@ -85,9 +85,6 @@ class IntegrityTests(unittest.TestCase):
             current_tools = [
                 'skills/fred-remake/SKILL.md', 'skills/fred-broll-generation/SKILL.md',
                 'skills/remotion-best-practices/SKILL.md',
-                'skills/cloud-render/SKILL.md', 'skills/cloud-render/scripts/snapshot.py',
-                'skills/cloud-render/scripts/render.mjs', 'skills/cloud-render/scripts/guard.py',
-                'skills/cloud-render/scripts/verify.py',
                 'skills/fredtalk-deck-motion-pipeline/scripts/run-stage-gate.mjs',
                 'skills/fredtalk-deck-motion-pipeline/scripts/validate-stage-gate.mjs',
                 'skills/fred-remake/scripts/query-preferred-motion.py',
@@ -103,10 +100,10 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(json.loads(passed.stdout)['status'], 'PASS')
 
             # Retiring an entry must not relax checks on current execution tools.
-            (root / 'skills/cloud-render/scripts/render.mjs').unlink()
+            (root / 'skills/fred-remake/scripts/query-preferred-motion.py').unlink()
             failed = subprocess.run(command, capture_output=True, text=True)
             self.assertNotEqual(failed.returncode, 0)
-            self.assertIn('Missing tool dependency: skills/cloud-render/scripts/render.mjs',
+            self.assertIn('Missing tool dependency: skills/fred-remake/scripts/query-preferred-motion.py',
                           json.loads(failed.stdout)['errors'])
 
     def test_display_labels_must_identify_one_reference(self):

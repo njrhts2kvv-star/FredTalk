@@ -188,9 +188,7 @@ def main():
             for source in binding['sourceCode']: check(root / source['path'], source['sha256'])
         required = [
             'skills/fred-remake/SKILL.md', 'skills/fred-broll-generation/SKILL.md',
-            'skills/remotion-best-practices/SKILL.md', 'skills/cloud-render/SKILL.md',
-            'skills/cloud-render/scripts/snapshot.py', 'skills/cloud-render/scripts/render.mjs',
-            'skills/cloud-render/scripts/guard.py', 'skills/cloud-render/scripts/verify.py',
+            'skills/remotion-best-practices/SKILL.md',
             'skills/fredtalk-deck-motion-pipeline/scripts/run-stage-gate.mjs',
             'skills/fredtalk-deck-motion-pipeline/scripts/validate-stage-gate.mjs',
             'skills/fred-remake/scripts/query-preferred-motion.py',

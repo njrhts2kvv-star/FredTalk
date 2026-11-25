@@ -62,9 +62,9 @@
 
 **证据举例**
 
-- 82期用户原话：“跟我的那个口播画面非常非常相关” 出处（按本仓库目录定位）
+- 82期用户原话：“跟我的那个口播画面非常非常相关” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:7>)
 
-- 82期用户原话：“明显有点缓慢，跟前面不一样” 出处（按本仓库目录定位）
+- 82期用户原话：“明显有点缓慢，跟前面不一样” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:11>)
 
 完整14条出处见该规则JSON或 `--kind rules --id F01 --full`。
 
@@ -95,9 +95,9 @@
 
 **证据举例**
 
-- 94期用户原话：“不要放简略的要点” 出处（按本仓库目录定位）
+- 94期用户原话：“不要放简略的要点” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep94-user-evidence.jsonl:6>)
 
-- 94期用户原话：“你要在我说到那句话的时候” 出处（按本仓库目录定位）
+- 94期用户原话：“你要在我说到那句话的时候” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep94-user-evidence.jsonl:8>)
 
 完整5条出处见该规则JSON或 `--kind rules --id F02 --full`。
 
@@ -128,9 +128,9 @@
 
 **证据举例**
 
-- 94期用户原话：“观众根本还没看清楚这两张图” 出处（按本仓库目录定位）
+- 94期用户原话：“观众根本还没看清楚这两张图” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep94-user-evidence.jsonl:8>)
 
-- 94期用户原话：“我提到了戏台、茶院等多个元素” 出处（按本仓库目录定位）
+- 94期用户原话：“我提到了戏台、茶院等多个元素” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep94-user-evidence.jsonl:13>)
 
 完整4条出处见该规则JSON或 `--kind rules --id F03 --full`。
 
@@ -164,9 +164,9 @@
 
 **证据举例**
 
-- 94期用户原话：“每轮次统一，但是可以交替替换” 出处（按本仓库目录定位）
+- 94期用户原话：“每轮次统一，但是可以交替替换” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep94-user-evidence.jsonl:14>)
 
-- 94期用户原话：“希望每一组的呈现形式都有所区别” 出处（按本仓库目录定位）
+- 94期用户原话：“希望每一组的呈现形式都有所区别” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep94-user-evidence.jsonl:13>)
 
 完整8条出处见该规则JSON或 `--kind rules --id F04 --full`。
 
@@ -201,9 +201,9 @@
 
 **证据举例**
 
-- 82期用户原话：“不是不让你使用毛玻璃” 出处（按本仓库目录定位）
+- 82期用户原话：“不是不让你使用毛玻璃” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:17>)
 
-- 82期用户原话：“只保留白底，保持有阴影” 出处（按本仓库目录定位）
+- 82期用户原话：“只保留白底，保持有阴影” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:27>)
 
 完整11条出处见该规则JSON或 `--kind rules --id F05 --full`。
 
@@ -240,9 +240,9 @@
 
 **证据举例**
 
-- 93期用户原话：“不是说全部统一” 出处（按本仓库目录定位）
+- 93期用户原话：“不是说全部统一” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:2>)
 
-- 93期用户原话：“电脑先小再大的效果” 出处（按本仓库目录定位）
+- 93期用户原话：“电脑先小再大的效果” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:7>)
 
 完整12条出处见该规则JSON或 `--kind rules --id F06 --full`。
 
@@ -268,7 +268,7 @@
 
 **证据举例**
 
-- 93期用户原话：“你后面的电脑往上挪了一下” 出处（按本仓库目录定位）
+- 93期用户原话：“你后面的电脑往上挪了一下” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:12>)
 
 
 
@@ -305,9 +305,9 @@
 
 **证据举例**
 
-- 93期用户原话：“我不是说一定要居中” 出处（按本仓库目录定位）
+- 93期用户原话：“我不是说一定要居中” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:9>)
 
-- 93期用户原话：“固定两套就 OK 了” 出处（按本仓库目录定位）
+- 93期用户原话：“固定两套就 OK 了” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:11>)
 
 完整20条出处见该规则JSON或 `--kind rules --id F08 --full`。
 
@@ -337,9 +337,9 @@
 
 **证据举例**
 
-- 93期用户原话：“黑胶囊加三条线” 出处（按本仓库目录定位）
+- 93期用户原话：“黑胶囊加三条线” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:7>)
 
-- 93期用户原话：“意义不明” 出处（按本仓库目录定位）
+- 93期用户原话：“意义不明” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:7>)
 
 完整7条出处见该规则JSON或 `--kind rules --id F09 --full`。
 
@@ -376,9 +376,9 @@
 
 **证据举例**
 
-- 87期用户原话：“上一部分的动画还没完全消失” 出处（按本仓库目录定位）
+- 87期用户原话：“上一部分的动画还没完全消失” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:1>)
 
-- 87期用户原话：“一个白色光条刷过去” 出处（按本仓库目录定位）
+- 87期用户原话：“一个白色光条刷过去” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:5>)
 
 完整15条出处见该规则JSON或 `--kind rules --id F10 --full`。
 
@@ -411,9 +411,9 @@
 
 **证据举例**
 
-- 82期用户原话：“客户要求飞书尽量用更多真实的视频或者图片” 出处（按本仓库目录定位）
+- 82期用户原话：“客户要求飞书尽量用更多真实的视频或者图片” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:25>)
 
-- 82期用户原话：“你还是截图为主” 出处（按本仓库目录定位）
+- 82期用户原话：“你还是截图为主” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:30>)
 
 完整8条出处见该规则JSON或 `--kind rules --id F11 --full`。
 
@@ -445,9 +445,9 @@
 
 **证据举例**
 
-- 93期用户原话：“所有的内容都在这个白底框里面弹出” 出处（按本仓库目录定位）
+- 93期用户原话：“所有的内容都在这个白底框里面弹出” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:4>)
 
-- 82期用户原话：“现在就一页静态很奇怪” 出处（按本仓库目录定位）
+- 82期用户原话：“现在就一页静态很奇怪” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:16>)
 
 完整11条出处见该规则JSON或 `--kind rules --id F12 --full`。
 
@@ -475,9 +475,9 @@
 
 **证据举例**
 
-- 93期用户原话：“用人物形象很好，但人物太小” 出处（按本仓库目录定位）
+- 93期用户原话：“用人物形象很好，但人物太小” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:7>)
 
-- 93期用户原话：“低头埋头埋了 2 秒钟” 出处（按本仓库目录定位）
+- 93期用户原话：“低头埋头埋了 2 秒钟” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep93-user-evidence.jsonl:11>)
 
 完整3条出处见该规则JSON或 `--kind rules --id F13 --full`。
 
@@ -509,9 +509,9 @@
 
 **证据举例**
 
-- 82期用户原话：“那个滚动音效不要用” 出处（按本仓库目录定位）
+- 82期用户原话：“那个滚动音效不要用” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:7>)
 
-- 87期用户原话：“现在里面的音效” 出处（按本仓库目录定位）
+- 87期用户原话：“现在里面的音效” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:9>)
 
 完整7条出处见该规则JSON或 `--kind rules --id F14 --full`。
 
@@ -550,9 +550,9 @@
 
 **证据举例**
 
-- 87期用户原话：“是带人物的那个视频” 出处（按本仓库目录定位）
+- 87期用户原话：“是带人物的那个视频” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:15>)
 
-- 87期用户原话：“第一段” 出处（按本仓库目录定位）
+- 87期用户原话：“第一段” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:14>)
 
 完整20条出处见该规则JSON或 `--kind rules --id F15 --full`。
 
@@ -592,9 +592,9 @@
 
 **证据举例**
 
-- 82期用户原话：“我只是喜欢这种动效，不能说严格无脑用” 出处（按本仓库目录定位）
+- 82期用户原话：“我只是喜欢这种动效，不能说严格无脑用” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:15>)
 
-- 82期用户原话：“还要你自己考虑新增一些” 出处（按本仓库目录定位）
+- 82期用户原话：“还要你自己考虑新增一些” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep82-user-evidence.jsonl:18>)
 
 完整19条出处见该规则JSON或 `--kind rules --id F16 --full`。
 
@@ -622,9 +622,9 @@
 
 **证据举例**
 
-- 87期助手技术诊断：“LegacyHandoff accidentally used primitives.ease (cubic smoothstep)” 出处（按本仓库目录定位）
+- 87期助手技术诊断：“LegacyHandoff accidentally used primitives.ease (cubic smoothstep)” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-native-parity-repair.md:5>)
 
-- 107期用户原话：“这有点闪帧” 出处（按本仓库目录定位）
+- 107期用户原话：“这有点闪帧” [出处](</private/tmp/fredtalk-pub/00_每期项目/107 期 Openai Dev Day/03_制作过程/retrospective-20260930/ep107-feedback-evidence.jsonl:51>)
 
 
 
@@ -654,9 +654,9 @@
 
 **证据举例**
 
-- 87期用户原话：“下面放对应的逐字稿” 出处（按本仓库目录定位）
+- 87期用户原话：“下面放对应的逐字稿” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:8>)
 
-- 87期用户原话：“连续的放在一起，不连续的不要放在一起” 出处（按本仓库目录定位）
+- 87期用户原话：“连续的放在一起，不连续的不要放在一起” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/history-feedback-20260913/ep87-user-evidence.jsonl:3>)
 
 完整10条出处见该规则JSON或 `--kind rules --id F18 --full`。
 
@@ -692,9 +692,9 @@
 
 **证据举例**
 
-- 95期用户原话：“默认沿用（推荐）” 出处（按本仓库目录定位）
+- 95期用户原话：“默认沿用（推荐）” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/micpro-quality-20260916/ep95-user-evidence.jsonl:14>)
 
-- 95期用户原话：“这两个都没有角标” 出处（按本仓库目录定位）
+- 95期用户原话：“这两个都没有角标” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/micpro-quality-20260916/ep95-user-evidence.jsonl:5>)
 
 完整10条出处见该规则JSON或 `--kind rules --id F19 --full`。
 
@@ -730,9 +730,9 @@
 
 **证据举例**
 
-- 95期用户原话：“大量的图片、视频的引用，竖版横版的” 出处（按本仓库目录定位）
+- 95期用户原话：“大量的图片、视频的引用，竖版横版的” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/micpro-quality-20260916/ep95-user-evidence.jsonl:13>)
 
-- 95期用户原话：“5s 内全部播完视频，可以加速” 出处（按本仓库目录定位）
+- 95期用户原话：“5s 内全部播完视频，可以加速” [出处](</private/tmp/fredtalk-pub/tools/fred-motion-picker/audits/micpro-quality-20260916/ep95-user-evidence.jsonl:9>)
 
 完整10条出处见该规则JSON或 `--kind rules --id F20 --full`。
 

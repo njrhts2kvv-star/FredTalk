@@ -147,7 +147,7 @@
 - **过渡插入段接下一段：末帧图压在最上层，跟着黑卡走、0.3 秒内淡出**：下一段首帧必须和过渡末帧（`media/insert-last.png`：白底大黑卡 + 伸出卡外的 Fred 人物）一模一样。这张图要画在下一段撑开的黑窗**之上**（最高层），约 0.3 秒内淡出（整图原地淡出即可，也可以跟着大黑卡的变换一起缩放移动），由同一张黑卡接成本段对象（这是“同一对象接走”，不是第 3 节禁止的整屏淡入淡出）。把它画在黑窗下面，接缝处会一下变成空黑卡、人物残在卡外——120、121 两期都犯过，单看首尾帧发现不了。参考写法：121 期 `ep121-v1/src/scenes/A-S02.tsx`（整图 zIndex 72 原地 0.04–0.36 秒淡出）；120 期 `ep120-v1/src/scenes/GroupA.tsx` 的 S02 开头（搜“接 INSERT 末帧”，跟着变换）。检查时逐帧看接缝后 0–0.5 秒（每 4 帧一张拼图）。
 - **结尾封底**（Fred 10-13，116 期要求合并）：正文“以上就是本期的内容”停稳后，接 111/112/116 期同一段封底（“OK 我是 Fred … 我们下期再见”，5.3 秒，画面自带字幕和角标，音频是原混音含音乐，只在本机）。素材在 `assets/outro-local-only/`（画面已统一成 1/90000 时间基，可直接拼接；音频含音乐，只在本机，不上传；来源见该目录 README）；骨架 `render/final.py` 读 `episode.json` 的 `outro` 字段自动接上，BGM 在封底区间让位。不另加字幕和角标。
 - **关键帧和 1080p 预览就带上过渡和封底**（Fred 10-14，119 期）：出关键帧、出 1080p 预览、推前端时，固定过渡和封底直接放进去，复用现成的画面和音频，不另外渲染、不另做新版本。119 期前端没有封底，Fred 以为漏了。
-  - **过渡**：画面沿用 109 过渡原片（骨架 `public/insert109/source.mp4`），声音用豆包 TTS 过渡人声 `assets/fixed-inserts/skill-library-v1/insert-voice-tts-doubao-117.wav`（6.03 秒，已对齐约 -9 LUFS，复制成 `public/insert109/source.wav`）。字幕用 `episode.json` 的 `insert.cues`（骨架 `episode.example.json` 的 `insert.cues`）。过渡人声是纯人声，BGM 不让位。
+  - **过渡**：画面沿用 109 过渡原片（骨架 `public/insert109/source.mp4`），声音用固定的过渡人声（6.03 秒，已对齐约 -9 LUFS，复制成 `public/insert109/source.wav`）。字幕用 `episode.json` 的 `insert.cues`（骨架 `episode.example.json` 的 `insert.cues`）。过渡人声是纯人声，BGM 不让位。
   - **封底**：画面 `assets/outro-local-only/fred-outro-4k60.mp4`；**声音用 Fred 原声封底混音** `assets/outro-local-only/fred-outro-mix-f32.wav`，不用 TTS 版（Fred 10-14：TTS 封底“比较别扭”，117/119 v2 用过的 TTS 封底作废）。原声混音约 -11.8 LUFS，按本期正文实测响度补增益后再用（119：+2.4 dB → 封底 -9.5、正文 -9.4 LUFS），处理后的文件放本期 `rec/outro-orig-matched.wav`，`episode.json` 的 `outro.audio` 指向它。原声混音自带音乐，`render/bgm-plan.json` 的 `muteRanges` 加一条 reason 含“封底”的区间（`final.py` 自动填起止，末端留 0.02 秒防超出片长）。
   - **怎么放进预览**：1080p 预览整片按段拼完后接封底（封底画面缩到 1920×1080、30fps、截 5.3 秒，声音用上面对齐后的原声）；推前端时 INSERT 照常作为一段，另加一段 OUTRO（关键帧取封底首、中、末帧，视频用这段 1080p 封底）。这两段 Fred 已认可，审看时默认不再提修改。
 
@@ -242,15 +242,11 @@ python3 skills/fred-remotion-output/scripts/readability_audit.py --dir <分段�
 7. **字幕、角标**：字幕和口播同步；角标显隐按第 7 节，接缝两侧一致。
 8. **平台安全**：“完全访问”、密钥、一次性码、“群聊/加群”。
 9. **前端**：用骨架的 `tools/push_videos.py` 把成片切段推进“逐段视频”页，段落起止和成片一致。
-10. 云服务器按 cloud-render 的“云实例开关机”在下载校验后关机；没关的（例如 Fred 要求保持开机），明确告诉 Fred 还在计费。
-11. **时长也要核对，不只核对帧数**（116 期）：外部片段（封底）和拆小再拼回的块，时间基是 1/60000，云端块是 1/90000，`concat -c copy` 会把它们压成一瞬间——帧数仍然对，画面却在那里“定住”（116 v1 2:58–3:02，Fred 看片时指出）。`final.py` 已统一成 90000 并核对时长；手工拼块时用 `-video_track_timescale 90000`，交付前检查 `时长 = 帧数 / 60`，并抽看被拼接处前后几秒在动。
+10. **时长也要核对，不只核对帧数**（116 期）：外部片段（封底）和拆小再拼回的块，时间基是 1/60000，分块渲出的是 1/90000，`concat -c copy` 会把它们压成一瞬间——帧数仍然对，画面却在那里“定住”（116 v1 2:58–3:02，Fred 看片时指出）。`final.py` 已统一成 90000 并核对时长；手工拼块时用 `-video_track_timescale 90000`，交付前检查 `时长 = 帧数 / 60`，并抽看被拼接处前后几秒在动。
 
-## 13. 云渲染的实际经验（116 期）
+## 13. 分块渲染的实际经验（116 期）
 
-- **重段切小块**：带 4K 视频素材的段（113/114 片段叠版本卡）一块 365 帧会超过 15 分钟超时，两台各试两次都失败。`episode.json` 的 `heavySegments` 权重 ≥ 1.5 的段，`plan.py` 自动按更小块切（约 180 帧）。
-- **多台服务器**：`episode.json` 的 `cloud.hosts` 可以写任意多台（键名任意）；`cloud.sh sync <host>` 单独同步一台。第二台中途加入时，让它从各线队尾反向领块，先拉回本地的那块另一台自动跳过。
-- **新服务器先装环境**：跑 `render/server-bootstrap.sh <user@host>`（装 Node 22.16.0 到 `~/fred-render/work/`、建 `~/fred-render/runtimes/rm515`、`remotion browser ensure`）。清理历史缓存时**不要删 `~/fred-render/work/`（Node 在里面）、`runtimes/`、`env.sh`**；116 期误删 `work/` 导致新开的块全部失败。磁盘低于约 10G 时 Chrome 会拒绝读视频素材，先清理再渲。
-- **清理云端和结束进程有边界**：118 期子任务在共享实例上删了别期项目的缓存，又按名字 `pkill rsync`，被系统标为“干扰其他工作负载”。规则见 cloud-render SKILL.md 的“清理和进程的边界”。
+- **重段切小块**：带 4K 视频素材的段一块 365 帧会超过 15 分钟超时。`episode.json` 的 `heavySegments` 权重 ≥ 1.5 的段，`plan.py` 自动按更小块切（约 180 帧）。磁盘低于约 10G 时 Chrome 会拒绝读视频素材，先清理再渲。
 - **改音频后审看页会报 409**（Manifest 已变化）：先跑 `init_review_app.py --update`；被门禁拦住就先修门禁报的问题，修不了就停下来告诉 Fred，由他决定是否临时手改 `review.json`。118 期主会话手改过一次，那是例外，不是做法。
 - **素材用实体文件**：`public/` 里指向归档盘的软链接在打包时读不到（109 过渡素材就是），复制时用 `cp -L`。
 - **系统盘被 Remotion 打包缓存写满**（120 期）：本机临时目录攒了 60GB `remotion-webpack-bundle-*`，连命令都跑不了。骨架脚本已改成用完即删（独占临时目录 / 删自己的 serveUrl），细节和手动清理命令见[整期骨架](../templates/episode-skeleton/README.md)“踩过的坑”。分身多、出图多的期，开工和交付前各看一眼 `df -h /`。

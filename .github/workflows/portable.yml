@@ -24,6 +24,7 @@ jobs:
       - run: python -m unittest discover -s tests
       - run: node tests/test_review_timeline.cjs
       - run: python scripts/check_public_text.py --pattern 'b[o]b' --pattern '秋[芝]' --pattern 'K[e]nny[ ]Wang' --pattern '/[U]sers/'
+      - run: python scripts/check_public_text.py --pattern 'c[l]oud-render' --pattern 'qwen-a[u]dio' --pattern 'd[a]shscope' --pattern '豆[包] ?TTS' --pattern 'tts-d[o]ubao' --pattern 'l[i]btv' --pattern '优[云]智算' --pattern 'r[u]npod' --pattern 'D[S]phere' --pattern 'server-b[o]otstrap'
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: python -m pip install -r skills/audio-subtitle-roughcut/requirements.txt
       - run: python -m unittest discover -s skills/audio-subtitle-roughcut/scripts -p 'test_*.py'
